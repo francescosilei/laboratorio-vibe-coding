@@ -1,0 +1,52 @@
+# Percorso di apprendimento del vibe coding
+
+Questo file riassume il piano concordato. All'inizio di ogni nuova sessione basta scrivere:
+**"Leggi PERCORSO.md e iniziamo il progetto N"**.
+
+## Chi sono (contesto per Claude)
+
+- Ingegnere delle telecomunicazioni con esperienza in aziende SaaS B2B: delivery, supporto, operations director di gruppi R&D. Non ho mai scritto codice.
+- Al momento sono in cerca di lavoro. La ricerca di lavoro (tracker delle offerte, analisi del fit, supporto alle candidature) è **già gestita** con Claude Cowork: non va duplicata.
+- Uso un telefono Android e un PC Windows. Conosco Excel, Google Sheets, Notion e Trello, e in passato ho fatto un sito WordPress.
+
+## Regole del laboratorio
+
+1. **Obiettivo didattico.** Tanti piccoli progetti, ognuno da 1–2 sessioni.
+2. **Carino e funzionante.** Conta il risultato, non serve capire nel dettaglio cosa c'è "sotto il cofano". Le spiegazioni vanno date in italiano semplice, solo quando servono.
+3. **Funziona su telefono e PC.** Ogni pagina deve essere comoda sia su Android sia su Windows.
+4. **Condivisibile con un link.** Chi lo riceve lo apre dal browser, senza registrazioni né installazioni. Ogni progetto viene pubblicato come Artifact su claude.ai.
+5. **Prima la scheda, poi il codice.** Si parte concordando cosa fa la prima versione e cosa si rimanda a dopo.
+6. **Credito.** Il credito è limitato: va usata una sessione nuova per ogni progetto, con richieste chiare e raggruppate. A fine progetto si controlla quanto si è speso.
+7. **Tutto nel repository.** Ogni progetto ha la sua cartella (`01-...`, `02-...`) e viene salvato su GitHub come copia di sicurezza.
+
+## I 4 progetti
+
+| # | Progetto | Cosa fa | Cosa imparo | Sessioni |
+|---|----------|---------|-------------|----------|
+| 1 | **Pagina professionale personale** | Una pagina curata con profilo, esperienze, cosa cerco e contatti, da linkare su LinkedIn o nelle email | Come si costruisce e si rende bella una pagina web, adatta a PC e telefono, e come si pubblica con un link | 1 |
+| 2 | **Respirazione guidata** (per l'attività di psicologa di mia moglie) | Un cerchio animato che guida il respiro, con timer ed esercizi a scelta. Non raccoglie nessun dato | Interattività (animazioni, pulsanti, timer, suoni) e lavoro per un "cliente" reale, con raccolta di requisiti e feedback | 1–2 |
+| 3 | **"Chi porta cosa"** per famiglia e amici | Una lista condivisa via link: ognuno scrive nome e cosa porta, e tutti vedono gli aggiornamenti | Come un'app ricorda i dati e li condivide tra più persone, senza registrazioni | 1–2 |
+| 4 | **Simulatore di colloquio con l'AI** | Scelgo il ruolo, l'app mi fa domande da recruiter e alla fine mi dà un riscontro | Come inserire l'intelligenza artificiale dentro un'app | 2 |
+
+**Progressione:** pagina statica → interattività → dati condivisi → AI.
+
+## Note da verificare
+
+- **Progetto 4:** prima di costruirlo, chiarire chi paga le chiamate a Claude fatte dall'app quando qualcuno la usa.
+
+## Materiale da preparare per il progetto 1
+
+- Un breve profilo (2–3 righe)
+- Le esperienze principali (aziende, ruoli, anni, 1–2 risultati per ciascuna)
+- Il tipo di ruolo che cerco
+- I contatti da mostrare (per esempio LinkedIn ed email)
+- Una foto (facoltativa)
+
+Va bene anche copiare i testi dal profilo LinkedIn.
+
+## Stato
+
+- [ ] Progetto 1: Pagina professionale
+- [ ] Progetto 2: Respirazione guidata
+- [ ] Progetto 3: Chi porta cosa
+- [ ] Progetto 4: Simulatore di colloquio
