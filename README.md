@@ -1,0 +1,1 @@
+# laboratorio-vibe-coding
