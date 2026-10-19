@@ -97,6 +97,11 @@ header { display: flex; flex-direction: column; gap: 12px; padding-top: 8px; }
 footer { border-top: 1px solid var(--line); padding-top: 20px; display: flex; flex-direction: column; gap: 12px; color: var(--muted); font-size: .92rem; }
 footer .studio { color: var(--fg); font-weight: 700; }
 .note { font-size: .85rem; }
+.contacts { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.contacts li { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; min-width: 0; }
+.contacts span { min-width: 5.5em; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; }
+.contacts a { color: var(--accent); font-weight: 700; overflow-wrap: anywhere; }
+.copy { border: 2px solid var(--line); background: var(--surface); border-radius: 999px; padding: 6px 14px; font-weight: 700; font-size: .85rem; min-height: 36px; }
 </style>
 
 <div class="wrap">
@@ -149,8 +154,11 @@ footer .studio { color: var(--fg); font-weight: 700; }
   </section>
 
   <footer>
-    <p class="studio">Nome e contatti dello studio</p>
-    <p>Qui compariranno il nome dello studio, l'indirizzo e i recapiti per prenotare un incontro.</p>
+    <p class="studio">Per informazioni o per prenotare un incontro</p>
+    <ul class="contacts">
+      <li><span>Email</span> <a href="mailto:chiaradiorio85@gmail.com" id="c-mail">chiaradiorio85@gmail.com</a> <button class="copy" type="button" data-copy="chiaradiorio85@gmail.com">Copia</button></li>
+      <li><span>Telefono</span> <a href="tel:+393493267406" id="c-tel">349 326 7406</a> <button class="copy" type="button" data-copy="3493267406">Copia</button></li>
+    </ul>
     <p class="note">Questi esercizi sono un aiuto per rilassarsi e non sostituiscono un percorso con un professionista. Se durante l'esercizio ti senti a disagio o hai un capogiro, fermati e riprendi a respirare normalmente.</p>
   </footer>
 </div>
@@ -308,6 +316,13 @@ footer .studio { color: var(--fg); font-weight: 700; }
     if (!run) return;
     run.paused = !run.paused; $('pause').textContent = run.paused ? 'Riprendi' : 'Pausa';
   };
+  Array.prototype.forEach.call(document.querySelectorAll('.copy'), function (b) {
+    b.onclick = function () {
+      var txt = b.getAttribute('data-copy');
+      var ok = function () { b.textContent = 'Copiato'; setTimeout(function () { b.textContent = 'Copia'; }, 1800); };
+      try { navigator.clipboard.writeText(txt).then(ok, function () { b.textContent = 'Seleziona e copia'; }); } catch (e) { b.textContent = 'Seleziona e copia'; }
+    };
+  });
   document.addEventListener('visibilitychange', function () { if (!document.hidden && run) lock(); });
 })();
 </script>
