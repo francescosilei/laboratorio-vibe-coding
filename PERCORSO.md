@@ -24,7 +24,7 @@ Questo file riassume il piano concordato. All'inizio di ogni nuova sessione bast
 | # | Progetto | Cosa fa | Cosa imparo | Sessioni |
 |---|----------|---------|-------------|----------|
 | 1 | **Pagina professionale personale** | Una pagina curata con profilo, esperienze, cosa cerco e contatti, da linkare su LinkedIn o nelle email | Come si costruisce e si rende bella una pagina web, adatta a PC e telefono, e come si pubblica con un link | 1 |
-| 2 | **Respirazione guidata** (per l'attività di psicologa di mia moglie) | Un cerchio animato che guida il respiro, con timer ed esercizi a scelta. Non raccoglie nessun dato | Interattività (animazioni, pulsanti, timer, suoni) e lavoro per un "cliente" reale, con raccolta di requisiti e feedback | 1–2 |
+| 2 | **Suite di benessere** (per l'attività di psicologa di mia moglie) | Un piccolo sito di strumenti per fermarsi e ritrovare calma: si parte da "Respira con me" (fatto, prima versione) e si aggiungono altri strumenti uno alla volta. Non raccoglie dati personali | Interattività (animazioni, pulsanti, timer, suoni), audio con la voce di mia moglie e lavoro per un "cliente" reale, con raccolta di requisiti e feedback | 1 per tappa |
 | 3 | **"Chi porta cosa"** per famiglia e amici | Una lista condivisa via link: ognuno scrive nome e cosa porta, e tutti vedono gli aggiornamenti | Come un'app ricorda i dati e li condivide tra più persone, senza registrazioni | 1–2 |
 | 4 | **Simulatore di colloquio con l'AI** | Scelgo il ruolo, l'app mi fa domande da recruiter e alla fine mi dà un riscontro | Come inserire l'intelligenza artificiale dentro un'app | 2 |
 
@@ -33,6 +33,20 @@ Questo file riassume il piano concordato. All'inizio di ogni nuova sessione bast
 ## Note da verificare
 
 - **Progetto 4:** prima di costruirlo, chiarire chi paga le chiamate a Claude fatte dall'app quando qualcuno la usa.
+
+## Progetto 2: tappe della suite
+
+Cartella: `02-respirazione-guidata/`. Un solo sito, un link per strumento, nessun account e nessun dato inviato: le risposte restano sul dispositivo. Una sessione nuova per ogni tappa.
+
+- [x] **Respira con me**: prima versione con 4 esercizi, timer, suono e vibrazione facoltativi, contatti in fondo
+- [ ] **Pagina iniziale "Un momento per te"**: tre domande (bisogno, tempo, come essere guidato) e pulsante "Prova il mio percorso"
+- [ ] **Torna al presente**: versione solo testo e timer (60 secondi e 5 minuti)
+- [ ] **Cassetta degli attrezzi**: scegli una situazione e ricevi una piccola attività
+- [ ] **Fai spazio ai pensieri**: diario guidato, risposte salvate solo sul dispositivo
+- [ ] **Voce di mia moglie**: registrazioni da agganciare agli esercizi (testi in `02-respirazione-guidata/testi-voce.md`)
+- Più avanti, con testi e audio di mia moglie: Come mi sento adesso, Accompagna il sonno, Parla a te stesso con gentilezza, Prima di una conversazione difficile
+
+Da decidere con mia moglie: numeri di aiuto da mostrare, nome da usare nell'intestazione, testi clinici da far rivedere a lei prima della pubblicazione. Il dominio personale è rimandato.
 
 ## Materiale da preparare per il progetto 1
 
@@ -47,6 +61,6 @@ Va bene anche copiare i testi dal profilo LinkedIn.
 ## Stato
 
 - [ ] Progetto 1: Pagina professionale
-- [ ] Progetto 2: Respirazione guidata
+- [ ] Progetto 2: Suite di benessere (a tappe)
 - [ ] Progetto 3: Chi porta cosa
 - [ ] Progetto 4: Simulatore di colloquio
