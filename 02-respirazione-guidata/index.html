@@ -15,6 +15,7 @@
   --accent-fg: #fffdf8;
   --leaf: #778f78;
   --halo: #cbd8c4;
+  --sun-a: #efd6ad; --sun-b: #e7c59a; --lf1: #a8b59a; --lf2: #778f78; --lf3: #d9e0ce; --dot: #fff7df;
   --font-display: Georgia, "Times New Roman", serif;
   --font-body: "Nunito Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
@@ -22,12 +23,14 @@
   :root:not([data-theme="light"]) {
     --bg: #16241c; --bg2: #121d17; --surface: #1f3128; --surface-2: #27402f; --fg: #e8f0e6; --muted: #a9bdad;
     --line: #34503f; --accent: #9cc2a3; --accent-fg: #12201a; --leaf: #6f9a7b; --halo: #2c4a37;
+    --sun-a: #b99b6a; --sun-b: #a07f52; --lf1: #5c7a63; --lf2: #3f6149; --lf3: #8fae96; --dot: #f3e6bd;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #16241c; --bg2: #121d17; --surface: #1f3128; --surface-2: #27402f; --fg: #e8f0e6; --muted: #a9bdad;
   --line: #34503f; --accent: #9cc2a3; --accent-fg: #12201a; --leaf: #6f9a7b; --halo: #2c4a37;
+  --sun-a: #b99b6a; --sun-b: #a07f52; --lf1: #5c7a63; --lf2: #3f6149; --lf3: #8fae96; --dot: #f3e6bd;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -38,6 +41,11 @@ body {
   padding-block: 24px 32px; min-height: 100vh;
 }
 .wrap { max-width: 640px; margin-inline: auto; display: flex; flex-direction: column; gap: 28px; }
+.page-top { position: relative; }
+.deco { position: absolute; top: 0; right: 0; width: 92px; height: auto; pointer-events: none; }
+.deco .s-sun { fill: url(#decoSun); } .deco .s-l1 { fill: var(--lf1); } .deco .s-l2 { fill: var(--lf2); } .deco .s-l3 { fill: var(--lf3); } .deco .s-dot { fill: var(--dot); } .deco .s-stem { stroke: var(--accent); stroke-width: 8; fill: none; }
+.page-top header { padding-right: 104px; min-height: 92px; }
+@media (max-width: 520px) { .deco { width: 64px; } .page-top header { padding-right: 76px; min-height: 64px; } }
 h1, h2 { font-family: var(--font-display); font-weight: 700; text-wrap: balance; margin: 0; line-height: 1.2; }
 h1 { font-size: clamp(2rem, 7vw, 2.8rem); }
 h2 { font-size: 1.25rem; }
@@ -155,7 +163,16 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
 @media (prefers-reduced-motion: reduce) { .meter .emo-orb { transition: none; } }
 </style>
 
-<div class="wrap">
+<div class="wrap page-top">
+  <svg class="deco" viewBox="1030 185 430 420" aria-hidden="true">
+    <defs><linearGradient id="decoSun" x2="0" y2="1"><stop offset="0" style="stop-color:var(--sun-a)"/><stop offset="1" style="stop-color:var(--sun-b)"/></linearGradient></defs>
+    <circle class="s-sun" cx="1215" cy="368" r="177"/>
+    <path class="s-l1" d="M1053 543c38-108 105-159 207-163 70-3 118 43 180 140-99 55-258 70-387 23Z"/>
+    <path class="s-l2" d="M1098 548c60-124 133-170 231-162 38 3 77 21 117 55-42 81-126 141-238 153-43 4-82-9-110-46Z"/>
+    <path class="s-stem" d="M1190 537c2-106 42-180 112-225"/>
+    <path class="s-l3" d="M1276 391c-40-45-84-46-113-11 41 30 76 34 113 11Zm34-49c7-52 38-81 79-74-6 44-32 68-79 74Zm-28 98c43-39 84-38 109-2-44 26-77 27-109 2Z"/>
+    <circle class="s-dot" cx="1208" cy="274" r="6"/><circle class="s-dot" cx="1283" cy="305" r="4"/>
+  </svg>
 
   <!-- HUB -->
   <section id="v-hub" class="wrap" style="gap:28px">
