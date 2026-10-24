@@ -1,42 +1,62 @@
 <title>Un momento per te</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap">
 <style>
-/* Layout: una colonna centrata, schermata di scelta e schermata dell'esercizio con il cerchio al centro */
+/* Layout: barra in alto, grande riquadro di apertura con illustrazione, griglia di schede; gli strumenti si aprono in una colonna centrata */
 :root {
-  --bg: #eef6f6;
-  --surface: #ffffff;
-  --surface-2: #e1eff0;
-  --fg: #12343b;
-  --muted: #4d6e74;
-  --line: #c6dcde;
-  --accent: #1f7a8c;
-  --accent-fg: #ffffff;
-  --leaf: #4f9d82;
-  --halo: #bfe3e0;
-  --font-display: "Young Serif", Georgia, serif;
+  --bg: #f5f3e9;
+  --bg2: #e9eee4;
+  --bar: #fbfaf6;
+  --surface: #fffefa;
+  --surface-2: #e6ece1;
+  --fg: #263d32;
+  --muted: #53675b;
+  --eyebrow: #607563;
+  --line: #d3ddcd;
+  --accent: #526d58;
+  --accent-fg: #fffdf8;
+  --leaf: #778f78;
+  --halo: #cbd8c4;
+  --shadow: 0 8px 24px rgba(64, 90, 71, .09);
+  --sun-a: #efd6ad; --sun-b: #e7c59a;
+  --lf1: #a8b59a; --lf2: #778f78; --lf3: #d9e0ce; --dot: #fff7df;
+  --ic1: #e9eee4; --ic2: #f0e7da; --ic3: #e7ebe8; --ic4: #ece9dc; --ic5: #f1e6e1; --ic6: #e3ebe6;
+  --font-display: Georgia, "Times New Roman", serif;
   --font-body: "Nunito Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0d2329; --surface: #14333b; --surface-2: #1b414a; --fg: #e3f2f2; --muted: #9bbcc0;
-    --line: #2a5560; --accent: #5bc0cf; --accent-fg: #082126; --leaf: #7bd0ac; --halo: #1f5560;
+    --bg: #16241c; --bg2: #121d17; --bar: #1b2b22; --surface: #1f3128; --surface-2: #27402f; --fg: #e8f0e6; --muted: #a9bdad; --eyebrow: #a9bdad;
+    --line: #34503f; --accent: #9cc2a3; --accent-fg: #12201a; --leaf: #6f9a7b; --halo: #2c4a37; --shadow: 0 0 0 1px #2d4636;
+    --sun-a: #b99b6a; --sun-b: #a07f52; --lf1: #5c7a63; --lf2: #3f6149; --lf3: #8fae96; --dot: #f3e6bd;
+    --ic1: #2a4333; --ic2: #44392b; --ic3: #2a403b; --ic4: #3a3f2c; --ic5: #43332f; --ic6: #29403a;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0d2329; --surface: #14333b; --surface-2: #1b414a; --fg: #e3f2f2; --muted: #9bbcc0;
-  --line: #2a5560; --accent: #5bc0cf; --accent-fg: #082126; --leaf: #7bd0ac; --halo: #1f5560;
+  --bg: #16241c; --bg2: #121d17; --bar: #1b2b22; --surface: #1f3128; --surface-2: #27402f; --fg: #e8f0e6; --muted: #a9bdad; --eyebrow: #a9bdad;
+  --line: #34503f; --accent: #9cc2a3; --accent-fg: #12201a; --leaf: #6f9a7b; --halo: #2c4a37; --shadow: 0 0 0 1px #2d4636;
+  --sun-a: #b99b6a; --sun-b: #a07f52; --lf1: #5c7a63; --lf2: #3f6149; --lf3: #8fae96; --dot: #f3e6bd;
+  --ic1: #2a4333; --ic2: #44392b; --ic3: #2a403b; --ic4: #3a3f2c; --ic5: #43332f; --ic6: #29403a;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body {
-  background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 17px; line-height: 1.55;
-  padding-inline: max(16px, env(safe-area-inset-left, 0px)) max(16px, env(safe-area-inset-right, 0px));
-  padding-block: 24px 32px; min-height: 100vh;
+  background: var(--bg); background-image: linear-gradient(180deg, var(--bg), var(--bg2)); background-attachment: fixed;
+  color: var(--fg); font-family: var(--font-body); font-size: 17px; line-height: 1.55; margin: 0; padding: 0; min-height: 100vh;
 }
+.gut { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.topbar { background: var(--bar); }
+.bar-in { max-width: 1100px; margin-inline: auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 4px 20px; padding-block: 10px; }
+.brand { display: flex; align-items: center; gap: 12px; background: none; border: 0; padding: 4px 0; min-height: 44px; font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; color: var(--fg); }
+.brand svg { width: 38px; height: 38px; flex: none; }
+.navlinks { display: flex; gap: 8px 20px; }
+.navlink { background: none; border: 0; color: var(--muted); font-size: .95rem; min-height: 44px; padding: 0 4px; }
+.navlink:hover { color: var(--fg); }
+.page { max-width: 1100px; margin-inline: auto; padding-block: 28px 48px; display: flex; flex-direction: column; gap: 32px; }
+.page > :not(#v-hub) { width: 100%; max-width: 640px; margin-inline: auto; }
 .wrap { max-width: 640px; margin-inline: auto; display: flex; flex-direction: column; gap: 28px; }
-h1, h2 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; margin: 0; line-height: 1.2; }
+h1, h2 { font-family: var(--font-display); font-weight: 700; text-wrap: balance; margin: 0; line-height: 1.2; }
 h1 { font-size: clamp(2rem, 7vw, 2.8rem); }
 h2 { font-size: 1.25rem; }
 p { margin: 0; }
@@ -151,18 +171,81 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
 .scale-ends { display: flex; justify-content: space-between; color: var(--muted); font-size: .85rem; }
 .alert { background: var(--surface-2); border-left: 4px solid var(--accent); border-radius: 12px; padding: 12px 16px; }
 @media (prefers-reduced-motion: reduce) { .meter .emo-orb { transition: none; } }
+
+.hero { background: var(--surface-2); border-radius: 34px; padding: clamp(24px, 5vw, 56px); display: grid; grid-template-columns: 1.3fr .7fr; gap: 24px; align-items: center; }
+.hero-txt { display: flex; flex-direction: column; gap: 18px; align-items: flex-start; min-width: 0; }
+.eyebrow { font-size: .8rem; letter-spacing: .16em; font-weight: 700; color: var(--eyebrow); }
+.hero h1 { font-size: clamp(2rem, 4.2vw, 3.3rem); line-height: 1.15; }
+.lead { color: var(--muted); font-size: 1.2rem; max-width: 34ch; }
+.hero .primary { align-self: flex-start; }
+.check { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: .95rem; }
+.check svg { width: 22px; height: 22px; flex: none; }
+.art { width: 100%; max-width: 440px; height: auto; justify-self: center; }
+.art .s-sun { fill: url(#sunG); } .art .s-l1 { fill: var(--lf1); } .art .s-l2 { fill: var(--lf2); } .art .s-l3 { fill: var(--lf3); } .art .s-dot { fill: var(--dot); }
+.art .s-stem { stroke: var(--accent); stroke-width: 6; fill: none; } .art text { font-family: var(--font-display); font-style: italic; font-size: 18px; fill: var(--accent); }
+@media (max-width: 760px) { .hero { grid-template-columns: 1fr; border-radius: 28px; } .art { max-width: 260px; } }
+.sec { font-size: clamp(1.5rem, 3vw, 2.1rem); }
+.sec-sub { color: var(--muted); }
+.cards { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.tool { border: 0; box-shadow: var(--shadow); padding: 24px; gap: 14px; border-radius: 24px; min-width: 0; align-items: flex-start; }
+.tool .head { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.tool .ic { width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; flex: none; }
+.tool .ic svg { width: 56px; height: 56px; fill: none; stroke: var(--accent); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.tool .name { font-size: 1.3rem; font-weight: 700; line-height: 1.2; }
+.tool .go { margin-top: auto; padding-top: 4px; font-weight: 700; color: var(--accent); font-size: .95rem; }
+.ic1 { background: var(--ic1); } .ic2 { background: var(--ic2); } .ic3 { background: var(--ic3); } .ic4 { background: var(--ic4); } .ic5 { background: var(--ic5); } .ic6 { background: var(--ic6); }
+.pathbox { background: var(--surface); border-radius: 24px; padding: clamp(20px, 4vw, 32px); box-shadow: var(--shadow); width: 100%; max-width: 760px; margin-inline: auto; }
+.closing { text-align: center; color: var(--muted); font-size: .95rem; }
+.info { display: flex; flex-direction: column; gap: 14px; }
+.info ul { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 8px; }
 </style>
 
-<div class="wrap">
+<div class="topbar"><div class="bar-in gut">
+  <button class="brand" id="brand" type="button" aria-label="Torna alla pagina iniziale">
+    <svg viewBox="0 0 38 38" aria-hidden="true"><circle cx="19" cy="19" r="19" fill="var(--accent)"/><path d="M10 23c7-16 16-16 19-5-7-2-13 1-19 5Z" fill="var(--accent-fg)"/></svg>
+    <span>Un momento per te</span>
+  </button>
+  <nav class="navlinks" aria-label="Informazioni"><button class="navlink" id="nav-come" type="button">Come funziona</button><button class="navlink" id="nav-priv" type="button">Privacy</button></nav>
+</div></div>
+
+<div class="page gut">
 
   <!-- HUB -->
-  <section id="v-hub" class="wrap" style="gap:28px">
-    <header>
-      <h1>Un momento per te</h1>
-      <p class="intro">Piccoli strumenti per fermarti, ascoltarti e ritrovare il tuo spazio. Non servono account e non viene salvato niente che ti riguardi.</p>
-    </header>
+  <section id="v-hub" class="wrap" style="max-width:none;width:100%;gap:40px">
+    <section class="hero">
+      <div class="hero-txt">
+        <p class="eyebrow">UNO SPAZIO TUTTO TUO</p>
+        <h1>Puoi fare una pausa.<br>Anche solo per un respiro.</h1>
+        <p class="lead">Piccoli esercizi per ritrovare un po' di spazio, con calma e senza fretta.</p>
+        <button class="primary" id="hero-go" type="button">Fermiamoci un momento</button>
+        <p class="check"><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="10" fill="var(--leaf)"/><path d="M6 11l4 4 7-8" stroke="var(--accent-fg)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Nessun account. I tuoi appunti restano tuoi.</p>
+      </div>
+      <svg class="art" viewBox="1030 185 430 435" aria-hidden="true">
+        <defs><linearGradient id="sunG" x2="0" y2="1"><stop offset="0" style="stop-color:var(--sun-a)"/><stop offset="1" style="stop-color:var(--sun-b)"/></linearGradient></defs>
+        <circle class="s-sun" cx="1215" cy="368" r="177"/>
+        <path class="s-l1" d="M1053 543c38-108 105-159 207-163 70-3 118 43 180 140-99 55-258 70-387 23Z"/>
+        <path class="s-l2" d="M1098 548c60-124 133-170 231-162 38 3 77 21 117 55-42 81-126 141-238 153-43 4-82-9-110-46Z"/>
+        <path class="s-stem" d="M1190 537c2-106 42-180 112-225"/>
+        <path class="s-l3" d="M1276 391c-40-45-84-46-113-11 41 30 76 34 113 11Zm34-49c7-52 38-81 79-74-6 44-32 68-79 74Zm-28 98c43-39 84-38 109-2-44 26-77 27-109 2Z"/>
+        <circle class="s-dot" cx="1208" cy="274" r="6"/><circle class="s-dot" cx="1283" cy="305" r="4"/>
+        <text x="1130" y="604">un piccolo spazio per te</text>
+      </svg>
+    </section>
 
-    <section class="group" aria-labelledby="h-q">
+    <section class="group" id="inizio" aria-labelledby="h-t" style="gap:20px">
+      <div class="group" style="gap:4px"><h2 class="sec" id="h-t">Da dove vuoi cominciare?</h2><p class="sec-sub">Scegli quello che ti fa stare meglio adesso.</p></div>
+      <div class="cards">
+        <button class="tool" id="t-respira" type="button"><span class="head"><span class="ic ic1"><svg viewBox="0 0 56 56" aria-hidden="true"><path d="M17 30c7-12 18-12 22 0-7 10-15 10-22 0Z"/></svg></span><span class="name">Respira con me</span></span><span class="desc">Un ritmo semplice per accompagnare il respiro, da 1 a 10 minuti.</span><span class="go">Inizia quando vuoi →</span></button>
+        <button class="tool" id="t-presente" type="button"><span class="head"><span class="ic ic2"><svg viewBox="0 0 56 56" aria-hidden="true"><path d="M17 29h22m-18-6h14m-10 12h10"/></svg></span><span class="name">Torna al presente</span></span><span class="desc">Cinque cose da notare intorno a te, un passo alla volta.</span><span class="go">Fai una pausa →</span></button>
+        <button class="tool" id="t-pensieri" type="button"><span class="head"><span class="ic ic3"><svg viewBox="0 0 56 56" aria-hidden="true"><path d="M20 18h17l-1 19h-16Z M23 24h10m-10 5h10"/></svg></span><span class="name">Fai spazio ai pensieri</span></span><span class="desc">Un diario guidato, da tenere solo per te.</span><span class="go">Scrivi qualche riga →</span></button>
+        <button class="tool" id="t-cassetta" type="button"><span class="head"><span class="ic ic4"><svg viewBox="0 0 56 56" aria-hidden="true"><path d="M17 25h22v14H17Z M23 25v-3h10v3 M17 31h22"/></svg></span><span class="name">La mia piccola cassetta degli attrezzi</span></span><span class="desc">Scegli la situazione che stai vivendo e ricevi una piccola attività.</span><span class="go">Scegli cosa ti serve →</span></button>
+        <button class="tool" id="t-emozioni" type="button"><span class="head"><span class="ic ic5"><svg viewBox="0 0 56 56" aria-hidden="true"><path d="M28 39c-9-6-11-11-8-15 3-3 7-2 8 1 1-3 5-4 8-1 3 4 1 9-8 15Z"/></svg></span><span class="name">Come mi sento adesso</span></span><span class="desc">Dai un nome a ciò che provi e ricevi un'attività adatta.</span><span class="go">Fai il punto →</span></button>
+        <button class="tool" id="t-percorso" type="button"><span class="head"><span class="ic ic6"><svg viewBox="0 0 56 56" aria-hidden="true"><path d="M28 17v22M17 28h22"/></svg></span><span class="name">Non so da dove cominciare</span></span><span class="desc">Rispondi a tre domande e ti propongo un percorso.</span><span class="go">Trova il mio percorso →</span></button>
+      </div>
+      <p class="soon">In arrivo: audio per la sera e altro ancora.</p>
+    </section>
+
+    <section class="pathbox group" id="path" aria-labelledby="h-q" hidden>
       <h2 id="h-q">Trova il tuo percorso in tre domande</h2>
       <p class="label">1 · Di che cosa hai bisogno in questo momento?</p>
       <div class="chips" id="q-need"></div>
@@ -183,17 +266,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
       </div>
     </section>
 
-    <section class="group" aria-labelledby="h-t">
-      <h2 id="h-t">Oppure scegli uno strumento</h2>
-      <div class="tools">
-        <button class="tool" id="t-respira" type="button"><span class="name">Respira con me</span><span class="meta">Respirazione guidata · da 1 a 10 minuti</span><span class="desc">Un cerchio ti accompagna a inspirare ed espirare, con quattro tecniche tra cui scegliere.</span></button>
-        <button class="tool" id="t-presente" type="button"><span class="name">Torna al presente</span><span class="meta">Una pausa di consapevolezza · 1 o 5 minuti</span><span class="desc">Cinque piccoli passi per ritrovare il contatto con ciò che ti circonda, quando i pensieri corrono.</span></button>
-        <button class="tool" id="t-cassetta" type="button"><span class="name">La mia piccola cassetta degli attrezzi</span><span class="meta">Una pausa su misura · 2-5 minuti</span><span class="desc">Scegli la situazione che stai vivendo e ricevi una piccola attività da fare adesso.</span></button>
-        <button class="tool" id="t-pensieri" type="button"><span class="name">Fai spazio ai pensieri</span><span class="meta">Un diario guidato · 5-10 minuti</span><span class="desc">Quattro domande per mettere ordine quando la mente gira sempre intorno allo stesso problema.</span></button>
-        <button class="tool" id="t-emozioni" type="button"><span class="name">Come mi sento adesso</span><span class="meta">Un check-in emotivo · 2-5 minuti</span><span class="desc">Dai un nome a ciò che provi, indica quanto è intenso e ricevi un'attività adatta. Alla fine vedi cosa è cambiato.</span></button>
-      </div>
-      <p class="soon">In arrivo: audio per la sera e altro ancora.</p>
-    </section>
+    <p class="closing">Uno spazio privato, senza account. Puoi chiudere la pagina in qualsiasi momento.</p>
   </section>
 
   <!-- RESPIRA: scelta -->
@@ -411,6 +484,32 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
     </section>
   </main>
 
+  <section id="v-come" class="wrap" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header><h1>Come funziona</h1></header>
+    <div class="info">
+      <p>Un momento per te raccoglie piccoli strumenti da usare quando senti il bisogno di fermarti. Puoi scegliere tu da dove cominciare, oppure rispondere a tre domande e ricevere una proposta.</p>
+      <ul>
+        <li><strong>Respira con me:</strong> un cerchio animato guida il respiro, da 1 a 10 minuti.</li>
+        <li><strong>Torna al presente:</strong> cinque passi per portare l'attenzione a ciò che ti circonda.</li>
+        <li><strong>Fai spazio ai pensieri:</strong> quattro domande per mettere ordine nella mente.</li>
+        <li><strong>La mia piccola cassetta degli attrezzi:</strong> una piccola attività per la situazione che stai vivendo.</li>
+        <li><strong>Come mi sento adesso:</strong> dai un nome a ciò che provi e ricevi un'attività adatta.</li>
+      </ul>
+      <p>Puoi fermarti in qualsiasi momento. Questi strumenti non sono una cura e non sostituiscono un percorso con un professionista.</p>
+    </div>
+  </section>
+
+  <section id="v-privacy" class="wrap" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header><h1>Privacy</h1></header>
+    <div class="info">
+      <p>Non servono account e non ti viene chiesto nessun dato personale. Le risposte che scrivi nel diario, le emozioni che scegli e le note non vengono inviate a nessuno, nemmeno alla psicologa.</p>
+      <p>Alcune scelte (l'ultimo esercizio, la durata, le risposte del diario) restano nel browser di questo dispositivo, così le ritrovi quando torni. Il diario ha il pulsante «Cancella tutto». Se cancelli i dati del browser, scompaiono.</p>
+      <p>La pagina è ospitata sulla piattaforma claude.ai: come per ogni sito, chi la ospita può registrare che la pagina è stata aperta.</p>
+    </div>
+  </section>
+
   <footer>
     <p class="studio">Vuoi approfondire il tuo benessere psicologico?</p>
     <p>Questi strumenti offrono un momento di pausa e riflessione. Se desideri capire meglio ciò che stai vivendo, puoi contattarmi per informazioni sui percorsi psicologici.</p>
@@ -475,8 +574,8 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   var P_DUR = [{ s: 60, label: '1 minuto' }, { s: 300, label: '5 minuti' }];
 
   var $ = function (id) { return document.getElementById(id); };
-  var VIEWS = ['hub', 'respira', 'session', 'done', 'presente', 'psession', 'pdone', 'cassetta', 'pensieri', 'emozioni'];
-  function show(v) { VIEWS.forEach(function (k) { $('v-' + k).hidden = k !== v; }); window.scrollTo(0, 0); if (v === 'hub' && em) em.pending = false; updateCheck(); }
+  var VIEWS = ['hub', 'respira', 'session', 'done', 'presente', 'psession', 'pdone', 'cassetta', 'pensieri', 'emozioni', 'come', 'privacy'];
+  function show(v) { VIEWS.forEach(function (k) { $('v-' + k).hidden = k !== v; }); if (v !== 'session' && run) endRespira(); if (v !== 'psession' && pr) endPresente(); window.scrollTo(0, 0); if (v === 'hub' && em) em.pending = false; updateCheck(); }
   function byId(list, id) { return list.filter(function (x) { return x.id === id; })[0]; }
   function fmt(s) { s = Math.max(0, Math.ceil(s)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
   function chip(box, label, on, cb, off) {
@@ -534,6 +633,11 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   };
   $('r-other').onclick = function () { if (plan && plan.tool === 'presente') openPresente(); else openRespira(); };
   $('t-respira').onclick = function () { openRespira(); };
+  $('t-percorso').onclick = function () { $('path').hidden = false; $('path').scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' }); };
+  $('hero-go').onclick = function () { state.ex = byId(EXERCISES, 'coerenza'); state.minutes = 1; state.text = false; startRespira(); };
+  $('brand').onclick = function () { show('hub'); };
+  $('nav-come').onclick = function () { show('come'); };
+  $('nav-priv').onclick = function () { show('privacy'); };
   $('t-presente').onclick = function () { openPresente(); };
   Array.prototype.forEach.call(document.querySelectorAll('[data-go]'), function (b) { b.onclick = function () { show(b.getAttribute('data-go')); }; });
 
