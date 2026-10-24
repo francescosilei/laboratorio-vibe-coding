@@ -1,4 +1,4 @@
-<title>Respira con calma</title>
+<title>Un momento per te</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Young+Serif&display=swap">
 <style>
@@ -75,7 +75,7 @@ header { display: flex; flex-direction: column; gap: 12px; padding-top: 8px; }
 .ghost { background: transparent; border: 2px solid var(--line); border-radius: 999px; padding: 12px 24px; font-weight: 700; min-height: 48px; }
 
 /* Schermata esercizio */
-#session { display: flex; flex-direction: column; align-items: center; gap: 24px; text-align: center; padding-block: 8px; }
+.session { display: flex; flex-direction: column; align-items: center; gap: 24px; text-align: center; padding-block: 8px; }
 .stage { position: relative; width: min(78vw, 340px); aspect-ratio: 1; max-width: 100%; display: grid; place-items: center; }
 .halo, .orb { position: absolute; border-radius: 50%; }
 .halo { inset: 0; background: var(--halo); opacity: .55; }
@@ -91,8 +91,8 @@ header { display: flex; flex-direction: column; gap: 12px; padding-top: 8px; }
 .controls { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
 .reduce .orb { transform: none !important; transition: opacity .6s linear; }
 
-#done { text-align: center; align-items: center; display: flex; flex-direction: column; gap: 16px; padding-block: 32px; }
-#done p { color: var(--muted); max-width: 40ch; }
+.done { text-align: center; align-items: center; display: flex; flex-direction: column; gap: 16px; padding-block: 32px; }
+.done p { color: var(--muted); max-width: 40ch; }
 
 footer { border-top: 1px solid var(--line); padding-top: 20px; display: flex; flex-direction: column; gap: 12px; color: var(--muted); font-size: .92rem; }
 footer .studio { color: var(--fg); font-weight: 700; }
@@ -102,69 +102,183 @@ footer .studio { color: var(--fg); font-weight: 700; }
 .contacts span { min-width: 5.5em; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; }
 .contacts a { color: var(--accent); font-weight: 700; overflow-wrap: anywhere; }
 .copy { border: 2px solid var(--line); background: var(--surface); border-radius: 999px; padding: 6px 14px; font-weight: 700; font-size: .85rem; min-height: 36px; }
+
+.tools { display: grid; gap: 12px; grid-template-columns: 1fr; }
+.tool { text-align: left; width: 100%; background: var(--surface); border: 2px solid var(--line); border-radius: 18px; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px; }
+.tool .name { font-family: var(--font-display); font-size: 1.15rem; }
+.tool .meta { color: var(--accent); font-weight: 700; font-size: .85rem; }
+.tool .desc { color: var(--muted); font-size: .95rem; }
+.soon { color: var(--muted); font-size: .92rem; }
+.chip[disabled] { opacity: .55; cursor: not-allowed; }
+.panel { background: var(--surface-2); border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+.panel .big { font-family: var(--font-display); font-size: 1.4rem; line-height: 1.25; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; }
+.row .primary { align-self: auto; }
+.back { align-self: flex-start; background: none; border: 0; color: var(--accent); font-weight: 700; padding: 8px 0; min-height: 44px; }
+.textonly .halo, .textonly .orb { display: none; }
+.textonly .stage { background: var(--surface-2); border-radius: 50%; }
+.textonly .center { color: var(--fg); }
+.step-num { font-family: var(--font-display); font-size: 4.5rem; line-height: 1; color: var(--accent); }
+.step-text { font-size: 1.15rem; max-width: 34ch; min-height: 7em; }
+.step-more { color: var(--muted); max-width: 34ch; min-height: 3em; }
+.bar { width: min(100%, 360px); height: 8px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
+.bar > i { display: block; height: 100%; width: 0; background: var(--accent); }
+.dots { display: flex; gap: 8px; }
+.dots b { width: 10px; height: 10px; border-radius: 50%; background: var(--line); }
+.dots b.on { background: var(--accent); }
+.dots b.past { background: var(--leaf); }
+.sharelink { color: var(--accent); font-weight: 700; }
 </style>
 
 <div class="wrap">
-  <header>
-    <h1>Un momento per respirare</h1>
-    <p class="intro">Prenditi qualche minuto per te. Siediti comodo, lascia andare le spalle e segui il cerchio: ti accompagna lui, un respiro alla volta. Non c'è un modo giusto o sbagliato, vai al ritmo che senti tuo.</p>
-  </header>
 
-  <main id="home" class="wrap" style="gap:28px">
+  <!-- HUB -->
+  <section id="v-hub" class="wrap" style="gap:28px">
+    <header>
+      <h1>Un momento per te</h1>
+      <p class="intro">Piccoli strumenti per fermarti, ascoltarti e ritrovare il tuo spazio. Non servono account e non viene salvato niente che ti riguardi.</p>
+    </header>
+
+    <section class="group" aria-labelledby="h-q">
+      <h2 id="h-q">Trova il tuo percorso in tre domande</h2>
+      <p class="label">1 · Di che cosa hai bisogno in questo momento?</p>
+      <div class="chips" id="q-need"></div>
+      <p class="label">2 · Quanto tempo vuoi dedicarti?</p>
+      <div class="chips" id="q-time"></div>
+      <p class="label">3 · Come preferisci essere guidato?</p>
+      <div class="chips" id="q-guide"></div>
+      <button class="primary" id="try" type="button">Prova il mio percorso</button>
+      <div class="panel" id="result" hidden>
+        <p class="label">Ti propongo</p>
+        <p class="big" id="r-title"></p>
+        <p id="r-why"></p>
+        <div class="row">
+          <button class="primary" id="r-go" type="button">Comincia</button>
+          <button class="ghost" id="r-other" type="button">Scegli tu</button>
+        </div>
+        <p class="note">È una proposta basata su ciò che hai scelto, non una valutazione.</p>
+      </div>
+    </section>
+
+    <section class="group" aria-labelledby="h-t">
+      <h2 id="h-t">Oppure scegli uno strumento</h2>
+      <div class="tools">
+        <button class="tool" id="t-respira" type="button"><span class="name">Respira con me</span><span class="meta">Respirazione guidata · da 1 a 10 minuti</span><span class="desc">Un cerchio ti accompagna a inspirare ed espirare, con quattro tecniche tra cui scegliere.</span></button>
+        <button class="tool" id="t-presente" type="button"><span class="name">Torna al presente</span><span class="meta">Una pausa di consapevolezza · 1 o 5 minuti</span><span class="desc">Cinque piccoli passi per ritrovare il contatto con ciò che ti circonda, quando i pensieri corrono.</span></button>
+      </div>
+      <p class="soon">In arrivo: una cassetta degli attrezzi per le giornate difficili, un diario per fare spazio ai pensieri, audio per la sera e altro ancora.</p>
+    </section>
+  </section>
+
+  <!-- RESPIRA: scelta -->
+  <main id="v-respira" class="wrap" style="gap:28px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>Respira con me</h1>
+      <p class="intro">Siediti comodo, lascia andare le spalle e segui il cerchio: ti accompagna lui, un respiro alla volta. Non c'è un modo giusto o sbagliato, vai al ritmo che senti tuo.</p>
+    </header>
     <section class="group" aria-labelledby="l-ex">
       <h2 id="l-ex">Scegli un esercizio</h2>
       <div class="exercises" id="exercises"></div>
     </section>
-
     <section class="group" aria-labelledby="l-dur">
       <h2 id="l-dur">Quanto tempo hai?</h2>
       <div class="chips" id="durations"></div>
     </section>
-
     <section class="group" aria-labelledby="l-opt">
       <h2 id="l-opt">Come vuoi essere guidato</h2>
       <div class="toggles">
+        <label class="toggle"><input type="checkbox" id="opt-text"> Solo testo, senza cerchio</label>
         <label class="toggle"><input type="checkbox" id="opt-sound"> Suono dolce</label>
         <label class="toggle" id="vib-wrap" hidden><input type="checkbox" id="opt-vib"> Vibrazione</label>
       </div>
     </section>
-
     <button class="primary" id="start" type="button">Comincia</button>
   </main>
 
-  <section id="session" hidden aria-live="off">
-    <p class="label" id="s-title"></p>
-    <div class="stage" id="stage">
-      <div class="halo"></div>
-      <div class="orb" id="orb"></div>
-      <div class="center"><span class="phase" id="phase">Mettiti comodo</span><span class="count" id="count"></span></div>
-    </div>
-    <p class="hint" id="hint"></p>
-    <p class="remaining" id="remaining"></p>
-    <div class="controls">
-      <button class="ghost" id="pause" type="button">Pausa</button>
-      <button class="ghost" id="stop" type="button">Termina</button>
+  <!-- RESPIRA: esercizio -->
+  <section id="v-session" hidden>
+    <div class="session">
+      <p class="label" id="s-title"></p>
+      <div class="stage" id="stage">
+        <div class="halo"></div>
+        <div class="orb" id="orb"></div>
+        <div class="center"><span class="phase" id="phase">Mettiti comodo</span><span class="count" id="count"></span></div>
+      </div>
+      <p class="hint" id="hint"></p>
+      <p class="remaining" id="remaining"></p>
+      <div class="controls">
+        <button class="ghost" id="pause" type="button">Pausa</button>
+        <button class="ghost" id="stop" type="button">Termina</button>
+      </div>
     </div>
   </section>
 
-  <section id="done" hidden>
-    <h2>Ben fatto</h2>
-    <p>Hai dedicato questo tempo a te stesso. Prima di riprendere la giornata, senti come stai adesso. Puoi tornare qui ogni volta che ne hai bisogno.</p>
-    <button class="primary" id="again" type="button">Torna agli esercizi</button>
+  <section id="v-done" hidden>
+    <div class="done">
+      <h2>Ben fatto</h2>
+      <p>Hai dedicato questo tempo a te stesso. Prima di riprendere la giornata, senti come stai adesso. Puoi tornare qui ogni volta che ne hai bisogno.</p>
+      <button class="primary" id="again" type="button">Torna agli strumenti</button>
+    </div>
+  </section>
+
+  <!-- PRESENTE: scelta -->
+  <main id="v-presente" class="wrap" style="gap:28px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>Torna al presente</h1>
+      <p class="intro">Quando la mente corre, aiuta spostare l'attenzione su ciò che ti circonda. Cinque piccoli passi, uno alla volta: guarda, senti, ascolta. Non devi fare niente di perfetto.</p>
+    </header>
+    <section class="group" aria-labelledby="p-l">
+      <h2 id="p-l">Quanto tempo hai?</h2>
+      <div class="chips" id="p-dur"></div>
+    </section>
+    <button class="primary" id="p-start" type="button">Comincia</button>
+  </main>
+
+  <section id="v-psession" hidden>
+    <div class="session">
+      <p class="label" id="p-label"></p>
+      <div class="dots" id="p-dots" aria-hidden="true"></div>
+      <div class="step-num" id="p-num"></div>
+      <p class="step-text" id="p-text"></p>
+      <p class="step-more" id="p-more"></p>
+      <div class="bar" aria-hidden="true"><i id="p-bar"></i></div>
+      <p class="remaining" id="p-rem"></p>
+      <div class="controls">
+        <button class="ghost" id="p-pause" type="button">Pausa</button>
+        <button class="ghost" id="p-next" type="button">Avanti</button>
+        <button class="ghost" id="p-stop" type="button">Termina</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="v-pdone" hidden>
+    <div class="done">
+      <h2>Sei qui</h2>
+      <p>Hai riportato l'attenzione al presente. Prima di ripartire, fai ancora un respiro lento. Puoi ripetere l'esercizio quando vuoi, anche più volte al giorno.</p>
+      <div class="row">
+        <button class="primary" id="p-again" type="button">Torna agli strumenti</button>
+        <button class="ghost" id="p-breathe" type="button">Prova anche a respirare</button>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <p class="studio">Per informazioni o per prenotare un incontro</p>
+    <p class="studio">Vuoi approfondire il tuo benessere psicologico?</p>
+    <p>Questi strumenti offrono un momento di pausa e riflessione. Se desideri capire meglio ciò che stai vivendo, puoi contattarmi per informazioni sui percorsi psicologici.</p>
     <ul class="contacts">
       <li><span>Email</span> <a href="mailto:chiaradiorio85@gmail.com" id="c-mail">chiaradiorio85@gmail.com</a> <button class="copy" type="button" data-copy="chiaradiorio85@gmail.com">Copia</button></li>
       <li><span>Telefono</span> <a href="tel:+393493267406" id="c-tel">349 326 7406</a> <button class="copy" type="button" data-copy="3493267406">Copia</button></li>
     </ul>
-    <p class="note">Questi esercizi sono un aiuto per rilassarsi e non sostituiscono un percorso con un professionista. Se durante l'esercizio ti senti a disagio o hai un capogiro, fermati e riprendi a respirare normalmente.</p>
+    <p><a class="sharelink" id="share" target="_blank" rel="noopener" href="#">Condividi questi strumenti con WhatsApp</a></p>
+    <p class="note">Questi esercizi sono un aiuto per rilassarsi e non sostituiscono un percorso con un professionista. Se durante l'esercizio ti senti a disagio o hai un capogiro, fermati e riprendi a respirare normalmente. Se stai attraversando un momento di grave difficoltà o di pericolo, chiama il 112.</p>
   </footer>
 </div>
 
 <script>
 (function () {
+  var URL_PAGE = 'https://claude.ai/artifact/XPKvR1rFcYBjLea1W6Ng1q';
   var EXERCISES = [
     { id: 'quadrata', name: 'Respirazione quadrata', rhythm: '4 · 4 · 4 · 4',
       desc: 'Quattro tempi uguali: inspiri, trattieni, espiri, trattieni. Aiuta a ritrovare calma e concentrazione.',
@@ -183,28 +297,100 @@ footer .studio { color: var(--fg); font-weight: 700; }
       hint: 'Appoggia una mano sulla pancia: sentila gonfiarsi quando inspiri e sgonfiarsi quando espiri.',
       phases: [['in', 4], ['out', 6]] }
   ];
-  var DURATIONS = [2, 5, 10];
+  var DURATIONS = [1, 3, 5, 10];
   var LABEL = { in: 'Inspira', hold: 'Trattieni', hold2: 'Trattieni', out: 'Espira' };
-  var LEAD_IN = 4;
-  var MIN_SCALE = 0.55;
+  var LEAD_IN = 4, MIN_SCALE = 0.55;
+
+  var NEEDS = [
+    { id: 'agitato', label: 'Mi sento agitato e vorrei rallentare', ex: 'addominale',
+      why: 'Un\'espirazione un po\' più lunga dell\'inspirazione aiuta il corpo a rallentare.' },
+    { id: 'pensieri', label: 'Ho troppi pensieri per la testa', tool: 'presente',
+      why: 'Spostare l\'attenzione su ciò che vedi, senti e ascolti dà alla mente un punto d\'appoggio.' },
+    { id: 'concentrazione', label: 'Vorrei ritrovare la concentrazione', ex: 'quadrata',
+      why: 'Quattro tempi uguali danno un ritmo preciso su cui tenere l\'attenzione.' },
+    { id: 'sonno', label: 'Vorrei prepararmi al sonno', ex: '478',
+      why: 'L\'espirazione lunga distende il corpo, ed è adatta alla sera.' }
+  ];
+  var TIMES = [1, 3, 5, 10];
+  var GUIDES = [
+    { id: 'anim', label: 'Con animazioni e indicazioni visive' },
+    { id: 'text', label: 'Leggendo le istruzioni' },
+    { id: 'voice', label: 'Con la voce della psicologa (presto disponibile)', off: true }
+  ];
+
+  var STEPS = [
+    { n: 5, text: 'Guardati intorno e trova 5 cose che vedi. Senza fretta: un colore, una forma, un dettaglio che di solito non noti.', more: 'Continua a cercare: c\'è sempre qualcosa in più.' },
+    { n: 4, text: 'Senti 4 punti di contatto: i piedi sul pavimento, la schiena contro la sedia, le mani appoggiate, i vestiti sulla pelle.', more: 'Senti il peso del tuo corpo, sostenuto da ciò che c\'è sotto.' },
+    { n: 3, text: 'Ascolta 3 suoni. Uno vicino, uno lontano, e magari uno dentro di te, come il tuo respiro.', more: 'Lasciali arrivare, senza cercare di cambiarli.' },
+    { n: 2, text: 'Nota 2 odori, oppure immagina uno che ti piace. Va bene anche sentire solo l\'aria che entra dal naso.', more: 'Non c\'è niente da trovare: basta notare.' },
+    { n: 1, text: 'Fai un respiro lento e senti che sei qui, adesso, in questo posto. Va bene così.', more: 'Puoi tornare qui ogni volta che la mente si allontana.' }
+  ];
+  var P_DUR = [{ s: 60, label: '1 minuto' }, { s: 300, label: '5 minuti' }];
 
   var $ = function (id) { return document.getElementById(id); };
-  var state = { ex: EXERCISES[0], minutes: 5, sound: false, vib: false };
-  var run = null, wakeLock = null, audio = null;
+  var VIEWS = ['hub', 'respira', 'session', 'done', 'presente', 'psession', 'pdone'];
+  function show(v) { VIEWS.forEach(function (k) { $('v-' + k).hidden = k !== v; }); window.scrollTo(0, 0); }
+  function byId(list, id) { return list.filter(function (x) { return x.id === id; })[0]; }
+  function fmt(s) { s = Math.max(0, Math.ceil(s)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
+  function chip(box, label, on, cb, off) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'chip'; b.textContent = label; b.setAttribute('aria-pressed', !!on);
+    if (off) { b.disabled = true; } else { b.onclick = cb; }
+    box.appendChild(b);
+  }
+
+  var state = { ex: EXERCISES[0], minutes: 5, sound: false, vib: false, text: false,
+    need: 'agitato', time: 3, guide: 'anim', pdur: 60 };
+  try {
+    var sv = JSON.parse(localStorage.getItem('momento') || '{}');
+    if (byId(EXERCISES, sv.ex)) state.ex = byId(EXERCISES, sv.ex);
+    if (DURATIONS.indexOf(sv.minutes) >= 0) state.minutes = sv.minutes;
+    state.sound = !!sv.sound; state.vib = !!sv.vib; state.text = !!sv.text;
+  } catch (e) {}
+  function persist() {
+    try { localStorage.setItem('momento', JSON.stringify({ ex: state.ex.id, minutes: state.minutes, sound: state.sound, vib: state.vib, text: state.text })); } catch (e) {}
+  }
+
   var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (reduced) $('stage').classList.add('reduce');
 
-  try {
-    var saved = JSON.parse(localStorage.getItem('respira') || '{}');
-    var found = EXERCISES.filter(function (e) { return e.id === saved.ex; })[0];
-    if (found) state.ex = found;
-    if (DURATIONS.indexOf(saved.minutes) >= 0) state.minutes = saved.minutes;
-    state.sound = !!saved.sound; state.vib = !!saved.vib;
-  } catch (e) {}
-  function persist() {
-    try { localStorage.setItem('respira', JSON.stringify({ ex: state.ex.id, minutes: state.minutes, sound: state.sound, vib: state.vib })); } catch (e) {}
+  /* ---------- Hub ---------- */
+  function renderHub() {
+    var n = $('q-need'); n.innerHTML = '';
+    NEEDS.forEach(function (x) { chip(n, x.label, state.need === x.id, function () { state.need = x.id; renderHub(); }); });
+    var t = $('q-time'); t.innerHTML = '';
+    TIMES.forEach(function (m) { chip(t, m === 1 ? 'Un minuto' : m + ' minuti', state.time === m, function () { state.time = m; renderHub(); }); });
+    var g = $('q-guide'); g.innerHTML = '';
+    GUIDES.forEach(function (x) { chip(g, x.label, state.guide === x.id, function () { state.guide = x.id; renderHub(); }, x.off); });
+    $('result').hidden = true;
   }
+  var plan = null;
+  $('try').onclick = function () {
+    var need = byId(NEEDS, state.need);
+    if (need.tool === 'presente') {
+      var s = state.time <= 3 ? 60 : 300;
+      plan = { tool: 'presente', s: s };
+      $('r-title').textContent = 'Torna al presente · ' + (s === 60 ? '1 minuto' : '5 minuti');
+    } else {
+      var ex = byId(EXERCISES, need.ex);
+      plan = { tool: 'respira', ex: ex, minutes: state.time };
+      $('r-title').textContent = ex.name + ' · ' + (state.time === 1 ? '1 minuto' : state.time + ' minuti');
+    }
+    $('r-why').textContent = need.why + (state.guide === 'text' && plan.tool === 'respira' ? ' Seguirai le istruzioni scritte, senza cerchio.' : '');
+    $('result').hidden = false;
+    $('result').scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'center' });
+  };
+  $('r-go').onclick = function () {
+    if (!plan) return;
+    if (plan.tool === 'presente') { state.pdur = plan.s; startPresente(); }
+    else { state.ex = plan.ex; state.minutes = plan.minutes; state.text = state.guide === 'text'; persist(); startRespira(); }
+  };
+  $('r-other').onclick = function () { if (plan && plan.tool === 'presente') openPresente(); else openRespira(); };
+  $('t-respira').onclick = function () { openRespira(); };
+  $('t-presente').onclick = function () { openPresente(); };
+  Array.prototype.forEach.call(document.querySelectorAll('[data-go]'), function (b) { b.onclick = function () { show(b.getAttribute('data-go')); }; });
 
+  /* ---------- Respira ---------- */
   function renderChoices() {
     var box = $('exercises'); box.innerHTML = '';
     EXERCISES.forEach(function (ex) {
@@ -218,83 +404,61 @@ footer .studio { color: var(--fg); font-weight: 700; }
       box.appendChild(b);
     });
     var d = $('durations'); d.innerHTML = '';
-    DURATIONS.forEach(function (m) {
-      var b = document.createElement('button');
-      b.type = 'button'; b.className = 'chip'; b.textContent = m + ' minuti'; b.setAttribute('aria-pressed', m === state.minutes);
-      b.onclick = function () { state.minutes = m; persist(); renderChoices(); };
-      d.appendChild(b);
-    });
+    DURATIONS.forEach(function (m) { chip(d, m === 1 ? '1 minuto' : m + ' minuti', m === state.minutes, function () { state.minutes = m; persist(); renderChoices(); }); });
   }
-  renderChoices();
-
+  function openRespira() { renderChoices(); $('opt-text').checked = state.text; show('respira'); }
+  $('opt-text').onchange = function (e) { state.text = e.target.checked; persist(); };
   $('opt-sound').checked = state.sound;
   $('opt-sound').onchange = function (e) { state.sound = e.target.checked; persist(); };
   if (navigator.vibrate) {
-    $('vib-wrap').hidden = false;
-    $('opt-vib').checked = state.vib;
+    $('vib-wrap').hidden = false; $('opt-vib').checked = state.vib;
     $('opt-vib').onchange = function (e) { state.vib = e.target.checked; persist(); };
   } else { state.vib = false; }
 
+  var run = null, wakeLock = null, audio = null;
+  var FREQ = { in: 440, hold: 523, hold2: 523, out: 330 };
   function tone(freq) {
     if (!state.sound || !audio) return;
     try {
       var t = audio.currentTime, o = audio.createOscillator(), g = audio.createGain();
       o.type = 'sine'; o.frequency.value = freq; o.connect(g); g.connect(audio.destination);
       g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(0.12, t + 0.08);
-      g.gain.exponentialRampToValueAtTime(0.0001, t + 1.1);
-      o.start(t); o.stop(t + 1.2);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + 1.1); o.start(t); o.stop(t + 1.2);
     } catch (e) {}
   }
-  var FREQ = { in: 440, hold: 523, hold2: 523, out: 330 };
-  function buzz(kind) {
-    if (!state.vib || !navigator.vibrate) return;
-    navigator.vibrate(kind === 'out' ? [40, 60, 40] : 60);
-  }
-  function lock() {
-    try { if (navigator.wakeLock) navigator.wakeLock.request('screen').then(function (l) { wakeLock = l; }, function () {}); } catch (e) {}
-  }
+  function buzz(kind) { if (state.vib && navigator.vibrate) navigator.vibrate(kind === 'out' ? [40, 60, 40] : 60); }
+  function lock() { try { if (navigator.wakeLock) navigator.wakeLock.request('screen').then(function (l) { wakeLock = l; }, function () {}); } catch (e) {} }
   function unlock() { try { if (wakeLock) wakeLock.release(); } catch (e) {} wakeLock = null; }
-
-  function fmt(s) { s = Math.max(0, Math.ceil(s)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
-  function show(id) { ['home', 'session', 'done'].forEach(function (k) { $(k).hidden = k !== id; }); window.scrollTo(0, 0); }
-
-  function start() {
-    if (state.sound) {
-      try { audio = audio || new (window.AudioContext || window.webkitAudioContext)(); if (audio.state === 'suspended') audio.resume(); } catch (e) {}
-    }
-    var cycle = state.ex.phases.reduce(function (a, p) { return a + p[1]; }, 0);
-    run = { ex: state.ex, cycle: cycle, total: state.minutes * 60, elapsed: 0, last: performance.now(), paused: false, idx: -2, raf: 0 };
-    $('s-title').textContent = state.ex.name;
-    $('hint').textContent = state.ex.hint;
-    $('pause').textContent = 'Pausa';
-    show('session'); lock();
-    run.raf = requestAnimationFrame(tick);
-  }
-
-  function setOrb(scale, hold) {
+  function setOrb(scale) {
     if (reduced) { $('orb').style.opacity = String(0.35 + 0.65 * ((scale - MIN_SCALE) / (1 - MIN_SCALE))); return; }
     $('orb').style.transform = 'scale(' + scale.toFixed(4) + ')';
   }
   function ease(x) { return x * x * (3 - 2 * x); }
 
+  function startRespira() {
+    if (state.sound) { try { audio = audio || new (window.AudioContext || window.webkitAudioContext)(); if (audio.state === 'suspended') audio.resume(); } catch (e) {} }
+    var cycle = state.ex.phases.reduce(function (a, p) { return a + p[1]; }, 0);
+    run = { ex: state.ex, cycle: cycle, total: state.minutes * 60, elapsed: 0, last: performance.now(), paused: false, idx: -2, raf: 0 };
+    $('stage').classList.toggle('textonly', state.text);
+    $('s-title').textContent = state.ex.name; $('hint').textContent = state.ex.hint; $('pause').textContent = 'Pausa';
+    show('session'); lock(); run.raf = requestAnimationFrame(tick);
+  }
   function tick(now) {
     if (!run) return;
     var dt = (now - run.last) / 1000; run.last = now;
     if (!run.paused) run.elapsed += Math.min(dt, 0.25);
     var t = run.elapsed;
     if (t < LEAD_IN) {
-      $('phase').textContent = 'Mettiti comodo'; $('count').textContent = '';
-      setOrb(MIN_SCALE); $('remaining').textContent = fmt(run.total);
+      $('phase').textContent = 'Mettiti comodo'; $('count').textContent = ''; setOrb(MIN_SCALE); $('remaining').textContent = fmt(run.total);
     } else {
       var e = t - LEAD_IN;
       if (e >= run.total) { finish(); return; }
       var pos = e % run.cycle, acc = 0, i = 0, p;
       for (; i < run.ex.phases.length; i++) { p = run.ex.phases[i]; if (pos < acc + p[1]) break; acc += p[1]; }
       var inPhase = pos - acc, kind = p[0], dur = p[1];
-      var cycleNo = Math.floor(e / run.cycle), key = cycleNo * 10 + i;
+      var key = Math.floor(e / run.cycle) * 10 + i;
       if (key !== run.idx) { run.idx = key; tone(FREQ[kind]); buzz(kind); }
-      var f = ease(Math.min(1, inPhase / dur)), prev = run.ex.phases[(i + run.ex.phases.length - 1) % run.ex.phases.length][0];
-      var scale;
+      var f = ease(Math.min(1, inPhase / dur)), prev = run.ex.phases[(i + run.ex.phases.length - 1) % run.ex.phases.length][0], scale;
       if (kind === 'in') scale = MIN_SCALE + (1 - MIN_SCALE) * f;
       else if (kind === 'out') scale = 1 - (1 - MIN_SCALE) * f;
       else scale = prev === 'in' ? 1 : MIN_SCALE;
@@ -305,17 +469,54 @@ footer .studio { color: var(--fg); font-weight: 700; }
     }
     run.raf = requestAnimationFrame(tick);
   }
+  function endRespira() { if (run) cancelAnimationFrame(run.raf); run = null; unlock(); }
+  function finish() { endRespira(); tone(392); show('done'); }
+  $('start').onclick = startRespira;
+  $('stop').onclick = function () { endRespira(); show('respira'); };
+  $('again').onclick = function () { show('hub'); };
+  $('pause').onclick = function () { if (!run) return; run.paused = !run.paused; $('pause').textContent = run.paused ? 'Riprendi' : 'Pausa'; };
 
-  function end() { if (run) cancelAnimationFrame(run.raf); run = null; unlock(); }
-  function finish() { end(); tone(392); show('done'); }
+  /* ---------- Torna al presente ---------- */
+  function openPresente() {
+    var d = $('p-dur'); d.innerHTML = '';
+    P_DUR.forEach(function (x) { chip(d, x.label, state.pdur === x.s, function () { state.pdur = x.s; openPresente(); }); });
+    show('presente');
+  }
+  var pr = null;
+  function startPresente() {
+    var per = state.pdur / STEPS.length;
+    pr = { per: per, total: state.pdur, elapsed: 0, last: performance.now(), paused: false, step: -1, raf: 0 };
+    var dots = $('p-dots'); dots.innerHTML = '';
+    STEPS.forEach(function () { dots.appendChild(document.createElement('b')); });
+    $('p-label').textContent = 'Torna al presente · ' + (state.pdur === 60 ? '1 minuto' : '5 minuti');
+    $('p-pause').textContent = 'Pausa';
+    show('psession'); lock(); pr.raf = requestAnimationFrame(ptick);
+  }
+  function ptick(now) {
+    if (!pr) return;
+    var dt = (now - pr.last) / 1000; pr.last = now;
+    if (!pr.paused) pr.elapsed += Math.min(dt, 0.25);
+    if (pr.elapsed >= pr.total) { endPresente(); show('pdone'); return; }
+    var i = Math.min(STEPS.length - 1, Math.floor(pr.elapsed / pr.per)), inStep = pr.elapsed - i * pr.per;
+    if (i !== pr.step) {
+      pr.step = i;
+      $('p-num').textContent = STEPS[i].n; $('p-text').textContent = STEPS[i].text;
+      Array.prototype.forEach.call($('p-dots').children, function (b, k) { b.className = k < i ? 'past' : (k === i ? 'on' : ''); });
+    }
+    $('p-more').textContent = (pr.per >= 30 && inStep > pr.per * 0.45) ? STEPS[i].more : '';
+    $('p-bar').style.width = (100 * inStep / pr.per).toFixed(1) + '%';
+    $('p-rem').textContent = 'Mancano ' + fmt(pr.total - pr.elapsed);
+    pr.raf = requestAnimationFrame(ptick);
+  }
+  function endPresente() { if (pr) cancelAnimationFrame(pr.raf); pr = null; unlock(); }
+  $('p-start').onclick = startPresente;
+  $('p-stop').onclick = function () { endPresente(); show('presente'); };
+  $('p-pause').onclick = function () { if (!pr) return; pr.paused = !pr.paused; $('p-pause').textContent = pr.paused ? 'Riprendi' : 'Pausa'; };
+  $('p-next').onclick = function () { if (pr) pr.elapsed = Math.min(pr.total, (pr.step + 1) * pr.per + 0.001); };
+  $('p-again').onclick = function () { show('hub'); };
+  $('p-breathe').onclick = function () { openRespira(); };
 
-  $('start').onclick = start;
-  $('stop').onclick = function () { end(); show('home'); };
-  $('again').onclick = function () { show('home'); };
-  $('pause').onclick = function () {
-    if (!run) return;
-    run.paused = !run.paused; $('pause').textContent = run.paused ? 'Riprendi' : 'Pausa';
-  };
+  /* ---------- Contatti e condivisione ---------- */
   Array.prototype.forEach.call(document.querySelectorAll('.copy'), function (b) {
     b.onclick = function () {
       var txt = b.getAttribute('data-copy');
@@ -323,6 +524,11 @@ footer .studio { color: var(--fg); font-weight: 700; }
       try { navigator.clipboard.writeText(txt).then(ok, function () { b.textContent = 'Seleziona e copia'; }); } catch (e) { b.textContent = 'Seleziona e copia'; }
     };
   });
-  document.addEventListener('visibilitychange', function () { if (!document.hidden && run) lock(); });
+  $('share').href = 'https://wa.me/?text=' + encodeURIComponent('Un momento per te: piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio. ' + URL_PAGE);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden && (run || pr)) lock(); });
+
+  renderHub();
+  var h = (location.hash || '').replace('#', '');
+  if (h === 'respira') openRespira(); else if (h === 'presente') openPresente(); else show('hub');
 })();
 </script>

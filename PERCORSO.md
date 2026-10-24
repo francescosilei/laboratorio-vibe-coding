@@ -39,8 +39,8 @@ Questo file riassume il piano concordato. All'inizio di ogni nuova sessione bast
 Cartella: `02-respirazione-guidata/`. Un solo sito, un link per strumento, nessun account e nessun dato inviato: le risposte restano sul dispositivo. Una sessione nuova per ogni tappa.
 
 - [x] **Respira con me**: prima versione con 4 esercizi, timer, suono e vibrazione facoltativi, contatti in fondo
-- [ ] **Pagina iniziale "Un momento per te"**: tre domande (bisogno, tempo, come essere guidato) e pulsante "Prova il mio percorso"
-- [ ] **Torna al presente**: versione solo testo e timer (60 secondi e 5 minuti)
+- [x] **Pagina iniziale "Un momento per te"**: tre domande (bisogno, tempo, come essere guidato) e pulsante "Prova il mio percorso"
+- [x] **Torna al presente**: versione solo testo e timer (1 e 5 minuti), prima versione
 - [ ] **Cassetta degli attrezzi**: scegli una situazione e ricevi una piccola attività
 - [ ] **Fai spazio ai pensieri**: diario guidato, risposte salvate solo sul dispositivo
 - [ ] **Voce di mia moglie**: registrazioni da agganciare agli esercizi (testi in `02-respirazione-guidata/testi-voce.md`)
