@@ -128,6 +128,20 @@ footer .studio { color: var(--fg); font-weight: 700; }
 .dots b.on { background: var(--accent); }
 .dots b.past { background: var(--leaf); }
 .sharelink { color: var(--accent); font-weight: 700; }
+
+.sit { display: flex; flex-wrap: wrap; gap: 10px; }
+.act { background: var(--surface); border: 2px solid var(--line); border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 14px; }
+.act ol { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 8px; }
+.act .big { font-family: var(--font-display); font-size: 1.35rem; line-height: 1.25; }
+textarea { width: 100%; min-height: 8.5em; resize: vertical; font: inherit; line-height: 1.5; color: var(--fg); background: var(--surface); border: 2px solid var(--line); border-radius: 16px; padding: 14px 16px; }
+textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-color: var(--accent); }
+.field { display: flex; flex-direction: column; gap: 8px; }
+.field label { font-weight: 700; }
+.help { color: var(--muted); }
+.sum { display: flex; flex-direction: column; gap: 18px; }
+.sum section { display: flex; flex-direction: column; gap: 6px; }
+.sum .ans { white-space: pre-wrap; overflow-wrap: anywhere; background: var(--surface-2); border-radius: 14px; padding: 12px 14px; }
+.sum .ans.empty { color: var(--muted); font-style: italic; }
 </style>
 
 <div class="wrap">
@@ -165,8 +179,10 @@ footer .studio { color: var(--fg); font-weight: 700; }
       <div class="tools">
         <button class="tool" id="t-respira" type="button"><span class="name">Respira con me</span><span class="meta">Respirazione guidata · da 1 a 10 minuti</span><span class="desc">Un cerchio ti accompagna a inspirare ed espirare, con quattro tecniche tra cui scegliere.</span></button>
         <button class="tool" id="t-presente" type="button"><span class="name">Torna al presente</span><span class="meta">Una pausa di consapevolezza · 1 o 5 minuti</span><span class="desc">Cinque piccoli passi per ritrovare il contatto con ciò che ti circonda, quando i pensieri corrono.</span></button>
+        <button class="tool" id="t-cassetta" type="button"><span class="name">La mia piccola cassetta degli attrezzi</span><span class="meta">Una pausa su misura · 2-5 minuti</span><span class="desc">Scegli la situazione che stai vivendo e ricevi una piccola attività da fare adesso.</span></button>
+        <button class="tool" id="t-pensieri" type="button"><span class="name">Fai spazio ai pensieri</span><span class="meta">Un diario guidato · 5-10 minuti</span><span class="desc">Quattro domande per mettere ordine quando la mente gira sempre intorno allo stesso problema.</span></button>
       </div>
-      <p class="soon">In arrivo: una cassetta degli attrezzi per le giornate difficili, un diario per fare spazio ai pensieri, audio per la sera e altro ancora.</p>
+      <p class="soon">In arrivo: audio per la sera, un momento per riconoscere le emozioni e altro ancora.</p>
     </section>
   </section>
 
@@ -264,6 +280,55 @@ footer .studio { color: var(--fg); font-weight: 700; }
     </div>
   </section>
 
+  <!-- CASSETTA -->
+  <main id="v-cassetta" class="wrap" style="gap:24px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>La mia piccola cassetta degli attrezzi</h1>
+      <p class="intro">Non esiste una sola tecnica adatta a tutti. Scegli la situazione che stai vivendo e prova la piccola attività che ti propongo. Se non fa per te, provane un'altra.</p>
+    </header>
+    <section class="group" aria-labelledby="c-l">
+      <h2 id="c-l">Che cosa stai vivendo?</h2>
+      <div class="sit" id="c-sit"></div>
+    </section>
+    <section class="act" id="c-act" hidden aria-live="polite">
+      <p class="label" id="c-kind"></p>
+      <p class="big" id="c-title"></p>
+      <ol id="c-steps"></ol>
+      <div class="row" id="c-actions"></div>
+    </section>
+  </main>
+
+  <!-- PENSIERI -->
+  <main id="v-pensieri" class="wrap" style="gap:20px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>Fai spazio ai pensieri</h1>
+      <p class="intro" id="pe-intro">Quando la mente gira intorno allo stesso problema, scrivere aiuta a metterlo fuori e a guardarlo con più distanza. Rispondi a ciò che ti va, anche con poche parole. Nessuno leggerà queste risposte.</p>
+    </header>
+    <section class="group" id="pe-flow">
+      <p class="label" id="pe-step"></p>
+      <h2 id="pe-q"></h2>
+      <p class="help" id="pe-help"></p>
+      <div class="group" id="pe-fields"></div>
+      <div class="row">
+        <button class="ghost" id="pe-prev" type="button">Indietro</button>
+        <button class="primary" id="pe-next" type="button">Avanti</button>
+      </div>
+    </section>
+    <section class="group" id="pe-sum" hidden>
+      <h2>Il tuo foglio</h2>
+      <div class="sum" id="pe-sumbody"></div>
+      <p class="help">Rileggilo con calma. Che cosa noti, adesso, rispetto a quando hai iniziato?</p>
+      <div class="row">
+        <button class="primary" id="pe-copy" type="button">Copia il testo</button>
+        <button class="ghost" id="pe-edit" type="button">Modifica</button>
+        <button class="ghost" id="pe-clear" type="button">Cancella tutto</button>
+      </div>
+    </section>
+    <p class="note">Quello che scrivi resta solo su questo dispositivo: non viene inviato a nessuno, nemmeno alla psicologa. Se cancelli i dati del browser o cambi telefono, lo perdi.</p>
+  </main>
+
   <footer>
     <p class="studio">Vuoi approfondire il tuo benessere psicologico?</p>
     <p>Questi strumenti offrono un momento di pausa e riflessione. Se desideri capire meglio ciò che stai vivendo, puoi contattarmi per informazioni sui percorsi psicologici.</p>
@@ -328,7 +393,7 @@ footer .studio { color: var(--fg); font-weight: 700; }
   var P_DUR = [{ s: 60, label: '1 minuto' }, { s: 300, label: '5 minuti' }];
 
   var $ = function (id) { return document.getElementById(id); };
-  var VIEWS = ['hub', 'respira', 'session', 'done', 'presente', 'psession', 'pdone'];
+  var VIEWS = ['hub', 'respira', 'session', 'done', 'presente', 'psession', 'pdone', 'cassetta', 'pensieri'];
   function show(v) { VIEWS.forEach(function (k) { $('v-' + k).hidden = k !== v; }); window.scrollTo(0, 0); }
   function byId(list, id) { return list.filter(function (x) { return x.id === id; })[0]; }
   function fmt(s) { s = Math.max(0, Math.ceil(s)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
@@ -516,6 +581,113 @@ footer .studio { color: var(--fg); font-weight: 700; }
   $('p-again').onclick = function () { show('hub'); };
   $('p-breathe').onclick = function () { openRespira(); };
 
+  /* ---------- Cassetta degli attrezzi ---------- */
+  var SITS = [
+    { id: 'agit', label: 'Agitazione', kind: 'Scarica e rallenta', title: 'Lascia uscire la tensione, poi rallenta',
+      steps: ['Stringi forte i pugni per 5 secondi, poi lasciali andare di colpo. Ripeti due volte.', 'Alza le spalle verso le orecchie, tienile 5 secondi e lasciale cadere.', 'Fai un respiro con un\'espirazione lunga, come se soffiassi su una candela senza spegnerla.'],
+      actions: [{ label: 'Respira con me · 3 minuti', tool: 'respira', ex: 'addominale', minutes: 3 }] },
+    { id: 'diff', label: 'Giornata difficile', kind: 'Una domanda gentile', title: 'Nelle giornate pesanti, guarda anche il piccolo',
+      steps: ['Che cosa è andato bene oggi, anche di pochissimo? Un gesto, un incontro, un momento di silenzio.', 'Che cosa puoi lasciare fuori dalla porta stasera, perché non ti serve portarlo a letto?', 'Che cosa ti farebbe bene fare nella prossima mezz\'ora, solo per te?'],
+      actions: [{ label: 'Scrivi nel diario', tool: 'pensieri' }, { label: 'Respira con me · 5 minuti', tool: 'respira', ex: 'coerenza', minutes: 5 }] },
+    { id: 'rum', label: 'Pensieri ricorrenti', kind: 'Metti distanza', title: 'Quando la mente gira sempre intorno alla stessa cosa',
+      steps: ['Dai un nome al pensiero, per esempio: «Sto avendo di nuovo il pensiero che…». Notarlo da fuori lo rende meno appiccicoso.', 'Porta l\'attenzione fuori da te: guarda, tocca e ascolta ciò che hai intorno.', 'Se ti va, scrivilo e rispondi a qualche domanda.'],
+      actions: [{ label: 'Torna al presente · 1 minuto', tool: 'presente', pdur: 60 }, { label: 'Fai spazio ai pensieri', tool: 'pensieri' }] },
+    { id: 'staccare', label: 'Staccare dal lavoro', kind: 'Rituale di chiusura', title: 'Chiudi la giornata di lavoro in tre mosse',
+      steps: ['Scrivi su un foglio le tre cose da fare domani. Ora sono fuori dalla tua testa.', 'Chiudi ciò che stai usando: computer, quaderno, applicazioni. Dì a voce alta o dentro di te: «Per oggi basta».', 'Cambia ambiente o gesto: lavati le mani, esci un minuto, cambia musica. Poi qualche respiro lento.'],
+      actions: [{ label: 'Respira con me · 3 minuti', tool: 'respira', ex: 'coerenza', minutes: 3 }] },
+    { id: 'conc', label: 'Concentrarmi', kind: 'Pausa breve', title: 'Due minuti per rimettere a fuoco',
+      steps: ['Alza gli occhi dallo schermo e guarda un punto lontano per 20 secondi.', 'Sciogli la mandibola e abbassa le spalle.', 'Scegli una sola cosa da fare adesso e dillo a te stesso. Poi un minuto di respiro regolare.'],
+      actions: [{ label: 'Respirazione quadrata · 1 minuto', tool: 'respira', ex: 'quadrata', minutes: 1 }] }
+  ];
+  var cSel = null;
+  function openCassetta() {
+    var box = $('c-sit'); box.innerHTML = '';
+    SITS.forEach(function (x) { chip(box, x.label, cSel === x.id, function () { cSel = x.id; openCassetta(); }); });
+    var act = $('c-act'); var cur = byId(SITS, cSel);
+    act.hidden = !cur;
+    if (cur) {
+      $('c-kind').textContent = cur.kind; $('c-title').textContent = cur.title;
+      var ol = $('c-steps'); ol.innerHTML = '';
+      cur.steps.forEach(function (t) { var li = document.createElement('li'); li.textContent = t; ol.appendChild(li); });
+      var ac = $('c-actions'); ac.innerHTML = '';
+      cur.actions.forEach(function (a, i) {
+        var b = document.createElement('button'); b.type = 'button'; b.className = i === 0 ? 'primary' : 'ghost'; b.textContent = a.label;
+        b.onclick = function () {
+          if (a.tool === 'respira') { state.ex = byId(EXERCISES, a.ex); state.minutes = a.minutes; state.text = false; persist(); startRespira(); }
+          else if (a.tool === 'presente') { state.pdur = a.pdur; startPresente(); }
+          else openPensieri();
+        };
+        ac.appendChild(b);
+      });
+    }
+    show('cassetta');
+  }
+  $('t-cassetta').onclick = openCassetta;
+
+  /* ---------- Fai spazio ai pensieri ---------- */
+  var PQ = [
+    { q: 'Che cosa mi sta occupando la mente?', help: 'Scrivilo come viene, senza ordinare né giudicare.', f: [{ id: 'p1', label: 'Ciò che mi occupa la mente' }] },
+    { q: 'Quali fatti conosco e quali sono le mie interpretazioni?', help: 'I fatti si potrebbero registrare con una telecamera. Le interpretazioni sono ciò che io penso che significhino.', f: [{ id: 'p2a', label: 'Fatti che conosco' }, { id: 'p2b', label: 'Interpretazioni mie' }] },
+    { q: 'Che cosa direi a una persona a cui voglio bene nella stessa situazione?', help: 'Spesso siamo più duri con noi stessi che con gli altri.', f: [{ id: 'p3', label: 'Le parole che userei con lei' }] },
+    { q: 'Qual è un piccolo passo che posso compiere?', help: 'Anche minuscolo: una telefonata, un messaggio, un\'ora di riposo, rimandare a domani una decisione.', f: [{ id: 'p4', label: 'Il mio piccolo passo' }] }
+  ];
+  var answers = {}, peStep = 0, peSum = false, clearArmed = false;
+  try { answers = JSON.parse(localStorage.getItem('pensieri') || '{}') || {}; } catch (e) { answers = {}; }
+  function savePe() { try { localStorage.setItem('pensieri', JSON.stringify(answers)); } catch (e) {} }
+  function peHasAny() { return Object.keys(answers).some(function (k) { return (answers[k] || '').trim(); }); }
+  function renderPe() {
+    $('pe-flow').hidden = peSum; $('pe-sum').hidden = !peSum; $('pe-intro').hidden = peSum;
+    if (peSum) {
+      var body = $('pe-sumbody'); body.innerHTML = '';
+      PQ.forEach(function (x) {
+        var sec = document.createElement('section'); var h = document.createElement('h2'); h.textContent = x.q; sec.appendChild(h);
+        x.f.forEach(function (f) {
+          if (x.f.length > 1) { var l = document.createElement('p'); l.className = 'label'; l.textContent = f.label; sec.appendChild(l); }
+          var a = document.createElement('div'), v = (answers[f.id] || '').trim();
+          a.className = 'ans' + (v ? '' : ' empty'); a.textContent = v || 'Lasciato in bianco'; sec.appendChild(a);
+        });
+        body.appendChild(sec);
+      });
+      $('pe-clear').textContent = clearArmed ? 'Sicuro? Tocca di nuovo' : 'Cancella tutto';
+      return;
+    }
+    var cur = PQ[peStep];
+    $('pe-step').textContent = 'Domanda ' + (peStep + 1) + ' di ' + PQ.length;
+    $('pe-q').textContent = cur.q; $('pe-help').textContent = cur.help;
+    var box = $('pe-fields'); box.innerHTML = '';
+    cur.f.forEach(function (f) {
+      var wrap = document.createElement('div'); wrap.className = 'field';
+      var lab = document.createElement('label'); lab.htmlFor = f.id; lab.textContent = f.label;
+      var ta = document.createElement('textarea'); ta.id = f.id; ta.value = answers[f.id] || '';
+      ta.oninput = function () { answers[f.id] = ta.value; savePe(); };
+      wrap.appendChild(lab); wrap.appendChild(ta); box.appendChild(wrap);
+    });
+    $('pe-prev').hidden = peStep === 0;
+    $('pe-next').textContent = peStep === PQ.length - 1 ? 'Concludi' : 'Avanti';
+  }
+  function openPensieri() { peStep = 0; peSum = false; clearArmed = false; renderPe(); show('pensieri'); }
+  $('t-pensieri').onclick = openPensieri;
+  $('pe-prev').onclick = function () { if (peStep > 0) { peStep--; renderPe(); window.scrollTo(0, 0); } };
+  $('pe-next').onclick = function () {
+    if (peStep < PQ.length - 1) peStep++; else peSum = true;
+    renderPe(); window.scrollTo(0, 0);
+  };
+  $('pe-edit').onclick = function () { peSum = false; peStep = 0; clearArmed = false; renderPe(); window.scrollTo(0, 0); };
+  $('pe-clear').onclick = function () {
+    if (!clearArmed) { clearArmed = true; renderPe(); return; }
+    answers = {}; savePe(); clearArmed = false; peSum = false; peStep = 0; renderPe(); window.scrollTo(0, 0);
+  };
+  $('pe-copy').onclick = function () {
+    var b = $('pe-copy'), out = [];
+    PQ.forEach(function (x) {
+      out.push(x.q);
+      x.f.forEach(function (f) { out.push((x.f.length > 1 ? f.label + ': ' : '') + ((answers[f.id] || '').trim() || '-')); });
+      out.push('');
+    });
+    var ok = function () { b.textContent = 'Copiato'; setTimeout(function () { b.textContent = 'Copia il testo'; }, 1800); };
+    try { navigator.clipboard.writeText(out.join('\n')).then(ok, function () { b.textContent = 'Seleziona e copia dal foglio'; }); } catch (e) { b.textContent = 'Seleziona e copia dal foglio'; }
+  };
+
   /* ---------- Contatti e condivisione ---------- */
   Array.prototype.forEach.call(document.querySelectorAll('.copy'), function (b) {
     b.onclick = function () {
@@ -529,6 +701,6 @@ footer .studio { color: var(--fg); font-weight: 700; }
 
   renderHub();
   var h = (location.hash || '').replace('#', '');
-  if (h === 'respira') openRespira(); else if (h === 'presente') openPresente(); else show('hub');
+  if (h === 'respira') openRespira(); else if (h === 'presente') openPresente(); else if (h === 'cassetta') openCassetta(); else if (h === 'pensieri') openPensieri(); else show('hub');
 })();
 </script>

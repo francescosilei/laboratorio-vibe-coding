@@ -41,8 +41,8 @@ Cartella: `02-respirazione-guidata/`. Un solo sito, un link per strumento, nessu
 - [x] **Respira con me**: prima versione con 4 esercizi, timer, suono e vibrazione facoltativi, contatti in fondo
 - [x] **Pagina iniziale "Un momento per te"**: tre domande (bisogno, tempo, come essere guidato) e pulsante "Prova il mio percorso"
 - [x] **Torna al presente**: versione solo testo e timer (1 e 5 minuti), prima versione
-- [ ] **Cassetta degli attrezzi**: scegli una situazione e ricevi una piccola attività
-- [ ] **Fai spazio ai pensieri**: diario guidato, risposte salvate solo sul dispositivo
+- [x] **Cassetta degli attrezzi**: scegli una situazione e ricevi una piccola attività
+- [x] **Fai spazio ai pensieri**: diario guidato, risposte salvate solo sul dispositivo
 - [ ] **Voce di mia moglie**: registrazioni da agganciare agli esercizi (testi in `02-respirazione-guidata/testi-voce.md`)
 - Più avanti, con testi e audio di mia moglie: Come mi sento adesso, Accompagna il sonno, Parla a te stesso con gentilezza, Prima di una conversazione difficile
 
