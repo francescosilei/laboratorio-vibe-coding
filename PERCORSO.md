@@ -45,7 +45,7 @@ Cartella: `02-respirazione-guidata/`. Un solo sito, un link per strumento, nessu
 - [x] **Fai spazio ai pensieri**: diario guidato, risposte salvate solo sul dispositivo
 - [ ] **Voce di mia moglie**: registrazioni da agganciare agli esercizi (testi in `02-respirazione-guidata/testi-voce.md`)
 - [x] **Come mi sento adesso**: scelta dell'emozione, intensità su scala, attività coerente e verifica finale (prima versione)
-- Più avanti, con testi e audio di mia moglie: Accompagna il sonno, Parla a te stesso con gentilezza, Prima di una conversazione difficile
+- [x] **Accompagna il sonno**, **Parla a te stesso con gentilezza**, **Prima di una conversazione difficile**: prime versioni con testi miei, da far rivedere a mia moglie (il sonno è solo testo, l'audio con la sua voce arriva dopo)
 
 Da decidere con mia moglie: numeri di aiuto da mostrare, nome da usare nell'intestazione, testi clinici da far rivedere a lei prima della pubblicazione. Il dominio personale è rimandato.
 
