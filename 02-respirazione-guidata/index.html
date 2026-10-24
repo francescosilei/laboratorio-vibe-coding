@@ -142,6 +142,15 @@ textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; 
 .sum section { display: flex; flex-direction: column; gap: 6px; }
 .sum .ans { white-space: pre-wrap; overflow-wrap: anywhere; background: var(--surface-2); border-radius: 14px; padding: 12px 14px; }
 .sum .ans.empty { color: var(--muted); font-style: italic; }
+.emo { display: flex; flex-wrap: wrap; gap: 10px; }
+.meter { display: grid; place-items: center; height: 170px; }
+.meter .emo-orb { width: 150px; height: 150px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, var(--leaf), var(--accent) 80%); transition: transform .25s ease; }
+.meter-val { font-family: var(--font-display); font-size: 2rem; text-align: center; font-variant-numeric: tabular-nums; }
+.meter-word { text-align: center; color: var(--muted); font-weight: 700; }
+input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent); }
+.scale-ends { display: flex; justify-content: space-between; color: var(--muted); font-size: .85rem; }
+.alert { background: var(--surface-2); border-left: 4px solid var(--accent); border-radius: 12px; padding: 12px 16px; }
+@media (prefers-reduced-motion: reduce) { .meter .emo-orb { transition: none; } }
 </style>
 
 <div class="wrap">
@@ -181,8 +190,9 @@ textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; 
         <button class="tool" id="t-presente" type="button"><span class="name">Torna al presente</span><span class="meta">Una pausa di consapevolezza · 1 o 5 minuti</span><span class="desc">Cinque piccoli passi per ritrovare il contatto con ciò che ti circonda, quando i pensieri corrono.</span></button>
         <button class="tool" id="t-cassetta" type="button"><span class="name">La mia piccola cassetta degli attrezzi</span><span class="meta">Una pausa su misura · 2-5 minuti</span><span class="desc">Scegli la situazione che stai vivendo e ricevi una piccola attività da fare adesso.</span></button>
         <button class="tool" id="t-pensieri" type="button"><span class="name">Fai spazio ai pensieri</span><span class="meta">Un diario guidato · 5-10 minuti</span><span class="desc">Quattro domande per mettere ordine quando la mente gira sempre intorno allo stesso problema.</span></button>
+        <button class="tool" id="t-emozioni" type="button"><span class="name">Come mi sento adesso</span><span class="meta">Un check-in emotivo · 2-5 minuti</span><span class="desc">Dai un nome a ciò che provi, indica quanto è intenso e ricevi un'attività adatta. Alla fine vedi cosa è cambiato.</span></button>
       </div>
-      <p class="soon">In arrivo: audio per la sera, un momento per riconoscere le emozioni e altro ancora.</p>
+      <p class="soon">In arrivo: audio per la sera e altro ancora.</p>
     </section>
   </section>
 
@@ -234,6 +244,7 @@ textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; 
     <div class="done">
       <h2>Ben fatto</h2>
       <p>Hai dedicato questo tempo a te stesso. Prima di riprendere la giornata, senti come stai adesso. Puoi tornare qui ogni volta che ne hai bisogno.</p>
+      <button class="primary checkbtn" type="button" hidden>Come mi sento adesso?</button>
       <button class="primary" id="again" type="button">Torna agli strumenti</button>
     </div>
   </section>
@@ -274,6 +285,7 @@ textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; 
       <h2>Sei qui</h2>
       <p>Hai riportato l'attenzione al presente. Prima di ripartire, fai ancora un respiro lento. Puoi ripetere l'esercizio quando vuoi, anche più volte al giorno.</p>
       <div class="row">
+        <button class="primary checkbtn" type="button" hidden>Come mi sento adesso?</button>
         <button class="primary" id="p-again" type="button">Torna agli strumenti</button>
         <button class="ghost" id="p-breathe" type="button">Prova anche a respirare</button>
       </div>
@@ -321,12 +333,82 @@ textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; 
       <div class="sum" id="pe-sumbody"></div>
       <p class="help">Rileggilo con calma. Che cosa noti, adesso, rispetto a quando hai iniziato?</p>
       <div class="row">
+        <button class="primary checkbtn" type="button" hidden>Come mi sento adesso?</button>
         <button class="primary" id="pe-copy" type="button">Copia il testo</button>
         <button class="ghost" id="pe-edit" type="button">Modifica</button>
         <button class="ghost" id="pe-clear" type="button">Cancella tutto</button>
       </div>
     </section>
     <p class="note">Quello che scrivi resta solo su questo dispositivo: non viene inviato a nessuno, nemmeno alla psicologa. Se cancelli i dati del browser o cambi telefono, lo perdi.</p>
+  </main>
+
+  <!-- EMOZIONI -->
+  <main id="v-emozioni" class="wrap" style="gap:22px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>Come mi sento adesso</h1>
+      <p class="intro">Fermarti a dare un nome a ciò che provi è già un primo passo. Non è un test e non c'è una risposta giusta: nessuno valuta e nessuno legge ciò che scegli.</p>
+    </header>
+
+    <section class="group" id="em-pick">
+      <h2>Che cosa senti, in questo momento?</h2>
+      <div class="emo" id="em-chips"></div>
+      <div class="field">
+        <label for="em-text">Se vuoi, descrivilo con parole tue</label>
+        <textarea id="em-text" style="min-height:5.5em"></textarea>
+      </div>
+      <button class="primary" id="em-go1" type="button" disabled>Continua</button>
+    </section>
+
+    <section class="group" id="em-int" hidden>
+      <h2 id="em-int-q"></h2>
+      <div class="meter"><div class="emo-orb" id="em-orb"></div></div>
+      <p class="meter-val" id="em-val"></p>
+      <p class="meter-word" id="em-word"></p>
+      <input class="scale" id="em-scale" type="range" min="1" max="10" step="1" value="5" aria-label="Intensità da 1 a 10">
+      <div class="scale-ends"><span>Appena percepibile</span><span>Molto forte</span></div>
+      <div class="row">
+        <button class="ghost" id="em-back1" type="button">Indietro</button>
+        <button class="primary" id="em-go2" type="button">Continua</button>
+      </div>
+    </section>
+
+    <section class="group" id="em-sug" hidden>
+      <div class="alert" id="em-alert" hidden>Se questa emozione è molto forte e senti di non farcela, parlane con una persona di cui ti fidi o con un professionista. Se sei in pericolo, chiama il 112.</div>
+      <div class="act">
+        <p class="label">Ti propongo</p>
+        <p class="big" id="em-s1"></p>
+        <p id="em-why"></p>
+        <div class="row"><button class="primary" id="em-do1" type="button">Comincia</button></div>
+      </div>
+      <p class="label">Oppure</p>
+      <div class="row"><button class="ghost" id="em-do2" type="button"></button><button class="ghost" id="em-restart" type="button">Cambia ciò che sento</button></div>
+      <p class="note">È una proposta basata su ciò che hai scelto, non una valutazione di come stai.</p>
+    </section>
+
+    <section class="group act" id="em-pause" hidden>
+      <p class="label">Una piccola pausa</p>
+      <ol id="em-pause-steps"></ol>
+      <button class="primary" id="em-pause-done" type="button">Ho finito</button>
+    </section>
+
+    <section class="group" id="em-chk" hidden>
+      <h2>E adesso, come ti senti?</h2>
+      <p class="help" id="em-prev"></p>
+      <div class="meter"><div class="emo-orb" id="em-orb2"></div></div>
+      <p class="meter-val" id="em-val2"></p>
+      <input class="scale" id="em-scale2" type="range" min="1" max="10" step="1" value="5" aria-label="Intensità adesso, da 1 a 10">
+      <div class="scale-ends"><span>Appena percepibile</span><span>Molto forte</span></div>
+      <p class="alert" id="em-msg"></p>
+      <div class="field">
+        <label for="em-note">Che cosa è cambiato, anche di poco? (resta solo qui, non viene salvato)</label>
+        <textarea id="em-note" style="min-height:5.5em"></textarea>
+      </div>
+      <div class="row">
+        <button class="primary" id="em-again2" type="button">Provo un'altra attività</button>
+        <button class="ghost" id="em-end" type="button">Ho finito</button>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -393,8 +475,8 @@ textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; 
   var P_DUR = [{ s: 60, label: '1 minuto' }, { s: 300, label: '5 minuti' }];
 
   var $ = function (id) { return document.getElementById(id); };
-  var VIEWS = ['hub', 'respira', 'session', 'done', 'presente', 'psession', 'pdone', 'cassetta', 'pensieri'];
-  function show(v) { VIEWS.forEach(function (k) { $('v-' + k).hidden = k !== v; }); window.scrollTo(0, 0); }
+  var VIEWS = ['hub', 'respira', 'session', 'done', 'presente', 'psession', 'pdone', 'cassetta', 'pensieri', 'emozioni'];
+  function show(v) { VIEWS.forEach(function (k) { $('v-' + k).hidden = k !== v; }); window.scrollTo(0, 0); if (v === 'hub' && em) em.pending = false; updateCheck(); }
   function byId(list, id) { return list.filter(function (x) { return x.id === id; })[0]; }
   function fmt(s) { s = Math.max(0, Math.ceil(s)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
   function chip(box, label, on, cb, off) {
@@ -688,6 +770,97 @@ textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; 
     try { navigator.clipboard.writeText(out.join('\n')).then(ok, function () { b.textContent = 'Seleziona e copia dal foglio'; }); } catch (e) { b.textContent = 'Seleziona e copia dal foglio'; }
   };
 
+  /* ---------- Come mi sento adesso ---------- */
+  var EMOS = [
+    { id: 'ansia', label: 'Ansia', a: { t: 'resp', ex: 'addominale' }, b: { t: 'ground' }, why: 'Un respiro con espirazione lunga aiuta il corpo a rallentare. Se è molto forte, partire dai sensi riporta l\'attenzione al qui e ora.' },
+    { id: 'tristezza', label: 'Tristezza', a: { t: 'pause', k: 'base' }, b: { t: 'write' }, why: 'Quando sei triste non serve cambiare subito: una pausa gentile ti permette di stare con ciò che senti.' },
+    { id: 'rabbia', label: 'Rabbia', a: { t: 'resp', ex: 'addominale' }, b: { t: 'pause', k: 'base' }, why: 'Prendere tempo prima di reagire aiuta. L\'espirazione lunga calma il corpo, poi si ragiona meglio.' },
+    { id: 'stanchezza', label: 'Stanchezza', a: { t: 'pause', k: 'stanch' }, b: { t: 'resp', ex: 'coerenza' }, why: 'A volte il corpo chiede soprattutto una sosta vera, anche breve.' },
+    { id: 'confusione', label: 'Confusione', a: { t: 'write' }, b: { t: 'ground' }, why: 'Scrivere aiuta a mettere ordine: fatti da una parte, interpretazioni dall\'altra.' },
+    { id: 'solitudine', label: 'Solitudine', a: { t: 'write' }, b: { t: 'pause', k: 'base' }, why: 'Dare voce a ciò che senti è un modo di stare in contatto con te stesso, e può aiutarti a capire che cosa ti servirebbe.' },
+    { id: 'colpa', label: 'Senso di colpa', a: { t: 'write' }, b: { t: 'pause', k: 'base' }, why: 'Separare i fatti dalle interpretazioni, e guardarti con la gentilezza che avresti verso una persona cara, può alleggerire.' },
+    { id: 'delusione', label: 'Delusione', a: { t: 'pause', k: 'base' }, b: { t: 'write' }, why: 'Riconoscere la delusione senza fretta di risolverla è già un modo di prendersi cura di sé.' },
+    { id: 'serenita', label: 'Serenità', a: { t: 'pause', k: 'gioia' }, b: { t: 'resp', ex: 'coerenza' }, why: 'Fermarsi ad assaporare un momento buono lo rende più facile da ritrovare.' },
+    { id: 'nonso', label: 'Non so dirlo', a: { t: 'ground' }, b: { t: 'resp', ex: 'coerenza' }, why: 'Non serve avere un nome per ciò che senti. Partire dal corpo e dai sensi è un buon modo per cominciare.' }
+  ];
+  var PAUSES = {
+    base: ['Fermati un momento e dì a te stesso: «In questo momento sto provando…». Basta una parola.', 'Appoggia una mano sul petto o sulla pancia e senti il calore. Respira normalmente.', 'Dai a te stesso il permesso di sentire questo, senza dover risolvere nulla adesso.', 'Bevi un po\' d\'acqua, lentamente, un sorso alla volta.'],
+    stanch: ['Se puoi, allontanati dallo schermo e dal telefono per cinque minuti.', 'Siediti o sdraiati comodo e chiudi gli occhi, oppure appoggia lo sguardo su un punto.', 'Lascia andare le spalle e la mandibola. Non devi fare niente.', 'Quando sei pronto, bevi un po\' d\'acqua e ripartisci con calma.'],
+    gioia: ['Fermati e nota che cosa c\'è di buono in questo momento.', 'Dove lo senti nel corpo? Resta lì per qualche respiro.', 'Se ti va, pensa a una cosa o a una persona che ti ha portato fin qui, e ringraziala dentro di te.']
+  };
+  var WORDS = ['', 'Appena percepibile', 'Appena percepibile', 'Lieve', 'Lieve', 'Media', 'Media', 'Forte', 'Forte', 'Molto forte', 'Molto forte'];
+  var em = { emo: null, before: 5, after: 5, which: 1, pending: false };
+
+  function emoSection(id) { ['pick', 'int', 'sug', 'pause', 'chk'].forEach(function (k) { $('em-' + k).hidden = k !== id; }); window.scrollTo(0, 0); }
+  function paintMeter(orb, val, v, word, w) { $(orb).style.transform = 'scale(' + (0.35 + 0.65 * v / 10).toFixed(2) + ')'; $(val).textContent = v + ' su 10'; if (word) $(word).textContent = WORDS[v]; }
+  function openEmozioni() {
+    em.emo = null; em.pending = false; $('em-text').value = ''; $('em-note').value = '';
+    var box = $('em-chips'); box.innerHTML = '';
+    EMOS.forEach(function (x) { chip(box, x.label, em.emo === x.id, function () { em.emo = x.id; $('em-go1').disabled = false; renderEmChips(); }); });
+    $('em-go1').disabled = true; emoSection('pick'); show('emozioni'); updateCheck();
+  }
+  function renderEmChips() {
+    var box = $('em-chips'); box.innerHTML = '';
+    EMOS.forEach(function (x) { chip(box, x.label, em.emo === x.id, function () { em.emo = x.id; $('em-go1').disabled = false; renderEmChips(); }); });
+  }
+  $('em-go1').onclick = function () {
+    if (!em.emo) return;
+    $('em-int-q').textContent = 'Quanto è intensa questa sensazione? (' + byId(EMOS, em.emo).label.toLowerCase() + ')';
+    $('em-scale').value = em.before; paintMeter('em-orb', 'em-val', em.before, 'em-word'); emoSection('int');
+  };
+  $('em-scale').oninput = function () { em.before = +this.value; paintMeter('em-orb', 'em-val', em.before, 'em-word'); };
+  $('em-back1').onclick = function () { emoSection('pick'); };
+
+  function actLabel(a) {
+    if (a.t === 'resp') return byId(EXERCISES, a.ex).name + ' · 3 minuti';
+    if (a.t === 'ground') return 'Torna al presente · 1 minuto';
+    if (a.t === 'write') return 'Fai spazio ai pensieri (scrivere)';
+    return 'Una piccola pausa';
+  }
+  function runAct(a) {
+    em.pending = true;
+    if (a.t === 'resp') { state.ex = byId(EXERCISES, a.ex); state.minutes = 3; state.text = false; persist(); startRespira(); }
+    else if (a.t === 'ground') { state.pdur = 60; startPresente(); }
+    else if (a.t === 'write') { openPensieri(); }
+    else {
+      var ol = $('em-pause-steps'); ol.innerHTML = '';
+      PAUSES[a.k].forEach(function (t) { var li = document.createElement('li'); li.textContent = t; ol.appendChild(li); });
+      show('emozioni'); emoSection('pause');
+    }
+    updateCheck();
+  }
+  $('em-go2').onclick = function () {
+    var e = byId(EMOS, em.emo), a = e.a, b = e.b;
+    if (e.id === 'ansia' && em.before >= 7) { a = e.b; b = e.a; }
+    $('em-s1').textContent = actLabel(a); $('em-why').textContent = e.why;
+    $('em-do1').onclick = function () { runAct(a); };
+    $('em-do2').textContent = actLabel(b); $('em-do2').onclick = function () { runAct(b); };
+    $('em-alert').hidden = em.before < 8;
+    emoSection('sug');
+  };
+  $('em-restart').onclick = function () { openEmozioni(); };
+  $('em-pause-done').onclick = function () { openCheck(); };
+
+  function msgFor(d) {
+    if (d < 0) return 'Qualcosa si è mosso, e questo è già qualcosa. Nota che cosa ti ha aiutato: potrai ritrovarlo.';
+    if (d === 0) return 'Non sempre cambia subito, ed è normale. Puoi provare un\'altra attività oppure parlarne con una persona di fiducia.';
+    return 'Può succedere. Accorgersene è già utile: non vuol dire che hai sbagliato. Prova un\'altra attività, concediti una pausa o parlane con qualcuno di fiducia.';
+  }
+  function paintChk() { paintMeter('em-orb2', 'em-val2', em.after); $('em-msg').textContent = msgFor(em.after - em.before); }
+  function openCheck() {
+    em.after = em.before; $('em-scale2').value = em.after;
+    $('em-prev').textContent = 'Prima era: ' + em.before + ' su 10 (' + WORDS[em.before].toLowerCase() + ').';
+    paintChk(); show('emozioni'); emoSection('chk'); em.pending = false; updateCheck();
+  }
+  $('em-scale2').oninput = function () { em.after = +this.value; paintChk(); };
+  $('em-again2').onclick = function () { $('em-go2').onclick(); };
+  $('em-end').onclick = function () { show('hub'); };
+  $('t-emozioni').onclick = openEmozioni;
+  function updateCheck() {
+    Array.prototype.forEach.call(document.querySelectorAll('.checkbtn'), function (b) { b.hidden = !em.pending; });
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('.checkbtn'), function (b) { b.onclick = openCheck; });
+
   /* ---------- Contatti e condivisione ---------- */
   Array.prototype.forEach.call(document.querySelectorAll('.copy'), function (b) {
     b.onclick = function () {
@@ -701,6 +874,6 @@ textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; 
 
   renderHub();
   var h = (location.hash || '').replace('#', '');
-  if (h === 'respira') openRespira(); else if (h === 'presente') openPresente(); else if (h === 'cassetta') openCassetta(); else if (h === 'pensieri') openPensieri(); else show('hub');
+  if (h === 'respira') openRespira(); else if (h === 'presente') openPresente(); else if (h === 'cassetta') openCassetta(); else if (h === 'pensieri') openPensieri(); else if (h === 'emozioni') openEmozioni(); else show('hub');
 })();
 </script>
