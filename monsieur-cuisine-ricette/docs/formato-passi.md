@@ -15,8 +15,22 @@ barra di avanzamento con frecce indietro/avanti.
 | 7 | Solo testo finale | "Servite la salsa di gallinacci con i canederli." | testo |
 | 8 | Chiusura | foto del piatto con titolo, "BUON APPETITO!" e cuoricino (preferito) | foto a tutto schermo, solo freccia indietro |
 
-Da chiarire con Francesco: significato delle icone sotto la velocità (lame / accessorio), del
-controllo "– I" in basso e del pulsante "i" (note o ingredienti?).
+## Chiarimenti di Francesco sul display
+
+- La manopola centrale è la velocità di rotazione dell'accessorio. L'accessorio attivo è evidenziato:
+  nel passo 3 sono le **lame** (sminuzzare).
+- Sotto le lame compare in grigio e barrato con una X l'**emulsionatore** (accessorio di plastica per
+  montare gli albumi o mescolare una minestra): non si può usare oltre una certa velocità perché
+  rischia di rompersi. Quindi ogni passo robot indica l'accessorio da usare e quello vietato.
+- Il controllo "– I" in basso cambia la modalità di navigazione dei passi: orizzontale (frecce
+  < >, come nelle foto) o verticale (swipe dal basso verso l'alto per andare avanti, dall'alto verso
+  il basso per tornare indietro).
+
+## Decisione per l'app
+
+Una sola modalità: pulsanti grandi Indietro / Avanti in basso. Più semplice e robusta dello swipe,
+che sul tablet in cucina (mani sporche, schermo toccato per sbaglio) rischia di cambiare passo per
+errore. Il tasto "i" non viene replicato.
 
 ## Modello dati di un passo (bozza)
 
