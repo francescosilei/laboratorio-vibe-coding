@@ -14,10 +14,12 @@ Dipendenze: `pip install -r requirements.txt` (e `poppler-utils` per `pdfimages`
 L'utente unisce i PDF degli screenshot in un solo file e lo allega in chat (il file arriva in `/root/.claude/uploads/`).
 Box non serve: da Box si vedono solo anteprime a metà risoluzione e ogni immagine entra in chat.
 
-1. `python3 tools/pdf_ricette.py estrai FILE.pdf --out <scratchpad>/lotto`
-   Per ogni pagina: `NN-testo.txt` (testa, ingredienti, preparazione già divisi), `NN-foto.jpg`, `NN-pagina.png`, e
-   `indice.txt` con il codice Cookidoo (`origine=cookidoo:rNNNNNN`) e il numero di righe incerte.
-2. **Leggi solo i `NN-testo.txt`** (testo, pochi token). Non aprire le pagine intere.
+1. `python3 tools/pdf_ricette.py estrai FILE.pdf [FILE2.pdf ...] --out <scratchpad>/lotto`
+   Una ricetta = un file PDF (le pagine sono fette dello screenshot e vengono riunite) o un segnalibro di un PDF combinato.
+   Per ogni ricetta, in `lotto/<codice>/`: `testo.txt` (testa, ingredienti, preparazione già divisi), `foto.jpg`, `pagina.png`;
+   in `lotto/indice.txt` il codice Cookidoo (`origine=cookidoo:rNNNNNN`) e le righe incerte.
+   Il testo selezionabile aggiunto da Acrobat viene ignorato: è di qualità scarsa. Si legge l'immagine a piena risoluzione.
+2. **Leggi solo i `testo.txt`** (testo, pochi token). Non aprire le pagine intere.
 3. Le icone non sono nel testo ma lasciano un segno: `//` prima di `vel.` = rotazione antioraria (`sinistrorsa`);
    `vel. .` o `vel. s` = velocità cucchiaio (vel 1 + sinistrorsa). Un solo `/` = nessuna icona.
    Gli errori tipici dell'OCR sulle cifre sono corretti in automatico (1oo → 100).
@@ -26,7 +28,7 @@ Box non serve: da Box si vedono solo anteprime a metà risoluzione e ogni immagi
    Le righe con `[?0.xx]` hanno bassa confidenza: stesso controllo.
 5. Per ogni ricetta scrivi il JSON (formato in `docs/formato-ricetta.md`) nello scratchpad e aggiungi
    `"origine": "cookidoo:rNNNNNN"` (serve per evitare i duplicati).
-6. `python3 tools/importa.py aggiungi ricetta.json --foto NN-foto.jpg` (la foto è già ritagliata).
+6. `python3 tools/importa.py aggiungi ricetta.json --foto lotto/<codice>/foto.jpg` (la foto è già ritagliata).
    Il controllo `tools/valida.py` decide: nessun errore → importata. Errori → correggi o `fallita`.
 7. `python3 tools/importa.py fallita <nome> "<motivo>"` per le non importate (scrive `import/failed/<nome>/motivo.txt`).
 8. Pubblica `dist/index.html` su https://claude.ai/artifact/ThaxPn3qs2aLW18L1Cbq6J (stesso `file_path`, stesse capabilities),
