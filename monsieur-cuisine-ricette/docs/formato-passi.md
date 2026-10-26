@@ -11,6 +11,9 @@ barra di avanzamento con frecce indietro/avanti.
 | 3 | Comando robot | tempo 00:08, velocità 6, temperatura 0 °C | tre manopole (tempo / velocità / temperatura), icona lame, play e stop |
 | 4 | Turbo | "Tenete premuto il tasto turbo per 2 secondi." | timer 00:00 con durata 00:02, icona turbo |
 | 5 | Programma | ROSOLARE: 04:00, velocità 1 con icona di rotazione, 100 °C | tre manopole, nome programma, play e stop |
+| 6 | Comando robot con rotazione | 40:00, velocità 1 con icona freccia circolare, 120 °C | come il tipo 3; l'icona di rotazione compare anche nel passo ROSOLARE |
+| 7 | Solo testo finale | "Servite la salsa di gallinacci con i canederli." | testo |
+| 8 | Chiusura | foto del piatto con titolo, "BUON APPETITO!" e cuoricino (preferito) | foto a tutto schermo, solo freccia indietro |
 
 Da chiarire con Francesco: significato delle icone sotto la velocità (lame / accessorio), del
 controllo "– I" in basso e del pulsante "i" (note o ingredienti?).
