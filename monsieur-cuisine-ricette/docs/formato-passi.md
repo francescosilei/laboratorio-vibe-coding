@@ -46,3 +46,10 @@ Ogni dato non ricavabile dalla ricetta vale `NA`. Categoria e paese si inferisco
 confidenza molto alta (pasta → primo, cioccolato/crema/zucchero → dessert); negli altri casi `NA`.
 I campi inferiti sono marcati come tali. Le correzioni di Francesco in chat ("metti i canederli
 al pesto come primi") vengono salvate come override sulla ricetta e prevalgono sull'inferenza.
+
+## Rotazione nelle ricette Bimby
+
+Nelle istruzioni Bimby la rotazione antioraria compare come icona tra temperatura e velocità
+(es. `120°C/⟲/vel. 0.5`, schermata della fregola ai frutti di mare). Nell'app diventa
+`sinistrorsa: true`, mostrata con l'icona della freccia circolare come sul display del Connect.
+La velocità 0.5 non esiste sul Connect: si parte da 1 e il passo riceve un'avvertenza.

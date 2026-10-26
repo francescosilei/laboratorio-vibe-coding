@@ -31,6 +31,7 @@ def I(testo, nome, gruppo=None):
     return d
 
 SOFT = "Soft/Antiorario: velocità 1 con rotazione sinistrorsa."
+AV05 = "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
 CONF = "Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
 
 ricette = []
@@ -251,7 +252,7 @@ ricette.append({
     "categoria": "Secondi", "paese": "Messico", "dedotto": ["categoria", "paese"],
     "tempo_prep_min": 30, "tempo_cottura_min": None, "tempo_min": 300,
     "porzioni": 6, "difficolta": "Media",
-    "fonte": "Bimby (Vorwerk)", "immagine": None,
+    "fonte": "Bimby (Vorwerk)", "immagine": "tacos-pulled-pork.jpg",
     "ingredienti": [
         I("400-450 g di farina integrale (circa il 16% di contenuto proteico) + q.b.", "farina integrale"),
         I("290 g di acqua bollente", "acqua"),
@@ -287,7 +288,6 @@ ricette.append({
     "note": [
         "In alternativa è possibile utilizzare il liquido di cottura per ungere la padella prima di passare i tacos.",
         "Servire 4 pezzi a persona o 3 pezzi per una porzione più piccola.",
-        "Trascritto da uno screenshot a bassa risoluzione: controllare in particolare velocità 0.5, 98 °C, 24 pezzi e 800 g di spalla.",
     ],
     "passi": [
         P(400, "Pesate nel boccale 400 g di farina integrale.", nota="La ricetta indica 400-450 g: regolate la farina all'impasto."),
@@ -303,7 +303,7 @@ ricette.append({
         T("Riunite sul fondo con la spatola."),
         P(20, "Pesate nel boccale 20 g di olio extravergine di oliva."),
         R("Insaporite.", 300, 1, 120,
-          avvertenza="La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, riducete la velocità a quella minima."),
+          avvertenza=AV05),
         P(800, "Pesate nel boccale 800 g di spalla di maiale, senza ossa, in 5 pezzi."),
         P(500, "Aggiungete 500 g di birra stout."),
         P(150, "Aggiungete 150 g di acqua."),
@@ -320,6 +320,58 @@ ricette.append({
         T("Trasferite in una ciotola e tenete da parte."),
         T("Prima di servire scaldate bene una padella antiaderente. Immergete ciascun tacos nel liquido di cottura della carne e scaldatelo nella padella molto calda a fuoco alto per 8-10 secondi."),
         T("Farcite ogni taco con 2-3 cucchiai di carne. Servite guarnendo con 80 g di cipolla rossa tritata, coriandolo, fagioli neri (opzionale) e jalapeño a rondelle."),
+    ],
+})
+
+# ---------------------------------------------------------------- Fregola ai frutti di mare
+ricette.append({
+    "id": "fregola-frutti-di-mare", "titolo": "Fregola ai frutti di mare",
+    "categoria": "Primi", "paese": "Italia", "dedotto": ["categoria"],
+    "tempo_prep_min": 10, "tempo_cottura_min": None, "tempo_min": 40,
+    "porzioni": 4, "difficolta": "Facile",
+    "fonte": "Bimby (Vorwerk)", "immagine": "fregola-frutti-di-mare.jpg",
+    "ingredienti": [
+        I("30 g olio extravergine di oliva", "olio extravergine d'oliva"),
+        I("1 spicchio di aglio", "aglio"),
+        I("200 g di pomodorini, a metà", "pomodorini"),
+        I("1 pizzico di sale", "sale"),
+        I("200 g di seppioline, fresche, pulite a pezzi (2 cm)", "seppioline"),
+        I("70 g di vino bianco secco", "vino bianco"),
+        I("250 g di fregola", "fregola"),
+        I("200 g di gamberi crudi, puliti", "gamberi"),
+        I("150 g di molluschi conchigliferi misti", "molluschi"),
+        I("480 g di acqua calda (non bollente)", "acqua"),
+        I("1 dado per brodo vegetale", "dado vegetale"),
+    ],
+    "procedimento": [
+        "Mettere nel boccale l'olio extravergine di oliva e l'aglio, insaporire: 3 min./120°C/vel. 1.",
+        "Aggiungere i pomodorini e il sale, insaporire: 5 min./120°C/vel. 1. Con una pinza da cucina, togliere a piacere l'aglio dal boccale.",
+        "Unire le seppioline e insaporire: 3 min./120°C/antiorario/vel. 0.5.",
+        "Aggiungere il vino bianco e sfumare senza misurino: 5 min./120°C/antiorario/vel. 0.5.",
+        "Unire la fregola, i gamberi, i molluschi, l'acqua calda e il dado, cuocere: il tempo indicato sulla confezione 100°C/antiorario/vel. 0.5. Lasciare riposare nel boccale per 5-6 minuti.",
+        "Trasferire la fregola in una zuppiera e servire calda.",
+    ],
+    "note": [],
+    "passi": [
+        P(30, "Pesate nel boccale 30 g di olio extravergine di oliva."),
+        T("Aggiungete 1 spicchio di aglio."),
+        R("Insaporite.", 180, 1, 120),
+        P(200, "Pesate nel boccale 200 g di pomodorini, tagliati a metà."),
+        T("Aggiungete 1 pizzico di sale."),
+        R("Insaporite.", 300, 1, 120),
+        T("Con una pinza da cucina togliete a piacere l'aglio dal boccale."),
+        P(200, "Pesate nel boccale 200 g di seppioline fresche, pulite e tagliate a pezzi di 2 cm."),
+        R("Insaporite.", 180, 1, 120, sinistrorsa=True, avvertenza=AV05),
+        P(70, "Pesate nel boccale 70 g di vino bianco secco."),
+        R("Sfumate senza misurino.", 300, 1, 120, sinistrorsa=True, nota="Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta.", avvertenza=AV05),
+        P(250, "Pesate nel boccale 250 g di fregola."),
+        P(200, "Aggiungete 200 g di gamberi crudi, puliti."),
+        P(150, "Aggiungete 150 g di molluschi conchigliferi misti."),
+        P(480, "Aggiungete 480 g di acqua calda (non bollente)."),
+        T("Aggiungete 1 dado per brodo vegetale."),
+        R("Cuocete per il tempo indicato sulla confezione della fregola.", None, 1, 100, sinistrorsa=True, nota=CONF, avvertenza=AV05),
+        T("Lasciate riposare nel boccale per 5-6 minuti.", attesa_s=300, nota="La ricetta indica 5-6 minuti: il timer è impostato a 5."),
+        T("Trasferite la fregola in una zuppiera e servite calda."),
     ],
 })
 
