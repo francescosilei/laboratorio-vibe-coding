@@ -1,0 +1,932 @@
+[
+ {
+  "id": "vitello-al-curry",
+  "titolo": "Vitello al curry",
+  "categoria": "Secondi",
+  "paese": "NA",
+  "dedotto": [],
+  "tempo_prep_min": 4,
+  "tempo_cottura_min": 22,
+  "tempo_min": 26,
+  "porzioni": 4,
+  "difficolta": "NA",
+  "fonte": "Ricette Bimby (Flavia)",
+  "immagine": "vitello-al-curry.jpg",
+  "ingredienti": [
+   {
+    "testo": "350 g di patate novelle",
+    "nome": "patate novelle"
+   },
+   {
+    "testo": "100 g di cipolla rossa",
+    "nome": "cipolla rossa"
+   },
+   {
+    "testo": "40 g di olio extravergine d'oliva",
+    "nome": "olio extravergine d'oliva"
+   },
+   {
+    "testo": "Sale q.b.",
+    "nome": "sale"
+   },
+   {
+    "testo": "Pepe q.b.",
+    "nome": "pepe"
+   },
+   {
+    "testo": "50 g di vino bianco",
+    "nome": "vino bianco"
+   },
+   {
+    "testo": "Zenzero fresco q.b.",
+    "nome": "zenzero"
+   },
+   {
+    "testo": "200 g di latte di cocco",
+    "nome": "latte di cocco"
+   },
+   {
+    "testo": "2 cucchiaini abbondanti di curry in polvere",
+    "nome": "curry"
+   },
+   {
+    "testo": "500 g di bocconcini di vitello",
+    "nome": "vitello"
+   },
+   {
+    "testo": "3 foglie di alloro",
+    "nome": "alloro"
+   },
+   {
+    "testo": "4 foglie di salvia",
+    "nome": "salvia"
+   },
+   {
+    "testo": "Ginepro q.b.",
+    "nome": "ginepro"
+   }
+  ],
+  "procedimento": [
+   "Pela 350 g di patate novelle e tienile da parte.",
+   "Metti nel boccale 100 g di cipolla rossa e trita 5 Sec. Vel. 6. Porta sul fondo con la spatola.",
+   "Aggiungi 40 g di olio extravergine d'oliva e soffriggi 3 Min. 100° Vel. 1.",
+   "Aggiungi le patate novelle pelate, una presa di sale, un pizzico di pepe, 50 g di vino bianco, una grattata abbondante di zenzero fresco e cuoci 7 Min. 100° Antiorario Vel. Soft.",
+   "Versa 200 g di latte di cocco, unisci 2 cucchiaini abbondanti di curry in polvere, 500 g di bocconcini di vitello, 3 foglie di alloro, 4 foglie di salvia, qualche bacca di ginepro e cuoci 15 Min. 100° Antiorario Vel. Soft.",
+   "Servi il vitello al curry con un'insalatina, del riso in bianco o con un pane chapati."
+  ],
+  "note": [
+   "Al posto del latte di cocco, se non ti piace, usa del brodo vegetale. In questo caso infarina leggermente la carne prima di versarla nel boccale, così da far rapprendere di più il sugo finale."
+  ],
+  "passi": [
+   {
+    "tipo": "pesata",
+    "g": 350,
+    "testo": "Pesate 350 g di patate novelle, pelatele e tenetele da parte."
+   },
+   {
+    "tipo": "pesata",
+    "g": 100,
+    "testo": "Pesate nel boccale 100 g di cipolla rossa."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Tritate la cipolla.",
+    "tempo_s": 5,
+    "velocita": 6,
+    "temp_c": 0,
+    "sinistrorsa": false
+   },
+   {
+    "tipo": "testo",
+    "testo": "Portate sul fondo con la spatola."
+   },
+   {
+    "tipo": "pesata",
+    "g": 40,
+    "testo": "Pesate nel boccale 40 g di olio extravergine d'oliva."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Soffriggete.",
+    "tempo_s": 180,
+    "velocita": 1,
+    "temp_c": 100,
+    "sinistrorsa": true,
+    "programma": "Rosolare",
+    "avvertenza": "Nella ricetta Bimby è «soffriggi» a velocità 1: il programma Rosolare del Connect gestisce da solo velocità e rotazione. Controllate i valori sul display."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Aggiungete le patate novelle pelate, una presa di sale, un pizzico di pepe e una grattata abbondante di zenzero fresco."
+   },
+   {
+    "tipo": "pesata",
+    "g": 50,
+    "testo": "Pesate nel boccale 50 g di vino bianco."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Cuocete.",
+    "tempo_s": 420,
+    "velocita": 1,
+    "temp_c": 100,
+    "sinistrorsa": true,
+    "nota": "Soft/Antiorario: velocità 1 con rotazione sinistrorsa."
+   },
+   {
+    "tipo": "pesata",
+    "g": 200,
+    "testo": "Pesate nel boccale 200 g di latte di cocco."
+   },
+   {
+    "tipo": "pesata",
+    "g": 500,
+    "testo": "Unite 500 g di bocconcini di vitello."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Unite 2 cucchiaini abbondanti di curry in polvere, 3 foglie di alloro, 4 foglie di salvia e qualche bacca di ginepro."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Cuocete.",
+    "tempo_s": 900,
+    "velocita": 1,
+    "temp_c": 100,
+    "sinistrorsa": true,
+    "nota": "Soft/Antiorario: velocità 1 con rotazione sinistrorsa."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Servite il vitello al curry con un'insalatina, del riso in bianco o con un pane chapati."
+   }
+  ]
+ },
+ {
+  "id": "farrotto-zucchine",
+  "titolo": "Farrotto alle zucchine cremoso",
+  "categoria": "Primi",
+  "paese": "Italia",
+  "dedotto": [],
+  "tempo_prep_min": 3,
+  "tempo_cottura_min": 40,
+  "tempo_min": 43,
+  "porzioni": 4,
+  "difficolta": "NA",
+  "fonte": "Ricette Bimby (Flavia)",
+  "immagine": "farrotto-zucchine.jpg",
+  "ingredienti": [
+   {
+    "testo": "40 g di cipolla a metà",
+    "nome": "cipolla"
+   },
+   {
+    "testo": "30 g olio extravergine di oliva",
+    "nome": "olio extravergine d'oliva"
+   },
+   {
+    "testo": "200 g di zucchine",
+    "nome": "zucchine"
+   },
+   {
+    "testo": "560 g di acqua",
+    "nome": "acqua"
+   },
+   {
+    "testo": "1 cucchiaio di dado vegetale",
+    "nome": "dado vegetale"
+   },
+   {
+    "testo": "280 g di farro perlato",
+    "nome": "farro"
+   },
+   {
+    "testo": "80 g di stracchino",
+    "nome": "stracchino"
+   }
+  ],
+  "procedimento": [
+   "Mettere nel boccale 40 g di cipolla e trita Qualche Sec. Vel. 7.",
+   "Riunire sul fondo con la spatola ciò che è finito sui bordi del boccale.",
+   "Aggiungi 30 g di olio extravergine di oliva e insaporisci 3 Min. 120° Vel. 1.",
+   "Aggiungi 200 g di zucchine tagliandole a cubetti e cuoci 5 Min. 120° antiorario Vel.1.",
+   "Aggiungi 560 g di acqua, un cucchiaio di dado vegetale e 280 g di farro, cuoci per il tempo indicato dalla confezione 100° antiorario Vel. cucchiaio.",
+   "Aggiungi 80 g di stracchino e mescola con la spatola.",
+   "Lascia riposare 5 Min. nel boccale prima di servire."
+  ],
+  "note": [
+   "Se utilizzi una qualità di farro diversa (es. farro integrale) ti basta adattare il tempo di cottura in base alle indicazioni riportate sulla confezione. Tieni a portata di mano dell'acqua calda da aggiungere in caso di necessità."
+  ],
+  "passi": [
+   {
+    "tipo": "pesata",
+    "g": 40,
+    "testo": "Pesate nel boccale 40 g di cipolla a metà."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Tritate la cipolla.",
+    "tempo_s": 5,
+    "velocita": 7,
+    "temp_c": 0,
+    "sinistrorsa": false,
+    "avvertenza": "La ricetta dice «qualche secondo»: 5 secondi è indicativo. Controllate il trito."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Riunite sul fondo con la spatola ciò che è finito sui bordi del boccale."
+   },
+   {
+    "tipo": "pesata",
+    "g": 30,
+    "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Insaporite.",
+    "tempo_s": 180,
+    "velocita": 1,
+    "temp_c": 120,
+    "sinistrorsa": false
+   },
+   {
+    "tipo": "pesata",
+    "g": 200,
+    "testo": "Pesate 200 g di zucchine tagliate a cubetti e versatele nel boccale."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Cuocete.",
+    "tempo_s": 300,
+    "velocita": 1,
+    "temp_c": 120,
+    "sinistrorsa": true
+   },
+   {
+    "tipo": "pesata",
+    "g": 560,
+    "testo": "Pesate nel boccale 560 g di acqua."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Aggiungete 1 cucchiaio di dado vegetale."
+   },
+   {
+    "tipo": "pesata",
+    "g": 280,
+    "testo": "Pesate nel boccale 280 g di farro perlato."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Cuocete per il tempo indicato sulla confezione del farro.",
+    "tempo_s": null,
+    "velocita": 1,
+    "temp_c": 100,
+    "sinistrorsa": true,
+    "nota": "Il tempo dipende dalla confezione: controllatelo e impostatelo voi. Soft/Antiorario: velocità 1 con rotazione sinistrorsa."
+   },
+   {
+    "tipo": "pesata",
+    "g": 80,
+    "testo": "Aggiungete 80 g di stracchino."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Mescolate con la spatola."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Lasciate riposare 5 minuti nel boccale prima di servire.",
+    "attesa_s": 300
+   }
+  ]
+ },
+ {
+  "id": "risotto-zucca-gorgonzola",
+  "titolo": "Risotto zucca e gorgonzola",
+  "categoria": "Primi",
+  "paese": "Italia",
+  "dedotto": [
+   "paese"
+  ],
+  "tempo_prep_min": 5,
+  "tempo_cottura_min": 30,
+  "tempo_min": 35,
+  "porzioni": 4,
+  "difficolta": "Bassa",
+  "fonte": "RicettePerBimby",
+  "immagine": "risotto-zucca-gorgonzola.jpg",
+  "ingredienti": [
+   {
+    "testo": "Mezza cipolla",
+    "nome": "cipolla"
+   },
+   {
+    "testo": "500 g (pulita) zucca",
+    "nome": "zucca"
+   },
+   {
+    "testo": "30 g olio extravergine di oliva",
+    "nome": "olio extravergine d'oliva"
+   },
+   {
+    "testo": "600 g acqua",
+    "nome": "acqua"
+   },
+   {
+    "testo": "1 dado vegetale",
+    "nome": "dado vegetale"
+   },
+   {
+    "testo": "300 g riso Carnaroli",
+    "nome": "riso carnaroli"
+   },
+   {
+    "testo": "Sale fino q.b.",
+    "nome": "sale"
+   },
+   {
+    "testo": "30 g burro",
+    "nome": "burro"
+   },
+   {
+    "testo": "Gorgonzola (dolce) q.b.",
+    "nome": "gorgonzola"
+   },
+   {
+    "testo": "Parmigiano (grattugiato) q.b.",
+    "nome": "parmigiano"
+   }
+  ],
+  "procedimento": [
+   "Mettere nel boccale la cipolla a fettine e la zucca a tocchetti: 15 sec. vel. 5.",
+   "Raccogliere sul fondo: 15 sec. vel. 5.",
+   "Raccogliere sul fondo e aggiungere l'olio: 3 min. 100° vel. 1.",
+   "Aggiungere l'acqua e il dado: 10 min. 100° vel. 1.",
+   "Aggiungere il riso e il sale: tempo indicato sulla confezione 100° vel. 1 antiorario.",
+   "Aggiungere il burro e il gorgonzola a tocchetti: 2 min. 100° vel. Soft antiorario.",
+   "Impiattare, cospargere con del parmigiano, del gorgonzola a dadini e servire."
+  ],
+  "note": [],
+  "passi": [
+   {
+    "tipo": "testo",
+    "testo": "Tagliate mezza cipolla a fettine."
+   },
+   {
+    "tipo": "pesata",
+    "g": 500,
+    "testo": "Pesate nel boccale 500 g di zucca pulita, a tocchetti, e aggiungete la cipolla."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Tritate.",
+    "tempo_s": 15,
+    "velocita": 5,
+    "temp_c": 0,
+    "sinistrorsa": false
+   },
+   {
+    "tipo": "testo",
+    "testo": "Raccogliete sul fondo con la spatola."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Tritate ancora.",
+    "tempo_s": 15,
+    "velocita": 5,
+    "temp_c": 0,
+    "sinistrorsa": false,
+    "nota": "Come da ricetta originale."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Raccogliete sul fondo con la spatola."
+   },
+   {
+    "tipo": "pesata",
+    "g": 30,
+    "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Soffriggete.",
+    "tempo_s": 180,
+    "velocita": 1,
+    "temp_c": 100,
+    "sinistrorsa": false
+   },
+   {
+    "tipo": "pesata",
+    "g": 600,
+    "testo": "Pesate nel boccale 600 g di acqua."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Aggiungete 1 dado vegetale."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Cuocete.",
+    "tempo_s": 600,
+    "velocita": 1,
+    "temp_c": 100,
+    "sinistrorsa": false
+   },
+   {
+    "tipo": "pesata",
+    "g": 300,
+    "testo": "Pesate nel boccale 300 g di riso Carnaroli."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Aggiungete sale fino q.b."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Cuocete per il tempo indicato sulla confezione del riso.",
+    "tempo_s": null,
+    "velocita": 1,
+    "temp_c": 100,
+    "sinistrorsa": true,
+    "nota": "Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
+   },
+   {
+    "tipo": "pesata",
+    "g": 30,
+    "testo": "Pesate nel boccale 30 g di burro."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Aggiungete il gorgonzola dolce a tocchetti."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Mantecate.",
+    "tempo_s": 120,
+    "velocita": 1,
+    "temp_c": 100,
+    "sinistrorsa": true,
+    "nota": "Soft/Antiorario: velocità 1 con rotazione sinistrorsa."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Impiattate, cospargete con parmigiano grattugiato e gorgonzola a dadini. Servite."
+   }
+  ]
+ },
+ {
+  "id": "filetto-maiale-cachi",
+  "titolo": "Filetto di maiale con salsa ai cachi",
+  "categoria": "Secondi",
+  "paese": "Italia",
+  "dedotto": [
+   "categoria"
+  ],
+  "tempo_prep_min": 30,
+  "tempo_cottura_min": null,
+  "tempo_min": 120,
+  "porzioni": 6,
+  "difficolta": "Media",
+  "fonte": "Bimby (Vorwerk)",
+  "immagine": "filetto-maiale-cachi.jpg",
+  "ingredienti": [
+   {
+    "testo": "200 g di cachi, sbucciati e a pezzi",
+    "nome": "cachi",
+    "gruppo": "Salsa ai cachi"
+   },
+   {
+    "testo": "1 cucchiaino di zucchero di canna",
+    "nome": "zucchero di canna",
+    "gruppo": "Salsa ai cachi"
+   },
+   {
+    "testo": "20 g di burro",
+    "nome": "burro",
+    "gruppo": "Salsa ai cachi"
+   },
+   {
+    "testo": "60 g di vino passito",
+    "nome": "vino passito",
+    "gruppo": "Salsa ai cachi"
+   },
+   {
+    "testo": "1200 g di acqua",
+    "nome": "acqua",
+    "gruppo": "Filetto"
+   },
+   {
+    "testo": "30 g di succo di limone",
+    "nome": "limone",
+    "gruppo": "Filetto"
+   },
+   {
+    "testo": "1 filetto di maiale, senza nervi (intero, 600-700 g circa)",
+    "nome": "filetto di maiale",
+    "gruppo": "Filetto"
+   },
+   {
+    "testo": "200 g di pancetta, a fette",
+    "nome": "pancetta",
+    "gruppo": "Filetto"
+   },
+   {
+    "testo": "2-3 pizzichi di sale",
+    "nome": "sale",
+    "gruppo": "Filetto"
+   },
+   {
+    "testo": "2-3 pizzichi di pepe nero macinato",
+    "nome": "pepe",
+    "gruppo": "Filetto"
+   }
+  ],
+  "procedimento": [
+   "Salsa ai cachi. Mettere nel boccale i cachi, lo zucchero di canna e il burro, insaporire: 5 min./100°C/vel. 1.",
+   "Aggiungere il vino passito e cuocere: 5 min./100°C/vel. 1 senza misurino, poi posizionare il misurino e frullare: 10 sec./vel. 8. Trasferire in una ciotola e tenere da parte. Lavare il boccale.",
+   "Filetto. Posizionare il Copri Lame. Mettere nel boccale l'acqua e il succo di limone, impostare Bollitore/80°C. Nel frattempo, preparare il filetto di maiale.",
+   "Dividere il filetto in 2 parti. Stendere sul piano di lavoro 2 fogli di pellicola trasparente resistente al calore e sistemare sopra ciascuno 100 g di pancetta, sovrapponendo leggermente le fette fino a formare dei rettangoli. Sistemare al centro di ciascun rettangolo di pancetta il filetto di maiale e insaporire con sale e pepe. Arrotolare tutto il filetto con la pancetta poi avvolgerlo bene nella pellicola trasparente, chiudendo le estremità. Sistemare ciascun filetto in 1 sacchetto per sottovuoto e sigillare con l'apposita macchina.",
+   "Sistemare nel boccale i sacchetti con i filetti, aiutandosi con una pinza da cucina e assicurandosi che siano completamente immersi nell'acqua, impostare Sottovuoto/1 h 30 min./75°C. Togliere i sacchetti dal boccale con l'aiuto della pinza.",
+   "Scaldare una padella antiaderente su fuoco medio-alto. Togliere i filetti dai sacchetti, srotolarli dalla pellicola trasparente e poi scottarli facendoli dorare qualche minuto su tutti i lati.",
+   "Sistemare il filetto su un tagliere e tagliarlo a fette (2-3 cm). Servire accompagnando con la salsa ai cachi."
+  ],
+  "note": [
+   "Per la cottura sottovuoto utilizzare sacchetti resistenti ai tempi e alle temperature previste: specifici per alimenti e per cottura sottovuoto, resistenti fino a 100 °C e a 8 ore di cottura, BPA free e PVC free."
+  ],
+  "passi": [
+   {
+    "tipo": "pesata",
+    "g": 200,
+    "testo": "Pesate nel boccale 200 g di cachi sbucciati e a pezzi."
+   },
+   {
+    "tipo": "pesata",
+    "g": 20,
+    "testo": "Aggiungete 20 g di burro."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Aggiungete 1 cucchiaino di zucchero di canna."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Insaporite.",
+    "tempo_s": 300,
+    "velocita": 1,
+    "temp_c": 100,
+    "sinistrorsa": false
+   },
+   {
+    "tipo": "pesata",
+    "g": 60,
+    "testo": "Pesate nel boccale 60 g di vino passito."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Cuocete senza misurino.",
+    "tempo_s": 300,
+    "velocita": 1,
+    "temp_c": 100,
+    "sinistrorsa": false,
+    "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Posizionate il misurino."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Frullate.",
+    "tempo_s": 10,
+    "velocita": 8,
+    "temp_c": 0,
+    "sinistrorsa": false
+   },
+   {
+    "tipo": "testo",
+    "testo": "Trasferite la salsa in una ciotola e tenetela da parte. Lavate il boccale."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Posizionate il Copri Lame.",
+    "avvertenza": "Il Copri Lame è un accessorio del Bimby: non è nelle tabelle di conversione. Verificate se serve sul Connect."
+   },
+   {
+    "tipo": "pesata",
+    "g": 1200,
+    "testo": "Pesate nel boccale 1200 g di acqua."
+   },
+   {
+    "tipo": "pesata",
+    "g": 30,
+    "testo": "Aggiungete 30 g di succo di limone."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Scaldate l'acqua a 80 °C.",
+    "tempo_s": null,
+    "velocita": null,
+    "temp_c": 80,
+    "sinistrorsa": false,
+    "avvertenza": "Modalità Bollitore del Bimby: non è nelle tabelle. Il Connect arriva a 130 °C, ma verificate sul display come impostare la sola temperatura senza tempo e senza velocità."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Nel frattempo preparate il filetto di maiale: dividetelo in 2 parti. Stendete sul piano di lavoro 2 fogli di pellicola trasparente resistente al calore e sistemate sopra ciascuno 100 g di pancetta, sovrapponendo leggermente le fette fino a formare dei rettangoli."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Sistemate al centro di ciascun rettangolo di pancetta il filetto di maiale e insaporite con sale e pepe. Arrotolate il filetto con la pancetta, avvolgetelo bene nella pellicola trasparente e chiudete le estremità."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Sistemate ciascun filetto in 1 sacchetto per sottovuoto e sigillate con l'apposita macchina.",
+    "nota": "Usate sacchetti per cottura sottovuoto resistenti fino a 100 °C e a 8 ore, BPA free e PVC free."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Sistemate nel boccale i sacchetti con i filetti, aiutandovi con una pinza da cucina. Assicuratevi che siano completamente immersi nell'acqua."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Cottura sottovuoto.",
+    "tempo_s": 5400,
+    "velocita": null,
+    "temp_c": 75,
+    "sinistrorsa": false,
+    "avvertenza": "Modalità Sottovuoto del Bimby (1 h 30 min a 75 °C): non è nelle tabelle e la velocità non è indicata. Verificate come impostarla sul Connect."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Togliete i sacchetti dal boccale con l'aiuto della pinza."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Scaldate una padella antiaderente su fuoco medio-alto. Togliete i filetti dai sacchetti, srotolateli dalla pellicola e scottateli facendoli dorare qualche minuto su tutti i lati."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Sistemate il filetto su un tagliere e tagliatelo a fette (2-3 cm). Servite accompagnando con la salsa ai cachi."
+   }
+  ]
+ },
+ {
+  "id": "tacos-pulled-pork",
+  "titolo": "Tacos integrali con pulled pork alla birra",
+  "categoria": "Secondi",
+  "paese": "Messico",
+  "dedotto": [
+   "categoria",
+   "paese"
+  ],
+  "tempo_prep_min": 30,
+  "tempo_cottura_min": null,
+  "tempo_min": 300,
+  "porzioni": 6,
+  "difficolta": "Media",
+  "fonte": "Bimby (Vorwerk)",
+  "immagine": null,
+  "ingredienti": [
+   {
+    "testo": "400-450 g di farina integrale (circa il 16% di contenuto proteico) + q.b.",
+    "nome": "farina integrale"
+   },
+   {
+    "testo": "290 g di acqua bollente",
+    "nome": "acqua"
+   },
+   {
+    "testo": "30 g di olio extravergine di oliva",
+    "nome": "olio extravergine d'oliva"
+   },
+   {
+    "testo": "2 cucchiaini di sale",
+    "nome": "sale"
+   },
+   {
+    "testo": "4 spicchi di aglio",
+    "nome": "aglio"
+   },
+   {
+    "testo": "150 g di cipolle, a metà",
+    "nome": "cipolla"
+   },
+   {
+    "testo": "800 g di spalla di maiale, senza ossa, in 5 pezzi",
+    "nome": "spalla di maiale"
+   },
+   {
+    "testo": "500 g di birra, stout",
+    "nome": "birra"
+   },
+   {
+    "testo": "150 g di acqua",
+    "nome": "acqua"
+   },
+   {
+    "testo": "70-80 g di miele",
+    "nome": "miele"
+   },
+   {
+    "testo": "2 cucchiaini di paprika in polvere, affumicata",
+    "nome": "paprika"
+   },
+   {
+    "testo": "1 cucchiaino di cumino in polvere",
+    "nome": "cumino"
+   },
+   {
+    "testo": "2 cucchiai di miso",
+    "nome": "miso"
+   },
+   {
+    "testo": "1 bacca di anice stellato",
+    "nome": "anice stellato"
+   },
+   {
+    "testo": "1 stecca di cannella, a metà",
+    "nome": "cannella"
+   },
+   {
+    "testo": "2 cucchiai di zucchero grezzo",
+    "nome": "zucchero"
+   },
+   {
+    "testo": "80 g di cipolla rossa, tritata",
+    "nome": "cipolla rossa"
+   },
+   {
+    "testo": "Foglie di coriandolo, fresche, a piacere",
+    "nome": "coriandolo"
+   },
+   {
+    "testo": "80-100 g di fagioli neri interi in scatola (opzionale), sgocciolati",
+    "nome": "fagioli neri"
+   },
+   {
+    "testo": "1-2 peperoncini jalapeño freschi, a rondelle",
+    "nome": "jalapeño"
+   }
+  ],
+  "procedimento": [
+   "Mettere nel boccale la farina integrale, l'acqua, 10 g di olio extravergine di oliva e 1 cucchiaino di sale, impostare: Spiga/4 min. Trasferire in una ciotola, coprire con pellicola trasparente e lasciare riposare per 30 minuti. Nel frattempo, continuare con la ricetta. Pulire il boccale.",
+   "Mettere nel boccale l'aglio e le cipolle, tritare: 3 sec./vel. 5. Riunire sul fondo con la spatola.",
+   "Aggiungere 20 g di olio extravergine di oliva e insaporire: 5 min./120°C/vel. 0.5.",
+   "Mettere nel boccale la carne di maiale, la birra, l'acqua, il miele, la paprika affumicata, il cumino, il miso, l'anice stellato, la cannella, lo zucchero e 1 cucchiaino di sale, impostare Cottura lenta/4 h 30 min./98°C. Nel frattempo, dividere l'impasto in 24 pezzi uguali. Su una superficie infarinata, stendere con un matterello 1 pezzo alla volta in un disco (Ø circa 12 cm). Scaldare una padella a fuoco medio e cuocere circa 1 minuto su ciascun lato o fino a quando ben cotte. Trasferire su un piatto e coprire con pellicola trasparente. Tenere da parte fino al momento del bisogno.",
+   "Sistemare il recipiente del Varoma sopra una ciotola capiente e svuotare al suo interno il contenuto del boccale, conservando nella ciotola il liquido di cottura e nel recipiente del Varoma la carne.",
+   "Mettere nel boccale la carne cotta e tritare: 3-4 sec./vel. 4. Trasferire in una ciotola e tenere da parte.",
+   "Prima di servire, scaldare bene una padella antiaderente, immergere ciascun tacos nel liquido di cottura della carne e poi scaldarlo nella padella molto calda a fuoco alto per 8-10 secondi.",
+   "Farcire ogni taco con 2-3 cucchiai di carne e servire guarnendo con cipolle rosse, coriandolo, fagioli neri (opzionale) e jalapeño."
+  ],
+  "note": [
+   "In alternativa è possibile utilizzare il liquido di cottura per ungere la padella prima di passare i tacos.",
+   "Servire 4 pezzi a persona o 3 pezzi per una porzione più piccola.",
+   "Trascritto da uno screenshot a bassa risoluzione: controllare in particolare velocità 0.5, 98 °C, 24 pezzi e 800 g di spalla."
+  ],
+  "passi": [
+   {
+    "tipo": "pesata",
+    "g": 400,
+    "testo": "Pesate nel boccale 400 g di farina integrale.",
+    "nota": "La ricetta indica 400-450 g: regolate la farina all'impasto."
+   },
+   {
+    "tipo": "pesata",
+    "g": 290,
+    "testo": "Aggiungete 290 g di acqua bollente."
+   },
+   {
+    "tipo": "pesata",
+    "g": 10,
+    "testo": "Aggiungete 10 g di olio extravergine di oliva."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Aggiungete 1 cucchiaino di sale."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Impastate.",
+    "tempo_s": 240,
+    "velocita": null,
+    "temp_c": 0,
+    "sinistrorsa": false,
+    "programma": "Impastare",
+    "avvertenza": "«Spiga» del Bimby corrisponde al programma Impastare del Connect: durata e velocità le gestisce il programma, non sostituitelo con una velocità manuale. Nella ricetta sono 4 minuti."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Trasferite l'impasto in una ciotola, copritelo con pellicola trasparente e lasciatelo riposare 30 minuti. Nel frattempo continuate con la ricetta. Pulite il boccale.",
+    "attesa_s": 1800
+   },
+   {
+    "tipo": "testo",
+    "testo": "Mettete nel boccale 4 spicchi di aglio."
+   },
+   {
+    "tipo": "pesata",
+    "g": 150,
+    "testo": "Aggiungete 150 g di cipolle, tagliate a metà."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Tritate.",
+    "tempo_s": 3,
+    "velocita": 5,
+    "temp_c": 0,
+    "sinistrorsa": false
+   },
+   {
+    "tipo": "testo",
+    "testo": "Riunite sul fondo con la spatola."
+   },
+   {
+    "tipo": "pesata",
+    "g": 20,
+    "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Insaporite.",
+    "tempo_s": 300,
+    "velocita": 1,
+    "temp_c": 120,
+    "sinistrorsa": false,
+    "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, riducete la velocità a quella minima."
+   },
+   {
+    "tipo": "pesata",
+    "g": 800,
+    "testo": "Pesate nel boccale 800 g di spalla di maiale, senza ossa, in 5 pezzi."
+   },
+   {
+    "tipo": "pesata",
+    "g": 500,
+    "testo": "Aggiungete 500 g di birra stout."
+   },
+   {
+    "tipo": "pesata",
+    "g": 150,
+    "testo": "Aggiungete 150 g di acqua."
+   },
+   {
+    "tipo": "pesata",
+    "g": 70,
+    "testo": "Aggiungete 70 g di miele.",
+    "nota": "La ricetta indica 70-80 g."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Aggiungete 2 cucchiaini di paprika affumicata, 1 cucchiaino di cumino, 2 cucchiai di miso, 1 bacca di anice stellato, 1 stecca di cannella a metà, 2 cucchiai di zucchero grezzo e 1 cucchiaino di sale."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Cottura lenta.",
+    "tempo_s": 16200,
+    "velocita": null,
+    "temp_c": 98,
+    "sinistrorsa": false,
+    "avvertenza": "Cottura lenta del Bimby (4 h 30 min a 98 °C): non è nelle tabelle di conversione. Verificate se il timer del Connect arriva a 4 h 30 e quale velocità usare."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Nel frattempo dividete l'impasto in 24 pezzi uguali. Su una superficie infarinata stendete con il matterello 1 pezzo alla volta in un disco (Ø circa 12 cm)."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Scaldate una padella a fuoco medio e cuocete i dischi circa 1 minuto per lato. Trasferite su un piatto e copriteli con pellicola trasparente. Teneteli da parte."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Sistemate il recipiente del Varoma sopra una ciotola capiente e svuotatevi dentro il contenuto del boccale: il liquido di cottura resta nella ciotola, la carne nel recipiente.",
+    "avvertenza": "Qui il Varoma serve solo da colino. Sul Connect usate un colino capiente o l'accessorio della cottura al vapore."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Mettete nel boccale la carne cotta."
+   },
+   {
+    "tipo": "robot",
+    "testo": "Tritate.",
+    "tempo_s": 4,
+    "velocita": 4,
+    "temp_c": 0,
+    "sinistrorsa": false,
+    "avvertenza": "La ricetta indica 3-4 secondi: controllate la sfilacciatura."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Trasferite in una ciotola e tenete da parte."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Prima di servire scaldate bene una padella antiaderente. Immergete ciascun tacos nel liquido di cottura della carne e scaldatelo nella padella molto calda a fuoco alto per 8-10 secondi."
+   },
+   {
+    "tipo": "testo",
+    "testo": "Farcite ogni taco con 2-3 cucchiai di carne. Servite guarnendo con 80 g di cipolla rossa tritata, coriandolo, fagioli neri (opzionale) e jalapeño a rondelle."
+   }
+  ]
+ }
+]
