@@ -19,7 +19,7 @@ def norm(s):
 
 
 def stem(w):
-    return w[:-1] if len(w) >= 5 and w[-1] in "aeio" else w
+    return w[:-1] if len(w) >= 4 and w[-1] in "aeio" else w
 
 
 def tokens(s):

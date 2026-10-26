@@ -1,0 +1,202 @@
+{
+ "id": "risotto-gamberi-salsiccia-e-mele",
+ "titolo": "Risotto gamberi, salsiccia e mele",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 5,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "risotto-gamberi-salsiccia-e-mele.jpg",
+ "ingredienti": [
+  {
+   "testo": "60 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "200 g di salsiccia, a pezzi",
+   "nome": "salsiccia"
+  },
+  {
+   "testo": "320 g di riso Carnaroli (cottura 18 min.)",
+   "nome": "riso carnaroli"
+  },
+  {
+   "testo": "100 g di vino bianco, secco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "900 g brodo di carne",
+   "nome": "brodo carne"
+  },
+  {
+   "testo": "1 pizzico di sale (+ q.b.)",
+   "nome": "sale"
+  },
+  {
+   "testo": "300 g di gamberetti freschi sgusciati",
+   "nome": "gamberetti"
+  },
+  {
+   "testo": "400 g di mele, a dadini",
+   "nome": "mele"
+  },
+  {
+   "testo": "40 g di burro",
+   "nome": "burro"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla e tritare: 3 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1",
+  "Unire la salsiccia e cuocere: 3 min./100°C/vel. 1",
+  "Aggiungere il riso e tostare: 3 min./120°C//vel. 1 senza misurino.",
+  "Unire il vino e sfumare: 2 min./100°C//vel. 1 senza misurino.",
+  "Aggiungere il brodo e il sale, cuocere: 6 min./100°C//vel. 1",
+  "Unire i gamberetti e le mele, continuare la cottura: 10 min./100°C//vel. 1.",
+  "Al termine, controllare la cottura del riso e, se necessario, aggiustare di sale. Trasferire il risotto in una risottiera. Aggiungere il burro e mantecare con la spatola. Servire subito."
+ ],
+ "note": [
+  "In alternativa: 900 g di acqua, + 2 cucchiaini di dado per brodo di carne fatto in casa"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di salsiccia, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di riso Carnaroli (cottura 18 min.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tostate.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di vino bianco, secco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 900,
+   "testo": "Pesate 900 g di brodo di carne."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 360,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di gamberetti freschi sgusciati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di mele, a dadini."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Al termine, controllate la cottura del riso e, se necessario, aggiustate di sale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il risotto in una risottiera."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete il burro e mantecate con la spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito."
+  }
+ ],
+ "origine": "cookidoo:r69544",
+ "importata": "2026-10-26"
+}

@@ -1,0 +1,219 @@
+{
+ "id": "minestra-a-crudo",
+ "titolo": "Minestra a crudo",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 14,
+ "tempo_cottura_min": null,
+ "tempo_min": 30,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "minestra-a-crudo.jpg",
+ "ingredienti": [
+  {
+   "testo": "2 gambi di prezzemolo fresco, le foglioline lavate e asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "30 g di Parmigiano Reggiano, a pezzi (3 cm)",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "1 spicchio di aglio, a piacere",
+   "nome": "aglio"
+  },
+  {
+   "testo": "140 g di zucchina, a pezzi (2 cm)",
+   "nome": "zucchina"
+  },
+  {
+   "testo": "70 g di gambo di sedano, a pezzi (2 cm)",
+   "nome": "sedano"
+  },
+  {
+   "testo": "100 g di carota, a pezzi (2 cm)",
+   "nome": "carota"
+  },
+  {
+   "testo": "50 g di cipolla, a metà",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "4 foglie di basilico fresche, lavate e asciugate",
+   "nome": "basilico"
+  },
+  {
+   "testo": "4 foglie di lattuga, lavate e asciugate",
+   "nome": "lattuga"
+  },
+  {
+   "testo": "350 g di patate a pasta farinosa, a pezzi grossi (3 cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "650 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "20 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "8 crostini di pane, tostato, a piacere",
+   "nome": "crostini pane"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo e tritare: 5 sec./vel. 7. Togliere e mettere da parte.",
+  "Senza lavare il boccale, mettere il Parmigiano reggiano e grattugiare: 10 sec./vel. 8. Togliere e tenere da parte.",
+  "Senza lavare il boccale, mettere l'aglio, la zucchina, il sedano, la carota, la cipolla, il basilico e la lattuga, tritare: 10 sec./vel. 7. Togliere dal boccale e tenere da parte.",
+  "Senza lavare il boccale, mettere le patate e tritare grossolanamente: 5 sec./vel. 4. Riunire sul fondo con la spatola.",
+  "Aggiungere il brodo e un pizzico di sale, cuocere: 15 min./100°C/vel. 1.",
+  "A fine cottura, attendere pochi minuti, aggiungere le verdure tritate tenute da parte e frullare: 30 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Trasferire la minestra in ciotole singole, irrorare con olio extravergine di oliva, spolverizzare con il prezzemolo tritato e il Parmigiano reggiano grattugiato. Servire con i crostini di pane tostato."
+ ],
+ "note": [
+  "A piacere, unire del finocchietto selvatico.",
+  "In alternativa: 650 g di acqua"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 2 gambi di prezzemolo fresco, le foglioline lavate e asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete e mettete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di Parmigiano Reggiano, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 10,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 140,
+   "testo": "Pesate 140 g di zucchina, a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Aggiungete 70 g di gambo di sedano, a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di carota, a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di cipolla, a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, a piacere, 4 foglie di basilico fresche, lavate e asciugate, 4 foglie di lattuga, lavate e asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete dal boccale e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di patate a pasta farinosa, a pezzi grossi (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 650,
+   "testo": "Pesate 650 g di brodo vegetale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 30,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la minestra in ciotole singole, irrorate con olio extravergine di oliva, spolverizzate con il prezzemolo tritato e il Parmigiano reggiano grattugiato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite con i crostini di pane tostato."
+  }
+ ],
+ "origine": "cookidoo:r65686",
+ "importata": "2026-10-26"
+}
