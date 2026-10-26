@@ -1,0 +1,154 @@
+{
+ "id": "zuppa-di-quinoa",
+ "titolo": "Zuppa di quinoa (senza glutine)",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 55,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-quinoa.jpg",
+ "ingredienti": [
+  {
+   "testo": "50 g di scalogno, a pezzi",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "20 g di funghi porcini secchi, ammollati 10 minuti in acqua e strizzati",
+   "nome": "funghi porcini secchi"
+  },
+  {
+   "testo": "60 g di olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine d'oliva"
+  },
+  {
+   "testo": "300 g di patate, pelate e a pezzi",
+   "nome": "patate"
+  },
+  {
+   "testo": "150 g di pomodori ciliegino, a metà",
+   "nome": "pomodori ciliegino"
+  },
+  {
+   "testo": "800 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "200 g di quinoa in chicchi (vedere consigli)",
+   "nome": "quinoa"
+  },
+  {
+   "testo": "Parmigiano reggiano grattugiato q.b.",
+   "nome": "parmigiano reggiano"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale lo scalogno e i funghi porcini secchi, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 5 min./120°C/vel. 1.",
+  "Unire le patate, i pomodorini e l'acqua, cuocere: 15 min./100°C/antiorario/vel. 1.",
+  "Unire il sale e la quinoa, cuocere: 10 min./100°C/antiorario/vel. 1. Lasciare riposare 5 minuti nel boccale e trasferire la zuppa in 4 piatti fondi.",
+  "Servire irrorando con un filo di olio e con una spolverizzata di Parmigiano grattugiato a piacere."
+ ],
+ "note": [
+  "Si consiglia di seguire le istruzioni di uso indicate sulla confezione di quinoa utilizzata.",
+  "Per una zuppa più saporita si possono aggiungere 1-2 rametti di aneto al primo passaggio oppure 50-100 g di pancetta affumicata a cubetti al secondo."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di scalogno, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di funghi porcini secchi, ammollati 10 minuti in acqua e strizzati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di patate, pelate e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di pomodori ciliegino, tagliati a metà."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di quinoa in chicchi e aggiungetela.",
+   "nota": "Seguite le istruzioni indicate sulla confezione della quinoa."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate riposare 5 minuti nel boccale, poi trasferite la zuppa in 4 piatti fondi.",
+   "attesa_s": 300
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite irrorando con un filo di olio e con una spolverizzata di Parmigiano reggiano grattugiato a piacere."
+  }
+ ],
+ "origine": "cookidoo:r135467",
+ "importata": "2026-10-26"
+}

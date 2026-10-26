@@ -73,6 +73,8 @@ def valida(r, altre=()):
     for a in altre:
         if a.get("id") == r.get("id"):
             E.append(f"duplicato: esiste già una ricetta con id «{rid}»")
+        elif r.get("origine") and a.get("origine") == r.get("origine"):
+            E.append(f"duplicato: «{r['origine']}» è già stata importata come «{a['titolo']}» ({a.get('id')})")
         elif norm(a.get("titolo", "")) == norm(r.get("titolo", "")):
             E.append(f"duplicato: esiste già una ricetta intitolata «{a['titolo']}» ({a.get('id')})")
     if E and not r.get("ingredienti") or not r.get("passi"):

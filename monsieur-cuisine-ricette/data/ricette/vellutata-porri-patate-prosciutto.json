@@ -1,0 +1,145 @@
+{
+ "id": "vellutata-porri-patate-prosciutto",
+ "titolo": "Vellutata porri, patate, prosciutto e crema al limone",
+ "categoria": "Primi",
+ "paese": "NA",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-porri-patate-prosciutto.jpg",
+ "ingredienti": [
+  {
+   "testo": "180 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "500 g di porro, a rondelle",
+   "nome": "porro"
+  },
+  {
+   "testo": "400 g di patate, a pezzi",
+   "nome": "patate"
+  },
+  {
+   "testo": "800 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "4 rametti di timo fresco, con le foglie rimosse",
+   "nome": "timo"
+  },
+  {
+   "testo": "1 cucchiaino di sale (+ q.b.)",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe macinato (+ q.b.)",
+   "nome": "pepe"
+  },
+  {
+   "testo": "50 g di pinoli sgusciati",
+   "nome": "pinoli"
+  },
+  {
+   "testo": "60 g di panna fresca liquida",
+   "nome": "panna fresca"
+  },
+  {
+   "testo": "Scorza di limone q.b.",
+   "nome": "limone"
+  },
+  {
+   "testo": "8 fette di prosciutto crudo di Parma",
+   "nome": "prosciutto crudo"
+  },
+  {
+   "testo": "Basilico fresco q.b.",
+   "nome": "basilico"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le cipolle e frullare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere il porro, le patate, l'acqua, il timo, il sale e il pepe, cuocere: 30 min./100°C/antiorario/vel. 1. Nel frattempo, tostare i pinoli in padella e tenere da parte. In una ciotolina, mescolare la panna con la scorza di limone e tenere da parte. Frullare: 30 sec. Servire calda con i pinoli tostati, la panna al limone, qualche fetta di prosciutto crudo e foglioline di basilico."
+ ],
+ "note": [
+  "In alternativa al prosciutto crudo di Parma: 8 fette di prosciutto Serrano.",
+  "Cookidoo indica «Arabia Saudita» come paese: sembra un errore, il paese è stato lasciato NA."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 180,
+   "testo": "Pesate nel boccale 180 g di cipolla, tagliata in quarti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di porro, a rondelle."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di patate, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 4 rametti di timo fresco con le foglie rimosse, 1 cucchiaino di sale e 1 pizzico di pepe macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Nel frattempo pesate 50 g di pinoli sgusciati, tostateli in padella e teneteli da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate in una ciotolina 60 g di panna fresca liquida, mescolatela con la scorza di limone e tenetela da parte."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 30,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calda con i pinoli tostati, la panna al limone, qualche fetta di prosciutto crudo (8 fette di prosciutto crudo di Parma) e foglioline di basilico."
+  }
+ ],
+ "origine": "cookidoo:r918280",
+ "importata": "2026-10-26"
+}

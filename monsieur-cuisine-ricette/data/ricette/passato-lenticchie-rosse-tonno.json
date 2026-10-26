@@ -1,0 +1,129 @@
+{
+ "id": "passato-lenticchie-rosse-tonno",
+ "titolo": "Passato di lenticchie rosse e tonno",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "passato-lenticchie-rosse-tonno.jpg",
+ "ingredienti": [
+  {
+   "testo": "30 g di concentrato di pomodoro",
+   "nome": "concentrato di pomodoro"
+  },
+  {
+   "testo": "80 g di olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine d'oliva"
+  },
+  {
+   "testo": "200 g di sedano rapa, sbucciato e a pezzi (2-3 cm)",
+   "nome": "sedano rapa"
+  },
+  {
+   "testo": "300 g di lenticchie rosse",
+   "nome": "lenticchie rosse"
+  },
+  {
+   "testo": "900 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di noce moscata in polvere",
+   "nome": "noce moscata"
+  },
+  {
+   "testo": "4 filetti di tonno in scatola al naturale, sgocciolati (circa 150 g l'uno)",
+   "nome": "filetti di tonno"
+  },
+  {
+   "testo": "2 rametti di timo fresco, foglioline lavate e asciugate",
+   "nome": "timo"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato (opzionale)",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il concentrato di pomodoro, l'olio extravergine di oliva, il sedano rapa, le lenticchie rosse, l'acqua, il sale e la noce moscata, cuocere: 30 min./100°C/vel. 1 con il cestello al posto del misurino per evitare schizzi. Poi amalgamare: 1 min./vel. 6. Trasferire il passato di lenticchie rosse all'interno di piatti fondi.",
+  "Sistemare i filetti di tonno sul passato al centro del piatto. Condire con una spolverizzata di foglioline di timo fresco, a piacere con del pepe nero macinato fresco ed un filo di olio extravergine di oliva.",
+  "Servire caldo."
+ ],
+ "note": [
+  "In alternativa al sedano rapa: 200 g di patate a pasta farinosa, sbucciate e a pezzi (2-3 cm).",
+  "A piacere sostituire i filetti di tonno in scatola al naturale con filetti in olio d'oliva o con filetti di sgombro grigliati in scatola."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di concentrato di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di sedano rapa, sbucciato e a pezzi di 2-3 cm."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di lenticchie rosse."
+  },
+  {
+   "tipo": "pesata",
+   "g": 900,
+   "testo": "Aggiungete 900 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale e 1 pizzico di noce moscata in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false,
+   "nota": "Come nella ricetta, mettete il cestello al posto del misurino per evitare schizzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Amalgamate.",
+   "tempo_s": 60,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il passato di lenticchie rosse all'interno di piatti fondi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate i filetti di tonno sul passato al centro del piatto. Condite con una spolverizzata di foglioline di timo fresco, a piacere con pepe nero macinato fresco e un filo di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite caldo."
+  }
+ ],
+ "origine": "cookidoo:r108991",
+ "importata": "2026-10-26"
+}

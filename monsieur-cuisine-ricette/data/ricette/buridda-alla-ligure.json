@@ -1,0 +1,242 @@
+{
+ "id": "buridda-alla-ligure",
+ "titolo": "Buridda alla ligure",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 55,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "buridda-alla-ligure.jpg",
+ "ingredienti": [
+  {
+   "testo": "4 rametti di prezzemolo fresco, foglioline lavate e asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "70 g di olio extravergine di oliva",
+   "nome": "olio extravergine d'oliva"
+  },
+  {
+   "testo": "90 g di cipolla, a metà",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 spicchio di aglio, senz'anima",
+   "nome": "aglio"
+  },
+  {
+   "testo": "500 g di stoccafisso, ammollato in acqua e dissalato, a pezzi (5-6 cm)",
+   "nome": "stoccafisso"
+  },
+  {
+   "testo": "100 g di vino bianco, preferibilmente tipo Pigato",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "80 g di passata di pomodoro",
+   "nome": "passata di pomodoro"
+  },
+  {
+   "testo": "100 g di olive taggiasche, con nocciolo",
+   "nome": "olive taggiasche"
+  },
+  {
+   "testo": "250 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe",
+   "nome": "pepe"
+  },
+  {
+   "testo": "400 g di patate, pelate e a pezzi (1-2 cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "8 pomodori ciliegino, a metà",
+   "nome": "pomodori ciliegino"
+  },
+  {
+   "testo": "60 g di pinoli sgusciati",
+   "nome": "pinoli"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo e 40 g di olio extravergine di oliva, tritare: 5 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Emulsionare: 40 sec./vel. 4. Trasferire l'emulsione in una ciotolina e tenere da parte.",
+  "Senza lavare il boccale mettere la cipolla e l'aglio, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Unire 30 g di olio extravergine di oliva e lo stoccafisso, insaporire: 3 min./120°C/antiorario/vel. cucchiaio.",
+  "Unire il vino bianco, sfumare senza misurino: 2 min./100°C/antiorario/vel. cucchiaio.",
+  "Aggiungere la passata di pomodoro, le olive, l'acqua, il sale e il pepe. Posizionare il recipiente del Varoma e sistemare al suo interno le patate, chiudere con il coperchio e cuocere: 15 min./Varoma/antiorario/vel. cucchiaio. Togliere con attenzione il Varoma.",
+  "Unire le patate cotte al contenuto del boccale, i pomodorini e i pinoli, cuocere: 10 min./100°C/antiorario/vel. cucchiaio.",
+  "Servire calda all'interno di 4 piatti fondi irrorando con un filo di emulsione al prezzemolo."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale le foglioline di 4 rametti di prezzemolo fresco, lavate e asciugate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Emulsionate.",
+   "tempo_s": 40,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "accessorio": "emulsionatore",
+   "nota": "Emulsionare: secondo la tabella di conversione si usa l'accessorio mixer (emulsionatore), velocità 1-4."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'emulsione in una ciotolina e tenetela da parte. Non lavate il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 90,
+   "testo": "Pesate nel boccale 90 g di cipolla, tagliata a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, senz'anima."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di stoccafisso, ammollato in acqua e dissalato, a pezzi di 5-6 cm."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di vino bianco, preferibilmente tipo Pigato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate senza misurino.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di passata di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di olive taggiasche, con nocciolo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale e 1 pizzico di pepe."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Pesate 400 g di patate, pelate e a pezzi di 1-2 cm."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il recipiente del Varoma, sistemate al suo interno le patate e chiudete con il coperchio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete a vapore.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite le patate cotte al contenuto del boccale, 8 pomodori ciliegino tagliati a metà."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di pinoli sgusciati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calda all'interno di 4 piatti fondi, irrorando con un filo di emulsione al prezzemolo."
+  }
+ ],
+ "origine": "cookidoo:r129645",
+ "importata": "2026-10-26"
+}

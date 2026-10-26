@@ -31,6 +31,8 @@ def percorso(nome):
 
 
 def sposta(files, dest):
+    if not files:
+        return
     dest.mkdir(parents=True, exist_ok=True)
     for n, f in enumerate(files, 1):
         shutil.move(str(f), dest / f"{dest.name}-{n}{f.suffix.lower()}")
@@ -96,7 +98,7 @@ def aggiungi(a):
 
     avv = [(n, p["avvertenza"]) for n, p in enumerate(r["passi"], 1) if p.get("avvertenza")]
     na = [k for k in ("categoria", "paese", "difficolta") if r.get(k) == "NA"] + [k for k in ("tempo_min", "porzioni") if r.get(k) is None]
-    print(f"IMPORTATA: {r['titolo']} ({len(r['passi'])} passi) -> import/ok/{rid}/")
+    print(f"IMPORTATA: {r['titolo']} ({len(r['passi'])} passi) -> data/ricette/{rid}.json" + (f", screenshot in import/ok/{rid}/" if files else ""))
     if r.get("dedotto"): print("  dedotti:", ", ".join(r["dedotto"]))
     if na: print("  NA:", ", ".join(na))
     for n, t in avv: print(f"  da valutare, passo {n}: {t}")
@@ -107,6 +109,7 @@ def aggiungi(a):
 def fallita(a):
     files = [percorso(n) for n in a.file]
     dest = FAILED / a.nome
+    dest.mkdir(parents=True, exist_ok=True)
     sposta(files, dest)
     (dest / "motivo.txt").write_text(f"{datetime.date.today().isoformat()}\n{a.motivo}\n", encoding="utf-8")
     print(f"spostati {len(files)} file in import/failed/{a.nome}/  ({a.motivo})")
@@ -119,7 +122,7 @@ def main():
     sub.add_parser("stato")
     p = sub.add_parser("aggiungi"); p.add_argument("ricetta"); p.add_argument("--screenshot", nargs="*", default=[])
     p.add_argument("--foto"); p.add_argument("--crop")
-    p = sub.add_parser("fallita"); p.add_argument("nome"); p.add_argument("motivo"); p.add_argument("file", nargs="+")
+    p = sub.add_parser("fallita"); p.add_argument("nome"); p.add_argument("motivo"); p.add_argument("file", nargs="*")
     a = ap.parse_args()
     return {"stato": lambda: stato() or 0, "aggiungi": lambda: aggiungi(a), "fallita": lambda: fallita(a)}[a.cmd]()
 

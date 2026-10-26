@@ -1,0 +1,158 @@
+{
+ "id": "vellutata-piselli-senza-scarti",
+ "titolo": "Vellutata di piselli senza scarti",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 120,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-piselli-senza-scarti.jpg",
+ "ingredienti": [
+  {
+   "testo": "300 g di baccelli di piselli",
+   "nome": "baccelli di piselli"
+  },
+  {
+   "testo": "700 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "20 g di olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine d'oliva"
+  },
+  {
+   "testo": "1 cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 foglia di sedano",
+   "nome": "sedano"
+  },
+  {
+   "testo": "50 g di piselli freschi, sgranati",
+   "nome": "piselli freschi"
+  },
+  {
+   "testo": "200 g di patate, pelate e a pezzi",
+   "nome": "patate"
+  },
+  {
+   "testo": "1 cucchiaino di dado per brodo vegetale",
+   "nome": "dado vegetale"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "Ricotta, a piacere",
+   "nome": "ricotta"
+  },
+  {
+   "testo": "Pane carasau, a piacere",
+   "nome": "pane carasau"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale i baccelli di piselli e l'acqua, cuocere: 40 min./100°C/vel. 1. Poi frullare: 10 sec. Sistemare un colino a maglia fine sopra una ciotola, filtrare la crema e tenere da parte.",
+  "Mettere nel boccale l'olio extravergine di oliva, la cipolla e la foglia di sedano, insaporire: 3 min./120°C/vel. 1.",
+  "Aggiungere i piselli sgranati, le patate, 700 g della crema tenuta da parte, il dado vegetale e il sale, cuocere: 40 min./120°C/vel. 1. Poi frullare: 20 sec.",
+  "Servire la vellutata calda con un filo di olio extravergine di oliva, una quenelle di ricotta e del pane carasau."
+ ],
+ "note": [
+  "Ricetta creata dalla Bimby Community Star Maurizia F. e testata da Bimby."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate nel boccale 300 g di baccelli di piselli."
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Aggiungete 700 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 2400,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate un colino a maglia fine sopra una ciotola, filtrate la crema e tenetela da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cipolla a pezzi e 1 foglia di sedano."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di piselli freschi, sgranati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di patate, pelate e a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 700 g della crema tenuta da parte, 1 cucchiaino di dado per brodo vegetale e 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 2400,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 20,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la vellutata calda con un filo di olio extravergine di oliva, una quenelle di ricotta e del pane carasau."
+  }
+ ],
+ "origine": "cookidoo:r914904",
+ "importata": "2026-10-26"
+}

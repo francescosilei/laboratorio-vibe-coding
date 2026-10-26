@@ -1,0 +1,155 @@
+{
+ "id": "zuppa-bulgur-lenticchie-rosse",
+ "titolo": "Zuppa di bulgur e lenticchie rosse",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-bulgur-lenticchie-rosse.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di cipolla, a metà",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "2-3 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "40 g di concentrato di pomodoro",
+   "nome": "concentrato di pomodoro"
+  },
+  {
+   "testo": "30 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "200 g di lenticchie rosse secche",
+   "nome": "lenticchie rosse"
+  },
+  {
+   "testo": "2 cucchiai di menta secca tritata",
+   "nome": "menta secca"
+  },
+  {
+   "testo": "30 g di riso",
+   "nome": "riso"
+  },
+  {
+   "testo": "20 g di bulgur",
+   "nome": "bulgur"
+  },
+  {
+   "testo": "1 ½ - 1 ¾ cucchiaini di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "¼ cucchiaino di pepe nero macinato",
+   "nome": "pepe nero"
+  },
+  {
+   "testo": "¼ cucchiaino di peperoncino secco piccante",
+   "nome": "peperoncino secco"
+  },
+  {
+   "testo": "1470 g di acqua, a temperatura ambiente",
+   "nome": "acqua"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla e l'aglio, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere il concentrato di pomodoro e il burro, insaporire: 4 min./120°C/vel. 1.",
+  "Unire le lenticchie rosse, la menta, il riso, il bulgur, il sale, il pepe nero, il peperoncino e l'acqua, cuocere: 50 min./105°C/vel. 1. Servire."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolla, tagliata a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2-3 spicchi di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di concentrato di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di burro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di lenticchie rosse secche."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiai di menta secca tritata."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di riso."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di bulgur."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 ½ - 1 ¾ cucchiaini di sale, ¼ cucchiaino di pepe nero macinato e ¼ cucchiaino di peperoncino secco piccante."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1470,
+   "testo": "Aggiungete 1470 g di acqua, a temperatura ambiente."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 3000,
+   "velocita": 1,
+   "temp_c": 105,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite."
+  }
+ ],
+ "origine": "cookidoo:r725611",
+ "importata": "2026-10-26"
+}

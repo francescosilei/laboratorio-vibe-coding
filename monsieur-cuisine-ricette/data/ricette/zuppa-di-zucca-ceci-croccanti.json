@@ -1,0 +1,231 @@
+{
+ "id": "zuppa-di-zucca-ceci-croccanti",
+ "titolo": "Zuppa di zucca con ceci croccanti",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 95,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-zucca-ceci-croccanti.jpg",
+ "ingredienti": [
+  {
+   "testo": "400 g di ceci bianchi in scatola, sgocciolati (peso netto)",
+   "nome": "ceci bianchi",
+   "gruppo": "Ceci croccanti"
+  },
+  {
+   "testo": "15 g di olio extravergine di oliva",
+   "nome": "olio extravergine d'oliva",
+   "gruppo": "Ceci croccanti"
+  },
+  {
+   "testo": "15 g di sciroppo di acero",
+   "nome": "sciroppo d'acero",
+   "gruppo": "Ceci croccanti"
+  },
+  {
+   "testo": "½ cucchiaino di zucchero grezzo",
+   "nome": "zucchero grezzo",
+   "gruppo": "Ceci croccanti"
+  },
+  {
+   "testo": "½ cucchiaino di semi di cumino",
+   "nome": "semi di cumino",
+   "gruppo": "Ceci croccanti"
+  },
+  {
+   "testo": "½ cucchiaino di aglio in polvere",
+   "nome": "aglio in polvere",
+   "gruppo": "Ceci croccanti"
+  },
+  {
+   "testo": "½ cucchiaino di paprika",
+   "nome": "paprika",
+   "gruppo": "Ceci croccanti"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale",
+   "gruppo": "Ceci croccanti"
+  },
+  {
+   "testo": "½ cucchiaino di pepe nero macinato",
+   "nome": "pepe nero",
+   "gruppo": "Ceci croccanti"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio",
+   "gruppo": "Zuppa di zucca"
+  },
+  {
+   "testo": "15 g di olio extravergine di oliva",
+   "nome": "olio extravergine d'oliva",
+   "gruppo": "Zuppa di zucca"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale",
+   "gruppo": "Zuppa di zucca"
+  },
+  {
+   "testo": "½ cucchiaino di foglie di salvia secca",
+   "nome": "salvia secca",
+   "gruppo": "Zuppa di zucca"
+  },
+  {
+   "testo": "900 g di polpa di zucca, a dadini (2-3 cm)",
+   "nome": "zucca",
+   "gruppo": "Zuppa di zucca"
+  },
+  {
+   "testo": "500 g di brodo vegetale",
+   "nome": "brodo vegetale",
+   "gruppo": "Zuppa di zucca"
+  },
+  {
+   "testo": "85 g di Feta (formaggio greco), sbriciolato",
+   "nome": "feta",
+   "gruppo": "Zuppa di zucca"
+  },
+  {
+   "testo": "Foglie di salvia fresca q.b.",
+   "nome": "salvia fresca",
+   "gruppo": "Zuppa di zucca"
+  }
+ ],
+ "procedimento": [
+  "Ceci croccanti. Preriscaldare il forno a 200°C. Foderare una teglia con carta alluminio e tenere da parte.",
+  "Appoggiare una ciotola sul coperchio del boccale e pesare al suo interno i ceci, l'olio extravergine di oliva, lo sciroppo di acero, lo zucchero, i semi di cumino, l'aglio, la paprika, il sale e il pepe. Amalgamare con la spatola gli ingredienti e trasferire sulla teglia preparata distribuendoli su tutta la superficie.",
+  "Cuocere in forno caldo per 45-50 minuti (200°C), girando a metà cottura, finché ben dorati e croccanti. Nel frattempo, procedere con la ricetta.",
+  "Zuppa di zucca. Mettere nel boccale l'aglio, l'olio extravergine di oliva, il sale e la salvia, tritare: 3 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Insaporire: 3 min./100°C/vel. cucchiaio.",
+  "Aggiungere la zucca e il brodo, cuocere: 20 min./100°C/vel. 1, poi frullare: 1 min./vel. 6, aumentando gradualmente la velocità. Tenere nel boccale in caldo fino a che saranno pronti i ceci.",
+  "Togliere con attenzione la teglia dal forno. Trasferire la zuppa nei piatti e guarnire con i ceci, la Feta e della salvia.",
+  "Servire calda."
+ ],
+ "note": [
+  "In alternativa alla polpa di zucca: 900 g di zucca Kabocha, pulita dalla buccia, a dadini (2-3 cm)."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Preriscaldate il forno a 200 °C. Foderate una teglia con carta alluminio e tenetela da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Appoggiate una ciotola sul coperchio del boccale e pesatevi 400 g di ceci bianchi in scatola, sgocciolati (peso netto)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Aggiungete nella ciotola 15 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Aggiungete nella ciotola 15 g di sciroppo di acero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete nella ciotola ½ cucchiaino ciascuno di zucchero grezzo, semi di cumino, aglio in polvere, paprika, sale e pepe nero macinato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Amalgamate con la spatola e trasferite i ceci sulla teglia preparata, distribuendoli su tutta la superficie."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Cuocete in forno caldo per 45-50 minuti (200 °C), girando a metà cottura, finché ben dorati e croccanti. Nel frattempo procedete con la ricetta.",
+   "attesa_s": 2700,
+   "nota": "La ricetta indica 45-50 minuti: il timer è impostato a 45."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 2 spicchi di aglio, 1 cucchiaino di sale e ½ cucchiaino di foglie di salvia secca."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Aggiungete 15 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 900,
+   "testo": "Aggiungete 900 g di polpa di zucca, a dadini di 2-3 cm."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Tenete la zuppa nel boccale, al caldo, fino a che i ceci saranno pronti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione la teglia dal forno."
+  },
+  {
+   "tipo": "pesata",
+   "g": 85,
+   "testo": "Pesate 85 g di Feta e sbriciolatela."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la zuppa nei piatti e guarnite con i ceci, la Feta e foglie di salvia fresca."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calda."
+  }
+ ],
+ "origine": "cookidoo:r450367",
+ "importata": "2026-10-26"
+}
