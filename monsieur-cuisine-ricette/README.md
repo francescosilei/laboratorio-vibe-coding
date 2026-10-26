@@ -17,7 +17,8 @@ istruzioni passo passo per il Monsieur Cuisine Connect.
 | `data/img/` | foto delle ricette |
 | `app/template.html` | l'app (HTML, CSS, JS in un file) |
 | `build.py` | compone `dist/index.html` con dati e foto incorporati |
-| `tools/pdf_ricette.py` | legge un PDF con più ricette (testo, foto, codici) |
+| `tools/pdf_ricette.py` | legge i PDF (OCR a piena risoluzione): testo strutturato, foto, codici |
+| `tools/bozza.py` | converte il testo in una bozza di ricetta per il Connect (da rivedere) |
 | `tools/valida.py`, `tools/importa.py` | controllo di coerenza e meccanica dell'importazione |
 | `requirements.txt` | dipendenze Python (e `poppler-utils`) |
 | `import/` | `inbox/` screenshot da importare, `ok/` importati, `failed/` non importati |

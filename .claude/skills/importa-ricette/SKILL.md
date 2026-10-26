@@ -19,21 +19,26 @@ Box non serve: da Box si vedono solo anteprime a metà risoluzione e ogni immagi
    Per ogni ricetta, in `lotto/<codice>/`: `testo.txt` (testa, ingredienti, preparazione già divisi), `foto.jpg`, `pagina.png`;
    in `lotto/indice.txt` il codice Cookidoo (`origine=cookidoo:rNNNNNN`) e le righe incerte.
    Il testo selezionabile aggiunto da Acrobat viene ignorato: è di qualità scarsa. Si legge l'immagine a piena risoluzione.
-2. **Leggi solo i `testo.txt`** (testo, pochi token). Non aprire le pagine intere.
-3. Le icone non sono nel testo ma lasciano un segno: `//` prima di `vel.` = rotazione antioraria (`sinistrorsa`);
-   `vel. .` o `vel. s` = velocità cucchiaio (vel 1 + sinistrorsa). Un solo `/` = nessuna icona.
-   Gli errori tipici dell'OCR sulle cifre sono corretti in automatico (1oo → 100).
-4. **Frazioni:** l'OCR legge «¾» come `/4` e perde il numeratore. Ogni riga con `/2`, `/4` o `1/4` va verificata
-   con un solo ritaglio piccolo (mai la pagina intera): `pagina.png.crop(box)` ingrandito 2x, tutte le righe in un'unica immagine.
-   Le righe con `[?0.xx]` hanno bassa confidenza: stesso controllo.
-5. Per ogni ricetta scrivi il JSON (formato in `docs/formato-ricetta.md`) nello scratchpad e aggiungi
-   `"origine": "cookidoo:rNNNNNN"` (serve per evitare i duplicati).
-6. `python3 tools/importa.py aggiungi ricetta.json --foto lotto/<codice>/foto.jpg` (la foto è già ritagliata).
-   Il controllo `tools/valida.py` decide: nessun errore → importata. Errori → correggi o `fallita`.
-7. `python3 tools/importa.py fallita <nome> "<motivo>"` per le non importate (scrive `import/failed/<nome>/motivo.txt`).
-8. Pubblica `dist/index.html` su https://claude.ai/artifact/ThaxPn3qs2aLW18L1Cbq6J (stesso `file_path`, stesse capabilities),
+2. **Bozza automatica per ogni ricetta:** `python3 tools/bozza.py lotto/<codice>/testo.txt --out <scratchpad>/<codice>.json`
+   Scrive il JSON (formato `docs/formato-ricetta.md`, con `origine`) e stampa una vista compatta: una riga per passo
+   (`P` pesata, `T` testo, `R` robot con tempo/velocità/temperatura/⟲, `⚠` se ha un'avvertenza), poi `ERRORE`, `avviso` e
+   `DUBBIO` (frazioni `/4`, velocità non letta, ingrediente non trovato, paese anomalo, categoria non deducibile).
+   **Non rileggere il JSON e non riscriverlo a mano:** controlla la vista e correggi solo ciò che è segnalato.
+   Sulle 9 ricette scritte a mano il convertitore dà gli stessi passi del robot nel 100% dei casi (35/35), le stesse pesate
+   nel 97% (61/63) e passa il controllo di coerenza in 9 casi su 9.
+3. **Cosa controllare nella bozza** (poche righe a ricetta):
+   - `ERRORE` e `DUBBIO`: correggi il JSON con un piccolo script Python o con `Edit`.
+   - Frazioni: l'OCR legge «¾» come `/4` e perde il numeratore; le righe segnalate vanno verificate con UN ritaglio piccolo
+     di `pagina.png` (mai la pagina intera). Le righe `[?0.xx]` nel `testo.txt` hanno bassa confidenza.
+   - Icone: `//` prima di `vel.` = antiorario (`sinistrorsa`), `vel. .` / `vel. s` = velocità cucchiaio: la bozza le gestisce.
+   - Categoria (zuppe e vellutate = «Primi», dedotto) e «Paese» di Cookidoo (a volte sbagliato, es. «Arabia Saudita» → `NA` con nota).
+   - Varoma, Spiga, Cottura lenta, Sottovuoto, Bollitore, Copri Lame: la bozza li segna con un'avvertenza da tenere.
+4. Importa: `python3 tools/importa.py aggiungi <scratchpad>/<codice>.json --foto lotto/<codice>/foto.jpg`
+   (il controllo `tools/valida.py` decide; un `origine` già presente viene rifiutato come duplicato).
+5. Se la bozza non è recuperabile (testo illeggibile, ricetta incompleta): `python3 tools/importa.py fallita <codice> "<motivo>"`.
+6. Pubblica `dist/index.html` su https://claude.ai/artifact/ThaxPn3qs2aLW18L1Cbq6J (stesso `file_path`, stesse capabilities),
    poi commit e push sul branch di lavoro.
-9. Riepilogo breve all'utente: ricette importate, fallite e perché, campi `NA` o dedotti, passi con avvertenza.
+7. Riepilogo breve all'utente: ricette importate, fallite e perché, campi `NA` o dedotti, passi con avvertenza.
 
 ## Metodo alternativo: screenshot singoli
 
