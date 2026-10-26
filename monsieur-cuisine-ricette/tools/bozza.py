@@ -23,7 +23,8 @@ VAROMA_BOCCALE = ("Varoma in una preparazione nel boccale: non sostituirlo in au
 
 UNITA = r"(?:g|ml|kg|l|cucchiaini|cucchiaino|cucchiai|cucchiaio|pizzichi|pizzico|spicchi|spicchio|rametti|rametto|gambi|gambo|foglie|foglia|fette|fetta|mazzetto|mazzetti|filetti|filetto|fili|filo|bacche|bacca|stecca|bustina|costa|coste|ciuffo|ciuffi|baccello|baccelli)"
 AGGETTIVI = {"fresco", "fresca", "freschi", "fresche", "maturi", "maturo", "surgelati", "surgelato", "sgusciati", "sgusciato",
-             "grattugiato", "grattugiata", "tritato", "tritata", "macinato", "macinata", "pelate", "pelati", "intero", "intera"}
+             "grattugiato", "grattugiata", "tritato", "tritata", "macinato", "macinata", "pelate", "pelati", "intero", "intera",
+             "liquida", "liquido", "nero", "nera"}
 VERBI = {  # infinito -> imperativo (voi)
     "Mettere": "Mettete", "Aggiungere": "Aggiungete", "Unire": "Unite", "Versare": "Versate", "Togliere": "Togliete",
     "Trasferire": "Trasferite", "Servire": "Servite", "Riunire": "Riunite", "Lasciare": "Lasciate", "Cuocere": "Cuocete",
@@ -39,7 +40,7 @@ VERBI = {  # infinito -> imperativo (voi)
     "Coprire": "Coprite", "Tenere": "Tenete", "Raccogliere": "Raccogliete", "Filtrare": "Filtrate", "Sbucciare": "Sbucciate",
     "Decorare": "Decorate", "Continuare": "Continuate", "Infornare": "Infornate", "Sgocciolare": "Sgocciolate", "Cospargere": "Cospargete", "Unite": "Unite",
 }
-ADD = re.compile(r"\b(mettere|aggiungere|unire|versare|inserire|incorporare)\b", re.I)
+ADD = re.compile(r"\b(mettere|aggiungere|unire|versare|inserire|incorporare|pesare)\b", re.I)
 AZIONE_PRIMA = re.compile(r"\b(trasferire|togliere|servire|riunire|svuotare|rimuovere|scolare)\b", re.I)
 CATEGORIE = [("Dessert", r"torta|dolce|budino|gelato|biscott|crostata|muffin|tiramis|marmellata|confettura|panna cotta|mousse"),
              ("Primi", r"risotto|pasta|gnocchi|minestr|zuppa|vellutata|crema di|passato|lasagne|ravioli|spaghetti|tagliatelle|penne|fregola|farro|orzotto|riso "),
@@ -60,6 +61,7 @@ _VOC2 = set()
 
 
 def incolla(t, voc):
+    t = re.sub(r"\b(cucchiaini|cucchiaino|cucchiai|pizzichi|pizzico|spicchi|rametti)(di)\b", r"\1 \2", t)
     t = re.sub(r"\bg(di|d)(?=[a-zà-ú]{3,})", r"g \1 ", t)
     t = re.sub(r"(\d)g(?=[a-zà-ú]{3,})", r"\1 g ", t)
     """separa le parole attaccate dall'OCR («dilenticchie» → «di lenticchie»), solo se la seconda parte è nota"""
@@ -114,7 +116,7 @@ def resto(testo):
     return re.sub(rf"^[\d½¼¾/\s\-–.,]*(?:{UNITA}\b)?\s*(?:di\s+|d')?", "", testo, flags=re.I).strip()
 
 
-CONTENITORI = r"(?:gambo|gambi|foglie|foglia|rametti|rametto|ciuffo|ciuffi|cimette|cimetta|code|testa|teste|spicchio|spicchi|fetta|fette|filetti|filetto|mazzetto)"
+CONTENITORI = r"(?:gambo|gambi|foglie|foglia|foglioline|rametti|rametto|ciuffo|ciuffi|cimette|cimetta|code|testa|teste|spicchio|spicchi|fetta|fette|filetti|filetto|mazzetto|polpa|semi)"
 
 
 def nome_di(testo):
@@ -165,12 +167,15 @@ def testa(righe, voc):
 
 
 def ingredienti(righe, voc, dubbi):
-    items, gruppo, ultimo_alt = [], None, False
+    items, gruppo, ultimo_alt, dopo_hdr = [], None, False, False
     for r in righe:
         if not r.strip(): continue
         if r.startswith(("- ", "# ")): ultimo_alt = False
         if r.startswith("# "):
-            gruppo = incolla(pulisci(r[2:]), voc); continue
+            gruppo = incolla(pulisci(r[2:]), voc); dopo_hdr = True; continue
+        if dopo_hdr and r.startswith("  = "):          # la prima voce sotto un titolo di gruppo non è un'alternativa
+            r = "- " + r[4:]
+        dopo_hdr = False
         testo = incolla(frazioni(pulisci(senza_marcatore(r)), dubbi), voc)
         testo = re.sub(r"^\d\s+(?=\d{2,}\s*g)", "", testo)            # icona di alternativa letta come cifra
         if r.startswith("- ") and items and re.match(r"^\d\s+\d", senza_marcatore(r)):
@@ -201,16 +206,25 @@ def ingredienti(righe, voc, dubbi):
 
 
 # ------------------------------------------------------------------ parametri del robot
+def norma_minuti(t):
+    """«20o min.»: la «o» è un residuo se leggerla come zero darebbe più di 150 minuti"""
+    return re.sub(r"(\d+)[oO]\s*(?=min\b)", lambda m: (m.group(1) + "0") if int(m.group(1) + "0") < 150 else m.group(1) + " ", t)
+
+
 def norma_temp(t):
     """«10oc» «1oo'c» «1ooc» «1oo°C» -> «100°C»"""
-    return re.sub(r"(\d+)([oO]+)\s*[°'`]?\s*[cC]\b", lambda m: m.group(1) + "0" * len(m.group(2)) + "°C", t)
+    def f(m):
+        n = m.group(1) + "0" * len(m.group(2))
+        if len(n) == 4 and n.endswith("0"): n = n[:3]          # «10ooc»: l'ultima «o» è il simbolo dei gradi
+        return n + "°C"
+    return re.sub(r"(\d+)([oO]+)\s*[°'`]?\s*[cC]\b", f, norma_minuti(t))
 
 
 def parametri(frase, dubbi):
     """estrae tempo, temperatura, velocità, rotazione dalla frase; None se non è un passo robot"""
     f = norma_temp(frase)
     mod = re.search(r"\b(Spiga|Cottura lenta|Sottovuoto|Bollitore|Turbo)\b", f)
-    ha_vel = re.search(r"\bvel\.?", f)
+    ha_vel = re.search(r"\bvel\b", f)
     fru = re.search(r"\bFrullare\b[^.:]*?(?:/|\s)\s*(\d+\s*(?:min|sec))", f) and not ha_vel
     tm_pat = r"(?:(\d+)\s*h\s*)?(?:(\d+)\s*min\.?\s*)?(?:(\d+)\s*sec\.?)?"
     seg_i = max(f.rfind(":"), 0)
@@ -219,12 +233,15 @@ def parametri(frase, dubbi):
         return None
     h = re.search(r"(\d+)\s*h\b", seg); m = re.search(r"(\d+)\s*min", seg); s = re.search(r"(\d+)\s*sec", seg)
     qualche = re.search(r"[Qq]ualche\s*sec", f)
+    if m and not h and int(m.group(1)) >= 150 and int(m.group(1)) % 10 == 0:
+        dubbi.append(f"tempo «{m.group(1)} min» sospetto in «{frase[:60]}»: letto {int(m.group(1)) // 10} min")
+        m = re.match(r"(\d+)", str(int(m.group(1)) // 10))
     tempo = (int(h.group(1)) * 3600 if h else 0) + (int(m.group(1)) * 60 if m else 0) + (int(s.group(1)) if s else 0)
     if qualche: tempo = 5
     temp = re.search(r"(\d{2,3})\s*[°'`]?\s*[cC]\b", seg)
     varoma = bool(re.search(r"Varoma", seg))
     rev = bool(re.search(r"//|antiorario", seg))
-    v = re.search(r"vel\.?\s*(?:(\d{1,2}(?:[.,]\d)?)|(cucchiaio)|([.sS])(?=\W|$))", seg)
+    v = re.search(r"\bvel\b\.?\s*(?:(\d{1,2}(?:[.,]\d)?)|(cucchiaio)|([.sS])(?=\W|$))", seg)
     vel, cucchiaio = None, False
     if v:
         if v.group(1):
@@ -279,6 +296,11 @@ def etichetta(clausola):
 
 
 # ------------------------------------------------------------------ passi
+def tok_in(tk, cl):
+    """tutti i token di tk compaiono in cl (anche come prefisso: pomodori ~ pomodorini)"""
+    return bool(tk) and all(t in cl or any(len(t) >= 5 and len(c) >= 5 and (c.startswith(t) or t.startswith(c)) for c in cl) for t in tk)
+
+
 def stesso_gruppo(a, b):
     import difflib
     if not a or not b: return True
@@ -308,7 +330,8 @@ def converti(prep, ingr, voc, dubbi):
         b = re.sub(r"\b[Ss]ec\s*,\s*/", "sec./", b)
         b = norma_temp(b)
         proc.append((gruppo + ". " if gruppo and gruppi_ing else "") + b)
-        for frase in re.split(r"(?<=\.)\s+(?=[A-ZÀ-Ú])", b):
+        frasi = [x for f_ in re.split(r"(?<=\.)\s+(?=[A-ZÀ-Ú])", b) for x in re.split(r",\s+poi\s+(?=\w+\s*:)", f_)]
+        for frase in frasi:
             frase = frase.strip()
             if not frase: continue
             par = parametri(frase, dubbi)
@@ -324,8 +347,8 @@ def converti(prep, ingr, voc, dubbi):
                 if n in vistinomi: continue
                 testa_ = n.split()[0] if n.split() else n
                 simili = [m for m in ambito if its[m]["nome"].split()[:1] == [testa_]]
-                pieno = tk[k] and tk[k] <= cl_tok
-                parziale = len({its[m]["nome"] for m in simili}) == 1 and tokens(testa_) and tokens(testa_) <= cl_tok
+                pieno = tok_in(tk[k], cl_tok)
+                parziale = len({its[m]["nome"] for m in simili}) == 1 and tok_in(tokens(testa_), cl_tok)
                 if pieno or parziale:
                     ts = tk[k] if pieno else tokens(testa_)
                     pos.append((min((m.start() for t in ts for m in re.finditer(t[:4], cl_norm)), default=0), n)); vistinomi.add(n)
@@ -370,9 +393,9 @@ def converti(prep, ingr, voc, dubbi):
             elif not (ADD.search(clausola) or nel) or re.search(r"mescol|mantec|amalgam|impast|trasfer|serv|spolver|condir|riunir|togli", frase.lower()):
                 passi.append(testo_libero(frase))
     for k, d in enumerate(its):                        # grammi mai pesati: li peso prima del primo passo che li nomina
-        if resta[k] > 0 and not aggiunto[k]:
+        if resta[k] > 0:
             for pos_, pz in enumerate(passi):
-                if pz["tipo"] == "testo" and tk[k] <= tokens(pz["testo"]):
+                if pz["tipo"] == "testo" and (tok_in(tk[k], tokens(pz["testo"])) or tok_in(tokens(d["nome"].split()[0]), tokens(pz["testo"]))):
                     q = resta[k]
                     passi.insert(pos_, {"tipo": "pesata", "g": int(q) if q == int(q) else q, "testo": f"Pesate {q:g} g di {resto(d['testo'])}."})
                     resta[k] = 0; aggiunto[k] = True
