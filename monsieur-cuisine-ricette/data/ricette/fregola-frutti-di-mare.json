@@ -1,0 +1,185 @@
+{
+ "id": "fregola-frutti-di-mare",
+ "titolo": "Fregola ai frutti di mare",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Bimby (Vorwerk)",
+ "immagine": "fregola-frutti-di-mare.jpg",
+ "ingredienti": [
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine d'oliva"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "200 g di pomodorini, a metà",
+   "nome": "pomodorini"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "200 g di seppioline, fresche, pulite a pezzi (2 cm)",
+   "nome": "seppioline"
+  },
+  {
+   "testo": "70 g di vino bianco secco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "250 g di fregola",
+   "nome": "fregola"
+  },
+  {
+   "testo": "200 g di gamberi crudi, puliti",
+   "nome": "gamberi"
+  },
+  {
+   "testo": "150 g di molluschi conchigliferi misti",
+   "nome": "molluschi"
+  },
+  {
+   "testo": "480 g di acqua calda (non bollente)",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 dado per brodo vegetale",
+   "nome": "dado vegetale"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'olio extravergine di oliva e l'aglio, insaporire: 3 min./120°C/vel. 1.",
+  "Aggiungere i pomodorini e il sale, insaporire: 5 min./120°C/vel. 1. Con una pinza da cucina, togliere a piacere l'aglio dal boccale.",
+  "Unire le seppioline e insaporire: 3 min./120°C/antiorario/vel. 0.5.",
+  "Aggiungere il vino bianco e sfumare senza misurino: 5 min./120°C/antiorario/vel. 0.5.",
+  "Unire la fregola, i gamberi, i molluschi, l'acqua calda e il dado, cuocere: il tempo indicato sulla confezione 100°C/antiorario/vel. 0.5. Lasciare riposare nel boccale per 5-6 minuti.",
+  "Trasferire la fregola in una zuppiera e servire calda."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di pomodorini, tagliati a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con una pinza da cucina togliete a piacere l'aglio dal boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di seppioline fresche, pulite e tagliate a pezzi di 2 cm."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+  },
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Pesate nel boccale 70 g di vino bianco secco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate senza misurino.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta.",
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate nel boccale 250 g di fregola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di gamberi crudi, puliti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di molluschi conchigliferi misti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 480,
+   "testo": "Aggiungete 480 g di acqua calda (non bollente)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 dado per brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete per il tempo indicato sulla confezione della fregola.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Il tempo dipende dalla confezione: controllatelo e impostatelo voi.",
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate riposare nel boccale per 5-6 minuti.",
+   "attesa_s": 300,
+   "nota": "La ricetta indica 5-6 minuti: il timer è impostato a 5."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la fregola in una zuppiera e servite calda."
+  }
+ ],
+ "importata": "2026-10-26"
+}

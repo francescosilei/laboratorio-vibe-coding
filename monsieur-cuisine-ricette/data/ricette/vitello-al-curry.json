@@ -1,0 +1,164 @@
+{
+ "id": "vitello-al-curry",
+ "titolo": "Vitello al curry",
+ "categoria": "Secondi",
+ "paese": "NA",
+ "dedotto": [],
+ "tempo_prep_min": 4,
+ "tempo_cottura_min": 22,
+ "tempo_min": 26,
+ "porzioni": 4,
+ "difficolta": "NA",
+ "fonte": "Ricette Bimby (Flavia)",
+ "immagine": "vitello-al-curry.jpg",
+ "ingredienti": [
+  {
+   "testo": "350 g di patate novelle",
+   "nome": "patate novelle"
+  },
+  {
+   "testo": "100 g di cipolla rossa",
+   "nome": "cipolla rossa"
+  },
+  {
+   "testo": "40 g di olio extravergine d'oliva",
+   "nome": "olio extravergine d'oliva"
+  },
+  {
+   "testo": "Sale q.b.",
+   "nome": "sale"
+  },
+  {
+   "testo": "Pepe q.b.",
+   "nome": "pepe"
+  },
+  {
+   "testo": "50 g di vino bianco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "Zenzero fresco q.b.",
+   "nome": "zenzero"
+  },
+  {
+   "testo": "200 g di latte di cocco",
+   "nome": "latte di cocco"
+  },
+  {
+   "testo": "2 cucchiaini abbondanti di curry in polvere",
+   "nome": "curry"
+  },
+  {
+   "testo": "500 g di bocconcini di vitello",
+   "nome": "vitello"
+  },
+  {
+   "testo": "3 foglie di alloro",
+   "nome": "alloro"
+  },
+  {
+   "testo": "4 foglie di salvia",
+   "nome": "salvia"
+  },
+  {
+   "testo": "Ginepro q.b.",
+   "nome": "ginepro"
+  }
+ ],
+ "procedimento": [
+  "Pela 350 g di patate novelle e tienile da parte.",
+  "Metti nel boccale 100 g di cipolla rossa e trita 5 Sec. Vel. 6. Porta sul fondo con la spatola.",
+  "Aggiungi 40 g di olio extravergine d'oliva e soffriggi 3 Min. 100° Vel. 1.",
+  "Aggiungi le patate novelle pelate, una presa di sale, un pizzico di pepe, 50 g di vino bianco, una grattata abbondante di zenzero fresco e cuoci 7 Min. 100° Antiorario Vel. Soft.",
+  "Versa 200 g di latte di cocco, unisci 2 cucchiaini abbondanti di curry in polvere, 500 g di bocconcini di vitello, 3 foglie di alloro, 4 foglie di salvia, qualche bacca di ginepro e cuoci 15 Min. 100° Antiorario Vel. Soft.",
+  "Servi il vitello al curry con un'insalatina, del riso in bianco o con un pane chapati."
+ ],
+ "note": [
+  "Al posto del latte di cocco, se non ti piace, usa del brodo vegetale. In questo caso infarina leggermente la carne prima di versarla nel boccale, così da far rapprendere di più il sugo finale."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di patate novelle, pelatele e tenetele da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolla rossa."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate la cipolla.",
+   "tempo_s": 5,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Portate sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate nel boccale 40 g di olio extravergine d'oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Soffriggete.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "programma": "Rosolare",
+   "avvertenza": "Nella ricetta Bimby è «soffriggi» a velocità 1: il programma Rosolare del Connect gestisce da solo velocità e rotazione. Controllate i valori sul display."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete le patate novelle pelate, una presa di sale, un pizzico di pepe e una grattata abbondante di zenzero fresco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di vino bianco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Soft/Antiorario: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di latte di cocco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Unite 500 g di bocconcini di vitello."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite 2 cucchiaini abbondanti di curry in polvere, 3 foglie di alloro, 4 foglie di salvia e qualche bacca di ginepro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Soft/Antiorario: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite il vitello al curry con un'insalatina, del riso in bianco o con un pane chapati."
+  }
+ ],
+ "importata": "2026-10-26"
+}

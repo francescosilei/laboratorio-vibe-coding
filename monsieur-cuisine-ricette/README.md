@@ -13,13 +13,20 @@ istruzioni passo passo per il Monsieur Cuisine Connect.
 
 | Percorso | Contenuto |
 |---|---|
-| `data/ricette.json` | ricette e passi (generato da `tools/genera_ricette.py`) |
+| `data/ricette/` | una ricetta per file (JSON) |
 | `data/img/` | foto delle ricette |
 | `app/template.html` | l'app (HTML, CSS, JS in un file) |
 | `build.py` | compone `dist/index.html` con dati e foto incorporati |
+| `tools/valida.py`, `tools/importa.py` | controllo di coerenza e meccanica dell'importazione |
+| `import/` | `inbox/` screenshot da importare, `ok/` importati, `failed/` non importati |
 | `docs/` | tabelle di conversione Bimby → Connect e formato dei passi |
 
-Per rigenerare: `python3 tools/genera_ricette.py && python3 build.py`, poi si pubblica `dist/index.html`.
+Per rigenerare: `python3 build.py`, poi si pubblica `dist/index.html`.
+
+## Importare nuove ricette
+
+Screenshot in `import/inbox/` (o allegati in chat) e `/importa-ricette`: vedi `.claude/skills/importa-ricette/SKILL.md`
+e `docs/formato-ricetta.md`. Controllo manuale: `python3 tools/valida.py`.
 
 ## Regole dei dati
 

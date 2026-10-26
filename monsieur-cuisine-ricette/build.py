@@ -1,7 +1,10 @@
 """Compone dist/index.html (frammento da pubblicare) e dist/preview.html (pagina completa per prove locali)."""
 import base64, json, pathlib
 root = pathlib.Path(__file__).resolve().parent
-dati = (root / "data" / "ricette.json").read_text(encoding="utf-8")
+ricette = [json.loads(f.read_text(encoding="utf-8")) for f in sorted((root / "data" / "ricette").glob("*.json"))]
+ricette.sort(key=lambda r: r["titolo"].lower())
+ricette.sort(key=lambda r: r.get("importata", ""), reverse=True)   # le ultime importate in cima
+dati = json.dumps(ricette, ensure_ascii=False)
 img = {f.name: "data:image/jpeg;base64," + base64.b64encode(f.read_bytes()).decode()
        for f in sorted((root / "data" / "img").glob("*.jpg"))}
 html = (root / "app" / "template.html").read_text(encoding="utf-8")
