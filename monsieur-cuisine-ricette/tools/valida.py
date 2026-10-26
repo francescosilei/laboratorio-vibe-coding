@@ -115,6 +115,8 @@ def valida(r, altre=()):
                 W.append(f"passo {n}: velocità mancante senza avvertenza")
             if p.get("programma") and p["programma"] not in PROGRAMMI_CONNECT:
                 W.append(f"passo {n}: programma «{p['programma']}» non è tra quelli del Connect {sorted(PROGRAMMI_CONNECT)}")
+            if p.get("accessorio") not in (None, "lame", "emulsionatore"):
+                E.append(f"passo {n}: accessorio «{p['accessorio']}» non valido (lame|emulsionatore)")
             t_robot += tm or 0
         if p.get("attesa_s"):
             if not (isinstance(p["attesa_s"], int) and p["attesa_s"] > 0):

@@ -79,6 +79,8 @@ def aggiungi(a):
         im = Image.open(percorso(a.foto)).convert("RGB")
         if a.crop:
             im = im.crop(tuple(int(x) for x in a.crop.split(",")))
+        if im.width < 600:                       # anteprime piccole: raddoppia per un risultato più morbido
+            im = im.resize((im.width * 2, im.height * 2), Image.LANCZOS)
         if im.width > 800:
             im = im.resize((800, round(im.height * 800 / im.width)), Image.LANCZOS)
         im.save(IMG / f"{rid}.jpg", quality=86, optimize=True)

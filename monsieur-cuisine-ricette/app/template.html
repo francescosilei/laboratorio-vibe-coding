@@ -241,6 +241,7 @@ select.sel { width: 100%; padding: 10px 12px; border-radius: 12px; border: 1px s
 .dial .ic { font-size: clamp(16px, 3.4vw, 34px); color: var(--fg-3); }
 .dial .ic.on { color: var(--brand); }
 .dial .ic2 { position: relative; font-size: clamp(14px, 3vw, 30px); color: var(--fg-3); opacity: .8; }
+.dial .ic2.on { color: var(--brand); opacity: 1; }
 .dial .ic2.bar::after { content: ""; position: absolute; left: -6%; right: -6%; top: 50%; height: 2px; background: var(--fg-2); transform: rotate(-40deg); }
 .dial .u { font-size: clamp(10px, 1.4vw, 13px); color: var(--fg-3); font-weight: 500; }
 .prog { font-size: clamp(1rem, 2.4vw, 1.6rem); font-weight: 500; letter-spacing: .06em; color: var(--brand); text-transform: uppercase; }
@@ -569,11 +570,14 @@ function stepHtml(p, r) {
     body = `<div class="row-scale">${dial({ frac: 1, value: p.g, unit: 'g', icons: `<span class="ic on">${ico('scale')}</span><span class="u">da pesare</span>` })}<p class="rt">${esc(p.testo)}</p></div>${msgBox}`;
   } else {
     const v = p.velocita, rev = p.sinistrorsa;
-    const acc = rev ? `<span class="ic on">${ico('rev')}</span>` : `<span class="ic on">${ico('blades')}</span><span class="ic2 ${v == null || v > EMULS_MAX ? 'bar' : ''}">${ico('whisk')}</span>`;
+    const acc = rev ? `<span class="ic on">${ico('rev')}</span>`
+      : p.accessorio === 'emulsionatore' ? `<span class="ic">${ico('blades')}</span><span class="ic2 on">${ico('whisk')}</span>`
+      : `<span class="ic on">${ico('blades')}</span><span class="ic2 ${v == null || v > EMULS_MAX ? 'bar' : ''}">${ico('whisk')}</span>`;
     const cap = `<p class="rt cap">${esc(p.testo)}</p>`;
     const dT = dial({ frac: p.tempo_s ? Math.min(p.tempo_s / 3600, 1) : 0, value: p.tempo_s ? fmtClock(p.tempo_s) : 'NA', na: !p.tempo_s, icons: `<span class="ic">${ico('clock')}</span>`, label: p.tempo_s ? '' : 'tempo da impostare' });
     const dV = dial({ frac: v ? v / 10 : 0, value: v == null ? 'NA' : v, na: v == null, icons: acc, label: rev ? 'rotazione sinistrorsa' : '' });
-    const dC = dial({ frac: p.temp_c / 130, value: p.temp_c, unit: '°C', icons: `<span class="ic">${ico('thermo')}</span>` });
+    const auto = !p.temp_c && !!p.programma;
+    const dC = dial({ frac: p.temp_c / 130, value: auto ? 'Auto' : p.temp_c, unit: auto ? '' : '°C', na: auto, icons: `<span class="ic">${ico('thermo')}</span>`, label: auto ? 'gestita dal programma' : '' });
     body = `${cap}<div class="dials">${dT}${dV}${dC}</div>${p.programma ? `<div class="prog">${esc(p.programma)}</div>` : ''}${p.tempo_s ? timerBtn(p.tempo_s) : ''}${msgBox}`;
   }
   return `<div class="run-main">${body}</div>`;
