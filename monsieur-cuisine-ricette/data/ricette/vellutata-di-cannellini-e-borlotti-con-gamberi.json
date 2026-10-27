@@ -1,0 +1,187 @@
+{
+ "id": "vellutata-di-cannellini-e-borlotti-con-gamberi",
+ "titolo": "Vellutata di cannellini e borlotti con gamberi",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-di-cannellini-e-borlotti-con-gamberi.jpg",
+ "ingredienti": [
+  {
+   "testo": "30 g di scalogno, a metà",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "20 g di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "20 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "80 g di polpa di pomodoro a pezzi",
+   "nome": "pomodoro"
+  },
+  {
+   "testo": "350 g di fagioli cannellini in scatola, sgocciolati e sciacquati",
+   "nome": "fagioli cannellini"
+  },
+  {
+   "testo": "350 g di fagioli borlotti in scatola, sgocciolati e sciacquati",
+   "nome": "fagioli borlotti"
+  },
+  {
+   "testo": "650 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe bianco macinato",
+   "nome": "pepe bianco"
+  },
+  {
+   "testo": "1 dado per brodo vegetale (dose per 0,5 l)",
+   "nome": "dado"
+  },
+  {
+   "testo": "500 g di code di gambero fresche, pulite e sgusciate",
+   "nome": "gambero"
+  },
+  {
+   "testo": "prezzemolo fresco, tritato, per servire",
+   "nome": "prezzemolo"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale lo scalogno, il sedano e la carota, tritare: 3 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere 30 g di olio extravergine di oliva e 1 spicchio di aglio, insaporire: 3 min./120°C/vel. 1.",
+  "Unire la polpa di pomodoro, i fagioli cannellini, i fagioli borlotti, 'acqua, un pizzico di sale, un pizzico di pepe e il dado, cuocere: 25 min./100°C/vel. 1. Nel frattempo, in una padella antiaderente, scaldare un filo di olio extravergine di oliva e saltare i gamberi qualche minuto fino a che non saranno cotti e leggermente dorati.",
+  "Frullare: 1 min./vel. 10. Trasferire nei piatti.",
+  "Servire la vellutata calda suddividendo fra i piatti le code di gambero e spolverizzando con prezzemolo tritato fresco."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di scalogno, a metà."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di sedano, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva (+ q.b.)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate 80 g di polpa di pomodoro a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Aggiungete 350 g di fagioli borlotti in scatola, sgocciolati e sciacquati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Aggiungete 350 g di fagioli cannellini in scatola, sgocciolati e sciacquati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 650,
+   "testo": "Aggiungete 650 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale, 1 pizzico di pepe bianco macinato, 1 dado per brodo vegetale (dose per 0,5 l)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di code di gambero fresche, pulite e sgusciate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, in una padella antiaderente, scaldate un filo di olio extravergine di oliva e saltare i gamberi qualche minuto fino a che non saranno cotti e leggermente dorati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite nei piatti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la vellutata calda suddividendo fra i piatti le code di gambero e spolverizzando con prezzemolo tritato fresco."
+  }
+ ],
+ "origine": "cookidoo:r757627",
+ "importata": "2026-10-27"
+}

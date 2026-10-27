@@ -1,0 +1,204 @@
+{
+ "id": "zuppetta-di-gamberi",
+ "titolo": "Zuppetta di gamberi",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppetta-di-gamberi.jpg",
+ "ingredienti": [
+  {
+   "testo": "700 g di code di gambero fresche",
+   "nome": "gambero"
+  },
+  {
+   "testo": "20 g di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "20 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "30 g di scalogno, a metà",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "60 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "50 g di vino bianco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "100 g di patate, pelate e a pezzi",
+   "nome": "patate"
+  },
+  {
+   "testo": "100 g di pomodori ciliegino, a metà",
+   "nome": "pomodori ciliegino"
+  },
+  {
+   "testo": "1000 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe bianco macinato",
+   "nome": "pepe bianco"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "prezzemolo fresco, tritato, per servire",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "crostini, a piacere",
+   "nome": "crostini"
+  }
+ ],
+ "procedimento": [
+  "Pulire le code di gambero dal carapace e dal filo intestinale. Appoggiare una ciotola sul coperchio del boccale e pesare al suo interno 50 g di carapaci, togliere e tenere da parte scartando il resto.",
+  "Mettere nel boccale il sedano, la carota e lo scalogno, tritare: 3 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere 30 g di olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire nel boccale i carapaci tenuti da parte e il vino, sfumare: 4 min./120°C/vel. 1. senza il misurino.",
+  "Aggiungere le patate, i pomodorini, 'acqua, un pizzico di sale e pepe, cuocere: 35 min./100°C/vel. 1. Nel frattempo, in una padella antiaderente, scaldare 30 g di olio extravergine di oliva e uno spicchio di aglio. Saltare le code di gambero pulite qualche minuto fino a che saranno cotte e leggermente dorate.",
+  "Frullare: 1 min. 30 sec./vel. 10. Trasferire la zuppetta nei piatti, dividere fra di essi le code di gambero e servire calda con prezzemolo tritato e crostini tostati a piacere."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Pesate 700 g di code di gambero fresche."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Pulite le code di gambero dal carapace e dal filo intestinale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Appoggiate una ciotola sul coperchio del boccale e pesate al suo interno 50 g di carapaci, togliete e tenete da parte scartando il resto."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di sedano, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di scalogno, a metà."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di vino bianco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false,
+   "nota": "Senza il misurino."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di patate, pelate e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di pomodori ciliegino, a metà."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Aggiungete 1000 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale, 1 pizzico di pepe bianco macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 2100,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, in una padella antiaderente, scaldate 30 g di olio extravergine di oliva e uno spicchio di aglio."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Saltare le code di gambero pulite qualche minuto fino a che saranno cotte e leggermente dorate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 90,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la zuppetta nei piatti, dividete fra di essi le code di gambero e servite calda con prezzemolo tritato e crostini tostati a piacere."
+  }
+ ],
+ "origine": "cookidoo:r757628",
+ "importata": "2026-10-27"
+}

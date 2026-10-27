@@ -1,0 +1,194 @@
+{
+ "id": "zuppa-di-farro-e-legumi",
+ "titolo": "Zuppa di farro e legumi",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-farro-e-legumi.jpg",
+ "ingredienti": [
+  {
+   "testo": "80 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "80 g di carota, pelata e a pezzi (2 cm circa)",
+   "nome": "carota"
+  },
+  {
+   "testo": "60 g di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "1 spicchio di aglio, senza anima",
+   "nome": "aglio"
+  },
+  {
+   "testo": "2 foglie di salvia fresca, lavate",
+   "nome": "salvia"
+  },
+  {
+   "testo": "1 rametto di rosmarino fresco, gli aghi lavati",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "100 g di pancetta affumicata, a cubetti",
+   "nome": "pancetta affumicata"
+  },
+  {
+   "testo": "1000 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "160 g di farro perlato",
+   "nome": "farro perlato"
+  },
+  {
+   "testo": "100 g di lenticchie, scolate e sciacquate",
+   "nome": "lenticchie"
+  },
+  {
+   "testo": "100 g di ceci bianchin scatola, scolati e sciacquati",
+   "nome": "ceci bianchin scatola"
+  },
+  {
+   "testo": "100 g di fagioli borlotti in scatola, scolati e sciacquati",
+   "nome": "fagioli borlotti"
+  },
+  {
+   "testo": "pepe nero macinato, a piacere",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla, la carota, il sedano, l'aglio, salvia e il rosmarino, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e la pancetta, insaporire: 5 min./120°C//vel. 1.",
+  "Unire l'acqua, il sale e il farro, cuocere: 30 min./100°C//vel. .",
+  "Aggiungere le lenticchie, i ceci e i fagioli borlotti, proseguire la cottura: 10 min./100°C//vel. . Trasferire in una zuppiera.",
+  "Servire subito insaporendo con una macinata di pepe e irrorando con un filo di olio extravergine di oliva."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di carota, pelata e a pezzi (2 cm circa)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di sedano, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, senza anima, 2 foglie di salvia fresca, lavate, 1 rametto di rosmarino fresco, gli aghi lavati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva (+ q.b.)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di pancetta affumicata, a cubetti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate 1000 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 160,
+   "testo": "Aggiungete 160 g di farro perlato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di lenticchie, scolate e sciacquate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di ceci bianchin scatola, scolati e sciacquati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di fagioli borlotti in scatola, scolati e sciacquati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito insaporendo con una macinata di pepe e irrorando con un filo di olio extravergine di oliva."
+  }
+ ],
+ "origine": "cookidoo:r736834",
+ "importata": "2026-10-27"
+}
