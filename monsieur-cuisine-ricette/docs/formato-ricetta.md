@@ -35,7 +35,7 @@
 - Il testo di una pesata nomina solo l'ingrediente pesato.
 - `Soft` e `Antiorario`: velocità 1 con `sinistrorsa: true`. `Soffriggi` con 100° vel. 1: programma `Rosolare`.
   `Spiga`: programma `Impastare` (con avvertenza: durata gestita dal programma).
-- Velocità `0.5` non esiste sul Connect (minimo 1): usare 1 con l'avvertenza standard.
+- Il Connect non ha mezze velocità (minimo 1, solo interi): arrotondare sempre per eccesso (0.5 → 1, 4.5 → 5), con l'avvertenza standard per 0.5.
 - «Qualche secondo»: 5 s con avvertenza. «Tempo indicato sulla confezione»: `tempo_s: null` con `nota`.
 - Funzioni non presenti nelle tabelle di conversione (Cottura lenta, Sottovuoto, Bollitore, Copri Lame,
   recipiente del Varoma usato come colino): si traducono al meglio e si segnano con `avvertenza`. Mai indovinare in silenzio.

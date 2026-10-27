@@ -176,7 +176,7 @@
    "tipo": "robot",
    "testo": "Cuocete.",
    "tempo_s": 720,
-   "velocita": 1.5,
+   "velocita": 2,
    "temp_c": 100,
    "sinistrorsa": true
   },
@@ -192,7 +192,7 @@
    "tipo": "robot",
    "testo": "Cuocete.",
    "tempo_s": 180,
-   "velocita": 1.5,
+   "velocita": 2,
    "temp_c": 100,
    "sinistrorsa": true
   },

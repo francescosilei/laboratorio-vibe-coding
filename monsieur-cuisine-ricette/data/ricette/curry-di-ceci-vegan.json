@@ -193,10 +193,9 @@
    "tipo": "robot",
    "testo": "Tritate.",
    "tempo_s": 3,
-   "velocita": 4.5,
+   "velocita": 5,
    "temp_c": 0,
-   "sinistrorsa": false,
-   "avvertenza": "La ricetta indica velocità 4.5: verificate se il Connect ammette le mezze velocità, altrimenti usate 4 o 5."
+   "sinistrorsa": false
   },
   {
    "tipo": "pesata",

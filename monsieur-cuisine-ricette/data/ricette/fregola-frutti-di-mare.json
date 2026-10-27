@@ -119,7 +119,7 @@
    "velocita": 1,
    "temp_c": 120,
    "sinistrorsa": true,
-   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: arrotondata per eccesso a 1."
   },
   {
    "tipo": "pesata",
@@ -134,7 +134,7 @@
    "temp_c": 120,
    "sinistrorsa": true,
    "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta.",
-   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: arrotondata per eccesso a 1."
   },
   {
    "tipo": "pesata",
@@ -168,7 +168,7 @@
    "temp_c": 100,
    "sinistrorsa": true,
    "nota": "Il tempo dipende dalla confezione: controllatelo e impostatelo voi.",
-   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: arrotondata per eccesso a 1."
   },
   {
    "tipo": "testo",

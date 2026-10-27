@@ -103,8 +103,8 @@ def valida(r, altre=()):
                 pesate.append((n, p))
         if t == "robot":
             v, tm, tc = p.get("velocita"), p.get("tempo_s"), p.get("temp_c")
-            if v is not None and not (_num(v) and VEL_MIN <= v <= VEL_MAX):
-                E.append(f"passo {n}: velocità {v} fuori dai limiti del Connect ({VEL_MIN}-{VEL_MAX})")
+            if v is not None and not (_num(v) and VEL_MIN <= v <= VEL_MAX and v == int(v)):
+                E.append(f"passo {n}: velocità {v} fuori dai limiti del Connect ({VEL_MIN}-{VEL_MAX}, solo valori interi)")
             if tc is None or not (_num(tc) and 0 <= tc <= TEMP_MAX):
                 E.append(f"passo {n}: temperatura {tc} fuori dai limiti del Connect (0-{TEMP_MAX} °C)")
             if tm is not None and not (isinstance(tm, int) and tm > 0):

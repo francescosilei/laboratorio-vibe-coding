@@ -6,13 +6,13 @@ Scrive il JSON della ricetta (formato di docs/formato-ricetta.md) e stampa una v
 dei punti da controllare. La bozza non sostituisce la revisione: `importa.py aggiungi` ne esegue comunque il controllo
 di coerenza (tools/valida.py). Le regole di traduzione sono quelle di docs/conversione-bimby-connect.md.
 """
-import argparse, json, pathlib, re, sys
+import math, argparse, json, pathlib, re, sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import valida
 from valida import ROOT, norm, tokens, grammi, stem
 
-AV05 = "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+AV05 = "La ricetta indica velocità 0.5, che sul Connect non c'è: arrotondata per eccesso a 1."
 SOFT = "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
 FRU = "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
 CONF = "Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
@@ -265,7 +265,7 @@ def parametri(frase, dubbi):
     if v:
         if v.group(1):
             vel = float(v.group(1).replace(",", "."))
-            vel = int(vel) if vel == int(vel) else vel
+            vel = int(vel) if vel == int(vel) else math.ceil(vel)       # il Connect non ha mezze velocità: per eccesso
         else:
             cucchiaio = True
     d = {"tempo_s": tempo or None, "temp_c": int(temp.group(1)) if temp else 0, "velocita": vel, "sinistrorsa": rev,

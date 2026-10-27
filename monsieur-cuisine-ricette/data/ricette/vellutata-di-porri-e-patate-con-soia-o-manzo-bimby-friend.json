@@ -141,7 +141,7 @@
    "tipo": "robot",
    "testo": "Tritate.",
    "tempo_s": 15,
-   "velocita": 4.5,
+   "velocita": 5,
    "temp_c": 0,
    "sinistrorsa": false
   },

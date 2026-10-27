@@ -136,7 +136,7 @@
    "velocita": 1,
    "temp_c": 100,
    "sinistrorsa": true,
-   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: arrotondata per eccesso a 1."
   },
   {
    "tipo": "testo",
