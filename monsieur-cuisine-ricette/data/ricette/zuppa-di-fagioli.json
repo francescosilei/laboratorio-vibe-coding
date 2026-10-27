@@ -1,0 +1,197 @@
+{
+ "id": "zuppa-di-fagioli",
+ "titolo": "Zuppa di fagioli",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-fagioli.jpg",
+ "ingredienti": [
+  {
+   "testo": "80 g di cipolla",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 scalogno, a metà",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "30 g di pancetta di maiale, a cubetti",
+   "nome": "pancetta maiale"
+  },
+  {
+   "testo": "1 rametto di rosmarino fresco, gli aghi lavati ed asciugati",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "50 g olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "30 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "30 g di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "450 g di fagioli borlotti, in scatola, sgocciolati",
+   "nome": "fagioli borlotti"
+  },
+  {
+   "testo": "50 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "800 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaio raso di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 dado per brodo vegetale (dose per 0,5 l)",
+   "nome": "dado"
+  },
+  {
+   "testo": "4 cucchiai di Parmigiano Reggiano grattugiato (opzionale)",
+   "nome": "parmigiano reggiano"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla, lo scalogno (o l'aglio), la pancetta e il rosmarino, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire la carota, il sedano a pezzi, 150 g di fagioli e la passata, frullare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere l'acqua, il sale e il dado, cuocere: 30 min./100°C/vel. 1.",
+  "Aggiungere i300 g di fagioli rimasti e cuocere: 1 min./100°C//vel. 1. Lasciare riposare nel boccale chiuso per 5 minuti.",
+  "Trasferire in una zuppiera o in ciotole individuali, irrorare con un filo di olio extravergine di oliva e, a piacere, spolverizzare con del Parmigiano reggiano grattugiato.",
+  "Servire calda."
+ ],
+ "note": [
+  "In alternativa: 1 spicchio di aglio",
+  "In alternativa: 30 g di cubetti di lardo",
+  "In alternativa: 1 cucchiaino colmo di dado per brodo vegetale"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di cipolla."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di pancetta di maiale, a cubetti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 scalogno, a metà, 1 rametto di rosmarino fresco, gli aghi lavati ed asciugati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di olio extravergine di oliva (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di sedano, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di fagioli borlotti, in scatola, sgocciolati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di passata di pomodoro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Pesate 800 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio raso di sale, 1 dado per brodo vegetale (dose per 0,5 l)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di fagioli borlotti, in scatola, sgocciolati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera o in ciotole individuali, irrorate con un filo di olio extravergine di oliva e, a piacere, spolverizzate con del Parmigiano reggiano grattugiato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calda."
+  }
+ ],
+ "origine": "cookidoo:r736833",
+ "importata": "2026-10-27"
+}
