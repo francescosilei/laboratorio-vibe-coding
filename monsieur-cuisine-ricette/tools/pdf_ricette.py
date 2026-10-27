@@ -119,6 +119,8 @@ def formatta(testa, ing, prep, m=None):
     cons, prev = False, None
     corpo = [r for r in prep if r[2] >= testo_x - 15 and r[0].strip() != "Consigli"]
     soglia_passo = soglia([b[3] - a[3] for a, b in zip(corpo, corpo[1:])], GAP_PASSO)
+    grandi = sorted(b[3] - a[3] for a, b in zip(corpo, corpo[1:]) if b[3] - a[3] > soglia_passo)
+    tipico = grandi[len(grandi) // 2] if len(grandi) >= 2 else None
     for t, c, x0, y0 in prep:
         if t.strip() == "Consigli":
             L += ["", "## CONSIGLI"]; cons = True; prev = None; continue
@@ -127,7 +129,10 @@ def formatta(testa, ing, prep, m=None):
         if x0 < testo_x - 15 and not cons and len(t.split()) <= 5 and not t.rstrip().endswith("."):
             L += ["", "# " + riga(t, c)]
         else:
-            if gap > soglia_passo and not cons: L.append("")
+            if gap > soglia_passo and not cons:
+                L.append("")
+                if tipico and gap > tipico * 1.45: L.append("[RIGA?]")      # tra due passi manca una riga letta dall'OCR
+                elif tipico is None and gap > soglia_passo * 1.9: L.append("[RIGA?]")
             L.append(re.sub(r"^\d{1,2}\s+(?=[A-ZÀ-Ú])", "", riga(t, c).lstrip(": ")))
     return "\n".join(L) + "\n"
 

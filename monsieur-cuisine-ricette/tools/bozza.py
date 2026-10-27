@@ -10,7 +10,7 @@ import argparse, json, pathlib, re, sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import valida
-from valida import ROOT, norm, tokens, grammi
+from valida import ROOT, norm, tokens, grammi, stem
 
 AV05 = "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
 SOFT = "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
@@ -71,7 +71,9 @@ def incolla(t, voc):
         w = m.group(0); lw = w.lower()
         if lw in voc: return w
         for pre in ("alle", "agli", "dell", "della", "delle", "nel", "sul", "con", "per", "allo", "ai", "di", "da", "in", "ed", "al", "il", "la", "le", "un", "co", "i"):
-            if lw.startswith(pre) and len(lw) - len(pre) >= 4 and (lw[len(pre):] in voc or lw[len(pre):] in _VOC2):
+            rest_ = lw[len(pre):]
+            radici = {stem(x) for x in (voc | _VOC2)} if len(rest_) >= 4 else set()
+            if lw.startswith(pre) and len(rest_) >= 4 and (rest_ in voc or rest_ in _VOC2 or stem(rest_) in radici):
                 return w[:len(pre)] + " " + w[len(pre):]
         return w
     return re.sub(r"[A-Za-zÀ-ú]+", f, t)
@@ -86,7 +88,7 @@ def frazioni(t, dubbi):
 
 
 ACCENTI = [(r"\ba meta\b", "a metà"), (r"\bmeta\b", "metà"), (r"\bpiu\b", "più"), (r"\be possibile\b", "è possibile"), (r"\bfinche\b", "finché"),
-           (r"\bvelocita\b", "velocità"), (r"\bcosi\b", "così"), (r"\bpero\b", "però"), (r"\bgia\b", "già"), (r"\bconi\b", "con i"), (r"\bapezzi\b", "a pezzi"), (r"\bmesia\b", "mesi a"), (r"\bper(?=\d)", "per "), (r"\bper(?=brodo)", "per "),
+           (r"\bvelocita\b", "velocità"), (r"\bcosi\b", "così"), (r"\bpero\b", "però"), (r"\bgia\b", "già"), (r"\bconi\b", "con i"), (r"\bapezzi\b", "a pezzi"), (r"\bat(occhetti|occhetti)\b", r"a t\1"), (r"\bafettine\b", "a fettine"), (r"\bacubetti\b", "a cubetti"), (r"\bmesia\b", "mesi a"), (r"\bper(?=\d)", "per "), (r"\bper(?=brodo)", "per "),
            (r"\b(ceci|fagioli|piselli|lenticchie|pomodori)n\s+scatola", r"\1 in scatola"), (r"\b0,5 [Il1]\b", "0,5 l"), (r"\bincasa\b", "in casa"),
            (r"\bsaporita\b", "saporita"), (r"\bcucina\b", "cucina"), (r"\bquantita\b", "quantità"), (r"\bcosi\b", "così")]
 
@@ -162,6 +164,7 @@ def testa(righe, voc):
         if re.match(r"^\s*Prep", r): break
         tit.append(r.strip())
     t = " ".join(tit)
+    righe = [re.sub(r"\b[lI]\s*h\b", "1h", r) for r in righe]
     def ore(pat):
         m = re.search(pat + r"\s*(?:(\d+)\s*h)?\s*(?:(\d+)\s*min)?", " ".join(righe))
         return (int(m.group(1) or 0) * 60 + int(m.group(2) or 0)) if m and (m.group(1) or m.group(2)) else None
@@ -233,6 +236,10 @@ def norma_temp(t):
 def parametri(frase, dubbi):
     """estrae tempo, temperatura, velocità, rotazione dalla frase; None se non è un passo robot"""
     f = norma_temp(frase)
+    m4 = re.search(r"\b(1[0-3]\d)0\s*°?\s*C\b", f)
+    if m4:
+        dubbi.append(f"temperatura «{m4.group(1)}0 °C» letta come {m4.group(1)} °C in «{frase[:50]}»")
+        f = f.replace(m4.group(0), m4.group(1) + "°C")
     mod = re.search(r"\b(Spiga|Cottura lenta|Sottovuoto|Bollitore|Turbo)\b", f)
     ha_vel = re.search(r"\bvel\b", f)
     fru = re.search(r"\bFrullare\b[^.:]*?(?:/|\s)\s*(\d+\s*(?:min|sec))", f) and not ha_vel
@@ -241,7 +248,8 @@ def parametri(frase, dubbi):
     seg = f[seg_i:] if (ha_vel or fru or mod) else ""
     if not (ha_vel or fru or mod or re.search(r"\d+\s*min\./", f)):
         return None
-    h = re.search(r"(\d+)\s*h\b", seg); m = re.search(r"(\d+)\s*min", seg); s = re.search(r"(\d+)\s*sec", seg)
+    h = re.search(r"(\d+)\s*h\b", seg); m = re.search(r"(\d+)\s*(?:-\s*\d+\s*)?min", seg); s = re.search(r"(\d+)\s*(?:-\s*\d+\s*)?sec", seg)
+    intervallo = re.search(r"(\d+)\s*-\s*(\d+)\s*(min|sec)", seg)
     qualche = re.search(r"[Qq]ualche\s*sec", f)
     if m and not h and int(m.group(1)) >= 150 and int(m.group(1)) % 10 == 0:
         dubbi.append(f"tempo «{m.group(1)} min» sospetto in «{frase[:60]}»: letto {int(m.group(1)) // 10} min")
@@ -277,6 +285,8 @@ def parametri(frase, dubbi):
             d["avvertenza"] = "«Spiga» del Bimby corrisponde al programma Impastare del Connect: durata e velocità le gestisce il programma, non sostituitelo con una velocità manuale."
         else:
             d["avvertenza"] = f"Modalità «{nm}» del Bimby: non è nelle tabelle di conversione. Traduzione al meglio: controllate sul display del Connect come impostarla."
+    if intervallo:
+        d["nota"] = ((d["nota"] + " ") if d["nota"] else "") + f"La ricetta indica {intervallo.group(1)}-{intervallo.group(2)} {'minuti' if intervallo.group(3) == 'min' else 'secondi'}: il timer è impostato a {intervallo.group(1)}."
     if re.search(r"indicat[oa] sulla confezione", f):
         d["tempo_s"] = None; d["nota"] = ((d["nota"] + " ") if d["nota"] else "") + CONF
     if qualche:
@@ -290,7 +300,7 @@ def parametri(frase, dubbi):
     return d
 
 
-PARAMS = re.compile(r"^\s*(?:\d+\s*h\s*)?(?:\d+\s*min\.?\s*)?(?:\d+\s*sec\.?\s*)?(?:/\s*(?:Varoma|\d{2,3}\s*[°'`]?\s*[cC](?:°C)?)\s*)?/*\s*(?:vel\.?\s*(?:\d{1,2}(?:[.,]\d)?|cucchiaio|[.sS])\.?)?")
+PARAMS = re.compile(r"^\s*(?:\d+\s*h\s*)?(?:\d+\s*(?:-\s*\d+\s*)?min\.?\s*)?(?:\d+\s*(?:-\s*\d+\s*)?sec\.?\s*)?(?:/\s*(?:Varoma|\d{2,3}\s*[°'`]?\s*[cC](?:°C)?)\s*)?/*\s*(?:vel\.?\s*(?:\d{1,2}(?:[.,]\d)?|cucchiaio|[.sS])\.?)?")
 
 
 def etichetta(clausola):
@@ -332,9 +342,12 @@ def converti(prep, ingr, voc, dubbi):
         elif cur: blocchi.append(("B", " ".join(cur))); cur = []
     gruppi_ing = {d.get("gruppo") for d in its if d.get("gruppo")}
     gruppo = None
-    for tipo, b in blocchi:
+    for k_, (tipo, b) in enumerate(blocchi):
         if tipo == "G":
             gruppo = b; continue
+        if b.strip() == "[RIGA?]":
+            seguente = next((x for t_, x in blocchi[k_ + 1:] if t_ == "B"), "")
+            dubbi.append(f"possibile riga mancante nell'OCR prima di «{seguente[:60]}»: verificare con un ritaglio"); continue
         b = re.sub(r"^\d{1,2}\s+(?=[A-ZÀ-Ú])", "", b)               # numero di passo letto dall'OCR
         b = re.sub(r"(?<=\.)\s+\d{1,2}\s+(?=[A-ZÀ-Ú])", " ", b)
         b = incolla(frazioni(pulisci(b), dubbi), voc)
@@ -452,7 +465,7 @@ def bozza(path, origine=None):
     voc = vocabolario()
     sez = leggi(path)
     global _VOC2
-    _VOC2 = set(re.findall(r"[a-zà-ú']+", " ".join(sez.get("INGREDIENTI", [])).lower()))     # parole della ricetta stessa
+    _VOC2 = set(re.findall(r"[a-zà-ú']+", " ".join(sez.get("INGREDIENTI", []) + sez.get("TESTA", [])).lower()))     # parole della ricetta stessa
     dubbi = []
     titolo, prep_m, tot_m, porz = testa(sez.get("TESTA", []), voc)
     ingr = ingredienti(sez.get("INGREDIENTI", []), voc, dubbi)
