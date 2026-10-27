@@ -9,6 +9,22 @@ Lavora in `monsieur-cuisine-ricette/`. Regole: `docs/conversione-bimby-connect.m
 `docs/formato-ricetta.md`. Leggile prima della prima importazione della sessione.
 Dipendenze: `pip install -r requirements.txt` (e `poppler-utils` per `pdfimages`).
 
+## Comando unico (usare questo, in una sessione NUOVA con poco contesto)
+
+`cd monsieur-cuisine-ricette && pip install -q -r requirements.txt` (solo se mancano le dipendenze), poi:
+
+    python3 tools/lotto.py /root/.claude/uploads/*/*.pdf
+
+Fa estrazione OCR, bozza, controllo di coerenza, importa da solo le ricette pulite, ricostruisce l'app, commit e push.
+Stampa le importate (con NA/dedotti/avvertenze) e, per le sole ricette dubbie, la vista compatta con la bozza in `<lavoro>/<codice>.json`.
+Poi, senza altre letture:
+1. Per ogni ricetta «DA RIVEDERE»: correggi solo le righe segnalate (un ritaglio piccolo di `<lavoro>/<codice>/pagina.png` se serve),
+   `python3 tools/importa.py aggiungi <lavoro>/<codice>.json --foto <lavoro>/<codice>/foto.jpg`. Duplicati: ignorali e dillo.
+2. Pubblica `dist/index.html` sull'artifact (stesso `file_path`) e, se hai corretto ricette, commit e push.
+3. Riepilogo breve in italiano. Non rileggere JSON o `dist/`, non aprire immagini intere, nessun controllo extra se non richiesto.
+
+Il resto di questo file descrive i singoli passi, utili solo per le ricette da rivedere.
+
 ## Metodo preferito: un PDF con tutte le ricette
 
 L'utente unisce i PDF degli screenshot in un solo file e lo allega in chat (il file arriva in `/root/.claude/uploads/`).
