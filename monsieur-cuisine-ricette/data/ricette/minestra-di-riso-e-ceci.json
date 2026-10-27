@@ -1,0 +1,170 @@
+{
+ "id": "minestra-di-riso-e-ceci",
+ "titolo": "Minestra di riso e ceci",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 30,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "minestra-di-riso-e-ceci.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 cipolla (circa 80 g) in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "8 pomodorini ciliegia, a metà",
+   "nome": "pomodorini ciliegia"
+  },
+  {
+   "testo": "60 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 pizzico zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "1000 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "2 cucchiaini di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "320 g di riso basmati (cottura 10 minuti vedere consiglio)",
+   "nome": "riso basmati"
+  },
+  {
+   "testo": "1 foglia di alloro fresca, lavata ed asciugata",
+   "nome": "alloro"
+  },
+  {
+   "testo": "250 g di ceci in scatola, sgocciolati (peso netto)",
+   "nome": "ceci"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato, a piacere",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla e i pomodorini, tritare: 3 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Aggiungere 50 g di olio extravergine di oliva e lo zucchero, insaporire: 5 min./120°C/vel. 1, con il cestello al posto del misurino.",
+  "Unire l'acqua e il sale, posizionare il cestello con il riso e sopra una foglia di alloro, cuocere: 18 min./100°C/vel. 4. Togliere il cestello con l'aiuto della spatola e eliminare la foglia di alloro.",
+  "Aggiungere 10 g di olio extravergine di oliva, il riso cotto e i ceci, mescolare: 1 min./90°C//vel. 0.5. Con l'aiuto della spatola mescolare ancora la minestra allinterno del boccale.",
+  "Trasferire la minestra in una zuppiera.",
+  "Spolverizzare a piacere con il pepe nero e servire in calda."
+ ],
+ "note": [
+  "Si consiglia per una buona cottura del riso nel cestello di aggiungere 8 minuti al tempo",
+  "di cottura indicato sulla confezione. Per esempio se si ha un riso che cuoce in",
+  "10-12 minuti, selezionare 19 come tempo della manovra di cottura con Bimby."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 cipolla (circa 80 g) in quarti, 8 pomodorini ciliegia, a metà."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico zucchero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false,
+   "nota": "Con il cestello al posto del misurino."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate 1000 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Aggiungete 320 g di riso basmati (cottura 10 minuti vedere consiglio)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di sale, 1 foglia di alloro fresca, lavata ed asciugata."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1080,
+   "velocita": 4,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete il cestello con l'aiuto della spatola e eliminare la foglia di alloro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate 10 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di ceci in scatola, sgocciolati (peso netto)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete riso basmati (messo da parte)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 90,
+   "sinistrorsa": true,
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con l'aiuto della spatola mescolate ancora la minestra allinterno del boccale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la minestra in una zuppiera."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate a piacere con il pepe nero e servite in calda."
+  }
+ ],
+ "origine": "cookidoo:r87899",
+ "importata": "2026-10-27"
+}

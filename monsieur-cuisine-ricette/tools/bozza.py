@@ -84,7 +84,8 @@ def frazioni(t, dubbi):
 
 
 ACCENTI = [(r"\ba meta\b", "a metà"), (r"\bmeta\b", "metà"), (r"\bpiu\b", "più"), (r"\be possibile\b", "è possibile"), (r"\bfinche\b", "finché"),
-           (r"\bvelocita\b", "velocità"), (r"\bcosi\b", "così"), (r"\bpero\b", "però"), (r"\bgia\b", "già"), (r"\bconi\b", "con i"), (r"\bapezzi\b", "a pezzi"), (r"\bincasa\b", "in casa"),
+           (r"\bvelocita\b", "velocità"), (r"\bcosi\b", "così"), (r"\bpero\b", "però"), (r"\bgia\b", "già"), (r"\bconi\b", "con i"), (r"\bapezzi\b", "a pezzi"), (r"\bmesia\b", "mesi a"), (r"\bper(?=\d)", "per "), (r"\bper(?=brodo)", "per "),
+           (r"\b(ceci|fagioli|piselli|lenticchie|pomodori)n\s+scatola", r"\1 in scatola"), (r"\b0,5 [Il1]\b", "0,5 l"), (r"\bincasa\b", "in casa"),
            (r"\bsaporita\b", "saporita"), (r"\bcucina\b", "cucina"), (r"\bquantita\b", "quantità"), (r"\bcosi\b", "così")]
 
 
@@ -113,7 +114,7 @@ def imperativo(t):
 
 def resto(testo):
     """testo senza la quantità iniziale: «200 g di sedano rapa» -> «sedano rapa»"""
-    return re.sub(rf"^[\d½¼¾/\s\-–.,]*(?:{UNITA}\b)?\s*(?:di\s+|d')?", "", testo, flags=re.I).strip()
+    return re.sub(rf"^[\d½¼¾/\s\-–.,]*(?:{UNITA}\b)?\s*(?:(?:colm[oiae]|ras[oiae]|abbondant[ei])\s+)?(?:di\s+|d')?", "", testo, flags=re.I).strip()
 
 
 CONTENITORI = r"(?:gambo|gambi|foglie|foglia|foglioline|rametti|rametto|ciuffo|ciuffi|cimette|cimetta|code|testa|teste|spicchio|spicchi|fetta|fette|filetti|filetto|mazzetto|polpa|semi)"
@@ -197,6 +198,8 @@ def ingredienti(righe, voc, dubbi):
         t = re.sub(r"\s*,\s*\+\s*q\.b\.", " (+ q.b.)", t)
         t = re.sub(r",\s*\(", " (", t).replace("  ", " ")
         d = {"testo": t, "nome": nome_di(it["testo"])}
+        al = re.search(r"\(([A-Za-zà-ú]{5,})\)", it["testo"])
+        if al: d["_alias"] = al.group(1).lower()
         if it["gruppo"]: d["gruppo"] = it["gruppo"]
         out.append((d, it["alt"]))
     nomi = [d["nome"] for d, _ in out]
@@ -206,6 +209,11 @@ def ingredienti(righe, voc, dubbi):
 
 
 # ------------------------------------------------------------------ parametri del robot
+def norma_vel(t):
+    t = re.sub(r"\bvel\.?\s*[oO]([.,]\d)", r"vel. 0\1", t)
+    return t
+
+
 def norma_minuti(t):
     """«20o min.»: la «o» è un residuo se leggerla come zero darebbe più di 150 minuti"""
     return re.sub(r"(\d+)[oO]\s*(?=min\b)", lambda m: (m.group(1) + "0") if int(m.group(1) + "0") < 150 else m.group(1) + " ", t)
@@ -217,7 +225,7 @@ def norma_temp(t):
         n = m.group(1) + "0" * len(m.group(2))
         if len(n) == 4 and n.endswith("0"): n = n[:3]          # «10ooc»: l'ultima «o» è il simbolo dei gradi
         return n + "°C"
-    return re.sub(r"(\d+)([oO]+)\s*[°'`]?\s*[cC]\b", f, norma_minuti(t))
+    return re.sub(r"(\d+)([oO]+)\s*[°'`]?\s*[cC]\b", f, norma_minuti(norma_vel(t)))
 
 
 def parametri(frase, dubbi):
@@ -347,7 +355,7 @@ def converti(prep, ingr, voc, dubbi):
                 if n in vistinomi: continue
                 testa_ = n.split()[0] if n.split() else n
                 simili = [m for m in ambito if its[m]["nome"].split()[:1] == [testa_]]
-                pieno = tok_in(tk[k], cl_tok)
+                pieno = tok_in(tk[k], cl_tok) or bool(its[k].get("_alias") and tok_in(tokens(its[k]["_alias"]), cl_tok))
                 parziale = len({its[m]["nome"] for m in simili}) == 1 and tok_in(tokens(testa_), cl_tok)
                 if pieno or parziale:
                     ts = tk[k] if pieno else tokens(testa_)
@@ -388,14 +396,18 @@ def converti(prep, ingr, voc, dubbi):
                 passi.append(p)
                 resto_frase = frase.split(":", 1)[1] if ":" in frase else ""
                 dopo = re.sub(r"senza misurino", "", PARAMS.sub("", resto_frase, count=1)).strip(" .")
-                if len(re.findall(r"[A-Za-zà-ú]{3,}", dopo)) >= 2 and not par["nota"] == FRU:
+                if resto_frase.strip().startswith(",") or re.match(r"^,", dopo):
+                    extra_n = dopo.lstrip(", ").strip()
+                    if extra_n:
+                        p["nota"] = ((p.get("nota") + " ") if p.get("nota") else "") + extra_n[0].upper() + extra_n[1:].rstrip(".") + "."
+                elif len(re.findall(r"[A-Za-zà-ú]{3,}", dopo)) >= 2 and not par["nota"] == FRU:
                     passi.append(testo_libero(dopo))
             elif not (ADD.search(clausola) or nel) or re.search(r"mescol|mantec|amalgam|impast|trasfer|serv|spolver|condir|riunir|togli", frase.lower()):
                 passi.append(testo_libero(frase))
     for k, d in enumerate(its):                        # grammi mai pesati: li peso prima del primo passo che li nomina
         if resta[k] > 0:
             for pos_, pz in enumerate(passi):
-                if pz["tipo"] == "testo" and (tok_in(tk[k], tokens(pz["testo"])) or tok_in(tokens(d["nome"].split()[0]), tokens(pz["testo"]))):
+                if pz["tipo"] == "testo" and (tok_in(tk[k], tokens(pz["testo"])) or tok_in(tokens(d["nome"].split()[0]), tokens(pz["testo"])) or bool(d.get("_alias") and tok_in(tokens(d["_alias"]), tokens(pz["testo"])))):
                     q = resta[k]
                     passi.insert(pos_, {"tipo": "pesata", "g": int(q) if q == int(q) else q, "testo": f"Pesate {q:g} g di {resto(d['testo'])}."})
                     resta[k] = 0; aggiunto[k] = True
@@ -452,7 +464,7 @@ def bozza(path, origine=None):
     dif = meta.get("difficolta", "NA").capitalize() if meta.get("difficolta") else "NA"
     r = {"id": slug(titolo), "titolo": titolo, "categoria": cat, "paese": pae, "dedotto": dedotto,
          "tempo_prep_min": prep_m, "tempo_cottura_min": None, "tempo_min": tot_m, "porzioni": porz, "difficolta": dif,
-         "fonte": "Cookidoo (Vorwerk)", "immagine": None, "ingredienti": [d for d, _ in ingr], "procedimento": proc,
+         "fonte": "Cookidoo (Vorwerk)", "immagine": None, "ingredienti": [{k: v for k, v in d.items() if not k.startswith("_")} for d, _ in ingr], "procedimento": proc,
          "note": note, "passi": passi}
     if origine: r["origine"] = origine
     if pae not in ("NA", "Italia"): dubbi.append(f"paese dalla fonte: «{pae}» (controllare se plausibile)")

@@ -1,0 +1,178 @@
+{
+ "id": "risotto-alle-melanzane",
+ "titolo": "Risotto alle melanzane",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 3,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "risotto-alle-melanzane.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 cipolla bianca, piccola a metà",
+   "nome": "cipolla bianca"
+  },
+  {
+   "testo": "25 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "280 g di melanzane, a cubetti e lasciate sotto sale per 10 minuti circa",
+   "nome": "melanzane"
+  },
+  {
+   "testo": "280 g di riso Arborio (cottura 14 minuti)",
+   "nome": "riso arborio"
+  },
+  {
+   "testo": "50 g di vino bianco secco",
+   "nome": "vino bianco secco"
+  },
+  {
+   "testo": "660 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino colmo di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "100 g di scamorza affumicata, a cubetti (1 cm)",
+   "nome": "scamorza affumicata"
+  },
+  {
+   "testo": "1 - 2 cucchiai di Parmigiano Reggiano grattugiato, a piacere",
+   "nome": "parmigiano reggiano"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla e tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Unire l'olio extravergine di oliva e insaporire: 2 min. 30 sec./120°C/vel. 1.",
+  "Aggiungere le melanzane e cuocere: 10 min./100°C//vel. .",
+  "Unire il riso e tostare: 1 min./100°C//vel. 1.",
+  "Aggiungere il vino e sfumare: 1 min./100°C//vel. 1.",
+  "Unire l'acqua e il dado vegetale, cuocere: 12 min./100°C//vel. .",
+  "Aggiungere i pezzetti di scamorza e mescolare a fondo con la spatola per qualche secondo. Lasciar riposare nel boccale.",
+  "Servire subito spolverizzando con il Parmigiano Reggiano grattugiato."
+ ],
+ "note": [
+  "Il tempo di cottura del risotto puo variare in base al tipo di riso scelto. Suggeriamo di",
+  "tenere sempre in considerazione il tempo di cottura riportato sulla confezione.",
+  "In genere con un riso arborio, da risotti, la proporzione tra acqua e riso e il doppio del",
+  "peso del riso più 100 g.",
+  "Le melanzane possono rilasciare più o meno liquido. Controllare la cottura e, nel caso",
+  "ridurre, di circa 30 g il quantitativo di acqua al passaggio 6.",
+  "A piacere servire con una macinata di pepe nero.",
+  "In alternativa: 1 dado per brodo vegetale (dose per 0,5 l)"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 cipolla bianca, piccola a metà."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 25,
+   "testo": "Pesate 25 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 150,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 280,
+   "testo": "Pesate 280 g di melanzane, a cubetti e lasciate sotto sale per 10 minuti circa."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 280,
+   "testo": "Pesate 280 g di riso Arborio (cottura 14 minuti)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tostate.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di vino bianco secco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 660,
+   "testo": "Pesate 660 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di dado per brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 720,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di scamorza affumicata, a cubetti (1 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete i pezzetti di scamorza e mescolate a fondo con la spatola per qualche secondo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito spolverizzando con il Parmigiano Reggiano grattugiato."
+  }
+ ],
+ "origine": "cookidoo:r88324",
+ "importata": "2026-10-27"
+}
