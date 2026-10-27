@@ -1,0 +1,146 @@
+{
+ "id": "mesciua-spezzina",
+ "titolo": "Mesciua spezzina",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "mesciua-spezzina.jpg",
+ "ingredienti": [
+  {
+   "testo": "50 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "300 g di ceci in scatola, sciacquati e sgocciolati",
+   "nome": "ceci"
+  },
+  {
+   "testo": "300 g di fagioli cannellini in scatola, sciacquati e sgocciolati",
+   "nome": "fagioli cannellini"
+  },
+  {
+   "testo": "800 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "8 g di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "150 g di farro perlato (cottura 35-40 minuti)",
+   "nome": "farro perlato"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato (opzionale)",
+   "nome": "pepe nero"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla e tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva, insaporire: 3 min./120°C/vel. 1.",
+  "Unire i ceci, i fagioli cannellini, l'acqua e il sale, cuocere: 12 min./100°C//vel. .",
+  "Aggiungere il farro e cuocere: 35 min./100°C//vel. . Trasferire in una zuppiera.",
+  "Servire a piacere irrorando con un filo di olio extravergine di oliva e insaporendo con un pizzico di pepe nero."
+ ],
+ "note": [
+  "Questa zuppa prende il nome dall'usanza di mescolare i legumi e i cereali raccolti sulle banchine dalle mogli dei lavoratori che scaricavano le navi al porto di La Spezia. Ceci, fagioli e chicchi di cereali caduti dalle fenditure dei sacchi venivano raccolti per essere trasformati in zuppe nutrienti.",
+  "Se si preferisce una minestra maggiormente brodosa, aggiungere ulteriori 200 g di acqua al passaggio 3."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di ceci in scatola, sciacquati e sgocciolati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di fagioli cannellini in scatola, sciacquati e sgocciolati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 8,
+   "testo": "Aggiungete 8 g di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 720,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di farro perlato (cottura 35-40 minuti)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 2100,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite a piacere irrorando con un filo di olio extravergine di oliva e insaporendo con un pizzico di pepe nero."
+  }
+ ],
+ "origine": "cookidoo:r817793",
+ "importata": "2026-10-27"
+}

@@ -1,0 +1,268 @@
+{
+ "id": "curry-di-ceci-vegan",
+ "titolo": "Curry di ceci (vegan)",
+ "categoria": "NA",
+ "paese": "India",
+ "dedotto": [
+  "paese"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "curry-di-ceci-vegan.jpg",
+ "ingredienti": [
+  {
+   "testo": "15 g di semi di coriandolo",
+   "nome": "semi coriandolo"
+  },
+  {
+   "testo": "15 g di semi di cumino",
+   "nome": "semi cumino"
+  },
+  {
+   "testo": "5 g di cardamomo in polvere",
+   "nome": "cardamomo"
+  },
+  {
+   "testo": "1 stecca di cannella",
+   "nome": "stecca cannella"
+  },
+  {
+   "testo": "3 - 4 peperoncini rossi secchi",
+   "nome": "peperoncini"
+  },
+  {
+   "testo": "100 g di scalogno, a pezzi",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "15 g di zenzero, radice fresca, pelato e grattugiato",
+   "nome": "zenzero"
+  },
+  {
+   "testo": "30 g di olio di sesamo",
+   "nome": "olio sesamo"
+  },
+  {
+   "testo": "400 g di zucchine, a pezzi",
+   "nome": "zucchine"
+  },
+  {
+   "testo": "200 g di carote, pelate e a pezzi",
+   "nome": "carote"
+  },
+  {
+   "testo": "450 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 ½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "400 g di cimette di broccoli",
+   "nome": "broccoli"
+  },
+  {
+   "testo": "200 g di latte di cocco",
+   "nome": "latte cocco"
+  },
+  {
+   "testo": "500 g di ceci lessati",
+   "nome": "ceci lessati"
+  },
+  {
+   "testo": "100 g di spinaci baby freschi",
+   "nome": "spinaci"
+  },
+  {
+   "testo": "coriandolo fresco, a piacere",
+   "nome": "coriandolo fresco"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale i semi di coriandolo, i semi di cumino, il cardamomo, la stecca di cannella e i peperoncini, polverizzare: 20 sec./vel. 10. Riunire sul fondo con la spatola.",
+  "Aggiungere lo scalogno, l'aglio e lo zenzero, tritare: 3 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Unire l'olio di sesamo e insaporire: 2 min./120°C/vel. 1.",
+  "Aggiungere 200 g di zucchine, le carote, l'acqua e 1 cucchiaino di sale, tritare: 3 sec./vel. 4.5.",
+  "Posizionare il recipiente del Varoma, sistemarvi i broccoli ei200 g di zucchine rimanenti. Chiudere il Varoma con il coperchio e cuocere: 25 min./Varoma//vel. 1. Togliere con attenzione il Varoma.",
+  "Aggiungere nel boccale i ceci e latte di cocco, mescolare con la spatola e cuocere: 5 min./100°C//vel. 1. Trasferire i broccoli e le zucchine in una ciotola da portata e insaporire con ½ cucchiaino di sale.",
+  "Unire gli spinaci e il curry di ceci, mescolare. Decorare con del coriandolo fresco e servire."
+ ],
+ "note": [
+  "Per ottenere 500 g di ceci cotti, è necessario mettere in ammollo 250 g di ceci secchi per almeno 8-12 ore (seguire le istruzioni riportate sulla confezione). Per la cottura, cerca la ricetta Cottura dei ceci presente su Cookidoo. In alternativa, utilizzare dei ceci in scatola, precedentemente sciacquati e ben sgocciolati."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Pesate nel boccale 15 g di semi di coriandolo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Aggiungete 15 g di semi di cumino."
+  },
+  {
+   "tipo": "pesata",
+   "g": 5,
+   "testo": "Aggiungete 5 g di cardamomo in polvere."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 stecca di cannella e 3 - 4 peperoncini rossi secchi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Polverizzate.",
+   "tempo_s": 20,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di scalogno, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Aggiungete 15 g di zenzero, radice fresca, pelato e grattugiato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 spicchi di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio di sesamo."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di zucchine, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di carote, pelate e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 450,
+   "testo": "Aggiungete 450 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 4.5,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "La ricetta indica velocità 4.5: verificate se il Connect ammette le mezze velocità, altrimenti usate 4 o 5."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di zucchine, a pezzi (le rimanenti)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di cimette di broccoli."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il recipiente del Varoma e sistemate i broccoli e i 200 g di zucchine rimanenti. Chiudete il Varoma con il coperchio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete nel boccale 500 g di ceci lessati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di latte di cocco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mescolate con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite i broccoli e le zucchine in una ciotola da portata e insaporite con ½ cucchiaino di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di spinaci baby freschi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite gli spinaci e il curry di ceci, mescolate. Decorate con del coriandolo fresco e servite."
+  }
+ ],
+ "origine": "cookidoo:r817221",
+ "importata": "2026-10-27"
+}

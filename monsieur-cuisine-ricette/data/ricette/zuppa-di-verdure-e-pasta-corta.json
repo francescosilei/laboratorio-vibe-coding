@@ -1,0 +1,229 @@
+{
+ "id": "zuppa-di-verdure-e-pasta-corta",
+ "titolo": "Zuppa di verdure e pasta corta",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-verdure-e-pasta-corta.jpg",
+ "ingredienti": [
+  {
+   "testo": "120 g di gambi di sedano",
+   "nome": "sedano"
+  },
+  {
+   "testo": "150 g di cavolo cappuccio, privato del torsolo, in 1-2 spicchi",
+   "nome": "cavolo cappuccio"
+  },
+  {
+   "testo": "120 g di carote, sbucciate",
+   "nome": "carote"
+  },
+  {
+   "testo": "100 g di Parmigiano Reggiano",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "150 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "400 g di polpa di pomodoro a pezzi",
+   "nome": "polpa pomodoro"
+  },
+  {
+   "testo": "1 dado per brodo vegetale (dose per 0,5 l)",
+   "nome": "dado"
+  },
+  {
+   "testo": "150 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "1 cucchiaio di origano secco",
+   "nome": "origano"
+  },
+  {
+   "testo": "1 cucchiaino di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "¼ - ½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "½ cucchiaino di pepe nero macinato",
+   "nome": "pepe nero"
+  },
+  {
+   "testo": "½ - 1 cucchiaino di peperoncino in polvere (opzionale)",
+   "nome": "peperoncino"
+  },
+  {
+   "testo": "800 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "80 g di pasta tipo ditalini",
+   "nome": "pasta ditalini"
+  },
+  {
+   "testo": "1 cucchiaio di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 rametto di prezzemolo fresco, le foglioline lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "pane tostato, a piacere",
+   "nome": "pane"
+  }
+ ],
+ "procedimento": [
+  "Posizionare una ciotola sul coperchio del boccale e pesare il sedano, il cavolo, la carota e il Parmigiano Reggiano. Tenere da parte.",
+  "Posizionare il perno, il contenitore e il disco Affettatutto con lato 2 (grattugiare) rivolto verso l'alto. Chiudere con il coperchio del contenitore, inserire il Parmigiano Reggiano preparato nella parte larga del foro e posizionare lo spingitore. Grattugiare /Sottile premendo con lo spingitore. Trasferire il Parmigiano Reggiano grattugiato in una ciotola e tenere da parte.",
+  "Riposizionare il contenitore e il disco Affettatutto con lato 2 (grattugiare) rivolto verso l'alto. Chiudere con il coperchio del contenitore, inserire la carota preparata nella parte stretta del foro e posizionare lo spingitore. Grattugiare /Spesso premendo lo spingitore.",
+  "Rimuovere il coperchio dell'Affettatutto e capovolgere il disco sul perno con il lato l (affettare) rivolto verso l'alto. Chiudere con il coperchio del contenitore, inserire 1",
+  "Affettare /Spesso premendo lo spingitore. Ripetere l'operazione se necessario. Trasferire le verdure in una ciotola e tenere da parte.",
+  "Riposizionare il contenitore e il disco Affettatutto con lato 1 (affettare) rivolto verso l'alto. Chiudere con il coperchio del contenitore, inserire tutti i gambi di sedano nella parte stretta o larga del foro. Posizionare lo spingitore e impostare Affettare /Spesso premendo lo spingitore. Togliere l'Affettatutto e il perno dal boccale e tenere da parte.",
+  "Mettere nel boccale l'olio extravergine di oliva e le cipolle, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere le fette di sedano e insaporire: 5 min./120°C//vel. 0.5.",
+  "Unire la polpa di pomodoro, il brodo vegetale, la passata di pomodoro, 'origano, lo zucchero, il sale, il pepe, il peperoncino e l'acqua, cuocere: 7 min./100°C//vel. 0.5",
+  "Aggiungere le carote grattugiate, il cavolo a fette e la pasta, cuocere: il tempo indicato sulla confezione 100°C//vel. 0.5.",
+  "Trasferire in una ciotola da portata, irrorare con un filo di olio extravergine di oliva e spolverizzare con prezzemolo fresco e il Parmigiano Reggiano grattugiato. Servire caldo con del pane tostato."
+ ],
+ "note": [
+  "In alternativa: 1 cucchiaino colmo di dado per brodo vegetale"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Pesate in una ciotola 120 g di gambi di sedano."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di cavolo cappuccio, privato del torsolo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Aggiungete 120 g di carote, sbucciate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di Parmigiano Reggiano."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Grattugiate fine il Parmigiano Reggiano e tenetelo da parte. Grattugiate le carote grossolanamente, affettate il cavolo a fette spesse e il sedano a fettine spesse; tenete le verdure da parte.",
+   "avvertenza": "L'Affettatutto (grattugiare/affettare) è un accessorio Bimby non presente nelle tabelle di conversione: preparate le verdure a mano o con l'accessorio equivalente del Connect, se l'avete."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva (+ q.b.)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete le fette di sedano."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di polpa di pomodoro a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 dado per brodo vegetale (dose per 0,5 l)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di passata di pomodoro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio di origano secco, 1 cucchiaino di zucchero, ¼ - ½ cucchiaino di sale, ½ cucchiaino di pepe nero macinato e ½ - 1 cucchiaino di peperoncino in polvere (opzionale)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete le carote grattugiate e il cavolo a fette."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di pasta tipo ditalini."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete per il tempo indicato sulla confezione della pasta.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "La ricetta indica il tempo di cottura riportato sulla confezione della pasta.",
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola da portata, irrorate con 1 cucchiaio di olio extravergine di oliva e spolverizzate con prezzemolo fresco e il Parmigiano Reggiano grattugiato. Servite caldo con del pane tostato."
+  }
+ ],
+ "origine": "cookidoo:r800308",
+ "importata": "2026-10-27"
+}
