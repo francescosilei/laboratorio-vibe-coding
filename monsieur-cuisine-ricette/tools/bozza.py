@@ -43,8 +43,8 @@ VERBI = {  # infinito -> imperativo (voi)
 ADD = re.compile(r"\b(mettere|aggiungere|unire|versare|inserire|incorporare|pesare)\b", re.I)
 AZIONE_PRIMA = re.compile(r"\b(trasferire|togliere|servire|riunire|svuotare|rimuovere|scolare)\b", re.I)
 CATEGORIE = [("Dessert", r"torta|dolce|budino|gelato|biscott|crostata|muffin|tiramis|marmellata|confettura|panna cotta|mousse"),
-             ("Primi", r"risotto|pasta|gnocchi|minestr|zuppa|vellutata|crema di|passato|lasagne|ravioli|spaghetti|tagliatelle|penne|fregola|farro|orzotto|riso "),
-             ("Secondi", r"polpett|filetto|arrosto|spezzatino|pollo|manzo|maiale|vitello|pesce|merluzzo|salmone|frittata|involtini|hamburger|tacos"),
+             ("Primi", r"risotto|pasta|gnocchi|minestr|zuppa|vellutata|crema di|passato|lasagne|ravioli|spaghetti|tagliatelle|penne|fregola|farro|orzo|orzotto|riso|cous ?cous|bulgur|quinoa|polenta|arroz"),
+             ("Secondi", r"polpett|filetto|arrosto|spezzatino|pollo|manzo|maiale|vitello|pesce|merluzzo|salmone|frittata|involtini|hamburger|tacos|uova"),
              ("Contorni", r"contorno|purè|puree|insalata|verdure al|patate al"),
              ("Antipasti", r"antipasto|bruschett|hummus|tartine|sformatini|focaccia|torta salata")]
 
@@ -62,13 +62,15 @@ _VOC2 = set()
 
 def incolla(t, voc):
     t = re.sub(r"\b(cucchiaini|cucchiaino|cucchiai|pizzichi|pizzico|spicchi|rametti)(di)\b", r"\1 \2", t)
+    t = re.sub(r"([a-z])(Varoma)\b", r"\1 \2", t)
+    t = re.sub(r"\bper l minut", "per 1 minut", t)
     t = re.sub(r"\bg(di|d)(?=[a-zà-ú]{3,})", r"g \1 ", t)
     t = re.sub(r"(\d)g(?=[a-zà-ú]{3,})", r"\1 g ", t)
     """separa le parole attaccate dall'OCR («dilenticchie» → «di lenticchie»), solo se la seconda parte è nota"""
     def f(m):
         w = m.group(0); lw = w.lower()
         if lw in voc: return w
-        for pre in ("di", "da", "in", "ed", "al", "il", "la", "le", "un", "co", "i"):
+        for pre in ("alle", "agli", "dell", "della", "delle", "nel", "sul", "con", "per", "allo", "ai", "di", "da", "in", "ed", "al", "il", "la", "le", "un", "co", "i"):
             if lw.startswith(pre) and len(lw) - len(pre) >= 4 and (lw[len(pre):] in voc or lw[len(pre):] in _VOC2):
                 return w[:len(pre)] + " " + w[len(pre):]
         return w
@@ -321,6 +323,7 @@ def converti(prep, ingr, voc, dubbi):
     tk = [tokens(d["nome"]) for d in its]
     resta = [(grammi(d["testo"]) or (0,))[0] for d in its]
     aggiunto = [False] * len(its)
+    ult_pes, varoma_ctx = {}, False
     passi, proc, gruppo_att, cur, blocchi = [], [], None, [], []
     for r in prep + [""]:
         if r.startswith("# "):
@@ -344,10 +347,12 @@ def converti(prep, ingr, voc, dubbi):
             if not frase: continue
             par = parametri(frase, dubbi)
             clausola = frase.split(":")[0] if par and ":" in frase else frase
+            if re.search(r"recipiente del Varoma|vassoio|[Cc]hiudere il Varoma", frase): varoma_ctx = True
             nel = bool(re.search(r"nel boccale", clausola))
             if par is None and not ADD.search(frase) and not nel and ":" not in frase:
                 passi.append(testo_libero(frase)); continue
-            ambito = [k for k, d in enumerate(its) if not gruppi_ing or stesso_gruppo(d.get("gruppo"), gruppo)]
+            in_gruppo = [k for k, d in enumerate(its) if not gruppi_ing or stesso_gruppo(d.get("gruppo"), gruppo)]
+            ambito = in_gruppo + [k for k in range(len(its)) if k not in in_gruppo]
             cl_tok, cl_norm = tokens(clausola), norm(clausola)
             pos, vistinomi = [], set()
             for k in ambito:
@@ -365,6 +370,7 @@ def converti(prep, ingr, voc, dubbi):
             if ADD.search(clausola) or nel:
                 for _, n in pos:
                     cand = [k for k in ambito if its[k]["nome"] == n]
+                    cand = [k for k in cand if k in in_gruppo] or cand
                     k = next((k for k in cand if resta[k] > 0), cand[0])
                     it = its[k]
                     g = grammi(it["testo"])
@@ -372,14 +378,14 @@ def converti(prep, ingr, voc, dubbi):
                     quanto = float(esplicito.group(1).replace(",", ".")) if esplicito else None
                     if g and resta[k] > 0:
                         q = quanto if quanto else resta[k]
-                        resta[k] -= q; aggiunto[k] = True
+                        resta[k] -= q; aggiunto[k] = True; ult_pes[k] = len(passi)
                         verbo = "Pesate nel boccale" if primo and nel else ("Pesate" if primo else "Aggiungete")
                         passi.append({"tipo": "pesata", "g": int(q) if q == int(q) else q, "testo": f"{verbo} {q:g} g di {resto(it['testo'])}."})
                         primo = False
                     elif not aggiunto[k] or (g and resta[k] <= 0 and re.search(re.escape(n.split()[0][:4]) + r"\w*\s+restante", clausola)):
                         aggiunto[k] = True
                         extra.append(it["testo"])
-                    elif g:
+                    elif g and ult_pes.get(k) is not None and any("da parte" in (p_.get("testo", "").lower()) for p_ in passi[ult_pes[k]:]):
                         extra.append(f"{n} (messo da parte)")
                 if extra:
                     verbo_t = "Mettete nel boccale" if nel and primo else "Aggiungete"
@@ -389,14 +395,16 @@ def converti(prep, ingr, voc, dubbi):
                      "temp_c": par["temp_c"], "sinistrorsa": par["sinistrorsa"]}
                 for kk in ("programma", "nota", "avvertenza"):
                     if par[kk]: p[kk] = par[kk]
+                if re.search(r"recipiente del Varoma|vassoio|Varoma\s+e\s+sistemare|[Cc]hiudere il Varoma|[Pp]osizionare il Varoma", clausola):
+                    varoma_ctx = True
                 if par["varoma"]:
                     p["temp_c"] = 0
-                    if re.search(r"recipiente del Varoma|Varoma\s+e\s+sistemare", clausola):
+                    if varoma_ctx:
                         p["programma"] = "Cottura al vapore"; p["avvertenza"] = VAPORE
                 passi.append(p)
                 resto_frase = frase.split(":", 1)[1] if ":" in frase else ""
                 dopo = re.sub(r"senza misurino", "", PARAMS.sub("", resto_frase, count=1)).strip(" .")
-                if resto_frase.strip().startswith(",") or re.match(r"^,", dopo):
+                if resto_frase.strip().startswith(",") or re.match(r"^,", dopo) or (dopo[:1].islower() and re.match(r"(?:sempre\s+)?(?:con|senza)\b", dopo)):
                     extra_n = dopo.lstrip(", ").strip()
                     if extra_n:
                         p["nota"] = ((p.get("nota") + " ") if p.get("nota") else "") + extra_n[0].upper() + extra_n[1:].rstrip(".") + "."
@@ -461,6 +469,11 @@ def bozza(path, origine=None):
     if note: pass
     pae = meta.get("paese", "NA")
     if len(pae) < 4: pae = "NA"
+    for pat, paese_ in ((r"messican|tacos|burrito|nachos|guacamole|arroz", "Messico"), (r"giappones|sushi|ramen", "Giappone"),
+                        (r"indian|curry|tikka", "India"), (r"greco|greca|moussaka", "Grecia"), (r"francese|ratatouille", "Francia")):
+        if re.search(pat, titolo.lower()) and pae != paese_:
+            dubbi.append(f"paese «{pae}» dalla fonte, ma il titolo indica {paese_}: usato {paese_} (dedotto)")
+            pae = paese_; dedotto.append("paese"); break
     dif = meta.get("difficolta", "NA").capitalize() if meta.get("difficolta") else "NA"
     r = {"id": slug(titolo), "titolo": titolo, "categoria": cat, "paese": pae, "dedotto": dedotto,
          "tempo_prep_min": prep_m, "tempo_cottura_min": None, "tempo_min": tot_m, "porzioni": porz, "difficolta": dif,

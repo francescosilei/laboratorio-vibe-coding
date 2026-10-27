@@ -1,0 +1,183 @@
+{
+ "id": "arroz-rojo-riso-rosso-messicano",
+ "titolo": "Arroz Rojo (Riso rosso messicano)",
+ "categoria": "Primi",
+ "paese": "Messico",
+ "dedotto": [
+  "categoria",
+  "paese"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 30,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "arroz-rojo-riso-rosso-messicano.jpg",
+ "ingredienti": [
+  {
+   "testo": "80 g di cipolle, a pezzi",
+   "nome": "cipolle"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1 carota, pelata e a pezzi (2 cm)",
+   "nome": "carota"
+  },
+  {
+   "testo": "1 peperoncino secco piccante",
+   "nome": "peperoncino secco piccante"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "320 g di riso per risotto (Carnaroli, Arborio o Parboiled cottura 14 minuti)",
+   "nome": "riso"
+  },
+  {
+   "testo": "1 cucchiaio di aceto di vino bianco",
+   "nome": "aceto vino bianco"
+  },
+  {
+   "testo": "½ cucchiaino di coriandolo in polvere",
+   "nome": "coriandolo"
+  },
+  {
+   "testo": "½ cucchiaino di paprika dolce",
+   "nome": "paprika dolce"
+  },
+  {
+   "testo": "30 g di concentrato di pomodoro",
+   "nome": "concentrato pomodoro"
+  },
+  {
+   "testo": "700 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "180 g di fagioli rossi in scatola, sgocciolati e sciacquati",
+   "nome": "fagioli rossi"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le cipolle, lo spicchio di aglio, la carota e il peperoncino, tritare: 3 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 5 min./120°C/vel. 1 con il cestello al posto del misurino.",
+  "Unire il riso e tostare senza misurino: 3 min./120°C//vel. 1.",
+  "Aggiungere l'aceto, il coriandolo, la paprika, il concentrato di pomodoro, l'acqua e il sale, mescolare a fondo con la spatola per smuovere il riso e cuocere: 10 min./100°C//vel. 1 con il cestello al posto del misurino.",
+  "Unire i fagioli e proseguire la cottura: 4 min./100°C//vel. 1 con il cestello al posto del misurino.",
+  "Far riposare il risotto nel boccale per 1 minuto e trasferire in una risottiera. Se necessario, aggiustare di sale e servire subito."
+ ],
+ "note": [
+  "Il coriandolo e la paprika si possono sostituire con l cucchiaino di mix di spezie",
+  "messicane.",
+  "In alternativa: 1 cucchiaino colmo di dado per brodo vegetale, fatto in casa"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di cipolle, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, 1 carota, pelata e a pezzi (2 cm), 1 peperoncino secco piccante."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false,
+   "nota": "Con il cestello al posto del misurino."
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di riso per risotto (Carnaroli, Arborio o Parboiled cottura 14 minuti)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tostate.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di concentrato di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Aggiungete 700 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio di aceto di vino bianco, ½ cucchiaino di coriandolo in polvere, ½ cucchiaino di paprika dolce, 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Con il cestello al posto del misurino."
+  },
+  {
+   "tipo": "pesata",
+   "g": 180,
+   "testo": "Pesate 180 g di fagioli rossi in scatola, sgocciolati e sciacquati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Con il cestello al posto del misurino."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Far riposare il risotto nel boccale per 1 minuto e trasferite in una risottiera.",
+   "attesa_s": 60
+  },
+  {
+   "tipo": "testo",
+   "testo": "Se necessario, aggiustate di sale e servite subito."
+  }
+ ],
+ "origine": "cookidoo:r100339",
+ "importata": "2026-10-27"
+}

@@ -1,0 +1,190 @@
+{
+ "id": "bulgur-alle-verdure-e-menta",
+ "titolo": "Bulgur alle verdure e menta",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 8,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "bulgur-alle-verdure-e-menta.jpg",
+ "ingredienti": [
+  {
+   "testo": "250 g di peperoni gialli, a cubetti (1 cm)",
+   "nome": "peperoni gialli"
+  },
+  {
+   "testo": "150 g di zucchine, a cubetti (1 cm)",
+   "nome": "zucchine"
+  },
+  {
+   "testo": "100 g di porri, a rondelle sottili",
+   "nome": "porri"
+  },
+  {
+   "testo": "15 foglie di menta fresca, lavate e asciugate",
+   "nome": "menta"
+  },
+  {
+   "testo": "50 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "30 g di succo di limone, spremuto fresco",
+   "nome": "succo limone"
+  },
+  {
+   "testo": "2 pizzichi di sale (+ q.b.)",
+   "nome": "sale"
+  },
+  {
+   "testo": "700 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "200 g di bulgur",
+   "nome": "bulgur"
+  },
+  {
+   "testo": "100 g di gambi di sedano, a fettine sottili",
+   "nome": "sedano"
+  },
+  {
+   "testo": "100 g di pomodori datterino, a metà",
+   "nome": "pomodori datterino"
+  }
+ ],
+ "procedimento": [
+  "Foderare con carta forno il recipiente del Varoma e disporvi all'interno i peperoni. Posizionare il vassoio, disporvi sopra le zucchine e il porro, chiudere il Varoma con il coperchio e tenere da parte.",
+  "Mettere nel boccale la menta, l'olio extravergine di oliva, il succo di limone e il sale, emulsionare: 20 sec./vel. 4. Trasferire l'emulsione in una ciotolina e tenere da parte.",
+  "Senza lavare il boccale, mettere l'acqua e posizionare il Varoma, cuocere: 10 min./Varoma/vel. 1. Togliere con attenzione il coperchio del Varoma, capovolgerlo e poggiarvi sopra il recipiente e posizionare il cestello con il bulgur al suo interno.",
+  "Chiudere il boccale posizionare nuovamente il Varoma, cuocere: 10 min./Varoma/vel. 1. Togliere con attenzione il coperchio del Varoma e",
+  "sciacquare il bulgur sotto acqua corrente fredda.",
+  "In un'insalatiera sistemare il bulgur, il sedano, i pomodorini, le verdure cotte a vapore, irrorare con l'emulsione e mescolare bene con un cucchiaio.",
+  "Servire freddo in ciotoline o bicchierini."
+ ],
+ "note": [
+  "ermetico in frigorifero.",
+  "II bulgur puo essere conservato per 3 o 4 giorni in frigorifero, riposto in un contenitore",
+  "ermetico. Al momento dell'utilizzo lasciarlo qualche minuto a temperatura ambiente e",
+  "condirlo nuovamente con poco olio extravergine di oliva e una spruzzata di succo di",
+  "limone.",
+  "Utilizzare altri tipi di verdure o erbe aromatiche per condire il bulgur. Si consigliano olive",
+  "capperi, mais, origano, basilico, prezzemolo, cipolla rossa o altre verdure di stagione a",
+  "piacere."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di peperoni gialli, a cubetti (1 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Foderate con carta forno il recipiente del Varoma e disporvi all'interno i peperoni."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate 150 g di zucchine, a cubetti (1 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di porri, a rondelle sottili."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il vassoio, disporvi sopra le zucchine e il porro, chiudere il Varoma con il coperchio e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di succo di limone, spremuto fresco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 15 foglie di menta fresca, lavate e asciugate, 2 pizzichi di sale (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Emulsionate.",
+   "tempo_s": 20,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'emulsione in una ciotolina e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Pesate 700 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di bulgur."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il coperchio del Varoma, capovolgerlo e poggiarvi sopra il recipiente e posizionate il cestello con il bulgur al suo interno."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il coperchio del Varoma e sciacquare il bulgur sotto acqua corrente fredda."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di gambi di sedano, a fettine sottili."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di pomodori datterino, a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "In un'insalatiera sistemate il bulgur, il sedano, i pomodorini, le verdure cotte a vapore, irrorate con l'emulsione e mescolate bene con un cucchiaio."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite freddo in ciotoline o bicchierini."
+  }
+ ],
+ "origine": "cookidoo:r97555",
+ "importata": "2026-10-27"
+}
