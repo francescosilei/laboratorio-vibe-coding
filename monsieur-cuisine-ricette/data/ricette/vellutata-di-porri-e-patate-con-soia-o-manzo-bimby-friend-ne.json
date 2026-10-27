@@ -1,0 +1,266 @@
+{
+ "id": "vellutata-di-porri-e-patate-con-soia-o-manzo-bimby-friend-ne",
+ "titolo": "Vellutata di porri e patate con soia o manzo (Bimby Friend) ★ ★ ★ ★ ★ Nessuna valutazione",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-di-porri-e-patate-con-soia-o-manzo-bimby-friend-ne.jpg",
+ "ingredienti": [
+  {
+   "testo": "80 g di cipolla",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "80 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "500 g di patate, pelate e a pezzi (2-3 cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "370 - 400 g di porro, la parte bianca, a rondelle (1 cm)",
+   "nome": "porro"
+  },
+  {
+   "testo": "750 - 900 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "2 cucchiaini colmi di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "¼ - ½ cucchiaino di noce moscata in polvere",
+   "nome": "noce moscata"
+  },
+  {
+   "testo": "½ cucchiaino di pepe macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "200 g di macinato vegetariano",
+   "nome": "vegetariano"
+  },
+  {
+   "testo": "2 cucchiaini di paprika dolce",
+   "nome": "paprika dolce"
+  },
+  {
+   "testo": "6 pizzichi di pepe di Cayenna macinato",
+   "nome": "pepe cayenna"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "200 g di carne trita",
+   "nome": "carne trita"
+  },
+  {
+   "testo": "150 g di panna di soia (+ q.b.)",
+   "nome": "panna soia"
+  },
+  {
+   "testo": "½ mazzetto di prezzemolo fresco, le foglioline, lavate ed asciugate, e tritate",
+   "nome": "prezzemolo"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale di Bimby la cipolla e l'aglio, tritare: 2 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere 20 g di olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire le patate e 200 g di porri, tritare: 15 sec./vel. 4.5. Riunire sul fondo con la spatola.",
+  "Aggiungere l'acqua, il dado, la noce moscata e il pepe. Togliere il boccale da Bimby e posizionare in Bimby Friend. Cuocere 30 min./95°C/vel. 2. Nel frattempo, proseguire con la ricetta",
+  "Posizionare il secondo boccale in Bimby. Mettere nel boccale 20 g di olio extravergine di oliva e 200 g di porri, impostare Alta temperatura $Ss. Trasferire in una ciotola e tenere in caldo.",
+  "Mettere nel boccale di Bimby 20 g di olio extravergine di oliva, il macinato vegetariano, 1 cucchiaino di paprika, 3 pizzichi di pepe di Cayenna e 2 pizzichi di sale, insaporire: 4 min./120°C/vel. 1. Trasferire in una ciotola e tenere in caldo.",
+  "Mettere nel boccale di Bimby 20 g di olio extravergine di oliva, la carne trita, 1 cucchiaino di paprika, 3 pizzichi di pepe di Cayenna e i restanti 2 pizzichi di sale, cuocere: 5 min./120°C/vel. 1. Trasferire in una ciotola e tenere da parte in caldo. Quando Bimby Friend suona, togliere il boccale da Bimby Friend e posizionarlo in Bimby. Aggiungere la panna di soia, frullare: 1 min./vel. 8.",
+  "Dividere la vellutata in 4 piatti, decorare con i porri insaporirti e il macinato vegetariano o la carne a seconda delle preferenze. Servire con panna di soia e prezzemolo tritato."
+ ],
+ "note": [
+  "In alternativa: 2 dadiperbrodo vegetale"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di cipolla."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 spicchi di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 2,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di patate, pelate e a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 370,
+   "testo": "Aggiungete 370 g di porro, la parte bianca, a rondelle (1 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 15,
+   "velocita": 4.5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 750,
+   "testo": "Pesate 750 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini colmi di dado per brodo vegetale, ¼ - ½ cucchiaino di noce moscata in polvere, ½ cucchiaino di pepe macinato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete il boccale da Bimby e posizionate in Bimby Friend."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 2,
+   "temp_c": 95,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, proseguire con la ricetta"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il secondo boccale in Bimby."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete in caldo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di macinato vegetariano."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di paprika dolce, 6 pizzichi di pepe di Cayenna macinato, ½ cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete in caldo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di carne trita."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte in caldo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Quando Bimby Friend suona, togliete il boccale da Bimby Friend e posizionarlo in Bimby."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate 150 g di panna di soia (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Dividete la vellutata in 4 piatti, decorate con i porri insaporirti e il macinato vegetariano o la carne a seconda delle preferenze."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite con panna di soia e prezzemolo tritato."
+  }
+ ],
+ "origine": "cookidoo:r768165",
+ "importata": "2026-10-27"
+}
