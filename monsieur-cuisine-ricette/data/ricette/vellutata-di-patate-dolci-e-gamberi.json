@@ -1,0 +1,248 @@
+{
+ "id": "vellutata-di-patate-dolci-e-gamberi",
+ "titolo": "Vellutata di patate dolci e gamberi",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-di-patate-dolci-e-gamberi.jpg",
+ "ingredienti": [
+  {
+   "testo": "5 g di prezzemolo fresco, le foglioline lavate ed asciugate (+ q.b. per servire)",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "3 spicchi di aglio, a fette",
+   "nome": "aglio"
+  },
+  {
+   "testo": "70 g di cipolla rossa, a metà",
+   "nome": "cipolla rossa"
+  },
+  {
+   "testo": "10 g di zenzero, pelato e a fettine (2 mm)",
+   "nome": "zenzero"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "450 g di gamberi crudi sgusciati, e puliti",
+   "nome": "gamberi crudi"
+  },
+  {
+   "testo": "150 g di patate americane dolci, pelate e a fette di (1 cm)",
+   "nome": "patate americane dolci"
+  },
+  {
+   "testo": "400 g di latte di cocco",
+   "nome": "latte cocco"
+  },
+  {
+   "testo": "250 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "2 cucchiaini di dado per brodo di pollo (dose per 0,5 l)",
+   "nome": "dado"
+  },
+  {
+   "testo": "1 cucchiaio colmo di polvere di funghi porcini secchi (vedere consigli)",
+   "nome": "polvere funghi porcini"
+  },
+  {
+   "testo": "1 cucchiaino di salsa di soia",
+   "nome": "salsa soia"
+  },
+  {
+   "testo": "¼ cucchiaino di pepe di Cayenna macinato",
+   "nome": "pepe cayenna"
+  },
+  {
+   "testo": "¼ cucchiaino di curcuma in polvere",
+   "nome": "curcuma"
+  },
+  {
+   "testo": "1 - 2 cucchiaini di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "4 fette di pane casereccio, a dadini",
+   "nome": "pane"
+  },
+  {
+   "testo": "50 g di formaggio fresco spalmabile",
+   "nome": "formaggio spalmabile"
+  },
+  {
+   "testo": "20 g di succo di lime, spremuto fresco",
+   "nome": "succo lime"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo e tritare: 3 sec./vel. 8. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale l'aglio, la cipolla e lo zenzero, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e 300 g di gamberi, insaporire: 3 min./120°C/vel. 1.",
+  "Unire le patate dolci, il latte di cocco, l'acqua, il dado, la polvere di funghi porcini, la salsa di soia, il pepe di cayenna e la curcuma, cuocere: 15 min./90°C/vel. 1. Nel frattempo, in una padella antiaderente scaldare il burro e tostare il pane, tenere da parte.",
+  "Aggiungere il formaggio cremoso e frullare: 30 sec./vel. 9, aumentando gradualmente la velocità.",
+  "Unire il prezzemolo tritato e i restanti 150 g di gamberi, cuocere: 5 min./90°C//vel. 1.",
+  "Aggiungere il succo di lime e mescolare: 1 min./90°C//vel. 1. Trasferire nei piatti e servire con prezzemolo tritato eicrostini di pane al burro."
+ ],
+ "note": [
+  "Questa ricetta è stata creata dalla Bimby Community Star polacca Sławek e testata da Bimby®.",
+  "Per realizzare la polvere di funghi porcini secchi, mettere nel boccale 50 g di funghi porcini secchi e polverizzare: 30 sec./vel. 10. Trasferire in un contenitore a chiusura ermetica e conservare.",
+  "In alternativa: 2 dadi per brodo di pollo (dose per 0,5 l)"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 5,
+   "testo": "Pesate nel boccale 5 g di prezzemolo fresco, le foglioline lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Pesate nel boccale 70 g di cipolla rossa, a metà."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di zenzero, pelato e a fettine (2 mm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 3 spicchi di aglio, a fette."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di gamberi crudi sgusciati e puliti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate 150 g di patate americane dolci, pelate e a fette di 1 cm."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di latte di cocco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di dado per brodo di pollo (dose per 0,5 l), 1 cucchiaio colmo di polvere di funghi porcini secchi, 1 cucchiaino di salsa di soia, ¼ cucchiaino di pepe di Cayenna macinato e ¼ cucchiaino di curcuma in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 90,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, in una padella antiaderente scaldate 1-2 cucchiaini di burro e tostate 4 fette di pane casereccio a dadini, tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di formaggio fresco spalmabile."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 30,
+   "velocita": 9,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete il prezzemolo tritato tenuto da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate 150 g di gamberi crudi sgusciati e puliti (i restanti)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 90,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di succo di lime, spremuto fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 90,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite nei piatti e servite con prezzemolo tritato e i crostini di pane al burro."
+  }
+ ],
+ "origine": "cookidoo:r717574",
+ "importata": "2026-10-27"
+}

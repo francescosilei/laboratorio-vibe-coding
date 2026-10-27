@@ -132,6 +132,11 @@
    "testo": "Aggiungete 1 spicchio di aglio."
   },
   {
+   "tipo": "testo",
+   "testo": "Impostate Alta temperatura.",
+   "avvertenza": "Funzione «Alta temperatura» del Bimby: non è nelle tabelle di conversione e la ricetta non indica la durata. Sul Connect regolate temperatura e tempo a vista."
+  },
+  {
    "tipo": "pesata",
    "g": 80,
    "testo": "Pesate 80 g di burro di arachidi."
@@ -148,7 +153,7 @@
   },
   {
    "tipo": "testo",
-   "testo": "Aggiungete 1 cucchiaio di dado per brodo vegetale, fatto in casa, 1 cucchiaino di sale, 2 cucchiai di salsa di soia."
+   "testo": "Aggiungete 1 cucchiaio di dado per brodo vegetale, fatto in casa, 1 cucchiaino di sale, 2 cucchiai di salsa di soia e la pasta al curry tenuta da parte."
   },
   {
    "tipo": "robot",
