@@ -162,6 +162,7 @@ def testa(righe, voc):
     tit = []
     for r in righe:
         if re.match(r"^\s*Prep", r): break
+        if re.search(r"★|Nessuna valutazione|valutazion", r): continue     # stelle e valutazioni non fanno parte del titolo
         tit.append(r.strip())
     t = " ".join(tit)
     righe = [re.sub(r"\b[lI]\s*h\b", "1h", r) for r in righe]

@@ -1,0 +1,269 @@
+{
+ "id": "vellutata-speziata-di-zucca",
+ "titolo": "Vellutata speziata di zucca",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 35,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 12,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-speziata-di-zucca.jpg",
+ "ingredienti": [
+  {
+   "testo": "40 g di zenzero, radice fresca, a fette sottili",
+   "nome": "zenzero"
+  },
+  {
+   "testo": "200 g di cipolla, a metà",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1 ½ cucchiaio di cumino in polvere",
+   "nome": "cumino"
+  },
+  {
+   "testo": "2 cucchiai di paprica dolce",
+   "nome": "paprica dolce"
+  },
+  {
+   "testo": "2 cucchiaini di curcuma in polvere",
+   "nome": "curcuma"
+  },
+  {
+   "testo": "2 cucchiaini di coriandolo in polvere",
+   "nome": "coriandolo"
+  },
+  {
+   "testo": "60 g di burro, a pezzi",
+   "nome": "burro"
+  },
+  {
+   "testo": "1200 g di polpa di zucca, a pezzi (3 cm)",
+   "nome": "zucca"
+  },
+  {
+   "testo": "1000 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "400 g di vino bianco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "45 g di concentrato di pomodoro (opzionale)",
+   "nome": "concentrato pomodoro"
+  },
+  {
+   "testo": "2 cucchiaini colmi di dado per brodo vegetale, fatto in casa",
+   "nome": "dado"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 cucchiaino di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "2 cucchiaini di dado per brodo vegetale, fatto in casa",
+   "nome": "dado"
+  },
+  {
+   "testo": "200 g di panna fresca liquida",
+   "nome": "panna"
+  },
+  {
+   "testo": "5 cipollotti verdi (opzionale), a rondelle sottili",
+   "nome": "cipollotti verdi"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale di Bimby lo zenzero, le cipolle e l'aglio, tritare: 4 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere il cumino, la paprika, la curcuma, il coriandolo e il burro, insaporire: 6 min./120°C/vel. 1. Trasferire metà del trito in saporito nel secondo boccale e tenere da parte.",
+  "Aggiungere nel boccale di Bimby 600 g di zucca e tritare: 5 sec./vel. 6.",
+  "Aggiungere nel boccale di Bimby 500 g di acqua, 200 g di vino, 30 g di concentrato di pomodoro, 2 cucchiaini di dado per brodo vegetale, ½ cucchiaino di sale e ½",
+  "Posizionare il secondo boccale con metà del trito in saporito in Bimby e aggiungere 600 g di zucca, 500 g di acqua, 200 g di vino, 30 g di concentrato di pomodoro, 2 cucchiaini di dado per brodo vegetale, ½ cucchiaino di sale e ½ cucchiaino di pepe nero e cuocere: 18 min./100°C/vel. 1. Nel frattempo, in Bimby Friend mescolare a fondo con la spatola e impostare 18 min./100°C/vel. 1.",
+  "Aggiungere nel boccale di Bimby 200 g di panna e frullare 1 min./vel. 5-8",
+  "Togliere il boccale da Bimby Friend e posizionarlo in Bimby. Aggiungere 200 g di panna e frullare 1 min./vel. 5-8 aumentando gradualmente la velocità gradualmente. Trasferire la zuppa di entrambi i boccali in una grande zuppiera e servire, a piacere, con il cipollotto."
+ ],
+ "note": [
+  "Se si utilizza la zucca Delica è possibile non rimuovere la buccia, assicurandosi di lavarla con molta cura, tagliandola insieme alla polpa.",
+  "In alternativa: 400 g di acqua (al posto del vino bianco)",
+  "In alternativa: 2 dadi per brodo vegetale (dose per 0,5 l)",
+  "La ricetta originale usa due boccali insieme (Bimby e Bimby Friend): sul Connect si prepara in due volte, quindi il tempo totale è superiore a quello indicato."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate nel boccale 40 g di zenzero, radice fresca, a fette sottili."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di cipolla, a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 spicchi di aglio.",
+   "avvertenza": "La ricetta originale usa due boccali insieme (Bimby e Bimby Friend); sul Connect si prepara un boccale alla volta."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 4,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 ½ cucchiaio di cumino in polvere, 2 cucchiai di paprica dolce, 2 cucchiaini di curcuma in polvere e 2 cucchiaini di coriandolo in polvere."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di burro, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 360,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite metà del trito insaporito in una ciotola e tenete da parte per il secondo boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate nel boccale 600 g di polpa di zucca, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di vino bianco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 30 g di concentrato di pomodoro (opzionale).",
+   "avvertenza": "La ricetta elenca 45 g di concentrato di pomodoro ma ne indica 30 g in ciascuno dei due boccali (60 g in tutto): regolatevi a gusto."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini colmi di dado per brodo vegetale, fatto in casa, ½ cucchiaino di sale e ½ cucchiaino di pepe nero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1080,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di panna fresca liquida."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata. Velocità 5-8."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete il boccale e tenete da parte la zuppa in caldo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale la metà del trito insaporito tenuta da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Aggiungete 600 g di polpa di zucca, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di vino bianco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 30 g di concentrato di pomodoro (opzionale).",
+   "avvertenza": "La ricetta elenca 45 g di concentrato di pomodoro ma ne indica 30 g in ciascuno dei due boccali (60 g in tutto): regolatevi a gusto."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di dado per brodo vegetale, fatto in casa, ½ cucchiaino di sale e ½ cucchiaino di pepe nero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1080,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 200 g di panna fresca liquida.",
+   "avvertenza": "La ricetta elenca 200 g di panna ma ne indica 200 g in ciascuno dei due boccali (400 g in tutto): regolatevi a gusto."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata. Velocità 5-8."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la zuppa di entrambi i boccali in una grande zuppiera e servite, a piacere, con i cipollotti verdi a rondelle sottili."
+  }
+ ],
+ "origine": "cookidoo:r760163",
+ "importata": "2026-10-27"
+}
