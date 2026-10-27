@@ -1,0 +1,276 @@
+{
+ "id": "pastalaya-south-louisiana",
+ "titolo": "Pastalaya (South Louisiana)",
+ "categoria": "Primi",
+ "paese": "NA",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pastalaya-south-louisiana.jpg",
+ "ingredienti": [
+  {
+   "testo": "60 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "250 g di filetto di petto di pollo, senza pelle, a cubetti (3 cm), asciugati con carta assorbente",
+   "nome": "petto pollo"
+  },
+  {
+   "testo": "250 g di gamberi crudi di media grandezza, senza carapace, puliti e asciugati con carta assorbente",
+   "nome": "gamberi crudi"
+  },
+  {
+   "testo": "200 g di peperoni rossi, puliti e a pezzi (2 cm)",
+   "nome": "peperoni rossi"
+  },
+  {
+   "testo": "170 g di cipolla, in ottavi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "100 g di salsiccia di maiale, affumicata, a fette (1 cm)",
+   "nome": "salsiccia maiale"
+  },
+  {
+   "testo": "1 cucchiaio di concentrato di pomodoro",
+   "nome": "concentrato pomodoro"
+  },
+  {
+   "testo": "1 cucchiaino di salsa harissa",
+   "nome": "salsa harissa"
+  },
+  {
+   "testo": "1 cucchiaio di salsa Worcestershire",
+   "nome": "salsa worcestershire"
+  },
+  {
+   "testo": "20 g di succo di limone, spremuto fresco",
+   "nome": "succo limone"
+  },
+  {
+   "testo": "30 g di mix di spezie",
+   "nome": "mix spezie"
+  },
+  {
+   "testo": "700 g di brodo di pollo",
+   "nome": "brodo pollo"
+  },
+  {
+   "testo": "4 - 6 gocce di Tabasco",
+   "nome": "tabasco"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "300 g di pasta, tipo fideuà",
+   "nome": "pasta"
+  },
+  {
+   "testo": "2 - 3 rametti di prezzemolo fresco, le foglioline lavate ed asciugate, tritate",
+   "nome": "prezzemolo"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale 20 g di olio extravergine di oliva e l spicchio di aglio, insaporire: 2 min. 30 sec./120°C/vel. .",
+  "Aggiungere il pollo e distribuirli bene all'interno del boccale, impostare",
+  "Mettere nel boccale 20 g di olio extravergine di oliva e l spicchio di aglio, insaporire: 2 min. 30 sec./120°C/vel. .",
+  "Aggiungere i gamberi e distribuirli bene all'interno del boccale, impostare",
+  "aglio.",
+  "Mettere nel boccale 15 g di olio extravergine di oliva e i peperoni, impostare Alta temperatura SSS.",
+  "Aggiungere 5 g di olio extravergine di oliva e le cipolle, impostare Alta temperatura SSs.",
+  "Unire gli spicchi di aglio in saporiti e tritare: 4 sec./vel. 5.",
+  "Aggiungere il pollo insaporito, la salsiccia, il concentrato di pomodoro, la salsa harissa, la salsa Worcestershire, il succo di limone, il mix di spezie, il brodo di pollo, il Tabasco e il sale. Cuocere: 8 min./90°C//vel. .",
+  "Unire la pasta e cuocere: il tempo indicato sulla confezione/100°C//vel. 1.",
+  "Trasferire nel piatto da portata con i gamberi e amalgamare. Servire spolverizzando con del prezzemolo tritato."
+ ],
+ "note": [
+  "La pastalaya è un piatto delizioso scoperto per caso. La storia racconta che uno chef stava preparando una jambalaya per una cena quando si rese conto di non avere il riso. In una frazione di secondo decise di usare la pasta al posto del riso e fu così che venne scoperta la Pastalaya. È il piatto in più rapida crescita in Louisiana.",
+  "Paese: su Cookidoo è «Italia» (catalogo), ma il piatto è della Louisiana (USA): lasciato NA."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 150,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di filetto di petto di pollo, senza pelle, a cubetti (3 cm), asciugati con carta assorbente, e distribuiteli bene all'interno del boccale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Impostate Alta temperatura.",
+   "avvertenza": "Funzione «Alta temperatura» del Bimby: non è nelle tabelle di conversione e la ricetta non indica la durata. Sul Connect regolate temperatura e tempo a vista."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte il pollo e lo spicchio d'aglio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 150,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di gamberi crudi di media grandezza, senza carapace, puliti e asciugati con carta assorbente, e distribuiteli bene all'interno del boccale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Impostate Alta temperatura.",
+   "avvertenza": "Funzione «Alta temperatura» del Bimby: non è nelle tabelle di conversione e la ricetta non indica la durata. Sul Connect regolate temperatura e tempo a vista."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite i gamberi su un piatto da portata e tenete da parte lo spicchio d'aglio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Pesate nel boccale 15 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di peperoni rossi, puliti e a pezzi (2 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Impostate Alta temperatura.",
+   "avvertenza": "Funzione «Alta temperatura» del Bimby: non è nelle tabelle di conversione e la ricetta non indica la durata. Sul Connect regolate temperatura e tempo a vista."
+  },
+  {
+   "tipo": "pesata",
+   "g": 5,
+   "testo": "Aggiungete 5 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 170,
+   "testo": "Aggiungete 170 g di cipolla, in ottavi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Impostate Alta temperatura.",
+   "avvertenza": "Funzione «Alta temperatura» del Bimby: non è nelle tabelle di conversione e la ricetta non indica la durata. Sul Connect regolate temperatura e tempo a vista."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite gli spicchi d'aglio insaporiti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 4,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete il pollo insaporito."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di salsiccia di maiale, affumicata, a fette (1 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio di concentrato di pomodoro, 1 cucchiaino di salsa harissa e 1 cucchiaio di salsa Worcestershire."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di succo di limone, spremuto fresco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di mix di spezie."
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Aggiungete 700 g di brodo di pollo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 4 - 6 gocce di Tabasco e ½ cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 480,
+   "velocita": 1,
+   "temp_c": 90,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di pasta, tipo fideuà."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete per il tempo indicato sulla confezione della pasta.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "La ricetta indica il tempo di cottura riportato sulla confezione della pasta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite nel piatto da portata con i gamberi e amalgamate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite spolverizzando con 2-3 rametti di prezzemolo fresco tritato."
+  }
+ ],
+ "origine": "cookidoo:r914361",
+ "importata": "2026-10-27"
+}

@@ -1,0 +1,96 @@
+{
+ "id": "hummus-ai-pomodorini",
+ "titolo": "Hummus ai pomodorini",
+ "categoria": "Antipasti",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 12,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "hummus-ai-pomodorini.jpg",
+ "ingredienti": [
+  {
+   "testo": "40 pomodorini ciliegia, interi",
+   "nome": "pomodorini ciliegia"
+  },
+  {
+   "testo": "½ cucchiaino di sale (+ q.b.)",
+   "nome": "sale"
+  },
+  {
+   "testo": "2 pizzichi di pepe nero macinato",
+   "nome": "pepe nero"
+  },
+  {
+   "testo": "2 pizzichi di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "350 g di ceci bianchi in scatola, scolati e sgocciolati",
+   "nome": "ceci bianchi"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "2 rametti di timo fresco, le foglioline lavate",
+   "nome": "timo"
+  },
+  {
+   "testo": "olio extravergine di oliva, a piacere",
+   "nome": "olio extravergine oliva"
+  }
+ ],
+ "procedimento": [
+  "Preriscaldare il forno a 200°C e foderare una teglia con carta forno. Disporre i pomodorini sulla teglia, condirli con 2 pizzichi di sale, il pepe e lo zucchero. Cuocere in forno caldo per circa 20-25 minuti (200°C). Togliere con attenzione dal forno e lasciare raffreddare completamente i pomodorini.",
+  "Mettere nel boccale i pomodorini cotti, i ceci, l'aglio, ½ cucchiaino di sale e il timo, impostare Frullare /50 sec.. Trasferire l'hummus in una ciotola, irrorare con un filo di olio extravergine di oliva e servire."
+ ],
+ "note": [
+  "Articoli utili: teglia, carta forno, ciotola."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Preriscaldate il forno a 200°C e foderate una teglia con carta forno."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Disponete 40 pomodorini ciliegia interi sulla teglia, conditeli con 2 pizzichi di sale, il pepe nero macinato e lo zucchero. Cuocete in forno caldo per circa 20-25 minuti (200°C). Togliete con attenzione dal forno e lasciate raffreddare completamente i pomodorini.",
+   "attesa_s": 1500
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale i pomodorini cotti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Aggiungete 350 g di ceci bianchi in scatola, scolati e sgocciolati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, ½ cucchiaino di sale e le foglioline di 2 rametti di timo fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 50,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'hummus in una ciotola, irrorate con un filo di olio extravergine di oliva e servite."
+  }
+ ],
+ "origine": "cookidoo:r900361",
+ "importata": "2026-10-27"
+}
