@@ -1,0 +1,173 @@
+{
+ "id": "zuppa-di-mais-e-patate-con-pancetta-affumicata",
+ "titolo": "Zuppa di mais e patate con pancetta affumicata",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 30,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-mais-e-patate-con-pancetta-affumicata.jpg",
+ "ingredienti": [
+  {
+   "testo": "30 g di scalogno, a metà",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "40 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "400 g di mais dolce in scatola (peso netto), scolato e sciacquato",
+   "nome": "mais dolce"
+  },
+  {
+   "testo": "300 g di patate, pelate, a dadini (3 cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe",
+   "nome": "pepe"
+  },
+  {
+   "testo": "750 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "1 pizzico di curry in polvere",
+   "nome": "curry"
+  },
+  {
+   "testo": "100 g di pancetta affumicata, a striscioline",
+   "nome": "pancetta affumicata"
+  },
+  {
+   "testo": "1 pizzico di paprika dolce",
+   "nome": "paprika dolce"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale lo scalogno e tritare: 3 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere il burro e insaporire: 4 min./100°C/vel. 1.",
+  "Unire il mais, le patate, il sale e il pepe, insaporire: 5 min./100°C//vel. .",
+  "Aggiungere il brodo, ½ cucchiaino di curry e cuocere: 20 min./100°C//vel. 0.5. Prelevare con un mestolo circa 100 g di zuppa di mais e patate e tenere da parte in una ciotola.",
+  "Frullare il contenuto del boccale: 45 sec./vel. 8.",
+  "Aggiungere nel boccale i100 g di zuppa di mais e patate tenuti da parte. Tenere la",
+  "pancetta fino a renderla dorata e croccante.",
+  "Servire la zuppa calda con la pancetta croccante e una spolverizzata di paprika dolce."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di scalogno, a metà."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di burro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Pesate 400 g di mais dolce in scatola (peso netto), scolato e sciacquato."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di patate, pelate, a dadini (3 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale, 1 pizzico di pepe."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 750,
+   "testo": "Pesate 750 g di brodo vegetale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di curry in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: si parte da 1. Se potete, usate la velocità minima."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Prelevate con un mestolo circa 100 g di zuppa di mais e patate e tenete da parte in una ciotola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 45,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete nel boccale i 100 g di zuppa di mais e patate tenuti da parte. Tenete la zuppa in caldo nel boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di pancetta affumicata, a striscioline."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, in un padellino antiaderente, cuocete la pancetta fino a renderla dorata e croccante."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la zuppa calda con la pancetta croccante e una spolverizzata di paprika dolce."
+  }
+ ],
+ "origine": "cookidoo:r757624",
+ "importata": "2026-10-27"
+}
