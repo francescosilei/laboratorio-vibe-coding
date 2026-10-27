@@ -1,0 +1,167 @@
+{
+ "id": "vellutata-di-cavolfiore-e-nocciole-con-crostini-all-emmental",
+ "titolo": "Vellutata di cavolfiore e nocciole con crostini all'Emmental",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 55,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-di-cavolfiore-e-nocciole-con-crostini-all-emmental.jpg",
+ "ingredienti": [
+  {
+   "testo": "30 g di nocciole tostate",
+   "nome": "nocciole"
+  },
+  {
+   "testo": "150 g di Emmental, a pezzi (+ 16 fette sottili)",
+   "nome": "emmental"
+  },
+  {
+   "testo": "500 g di cavolfiore",
+   "nome": "cavolfiore"
+  },
+  {
+   "testo": "500 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "½ cucchiaino di noce moscata in polvere",
+   "nome": "noce moscata"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "4 fette di pane integrale",
+   "nome": "pane integrale"
+  },
+  {
+   "testo": "olio extravergine di oliva, q.b.",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "3 rametti di prezzemolo fresco, tritato",
+   "nome": "prezzemolo"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le nocciole e tritare: 3 sec./vel. 5. Togliere e tenere da parte.",
+  "Mettere nel boccale 100 g di formaggio (tenendo da parte 16 fette sottili peri crostini) e grattugiare: 5 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale il cavolfiore, il latte, la noce moscata, il sale e il pepe, cuocere 25 min./98°C/vel. 1.",
+  "Aggiungere il formaggio grattugiato e cuocere 5 min./100°C/vel. 1, poi frullare 2 min./vel. 8 (vedere consigli). Nel frattempo, accendere il forno con la modalita grill",
+  "Sistemare le fette di formaggio sopra delle fette di pane e grigliare fino a quando si sara sciolto e dorato.",
+  "Servire la vellutata calda guarnendo con le nocciole tritare, olio di nocciole (opzionale). Servire con i crostini al formaggio."
+ ],
+ "note": [
+  "Se la vellutata dovesse risultare troppo densa, aggiungere un po' di acqua e frullare ancora.",
+  "È possibile sostituire il cavolfiore con il cavolo romanesco.",
+  "In alternativa: olio di nocciole, q.b."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di nocciole tostate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete le nocciole e tenetele da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate 150 g di Emmental, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Tenete da parte 16 fette sottili di Emmental per i crostini e mettete nel boccale 100 g di formaggio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 5,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate nel boccale 500 g di cavolfiore."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di latte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di noce moscata in polvere, ½ cucchiaino di sale e 1 pizzico di pepe macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 98,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete il formaggio grattugiato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 120,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, accendete il forno con la modalità grill."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate le fette di Emmental sopra 4 fette di pane integrale e grigliate fino a quando il formaggio si sarà sciolto e dorato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la vellutata calda guarnendo con le nocciole tritate, un filo di olio extravergine di oliva (o olio di nocciole), pepe macinato e prezzemolo fresco tritato. Servite con i crostini al formaggio."
+  }
+ ],
+ "origine": "cookidoo:r918278",
+ "importata": "2026-10-27"
+}

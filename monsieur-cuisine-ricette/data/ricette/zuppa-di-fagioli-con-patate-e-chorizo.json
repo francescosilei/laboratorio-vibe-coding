@@ -1,0 +1,181 @@
+{
+ "id": "zuppa-di-fagioli-con-patate-e-chorizo",
+ "titolo": "Zuppa di fagioli con patate e chorizo",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-fagioli-con-patate-e-chorizo.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di porri, a fette (2-3 cm)",
+   "nome": "porri"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "160 g di carote, pelate e a rondelle (3 cm)",
+   "nome": "carote"
+  },
+  {
+   "testo": "60 g di gambo di sedano, a fette (3 cm)",
+   "nome": "sedano"
+  },
+  {
+   "testo": "100 g di peperone verde, pulito e a pezzi (3-4 cm)",
+   "nome": "peperone verde"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "600 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "300 g di patate, pelate e a cubetti (1,5 cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "150 g di salame chorizo, tagliato a fette e poi a metà",
+   "nome": "salame chorizo"
+  },
+  {
+   "testo": "2 foglie di alloro fresche, lavate",
+   "nome": "alloro"
+  },
+  {
+   "testo": "½ cucchiaino di paprika in polvere, affumicata",
+   "nome": "paprika"
+  },
+  {
+   "testo": "5 g di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "250 g di fagioli bianchi, in scatola, scolati e sciacquati",
+   "nome": "fagioli bianchi"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale i porri, l'aglio, le carote, il sedano, i peperoni verdi e l'olio extravergine di oliva, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola. Insaporire: 7 min./120°C/vel. 1.",
+  "Aggiungere il brodo vegetale, le patate, il chorizo, l'alloro, la paprika affumicata e il sale, cuocere: 15 min./120°C//vel. .",
+  "Unire i fagioli e cuocere Cottura Aperta/8 min./100°C, mescolando delicatamente 1-2 volte durante la cottura con una spatola, anche andando sul fondo del boccale. Trasferire nei piatti da portata e servire."
+ ],
+ "note": [
+  "In alternativa: 100 g di cipolle, a fette (2 cm)",
+  "In alternativa: 600 g di acqua calda (non bollente) + 1 cucchiaino colmo di dado per brodo vegetale",
+  "In alternativa: 150 g di salame piccante, tagliato a fette e poi a metà",
+  "In alternativa: 250 g di fagioli cannellini in scatola, o borlotti, scolati e sciacquati"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di porri, a fette (2-3 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 160,
+   "testo": "Aggiungete 160 g di carote, pelate e a rondelle (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di gambo di sedano, a fette (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di peperone verde, pulito e a pezzi (3-4 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Aggiungete 600 g di brodo vegetale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di patate, pelate e a cubetti (1,5 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di salame chorizo, tagliato a fette e poi a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 foglie di alloro fresche, lavate, e ½ cucchiaino di paprika in polvere, affumicata."
+  },
+  {
+   "tipo": "pesata",
+   "g": 5,
+   "testo": "Aggiungete 5 g di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Unite 250 g di fagioli bianchi, in scatola, scolati e sciacquati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Cuocete a boccale aperto 8 min/100°C, mescolando delicatamente 1-2 volte durante la cottura con una spatola, anche andando sul fondo del boccale.",
+   "avvertenza": "Modalità «Cottura Aperta» del Bimby TM7 (cottura senza far girare le lame, a boccale aperto): non è nelle tabelle di conversione. Impostate tempo e temperatura e controllate sul display del Connect come evitare la rotazione."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite nei piatti da portata e servite."
+  }
+ ],
+ "origine": "cookidoo:r927794",
+ "importata": "2026-10-27"
+}
