@@ -1,0 +1,222 @@
+{
+ "id": "risotto-alla-barbabietola-rossa-con-anacardi-nocciole-e-lime",
+ "titolo": "Risotto alla barbabietola rossa con anacardi, nocciole e lime",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "risotto-alla-barbabietola-rossa-con-anacardi-nocciole-e-lime.jpg",
+ "ingredienti": [
+  {
+   "testo": "30 g di nocciole sgusciate, e spellate",
+   "nome": "nocciole sgusciate"
+  },
+  {
+   "testo": "200 g di barbabietola rossa cotta, a pezzi",
+   "nome": "barbabietola rossa cotta"
+  },
+  {
+   "testo": "50 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 scalogno, a pezzi",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "320 g di riso Carnaroli (cottura 14-15 minuti)",
+   "nome": "riso carnaroli"
+  },
+  {
+   "testo": "50 g di vino bianco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "700 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "100 g di crema di anacardi",
+   "nome": "crema anacardi"
+  },
+  {
+   "testo": "scorza di lime grattugiata",
+   "nome": "scorza"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le nocciole e tritare: Turbo/o.5 sec½ volte. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale la barbabietola e impostare Frullare @/10 sec.. Riunire sul fondo con la spatola. Aggiungere l'acqua e impostare Frullare @/10 sec.. Trasferire la crema di barbabietola in una ciotola e tenere da parte.",
+  "Mettere nel boccale lo scalogno e tritare: 5 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire il riso e tostare: 3 min./120°C//vel. 1.",
+  "Aggiungere il vino bianco e cuocere: 1 min./100°C//vel. 1.",
+  "Unire il brodo e la crema di barbabietola, cuocere: 14 min./100°C//vel. 1. Lasciare riposare il risotto all'interno del boccale per 1 minuto, poi trasferire in una risottiera.",
+  "Servire il risotto decorando con la crema di anacardi, le nocciole tritate e la scorza di Iime."
+ ],
+ "note": [
+  "La barbabietola rossa, protagonista di questa ricetta, e un'ottima fonte di antociani e",
+  "flavonoidi, molecole dalle spiccate proprieta antiossidanti, che contribuiscono a",
+  "preservare la salute delle nostre cellule.",
+  "In alternativa: 700 g di acqua, + 1 cucchiaino colmo di dado vegetale"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di nocciole sgusciate, e spellate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": null,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Turbo» del Bimby: non è nelle tabelle di conversione. Traduzione al meglio: controllate sul display del Connect come impostarla."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Turbo/o.5 sec½ volte"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di barbabietola rossa cotta, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la crema di barbabietola in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 scalogno, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di riso Carnaroli (cottura 14-15 minuti)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tostate.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di vino bianco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Pesate 700 g di brodo vegetale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di crema di anacardi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete barbabietola rossa cotta (messo da parte)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 840,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate riposare il risotto all'interno del boccale per 1 minuto, poi trasferite in una risottiera.",
+   "attesa_s": 60
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite il risotto decorando con la crema di anacardi, le nocciole tritate e la scorza di Iime."
+  }
+ ],
+ "origine": "cookidoo:r921572",
+ "importata": "2026-10-27"
+}

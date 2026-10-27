@@ -161,10 +161,15 @@ def testa(righe, voc):
     righe = [r for r in righe if r.strip() and not re.match(r"^\s*TM\d", r)]
     tit = []
     for r in righe:
-        if re.match(r"^\s*Prep", r): break
-        if re.search(r"★|Nessuna valutazione|valutazion", r): continue     # stelle e valutazioni non fanno parte del titolo
+        r = re.split(r"★", r)[0]                                         # stelle e valutazioni non fanno parte del titolo
+        if re.search(r"valutazion", r, re.I) or not r.strip(): continue
+        m = re.search(r"[\s.]*\bPrep\.?", r)
+        if m:                                                            # «Titolo . Prep.20min Totale 1h» sulla stessa riga
+            if r[:m.start()].strip(): tit.append(r[:m.start()].strip())
+            break
         tit.append(r.strip())
     t = " ".join(tit)
+    t = re.sub(r"(?<=\))\s+\d$", "", t)                           # cifra isolata (icona delle stelle) dopo il titolo
     righe = [re.sub(r"\b[lI]\s*h\b", "1h", r) for r in righe]
     def ore(pat):
         m = re.search(pat + r"\s*(?:(\d+)\s*h)?\s*(?:(\d+)\s*min)?", " ".join(righe))
