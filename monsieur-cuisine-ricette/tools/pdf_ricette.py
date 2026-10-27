@@ -131,8 +131,8 @@ def formatta(testa, ing, prep, m=None):
         else:
             if gap > soglia_passo and not cons:
                 L.append("")
-                if tipico and gap > tipico * 1.45: L.append("[RIGA?]")      # tra due passi manca una riga letta dall'OCR
-                elif tipico is None and gap > soglia_passo * 1.9: L.append("[RIGA?]")
+                if tipico and gap > tipico * 1.45: L += ["[RIGA?]", ""]      # tra due passi manca una riga letta dall'OCR
+                elif tipico is None and gap > soglia_passo * 1.9: L += ["[RIGA?]", ""]
             L.append(re.sub(r"^\d{1,2}\s+(?=[A-ZÀ-Ú])", "", riga(t, c).lstrip(": ")))
     return "\n".join(L) + "\n"
 

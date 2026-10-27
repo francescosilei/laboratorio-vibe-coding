@@ -1,0 +1,146 @@
+{
+ "id": "spaghetti-alla-carbonara-con-cottura-sottovuoto",
+ "titolo": "Spaghetti alla carbonara con Cottura Sottovuoto",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 30,
+ "tempo_cottura_min": null,
+ "tempo_min": 120,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "spaghetti-alla-carbonara-con-cottura-sottovuoto.jpg",
+ "ingredienti": [
+  {
+   "testo": "50 g di Parmigiano Reggiano, a pezzi",
+   "nome": "parmigiano reggiano",
+   "gruppo": "Salsa alla carbonara"
+  },
+  {
+   "testo": "60 g di pecorino Romano, a pezzi",
+   "nome": "pecorino romano",
+   "gruppo": "Salsa alla carbonara"
+  },
+  {
+   "testo": "1 uovo",
+   "nome": "uovo",
+   "gruppo": "Salsa alla carbonara"
+  },
+  {
+   "testo": "4 tuorli d'uovo",
+   "nome": "tuorli d'uovo",
+   "gruppo": "Salsa alla carbonara"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale",
+   "gruppo": "Salsa alla carbonara"
+  },
+  {
+   "testo": "2 pizzichi di pepe nero macinato (+ q.b.)",
+   "nome": "pepe",
+   "gruppo": "Salsa alla carbonara"
+  },
+  {
+   "testo": "320 g di spaghetti",
+   "nome": "spaghetti",
+   "gruppo": "Terminare la preparazione"
+  },
+  {
+   "testo": "200 g di guanciale, a cubetti",
+   "nome": "guanciale",
+   "gruppo": "Terminare la preparazione"
+  }
+ ],
+ "procedimento": [
+  "Salsa alla carbonara. Mettere nel boccale il Parmigiano reggiano e il pecorino, impostare Frullare /10 sec.. Riunire sul fondo con la spatola.",
+  "Salsa alla carbonara. Aggiungere l'uovo, i tuorli, il sale e il pepe, impostare Sottovuoto =}/1 h 30 min./68°C.",
+  "Terminare la preparazione. In una pentola capiente portare ad ebollizione abbondante acqua salata e cuocere gli spaghetti finché al dente. Nel frattempo, in una padella antiaderente, rosolare il guanciale a cubetti sino a che sara croccante. Scolare il guanciale dal grasso in",
+  "Terminare la preparazione. decorazione.",
+  "Terminare la preparazione. Tenere da parte 3-4 cucchiai di acqua di cottura della pasta (vedere consigli), scolare e trasferire gli spaghetti nella ciotola con il guanciale, amalgamare.",
+  "Terminare la preparazione. Condire gli spaghetti con la salsa carbonara, unire un po' di acqua di cottura della pasta tenuta da parte e amalgamare.",
+  "Terminare la preparazione. Servire spolverizzando con pepe e con cubetti di guanciale tenuti da parte."
+ ],
+ "note": [
+  "Tenere da parte un pochino di acqua di cottura consente di rendere più cremoso il",
+  "composto di uovo. Affinche questo però non si cuocia, e necessario lasciare intiepidire",
+  "l'acqua di cottura della pasta prima di unirla alla preparazione."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di Parmigiano Reggiano, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di pecorino Romano, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 4 tuorli d'uovo, 1 uovo, ½ cucchiaino di sale, 2 pizzichi di pepe nero macinato (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate.",
+   "tempo_s": 5400,
+   "velocita": null,
+   "temp_c": 68,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Sottovuoto» del Bimby: non è nelle tabelle di conversione. Traduzione al meglio: controllate sul display del Connect come impostarla."
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una pentola capiente portate ad ebollizione abbondante acqua salata e cuocete gli spaghetti finché al dente."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di guanciale, a cubetti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, in una padella antiaderente, rosolate il guanciale a cubetti sino a che sara croccante."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Scolate il guanciale dal grasso in eccesso e trasferitelo in una ciotola, tenendo da parte alcuni cubetti per la decorazione."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Tenete da parte 3-4 cucchiai di acqua di cottura della pasta (vedere consigli), scolate e trasferite gli spaghetti nella ciotola con il guanciale, amalgamate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di spaghetti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Condite gli spaghetti con la salsa carbonara, unite un po' di acqua di cottura della pasta tenuta da parte e amalgamate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite spolverizzando con pepe e con cubetti di guanciale tenuti da parte."
+  }
+ ],
+ "origine": "cookidoo:r555709",
+ "importata": "2026-10-27"
+}

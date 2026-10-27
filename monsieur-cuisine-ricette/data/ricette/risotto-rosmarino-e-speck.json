@@ -1,0 +1,155 @@
+{
+ "id": "risotto-rosmarino-e-speck",
+ "titolo": "Risotto rosmarino e speck",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 25,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "risotto-rosmarino-e-speck.jpg",
+ "ingredienti": [
+  {
+   "testo": "3 rametti di rosmarino fresco, gli aghi lavati ed, asciugati",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "30 g di Parmigiano Reggiano",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "80 g di misto per soffritto",
+   "nome": "misto"
+  },
+  {
+   "testo": "100 g di speck, a striscioline",
+   "nome": "speck"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "850 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "100 g di vino bianco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "10 -15 g di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "350 g di riso Arborio (cottura 15 min.)",
+   "nome": "riso arborio"
+  },
+  {
+   "testo": "40 g di burro",
+   "nome": "burro"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il rosmarino e il Parmigiano, tritare: 10 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale il misto per soffritto, lo speck e l'olio extravergine di oliva, insaporire: 3 min./120°C/vel. 1.",
+  "Aggiungere l'acqua calda, il vino, il sale, il riso, mescolare a fondo con la spatola e cuocere: 15 min./100°C//vel. 1, senza il misurino.",
+  "Unire il trito di Parmigiano e rosmarino, il burro e mantecare con la spatola, trasferire nei piatti e servire."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di Parmigiano Reggiano."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 3 rametti di rosmarino fresco, gli aghi lavati ed, asciugati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di misto per soffritto."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di speck, a striscioline."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 850,
+   "testo": "Pesate 850 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di vino bianco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Aggiungete 350 g di riso Arborio (cottura 15 min.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Senza il misurino."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete parmigiano reggiano (messo da parte)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite il trito di Parmigiano e rosmarino, il burro e mantecate con la spatola, trasferite nei piatti e servite."
+  }
+ ],
+ "origine": "cookidoo:r147263",
+ "importata": "2026-10-27"
+}

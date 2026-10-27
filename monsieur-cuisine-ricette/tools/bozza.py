@@ -345,6 +345,12 @@ def converti(prep, ingr, voc, dubbi):
     for k_, (tipo, b) in enumerate(blocchi):
         if tipo == "G":
             gruppo = b; continue
+        if b.startswith("[RIGA?]") and b.strip() != "[RIGA?]":
+            blocchi[k_] = (tipo, b[len("[RIGA?]"):].strip()); b = blocchi[k_][1]
+            dubbi.append(f"possibile riga mancante nell'OCR prima di «{b[:60]}»: verificare con un ritaglio")
+        if b[:1].islower() and tipo == "B":
+            prec = next((x for t_, x in reversed(blocchi[:k_]) if t_ == "B" and x.strip() != "[RIGA?]"), "")
+            dubbi.append(f"passo che inizia in minuscolo («{b[:40]}»): probabile riga persa dall'OCR dopo «{prec[-40:]}»")
         if b.strip() == "[RIGA?]":
             seguente = next((x for t_, x in blocchi[k_ + 1:] if t_ == "B"), "")
             dubbi.append(f"possibile riga mancante nell'OCR prima di «{seguente[:60]}»: verificare con un ritaglio"); continue
