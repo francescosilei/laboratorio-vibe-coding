@@ -1,0 +1,176 @@
+{
+ "id": "zuppa-cremosa-di-melanzane-e-miglio",
+ "titolo": "Zuppa cremosa di melanzane e miglio",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-cremosa-di-melanzane-e-miglio.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "60 g di scalogno, a metà",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "500 g di melanzane, a pezzi",
+   "nome": "melanzane"
+  },
+  {
+   "testo": "50 g olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "2 cucchiaini colmi di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "800 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "80 g di chicchi di miglio",
+   "nome": "miglio"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "2 - 3 pizzichi di pepe",
+   "nome": "pepe"
+  },
+  {
+   "testo": "10 g di succo di lime, spremuto fresco (+ q.b.)",
+   "nome": "succo lime"
+  },
+  {
+   "testo": "200 g di panna (30-40% di grassi)",
+   "nome": "panna"
+  },
+  {
+   "testo": "coriandolo fresco, q.b. per guarnire",
+   "nome": "coriandolo"
+  },
+  {
+   "testo": "pane, q.b. per servire",
+   "nome": "pane"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'aglio, lo scalogno e la melanzana: tritare: 5 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine d'oliva e insaporire: 5 min./120°C/vel. 1.",
+  "Aggiungere il brodo vegetale, l'acqua, il miglio, il sale, il pepe e il succo di lime, cuocere: 25 min./98°C/vel. 1.",
+  "Aggiungere la panna e frullare: 1 min./vel. 5 -10 aumentando gradualmente la velocità.",
+  "Irrorare con olio extravergine di oliva, succo di lime e guarnire con coriandolo. Servire con del pane."
+ ],
+ "note": [
+  "In alternativa: 1 dado per brodo vegetale (dose per 0,5 l)"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di scalogno, a metà."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di melanzane, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di olio extravergine di oliva (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini colmi di dado per brodo vegetale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di chicchi di miglio."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di sale e 2-3 pizzichi di pepe."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di succo di lime, spremuto fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 98,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di panna (30-40% di grassi)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata. Velocità 5-10."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Irrorate con olio extravergine di oliva e succo di lime e guarnite con coriandolo fresco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite con del pane."
+  }
+ ],
+ "origine": "cookidoo:r799178",
+ "importata": "2026-10-27"
+}
