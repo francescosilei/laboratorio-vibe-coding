@@ -487,7 +487,8 @@ async function initDb() {
     spDoc.onSnapshot(s => {
       const d = s.exists ? s.data() : null;
       if (d && d.v && typeof d.v === 'object' && (d.t || 0) >= SPT) {          // dal database solo se non è più vecchio di ciò che c'è qui
-        SP = d.v; SPUNTE = new Set(d.c || []); SPT = d.t || 0; try { localStorage.setItem(SP_KEY, JSON.stringify({ v: SP, c: [...SPUNTE], t: SPT })); } catch (e) {} renderAll();
+        SP = { ...d.v };   /* copia: i dati del database sono congelati, non si possono modificare */
+        SPUNTE = new Set(d.c || []); SPT = d.t || 0; try { localStorage.setItem(SP_KEY, JSON.stringify({ v: SP, c: [...SPUNTE], t: SPT })); } catch (e) {} renderAll();
       } else if (SPT && Object.keys(SP).length) saveSp(false);                  // il dato locale è più recente (o il database è vuoto): lo si rimanda, senza toccarlo
     }, () => {});
   } catch (e) {}
@@ -707,7 +708,7 @@ function renderSheet() {
     <div class="sheet-foot">
       <button class="btn ${favs.has(r.id) ? 'pinkb' : 'line'}" type="button" data-fav="${r.id}" aria-pressed="${favs.has(r.id)}">${ico('heart')} ${favs.has(r.id) ? 'Rimuovi dai preferiti' : 'Aggiungi ai preferiti'}</button>
       <div class="spesa-ctl">
-        <button class="btn ${SP[r.id] ? 'okb' : 'line'}" type="button" data-sp="${SP[r.id] ? 'rm' : 'add'}" data-id="${r.id}" aria-pressed="${!!SP[r.id]}" title="${SP[r.id] ? 'Tocca per togliere dalla lista della spesa' : 'Aggiungi gli ingredienti alla lista della spesa'}">${ico(SP[r.id] ? 'check' : 'basket')} ${SP[r.id] ? 'Nella lista' : 'Alla spesa'}</button>
+        <button class="btn ${SP[r.id] ? 'okb' : 'line'}" type="button" data-sp="${SP[r.id] ? 'rm' : 'add'}" data-id="${r.id}" aria-pressed="${!!SP[r.id]}" title="${SP[r.id] ? 'Tocca per togliere dalla lista della spesa' : 'Aggiungi gli ingredienti alla lista della spesa'}">${ico(SP[r.id] ? 'check' : 'basket')} ${SP[r.id] ? 'Nella lista' : 'Aggiungi alla lista'}</button>
         <span class="step" role="group" aria-label="Quante volte prepararla"><button type="button" data-sp="dec" data-id="${r.id}" aria-label="Meno volte">−</button><output>${SP[r.id] || pend}×</output><button type="button" data-sp="inc" data-id="${r.id}" aria-label="Più volte">+</button></span>
       </div>
       <div class="grp"><button class="btn dark" type="button" data-close>Chiudi</button><button class="btn pri go" type="button" data-start="${r.id}">${ico('play')} Avvia</button></div>
