@@ -1,0 +1,189 @@
+{
+ "id": "mezze-penne-integrali-risottate-alla-norma",
+ "titolo": "Mezze penne integrali risottate alla norma",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "mezze-penne-integrali-risottate-alla-norma.jpg",
+ "ingredienti": [
+  {
+   "testo": "50 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "350 g di melanzane, a cubetti (1 cm, vedere consigli)",
+   "nome": "melanzane"
+  },
+  {
+   "testo": "300 g di peperoni, puliti e a cubetti (1 cm)",
+   "nome": "peperoni"
+  },
+  {
+   "testo": "300 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "2 cucchiaini di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "350 g di pasta integrale, tipo mezze penne",
+   "nome": "pasta integrale"
+  },
+  {
+   "testo": "50 g di ricotta salata, grattugiata",
+   "nome": "ricotta salata"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla e tritare: 3 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120c/vel. 1.",
+  "Unire le melanzane e i peperoni, insaporire: 5 min./120°C//vel. .",
+  "Aggiungere la passata di pomodoro e cuocere: 10 min./100°C//vel. .",
+  "Unire l'acqua, il sale e portare ad ebollizione: 6 min./100°C//vel. .",
+  "Aggiungere la pasta e cuocere: il tempo indicato sulla confezione 100°C//vel. . Trasferire in una zuppiera e lasciare riposare per 2 minuti.",
+  "Servire subito con una spolverizzata di ricotta salata."
+ ],
+ "note": [
+  "di tagliarle a fette di 1,5 cm circa di spessore e sistemarle allinterno di uno scolapasta",
+  "realizzando un unico strato. Cospargere con del sale grosso e formare degli strati",
+  "alternando melanzane e sale grosso. Posizionare un peso sopra le melanzane e lasciare",
+  "spurgare per 2-3 ore circa. Sciacquare le melanzane sotto acqua corrente fredda e",
+  "tagliarle a cubetti.",
+  "ma friggerle in abbondante olio per frittura, scolarle e farle asciugare dall'olio in",
+  "eccesso su un foglio di carta assorbente. Aggiungerle al piatto nell'ultimo passaggio."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di melanzane, a cubetti (1 cm, vedere consigli)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di peperoni, puliti e a cubetti (1 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di passata di pomodoro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate.",
+   "tempo_s": 360,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di pasta integrale, tipo mezze penne."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "il tempo indicato sulla confezione 100°C//vel"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera e lasciate riposare per 2 minuti.",
+   "attesa_s": 120
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di ricotta salata, grattugiata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito con una spolverizzata di ricotta salata."
+  }
+ ],
+ "origine": "cookidoo:r130875",
+ "importata": "2026-10-28"
+}

@@ -1,0 +1,164 @@
+{
+ "id": "penne-risottate-aglio-olio-e-pomodori-secchi",
+ "titolo": "Penne risottate aglio,olio e pomodori secchi",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "penne-risottate-aglio-olio-e-pomodori-secchi.jpg",
+ "ingredienti": [
+  {
+   "testo": "10 pomodori secchi",
+   "nome": "pomodori secchi"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "3 - 4 rametti di prezzemolo fresco, le foglioline, lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "50 g di cipolla, a rondelle",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "300 g di pomodori ciliegino",
+   "nome": "pomodori ciliegino"
+  },
+  {
+   "testo": "600 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "350 g di pasta tipo penne",
+   "nome": "pasta"
+  },
+  {
+   "testo": "3 - 4 foglie di basilico fresche (opzionale)",
+   "nome": "basilico"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale i pomodori secchi, l'aglio e il prezzemolo, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere la cipolla e l'olio extravergine di oliva, insaporire: 5 min./120°C/vel. 1.",
+  "Unire i pomodori ciliegino e cuocere: 10 min./100°C/vel.1.5.",
+  "Aggiungere l'acqua e il sale, portare ad ebollizione: 6 min./100°C/vel. 1.",
+  "Unire la pasta e cuocere: il tempo indicato sulla confezione 100°C//vel. . Trasferire in una zuppiera e lasciare riposare per 2 minuti.",
+  "Servire decorando a piacere con foglie di basilico e una spolverizzata di Parmigiano reggiano grattugiato."
+ ],
+ "note": [
+  "In alternativa: 1 -2 cucchiai di Parmigiano Reggiano grattugiato  (opzionale)"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 10 pomodori secchi, 1 spicchio di aglio, 3 - 4 rametti di prezzemolo fresco, le foglioline, lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di cipolla, a rondelle."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di pomodori ciliegino."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate 600 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate.",
+   "tempo_s": 360,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di pasta tipo penne."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "il tempo indicato sulla confezione 100°C//vel"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera e lasciate riposare per 2 minuti.",
+   "attesa_s": 120
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite decorando a piacere con foglie di basilico e una spolverizzata di Parmigiano reggiano grattugiato."
+  }
+ ],
+ "origine": "cookidoo:r130874",
+ "importata": "2026-10-28"
+}
