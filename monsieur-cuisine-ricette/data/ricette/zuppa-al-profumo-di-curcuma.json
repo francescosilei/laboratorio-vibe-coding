@@ -1,0 +1,180 @@
+{
+ "id": "zuppa-al-profumo-di-curcuma",
+ "titolo": "Zuppa al profumo di curcuma",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-al-profumo-di-curcuma.jpg",
+ "ingredienti": [
+  {
+   "testo": "50 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "70 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "20 g di sedano",
+   "nome": "sedano"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1000 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "80 g di verza, a listarelle",
+   "nome": "verza"
+  },
+  {
+   "testo": "80 g di cavolo nero, a listarelle",
+   "nome": "cavolo"
+  },
+  {
+   "testo": "60 g di lenticchie decorticate, gialle e rosse",
+   "nome": "lenticchie decorticate"
+  },
+  {
+   "testo": "180 g di cereali misti (orzo, farro, avena, miglio)",
+   "nome": "cereali misti"
+  },
+  {
+   "testo": "1 cucchiaino colmo di dado per brodo vegetale, fatto in casa",
+   "nome": "dado"
+  },
+  {
+   "testo": "1 cucchiaino colmo di curcuma in polvere",
+   "nome": "curcuma"
+  },
+  {
+   "testo": "100 g di polpa di zucca, a tocchetti (1 cm) (vedere consigli)",
+   "nome": "zucca"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla, la carota e il sedano, tritare: 5 sec./vel.7. Riunire sul fondo con la spatola. Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire 'acqua, la verza il cavolo nero, le lenticchie, i cereali, il dado vegetale e la curcuma, cuocere: 25 min./100c//vel. .",
+  "Aggiungere la zucca e proseguire la cottura: 20 min./100°C//vel. . Trasferire in una zuppiera. Servire calda irrorando con un filo di olio extravergine di oliva e una macinata di pepe nero."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Aggiungete 70 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di sedano."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate 1000 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di verza, a listarelle."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di cavolo nero, a listarelle."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di lenticchie decorticate, gialle e rosse."
+  },
+  {
+   "tipo": "pesata",
+   "g": 180,
+   "testo": "Aggiungete 180 g di cereali misti (orzo, farro, avena, miglio)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di dado per brodo vegetale, fatto in casa, 1 cucchiaino colmo di curcuma in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di polpa di zucca, a tocchetti (1 cm) (vedere consigli)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calda irrorando con un filo di olio extravergine di oliva e una macinata di pepe nero."
+  }
+ ],
+ "origine": "cookidoo:r647346",
+ "importata": "2026-10-28"
+}

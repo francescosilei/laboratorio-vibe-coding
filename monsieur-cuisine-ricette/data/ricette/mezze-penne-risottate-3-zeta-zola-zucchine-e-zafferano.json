@@ -1,0 +1,186 @@
+{
+ "id": "mezze-penne-risottate-3-zeta-zola-zucchine-e-zafferano",
+ "titolo": "Mezze penne risottate 3 zeta (zola, zucchine e zafferano)",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 30,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "mezze-penne-risottate-3-zeta-zola-zucchine-e-zafferano.jpg",
+ "ingredienti": [
+  {
+   "testo": "70 g di Parmigiano Reggiano, a pezzi (2-3 cm)",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "10 g di basilico fresco, le foglie lavate ed asciugate",
+   "nome": "basilico"
+  },
+  {
+   "testo": "300 g di zucchine, a cubetti (1xl cm)",
+   "nome": "zucchine"
+  },
+  {
+   "testo": "30 g di cipollotto, a pezzi",
+   "nome": "cipollotto"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "700 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "5 g di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 bustina di zafferano in polvere",
+   "nome": "zafferano"
+  },
+  {
+   "testo": "350 g di pasta secca corta, tipo mezze penne",
+   "nome": "pasta secca corta"
+  },
+  {
+   "testo": "150 g di Gorgonzola, cremoso, a pezzi",
+   "nome": "gorgonzola"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano Reggiano e il basilico, impostare Frullare @/10 sec.. Trasferire in una ciotola e tenere da parte.",
+  "Senza lavare il boccale, mettere il cipollotto e 100 g di zucchina, tritare: 5 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire l'acqua e il sale, portare ad ebollizione: 8 min./100°C/vel. 1.",
+  "Aggiungere lo zafferano, la pasta e 200 g di zucchine a cubetti, cuocere: il tempo indicato sulla confezione 100°C//vel. 1. Al termine cottura, unire il Gorgonzola a pezzie mescolare con la spatola",
+  "Trasferire in una pirofila e servire spolverizzando con il Parmigiano Reggiano al basilico."
+ ],
+ "note": [
+  "Per garantire la per fetta riuscita della ricetta, si consiglia di utilizzare pasta di ottima",
+  "qualita."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Pesate nel boccale 70 g di Parmigiano Reggiano, a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di basilico fresco, le foglie lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di cipollotto, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di zucchine, a cubetti (1xl cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Pesate 700 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 5,
+   "testo": "Aggiungete 5 g di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate.",
+   "tempo_s": 480,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di pasta secca corta, tipo mezze penne."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di zucchine, a cubetti (1xl cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 bustina di zafferano in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate 150 g di Gorgonzola, cremoso, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Al termine cottura, unite il Gorgonzola a pezzie mescolate con la spatola"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una pirofila e servite spolverizzando con il Parmigiano Reggiano al basilico."
+  }
+ ],
+ "origine": "cookidoo:r769739",
+ "importata": "2026-10-28"
+}
