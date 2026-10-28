@@ -51,7 +51,7 @@
    "nome": "acqua"
   },
   {
-   "testo": "2 cucchiaini di dado per brodo di pollo (dose per 0,5 l)",
+   "testo": "2 cucchiaini di dado di brodo di pollo",
    "nome": "dado"
   },
   {
@@ -99,7 +99,7 @@
  "note": [
   "Questa ricetta è stata creata dalla Bimby Community Star polacca Sławek e testata da Bimby®.",
   "Per realizzare la polvere di funghi porcini secchi, mettere nel boccale 50 g di funghi porcini secchi e polverizzare: 30 sec./vel. 10. Trasferire in un contenitore a chiusura ermetica e conservare.",
-  "In alternativa: 2 dadi per brodo di pollo (dose per 0,5 l)"
+  "In alternativa: 2 dadi di brodo di pollo"
  ],
  "passi": [
   {
@@ -180,7 +180,7 @@
   },
   {
    "tipo": "testo",
-   "testo": "Aggiungete 2 cucchiaini di dado per brodo di pollo (dose per 0,5 l), 1 cucchiaio colmo di polvere di funghi porcini secchi, 1 cucchiaino di salsa di soia, ¼ cucchiaino di pepe di Cayenna macinato e ¼ cucchiaino di curcuma in polvere."
+   "testo": "Aggiungete 2 cucchiaini di dado di brodo di pollo, 1 cucchiaio colmo di polvere di funghi porcini secchi, 1 cucchiaino di salsa di soia, ¼ cucchiaino di pepe di Cayenna macinato e ¼ cucchiaino di curcuma in polvere."
   },
   {
    "tipo": "robot",

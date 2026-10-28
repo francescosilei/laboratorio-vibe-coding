@@ -47,7 +47,7 @@
    "nome": "acqua"
   },
   {
-   "testo": "2 dadi per brodo vegetale (dose per 0,5 l)",
+   "testo": "2 dadi di brodo vegetale",
    "nome": "dadi"
   }
  ],
@@ -124,7 +124,7 @@
   },
   {
    "tipo": "testo",
-   "testo": "Aggiungete 2 dadi per brodo vegetale (dose per 0,5 l)."
+   "testo": "Aggiungete 2 dadi di brodo vegetale."
   },
   {
    "tipo": "robot",

@@ -125,9 +125,13 @@
    "testo": "Aggiungete 250 g di filetto di petto di pollo, senza pelle, a cubetti (3 cm), asciugati con carta assorbente, e distribuiteli bene all'interno del boccale."
   },
   {
-   "tipo": "testo",
-   "testo": "Impostate Alta temperatura.",
-   "avvertenza": "Funzione «Alta temperatura» del Bimby: non è nelle tabelle di conversione e la ricetta non indica la durata. Sul Connect regolate temperatura e tempo a vista."
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
   },
   {
    "tipo": "testo",
@@ -157,9 +161,13 @@
    "testo": "Aggiungete 250 g di gamberi crudi di media grandezza, senza carapace, puliti e asciugati con carta assorbente, e distribuiteli bene all'interno del boccale."
   },
   {
-   "tipo": "testo",
-   "testo": "Impostate Alta temperatura.",
-   "avvertenza": "Funzione «Alta temperatura» del Bimby: non è nelle tabelle di conversione e la ricetta non indica la durata. Sul Connect regolate temperatura e tempo a vista."
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
   },
   {
    "tipo": "testo",
@@ -176,9 +184,13 @@
    "testo": "Aggiungete 200 g di peperoni rossi, puliti e a pezzi (2 cm)."
   },
   {
-   "tipo": "testo",
-   "testo": "Impostate Alta temperatura.",
-   "avvertenza": "Funzione «Alta temperatura» del Bimby: non è nelle tabelle di conversione e la ricetta non indica la durata. Sul Connect regolate temperatura e tempo a vista."
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
   },
   {
    "tipo": "pesata",
@@ -191,9 +203,13 @@
    "testo": "Aggiungete 170 g di cipolla, in ottavi."
   },
   {
-   "tipo": "testo",
-   "testo": "Impostate Alta temperatura.",
-   "avvertenza": "Funzione «Alta temperatura» del Bimby: non è nelle tabelle di conversione e la ricetta non indica la durata. Sul Connect regolate temperatura e tempo a vista."
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
   },
   {
    "tipo": "testo",

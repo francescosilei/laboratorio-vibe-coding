@@ -59,7 +59,7 @@
    "nome": "pepe bianco"
   },
   {
-   "testo": "1 dado per brodo vegetale (dose per 0,5 l)",
+   "testo": "1 dado di brodo vegetale",
    "nome": "dado"
   },
   {
@@ -146,7 +146,7 @@
   },
   {
    "tipo": "testo",
-   "testo": "Aggiungete 1 pizzico di sale, 1 pizzico di pepe bianco macinato, 1 dado per brodo vegetale (dose per 0,5 l)."
+   "testo": "Aggiungete 1 pizzico di sale, 1 pizzico di pepe bianco macinato, 1 dado di brodo vegetale."
   },
   {
    "tipo": "robot",

@@ -93,10 +93,11 @@
   {
    "tipo": "robot",
    "testo": "Cuocete.",
-   "tempo_s": 300,
+   "tempo_s": null,
    "velocita": 1,
    "temp_c": 120,
-   "sinistrorsa": true
+   "sinistrorsa": true,
+   "nota": "Rosolatura a 120 °C: durata a vista."
   },
   {
    "tipo": "pesata",

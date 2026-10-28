@@ -80,7 +80,7 @@
    "gruppo": "Zuppa di ceci"
   },
   {
-   "testo": "1 dado per brodo vegetale (dose per 0,5 l)",
+   "testo": "1 dado di brodo vegetale",
    "nome": "dado",
    "gruppo": "Zuppa di ceci"
   },
@@ -240,7 +240,7 @@
   },
   {
    "tipo": "testo",
-   "testo": "Aggiungete 1 dado per brodo vegetale (dose per 0,5 l), 1 pomodoro maturo, spellato, senza semi e a pezzi."
+   "testo": "Aggiungete 1 dado di brodo vegetale, 1 pomodoro maturo, spellato, senza semi e a pezzi."
   },
   {
    "tipo": "robot",

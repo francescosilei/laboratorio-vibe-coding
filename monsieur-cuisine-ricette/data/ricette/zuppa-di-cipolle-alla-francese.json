@@ -189,9 +189,13 @@
    "testo": "Aggiungete 500 g di cipolle, a fette (1 cm)."
   },
   {
-   "tipo": "testo",
-   "testo": "Impostate Alta temperatura.",
-   "avvertenza": "Funzione «Alta temperatura» del Bimby: non è nelle tabelle di conversione e la ricetta non indica la durata. Sul Connect regolate temperatura e tempo a vista."
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
   },
   {
    "tipo": "testo",

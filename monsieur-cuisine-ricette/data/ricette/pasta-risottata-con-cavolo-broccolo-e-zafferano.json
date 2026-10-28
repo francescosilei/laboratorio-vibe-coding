@@ -39,7 +39,7 @@
    "nome": "acqua"
   },
   {
-   "testo": "1 dado per brodo vegetale (dose per 0,5 l)",
+   "testo": "1 dado di brodo vegetale",
    "nome": "dado"
   },
   {
@@ -107,11 +107,10 @@
   {
    "tipo": "robot",
    "testo": "Tritate.",
-   "tempo_s": null,
-   "velocita": null,
+   "tempo_s": 5,
+   "velocita": 7,
    "temp_c": 0,
-   "sinistrorsa": false,
-   "avvertenza": "Modalità «Turbo» del Bimby: non è nelle tabelle di conversione. Traduzione al meglio: controllate sul display del Connect come impostarla."
+   "sinistrorsa": false
   },
   {
    "tipo": "testo",
@@ -141,7 +140,7 @@
   },
   {
    "tipo": "testo",
-   "testo": "Aggiungete 1 dado per brodo vegetale (dose per 0,5 l)."
+   "testo": "Aggiungete 1 dado di brodo vegetale."
   },
   {
    "tipo": "robot",

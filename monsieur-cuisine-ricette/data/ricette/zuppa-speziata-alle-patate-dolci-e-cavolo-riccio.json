@@ -76,7 +76,7 @@
   "Servire subito con semi di sesamo e spicchi di lime."
  ],
  "note": [
-  "In alternativa: 1 dado per brodo vegetale (dose per 0,5 1I), fatto in casa",
+  "In alternativa: 1 dado di brodo vegetale, fatto in casa",
   "In alternativa: 1 lime in spicchi, per servire"
  ],
  "passi": [
@@ -132,9 +132,13 @@
    "testo": "Aggiungete 1 spicchio di aglio."
   },
   {
-   "tipo": "testo",
-   "testo": "Impostate Alta temperatura.",
-   "avvertenza": "Funzione «Alta temperatura» del Bimby: non è nelle tabelle di conversione e la ricetta non indica la durata. Sul Connect regolate temperatura e tempo a vista."
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
   },
   {
    "tipo": "pesata",

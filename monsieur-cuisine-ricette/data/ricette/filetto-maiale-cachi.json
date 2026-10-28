@@ -152,7 +152,8 @@
    "velocita": null,
    "temp_c": 80,
    "sinistrorsa": false,
-   "avvertenza": "Modalità Bollitore del Bimby: non è nelle tabelle. Il Connect arriva a 130 °C, ma verificate sul display come impostare la sola temperatura senza tempo e senza velocità."
+   "avvertenza": "Modalità Bollitore del Bimby: non è nelle tabelle. Il Connect arriva a 130 °C, ma verificate sul display come impostare la sola temperatura senza tempo e senza velocità.",
+   "nota": "Quando la temperatura arriva a 80 °C, fermate la procedura."
   },
   {
    "tipo": "testo",

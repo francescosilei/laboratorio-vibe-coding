@@ -63,8 +63,8 @@
    "nome": "lenticchie"
   },
   {
-   "testo": "100 g di ceci bianchin scatola, scolati e sciacquati",
-   "nome": "ceci bianchin scatola"
+   "testo": "100 g di ceci bianchi in scatola, scolati e sciacquati",
+   "nome": "ceci bianchi in scatola"
   },
   {
    "testo": "100 g di fagioli borlotti in scatola, scolati e sciacquati",
@@ -164,7 +164,7 @@
   {
    "tipo": "pesata",
    "g": 100,
-   "testo": "Aggiungete 100 g di ceci bianchin scatola, scolati e sciacquati."
+   "testo": "Aggiungete 100 g di ceci bianchi in scatola, scolati e sciacquati."
   },
   {
    "tipo": "pesata",
