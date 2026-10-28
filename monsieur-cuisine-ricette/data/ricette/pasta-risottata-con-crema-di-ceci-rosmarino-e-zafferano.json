@@ -1,0 +1,136 @@
+{
+ "id": "pasta-risottata-con-crema-di-ceci-rosmarino-e-zafferano",
+ "titolo": "Pasta risottata con crema di ceci, rosmarino e zafferano",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pasta-risottata-con-crema-di-ceci-rosmarino-e-zafferano.jpg",
+ "ingredienti": [
+  {
+   "testo": "370 g di ceci bianchi lessi",
+   "nome": "ceci bianchi lessi"
+  },
+  {
+   "testo": "2 rametti di rosmarino fresco, gli aghi lavati ed, asciugati (+ q.b.)",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "630 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 bustina di zafferano in polvere",
+   "nome": "zafferano"
+  },
+  {
+   "testo": "2 cucchiaini di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "320 g di pasta secca tipo conchiglie",
+   "nome": "pasta secca"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale 200 g di ceci, il rosmarino, l'olio extravergine di oliva e 100 g di acqua, frullare: 6 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere 530 g di acqua, lo zafferano e il sale, portare a ebollizione: 8 min./100°C/vel. 1.",
+  "Unire la pasta e cuocere: il tempo indicato sulla confezione 100°C//vel. . Nel frattempo, sistemare 170 g di ceci in una ciotola.",
+  "Trasferire la pasta nella ciotola con i ceci e mescolare. Servire decorando con il rosmarino."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di ceci bianchi lessi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 rametti di rosmarino fresco, gli aghi lavati ed, asciugati (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 6,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 530,
+   "testo": "Pesate 530 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 bustina di zafferano in polvere, 2 cucchiaini di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate.",
+   "tempo_s": 480,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di pasta secca tipo conchiglie."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 170,
+   "testo": "Pesate 170 g di ceci bianchi lessi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, sistemate 170 g di ceci in una ciotola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la pasta nella ciotola con i ceci e mescolate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite decorando con il rosmarino."
+  }
+ ],
+ "origine": "cookidoo:r433351",
+ "importata": "2026-10-28"
+}

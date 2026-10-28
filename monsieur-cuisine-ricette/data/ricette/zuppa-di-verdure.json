@@ -1,0 +1,144 @@
+{
+ "id": "zuppa-di-verdure",
+ "titolo": "Zuppa di verdure",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 30,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-verdure.jpg",
+ "ingredienti": [
+  {
+   "testo": "50 g di cipolla, a metà",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "50 g di porro, a pezzi (3 cm)",
+   "nome": "porro"
+  },
+  {
+   "testo": "50 g di carota, pelate e a pezzi (3 cm)",
+   "nome": "carota"
+  },
+  {
+   "testo": "50 g di foglie di cavolo verza, a pezzi (3 cm)",
+   "nome": "cavolo verza"
+  },
+  {
+   "testo": "50 g di sedano rapa, pelato e a pezzi (3 cm)",
+   "nome": "sedano rapa"
+  },
+  {
+   "testo": "50 g di cavolo cappuccio, a pezzi (3 cm)",
+   "nome": "cavolo cappuccio"
+  },
+  {
+   "testo": "15 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "1000 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "2 dadi per brodo vegetale (dose per 0,5 l)",
+   "nome": "dadi"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le cipolle, il porro, le carote, il cavolo verza, il sedano rapa e il cavolo cappuccio, tritare: 4 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere il burro e insaporire: 3 min./120°C//vel. 1.",
+  "Unire 'acqua e i dadi, cuocere: 15 min./100°C//vel. 1. Versare la zuppa di verdure nei piatti e servire subito."
+ ],
+ "note": [
+  "secondo i gusti.",
+  "Per ottenere una zuppa dalla consistenza cremosa, aggiungere 100 g di patate farinose",
+  "pelate e tagliate a pezzi (3 cm), al passaggio 1 e prima di servire frullare: 30 sec./vel. 9"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di cipolla, a metà."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di porro, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di carota, pelate e a pezzi (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di cavolo cappuccio, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di foglie di cavolo verza, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di sedano rapa, pelato e a pezzi (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 4,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Pesate 15 g di burro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate 1000 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 dadi per brodo vegetale (dose per 0,5 l)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Versate la zuppa di verdure nei piatti e servite subito."
+  }
+ ],
+ "origine": "cookidoo:r555570",
+ "importata": "2026-10-28"
+}
