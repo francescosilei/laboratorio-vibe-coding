@@ -1,0 +1,204 @@
+{
+ "id": "penne-risottate-con-verdure",
+ "titolo": "Penne risottate con verdure",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "penne-risottate-con-verdure.jpg",
+ "ingredienti": [
+  {
+   "testo": "2 - 3 rametti di prezzemolo fresco, le foglioline, lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "30 g di cipolla",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "40 g di pancetta a cubetti (opzionale)",
+   "nome": "pancetta"
+  },
+  {
+   "testo": "700 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 ½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 cucchiaino di concentrato di pomodoro",
+   "nome": "concentrato pomodoro"
+  },
+  {
+   "testo": "100 g di melanzane, a dadini (1 cm)",
+   "nome": "melanzane"
+  },
+  {
+   "testo": "100 g di zucchine, a dadini (1 cm)",
+   "nome": "zucchine"
+  },
+  {
+   "testo": "100 g di carote, pelate e a dadini (1 cm)",
+   "nome": "carote"
+  },
+  {
+   "testo": "100 g di pomodori datterino, in quarti",
+   "nome": "pomodori datterino"
+  },
+  {
+   "testo": "350 g di pasta tipo penne, di buona qualita",
+   "nome": "pasta"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo e tritare: 5 sec./vel. 8. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale la cipolla, l'olio extravergine di oliva e l'aglio, tritare: 5 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere a piacere la pancetta e insaporire: 3 min./120°C//vel. 1.",
+  "Unire l'acqua, il sale, il concentrato di pomodoro, le melanzane, le zucchine, le carote e i pomodorini, portare ad ebollizione: 7 min./100°C//vel. 1.",
+  "Aggiungere le penne e cuocere senza misurino: il tempo indicato sulla confezione 100c//vel. α.",
+  "Trasferire la pasta in una pirofila, spolverizzare con il prezzemolo tritato e mescolare. Lasciare riposare 2 minuti e servire."
+ ],
+ "note": [
+  "A piacere, spolverizzare le penne con del Pecorino romano grattugiato."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 2 - 3 rametti di prezzemolo fresco, le foglioline, lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di cipolla."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di pancetta a cubetti (opzionale)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Pesate 700 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di pomodori datterino, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di melanzane, a dadini (1 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di zucchine, a dadini (1 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di carote, pelate e a dadini (1 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 ½ cucchiaino di sale, 1 cucchiaino di concentrato di pomodoro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo dipende dalla confezione: controllatelo e impostatelo voi. Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "il tempo indicato sulla confezione 100c//vel. α"
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di pasta tipo penne, di buona qualita."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la pasta in una pirofila, spolverizzate con il prezzemolo tritato e mescolate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate riposare 2 minuti e servite.",
+   "attesa_s": 120
+  }
+ ],
+ "origine": "cookidoo:r103653",
+ "importata": "2026-10-28"
+}

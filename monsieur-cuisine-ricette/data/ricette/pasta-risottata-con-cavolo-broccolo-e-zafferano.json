@@ -1,0 +1,192 @@
+{
+ "id": "pasta-risottata-con-cavolo-broccolo-e-zafferano",
+ "titolo": "Pasta risottata con cavolo broccolo e zafferano",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pasta-risottata-con-cavolo-broccolo-e-zafferano.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 scalogno, a metà",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "1 spicchio di aglio, senza anima",
+   "nome": "aglio"
+  },
+  {
+   "testo": "60 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "200 g di cimette di broccolo, lavate (peso netto)",
+   "nome": "broccolo"
+  },
+  {
+   "testo": "100 g di salame, a fette e a listarelle",
+   "nome": "salame"
+  },
+  {
+   "testo": "690 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 dado per brodo vegetale (dose per 0,5 l)",
+   "nome": "dado"
+  },
+  {
+   "testo": "1 bustina zafferano in polvere",
+   "nome": "zafferano"
+  },
+  {
+   "testo": "320 g di pasta secca, tipo mezze penne",
+   "nome": "pasta secca"
+  },
+  {
+   "testo": "40 g di Parmigiano Reggiano grattugiato",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale lo scalogno e l'aglio, tritare: 5 sec./vel. 8.",
+  "Aggiungere l'olio extravergine di oliva e le cimette di broccolo, tritare: Turbo/1.0 sec½ volte. Riunire sul fondo con la spatola.",
+  "Unire il salame, insaporire: 5 min./120°C//vel. 1",
+  "Aggiungere l'acqua e il dado, portare ad ebollizione: 6 min./100°C//vel. 1.",
+  "Unire lo zafferano e la pasta, cuocere: il tempo indicato sulla confezione 100c//vel. 1.",
+  "Trasferire in piatti fondi, spolverizzare con il Parmigiano reggiano grattugiato ed a piacere con sale e pepe. Servire subito."
+ ],
+ "note": [
+  "Si consiglia di rispettare il tempo di cottura indicato sulla confezione della pasta per",
+  "evitare che si rompa.",
+  "Usare sempre pasta di ottima qualita. Sono particolarmente indicati a questo tipo di",
+  "preparazione formati corti e compatti.",
+  "Se si desidera una ricetta vegetariana non utilizzare il salame, al passaggio 3, e",
+  "proseguire con l'insaporimento.",
+  "A piacere sostituire lo scalogno con la cipolla e il salame con altra tipologia di salumi",
+  "come speck o pancetta affumicata."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 scalogno, a metà, 1 spicchio di aglio, senza anima."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate 60 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di cimette di broccolo, lavate (peso netto)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": null,
+   "velocita": null,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Turbo» del Bimby: non è nelle tabelle di conversione. Traduzione al meglio: controllate sul display del Connect come impostarla."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Turbo/1.0 sec½ volte"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di salame, a fette e a listarelle."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 690,
+   "testo": "Pesate 690 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 dado per brodo vegetale (dose per 0,5 l)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate.",
+   "tempo_s": 360,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di pasta secca, tipo mezze penne."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 bustina zafferano in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "il tempo indicato sulla confezione 100c//vel. 1"
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di Parmigiano Reggiano grattugiato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in piatti fondi, spolverizzate con il Parmigiano reggiano grattugiato ed a piacere con sale e pepe."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito."
+  }
+ ],
+ "origine": "cookidoo:r113855",
+ "importata": "2026-10-28"
+}

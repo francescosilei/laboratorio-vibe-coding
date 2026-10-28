@@ -1,0 +1,206 @@
+{
+ "id": "tortiglioni-risottati-salsiccia-e-funghi",
+ "titolo": "Tortiglioni risottati salsiccia e funghi",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "tortiglioni-risottati-salsiccia-e-funghi.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 rametto di prezzemolo fresco, le foglioline lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "20 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "30 g di scalogno",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "280 g di salsiccia, spellata e a pezzi (2-3 cm)",
+   "nome": "salsiccia"
+  },
+  {
+   "testo": "70 g di funghi misti secchi, ammollati in acqua tiepida per 10 min. e strizzati",
+   "nome": "funghi misti secchi"
+  },
+  {
+   "testo": "1 ½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe macinato fresco",
+   "nome": "pepe"
+  },
+  {
+   "testo": "600 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "350 g di pasta secca, tipo tortiglioni di ottima qualita",
+   "nome": "pasta secca"
+  },
+  {
+   "testo": "50 g di panna da cucina",
+   "nome": "panna"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo e tritare: 5 sec./vel. 8. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale l'olio extravergine di oliva, lo scalogno e tritare: 5 sec./vel.7, poi insaporire: 3 min./120°C/vel. 1.",
+  "Aggiungere la salsiccia, insaporire: 3 min./100°C/vel. 1.",
+  "Unire i funghi strizzati, ½ cucchiaino di sale e il pepe, insaporire: 1 min./100°C//vel. 1.",
+  "Aggiungere l'acqua, l cucchiaino di sale e portare a ebollizione: 7 min./100°C//vel. .",
+  "Aggiungere la pasta, cuocere senza misurino: il tempo indicato sulla confezione 100°C//vel. o finché al dente.",
+  "Aggiungere attraverso il foro del boccale la panna, il prezzemolo tritato in precedenza e mescolare: 40 sec.//vel. 1.",
+  "Trasferire la pasta in una zuppiera e mescolare con l'aiuto della spatola. Lasciare riposare 2 minuti e servire."
+ ],
+ "note": [
+  "Durante la cottura della pasta, controllare la preparazione dal foro del coperchio. A",
+  "seconda del tipo e della qualita della pasta potrebbe essere necessario aggiungere",
+  "20-30 g di acqua calda durante la cottura per ottenere il risultato cremoso tipico di",
+  "questa pasta.",
+  "A piacere, al passaggio 6 aggiungere 150 g di spinaci.",
+  "A piacere, sostituire i tortiglioni con un altro formato di pasta corta."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 rametto di prezzemolo fresco, le foglioline lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di scalogno."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 280,
+   "testo": "Pesate 280 g di salsiccia, spellata e a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Pesate 70 g di funghi misti secchi, ammollati in acqua tiepida per 10 min. e strizzati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 ½ cucchiaino di sale, 1 pizzico di pepe macinato fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate 600 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di pasta secca, tipo tortiglioni di ottima qualita."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo dipende dalla confezione: controllatelo e impostatelo voi. Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "il tempo indicato sulla confezione 100°C//vel. o finché al dente"
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di panna da cucina."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 40,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la pasta in una zuppiera e mescolate con l'aiuto della spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate riposare 2 minuti e servite.",
+   "attesa_s": 120
+  }
+ ],
+ "origine": "cookidoo:r67918",
+ "importata": "2026-10-28"
+}
