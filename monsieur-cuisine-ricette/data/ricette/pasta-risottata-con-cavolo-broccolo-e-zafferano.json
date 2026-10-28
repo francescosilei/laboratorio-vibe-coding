@@ -170,10 +170,6 @@
    "nota": "Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
   },
   {
-   "tipo": "testo",
-   "testo": "il tempo indicato sulla confezione 100c//vel. 1"
-  },
-  {
    "tipo": "pesata",
    "g": 40,
    "testo": "Pesate 40 g di Parmigiano Reggiano grattugiato."

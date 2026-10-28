@@ -175,10 +175,6 @@
    "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo dipende dalla confezione: controllatelo e impostatelo voi. Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
   },
   {
-   "tipo": "testo",
-   "testo": "il tempo indicato sulla confezione 100°C//vel. o finché al dente"
-  },
-  {
    "tipo": "pesata",
    "g": 50,
    "testo": "Pesate 50 g di panna da cucina."
