@@ -37,7 +37,7 @@
   `Spiga`: programma `Impastare` (con avvertenza: durata gestita dal programma).
 - Il Connect non ha mezze velocità (minimo 1, solo interi): arrotondare sempre per eccesso (0.5 → 1, 4.5 → 5), con l'avvertenza standard per 0.5.
 - «Qualche secondo»: 5 s con avvertenza. «Tempo indicato sulla confezione»: `tempo_s: null` con `nota`.
-- Funzioni non presenti nelle tabelle di conversione (Cottura lenta, Sottovuoto, Bollitore, Copri Lame,
+- Funzioni non presenti nelle tabelle di conversione (Cottura lenta, Cottura Aperta, Sottovuoto, Bollitore, Copri Lame,
   recipiente del Varoma usato come colino): si traducono al meglio e si segnano con `avvertenza`. Mai indovinare in silenzio.
 - Un riposo «nel frattempo» è un `testo` con `attesa_s` (il timer resta attivo cambiando passo).
 

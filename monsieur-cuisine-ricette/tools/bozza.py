@@ -211,6 +211,9 @@ def ingredienti(righe, voc, dubbi):
         d = {"testo": t, "nome": nome_di(it["testo"])}
         al = re.search(r"\(([A-Za-zà-ú]{5,})\)", it["testo"])
         if al: d["_alias"] = al.group(1).lower()
+        else:
+            tipo = re.search(r"\btipo\s+([A-Za-zà-ú]{4,})", t)       # «pasta secca corta, tipo pennette» -> i passi dicono «le pennette»
+            if tipo: d["_alias"] = tipo.group(1).lower()
         if it["gruppo"]: d["gruppo"] = it["gruppo"]
         out.append((d, it["alt"]))
     nomi = [d["nome"] for d, _ in out]
@@ -246,7 +249,7 @@ def parametri(frase, dubbi):
     if m4:
         dubbi.append(f"temperatura «{m4.group(1)}0 °C» letta come {m4.group(1)} °C in «{frase[:50]}»")
         f = f.replace(m4.group(0), m4.group(1) + "°C")
-    mod = re.search(r"\b(Spiga|Cottura lenta|Sottovuoto|Bollitore|Turbo)\b", f)
+    mod = re.search(r"\b(Spiga|Cottura lenta|Cottura [Aa]perta|Sottovuoto|Bollitore|Turbo)\b", f)
     ha_vel = re.search(r"\bvel\b", f)
     fru = re.search(r"\bFrullare\b[^.:]*?(?:/|\s)\s*(\d+\s*(?:min|sec))", f) and not ha_vel
     tm_pat = r"(?:(\d+)\s*h\s*)?(?:(\d+)\s*min\.?\s*)?(?:(\d+)\s*sec\.?)?"
@@ -289,6 +292,10 @@ def parametri(frase, dubbi):
         if nm == "Spiga":
             d["programma"] = "Impastare"; d["velocita"] = None
             d["avvertenza"] = "«Spiga» del Bimby corrisponde al programma Impastare del Connect: durata e velocità le gestisce il programma, non sostituitelo con una velocità manuale."
+        elif nm.lower() == "cottura aperta":
+            d["velocita"] = None
+            d["avvertenza"] = ("Modalità «Cottura Aperta» del Bimby TM7 (cottura a boccale aperto, senza far girare le lame): non è nelle tabelle di conversione. "
+                               "Impostate tempo e temperatura e controllate sul display del Connect come evitare la rotazione.")
         else:
             d["avvertenza"] = f"Modalità «{nm}» del Bimby: non è nelle tabelle di conversione. Traduzione al meglio: controllate sul display del Connect come impostarla."
     if intervallo:
@@ -387,6 +394,10 @@ def converti(prep, ingr, voc, dubbi):
                 simili = [m for m in ambito if its[m]["nome"].split()[:1] == [testa_]]
                 pieno = tok_in(tk[k], cl_tok) or bool(its[k].get("_alias") and tok_in(tokens(its[k]["_alias"]), cl_tok))
                 parziale = len({its[m]["nome"] for m in simili}) == 1 and tok_in(tokens(testa_), cl_tok)
+                if not parziale:                            # una parola non iniziale, unica tra gli ingredienti (es. «salame chorizo» -> «il chorizo»)
+                    for w_ in n.split()[1:]:
+                        if len(w_) >= 5 and tok_in(tokens(w_), cl_tok) and not any(w_ in its[m]["nome"].split() for m in ambito if its[m]["nome"] != n):
+                            parziale = True; break
                 if pieno or parziale:
                     ts = tk[k] if pieno else tokens(testa_)
                     pos.append((min((m.start() for t in ts for m in re.finditer(t[:4], cl_norm)), default=0), n)); vistinomi.add(n)
@@ -433,6 +444,8 @@ def converti(prep, ingr, voc, dubbi):
                     extra_n = dopo.lstrip(", ").strip()
                     if extra_n:
                         p["nota"] = ((p.get("nota") + " ") if p.get("nota") else "") + extra_n[0].upper() + extra_n[1:].rstrip(".") + "."
+                elif re.search(r"sulla confezione", dopo) and re.search(r"°\s*C|\bvel\b|//", dopo):
+                    pass                                    # parametri riletti dall'OCR («il tempo indicato sulla confezione 100°C//vel»): già nella nota
                 elif len(re.findall(r"[A-Za-zà-ú]{3,}", dopo)) >= 2 and not par["nota"] == FRU:
                     passi.append(testo_libero(dopo))
             elif not (ADD.search(clausola) or nel) or re.search(r"mescol|mantec|amalgam|impast|trasfer|serv|spolver|condir|riunir|togli", frase.lower()):
@@ -449,9 +462,10 @@ def converti(prep, ingr, voc, dubbi):
     for d in its:                                      # nome troppo specifico per i passi -> solo la parola principale
         n = d["nome"]
         if tokens(n) and not any(tokens(n) <= tokens(p.get("testo", "")) for p in passi) and len(n.split()) > 1:
-            t0 = n.split()[0]
-            if any(tokens(t0) <= tokens(p.get("testo", "")) for p in passi) and sum(1 for m in nomi if m.split()[:1] == [t0]) == 1:
-                d["nome"] = t0
+            for t0 in n.split():                           # prima parola del nome che compare nei passi (es. «salame chorizo» -> chorizo)
+                if tokens(t0) and any(tokens(t0) <= tokens(p.get("testo", "")) for p in passi) and sum(1 for m in nomi if t0 in m.split()) == 1:
+                    d["nome"] = t0
+                    break
     nomi = [d["nome"] for d in its]
     nonusati = [n for n in dict.fromkeys(nomi) if tokens(n) and not any(tokens(n) <= tokens(p.get("testo", "")) for p in passi)]
     for n in nonusati:
