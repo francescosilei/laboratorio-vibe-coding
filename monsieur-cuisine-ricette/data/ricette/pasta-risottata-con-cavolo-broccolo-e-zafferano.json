@@ -114,7 +114,8 @@
   },
   {
    "tipo": "testo",
-   "testo": "Turbo/1.0 sec½ volte"
+   "testo": "Attivate il Turbo per 1 secondo, una o due volte.",
+   "avvertenza": "Modalità «Turbo» del Bimby: non è nelle tabelle di conversione. Sul Connect usate il comando più vicino e verificate sul display."
   },
   {
    "tipo": "testo",
