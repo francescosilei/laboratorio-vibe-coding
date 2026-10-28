@@ -295,7 +295,9 @@ select.sel { width: 100%; padding: 10px 12px; border-radius: 12px; border: 1px s
 .btn.okb { border: 1px solid var(--ok); color: var(--ok); background: var(--surface); }
 .btn.danger { border: 1px solid var(--line); background: var(--surface); color: var(--fg-2); }
 .btn.danger:hover { border-color: #dc2626; color: #dc2626; }
-.spesa-ctl { display: flex; align-items: center; gap: 8px; }
+.spesa-ctl { display: flex; align-items: center; gap: 8px; flex: none; }
+.sheet-foot .btn { padding-inline: 14px; white-space: nowrap; }
+.sheet-foot .btn.go { padding-inline: 22px; }
 .dlg { position: fixed; inset: 0; z-index: 80; display: grid; place-items: center; padding: 16px; }
 .dlg-bg { position: absolute; inset: 0; background: var(--overlay); backdrop-filter: blur(4px); }
 .dlg-box { position: relative; width: 100%; max-width: 24rem; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 22px; box-shadow: var(--shadow-lg); display: flex; flex-direction: column; gap: 10px; }
@@ -484,8 +486,9 @@ async function initDb() {
     spDoc = db.doc('spesa/tablet');
     spDoc.onSnapshot(s => {
       const d = s.exists ? s.data() : null;
-      if (d && d.v && typeof d.v === 'object') { SP = d.v; SPUNTE = new Set(d.c || []); try { localStorage.setItem(SP_KEY, JSON.stringify({ v: SP, c: [...SPUNTE] })); } catch (e) {} renderAll(); }
-      else if (Object.keys(SP).length) persistSp();
+      if (d && d.v && typeof d.v === 'object' && (d.t || 0) >= SPT) {          // dal database solo se non è più vecchio di ciò che c'è qui
+        SP = d.v; SPUNTE = new Set(d.c || []); SPT = d.t || 0; try { localStorage.setItem(SP_KEY, JSON.stringify({ v: SP, c: [...SPUNTE], t: SPT })); } catch (e) {} renderAll();
+      } else if (SPT && Object.keys(SP).length) saveSp(false);                  // il dato locale è più recente (o il database è vuoto): lo si rimanda, senza toccarlo
     }, () => {});
   } catch (e) {}
 }
@@ -493,13 +496,15 @@ function toggleFav(id) { favs.has(id) ? favs.delete(id) : favs.add(id); persistF
 
 /* ---------- lista della spesa ---------- */
 const SP_KEY = 'ricettario-connect-spesa';
-let SP = {}, SPUNTE = new Set(), spDoc = null, pend = 1, copied = false, spBackup = null, toastT = null;
-try { const d = JSON.parse(localStorage.getItem(SP_KEY) || '{}'); SP = d.v || {}; SPUNTE = new Set(d.c || []); } catch (e) {}
-function persistSp() {
-  const d = { v: SP, c: [...SPUNTE] };
+let SP = {}, SPUNTE = new Set(), SPT = 0, spDoc = null, pend = 1, copied = false, spBackup = null, toastT = null;
+try { const d = JSON.parse(localStorage.getItem(SP_KEY) || '{}'); SP = d.v || {}; SPUNTE = new Set(d.c || []); SPT = d.t || 0; } catch (e) {}
+function saveSp(bump) {   // bump: modifica dell'utente (aggiorna la data); senza: solo riprova a inviare lo stato locale
+  if (bump) SPT = Date.now();
+  const d = { v: SP, c: [...SPUNTE], t: SPT };
   try { localStorage.setItem(SP_KEY, JSON.stringify(d)); } catch (e) {}
   try { spDoc && spDoc.set(d).catch(() => {}); } catch (e) {}
 }
+const persistSp = () => saveSp(true);
 const PLU = { cucchiaino: ['cucchiaino', 'cucchiaini'], cucchiaio: ['cucchiaio', 'cucchiai'], pizzico: ['pizzico', 'pizzichi'], spicchio: ['spicchio', 'spicchi'],
   rametto: ['rametto', 'rametti'], mazzetto: ['mazzetto', 'mazzetti'], foglia: ['foglia', 'foglie'], fetta: ['fetta', 'fette'], stecca: ['stecca', 'stecche'],
   gambo: ['gambo', 'gambi'], costa: ['costa', 'coste'], ciuffo: ['ciuffo', 'ciuffi'], bustina: ['bustina', 'bustine'], goccia: ['goccia', 'gocce'] };
@@ -702,7 +707,7 @@ function renderSheet() {
     <div class="sheet-foot">
       <button class="btn ${favs.has(r.id) ? 'pinkb' : 'line'}" type="button" data-fav="${r.id}" aria-pressed="${favs.has(r.id)}">${ico('heart')} ${favs.has(r.id) ? 'Rimuovi dai preferiti' : 'Aggiungi ai preferiti'}</button>
       <div class="spesa-ctl">
-        <button class="btn ${SP[r.id] ? 'okb' : 'line'}" type="button" data-sp="${SP[r.id] ? 'rm' : 'add'}" data-id="${r.id}" aria-pressed="${!!SP[r.id]}" title="${SP[r.id] ? 'Tocca per togliere dalla lista della spesa' : 'Aggiungi gli ingredienti alla lista della spesa'}">${ico(SP[r.id] ? 'check' : 'basket')} ${SP[r.id] ? 'Nella lista' : 'Aggiungi alla spesa'}</button>
+        <button class="btn ${SP[r.id] ? 'okb' : 'line'}" type="button" data-sp="${SP[r.id] ? 'rm' : 'add'}" data-id="${r.id}" aria-pressed="${!!SP[r.id]}" title="${SP[r.id] ? 'Tocca per togliere dalla lista della spesa' : 'Aggiungi gli ingredienti alla lista della spesa'}">${ico(SP[r.id] ? 'check' : 'basket')} ${SP[r.id] ? 'Nella lista' : 'Alla spesa'}</button>
         <span class="step" role="group" aria-label="Quante volte prepararla"><button type="button" data-sp="dec" data-id="${r.id}" aria-label="Meno volte">−</button><output>${SP[r.id] || pend}×</output><button type="button" data-sp="inc" data-id="${r.id}" aria-label="Più volte">+</button></span>
       </div>
       <div class="grp"><button class="btn dark" type="button" data-close>Chiudi</button><button class="btn pri go" type="button" data-start="${r.id}">${ico('play')} Avvia</button></div>
