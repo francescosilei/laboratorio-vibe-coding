@@ -1,0 +1,117 @@
+{
+ "id": "contorno-di-verza",
+ "titolo": "Contorno di verza",
+ "categoria": "Contorni",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "contorno-di-verza.jpg",
+ "ingredienti": [
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "800 g di cavolo verza, a listarelle (0,5-1 cm, peso netto)",
+   "nome": "cavolo verza"
+  },
+  {
+   "testo": "50 g di aceto di vino bianco",
+   "nome": "aceto vino bianco"
+  },
+  {
+   "testo": "50 g di olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 cucchiaino di zucchero",
+   "nome": "zucchero"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'acqua, posizionare il recipiente del Varoma e sistemare al suo interno la verza. Chiudere il Varoma con il coperchio e cuocere a vapore: 20 min./Varoma/vel. 1. Togliere con attenzione il coperchio del Varoma, capovolgerlo e posarvi sopra il recipiente.",
+  "Svuotare il boccale e adagiare al suo interno la verza al vapore, irrorare con l'aceto di vino bianco, 'olio extravergine di oliva, condire con il sale e lo zucchero, cuocere senza misurino: 10 min./120°C//vel. 1. Trasferire la verza in una ciotola da servizio e lasciare raffreddare.",
+  "A piacere, regolare di gusto con altro sale e servire il contorno tiepido o freddo (vedere consigli)."
+ ],
+ "note": [
+  "Questo contorno è ideale per accompagnare secondi piatti a base di carne suina arrosto o come verdura per hamburger o sandwich.",
+  "Si consiglia di conservare il contorno in un contenitore ermetico per 1-2 giorni in frigorifero."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate nel boccale 500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Pesate nel recipiente del Varoma 800 g di cavolo verza, a listarelle (0,5-1 cm, peso netto)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il recipiente del Varoma sul boccale e chiudete con il coperchio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete al vapore.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il coperchio del Varoma, capovolgetelo e posatevi sopra il recipiente."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Svuotate il boccale e adagiate al suo interno la verza al vapore."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Irrorate con 50 g di aceto di vino bianco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Condite con 1 cucchiaino di sale e 1 cucchiaino di zucchero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete senza misurino.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la verza in una ciotola da servizio e lasciate raffreddare."
+  },
+  {
+   "tipo": "testo",
+   "testo": "A piacere, regolate di gusto con altro sale e servite il contorno tiepido o freddo (vedere consigli)."
+  }
+ ],
+ "origine": "cookidoo:r103549",
+ "importata": "2026-10-28"
+}
