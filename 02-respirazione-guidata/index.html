@@ -174,6 +174,12 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
 .read p { margin-bottom: 10px; }
 .phrase { font-family: var(--font-display); font-size: 1.4rem; line-height: 1.35; background: var(--surface-2); border-radius: 18px; padding: 18px 20px; overflow-wrap: anywhere; }
 @media (prefers-reduced-motion: reduce) { .night .so-text { transition: none; } }
+
+.install { display: flex; flex-direction: column; gap: 12px; }
+.install details { background: var(--surface); border: 2px solid var(--line); border-radius: 16px; padding: 4px 18px 14px; }
+.install summary { font-weight: 700; min-height: 44px; display: flex; align-items: center; cursor: pointer; }
+.install h2 { font-size: 1.05rem; margin-top: 12px; }
+.install ol { margin: 6px 0 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 6px; }
 </style>
 
 <div class="wrap page-top">
@@ -219,7 +225,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
       <h2 id="h-t">Oppure scegli uno strumento</h2>
       <div class="tools">
         <button class="tool" id="t-respira" type="button"><span class="name">Respira con me</span><span class="meta">Respirazione guidata · da 1 a 10 minuti</span><span class="desc">Un cerchio ti accompagna a inspirare ed espirare, con quattro tecniche tra cui scegliere.</span></button>
-        <button class="tool" id="t-presente" type="button"><span class="name">Torna al presente</span><span class="meta">Una pausa di consapevolezza · 1 o 5 minuti</span><span class="desc">Cinque piccoli passi per ritrovare il contatto con ciò che ti circonda, quando i pensieri corrono.</span></button>
+        <button class="tool" id="t-presente" type="button"><span class="name">Torna al presente</span><span class="meta">Una pausa di consapevolezza · 5 o 8 minuti</span><span class="desc">Cinque piccoli passi per ritrovare il contatto con ciò che ti circonda, quando i pensieri corrono.</span></button>
         <button class="tool" id="t-cassetta" type="button"><span class="name">La mia piccola cassetta degli attrezzi</span><span class="meta">Una pausa su misura · 2-5 minuti</span><span class="desc">Scegli la situazione che stai vivendo e ricevi una piccola attività da fare adesso.</span></button>
         <button class="tool" id="t-pensieri" type="button"><span class="name">Fai spazio ai pensieri</span><span class="meta">Un diario guidato · 5-10 minuti</span><span class="desc">Quattro domande per mettere ordine quando la mente gira sempre intorno allo stesso problema.</span></button>
         <button class="tool" id="t-emozioni" type="button"><span class="name">Come mi sento adesso</span><span class="meta">Un check-in emotivo · 2-5 minuti</span><span class="desc">Dai un nome a ciò che provi, indica quanto è intenso e ricevi un'attività adatta. Alla fine vedi cosa è cambiato.</span></button>
@@ -259,6 +265,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
 
   <!-- RESPIRA: esercizio -->
   <section id="v-session" hidden>
+    <button class="back" id="back-session" type="button">← Indietro</button>
     <div class="session">
       <p class="label" id="s-title"></p>
       <div class="stage" id="stage">
@@ -299,6 +306,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   </main>
 
   <section id="v-psession" hidden>
+    <button class="back" id="back-psession" type="button">← Indietro</button>
     <div class="session">
       <p class="label" id="p-label"></p>
       <div class="dots" id="p-dots" aria-hidden="true"></div>
@@ -466,6 +474,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   </main>
 
   <section id="v-sorun" hidden>
+    <button class="back" id="back-sorun" type="button">← Indietro</button>
     <div class="night">
       <p class="label" id="so-title"></p>
       <p class="so-text" id="so-text" aria-live="polite"></p>
@@ -484,6 +493,41 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   <!-- CONVERSAZIONE -->
   <main id="v-conversazione" class="wrap" style="gap:20px" hidden></main>
 
+  <!-- INSTALLA -->
+  <main id="v-installa" class="wrap" style="gap:20px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>Metti l'app sul telefono</h1>
+      <p class="intro">Aggiungendo la pagina alla schermata Home ottieni un'icona che la apre subito, senza dover ritrovare il link in un messaggio o nella cronologia.</p>
+    </header>
+    <p class="alert">Prima di cominciare: se hai ricevuto il link su WhatsApp o per email, aprilo nel browser (Chrome, Safari…) e non dentro l'app del messaggio. Da dentro WhatsApp la voce per aggiungere alla Home non compare.</p>
+    <div class="install">
+      <details id="in-android">
+        <summary>Telefono Android</summary>
+        <h2>Chrome</h2>
+        <ol><li>Tocca i tre puntini in alto a destra.</li><li>Scegli «Aggiungi a schermata Home» (oppure «Installa app», se la vedi).</li><li>Conferma con «Aggiungi».</li></ol>
+        <h2>Brave</h2>
+        <ol><li>Tocca il menu (i tre puntini).</li><li>Scegli «Aggiungi alla schermata Home» o «Installa app».</li><li>Conferma con «Aggiungi».</li></ol>
+        <h2>Samsung Internet</h2>
+        <ol><li>Tocca il menu (le tre linee, in basso a destra).</li><li>Scegli «Aggiungi pagina a», poi «Schermata Home».</li><li>Conferma con «Aggiungi».</li></ol>
+        <h2>Firefox</h2>
+        <ol><li>Tocca i tre puntini.</li><li>Scegli «Installa» o «Aggiungi alla schermata Home».</li><li>Conferma.</li></ol>
+      </details>
+      <details id="in-ios">
+        <summary>iPhone e iPad</summary>
+        <h2>Safari</h2>
+        <ol><li>Tocca il pulsante Condividi: il quadrato con la freccia verso l'alto, in basso (iPhone) o in alto (iPad).</li><li>Scorri l'elenco e scegli «Aggiungi alla schermata Home». Se non la vedi, tocca prima «Altro».</li><li>Tocca «Aggiungi» in alto a destra.</li></ol>
+        <h2>Chrome</h2>
+        <ol><li>Tocca il pulsante Condividi, accanto alla barra degli indirizzi.</li><li>Scegli «Aggiungi alla schermata Home».</li><li>Conferma con «Aggiungi».</li></ol>
+      </details>
+      <details id="in-pc">
+        <summary>Computer</summary>
+        <p>Sul computer basta aggiungere la pagina ai Preferiti (Ctrl+D su Windows, Cmd+D su Mac). In Chrome ed Edge, se compare l'icona di installazione nella barra degli indirizzi, puoi usarla per aprire la pagina come un'app.</p>
+      </details>
+    </div>
+    <p class="note">I nomi delle voci possono cambiare un po' a seconda del telefono, della versione del browser e della lingua. Se non trovi la voce giusta, cerca nel menu del browser qualcosa come «Aggiungi alla Home» o «Installa».</p>
+  </main>
+
   <footer>
     <p class="studio">Vuoi approfondire il tuo benessere psicologico?</p>
     <p>Questi strumenti offrono un momento di pausa e riflessione. Se desideri capire meglio ciò che stai vivendo, puoi contattarmi per informazioni sui percorsi psicologici.</p>
@@ -491,6 +535,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
       <li><span>Email</span> <a href="mailto:chiaradiorio85@gmail.com" id="c-mail">chiaradiorio85@gmail.com</a> <button class="copy" type="button" data-copy="chiaradiorio85@gmail.com">Copia</button></li>
       <li><span>Telefono</span> <a href="tel:+393493267406" id="c-tel">349 326 7406</a> <button class="copy" type="button" data-copy="3493267406">Copia</button></li>
     </ul>
+    <p><a class="sharelink" id="open-install" href="#" role="button">Come installare l'app sullo smartphone</a></p>
     <p><a class="sharelink" id="share" target="_blank" rel="noopener" href="#">Condividi questi strumenti con WhatsApp</a></p>
     <p class="note">Questi esercizi sono un aiuto per rilassarsi e non sostituiscono un percorso con un professionista. Se durante l'esercizio ti senti a disagio o hai un capogiro, fermati e riprendi a respirare normalmente. Se stai attraversando un momento di grave difficoltà o di pericolo, chiama il 112.</p>
   </footer>
@@ -545,11 +590,12 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
     { n: 2, text: 'Nota 2 odori, oppure immagina uno che ti piace. Va bene anche sentire solo l\'aria che entra dal naso.', more: 'Non c\'è niente da trovare: basta notare.' },
     { n: 1, text: 'Fai un respiro lento e senti che sei qui, adesso, in questo posto. Va bene così.', more: 'Puoi tornare qui ogni volta che la mente si allontana.' }
   ];
-  var P_DUR = [{ s: 60, label: '1 minuto' }, { s: 300, label: '5 minuti' }];
+  var P_DUR = [{ s: 300, label: '5 minuti' }, { s: 480, label: '8 minuti' }];
 
   var $ = function (id) { return document.getElementById(id); };
-  var VIEWS = ['hub', 'respira', 'session', 'done', 'presente', 'psession', 'pdone', 'cassetta', 'pensieri', 'emozioni', 'sonno', 'sorun', 'gentilezza', 'conversazione'];
-  function show(v) { VIEWS.forEach(function (k) { $('v-' + k).hidden = k !== v; }); window.scrollTo(0, 0); if (v === 'hub' && em) em.pending = false; updateCheck(); }
+  var VIEWS = ['hub', 'respira', 'session', 'done', 'presente', 'psession', 'pdone', 'cassetta', 'pensieri', 'emozioni', 'sonno', 'sorun', 'gentilezza', 'conversazione', 'installa'];
+  var cur = null, origin = {};
+  function show(v) { VIEWS.forEach(function (k) { $('v-' + k).hidden = k !== v; }); cur = v; window.scrollTo(0, 0); if (v === 'hub' && em) em.pending = false; updateCheck(); }
   function byId(list, id) { return list.filter(function (x) { return x.id === id; })[0]; }
   function fmt(s) { s = Math.max(0, Math.ceil(s)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
   function chip(box, label, on, cb, off) {
@@ -560,7 +606,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   }
 
   var state = { ex: EXERCISES[0], minutes: 5, sound: false, vib: false, text: false,
-    need: 'agitato', time: 3, guide: 'anim', pdur: 60 };
+    need: 'agitato', time: 3, guide: 'anim', pdur: 300 };
   try {
     var sv = JSON.parse(localStorage.getItem('momento') || '{}');
     if (byId(EXERCISES, sv.ex)) state.ex = byId(EXERCISES, sv.ex);
@@ -588,9 +634,9 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   $('try').onclick = function () {
     var need = byId(NEEDS, state.need);
     if (need.tool === 'presente') {
-      var s = state.time <= 3 ? 60 : 300;
+      var s = state.time >= 10 ? 480 : 300;
       plan = { tool: 'presente', s: s };
-      $('r-title').textContent = 'Torna al presente · ' + (s === 60 ? '1 minuto' : '5 minuti');
+      $('r-title').textContent = 'Torna al presente · ' + (s / 60) + ' minuti';
     } else {
       var ex = byId(EXERCISES, need.ex);
       plan = { tool: 'respira', ex: ex, minutes: state.time };
@@ -661,7 +707,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
     run = { ex: state.ex, cycle: cycle, total: state.minutes * 60, elapsed: 0, last: performance.now(), paused: false, idx: -2, raf: 0 };
     $('stage').classList.toggle('textonly', state.text);
     $('s-title').textContent = state.ex.name; $('hint').textContent = state.ex.hint; $('pause').textContent = 'Pausa';
-    show('session'); lock(); run.raf = requestAnimationFrame(tick);
+    origin.respira = cur; show('session'); lock(); run.raf = requestAnimationFrame(tick);
   }
   function tick(now) {
     if (!run) return;
@@ -692,7 +738,8 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   function endRespira() { if (run) cancelAnimationFrame(run.raf); run = null; unlock(); }
   function finish() { endRespira(); tone(392); show('done'); }
   $('start').onclick = startRespira;
-  $('stop').onclick = function () { endRespira(); show('respira'); };
+  function leaveRespira() { var o = origin.respira || 'hub'; endRespira(); if (o === 'respira') openRespira(); else show(o === 'session' || o === 'done' ? 'hub' : o); }
+  $('stop').onclick = leaveRespira; $('back-session').onclick = leaveRespira;
   $('again').onclick = function () { show('hub'); };
   $('pause').onclick = function () { if (!run) return; run.paused = !run.paused; $('pause').textContent = run.paused ? 'Riprendi' : 'Pausa'; };
 
@@ -708,9 +755,9 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
     pr = { per: per, total: state.pdur, elapsed: 0, last: performance.now(), paused: false, step: -1, raf: 0 };
     var dots = $('p-dots'); dots.innerHTML = '';
     STEPS.forEach(function () { dots.appendChild(document.createElement('b')); });
-    $('p-label').textContent = 'Torna al presente · ' + (state.pdur === 60 ? '1 minuto' : '5 minuti');
+    $('p-label').textContent = 'Torna al presente · ' + (state.pdur / 60) + ' minuti';
     $('p-pause').textContent = 'Pausa';
-    show('psession'); lock(); pr.raf = requestAnimationFrame(ptick);
+    origin.presente = cur; show('psession'); lock(); pr.raf = requestAnimationFrame(ptick);
   }
   function ptick(now) {
     if (!pr) return;
@@ -730,7 +777,8 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   }
   function endPresente() { if (pr) cancelAnimationFrame(pr.raf); pr = null; unlock(); }
   $('p-start').onclick = startPresente;
-  $('p-stop').onclick = function () { endPresente(); show('presente'); };
+  function leavePresente() { var o = origin.presente || 'hub'; endPresente(); if (o === 'presente') openPresente(); else show(o === 'psession' || o === 'pdone' ? 'hub' : o); }
+  $('p-stop').onclick = leavePresente; $('back-psession').onclick = leavePresente;
   $('p-pause').onclick = function () { if (!pr) return; pr.paused = !pr.paused; $('p-pause').textContent = pr.paused ? 'Riprendi' : 'Pausa'; };
   $('p-next').onclick = function () { if (pr) pr.elapsed = Math.min(pr.total, (pr.step + 1) * pr.per + 0.001); };
   $('p-again').onclick = function () { show('hub'); };
@@ -746,7 +794,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
       actions: [{ label: 'Scrivi nel diario', tool: 'pensieri' }, { label: 'Respira con me · 5 minuti', tool: 'respira', ex: 'coerenza', minutes: 5 }] },
     { id: 'rum', label: 'Pensieri ricorrenti', kind: 'Metti distanza', title: 'Quando la mente gira sempre intorno alla stessa cosa',
       steps: ['Dai un nome al pensiero, per esempio: «Sto avendo di nuovo il pensiero che…». Notarlo da fuori lo rende meno appiccicoso.', 'Porta l\'attenzione fuori da te: guarda, tocca e ascolta ciò che hai intorno.', 'Se ti va, scrivilo e rispondi a qualche domanda.'],
-      actions: [{ label: 'Torna al presente · 1 minuto', tool: 'presente', pdur: 60 }, { label: 'Fai spazio ai pensieri', tool: 'pensieri' }] },
+      actions: [{ label: 'Torna al presente · 5 minuti', tool: 'presente', pdur: 300 }, { label: 'Fai spazio ai pensieri', tool: 'pensieri' }] },
     { id: 'staccare', label: 'Staccare dal lavoro', kind: 'Rituale di chiusura', title: 'Chiudi la giornata di lavoro in tre mosse',
       steps: ['Scrivi su un foglio le tre cose da fare domani. Ora sono fuori dalla tua testa.', 'Chiudi ciò che stai usando: computer, quaderno, applicazioni. Dì a voce alta o dentro di te: «Per oggi basta».', 'Cambia ambiente o gesto: lavati le mani, esci un minuto, cambia musica. Poi qualche respiro lento.'],
       actions: [{ label: 'Respira con me · 3 minuti', tool: 'respira', ex: 'coerenza', minutes: 3 }] },
@@ -886,14 +934,14 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
 
   function actLabel(a) {
     if (a.t === 'resp') return byId(EXERCISES, a.ex).name + ' · 3 minuti';
-    if (a.t === 'ground') return 'Torna al presente · 1 minuto';
+    if (a.t === 'ground') return 'Torna al presente · 5 minuti';
     if (a.t === 'write') return 'Fai spazio ai pensieri (scrivere)';
     return 'Una piccola pausa';
   }
   function runAct(a) {
     em.pending = true;
     if (a.t === 'resp') { state.ex = byId(EXERCISES, a.ex); state.minutes = 3; state.text = false; persist(); startRespira(); }
-    else if (a.t === 'ground') { state.pdur = 60; startPresente(); }
+    else if (a.t === 'ground') { state.pdur = 300; startPresente(); }
     else if (a.t === 'write') { openPensieri(); }
     else {
       var ol = $('em-pause-steps'); ol.innerHTML = '';
@@ -998,7 +1046,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
     sr = { ex: ex, total: total, per: total / ex.steps.length, elapsed: 0, last: performance.now(), paused: false, step: -1, timer: 0 };
     $('so-title').textContent = ex.name; $('so-close').hidden = true; $('so-ctl').hidden = false; $('so-pause').textContent = 'Pausa';
     $('so-text').classList.remove('fade'); $('so-text').textContent = 'Mettiti comodo. Cominciamo con calma.';
-    show('sorun'); lock();
+    origin.sonno = cur; show('sorun'); lock();
     sr.timer = setInterval(sleepTick, 250);
   }
   function sleepTick() {
@@ -1013,7 +1061,8 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   function endSonno() { if (sr) clearInterval(sr.timer); sr = null; unlock(); }
   $('so-start').onclick = startSonno;
   $('so-pause').onclick = function () { if (!sr) return; sr.paused = !sr.paused; $('so-pause').textContent = sr.paused ? 'Riprendi' : 'Pausa'; };
-  $('so-stop').onclick = function () { endSonno(); show('sonno'); };
+  function leaveSonno() { var o = origin.sonno || 'hub'; endSonno(); if (o === 'sonno') openSonno(); else show(o === 'sorun' ? 'hub' : o); }
+  $('so-stop').onclick = leaveSonno; $('back-sorun').onclick = leaveSonno;
   $('so-close').onclick = function () { show('hub'); };
   $('t-sonno').onclick = openSonno;
 
@@ -1136,6 +1185,14 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   });
   $('t-conversazione').onclick = conversazione.open;
 
+  /* ---------- Installazione sul telefono ---------- */
+  function openInstalla() {
+    var ua = navigator.userAgent || '', id = /iPhone|iPad|iPod/.test(ua) ? 'in-ios' : (/Android/.test(ua) ? 'in-android' : 'in-pc');
+    Array.prototype.forEach.call(document.querySelectorAll('#v-installa details'), function (d) { d.open = d.id === id; });
+    show('installa');
+  }
+  $('open-install').onclick = function (e) { e.preventDefault(); openInstalla(); };
+
   /* ---------- Contatti e condivisione ---------- */
   Array.prototype.forEach.call(document.querySelectorAll('.copy'), function (b) {
     b.onclick = function () {
@@ -1148,7 +1205,8 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   document.addEventListener('visibilitychange', function () { if (!document.hidden && (run || pr)) lock(); });
 
   renderHub();
+  renderChoices(); renderSleep();
   var h = (location.hash || '').replace('#', '');
-  if (h === 'respira') openRespira(); else if (h === 'presente') openPresente(); else if (h === 'cassetta') openCassetta(); else if (h === 'pensieri') openPensieri(); else if (h === 'emozioni') openEmozioni(); else if (h === 'sonno') openSonno(); else if (h === 'gentilezza') gentilezza.open(); else if (h === 'conversazione') conversazione.open(); else show('hub');
+  if (h === 'installa') openInstalla(); else if (h === 'respira') openRespira(); else if (h === 'presente') openPresente(); else if (h === 'cassetta') openCassetta(); else if (h === 'pensieri') openPensieri(); else if (h === 'emozioni') openEmozioni(); else if (h === 'sonno') openSonno(); else if (h === 'gentilezza') gentilezza.open(); else if (h === 'conversazione') conversazione.open(); else show('hub');
 })();
 </script>
