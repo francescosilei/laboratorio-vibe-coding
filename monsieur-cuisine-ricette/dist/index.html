@@ -298,6 +298,12 @@ select.sel { width: 100%; padding: 10px 12px; border-radius: 12px; border: 1px s
 .spesa-ctl { display: flex; align-items: center; gap: 8px; flex: none; }
 .sheet-foot .btn { padding-inline: 14px; white-space: nowrap; }
 .sheet-foot .btn.go { padding-inline: 22px; }
+.step.big { margin: 2px 0 0; }
+.step.big button { width: 34px; height: 34px; font-size: 20px; }
+.step.big output { min-width: 34px; font-size: 18px; }
+.stats dd small { display: block; margin-top: 2px; font-weight: 400; }
+.stats dd small .link-btn { display: inline; font-size: inherit; text-decoration: underline; }
+.sp-r small { color: var(--fg-3); font-weight: 400; }
 .dlg { position: fixed; inset: 0; z-index: 80; display: grid; place-items: center; padding: 16px; }
 .dlg-bg { position: absolute; inset: 0; background: var(--overlay); backdrop-filter: blur(4px); }
 .dlg-box { position: relative; width: 100%; max-width: 24rem; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 22px; box-shadow: var(--shadow-lg); display: flex; flex-direction: column; gap: 10px; }
@@ -488,7 +494,8 @@ async function initDb() {
       const d = s.exists ? s.data() : null;
       if (d && d.v && typeof d.v === 'object' && (d.t || 0) >= SPT) {          // dal database solo se non è più vecchio di ciò che c'è qui
         SP = { ...d.v };   /* copia: i dati del database sono congelati, non si possono modificare */
-        SPUNTE = new Set(d.c || []); SPT = d.t || 0; try { localStorage.setItem(SP_KEY, JSON.stringify({ v: SP, c: [...SPUNTE], t: SPT })); } catch (e) {} renderAll();
+        SPUNTE = new Set(d.c || []); SPT = d.t || 0; PORZ = { ...(d.p || {}) };
+        try { localStorage.setItem(SP_KEY, JSON.stringify({ v: SP, c: [...SPUNTE], p: PORZ, t: SPT })); } catch (e) {} renderAll();
       } else if (SPT && Object.keys(SP).length) saveSp(false);                  // il dato locale è più recente (o il database è vuoto): lo si rimanda, senza toccarlo
     }, () => {});
   } catch (e) {}
@@ -497,11 +504,12 @@ function toggleFav(id) { favs.has(id) ? favs.delete(id) : favs.add(id); persistF
 
 /* ---------- lista della spesa ---------- */
 const SP_KEY = 'ricettario-connect-spesa';
+let PORZ = {};   // porzioni scelte per ricetta: id -> n (assente = quelle della ricetta); salvate insieme alla lista
 let SP = {}, SPUNTE = new Set(), SPT = 0, spDoc = null, pend = 1, copied = false, spBackup = null, toastT = null;
-try { const d = JSON.parse(localStorage.getItem(SP_KEY) || '{}'); SP = d.v || {}; SPUNTE = new Set(d.c || []); SPT = d.t || 0; } catch (e) {}
+try { const d = JSON.parse(localStorage.getItem(SP_KEY) || '{}'); SP = d.v || {}; SPUNTE = new Set(d.c || []); SPT = d.t || 0; PORZ = d.p || {}; } catch (e) {}
 function saveSp(bump) {   // bump: modifica dell'utente (aggiorna la data); senza: solo riprova a inviare lo stato locale
   if (bump) SPT = Date.now();
-  const d = { v: SP, c: [...SPUNTE], t: SPT };
+  const d = { v: SP, c: [...SPUNTE], p: PORZ, t: SPT };
   try { localStorage.setItem(SP_KEY, JSON.stringify(d)); } catch (e) {}
   try { spDoc && spDoc.set(d).catch(() => {}); } catch (e) {}
 }
@@ -524,6 +532,7 @@ function inCasa(c) {
   const nc = norm(c);
   return S.ing.some(t => { const w = norm(t).split(/\s+/).filter(x => x.length > 2); return w.length && w.every(x => nc.includes(stem(x))); });
 }
+const CONTA = new Set(['pz', 'spicchio', 'rametto', 'mazzetto', 'foglia', 'fetta', 'stecca', 'gambo', 'costa', 'ciuffo', 'bustina', 'goccia']);   // non si compra «mezzo» limone: per eccesso
 function spesaCalc() {
   const mai = new Set(REGOLE.mai), soglia = REGOLE.soglia_g, acc = new Map();
   const ric = Object.entries(SP).filter(([id, n]) => n > 0 && rById(id)).map(([id, n]) => ({ r: rById(id), n }));
@@ -537,7 +546,7 @@ function spesaCalc() {
     if (soglia[a.c] != null && !((a.u.g || 0) > soglia[a.c])) { sotto.add(a.c); return; }
     if (inCasa(a.c)) { casa.push(a.c); return; }
     const ord = Object.keys(a.u).sort((x, y) => (x === 'g' ? -1 : y === 'g' ? 1 : x.localeCompare(y)));
-    a.qt = ord.length ? ord.map(u => fmtQ(u, a.u[u])).join(' + ') : 'q.b.';
+    a.qt = ord.length ? ord.map(u => fmtQ(u, CONTA.has(u) ? Math.ceil(a.u[u] - 1e-9) : a.u[u])).join(' + ') : 'q.b.';
     voci.push(a);
   });
   const gruppi = REGOLE.reparti.map(rep => ({ rep, voci: voci.filter(v => v.rep === rep).sort((a, b) => a.c.localeCompare(b.c, 'it')) })).filter(g => g.voci.length);
@@ -557,7 +566,7 @@ function renderSpesa() {
       <p class="sp-empty">Nessuna ricetta in lista. Apri una ricetta e premi «Aggiungi alla spesa»: qui comparirà l'elenco degli ingredienti da comprare.</p>`;
     return;
   }
-  const rs = ric.map(({ r, n }) => `<div class="sp-r"><span class="t" title="${esc(r.titolo)}">${esc(r.titolo)}</span>
+  const rs = ric.map(({ r, n }) => `<div class="sp-r"><span class="t" title="${esc(r.titolo)}">${esc(r.titolo)}${r.f !== 1 ? ` <small>· ${r.porzioni} pers.</small>` : ''}</span>
       <span class="step"><button type="button" data-sp="dec" data-id="${r.id}" aria-label="Meno">−</button><output>${n}×</output><button type="button" data-sp="inc" data-id="${r.id}" aria-label="Più">+</button></span>
       <button class="del" type="button" data-sp="rm" data-id="${r.id}" aria-label="Togli ${esc(r.titolo)}">${ico('x')}</button></div>`).join('');
   const lista = gruppi.map(g => `<div><div class="sp-rep">${esc(g.rep)}</div>${g.voci.map(v => `<button class="sp-i" type="button" data-sp="chk" data-key="${esc(v.c)}" aria-pressed="${SPUNTE.has(v.c)}"><span class="bx">${ico('check')}</span><span class="tx">${esc(v.c)} <span class="q">(${esc(v.qt)})</span></span></button>`).join('')}</div>`).join('')
@@ -588,9 +597,11 @@ document.addEventListener('click', e => {
   const a = t.dataset.sp, id = t.dataset.id;
   if (a === 'add') { SP[id] = pend; persistSp(); renderAll(); }
   else if (a === 'rm') spRemove(id);
+  else if (a === 'pinc' || a === 'pdec') { const r = rById(id); r && setPorz(id, r.porzioni + (a === 'pinc' ? 1 : -1)); }
+  else if (a === 'preset') setPorz(id, (RICETTE.find(x => x.id === id) || {}).porzioni);
   else if (a === 'inc' || a === 'dec') {
     if (SP[id]) spSet(id, SP[id] + (a === 'inc' ? 1 : -1));
-    else { pend = Math.max(1, Math.min(20, pend + (a === 'inc' ? 1 : -1))); renderSheet(); }
+    else { pend = Math.max(1, Math.min(20, pend + (a === 'inc' ? 1 : -1))); renderSheet(true); }
   }
   else if (a === 'chk') { const k = t.dataset.key; SPUNTE.has(k) ? SPUNTE.delete(k) : SPUNTE.add(k); persistSp(); renderSpesa(); }
   else if (a === 'copy') spCopy();
@@ -671,15 +682,93 @@ function renderList() {
   S.ing.forEach(t => b.push(`<span class="bdg">${esc(t)}</span>`));
   $('badges').innerHTML = b.join('');
 }
-function renderAll() { renderSide(); renderList(); spPrune(); renderSpesa(); if (!$('modal').hidden && openId) renderSheet(); if (!$('run').hidden && run) renderRun(); }
+function renderAll() { renderSide(); renderList(); spPrune(); renderSpesa(); if (!$('modal').hidden && openId) renderSheet(true); if (!$('run').hidden && run) renderRun(); }
 
 function addIng(t) { t = t.trim(); if (t && !S.ing.some(x => norm(x) === norm(t))) { S.ing.push(t); renderAll(); } }
 function resetAll() { Object.assign(S, { cat: 'Tutti', paese: 'Tutti', solo: false, ing: [], q: '' }); $('q').value = ''; renderAll(); }
 
+/* ---------- porzioni: ricalcolo delle quantità ---------- */
+/* Si scalano solo le quantità (g, ml, cucchiai, pizzichi, spicchi, uova...). Tempi, temperature e velocità restano quelli della ricetta. */
+const U_PESO = 'kg|g|ml|l|cucchiaini|cucchiaino|cucchiai|cucchiaio|pizzichi|pizzico|spicchi|spicchio|rametti|rametto|mazzetti|mazzetto|foglie|foglia|fette|fetta|stecche|stecca|gambi|gambo|coste|costa|ciuffi|ciuffo|bustine|bustina|gocce|goccia';
+const U_NOME = 'uovo|uova|tuorlo|tuorli|limone|limoni|dado|dadi|cipollotto|cipollotti|scalogno|scalogni|pomodorino|pomodorini|peperoncino|peperoncini|burratina|burratine';
+const NUMRX = '(?:\\d+(?:[.,]\\d+)?\\s*[¼½¾]|\\d+(?:[.,]\\d+)?|[¼½¾])';
+const QRX = new RegExp(`(^|[^\\d.,/])(${NUMRX})(?:(\\s*[-–]\\s*)(${NUMRX}))?(\\s*)(${U_PESO}|${U_NOME})\\b`, 'gi');
+const FORME = [['cucchiaino', 'cucchiaini'], ['cucchiaio', 'cucchiai'], ['pizzico', 'pizzichi'], ['spicchio', 'spicchi'], ['rametto', 'rametti'], ['mazzetto', 'mazzetti'],
+  ['foglia', 'foglie'], ['fetta', 'fette'], ['stecca', 'stecche'], ['gambo', 'gambi'], ['costa', 'coste'], ['ciuffo', 'ciuffi'], ['bustina', 'bustine'], ['goccia', 'gocce'],
+  ['uovo', 'uova'], ['tuorlo', 'tuorli'], ['limone', 'limoni'], ['dado', 'dadi'], ['cipollotto', 'cipollotti'], ['scalogno', 'scalogni'], ['pomodorino', 'pomodorini'],
+  ['peperoncino', 'peperoncini'], ['burratina', 'burratine']];
+const NUNITA = /^(g|ml)$/i, GRANDI = /^(kg|l)$/i, CUCCH = /^(cucchiai|cucchiain|pizzic)/i;
+function parseQ(t) {
+  let v = 0; (t.match(/\d+(?:[.,]\d+)?|[¼½¾]/g) || []).forEach(x => { v += x === '¼' ? .25 : x === '½' ? .5 : x === '¾' ? .75 : parseFloat(x.replace(',', '.')); }); return v;
+}
+function scaleQ(q, u, f) {
+  const v = q * f;
+  if (NUNITA.test(u)) return v >= 20 ? Math.round(v) : Math.max(.5, Math.round(v * 2) / 2);
+  if (GRANDI.test(u)) return Math.max(.05, Math.round(v * 100) / 100);
+  if (CUCCH.test(u)) return Math.max(.25, Math.round(v * 4) / 4);
+  return Math.max(.5, Math.round(v * 2) / 2);
+}
+function fmtScaled(v, u) {
+  if (GRANDI.test(u)) return String(v).replace('.', ',');
+  const w = Math.floor(v + 1e-9), fr = v - w, f4 = { 0.25: '¼', 0.5: '½', 0.75: '¾' };
+  for (const k in f4) if (Math.abs(fr - k) < 0.01) return (w ? w : '') + f4[k];
+  return String(Math.round(v * 10) / 10).replace('.', ',');
+}
+function formaUnita(w, v) {
+  const lw = w.toLowerCase(), par = FORME.find(p => p.includes(lw));
+  if (!par) return w;
+  const out = v <= 1 ? par[0] : par[1];
+  return w[0] === w[0].toUpperCase() && w[0] !== w[0].toLowerCase() ? out[0].toUpperCase() + out.slice(1) : out;
+}
+function scaleText(t, f, ing) {
+  if (!t || f === 1) return t;
+  let out = String(t).replace(QRX, (m, pre, a, sep, b, gap, u) => {
+    const va = scaleQ(parseQ(a), u, f), vb = b ? scaleQ(parseQ(b), u, f) : null, uu = formaUnita(u, vb != null ? vb : va);
+    return pre + fmtScaled(va, u) + (b ? sep + fmtScaled(vb, u) : '') + gap + uu;
+  });
+  out = out.replace(/\b(tra|fra|in|su)(\s+)(\d+)(\s+)(ciotole|ciotolini|piatti|porzioni|persone|terrine|bicchieri|stampi|coppe|tazze)\b/gi,
+    (m, p, s1, n, s2, w) => `${p}${s1}${Math.max(1, Math.round(+n * f))}${s2}${w}`);
+  if (ing && out === t) {   // riga di ingrediente che inizia con un numero senza unità («6 - 7 pomodori secchi»): è un conteggio
+    const m = new RegExp(`^(\\s*)(${NUMRX})(?:(\\s*[-–]\\s*)(${NUMRX}))?(\\s+)(?!cm\\b|mm\\b|min|ore\\b|°|%)`, 'i').exec(t);
+    if (m) out = m[1] + fmtScaled(scaleQ(parseQ(m[2]), 'n', f), 'n') + (m[4] ? m[3] + fmtScaled(scaleQ(parseQ(m[4]), 'n', f), 'n') : '') + m[5] + t.slice(m[0].length);
+  }
+  return out;
+}
+const VIEWS = new Map();
+function porzioniDi(r) { return r.porzioni == null ? null : (PORZ[r.id] || r.porzioni); }
+function vista(r) {   // la ricetta con le quantità ricalcolate per le porzioni scelte (le altre parti non cambiano)
+  const n = porzioniDi(r);
+  if (n == null || n === r.porzioni) return Object.assign(Object.create(r), { base: r.porzioni, f: 1 });
+  const key = r.id + '|' + n; if (VIEWS.has(key)) return VIEWS.get(key);
+  const f = n / r.porzioni;
+  const v = { ...r, porzioni: n, base: r.porzioni, f,
+    ingredienti: r.ingredienti.map(i => ({ ...i, testo: scaleText(i.testo, f, true) })),
+    procedimento: r.procedimento.map(t => scaleText(t, f)), note: (r.note || []).map(t => scaleText(t, f)),
+    passi: r.passi.map(p => { const q = { ...p }; if (q.testo) q.testo = scaleText(q.testo, f); if (q.tipo === 'pesata') q.g = scaleQ(q.g, 'g', f); return q; }),
+    spesa: r.spesa.map(x => x.q == null ? x : { ...x, q: x.q * f }) };
+  VIEWS.set(key, v); return v;
+}
+function capienzaMax(passi) {   // peso massimo che si accumula nel boccale tra un travaso e l'altro (stima)
+  let run = 0, max = 0;
+  passi.forEach(p => {
+    if (p.tipo === 'pesata' && !/ciotola|teglia|placca|Varoma|padella|caraffa|piatto/i.test(p.testo)) { run += p.g; max = Math.max(max, run); }
+    else if (p.tipo === 'testo' && /trasferit|togli|svuot|da parte|pulite|sciacqua/i.test(p.testo)) run = 0;
+  });
+  return max;
+}
+const BOCCALE_G = 2000;   // capienza indicativa del boccale (circa 2 litri)
+function setPorz(id, n) {
+  const r = RICETTE.find(x => x.id === id); if (!r || r.porzioni == null) return;
+  n = Math.max(1, Math.min(40, n));
+  if (n === r.porzioni) delete PORZ[id]; else PORZ[id] = n;
+  persistSp(); renderAll();
+}
+
 /* ---------- scheda ricetta ---------- */
 let openId = null;
-const rById = id => RICETTE.find(r => r.id === id);
-function renderSheet() {
+const rById = id => { const r = RICETTE.find(x => x.id === id); return r && vista(r); };
+function renderSheet(keep) {
+  const sbOld = keep && $('sheet').querySelector('.sheet-body'), stTop = sbOld ? sbOld.scrollTop : 0;
   const r = rById(openId);
   const dd = c => (r.dedotto || []).includes(c);
   const img = r.immagine && IMG[r.immagine] ? `<img src="${IMG[r.immagine]}" alt="">` : `<div class="noimg">${ico('utensils')}</div>`;
@@ -696,9 +785,10 @@ function renderSheet() {
     <div class="sheet-body">
       <dl class="stats" style="margin:0">
         <div><dt>Tempo</dt><dd>${tm}${sub}</dd></div>
-        <div><dt>Porzioni</dt><dd>${r.porzioni == null ? '<span class="na-t">NA</span>' : r.porzioni + ' persone'}</dd></div>
+        <div><dt>Porzioni</dt><dd>${r.porzioni == null ? '<span class="na-t">NA</span>' : `<span class="step big"><button type="button" data-sp="pdec" data-id="${r.id}" aria-label="Meno porzioni">−</button><output>${r.porzioni}</output><button type="button" data-sp="pinc" data-id="${r.id}" aria-label="Più porzioni">+</button></span><small>${r.f !== 1 ? `di base ${r.base} · <button class="link-btn" type="button" data-sp="preset" data-id="${r.id}">ripristina</button>` : 'persone'}</small>`}</dd></div>
         <div><dt>Difficoltà</dt><dd>${isNA(r.difficolta) ? '<span class="na-t">NA</span>' : esc(r.difficolta)}</dd></div>
       </dl>
+      ${r.f !== 1 ? `<div class="callout"><p><strong>Quantità ricalcolate per ${r.porzioni} persone</strong> (la ricetta è pensata per ${r.base}). I tempi di cottura, le temperature e le velocità restano quelli originali: controllate la cottura.</p>${r.f > 1 && capienzaMax(r.passi) > BOCCALE_G ? `<p><strong>Attenzione:</strong> con queste quantità gli ingredienti possono superare la capienza del boccale (circa 2 litri). Valutate di preparare la ricetta in due volte.</p>` : ''}</div>` : ''}
       <div class="sec"><h3>${ico('basket')} Ingredienti</h3>${ingHtml}</div>
       <div class="sec"><h3>${ico('list')} Procedimento</h3>
         <ol class="steps">${r.procedimento.map(s => `<li><span>${esc(s)}</span></li>`).join('')}</ol></div>
@@ -713,7 +803,9 @@ function renderSheet() {
       </div>
       <div class="grp"><button class="btn dark" type="button" data-close>Chiudi</button><button class="btn pri go" type="button" data-start="${r.id}">${ico('play')} Avvia</button></div>
     </div>`;
+  _sheetRestore(stTop);
 }
+function _sheetRestore(top) { const sb = $('sheet').querySelector('.sheet-body'); if (sb && top) sb.scrollTop = top; }
 function openSheet(id) { openId = id; pend = 1; renderSheet(); $('modal').hidden = false; document.body.style.overflow = 'hidden'; $('modal').scrollTop = 0; }
 function closeSheet() { $('modal').hidden = true; openId = null; document.body.style.overflow = ''; }
 

@@ -6,6 +6,7 @@ istruzioni passo passo per il Monsieur Cuisine Connect.
 - elenco ricette con filtri per tipologia e paese, ricerca per titolo e per ingredienti
 - scheda ricetta (foto, tempo, porzioni, difficoltà, ingredienti, procedimento) e modalità "Avvia"
   passo passo con pesata, manopole di tempo/velocità/temperatura, timer e schermata finale
+- porzioni modificabili nella scheda: le quantità (ingredienti, pesate, testi, lista della spesa) si ricalcolano, i tempi e le impostazioni del robot restano quelli della ricetta
 - preferiti
 - lista della spesa: dalla scheda ricetta («Aggiungi alla spesa» e numero di volte) alla lista nel pannello laterale, con somme per ingrediente,
   reparti, spunte, «Copia» (testo per mail/WhatsApp) e «Azzera» con conferma e annulla. Regole in `tools/spesa.py` (soglie «da casa», reparti, nomi unici)
