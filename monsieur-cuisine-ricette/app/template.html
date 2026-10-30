@@ -756,7 +756,7 @@ function capienzaMax(passi) {   // peso massimo che si accumula nel boccale tra 
   });
   return max;
 }
-const BOCCALE_G = 2000;   // capienza indicativa del boccale (circa 2 litri)
+const BOCCALE_G = 3000;   // capienza utilizzabile del boccale del Connect: circa 3 litri (4,5 l totali); 1 g di ingrediente ≈ 1 ml, stima
 function setPorz(id, n) {
   const r = RICETTE.find(x => x.id === id); if (!r || r.porzioni == null) return;
   n = Math.max(1, Math.min(40, n));
@@ -788,7 +788,7 @@ function renderSheet(keep) {
         <div><dt>Porzioni</dt><dd>${r.porzioni == null ? '<span class="na-t">NA</span>' : `<span class="step big"><button type="button" data-sp="pdec" data-id="${r.id}" aria-label="Meno porzioni">−</button><output>${r.porzioni}</output><button type="button" data-sp="pinc" data-id="${r.id}" aria-label="Più porzioni">+</button></span><small>${r.f !== 1 ? `di base ${r.base} · <button class="link-btn" type="button" data-sp="preset" data-id="${r.id}">ripristina</button>` : 'persone'}</small>`}</dd></div>
         <div><dt>Difficoltà</dt><dd>${isNA(r.difficolta) ? '<span class="na-t">NA</span>' : esc(r.difficolta)}</dd></div>
       </dl>
-      ${r.f !== 1 ? `<div class="callout"><p><strong>Quantità ricalcolate per ${r.porzioni} persone</strong> (la ricetta è pensata per ${r.base}). I tempi di cottura, le temperature e le velocità restano quelli originali: controllate la cottura.</p>${r.f > 1 && capienzaMax(r.passi) > BOCCALE_G ? `<p><strong>Attenzione:</strong> con queste quantità gli ingredienti possono superare la capienza del boccale (circa 2 litri). Valutate di preparare la ricetta in due volte.</p>` : ''}</div>` : ''}
+      ${r.f !== 1 ? `<div class="callout"><p><strong>Quantità ricalcolate per ${r.porzioni} persone</strong> (la ricetta è pensata per ${r.base}). I tempi di cottura, le temperature e le velocità restano quelli originali: controllate la cottura.</p>${r.f > 1 && capienzaMax(r.passi) > BOCCALE_G ? `<p><strong>Attenzione:</strong> con queste quantità gli ingredienti possono superare la capienza utilizzabile del boccale (circa 3 litri). Valutate di preparare la ricetta in due volte.</p>` : ''}</div>` : ''}
       <div class="sec"><h3>${ico('basket')} Ingredienti</h3>${ingHtml}</div>
       <div class="sec"><h3>${ico('list')} Procedimento</h3>
         <ol class="steps">${r.procedimento.map(s => `<li><span>${esc(s)}</span></li>`).join('')}</ol></div>
