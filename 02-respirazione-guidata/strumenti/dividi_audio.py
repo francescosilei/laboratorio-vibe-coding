@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Divide una registrazione di una sezione in tante frasi, separate da silenzi lunghi.
 
-Uso:  python3 dividi_audio.py FILE_AUDIO CODICE_SEZIONE [CARTELLA_USCITA] [--pausa=SECONDI]
+Uso:  python3 dividi_audio.py FILE_AUDIO CODICE_SEZIONE [CARTELLA_USCITA] [--pausa=SECONDI] [--livello=DB] [--bitrate=96k]
 Esempio: python3 dividi_audio.py A_parole-guida.m4a A_parole-guida audio/ --pausa=0.8
 (--pausa = silenzio minimo che separa due pezzi; 3 secondi se omessa)
+(--livello = volume tipico del parlato in dBFS; -20 se omesso, -23.5 per le frasi lunghe)
 
 Passi: trova i silenzi lunghi (almeno 3 s, con soglia adattata al rumore di fondo), taglia le
 frasi con un piccolo margine, uniforma il volume con un unico guadagno per tutto il file e
@@ -58,11 +59,15 @@ def frasi(db, frazione, pausa):
 
 
 def main():
-    args = [a for a in sys.argv[1:] if not a.startswith("--pausa=")]
-    pausa = SILENZIO_MIN
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    pausa, obiettivo, bitrate = SILENZIO_MIN, OBIETTIVO_DB, "96k"
     for a in sys.argv[1:]:
         if a.startswith("--pausa="):
             pausa = float(a.split("=")[1])
+        if a.startswith("--bitrate="):
+            bitrate = a.split("=")[1]
+        if a.startswith("--livello="):
+            obiettivo = float(a.split("=")[1])
     if len(args) < 2:
         sys.exit(__doc__)
     src, sezione = args[0], args[1]
@@ -87,7 +92,7 @@ def main():
         print(f"soglia scelta: {fr} ({len(valide)} valide)")
         # volume uniforme: un solo guadagno per tutto il file, così le frasi restano coerenti tra loro
         attivi = np.concatenate([db[int(a / FINESTRA): int(b / FINESTRA)] for a, b in scelta])
-        guadagno = max(-20.0, min(24.0, OBIETTIVO_DB - float(np.percentile(attivi, 75))))
+        guadagno = max(-20.0, min(24.0, obiettivo - float(np.percentile(attivi, 75))))
         print(f"guadagno applicato: {guadagno:+.1f} dB")
         os.makedirs(out, exist_ok=True)
         for (a, b), nome in zip(scelta, nomi):
@@ -95,7 +100,7 @@ def main():
             dest = os.path.join(out, nome + ".mp3")
             r = run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{a0:.3f}", "-to", f"{b0:.3f}", "-i", norm,
                      "-ac", "1", "-ar", "44100", "-af", f"volume={guadagno}dB,alimiter=limit=0.89,afade=t=in:st=0:d=0.03,afade=t=out:st={max(0.0, b0 - a0 - 0.12):.3f}:d=0.12",
-                     "-c:a", "libmp3lame", "-b:a", "96k", dest])
+                     "-c:a", "libmp3lame", "-b:a", bitrate, dest])
             print(f"{nome}.mp3  {b0 - a0:5.1f} s  {os.path.getsize(dest) // 1024} kB")
 
 
