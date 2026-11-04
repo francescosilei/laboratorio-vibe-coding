@@ -49,6 +49,18 @@ Cartella: `02-respirazione-guidata/`. Un solo sito, un link per strumento, nessu
 
 Da decidere con mia moglie: numeri di aiuto da mostrare, nome da usare nell'intestazione, testi clinici da far rivedere a lei prima della pubblicazione. Il dominio personale è rimandato.
 
+## Pubblicazione online (decisione del 5 novembre)
+
+Si pubblica lo stesso sito su **GitHub Pages** e su **Netlify**, per confrontarli; in futuro si tiene il migliore. Il sito è la cartella `sito/` (costruita da `02-respirazione-guidata/strumenti/costruisci_sito.py`): pagina leggera (circa 90 KB), audio in file separati caricati solo quando servono, icone dal logo a spirale, caratteri inclusi nel sito. Va messa da sola in un repository nuovo e pubblico (`un-momento-per-te`): niente registrazioni intere, appunti o questo file.
+
+- [x] Pagina autonoma, audio separato, icone, manifest, prove su un server vero (radice e sottocartella)
+- [ ] Repository pubblico del sito, con la sola cartella `sito/` alla radice
+- [ ] Attivare GitHub Pages (Settings, Pages, Deploy from a branch, main, root)
+- [ ] Collegare Netlify allo stesso repository; disattivare anteprime e pubblicazioni dei rami
+- [ ] Testo della privacy, avviso sui diritti delle registrazioni, numeri di aiuto (da tua moglie)
+- [ ] Togliere «noindex» e robots.txt quando si decide di rendere il sito visibile ai motori di ricerca
+- [ ] Prova finale su telefono con Brave: installazione, icona, voce
+
 ## Materiale da preparare per il progetto 1
 
 - Un breve profilo (2–3 righe)

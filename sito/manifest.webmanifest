@@ -1,0 +1,31 @@
+{
+  "name": "Un momento per te",
+  "short_name": "Un momento",
+  "description": "Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio. Senza account e senza raccolta di dati.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f3e9",
+  "theme_color": "#f5f3e9",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

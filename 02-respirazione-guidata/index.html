@@ -778,6 +778,10 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   function playVoice(k) {
     try { var a = voiceAudio(); a.src = VOICE_DATA[k]; var p = a.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {}
   }
+  var voiceWarm = {};   /* clip scaricati in anticipo, così partono senza attesa quando servono */
+  function warmVoice(keys) {
+    keys.forEach(function (k) { if (VOICE_DATA[k] && !voiceWarm[k]) { try { var a = new Audio(); a.preload = 'auto'; a.src = VOICE_DATA[k]; voiceWarm[k] = a; } catch (e) {} } });
+  }
   function sayCue(kind) {
     if (!state.voice) return;
     playVoice(kind === 'in' ? 'inspira' : (kind === 'out' ? 'espira' : 'trattieni'));
@@ -799,7 +803,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
     var slot = 0; state.ex.phases.forEach(function (p, i) { if (p[1] >= state.ex.phases[slot][1]) slot = i; });   /* fase più lunga: ci stanno le frasi di accompagnamento */
     run = { ex: state.ex, cycle: cycle, total: state.minutes * 60, elapsed: 0, last: performance.now(), paused: false, idx: -2, raf: 0,
       voiced: !!voiced, lead: voiced ? VOICE_DUR.benvenuto + 0.8 + VOICE_DUR['intro_' + state.ex.id] + 1.5 : LEAD_IN, said0: !!voiced, said1: false, slot: slot, accKey: null, accAt: 0, lastAcc: null };
-    if (voiced) playVoice('benvenuto');
+    if (voiced) { playVoice('benvenuto'); warmVoice(['intro_' + state.ex.id, 'inspira', 'trattieni', 'espira', 'chiusura']); }
     $('stage').classList.toggle('textonly', state.text);
     $('s-title').textContent = state.ex.name; $('hint').textContent = state.ex.hint; $('pause').textContent = 'Pausa';
     origin.respira = cur; show('session'); lock(); run.raf = requestAnimationFrame(tick);
@@ -824,7 +828,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
         run.idx = key; tone(FREQ[kind]); buzz(kind); sayCue(kind);
         if (run.voiced && i === run.slot && cycleNo % 3 === 2) {      /* una frase di accompagnamento ogni tre cicli, mai due uguali di fila */
           var ok = Object.keys(ACC_DUR).filter(function (k) { return ACC_DUR[k] <= dur - 2.3 && k !== run.lastAcc; });
-          if (ok.length) { run.lastAcc = run.accKey = ok[Math.floor(Math.random() * ok.length)]; run.accAt = t + 1.9; }
+          if (ok.length) { run.lastAcc = run.accKey = ok[Math.floor(Math.random() * ok.length)]; run.accAt = t + 1.9; warmVoice([run.accKey]); }
         }
       }
       var f = ease(Math.min(1, inPhase / dur)), prev = run.ex.phases[(i + run.ex.phases.length - 1) % run.ex.phases.length][0], scale;
@@ -857,7 +861,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   function startPresente() {
     var per = state.pdur / STEPS.length;
     pr = { per: per, total: state.pdur, elapsed: 0, last: performance.now(), paused: false, step: -1, raf: 0, voiced: !!state.voice, extraDone: false, firstSaid: !!state.voice };
-    if (state.voice) playVoice('presente_passo_01');
+    if (state.voice) { playVoice('presente_passo_01'); warmVoice(['presente_passo_02', 'presente_extra_01']); }
     var dots = $('p-dots'); dots.innerHTML = '';
     STEPS.forEach(function () { dots.appendChild(document.createElement('b')); });
     $('p-label').textContent = 'Torna al presente · ' + (state.pdur / 60) + ' minuti';
@@ -874,6 +878,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
       pr.step = i; pr.extraDone = false;
       if (pr.voiced && !(i === 0 && pr.firstSaid)) { stopVoice(); playVoice('presente_passo_0' + (i + 1)); }
       pr.firstSaid = false;
+      if (pr.voiced) warmVoice(['presente_extra_0' + (i + 1)].concat(i < 4 ? ['presente_passo_0' + (i + 2)] : ['presente_fine']));
       $('p-num').textContent = STEPS[i].n; $('p-text').textContent = STEPS[i].text;
       Array.prototype.forEach.call($('p-dots').children, function (b, k) { b.className = k < i ? 'past' : (k === i ? 'on' : ''); });
     }
@@ -1154,7 +1159,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
     var ex = sleepSel.ex, total = sleepSel.min * 60;
     sr = { ex: ex, total: total, per: total / ex.steps.length, elapsed: 0, last: performance.now(), paused: false, step: -1, timer: 0,
       voiced: !!state.voice, lead: state.voice ? 4.5 : 0 };   /* con la voce, 4,5 s per «Mettiti comodo. Cominciamo con calma.» */
-    if (sr.voiced) playVoice('sonno_inizio');
+    if (sr.voiced) { playVoice('sonno_inizio'); warmVoice(['sonno_' + ex.id + '_01', 'sonno_' + ex.id + '_02']); }
     $('so-title').textContent = ex.name; $('so-close').hidden = true; $('so-ctl').hidden = false; $('so-pause').textContent = 'Pausa';
     $('so-text').classList.remove('fade'); $('so-text').textContent = 'Mettiti comodo. Cominciamo con calma.';
     origin.sonno = cur; show('sorun'); lock();
@@ -1170,7 +1175,10 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
     var i = Math.min(sr.ex.steps.length - 1, Math.floor(t / sr.per));
     if (i !== sr.step) {
       sr.step = i; sleepText(sr.ex.steps[i]);
-      if (sr.voiced) { stopVoice(); playVoice('sonno_' + sr.ex.id + '_' + ('0' + (i + 1)).slice(-2)); }
+      if (sr.voiced) {
+        stopVoice(); playVoice('sonno_' + sr.ex.id + '_' + ('0' + (i + 1)).slice(-2));
+        warmVoice([i + 1 < sr.ex.steps.length ? 'sonno_' + sr.ex.id + '_' + ('0' + (i + 2)).slice(-2) : 'sonno_fine']);
+      }
     }
     $('so-rem').textContent = fmt(sr.total - t);
   }
@@ -1232,6 +1240,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
         var rd = el('div', 'read', '', flow); st.read.forEach(function (t) { el('p', '', t, rd); });
         if (cfg.audio) {
           var lb = el('button', 'ghost', 'Ascolta con la voce', flow); lb.type = 'button';
+          warmVoice([cfg.audio]);
           var au = voiceAudio(), syncL = function () { lb.textContent = (!au.paused && !au.ended) ? 'Ferma la voce' : 'Ascolta con la voce'; };
           au.onplay = au.onpause = au.onended = syncL;
           lb.onclick = function () { if (!au.paused && !au.ended) stopVoice(); else playVoice(cfg.audio); };

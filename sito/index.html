@@ -1,0 +1,1375 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Un momento per te</title>
+<meta name="description" content="Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio. Senza account e senza raccolta di dati.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#f5f3e9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16241c" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:title" content="Un momento per te">
+<meta property="og:description" content="Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio. Senza account e senza raccolta di dati.">
+<meta property="og:image" content="https://francescosilei.github.io/un-momento-per-te/icons/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}
+img{max-width:100%}
+[hidden]:not([hidden=until-found i]){display:none!important}
+@font-face{font-family:"Nunito Sans";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/nunito-sans-latin.woff2) format("woff2")}
+</style>
+<style>
+/* Layout: una colonna centrata, schermata di scelta e schermata dell'esercizio con il cerchio al centro */
+:root {
+  --bg: #f5f3e9;
+  --bg2: #e9eee4;
+  --surface: #fffefa;
+  --surface-2: #e6ece1;
+  --fg: #263d32;
+  --muted: #53675b;
+  --line: #d3ddcd;
+  --accent: #526d58;
+  --accent-fg: #fffdf8;
+  --leaf: #778f78;
+  --halo: #cbd8c4;
+  --sun-a: #efd6ad; --sun-b: #e7c59a; --lf1: #a8b59a; --lf2: #778f78; --lf3: #d9e0ce; --dot: #fff7df;
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: "Nunito Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #16241c; --bg2: #121d17; --surface: #1f3128; --surface-2: #27402f; --fg: #e8f0e6; --muted: #a9bdad;
+    --line: #34503f; --accent: #9cc2a3; --accent-fg: #12201a; --leaf: #6f9a7b; --halo: #2c4a37;
+    --sun-a: #b99b6a; --sun-b: #a07f52; --lf1: #5c7a63; --lf2: #3f6149; --lf3: #8fae96; --dot: #f3e6bd;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #16241c; --bg2: #121d17; --surface: #1f3128; --surface-2: #27402f; --fg: #e8f0e6; --muted: #a9bdad;
+  --line: #34503f; --accent: #9cc2a3; --accent-fg: #12201a; --leaf: #6f9a7b; --halo: #2c4a37;
+  --sun-a: #b99b6a; --sun-b: #a07f52; --lf1: #5c7a63; --lf2: #3f6149; --lf3: #8fae96; --dot: #f3e6bd;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); background-image: linear-gradient(180deg, var(--bg), var(--bg2)); background-attachment: fixed;
+  color: var(--fg); font-family: var(--font-body); font-size: 17px; line-height: 1.55;
+  padding-inline: max(16px, env(safe-area-inset-left, 0px)) max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 24px 32px; min-height: 100vh;
+}
+.wrap { max-width: 640px; margin-inline: auto; display: flex; flex-direction: column; gap: 28px; }
+.page-top { position: relative; }
+.deco { position: absolute; top: 0; right: 0; width: 120px; height: auto; pointer-events: none; }
+.page-top header { padding-right: 136px; min-height: 100px; }
+.page-top .done { padding-top: 96px; }
+@media (max-width: 520px) { .deco { width: 88px; } .page-top header { padding-right: 104px; min-height: 70px; } .page-top .session, .page-top .night { margin-top: 52px; } }
+h1, h2 { font-family: var(--font-display); font-weight: 700; text-wrap: balance; margin: 0; line-height: 1.2; }
+h1 { font-size: clamp(2rem, 7vw, 2.8rem); }
+h2 { font-size: 1.25rem; }
+p { margin: 0; }
+button { font: inherit; color: inherit; cursor: pointer; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+header { display: flex; flex-direction: column; gap: 12px; padding-top: 8px; }
+.intro { color: var(--muted); max-width: 52ch; }
+
+.group { display: flex; flex-direction: column; gap: 12px; }
+.label { font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; color: var(--muted); }
+
+.exercises { display: grid; gap: 12px; grid-template-columns: 1fr; }
+.ex {
+  text-align: left; background: var(--surface); border: 2px solid var(--line); border-radius: 18px;
+  padding: 16px 18px; display: flex; flex-direction: column; gap: 4px; min-width: 0;
+}
+.ex[aria-pressed="true"] { border-color: var(--accent); background: var(--surface-2); }
+.ex .name { font-weight: 700; font-size: 1.05rem; }
+.ex .rhythm { font-size: .85rem; color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
+.ex .desc { color: var(--muted); font-size: .95rem; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip { border: 2px solid var(--line); background: var(--surface); border-radius: 999px; padding: 10px 20px; font-weight: 700; min-height: 44px; }
+.chip[aria-pressed="true"] { border-color: var(--accent); background: var(--surface-2); }
+
+.toggles { display: flex; flex-wrap: wrap; gap: 10px; }
+.toggle { display: flex; align-items: center; gap: 10px; background: var(--surface); border: 2px solid var(--line); border-radius: 14px; padding: 10px 16px; min-height: 44px; }
+.toggle input { width: 20px; height: 20px; accent-color: var(--accent); }
+.toggle[hidden] { display: none; }
+
+.primary {
+  background: var(--accent); color: var(--accent-fg); border: 0; border-radius: 999px; font-weight: 700;
+  font-size: 1.15rem; padding: 16px 32px; min-height: 56px; align-self: stretch;
+}
+.ghost { background: transparent; border: 2px solid var(--line); border-radius: 999px; padding: 12px 24px; font-weight: 700; min-height: 48px; }
+
+/* Schermata esercizio */
+.session { display: flex; flex-direction: column; align-items: center; gap: 24px; text-align: center; padding-block: 8px; }
+.stage { position: relative; width: min(78vw, 340px); aspect-ratio: 1; max-width: 100%; display: grid; place-items: center; }
+.halo, .orb { position: absolute; border-radius: 50%; }
+.halo { inset: 0; background: var(--halo); opacity: .55; }
+.orb {
+  inset: 0; background: radial-gradient(circle at 35% 30%, var(--leaf), var(--accent) 75%);
+  transform: scale(.55); will-change: transform;
+}
+.stage .center { position: relative; display: flex; flex-direction: column; align-items: center; gap: 2px; color: var(--accent-fg); pointer-events: none; }
+.phase { font-family: var(--font-display); font-size: clamp(1.6rem, 6vw, 2.1rem); }
+.count { font-size: 1.4rem; font-weight: 700; font-variant-numeric: tabular-nums; min-height: 1.6em; }
+.hint { color: var(--muted); min-height: 3.2em; max-width: 36ch; }
+.remaining { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--muted); }
+.controls { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.reduce .orb { transform: none !important; transition: opacity .6s linear; }
+
+.done { text-align: center; align-items: center; display: flex; flex-direction: column; gap: 16px; padding-block: 32px; }
+.done p { color: var(--muted); max-width: 40ch; }
+
+footer { border-top: 1px solid var(--line); padding-top: 20px; display: flex; flex-direction: column; gap: 12px; color: var(--muted); font-size: .92rem; }
+footer .studio { color: var(--fg); font-weight: 700; }
+.note { font-size: .85rem; }
+.contacts { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.contacts li { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; min-width: 0; }
+.contacts span { min-width: 5.5em; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; }
+.contacts a { color: var(--accent); font-weight: 700; overflow-wrap: anywhere; }
+.copy { border: 2px solid var(--line); background: var(--surface); border-radius: 999px; padding: 6px 14px; font-weight: 700; font-size: .85rem; min-height: 36px; }
+
+.tools { display: grid; gap: 12px; grid-template-columns: 1fr; }
+.tool { text-align: left; width: 100%; background: var(--surface); border: 2px solid var(--line); border-radius: 18px; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px; }
+.tool .name { font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; }
+.tool .meta { color: var(--accent); font-weight: 700; font-size: .85rem; }
+.tool .desc { color: var(--muted); font-size: .95rem; }
+.soon { color: var(--muted); font-size: .92rem; }
+.chip[disabled] { opacity: .55; cursor: not-allowed; }
+.panel { background: var(--surface-2); border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+.panel .big { font-family: var(--font-display); font-size: 1.4rem; line-height: 1.25; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; }
+.row .primary { align-self: auto; }
+.back { align-self: flex-start; background: none; border: 0; color: var(--accent); font-weight: 700; padding: 8px 0; min-height: 44px; }
+.textonly .halo, .textonly .orb { display: none; }
+.textonly .stage { background: var(--surface-2); border-radius: 50%; }
+.textonly .center { color: var(--fg); }
+.step-num { font-family: var(--font-display); font-size: 4.5rem; line-height: 1; color: var(--accent); }
+.step-text { font-size: 1.15rem; max-width: 34ch; min-height: 7em; }
+.step-more { color: var(--muted); max-width: 34ch; min-height: 3em; }
+.bar { width: min(100%, 360px); height: 8px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
+.bar > i { display: block; height: 100%; width: 0; background: var(--accent); }
+.dots { display: flex; gap: 8px; }
+.dots b { width: 10px; height: 10px; border-radius: 50%; background: var(--line); }
+.dots b.on { background: var(--accent); }
+.dots b.past { background: var(--leaf); }
+.sharelink { color: var(--accent); font-weight: 700; }
+
+.sit { display: flex; flex-wrap: wrap; gap: 10px; }
+.act { background: var(--surface); border: 2px solid var(--line); border-radius: 20px; padding: 20px; display: flex; flex-direction: column; gap: 14px; }
+.act ol { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 8px; }
+.act .big { font-family: var(--font-display); font-size: 1.35rem; line-height: 1.25; }
+textarea { width: 100%; min-height: 8.5em; resize: vertical; font: inherit; line-height: 1.5; color: var(--fg); background: var(--surface); border: 2px solid var(--line); border-radius: 16px; padding: 14px 16px; }
+textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-color: var(--accent); }
+.field { display: flex; flex-direction: column; gap: 8px; }
+.field label { font-weight: 700; }
+.help { color: var(--muted); }
+.sum { display: flex; flex-direction: column; gap: 18px; }
+.sum section { display: flex; flex-direction: column; gap: 6px; }
+.sum .ans { white-space: pre-wrap; overflow-wrap: anywhere; background: var(--surface-2); border-radius: 14px; padding: 12px 14px; }
+.sum .ans.empty { color: var(--muted); font-style: italic; }
+.emo { display: flex; flex-wrap: wrap; gap: 10px; }
+.meter { display: grid; place-items: center; height: 170px; }
+.meter .emo-orb { width: 150px; height: 150px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, var(--leaf), var(--accent) 80%); transition: transform .25s ease; }
+.meter-val { font-family: var(--font-display); font-size: 2rem; text-align: center; font-variant-numeric: tabular-nums; }
+.meter-word { text-align: center; color: var(--muted); font-weight: 700; }
+input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent); }
+.scale-ends { display: flex; justify-content: space-between; color: var(--muted); font-size: .85rem; }
+.alert { background: var(--surface-2); border-left: 4px solid var(--accent); border-radius: 12px; padding: 12px 16px; }
+@media (prefers-reduced-motion: reduce) { .meter .emo-orb { transition: none; } }
+.night { background: #121d17; color: #e8f0e6; border-radius: 24px; padding: 28px 20px; min-height: 62vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px; text-align: center; }
+.night .label, .night .remaining { color: #a9bdad; }
+.night .so-text { font-family: var(--font-display); font-size: 1.35rem; line-height: 1.5; max-width: 30ch; min-height: 9em; display: flex; align-items: center; justify-content: center; transition: opacity .8s ease; }
+.night .so-text.fade { opacity: 0; }
+.night .ghost { border-color: #34503f; }
+.night .ghost, .night .primary { color: inherit; }
+.night .primary { background: #9cc2a3; color: #12201a; }
+.tip { color: var(--muted); font-size: .92rem; }
+.sugg { display: flex; flex-wrap: wrap; gap: 8px; }
+.sugg button { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 8px 14px; font-size: .9rem; min-height: 40px; text-align: left; }
+.read p { margin-bottom: 10px; }
+.phrase { font-family: var(--font-display); font-size: 1.4rem; line-height: 1.35; background: var(--surface-2); border-radius: 18px; padding: 18px 20px; overflow-wrap: anywhere; }
+@media (prefers-reduced-motion: reduce) { .night .so-text { transition: none; } }
+
+.install { display: flex; flex-direction: column; gap: 12px; }
+.install details { background: var(--surface); border: 2px solid var(--line); border-radius: 16px; padding: 4px 18px 14px; }
+.install summary { font-weight: 700; min-height: 44px; display: flex; align-items: center; cursor: pointer; }
+.install h2 { font-size: 1.05rem; margin-top: 12px; }
+.install ol { margin: 6px 0 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 6px; }
+</style>
+</head>
+<body>
+<div class="wrap page-top">
+  <img class="deco" alt="" aria-hidden="true" width="227" height="240" src="immagini/logo-spirale.webp">
+
+  <!-- HUB -->
+  <section id="v-hub" class="wrap" style="gap:28px">
+    <header>
+      <h1>Un momento per te</h1>
+      <p class="intro">Piccoli strumenti per fermarti, ascoltarti e ritrovare il tuo spazio. Non servono account e non viene salvato niente che ti riguardi.</p>
+    </header>
+
+    <section class="group" aria-labelledby="h-q">
+      <h2 id="h-q">Trova il tuo percorso in tre domande</h2>
+      <p class="label">1 · Di che cosa hai bisogno in questo momento?</p>
+      <div class="chips" id="q-need"></div>
+      <p class="label">2 · Quanto tempo vuoi dedicarti?</p>
+      <div class="chips" id="q-time"></div>
+      <p class="label">3 · Come preferisci essere guidato?</p>
+      <div class="chips" id="q-guide"></div>
+      <button class="primary" id="try" type="button">Prova il mio percorso</button>
+      <div class="panel" id="result" hidden>
+        <p class="label">Ti propongo</p>
+        <p class="big" id="r-title"></p>
+        <p id="r-why"></p>
+        <div class="row">
+          <button class="primary" id="r-go" type="button">Comincia</button>
+          <button class="ghost" id="r-other" type="button">Scegli tu</button>
+        </div>
+        <p class="note">È una proposta basata su ciò che hai scelto, non una valutazione.</p>
+      </div>
+    </section>
+
+    <section class="group" aria-labelledby="h-t">
+      <h2 id="h-t">Oppure scegli uno strumento</h2>
+      <div class="tools">
+        <button class="tool" id="t-respira" type="button"><span class="name">Respira con me</span><span class="meta">Respirazione guidata · da 1 a 10 minuti</span><span class="desc">Un cerchio ti accompagna a inspirare ed espirare, con quattro tecniche tra cui scegliere.</span></button>
+        <button class="tool" id="t-presente" type="button"><span class="name">Torna al presente</span><span class="meta">Una pausa di consapevolezza · 5 o 8 minuti</span><span class="desc">Cinque piccoli passi per ritrovare il contatto con ciò che ti circonda, quando i pensieri corrono.</span></button>
+        <button class="tool" id="t-cassetta" type="button"><span class="name">La mia piccola cassetta degli attrezzi</span><span class="meta">Una pausa su misura · 2-5 minuti</span><span class="desc">Scegli la situazione che stai vivendo e ricevi una piccola attività da fare adesso.</span></button>
+        <button class="tool" id="t-pensieri" type="button"><span class="name">Fai spazio ai pensieri</span><span class="meta">Un diario guidato · 5-10 minuti</span><span class="desc">Quattro domande per mettere ordine quando la mente gira sempre intorno allo stesso problema.</span></button>
+        <button class="tool" id="t-emozioni" type="button"><span class="name">Come mi sento adesso</span><span class="meta">Un check-in emotivo · 2-5 minuti</span><span class="desc">Dai un nome a ciò che provi, indica quanto è intenso e ricevi un'attività adatta. Alla fine vedi cosa è cambiato.</span></button>
+        <button class="tool" id="t-sonno" type="button"><span class="name">Accompagna il sonno</span><span class="meta">Rilassamento guidato · 5, 10 o 15 minuti</span><span class="desc">Un rituale lento per la sera, con spegnimento automatico alla fine.</span></button>
+        <button class="tool" id="t-gentilezza" type="button"><span class="name">Parla a te stesso con gentilezza</span><span class="meta">Un percorso breve · 5-10 minuti</span><span class="desc">Per chi tende a giudicarsi duramente: riconosci la frase critica e trova parole più gentili.</span></button>
+        <button class="tool" id="t-conversazione" type="button"><span class="name">Prima di una conversazione difficile</span><span class="meta">Una guida per prepararti · 10 minuti</span><span class="desc">Chiarisci che cosa vuoi ottenere e come dirlo senza accusare.</span></button>
+      </div>
+    </section>
+  </section>
+
+  <!-- RESPIRA: scelta -->
+  <main id="v-respira" class="wrap" style="gap:28px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>Respira con me</h1>
+      <p class="intro">Siediti comodo, lascia andare le spalle e segui il cerchio: ti accompagna lui, un respiro alla volta. Non c'è un modo giusto o sbagliato, vai al ritmo che senti tuo.</p>
+    </header>
+    <section class="group" aria-labelledby="l-ex">
+      <h2 id="l-ex">Scegli un esercizio</h2>
+      <div class="exercises" id="exercises"></div>
+    </section>
+    <section class="group" aria-labelledby="l-dur">
+      <h2 id="l-dur">Quanto tempo hai?</h2>
+      <div class="chips" id="durations"></div>
+    </section>
+    <section class="group" aria-labelledby="l-opt">
+      <h2 id="l-opt">Come vuoi essere guidato</h2>
+      <div class="toggles">
+        <label class="toggle"><input type="checkbox" id="opt-text"> Solo testo, senza cerchio</label>
+        <label class="toggle"><input type="checkbox" id="opt-voice"> Voce guida</label>
+        <label class="toggle"><input type="checkbox" id="opt-sound"> Suono dolce</label>
+        <label class="toggle" id="vib-wrap" hidden><input type="checkbox" id="opt-vib"> Vibrazione</label>
+      </div>
+    </section>
+    <button class="primary" id="start" type="button">Comincia</button>
+  </main>
+
+  <!-- RESPIRA: esercizio -->
+  <section id="v-session" hidden>
+    <button class="back" id="back-session" type="button">← Indietro</button>
+    <div class="session">
+      <p class="label" id="s-title"></p>
+      <div class="stage" id="stage">
+        <div class="halo"></div>
+        <div class="orb" id="orb"></div>
+        <div class="center"><span class="phase" id="phase">Mettiti comodo</span><span class="count" id="count"></span></div>
+      </div>
+      <p class="hint" id="hint"></p>
+      <p class="remaining" id="remaining"></p>
+      <div class="controls">
+        <button class="ghost" id="pause" type="button">Pausa</button>
+        <button class="ghost" id="stop" type="button">Termina</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="v-done" hidden>
+    <div class="done">
+      <h2>Ben fatto</h2>
+      <p>Hai dedicato questo tempo a te stesso. Prima di riprendere la giornata, senti come stai adesso. Puoi tornare qui ogni volta che ne hai bisogno.</p>
+      <button class="primary checkbtn" type="button" hidden>Come mi sento adesso?</button>
+      <button class="primary" id="again" type="button">Torna agli strumenti</button>
+    </div>
+  </section>
+
+  <!-- PRESENTE: scelta -->
+  <main id="v-presente" class="wrap" style="gap:28px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>Torna al presente</h1>
+      <p class="intro">Quando la mente corre, aiuta spostare l'attenzione su ciò che ti circonda. Cinque piccoli passi, uno alla volta: guarda, senti, ascolta. Non devi fare niente di perfetto.</p>
+    </header>
+    <section class="group" aria-labelledby="p-l">
+      <h2 id="p-l">Quanto tempo hai?</h2>
+      <div class="chips" id="p-dur"></div>
+    </section>
+    <section class="group" aria-labelledby="p-g">
+      <h2 id="p-g">Come vuoi essere guidato</h2>
+      <div class="toggles"><label class="toggle"><input type="checkbox" id="opt-voice-p"> Voce guida</label></div>
+    </section>
+    <button class="primary" id="p-start" type="button">Comincia</button>
+  </main>
+
+  <section id="v-psession" hidden>
+    <button class="back" id="back-psession" type="button">← Indietro</button>
+    <div class="session">
+      <p class="label" id="p-label"></p>
+      <div class="dots" id="p-dots" aria-hidden="true"></div>
+      <div class="step-num" id="p-num"></div>
+      <p class="step-text" id="p-text"></p>
+      <p class="step-more" id="p-more"></p>
+      <div class="bar" aria-hidden="true"><i id="p-bar"></i></div>
+      <p class="remaining" id="p-rem"></p>
+      <div class="controls">
+        <button class="ghost" id="p-pause" type="button">Pausa</button>
+        <button class="ghost" id="p-next" type="button">Avanti</button>
+        <button class="ghost" id="p-stop" type="button">Termina</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="v-pdone" hidden>
+    <div class="done">
+      <h2>Sei qui</h2>
+      <p>Hai riportato l'attenzione al presente. Prima di ripartire, fai ancora un respiro lento. Puoi ripetere l'esercizio quando vuoi, anche più volte al giorno.</p>
+      <div class="row">
+        <button class="primary checkbtn" type="button" hidden>Come mi sento adesso?</button>
+        <button class="primary" id="p-again" type="button">Torna agli strumenti</button>
+        <button class="ghost" id="p-breathe" type="button">Prova anche a respirare</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASSETTA -->
+  <main id="v-cassetta" class="wrap" style="gap:24px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>La mia piccola cassetta degli attrezzi</h1>
+      <p class="intro">Non esiste una sola tecnica adatta a tutti. Scegli la situazione che stai vivendo e prova la piccola attività che ti propongo. Se non fa per te, provane un'altra.</p>
+    </header>
+    <section class="group" aria-labelledby="c-l">
+      <h2 id="c-l">Che cosa stai vivendo?</h2>
+      <div class="sit" id="c-sit"></div>
+    </section>
+    <section class="act" id="c-act" hidden aria-live="polite">
+      <p class="label" id="c-kind"></p>
+      <p class="big" id="c-title"></p>
+      <ol id="c-steps"></ol>
+      <div class="row" id="c-actions"></div>
+    </section>
+  </main>
+
+  <!-- PENSIERI -->
+  <main id="v-pensieri" class="wrap" style="gap:20px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>Fai spazio ai pensieri</h1>
+      <p class="intro" id="pe-intro">Quando la mente gira intorno allo stesso problema, scrivere aiuta a metterlo fuori e a guardarlo con più distanza. Rispondi a ciò che ti va, anche con poche parole. Nessuno leggerà queste risposte.</p>
+    </header>
+    <section class="group" id="pe-flow">
+      <p class="label" id="pe-step"></p>
+      <h2 id="pe-q"></h2>
+      <p class="help" id="pe-help"></p>
+      <div class="group" id="pe-fields"></div>
+      <div class="row">
+        <button class="ghost" id="pe-prev" type="button">Indietro</button>
+        <button class="primary" id="pe-next" type="button">Avanti</button>
+      </div>
+    </section>
+    <section class="group" id="pe-sum" hidden>
+      <h2>Il tuo foglio</h2>
+      <div class="sum" id="pe-sumbody"></div>
+      <p class="help">Rileggilo con calma. Che cosa noti, adesso, rispetto a quando hai iniziato?</p>
+      <div class="row">
+        <button class="primary checkbtn" type="button" hidden>Come mi sento adesso?</button>
+        <button class="primary" id="pe-copy" type="button">Copia il testo</button>
+        <button class="ghost" id="pe-edit" type="button">Modifica</button>
+        <button class="ghost" id="pe-clear" type="button">Cancella tutto</button>
+      </div>
+    </section>
+    <p class="note">Quello che scrivi resta solo su questo dispositivo: non viene inviato a nessuno, nemmeno alla psicologa. Se cancelli i dati del browser o cambi telefono, lo perdi.</p>
+  </main>
+
+  <!-- EMOZIONI -->
+  <main id="v-emozioni" class="wrap" style="gap:22px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>Come mi sento adesso</h1>
+      <p class="intro">Fermarti a dare un nome a ciò che provi è già un primo passo. Non è un test e non c'è una risposta giusta: nessuno valuta e nessuno legge ciò che scegli.</p>
+    </header>
+
+    <section class="group" id="em-pick">
+      <h2>Che cosa senti, in questo momento?</h2>
+      <div class="emo" id="em-chips"></div>
+      <div class="field">
+        <label for="em-text">Se vuoi, descrivilo con parole tue</label>
+        <textarea id="em-text" style="min-height:5.5em"></textarea>
+      </div>
+      <button class="primary" id="em-go1" type="button" disabled>Continua</button>
+    </section>
+
+    <section class="group" id="em-int" hidden>
+      <h2 id="em-int-q"></h2>
+      <div class="meter"><div class="emo-orb" id="em-orb"></div></div>
+      <p class="meter-val" id="em-val"></p>
+      <p class="meter-word" id="em-word"></p>
+      <input class="scale" id="em-scale" type="range" min="1" max="10" step="1" value="5" aria-label="Intensità da 1 a 10">
+      <div class="scale-ends"><span>Appena percepibile</span><span>Molto forte</span></div>
+      <div class="row">
+        <button class="ghost" id="em-back1" type="button">Indietro</button>
+        <button class="primary" id="em-go2" type="button">Continua</button>
+      </div>
+    </section>
+
+    <section class="group" id="em-sug" hidden>
+      <div class="alert" id="em-alert" hidden>Se questa emozione è molto forte e senti di non farcela, parlane con una persona di cui ti fidi o con un professionista. Se sei in pericolo, chiama il 112.</div>
+      <div class="act">
+        <p class="label">Ti propongo</p>
+        <p class="big" id="em-s1"></p>
+        <p id="em-why"></p>
+        <div class="row"><button class="primary" id="em-do1" type="button">Comincia</button></div>
+      </div>
+      <p class="label">Oppure</p>
+      <div class="row"><button class="ghost" id="em-do2" type="button"></button><button class="ghost" id="em-restart" type="button">Cambia ciò che sento</button></div>
+      <p class="note">È una proposta basata su ciò che hai scelto, non una valutazione di come stai.</p>
+    </section>
+
+    <section class="group act" id="em-pause" hidden>
+      <p class="label">Una piccola pausa</p>
+      <ol id="em-pause-steps"></ol>
+      <button class="primary" id="em-pause-done" type="button">Ho finito</button>
+    </section>
+
+    <section class="group" id="em-chk" hidden>
+      <h2>E adesso, come ti senti?</h2>
+      <p class="help" id="em-prev"></p>
+      <div class="meter"><div class="emo-orb" id="em-orb2"></div></div>
+      <p class="meter-val" id="em-val2"></p>
+      <input class="scale" id="em-scale2" type="range" min="1" max="10" step="1" value="5" aria-label="Intensità adesso, da 1 a 10">
+      <div class="scale-ends"><span>Appena percepibile</span><span>Molto forte</span></div>
+      <p class="alert" id="em-msg"></p>
+      <div class="field">
+        <label for="em-note">Che cosa è cambiato, anche di poco? (resta solo qui, non viene salvato)</label>
+        <textarea id="em-note" style="min-height:5.5em"></textarea>
+      </div>
+      <div class="row">
+        <button class="primary" id="em-again2" type="button">Provo un'altra attività</button>
+        <button class="ghost" id="em-end" type="button">Ho finito</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- SONNO -->
+  <main id="v-sonno" class="wrap" style="gap:24px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>Accompagna il sonno</h1>
+      <p class="intro">Un piccolo rituale per la sera. Ti propongo indicazioni lente da seguire a occhi aperti o chiusi, a tuo ritmo. Quando il tempo finisce, tutto si ferma da solo. È uno strumento di rilassamento, non una cura per l'insonnia.</p>
+    </header>
+    <section class="group" aria-labelledby="so-l1">
+      <h2 id="so-l1">Scegli un rituale</h2>
+      <div class="exercises" id="so-ex"></div>
+    </section>
+    <section class="group" aria-labelledby="so-l2">
+      <h2 id="so-l2">Per quanto tempo?</h2>
+      <div class="chips" id="so-dur"></div>
+    </section>
+    <section class="group" aria-labelledby="so-l3">
+      <h2 id="so-l3">Come vuoi essere guidato</h2>
+      <div class="toggles"><label class="toggle"><input type="checkbox" id="opt-voice-s"> Voce guida</label></div>
+    </section>
+    <p class="tip">Prima di cominciare: abbassa la luminosità dello schermo e attiva «non disturbare». Lo schermo resta acceso finché dura il rituale.</p>
+    <button class="primary" id="so-start" type="button">Comincia</button>
+  </main>
+
+  <section id="v-sorun" hidden>
+    <button class="back" id="back-sorun" type="button">← Indietro</button>
+    <div class="night">
+      <p class="label" id="so-title"></p>
+      <p class="so-text" id="so-text" aria-live="polite"></p>
+      <p class="remaining" id="so-rem"></p>
+      <div class="controls" id="so-ctl">
+        <button class="ghost" id="so-pause" type="button">Pausa</button>
+        <button class="ghost" id="so-stop" type="button">Termina</button>
+      </div>
+      <button class="primary" id="so-close" type="button" hidden>Chiudi</button>
+    </div>
+  </section>
+
+  <!-- GENTILEZZA -->
+  <main id="v-gentilezza" class="wrap" style="gap:20px" hidden></main>
+
+  <!-- CONVERSAZIONE -->
+  <main id="v-conversazione" class="wrap" style="gap:20px" hidden></main>
+
+  <!-- INSTALLA -->
+  <main id="v-installa" class="wrap" style="gap:20px" hidden>
+    <button class="back" type="button" data-go="hub">← Tutti gli strumenti</button>
+    <header>
+      <h1>Metti l'app sul telefono</h1>
+      <p class="intro">Aggiungendo la pagina alla schermata Home ottieni un'icona che la apre subito, senza dover ritrovare il link in un messaggio o nella cronologia.</p>
+    </header>
+    <p class="alert">Prima di cominciare: se hai ricevuto il link su WhatsApp o per email, aprilo nel browser (Chrome, Safari…) e non dentro l'app del messaggio. Da dentro WhatsApp la voce per aggiungere alla Home non compare.</p>
+    <div class="install">
+      <details id="in-android">
+        <summary>Telefono Android</summary>
+        <h2>Chrome</h2>
+        <ol><li>Tocca i tre puntini in alto a destra.</li><li>Scegli «Aggiungi a schermata Home» (oppure «Installa app», se la vedi).</li><li>Conferma con «Aggiungi».</li></ol>
+        <h2>Brave</h2>
+        <ol><li>Tocca il menu (i tre puntini).</li><li>Scegli «Aggiungi alla schermata Home» o «Installa app».</li><li>Conferma con «Aggiungi».</li></ol>
+        <h2>Samsung Internet</h2>
+        <ol><li>Tocca il menu (le tre linee, in basso a destra).</li><li>Scegli «Aggiungi pagina a», poi «Schermata Home».</li><li>Conferma con «Aggiungi».</li></ol>
+        <h2>Firefox</h2>
+        <ol><li>Tocca i tre puntini.</li><li>Scegli «Installa» o «Aggiungi alla schermata Home».</li><li>Conferma.</li></ol>
+      </details>
+      <details id="in-ios">
+        <summary>iPhone e iPad</summary>
+        <h2>Safari</h2>
+        <ol><li>Tocca il pulsante Condividi: il quadrato con la freccia verso l'alto, in basso (iPhone) o in alto (iPad).</li><li>Scorri l'elenco e scegli «Aggiungi alla schermata Home». Se non la vedi, tocca prima «Altro».</li><li>Tocca «Aggiungi» in alto a destra.</li></ol>
+        <h2>Chrome</h2>
+        <ol><li>Tocca il pulsante Condividi, accanto alla barra degli indirizzi.</li><li>Scegli «Aggiungi alla schermata Home».</li><li>Conferma con «Aggiungi».</li></ol>
+      </details>
+      <details id="in-pc">
+        <summary>Computer</summary>
+        <p>Sul computer basta aggiungere la pagina ai Preferiti (Ctrl+D su Windows, Cmd+D su Mac). In Chrome ed Edge, se compare l'icona di installazione nella barra degli indirizzi, puoi usarla per aprire la pagina come un'app.</p>
+      </details>
+    </div>
+    <p class="note">I nomi delle voci possono cambiare un po' a seconda del telefono, della versione del browser e della lingua. Se non trovi la voce giusta, cerca nel menu del browser qualcosa come «Aggiungi alla Home» o «Installa».</p>
+  </main>
+
+  <footer>
+    <p class="studio">Vuoi approfondire il tuo benessere psicologico?</p>
+    <p>Questi strumenti offrono un momento di pausa e riflessione. Se desideri capire meglio ciò che stai vivendo, puoi contattarmi per informazioni sui percorsi psicologici.</p>
+    <ul class="contacts">
+      <li><span>Email</span> <a href="mailto:chiaradiorio85@gmail.com" id="c-mail">chiaradiorio85@gmail.com</a> <button class="copy" type="button" data-copy="chiaradiorio85@gmail.com">Copia</button></li>
+      <li><span>Telefono</span> <a href="tel:+393493267406" id="c-tel">349 326 7406</a> <button class="copy" type="button" data-copy="3493267406">Copia</button></li>
+    </ul>
+    <p><a class="sharelink" id="share" target="_blank" rel="noopener" href="#">Condividi questi strumenti con WhatsApp</a></p>
+    <p class="note">Questi esercizi sono un aiuto per rilassarsi e non sostituiscono un percorso con un professionista. Se durante l'esercizio ti senti a disagio o hai un capogiro, fermati e riprendi a respirare normalmente. Se stai attraversando un momento di grave difficoltà o di pericolo, chiama il 112.</p>
+    <p><a class="sharelink" id="open-install" href="#" role="button">Come installare l'app sullo smartphone</a></p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var URL_PAGE = location.href.split('#')[0].split('?')[0];
+  var EXERCISES = [
+    { id: 'quadrata', name: 'Respirazione quadrata', rhythm: '4 · 4 · 4 · 4',
+      desc: 'Quattro tempi uguali: inspiri, trattieni, espiri, trattieni. Aiuta a ritrovare calma e concentrazione.',
+      hint: 'Un respiro regolare, come disegnare i lati di un quadrato.',
+      phases: [['in', 4], ['hold', 4], ['out', 4], ['hold2', 4]] },
+    { id: '478', name: 'Respiro 4-7-8', rhythm: '4 · 7 · 8',
+      desc: 'Un\'espirazione lunga che distende il corpo. Ideale la sera, prima di dormire.',
+      hint: 'Se il trattenere ti pesa, accorcia pure i tempi mantenendo le proporzioni.',
+      phases: [['in', 4], ['hold', 7], ['out', 8]] },
+    { id: 'coerenza', name: 'Coerenza cardiaca', rhythm: '5 · 5',
+      desc: 'Cinque secondi dentro, cinque fuori, senza pause. Un ritmo semplice, perfetto per cominciare.',
+      hint: 'Respira in modo fluido, senza forzare, come un\'onda che va e viene.',
+      phases: [['in', 5], ['out', 5]] },
+    { id: 'addominale', name: 'Respiro addominale lento', rhythm: '4 · 6',
+      desc: 'Un respiro morbido che parte dalla pancia. Un\'espirazione un po\' più lunga dell\'inspirazione.',
+      hint: 'Appoggia una mano sulla pancia: sentila gonfiarsi quando inspiri e sgonfiarsi quando espiri.',
+      phases: [['in', 4], ['out', 6]] }
+  ];
+  var DURATIONS = [1, 3, 5, 10];
+  /* Voce guida registrata da Chiara (audio/chiara): parole guida (seconde versioni), introduzioni e chiusura, incorporate come dati */
+  var VOICE_DATA = {
+    inspira: 'audio/inspira.mp3',
+    trattieni: 'audio/trattieni.mp3',
+    espira: 'audio/espira.mp3',
+    benvenuto: 'audio/benvenuto.mp3',
+    intro_quadrata: 'audio/intro_quadrata.mp3',
+    intro_478: 'audio/intro_478.mp3',
+    intro_coerenza: 'audio/intro_coerenza.mp3',
+    intro_addominale: 'audio/intro_addominale.mp3',
+    chiusura: 'audio/chiusura.mp3',
+    'presente_passo_01': 'audio/presente_passo_01.mp3',
+    'presente_passo_02': 'audio/presente_passo_02.mp3',
+    'presente_passo_03': 'audio/presente_passo_03.mp3',
+    'presente_passo_04': 'audio/presente_passo_04.mp3',
+    'presente_passo_05': 'audio/presente_passo_05.mp3',
+    'presente_extra_01': 'audio/presente_extra_01.mp3',
+    'presente_extra_02': 'audio/presente_extra_02.mp3',
+    'presente_extra_03': 'audio/presente_extra_03.mp3',
+    'presente_extra_04': 'audio/presente_extra_04.mp3',
+    'presente_extra_05': 'audio/presente_extra_05.mp3',
+    'presente_fine': 'audio/presente_fine.mp3',
+    'accompagna_01': 'audio/accompagna_01.mp3',
+    'accompagna_02': 'audio/accompagna_02.mp3',
+    'accompagna_03': 'audio/accompagna_03.mp3',
+    'accompagna_04': 'audio/accompagna_04.mp3',
+    'accompagna_05': 'audio/accompagna_05.mp3',
+    'accompagna_06': 'audio/accompagna_06.mp3',
+    'accompagna_07': 'audio/accompagna_07.mp3',
+    'sonno_inizio': 'audio/sonno_inizio.mp3',
+    'sonno_musc_01': 'audio/sonno_musc_01.mp3',
+    'sonno_musc_02': 'audio/sonno_musc_02.mp3',
+    'sonno_musc_03': 'audio/sonno_musc_03.mp3',
+    'sonno_musc_04': 'audio/sonno_musc_04.mp3',
+    'sonno_musc_05': 'audio/sonno_musc_05.mp3',
+    'sonno_musc_06': 'audio/sonno_musc_06.mp3',
+    'sonno_musc_07': 'audio/sonno_musc_07.mp3',
+    'sonno_musc_08': 'audio/sonno_musc_08.mp3',
+    'sonno_musc_09': 'audio/sonno_musc_09.mp3',
+    'sonno_musc_10': 'audio/sonno_musc_10.mp3',
+    'sonno_musc_11': 'audio/sonno_musc_11.mp3',
+    'sonno_luogo_01': 'audio/sonno_luogo_01.mp3',
+    'sonno_luogo_02': 'audio/sonno_luogo_02.mp3',
+    'sonno_luogo_03': 'audio/sonno_luogo_03.mp3',
+    'sonno_luogo_04': 'audio/sonno_luogo_04.mp3',
+    'sonno_luogo_05': 'audio/sonno_luogo_05.mp3',
+    'sonno_luogo_06': 'audio/sonno_luogo_06.mp3',
+    'sonno_luogo_07': 'audio/sonno_luogo_07.mp3',
+    'sonno_luogo_08': 'audio/sonno_luogo_08.mp3',
+    'sonno_corpo_01': 'audio/sonno_corpo_01.mp3',
+    'sonno_corpo_02': 'audio/sonno_corpo_02.mp3',
+    'sonno_corpo_03': 'audio/sonno_corpo_03.mp3',
+    'sonno_corpo_04': 'audio/sonno_corpo_04.mp3',
+    'sonno_corpo_05': 'audio/sonno_corpo_05.mp3',
+    'sonno_corpo_06': 'audio/sonno_corpo_06.mp3',
+    'sonno_corpo_07': 'audio/sonno_corpo_07.mp3',
+    'sonno_corpo_08': 'audio/sonno_corpo_08.mp3',
+    'sonno_corpo_09': 'audio/sonno_corpo_09.mp3',
+    'sonno_fine': 'audio/sonno_fine.mp3',
+    'gentilezza_riflessione': 'audio/gentilezza_riflessione.mp3'
+  };
+  var ACC_DUR = {accompagna_01: 1.49, accompagna_02: 2.14, accompagna_03: 6.24, accompagna_04: 5.09, accompagna_05: 3.29, accompagna_06: 3.84, accompagna_07: 1.59};  /* secondi */
+  var VOICE_DUR = { benvenuto: 23.93, intro_quadrata: 25.23, intro_478: 24.89, intro_coerenza: 18.39, intro_addominale: 20.19 };  /* secondi */
+  var LABEL = { in: 'Inspira', hold: 'Trattieni', hold2: 'Trattieni', out: 'Espira' };
+  var LEAD_IN = 4, MIN_SCALE = 0.55;
+
+  var NEEDS = [
+    { id: 'agitato', label: 'Mi sento agitato e vorrei rallentare', ex: 'addominale',
+      why: 'Un\'espirazione un po\' più lunga dell\'inspirazione aiuta il corpo a rallentare.' },
+    { id: 'pensieri', label: 'Ho troppi pensieri per la testa', tool: 'presente',
+      why: 'Spostare l\'attenzione su ciò che vedi, senti e ascolti dà alla mente un punto d\'appoggio.' },
+    { id: 'concentrazione', label: 'Vorrei ritrovare la concentrazione', ex: 'quadrata',
+      why: 'Quattro tempi uguali danno un ritmo preciso su cui tenere l\'attenzione.' },
+    { id: 'sonno', label: 'Vorrei prepararmi al sonno', ex: '478',
+      why: 'L\'espirazione lunga distende il corpo, ed è adatta alla sera.' }
+  ];
+  var TIMES = [1, 3, 5, 10];
+  var GUIDES = [
+    { id: 'anim', label: 'Con animazioni e indicazioni visive' },
+    { id: 'text', label: 'Leggendo le istruzioni' },
+    { id: 'voice', label: 'Con la voce della psicologa' }
+  ];
+
+  var STEPS = [
+    { n: 5, text: 'Guardati intorno e trova 5 cose che vedi. Senza fretta: un colore, una forma, un dettaglio che di solito non noti.', more: 'Continua a cercare: c\'è sempre qualcosa in più.' },
+    { n: 4, text: 'Senti 4 punti di contatto: i piedi sul pavimento, la schiena contro la sedia, le mani appoggiate, i vestiti sulla pelle.', more: 'Senti il peso del tuo corpo, sostenuto da ciò che c\'è sotto.' },
+    { n: 3, text: 'Ascolta 3 suoni. Uno vicino, uno lontano, e magari uno dentro di te, come il tuo respiro.', more: 'Lasciali arrivare, senza cercare di cambiarli.' },
+    { n: 2, text: 'Nota 2 odori, oppure immagina uno che ti piace. Va bene anche sentire solo l\'aria che entra dal naso.', more: 'Non c\'è niente da trovare: basta notare.' },
+    { n: 1, text: 'Fai un respiro lento e senti che sei qui, adesso, in questo posto. Va bene così.', more: 'Puoi tornare qui ogni volta che la mente si allontana.' }
+  ];
+  var P_DUR = [{ s: 300, label: '5 minuti' }, { s: 480, label: '8 minuti' }];
+
+  var $ = function (id) { return document.getElementById(id); };
+  var VIEWS = ['hub', 'respira', 'session', 'done', 'presente', 'psession', 'pdone', 'cassetta', 'pensieri', 'emozioni', 'sonno', 'sorun', 'gentilezza', 'conversazione', 'installa'];
+  var cur = null, origin = {};
+  function show(v) {
+    /* un esercizio finisce quando si esce dalla sua schermata, da qualunque strada (anche dai collegamenti in fondo alla pagina) */
+    if (v !== 'session' && run) endRespira();
+    if (v !== 'psession' && pr) endPresente();
+    if (v !== 'sorun' && sr) endSonno();
+    VIEWS.forEach(function (k) { $('v-' + k).hidden = k !== v; }); cur = v; if (v !== 'session' && v !== 'done' && v !== 'psession' && v !== 'pdone' && v !== 'sorun') stopVoice(); window.scrollTo(0, 0); if (v === 'hub' && em) em.pending = false; updateCheck(); }
+  function byId(list, id) { return list.filter(function (x) { return x.id === id; })[0]; }
+  function fmt(s) { s = Math.max(0, Math.ceil(s)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
+  function chip(box, label, on, cb, off) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'chip'; b.textContent = label; b.setAttribute('aria-pressed', !!on);
+    if (off) { b.disabled = true; } else { b.onclick = cb; }
+    box.appendChild(b);
+  }
+
+  var state = { ex: EXERCISES[0], minutes: 5, sound: false, vib: false, text: false, voice: true,
+    need: 'agitato', time: 3, guide: 'anim', pdur: 300 };
+  try {
+    var sv = JSON.parse(localStorage.getItem('momento') || '{}');
+    if (byId(EXERCISES, sv.ex)) state.ex = byId(EXERCISES, sv.ex);
+    if (DURATIONS.indexOf(sv.minutes) >= 0) state.minutes = sv.minutes;
+    state.sound = !!sv.sound; state.vib = !!sv.vib; state.text = !!sv.text; if (typeof sv.voice === 'boolean') state.voice = sv.voice;
+  } catch (e) {}
+  function persist() {
+    try { localStorage.setItem('momento', JSON.stringify({ ex: state.ex.id, minutes: state.minutes, sound: state.sound, vib: state.vib, text: state.text, voice: state.voice })); } catch (e) {}
+  }
+
+  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduced) $('stage').classList.add('reduce');
+
+  /* ---------- Hub ---------- */
+  function renderHub() {
+    var n = $('q-need'); n.innerHTML = '';
+    NEEDS.forEach(function (x) { chip(n, x.label, state.need === x.id, function () { state.need = x.id; renderHub(); }); });
+    var t = $('q-time'); t.innerHTML = '';
+    TIMES.forEach(function (m) { chip(t, m === 1 ? 'Un minuto' : m + ' minuti', state.time === m, function () { state.time = m; renderHub(); }); });
+    var g = $('q-guide'); g.innerHTML = '';
+    GUIDES.forEach(function (x) { chip(g, x.label, state.guide === x.id, function () { state.guide = x.id; renderHub(); }, x.off); });
+    $('result').hidden = true;
+  }
+  var plan = null;
+  $('try').onclick = function () {
+    var need = byId(NEEDS, state.need);
+    if (need.tool === 'presente') {
+      var s = state.time >= 10 ? 480 : 300;
+      plan = { tool: 'presente', s: s };
+      $('r-title').textContent = 'Torna al presente · ' + (s / 60) + ' minuti';
+    } else {
+      var ex = byId(EXERCISES, need.ex);
+      plan = { tool: 'respira', ex: ex, minutes: state.time };
+      $('r-title').textContent = ex.name + ' · ' + (state.time === 1 ? '1 minuto' : state.time + ' minuti');
+    }
+    $('r-why').textContent = need.why + (state.guide === 'text' && plan.tool === 'respira' ? ' Seguirai le istruzioni scritte, senza cerchio.' : '')
+      + (state.guide === 'voice' ? (plan.tool === 'respira' ? ' Sentirai la voce che guida ogni fase del respiro.' : ' Sentirai la voce che ti guida passo dopo passo.') : '');
+    $('result').hidden = false;
+    $('result').scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'center' });
+  };
+  $('r-go').onclick = function () {
+    if (!plan) return;
+    if (plan.tool === 'presente') { state.pdur = plan.s; state.voice = state.guide === 'voice'; persist(); startPresente(); }
+    else { state.ex = plan.ex; state.minutes = plan.minutes; state.text = state.guide === 'text'; state.voice = state.guide === 'voice'; persist(); startRespira(); }
+  };
+  $('r-other').onclick = function () { if (plan && plan.tool === 'presente') openPresente(); else openRespira(); };
+  $('t-respira').onclick = function () { openRespira(); };
+  $('t-presente').onclick = function () { openPresente(); };
+  Array.prototype.forEach.call(document.querySelectorAll('[data-go]'), function (b) { b.onclick = function () { show(b.getAttribute('data-go')); }; });
+
+  /* ---------- Respira ---------- */
+  function renderChoices() {
+    var box = $('exercises'); box.innerHTML = '';
+    EXERCISES.forEach(function (ex) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'ex'; b.setAttribute('aria-pressed', ex === state.ex);
+      b.innerHTML = '<span class="name"></span><span class="rhythm"></span><span class="desc"></span>';
+      b.querySelector('.name').textContent = ex.name;
+      b.querySelector('.rhythm').textContent = ex.rhythm + ' secondi';
+      b.querySelector('.desc').textContent = ex.desc;
+      b.onclick = function () { state.ex = ex; persist(); renderChoices(); };
+      box.appendChild(b);
+    });
+    var d = $('durations'); d.innerHTML = '';
+    DURATIONS.forEach(function (m) { chip(d, m === 1 ? '1 minuto' : m + ' minuti', m === state.minutes, function () { state.minutes = m; persist(); renderChoices(); }); });
+  }
+  function openRespira() { renderChoices(); $('opt-text').checked = state.text; show('respira'); }
+  $('opt-text').onchange = function (e) { state.text = e.target.checked; persist(); };
+  function syncVoice(v) { state.voice = v; ['opt-voice', 'opt-voice-p', 'opt-voice-s'].forEach(function (id) { $(id).checked = v; }); persist(); }
+  ['opt-voice', 'opt-voice-p', 'opt-voice-s'].forEach(function (id) { $(id).checked = state.voice; $(id).onchange = function (e) { syncVoice(e.target.checked); }; });
+  $('opt-sound').checked = state.sound;
+  $('opt-sound').onchange = function (e) { state.sound = e.target.checked; persist(); };
+  if (navigator.vibrate) {
+    $('vib-wrap').hidden = false; $('opt-vib').checked = state.vib;
+    $('opt-vib').onchange = function (e) { state.vib = e.target.checked; persist(); };
+  } else { state.vib = false; }
+
+  var run = null, wakeLock = null, audio = null;
+  var FREQ = { in: 440, hold: 523, hold2: 523, out: 330 };
+  function tone(freq) {
+    if (!state.sound || !audio) return;
+    try {
+      var t = audio.currentTime, o = audio.createOscillator(), g = audio.createGain();
+      o.type = 'sine'; o.frequency.value = freq; o.connect(g); g.connect(audio.destination);
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(0.12, t + 0.08);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + 1.1); o.start(t); o.stop(t + 1.2);
+    } catch (e) {}
+  }
+  function buzz(kind) { if (state.vib && navigator.vibrate) navigator.vibrate(kind === 'out' ? [40, 60, 40] : 60); }
+  function lock() { try { if (navigator.wakeLock) navigator.wakeLock.request('screen').then(function (l) { wakeLock = l; }, function () {}); } catch (e) {} }
+  function unlock() { try { if (wakeLock) wakeLock.release(); } catch (e) {} wakeLock = null; }
+  function setOrb(scale) {
+    if (reduced) { $('orb').style.opacity = String(0.35 + 0.65 * ((scale - MIN_SCALE) / (1 - MIN_SCALE))); return; }
+    $('orb').style.transform = 'scale(' + scale.toFixed(4) + ')';
+  }
+  function ease(x) { return x * x * (3 - 2 * x); }
+
+  /* Un solo elemento audio per tutta la voce: il primo clip parte dentro il tocco dell'utente, così il telefono sblocca la riproduzione per i successivi */
+  var voiceMain = null, voiceWasPlaying = false;
+  function voiceAudio() { if (!voiceMain) { voiceMain = new Audio(); voiceMain.preload = 'auto'; } return voiceMain; }
+  function playVoice(k) {
+    try { var a = voiceAudio(); a.src = VOICE_DATA[k]; var p = a.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {}
+  }
+  var voiceWarm = {};   /* clip scaricati in anticipo, così partono senza attesa quando servono */
+  function warmVoice(keys) {
+    keys.forEach(function (k) { if (VOICE_DATA[k] && !voiceWarm[k]) { try { var a = new Audio(); a.preload = 'auto'; a.src = VOICE_DATA[k]; voiceWarm[k] = a; } catch (e) {} } });
+  }
+  function sayCue(kind) {
+    if (!state.voice) return;
+    playVoice(kind === 'in' ? 'inspira' : (kind === 'out' ? 'espira' : 'trattieni'));
+  }
+  function pauseVoice() {
+    voiceWasPlaying = !!(voiceMain && !voiceMain.paused && !voiceMain.ended);
+    if (voiceWasPlaying) voiceMain.pause();
+  }
+  function resumeVoice() {
+    if (voiceWasPlaying && voiceMain) { var p = voiceMain.play(); if (p && p.catch) p.catch(function () {}); }
+    voiceWasPlaying = false;
+  }
+  function stopVoice() { if (voiceMain) { try { voiceMain.pause(); } catch (e) {} } voiceWasPlaying = false; }
+
+  function startRespira() {
+    if (state.sound) { try { audio = audio || new (window.AudioContext || window.webkitAudioContext)(); if (audio.state === 'suspended') audio.resume(); } catch (e) {} }
+    var cycle = state.ex.phases.reduce(function (a, p) { return a + p[1]; }, 0);
+    var voiced = state.voice && VOICE_DUR['intro_' + state.ex.id];
+    var slot = 0; state.ex.phases.forEach(function (p, i) { if (p[1] >= state.ex.phases[slot][1]) slot = i; });   /* fase più lunga: ci stanno le frasi di accompagnamento */
+    run = { ex: state.ex, cycle: cycle, total: state.minutes * 60, elapsed: 0, last: performance.now(), paused: false, idx: -2, raf: 0,
+      voiced: !!voiced, lead: voiced ? VOICE_DUR.benvenuto + 0.8 + VOICE_DUR['intro_' + state.ex.id] + 1.5 : LEAD_IN, said0: !!voiced, said1: false, slot: slot, accKey: null, accAt: 0, lastAcc: null };
+    if (voiced) { playVoice('benvenuto'); warmVoice(['intro_' + state.ex.id, 'inspira', 'trattieni', 'espira', 'chiusura']); }
+    $('stage').classList.toggle('textonly', state.text);
+    $('s-title').textContent = state.ex.name; $('hint').textContent = state.ex.hint; $('pause').textContent = 'Pausa';
+    origin.respira = cur; show('session'); lock(); run.raf = requestAnimationFrame(tick);
+  }
+  function tick(now) {
+    if (!run) return;
+    var dt = (now - run.last) / 1000; run.last = now;
+    if (!run.paused) run.elapsed += Math.max(0, Math.min(dt, 0.25));
+    var t = run.elapsed;
+    if (t < run.lead) {
+      if (run.voiced && !run.said1 && t >= VOICE_DUR.benvenuto + 0.8) { run.said1 = true; playVoice('intro_' + run.ex.id); }
+      $('phase').textContent = 'Mettiti comodo'; $('count').textContent = ''; setOrb(MIN_SCALE); $('remaining').textContent = fmt(run.total);
+    } else {
+      var e = t - run.lead;
+      if (e >= run.total) { finish(); return; }
+      var pos = e % run.cycle, acc = 0, i = 0, p;
+      for (; i < run.ex.phases.length; i++) { p = run.ex.phases[i]; if (pos < acc + p[1]) break; acc += p[1]; }
+      var inPhase = pos - acc, kind = p[0], dur = p[1];
+      var cycleNo = Math.floor(e / run.cycle), key = cycleNo * 10 + i;
+      if (run.accKey && t >= run.accAt) { playVoice(run.accKey); run.accKey = null; }
+      if (key !== run.idx) {
+        run.idx = key; tone(FREQ[kind]); buzz(kind); sayCue(kind);
+        if (run.voiced && i === run.slot && cycleNo % 3 === 2) {      /* una frase di accompagnamento ogni tre cicli, mai due uguali di fila */
+          var ok = Object.keys(ACC_DUR).filter(function (k) { return ACC_DUR[k] <= dur - 2.3 && k !== run.lastAcc; });
+          if (ok.length) { run.lastAcc = run.accKey = ok[Math.floor(Math.random() * ok.length)]; run.accAt = t + 1.9; warmVoice([run.accKey]); }
+        }
+      }
+      var f = ease(Math.min(1, inPhase / dur)), prev = run.ex.phases[(i + run.ex.phases.length - 1) % run.ex.phases.length][0], scale;
+      if (kind === 'in') scale = MIN_SCALE + (1 - MIN_SCALE) * f;
+      else if (kind === 'out') scale = 1 - (1 - MIN_SCALE) * f;
+      else scale = prev === 'in' ? 1 : MIN_SCALE;
+      setOrb(scale);
+      $('phase').textContent = LABEL[kind];
+      $('count').textContent = String(Math.min(dur, Math.floor(inPhase) + 1));
+      $('remaining').textContent = 'Mancano ' + fmt(run.total - e);
+    }
+    run.raf = requestAnimationFrame(tick);
+  }
+  function endRespira() { if (run) cancelAnimationFrame(run.raf); run = null; unlock(); stopVoice(); }
+  function finish() { var voiced = run && run.voiced; endRespira(); tone(392); show('done'); if (voiced) playVoice('chiusura'); }
+  $('start').onclick = startRespira;
+  function leaveRespira() { var o = origin.respira || 'hub'; endRespira(); if (o === 'respira') openRespira(); else show(o === 'session' || o === 'done' ? 'hub' : o); }
+  $('stop').onclick = leaveRespira; $('back-session').onclick = leaveRespira;
+  $('again').onclick = function () { show('hub'); };
+  $('pause').onclick = function () { if (!run) return; run.paused = !run.paused; $('pause').textContent = run.paused ? 'Riprendi' : 'Pausa'; if (run.paused) pauseVoice(); else resumeVoice(); };
+
+  /* ---------- Torna al presente ---------- */
+  function openPresente() {
+    var d = $('p-dur'); d.innerHTML = '';
+    P_DUR.forEach(function (x) { chip(d, x.label, state.pdur === x.s, function () { state.pdur = x.s; openPresente(); }); });
+    $('opt-voice-p').checked = state.voice;
+    show('presente');
+  }
+  var pr = null;
+  function startPresente() {
+    var per = state.pdur / STEPS.length;
+    pr = { per: per, total: state.pdur, elapsed: 0, last: performance.now(), paused: false, step: -1, raf: 0, voiced: !!state.voice, extraDone: false, firstSaid: !!state.voice };
+    if (state.voice) { playVoice('presente_passo_01'); warmVoice(['presente_passo_02', 'presente_extra_01']); }
+    var dots = $('p-dots'); dots.innerHTML = '';
+    STEPS.forEach(function () { dots.appendChild(document.createElement('b')); });
+    $('p-label').textContent = 'Torna al presente · ' + (state.pdur / 60) + ' minuti';
+    $('p-pause').textContent = 'Pausa';
+    origin.presente = cur; show('psession'); lock(); pr.raf = requestAnimationFrame(ptick);
+  }
+  function ptick(now) {
+    if (!pr) return;
+    var dt = (now - pr.last) / 1000; pr.last = now;
+    if (!pr.paused) pr.elapsed += Math.max(0, Math.min(dt, 0.25));   /* il primo fotogramma può avere un tempo anteriore a quello letto al tocco */
+    if (pr.elapsed >= pr.total) { var voicedEnd = pr.voiced; endPresente(); show('pdone'); if (voicedEnd) playVoice('presente_fine'); return; }
+    var i = Math.max(0, Math.min(STEPS.length - 1, Math.floor(pr.elapsed / pr.per))), inStep = pr.elapsed - i * pr.per;
+    if (i !== pr.step) {
+      pr.step = i; pr.extraDone = false;
+      if (pr.voiced && !(i === 0 && pr.firstSaid)) { stopVoice(); playVoice('presente_passo_0' + (i + 1)); }
+      pr.firstSaid = false;
+      if (pr.voiced) warmVoice(['presente_extra_0' + (i + 1)].concat(i < 4 ? ['presente_passo_0' + (i + 2)] : ['presente_fine']));
+      $('p-num').textContent = STEPS[i].n; $('p-text').textContent = STEPS[i].text;
+      Array.prototype.forEach.call($('p-dots').children, function (b, k) { b.className = k < i ? 'past' : (k === i ? 'on' : ''); });
+    }
+    var showMore = pr.per >= 30 && inStep > pr.per * 0.45;
+    $('p-more').textContent = showMore ? STEPS[i].more : '';
+    if (showMore && pr.voiced && !pr.extraDone) { pr.extraDone = true; playVoice('presente_extra_0' + (i + 1)); }
+    $('p-bar').style.width = (100 * inStep / pr.per).toFixed(1) + '%';
+    $('p-rem').textContent = 'Mancano ' + fmt(pr.total - pr.elapsed);
+    pr.raf = requestAnimationFrame(ptick);
+  }
+  function endPresente() { if (pr) cancelAnimationFrame(pr.raf); pr = null; unlock(); stopVoice(); }
+  $('p-start').onclick = startPresente;
+  function leavePresente() { var o = origin.presente || 'hub'; endPresente(); if (o === 'presente') openPresente(); else show(o === 'psession' || o === 'pdone' ? 'hub' : o); }
+  $('p-stop').onclick = leavePresente; $('back-psession').onclick = leavePresente;
+  $('p-pause').onclick = function () { if (!pr) return; pr.paused = !pr.paused; $('p-pause').textContent = pr.paused ? 'Riprendi' : 'Pausa'; if (pr.paused) pauseVoice(); else resumeVoice(); };
+  $('p-next').onclick = function () { if (pr) pr.elapsed = Math.min(pr.total, (pr.step + 1) * pr.per + 0.001); };
+  $('p-again').onclick = function () { show('hub'); };
+  $('p-breathe').onclick = function () { openRespira(); };
+
+  /* ---------- Cassetta degli attrezzi ---------- */
+  var SITS = [
+    { id: 'agit', label: 'Agitazione', kind: 'Scarica e rallenta', title: 'Lascia uscire la tensione, poi rallenta',
+      steps: ['Stringi forte i pugni per 5 secondi, poi lasciali andare di colpo. Ripeti due volte.', 'Alza le spalle verso le orecchie, tienile 5 secondi e lasciale cadere.', 'Fai un respiro con un\'espirazione lunga, come se soffiassi su una candela senza spegnerla.'],
+      actions: [{ label: 'Respira con me · 3 minuti', tool: 'respira', ex: 'addominale', minutes: 3 }] },
+    { id: 'diff', label: 'Giornata difficile', kind: 'Una domanda gentile', title: 'Nelle giornate pesanti, guarda anche il piccolo',
+      steps: ['Che cosa è andato bene oggi, anche di pochissimo? Un gesto, un incontro, un momento di silenzio.', 'Che cosa puoi lasciare fuori dalla porta stasera, perché non ti serve portarlo a letto?', 'Che cosa ti farebbe bene fare nella prossima mezz\'ora, solo per te?'],
+      actions: [{ label: 'Scrivi nel diario', tool: 'pensieri' }, { label: 'Respira con me · 5 minuti', tool: 'respira', ex: 'coerenza', minutes: 5 }] },
+    { id: 'rum', label: 'Pensieri ricorrenti', kind: 'Metti distanza', title: 'Quando la mente gira sempre intorno alla stessa cosa',
+      steps: ['Dai un nome al pensiero, per esempio: «Sto avendo di nuovo il pensiero che…». Notarlo da fuori lo rende meno appiccicoso.', 'Porta l\'attenzione fuori da te: guarda, tocca e ascolta ciò che hai intorno.', 'Se ti va, scrivilo e rispondi a qualche domanda.'],
+      actions: [{ label: 'Torna al presente · 5 minuti', tool: 'presente', pdur: 300 }, { label: 'Fai spazio ai pensieri', tool: 'pensieri' }] },
+    { id: 'staccare', label: 'Staccare dal lavoro', kind: 'Rituale di chiusura', title: 'Chiudi la giornata di lavoro in tre mosse',
+      steps: ['Scrivi su un foglio le tre cose da fare domani. Ora sono fuori dalla tua testa.', 'Chiudi ciò che stai usando: computer, quaderno, applicazioni. Dì a voce alta o dentro di te: «Per oggi basta».', 'Cambia ambiente o gesto: lavati le mani, esci un minuto, cambia musica. Poi qualche respiro lento.'],
+      actions: [{ label: 'Respira con me · 3 minuti', tool: 'respira', ex: 'coerenza', minutes: 3 }] },
+    { id: 'conc', label: 'Concentrarmi', kind: 'Pausa breve', title: 'Due minuti per rimettere a fuoco',
+      steps: ['Alza gli occhi dallo schermo e guarda un punto lontano per 20 secondi.', 'Sciogli la mandibola e abbassa le spalle.', 'Scegli una sola cosa da fare adesso e dillo a te stesso. Poi un minuto di respiro regolare.'],
+      actions: [{ label: 'Respirazione quadrata · 1 minuto', tool: 'respira', ex: 'quadrata', minutes: 1 }] }
+  ];
+  var cSel = null;
+  function openCassetta() {
+    var box = $('c-sit'); box.innerHTML = '';
+    SITS.forEach(function (x) { chip(box, x.label, cSel === x.id, function () { cSel = x.id; openCassetta(); }); });
+    var act = $('c-act'); var cur = byId(SITS, cSel);
+    act.hidden = !cur;
+    if (cur) {
+      $('c-kind').textContent = cur.kind; $('c-title').textContent = cur.title;
+      var ol = $('c-steps'); ol.innerHTML = '';
+      cur.steps.forEach(function (t) { var li = document.createElement('li'); li.textContent = t; ol.appendChild(li); });
+      var ac = $('c-actions'); ac.innerHTML = '';
+      cur.actions.forEach(function (a, i) {
+        var b = document.createElement('button'); b.type = 'button'; b.className = i === 0 ? 'primary' : 'ghost'; b.textContent = a.label;
+        b.onclick = function () {
+          if (a.tool === 'respira') { state.ex = byId(EXERCISES, a.ex); state.minutes = a.minutes; state.text = false; persist(); startRespira(); }
+          else if (a.tool === 'presente') { state.pdur = a.pdur; startPresente(); }
+          else openPensieri();
+        };
+        ac.appendChild(b);
+      });
+    }
+    show('cassetta');
+  }
+  $('t-cassetta').onclick = openCassetta;
+
+  /* ---------- Fai spazio ai pensieri ---------- */
+  var PQ = [
+    { q: 'Che cosa mi sta occupando la mente?', help: 'Scrivilo come viene, senza ordinare né giudicare.', f: [{ id: 'p1', label: 'Ciò che mi occupa la mente' }] },
+    { q: 'Quali fatti conosco e quali sono le mie interpretazioni?', help: 'I fatti si potrebbero registrare con una telecamera. Le interpretazioni sono ciò che io penso che significhino.', f: [{ id: 'p2a', label: 'Fatti che conosco' }, { id: 'p2b', label: 'Interpretazioni mie' }] },
+    { q: 'Che cosa direi a una persona a cui voglio bene nella stessa situazione?', help: 'Spesso siamo più duri con noi stessi che con gli altri.', f: [{ id: 'p3', label: 'Le parole che userei con lei' }] },
+    { q: 'Qual è un piccolo passo che posso compiere?', help: 'Anche minuscolo: una telefonata, un messaggio, un\'ora di riposo, rimandare a domani una decisione.', f: [{ id: 'p4', label: 'Il mio piccolo passo' }] }
+  ];
+  var answers = {}, peStep = 0, peSum = false, clearArmed = false;
+  try { answers = JSON.parse(localStorage.getItem('pensieri') || '{}') || {}; } catch (e) { answers = {}; }
+  function savePe() { try { localStorage.setItem('pensieri', JSON.stringify(answers)); } catch (e) {} }
+  function peHasAny() { return Object.keys(answers).some(function (k) { return (answers[k] || '').trim(); }); }
+  function renderPe() {
+    $('pe-flow').hidden = peSum; $('pe-sum').hidden = !peSum; $('pe-intro').hidden = peSum;
+    if (peSum) {
+      var body = $('pe-sumbody'); body.innerHTML = '';
+      PQ.forEach(function (x) {
+        var sec = document.createElement('section'); var h = document.createElement('h2'); h.textContent = x.q; sec.appendChild(h);
+        x.f.forEach(function (f) {
+          if (x.f.length > 1) { var l = document.createElement('p'); l.className = 'label'; l.textContent = f.label; sec.appendChild(l); }
+          var a = document.createElement('div'), v = (answers[f.id] || '').trim();
+          a.className = 'ans' + (v ? '' : ' empty'); a.textContent = v || 'Lasciato in bianco'; sec.appendChild(a);
+        });
+        body.appendChild(sec);
+      });
+      $('pe-clear').textContent = clearArmed ? 'Sicuro? Tocca di nuovo' : 'Cancella tutto';
+      return;
+    }
+    var cur = PQ[peStep];
+    $('pe-step').textContent = 'Domanda ' + (peStep + 1) + ' di ' + PQ.length;
+    $('pe-q').textContent = cur.q; $('pe-help').textContent = cur.help;
+    var box = $('pe-fields'); box.innerHTML = '';
+    cur.f.forEach(function (f) {
+      var wrap = document.createElement('div'); wrap.className = 'field';
+      var lab = document.createElement('label'); lab.htmlFor = f.id; lab.textContent = f.label;
+      var ta = document.createElement('textarea'); ta.id = f.id; ta.value = answers[f.id] || '';
+      ta.oninput = function () { answers[f.id] = ta.value; savePe(); };
+      wrap.appendChild(lab); wrap.appendChild(ta); box.appendChild(wrap);
+    });
+    $('pe-prev').hidden = peStep === 0;
+    $('pe-next').textContent = peStep === PQ.length - 1 ? 'Concludi' : 'Avanti';
+  }
+  function openPensieri() { peStep = 0; peSum = false; clearArmed = false; renderPe(); show('pensieri'); }
+  $('t-pensieri').onclick = openPensieri;
+  $('pe-prev').onclick = function () { if (peStep > 0) { peStep--; renderPe(); window.scrollTo(0, 0); } };
+  $('pe-next').onclick = function () {
+    if (peStep < PQ.length - 1) peStep++; else peSum = true;
+    renderPe(); window.scrollTo(0, 0);
+  };
+  $('pe-edit').onclick = function () { peSum = false; peStep = 0; clearArmed = false; renderPe(); window.scrollTo(0, 0); };
+  $('pe-clear').onclick = function () {
+    if (!clearArmed) { clearArmed = true; renderPe(); return; }
+    answers = {}; savePe(); clearArmed = false; peSum = false; peStep = 0; renderPe(); window.scrollTo(0, 0);
+  };
+  $('pe-copy').onclick = function () {
+    var b = $('pe-copy'), out = [];
+    PQ.forEach(function (x) {
+      out.push(x.q);
+      x.f.forEach(function (f) { out.push((x.f.length > 1 ? f.label + ': ' : '') + ((answers[f.id] || '').trim() || '-')); });
+      out.push('');
+    });
+    var ok = function () { b.textContent = 'Copiato'; setTimeout(function () { b.textContent = 'Copia il testo'; }, 1800); };
+    try { navigator.clipboard.writeText(out.join('\n')).then(ok, function () { b.textContent = 'Seleziona e copia dal foglio'; }); } catch (e) { b.textContent = 'Seleziona e copia dal foglio'; }
+  };
+
+  /* ---------- Come mi sento adesso ---------- */
+  var EMOS = [
+    { id: 'ansia', label: 'Ansia', a: { t: 'resp', ex: 'addominale' }, b: { t: 'ground' }, why: 'Un respiro con espirazione lunga aiuta il corpo a rallentare. Se è molto forte, partire dai sensi riporta l\'attenzione al qui e ora.' },
+    { id: 'tristezza', label: 'Tristezza', a: { t: 'pause', k: 'base' }, b: { t: 'write' }, why: 'Quando sei triste non serve cambiare subito: una pausa gentile ti permette di stare con ciò che senti.' },
+    { id: 'rabbia', label: 'Rabbia', a: { t: 'resp', ex: 'addominale' }, b: { t: 'pause', k: 'base' }, why: 'Prendere tempo prima di reagire aiuta. L\'espirazione lunga calma il corpo, poi si ragiona meglio.' },
+    { id: 'stanchezza', label: 'Stanchezza', a: { t: 'pause', k: 'stanch' }, b: { t: 'resp', ex: 'coerenza' }, why: 'A volte il corpo chiede soprattutto una sosta vera, anche breve.' },
+    { id: 'confusione', label: 'Confusione', a: { t: 'write' }, b: { t: 'ground' }, why: 'Scrivere aiuta a mettere ordine: fatti da una parte, interpretazioni dall\'altra.' },
+    { id: 'solitudine', label: 'Solitudine', a: { t: 'write' }, b: { t: 'pause', k: 'base' }, why: 'Dare voce a ciò che senti è un modo di stare in contatto con te stesso, e può aiutarti a capire che cosa ti servirebbe.' },
+    { id: 'colpa', label: 'Senso di colpa', a: { t: 'write' }, b: { t: 'pause', k: 'base' }, why: 'Separare i fatti dalle interpretazioni, e guardarti con la gentilezza che avresti verso una persona cara, può alleggerire.' },
+    { id: 'delusione', label: 'Delusione', a: { t: 'pause', k: 'base' }, b: { t: 'write' }, why: 'Riconoscere la delusione senza fretta di risolverla è già un modo di prendersi cura di sé.' },
+    { id: 'serenita', label: 'Serenità', a: { t: 'pause', k: 'gioia' }, b: { t: 'resp', ex: 'coerenza' }, why: 'Fermarsi ad assaporare un momento buono lo rende più facile da ritrovare.' },
+    { id: 'nonso', label: 'Non so dirlo', a: { t: 'ground' }, b: { t: 'resp', ex: 'coerenza' }, why: 'Non serve avere un nome per ciò che senti. Partire dal corpo e dai sensi è un buon modo per cominciare.' }
+  ];
+  var PAUSES = {
+    base: ['Fermati un momento e dì a te stesso: «In questo momento sto provando…». Basta una parola.', 'Appoggia una mano sul petto o sulla pancia e senti il calore. Respira normalmente.', 'Dai a te stesso il permesso di sentire questo, senza dover risolvere nulla adesso.', 'Bevi un po\' d\'acqua, lentamente, un sorso alla volta.'],
+    stanch: ['Se puoi, allontanati dallo schermo e dal telefono per cinque minuti.', 'Siediti o sdraiati comodo e chiudi gli occhi, oppure appoggia lo sguardo su un punto.', 'Lascia andare le spalle e la mandibola. Non devi fare niente.', 'Quando sei pronto, bevi un po\' d\'acqua e ripartisci con calma.'],
+    gioia: ['Fermati e nota che cosa c\'è di buono in questo momento.', 'Dove lo senti nel corpo? Resta lì per qualche respiro.', 'Se ti va, pensa a una cosa o a una persona che ti ha portato fin qui, e ringraziala dentro di te.']
+  };
+  var WORDS = ['', 'Appena percepibile', 'Appena percepibile', 'Lieve', 'Lieve', 'Media', 'Media', 'Forte', 'Forte', 'Molto forte', 'Molto forte'];
+  var em = { emo: null, before: 5, after: 5, which: 1, pending: false };
+
+  function emoSection(id) { ['pick', 'int', 'sug', 'pause', 'chk'].forEach(function (k) { $('em-' + k).hidden = k !== id; }); window.scrollTo(0, 0); }
+  function paintMeter(orb, val, v, word, w) { $(orb).style.transform = 'scale(' + (0.35 + 0.65 * v / 10).toFixed(2) + ')'; $(val).textContent = v + ' su 10'; if (word) $(word).textContent = WORDS[v]; }
+  function openEmozioni() {
+    em.emo = null; em.pending = false; $('em-text').value = ''; $('em-note').value = '';
+    var box = $('em-chips'); box.innerHTML = '';
+    EMOS.forEach(function (x) { chip(box, x.label, em.emo === x.id, function () { em.emo = x.id; $('em-go1').disabled = false; renderEmChips(); }); });
+    $('em-go1').disabled = true; emoSection('pick'); show('emozioni'); updateCheck();
+  }
+  function renderEmChips() {
+    var box = $('em-chips'); box.innerHTML = '';
+    EMOS.forEach(function (x) { chip(box, x.label, em.emo === x.id, function () { em.emo = x.id; $('em-go1').disabled = false; renderEmChips(); }); });
+  }
+  $('em-go1').onclick = function () {
+    if (!em.emo) return;
+    $('em-int-q').textContent = 'Quanto è intensa questa sensazione? (' + byId(EMOS, em.emo).label.toLowerCase() + ')';
+    $('em-scale').value = em.before; paintMeter('em-orb', 'em-val', em.before, 'em-word'); emoSection('int');
+  };
+  $('em-scale').oninput = function () { em.before = +this.value; paintMeter('em-orb', 'em-val', em.before, 'em-word'); };
+  $('em-back1').onclick = function () { emoSection('pick'); };
+
+  function actLabel(a) {
+    if (a.t === 'resp') return byId(EXERCISES, a.ex).name + ' · 3 minuti';
+    if (a.t === 'ground') return 'Torna al presente · 5 minuti';
+    if (a.t === 'write') return 'Fai spazio ai pensieri (scrivere)';
+    return 'Una piccola pausa';
+  }
+  function runAct(a) {
+    em.pending = true;
+    if (a.t === 'resp') { state.ex = byId(EXERCISES, a.ex); state.minutes = 3; state.text = false; persist(); startRespira(); }
+    else if (a.t === 'ground') { state.pdur = 300; startPresente(); }
+    else if (a.t === 'write') { openPensieri(); }
+    else {
+      var ol = $('em-pause-steps'); ol.innerHTML = '';
+      PAUSES[a.k].forEach(function (t) { var li = document.createElement('li'); li.textContent = t; ol.appendChild(li); });
+      show('emozioni'); emoSection('pause');
+    }
+    updateCheck();
+  }
+  $('em-go2').onclick = function () {
+    var e = byId(EMOS, em.emo), a = e.a, b = e.b;
+    if (e.id === 'ansia' && em.before >= 7) { a = e.b; b = e.a; }
+    $('em-s1').textContent = actLabel(a); $('em-why').textContent = e.why;
+    $('em-do1').onclick = function () { runAct(a); };
+    $('em-do2').textContent = actLabel(b); $('em-do2').onclick = function () { runAct(b); };
+    $('em-alert').hidden = em.before < 8;
+    emoSection('sug');
+  };
+  $('em-restart').onclick = function () { openEmozioni(); };
+  $('em-pause-done').onclick = function () { openCheck(); };
+
+  function msgFor(d) {
+    if (d < 0) return 'Qualcosa si è mosso, e questo è già qualcosa. Nota che cosa ti ha aiutato: potrai ritrovarlo.';
+    if (d === 0) return 'Non sempre cambia subito, ed è normale. Puoi provare un\'altra attività oppure parlarne con una persona di fiducia.';
+    return 'Può succedere. Accorgersene è già utile: non vuol dire che hai sbagliato. Prova un\'altra attività, concediti una pausa o parlane con qualcuno di fiducia.';
+  }
+  function paintChk() { paintMeter('em-orb2', 'em-val2', em.after); $('em-msg').textContent = msgFor(em.after - em.before); }
+  function openCheck() {
+    em.after = em.before; $('em-scale2').value = em.after;
+    $('em-prev').textContent = 'Prima era: ' + em.before + ' su 10 (' + WORDS[em.before].toLowerCase() + ').';
+    paintChk(); show('emozioni'); emoSection('chk'); em.pending = false; updateCheck();
+  }
+  $('em-scale2').oninput = function () { em.after = +this.value; paintChk(); };
+  $('em-again2').onclick = function () { $('em-go2').onclick(); };
+  $('em-end').onclick = function () { show('hub'); };
+  $('t-emozioni').onclick = openEmozioni;
+  function updateCheck() {
+    Array.prototype.forEach.call(document.querySelectorAll('.checkbtn'), function (b) { b.hidden = !em.pending; });
+  }
+  Array.prototype.forEach.call(document.querySelectorAll('.checkbtn'), function (b) { b.onclick = openCheck; });
+
+  /* ---------- Accompagna il sonno ---------- */
+  var SLEEP = [
+    { id: 'musc', name: 'Rilassamento muscolare', rhythm: '11 passi',
+      desc: 'Contrai e lascia andare, una parte del corpo alla volta, dai piedi al viso.',
+      steps: ['Sdraiati comodo e lascia che il letto ti sostenga. Chiudi gli occhi. Fai tre respiri lenti, con un\'espirazione lunga.',
+        'Porta l\'attenzione ai piedi. Contrai le dita dei piedi per qualche secondo… poi lascia andare. Senti come diventano pesanti.',
+        'Passa ai polpacci. Tendili appena, tieni… e rilascia. Lascia che si appoggino al materasso.',
+        'Ora le cosce. Contrai i muscoli, tieni qualche secondo… e lascia andare, completamente.',
+        'Porta l\'attenzione al bacino e alla pancia. Stringi appena… poi sciogli. Lascia che il respiro si muova da solo.',
+        'Chiudi i pugni, stringi le mani… tieni… e aprile lentamente. Senti il calore nelle dita.',
+        'Le braccia: tendile appena, poi lasciale cadere accanto a te, pesanti.',
+        'Porta le spalle verso le orecchie… tieni… e lasciale scendere. Lascia andare tutto il peso.',
+        'Il viso: corruga la fronte, stringi gli occhi… poi sciogli. Lascia morbide le guance e le labbra.',
+        'Sciogli la mandibola. Lascia un po\' di spazio tra i denti e la lingua morbida.',
+        'Senti tutto il corpo pesante e morbido, sostenuto dal letto. Non c\'è niente da fare. Respira lentamente e lascia che il sonno arrivi quando vuole.'] },
+    { id: 'luogo', name: 'Un luogo tranquillo', rhythm: '8 passi',
+      desc: 'Immagina un posto in cui ti senti al sicuro e visitalo con tutti i sensi.',
+      steps: ['Chiudi gli occhi e fai un respiro lento. Stai per immaginare un posto in cui ti senti al sicuro.',
+        'Può essere un posto reale o inventato: una spiaggia al tramonto, un bosco, una stanza accogliente. Lascia che si formi da solo.',
+        'Guarda i colori. La luce è morbida e dolce, né troppo forte né troppo scura.',
+        'Ascolta i suoni di questo posto: l\'acqua, il vento tra le foglie, il silenzio. Sono suoni lenti e rassicuranti.',
+        'Senti la temperatura sulla pelle. È piacevole, ti avvolge. Senti ciò su cui sei appoggiato: sabbia, erba, una coperta.',
+        'Nota gli odori: l\'aria salmastra, la terra umida, il legno. Respira lentamente quest\'aria.',
+        'Qui non devi fare niente e non devi andare da nessuna parte. Puoi restare quanto vuoi.',
+        'Mentre resti qui, il corpo diventa sempre più pesante e il respiro più lento. Quando sarà il momento, il sonno arriverà da solo.'] },
+    { id: 'corpo', name: 'Attenzione al corpo', rhythm: '9 passi',
+      desc: 'Un viaggio lento dell\'attenzione lungo il corpo, senza cambiare niente.',
+      steps: ['Sdraiati e chiudi gli occhi. Non devi cambiare niente: osserva soltanto come stai.',
+        'Nota il tuo respiro, senza modificarlo. Senti l\'aria che entra e che esce.',
+        'Porta l\'attenzione ai piedi. Che cosa senti? Calore, freddo, il contatto con le lenzuola? Va bene qualunque cosa.',
+        'Sali verso le gambe: caviglie, polpacci, ginocchia, cosce. Lascia che ogni parte si appoggi.',
+        'Senti il bacino e la schiena appoggiati al materasso. Lascia che il peso vada giù.',
+        'Porta l\'attenzione alla pancia e al torace, che si muovono piano con il respiro.',
+        'Senti le mani, le braccia, le spalle. Se c\'è tensione, respira verso quel punto e lascia che si sciolga.',
+        'Il collo, il viso, la fronte. Lascia che gli occhi siano pesanti e la mandibola morbida.',
+        'Senti il corpo intero, come un\'unica cosa che respira. Se la mente va altrove, torna al respiro, senza giudicarti. Lascia che il sonno arrivi.'] }
+  ];
+  var SLEEP_MIN = [5, 10, 15];
+  var sleepSel = { ex: SLEEP[0], min: 10 }, sr = null;
+  function renderSleep() {
+    var box = $('so-ex'); box.innerHTML = '';
+    SLEEP.forEach(function (ex) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'ex'; b.setAttribute('aria-pressed', ex === sleepSel.ex);
+      b.innerHTML = '<span class="name"></span><span class="rhythm"></span><span class="desc"></span>';
+      b.querySelector('.name').textContent = ex.name; b.querySelector('.rhythm').textContent = ex.rhythm; b.querySelector('.desc').textContent = ex.desc;
+      b.onclick = function () { sleepSel.ex = ex; renderSleep(); };
+      box.appendChild(b);
+    });
+    var d = $('so-dur'); d.innerHTML = '';
+    SLEEP_MIN.forEach(function (m) { chip(d, m + ' minuti', m === sleepSel.min, function () { sleepSel.min = m; renderSleep(); }); });
+  }
+  function openSonno() { renderSleep(); $('opt-voice-s').checked = state.voice; show('sonno'); }
+  function sleepText(t) {
+    var el = $('so-text');
+    if (reduced) { el.textContent = t; return; }
+    el.classList.add('fade');
+    setTimeout(function () { el.textContent = t; el.classList.remove('fade'); }, 800);
+  }
+  function startSonno() {
+    var ex = sleepSel.ex, total = sleepSel.min * 60;
+    sr = { ex: ex, total: total, per: total / ex.steps.length, elapsed: 0, last: performance.now(), paused: false, step: -1, timer: 0,
+      voiced: !!state.voice, lead: state.voice ? 4.5 : 0 };   /* con la voce, 4,5 s per «Mettiti comodo. Cominciamo con calma.» */
+    if (sr.voiced) { playVoice('sonno_inizio'); warmVoice(['sonno_' + ex.id + '_01', 'sonno_' + ex.id + '_02']); }
+    $('so-title').textContent = ex.name; $('so-close').hidden = true; $('so-ctl').hidden = false; $('so-pause').textContent = 'Pausa';
+    $('so-text').classList.remove('fade'); $('so-text').textContent = 'Mettiti comodo. Cominciamo con calma.';
+    origin.sonno = cur; show('sorun'); lock();
+    sr.timer = setInterval(sleepTick, 250);
+  }
+  function sleepTick() {
+    if (!sr) return;
+    var now = performance.now(), dt = (now - sr.last) / 1000; sr.last = now;
+    if (!sr.paused) sr.elapsed += dt;
+    var t = sr.elapsed - sr.lead;
+    if (t < 0) { $('so-rem').textContent = fmt(sr.total); return; }
+    if (t >= sr.total) { var voicedEnd = sr.voiced; clearInterval(sr.timer); sr = null; unlock(); sleepText('Buonanotte. Puoi lasciare qui il telefono e lasciarti andare al sonno.'); if (voicedEnd) { stopVoice(); playVoice('sonno_fine'); } $('so-rem').textContent = ''; $('so-ctl').hidden = true; $('so-close').hidden = false; return; }
+    var i = Math.min(sr.ex.steps.length - 1, Math.floor(t / sr.per));
+    if (i !== sr.step) {
+      sr.step = i; sleepText(sr.ex.steps[i]);
+      if (sr.voiced) {
+        stopVoice(); playVoice('sonno_' + sr.ex.id + '_' + ('0' + (i + 1)).slice(-2));
+        warmVoice([i + 1 < sr.ex.steps.length ? 'sonno_' + sr.ex.id + '_' + ('0' + (i + 2)).slice(-2) : 'sonno_fine']);
+      }
+    }
+    $('so-rem').textContent = fmt(sr.total - t);
+  }
+  function endSonno() { if (sr) clearInterval(sr.timer); sr = null; unlock(); stopVoice(); }
+  $('so-start').onclick = startSonno;
+  $('so-pause').onclick = function () { if (!sr) return; sr.paused = !sr.paused; $('so-pause').textContent = sr.paused ? 'Riprendi' : 'Pausa'; if (sr.paused) pauseVoice(); else resumeVoice(); };
+  function leaveSonno() { var o = origin.sonno || 'hub'; endSonno(); if (o === 'sonno') openSonno(); else show(o === 'sorun' ? 'hub' : o); }
+  $('so-stop').onclick = leaveSonno; $('back-sorun').onclick = leaveSonno;
+  $('so-close').onclick = function () { show('hub'); };
+  $('t-sonno').onclick = openSonno;
+
+  /* ---------- Percorsi scritti (gentilezza, conversazione) ---------- */
+  function makeFlow(cfg) {
+    var root = $('v-' + cfg.id), ans = {}, step = 0, sum = false, armed = false;
+    try { ans = JSON.parse(localStorage.getItem(cfg.id) || '{}') || {}; } catch (e) { ans = {}; }
+    function save() { try { localStorage.setItem(cfg.id, JSON.stringify(ans)); } catch (e) {} }
+    function el(tag, cls, text, parent) { var n = document.createElement(tag); if (cls) n.className = cls; if (text) n.textContent = text; if (parent) parent.appendChild(n); return n; }
+    var back = el('button', 'back', '← Tutti gli strumenti', root); back.type = 'button'; back.onclick = function () { show('hub'); };
+    var head = el('header', '', '', root); el('h1', '', cfg.title, head); el('p', 'intro', cfg.intro, head);
+    if (cfg.alert) el('p', 'alert', cfg.alert, root);
+    var flow = el('section', 'group', '', root), sumBox = el('section', 'group', '', root);
+    el('p', 'note', cfg.note, root);
+    function val(id) { return (ans[id] || '').trim(); }
+    function composed() { return cfg.compose ? cfg.compose(val) : ''; }
+    function render() {
+      if (cfg.audio) stopVoice();
+      flow.hidden = sum; sumBox.hidden = !sum; head.hidden = sum; flow.innerHTML = ''; sumBox.innerHTML = '';
+      if (sum) {
+        el('h2', '', cfg.summaryTitle, sumBox);
+        var c = composed(); if (c) el('p', 'phrase', c, sumBox);
+        var body = el('div', 'sum', '', sumBox);
+        cfg.steps.forEach(function (st) {
+          if (!st.fields) return;
+          var sec = el('section', '', '', body); el('h2', '', st.q, sec);
+          st.fields.forEach(function (f) {
+            if (st.fields.length > 1) el('p', 'label', f.label, sec);
+            var v = val(f.id), a = el('div', 'ans' + (v ? '' : ' empty'), v || 'Lasciato in bianco', sec);
+          });
+        });
+        el('p', 'help', cfg.summaryHelp, sumBox);
+        var row = el('div', 'row', '', sumBox);
+        (cfg.actions || []).forEach(function (a) { var b = el('button', 'ghost', a.label, row); b.type = 'button'; b.onclick = a.fn; });
+        var cp = el('button', 'primary', 'Copia il testo', row); cp.type = 'button';
+        cp.onclick = function () {
+          var out = [], c2 = composed(); if (c2) { out.push(c2); out.push(''); }
+          cfg.steps.forEach(function (st) { if (!st.fields) return; out.push(st.q); st.fields.forEach(function (f) { out.push((st.fields.length > 1 ? f.label + ': ' : '') + (val(f.id) || '-')); }); out.push(''); });
+          var ok = function () { cp.textContent = 'Copiato'; setTimeout(function () { cp.textContent = 'Copia il testo'; }, 1800); };
+          try { navigator.clipboard.writeText(out.join('\n')).then(ok, function () { cp.textContent = 'Seleziona e copia dal foglio'; }); } catch (e) { cp.textContent = 'Seleziona e copia dal foglio'; }
+        };
+        var ed = el('button', 'ghost', 'Modifica', row); ed.type = 'button'; ed.onclick = function () { sum = false; step = 0; armed = false; render(); window.scrollTo(0, 0); };
+        var cl = el('button', 'ghost', armed ? 'Sicuro? Tocca di nuovo' : 'Cancella tutto', row); cl.type = 'button';
+        cl.onclick = function () { if (!armed) { armed = true; render(); return; } ans = {}; save(); armed = false; sum = false; step = 0; render(); window.scrollTo(0, 0); };
+        return;
+      }
+      var st = cfg.steps[step];
+      el('p', 'label', 'Passo ' + (step + 1) + ' di ' + cfg.steps.length, flow);
+      el('h2', '', st.q, flow);
+      if (st.read) {
+        var rd = el('div', 'read', '', flow); st.read.forEach(function (t) { el('p', '', t, rd); });
+        if (cfg.audio) {
+          var lb = el('button', 'ghost', 'Ascolta con la voce', flow); lb.type = 'button';
+          warmVoice([cfg.audio]);
+          var au = voiceAudio(), syncL = function () { lb.textContent = (!au.paused && !au.ended) ? 'Ferma la voce' : 'Ascolta con la voce'; };
+          au.onplay = au.onpause = au.onended = syncL;
+          lb.onclick = function () { if (!au.paused && !au.ended) stopVoice(); else playVoice(cfg.audio); };
+        }
+      }
+      if (st.help) el('p', 'help', st.help, flow);
+      if (st.fields) {
+        var fb = el('div', 'group', '', flow);
+        st.fields.forEach(function (f) {
+          var w = el('div', 'field', '', fb), lab = el('label', '', f.label, w), ta = el('textarea', '', '', w);
+          ta.id = cfg.id + '-' + f.id; lab.htmlFor = ta.id; ta.value = ans[f.id] || '';
+          if (f.rows) ta.style.minHeight = f.rows;
+          ta.oninput = function () { ans[f.id] = ta.value; save(); };
+          if (f.chips) {
+            var sg = el('div', 'sugg', '', w);
+            f.chips.forEach(function (t) { var b = el('button', '', t, sg); b.type = 'button'; b.onclick = function () { ta.value = t; ans[f.id] = t; save(); ta.focus(); }; });
+          }
+        });
+      }
+      var row2 = el('div', 'row', '', flow);
+      if (step > 0) { var pv = el('button', 'ghost', 'Indietro', row2); pv.type = 'button'; pv.onclick = function () { step--; render(); window.scrollTo(0, 0); }; }
+      var nx = el('button', 'primary', step === cfg.steps.length - 1 ? 'Concludi' : 'Avanti', row2); nx.type = 'button';
+      nx.onclick = function () { if (step < cfg.steps.length - 1) step++; else sum = true; render(); window.scrollTo(0, 0); };
+    }
+    return { open: function () { step = 0; sum = false; armed = false; render(); show(cfg.id); } };
+  }
+
+  var gentilezza = makeFlow({
+    id: 'gentilezza', title: 'Parla a te stesso con gentilezza',
+    intro: 'Un percorso breve per chi tende a giudicarsi duramente o si sente inadeguato. Quattro passi, a tuo ritmo. Nessuno leggerà quello che scrivi.',
+    note: 'Quello che scrivi resta solo su questo dispositivo: non viene inviato a nessuno, nemmeno alla psicologa. Questo percorso non sostituisce un aiuto professionale: se il modo in cui ti giudichi ti fa stare molto male, parlane con un professionista.',
+    audio: 'gentilezza_riflessione',
+    summaryTitle: 'La tua frase', summaryHelp: 'Rileggila con calma. Puoi tornare qui ogni volta che la voce critica si fa sentire.',
+    compose: function (v) { return v('g4'); },
+    steps: [
+      { q: 'Una breve riflessione', read: [
+        'Molte persone sono molto più dure con sé stesse di quanto lo sarebbero con chiunque altro. Spesso pensiamo che criticarci ci renda migliori, ma di solito ci rende solo più stanchi e più insicuri.',
+        'Trattarsi con gentilezza non significa scusarsi di tutto né smettere di impegnarsi. Significa fare tre cose: accorgersi di come ci stiamo parlando, ricordare che sbagliare e sentirsi inadeguati è un\'esperienza che tutti attraversano, e rispondere a noi stessi con la voce che useremmo con una persona a cui teniamo.',
+        'Proviamo a farlo insieme, un passo alla volta.'] },
+      { q: 'Quale frase dura ti dici più spesso?', help: 'Scrivila così come ti viene. Se non ti viene, scegli un esempio qui sotto.',
+        fields: [{ id: 'g1', label: 'La mia frase', chips: ['Non sono capace.', 'Ho sbagliato tutto.', 'Non sono abbastanza.', 'Deludo sempre tutti.', 'Dovrei cavarmela senza aiuto.'] }] },
+      { q: 'Che cosa senti quando te la dici?', help: 'Dai un nome all\'emozione e prova a notare dove la senti nel corpo: stomaco, petto, gola, spalle.',
+        fields: [{ id: 'g2a', label: 'Che cosa provo' }, { id: 'g2b', label: 'Dove la sento nel corpo' }] },
+      { q: 'Che cosa direbbe una persona che ti vuole bene?', help: 'Immagina che una persona cara ti dicesse la stessa frase su di sé. Che cosa le risponderesti? Poi prova a riscrivere la tua frase in modo più giusto e più gentile.',
+        fields: [{ id: 'g3a', label: 'Le parole che userei con lei' }, { id: 'g3b', label: 'Un modo più gentile di dire la mia frase' }] },
+      { q: 'Una frase da portare con te', help: 'Scegli o scrivi una frase breve da rileggere quando la voce critica si fa sentire.',
+        fields: [{ id: 'g4', label: 'La mia frase', chips: ['Sto facendo del mio meglio con quello che ho adesso.', 'Sbagliare è umano, e posso imparare senza punirmi.', 'Posso trattarmi con gentilezza anche quando è difficile.', 'Non devo essere impeccabile per meritare rispetto.'] }] }
+    ]
+  });
+  $('t-gentilezza').onclick = gentilezza.open;
+
+  var conversazione = makeFlow({
+    id: 'conversazione', title: 'Prima di una conversazione difficile',
+    intro: 'Una guida per prepararti a esprimere un bisogno, affrontare un conflitto o comunicare un limite. Quattro passi, e alla fine un foglio da rileggere prima di parlare.',
+    alert: 'Questo strumento non è pensato per situazioni di violenza o di pericolo. Se hai paura della persona con cui devi parlare, non affrontarla da solo: contatta il 112 oppure, in Italia, il numero antiviolenza 1522 (gratuito, attivo 24 ore su 24).',
+    note: 'Quello che scrivi resta solo su questo dispositivo: non viene inviato a nessuno, nemmeno alla psicologa. Puoi condividere il foglio con chi vuoi usando «Copia il testo».',
+    summaryTitle: 'La tua preparazione', summaryHelp: 'Rileggi con calma. Prima di parlare puoi fare qualche respiro: ti aiuta a restare presente.',
+    compose: function (v) {
+      var a = v('c3a'), b = v('c3b'), c = v('c3c'), d = v('c3d'), out = [];
+      if (a) out.push('Quando ' + a.replace(/[.\s]+$/, '') + ',');
+      if (b) out.push('mi sento ' + b.replace(/[.\s]+$/, '') + ',');
+      if (c) out.push('perché ho bisogno di ' + c.replace(/[.\s]+$/, '') + '.');
+      if (d) out.push('Ti chiedo ' + d.replace(/[.\s]+$/, '') + '.');
+      return out.join(' ').replace(/,\s\./g, '.').replace(/,\sTi/, '. Ti').replace(/,$/, '.');
+    },
+    actions: [{ label: 'Respira un minuto prima di parlare', fn: function () { state.ex = byId(EXERCISES, 'coerenza'); state.minutes = 1; state.text = false; persist(); startRespira(); } }],
+    steps: [
+      { q: 'Che cosa vorrei ottenere da questa conversazione?', help: 'Scegli un obiettivo realistico: essere ascoltato, chiarire un malinteso, chiedere un cambiamento, comunicare un limite.',
+        fields: [{ id: 'c1', label: 'Il mio obiettivo' }] },
+      { q: 'Che cosa provo e di che cosa ho bisogno?', help: 'Le emozioni sono informazioni. Il bisogno è ciò che ti farebbe stare meglio.',
+        fields: [{ id: 'c2a', label: 'Che cosa provo' }, { id: 'c2b', label: 'Di che cosa ho bisogno' }] },
+      { q: 'Come posso dirlo senza accusare?', help: 'Prova questa struttura: «Quando… (un fatto concreto), mi sento…, perché ho bisogno di… . Ti chiedo…». Parla di te, non di come è l\'altra persona.',
+        fields: [{ id: 'c3a', label: 'Quando… (un fatto, senza giudizi)', rows: '4.5em' }, { id: 'c3b', label: 'Mi sento…', rows: '4.5em' }, { id: 'c3c', label: 'Perché ho bisogno di…', rows: '4.5em' }, { id: 'c3d', label: 'Ti chiedo…', rows: '4.5em' }] },
+      { q: 'Che cosa posso fare se la conversazione si complica?', help: 'Prepara una via d\'uscita prima di cominciare. Puoi scegliere una proposta o scriverne una tua.',
+        fields: [{ id: 'c4', label: 'Il mio piano', chips: ['Chiedo una pausa di dieci minuti e poi riprendiamo.', 'Respiro a fondo e ripeto con calma ciò che ho bisogno di dire.', 'Torno al motivo per cui ho voluto parlare.', 'Se non riusciamo a parlarne ora, propongo un altro momento.'] }] }
+    ]
+  });
+  $('t-conversazione').onclick = conversazione.open;
+
+  /* ---------- Installazione sul telefono ---------- */
+  function openInstalla() {
+    var ua = navigator.userAgent || '', id = /iPhone|iPad|iPod/.test(ua) ? 'in-ios' : (/Android/.test(ua) ? 'in-android' : 'in-pc');
+    Array.prototype.forEach.call(document.querySelectorAll('#v-installa details'), function (d) { d.open = d.id === id; });
+    show('installa');
+  }
+  $('open-install').onclick = function (e) { e.preventDefault(); openInstalla(); };
+
+  /* ---------- Contatti e condivisione ---------- */
+  Array.prototype.forEach.call(document.querySelectorAll('.copy'), function (b) {
+    b.onclick = function () {
+      var txt = b.getAttribute('data-copy');
+      var ok = function () { b.textContent = 'Copiato'; setTimeout(function () { b.textContent = 'Copia'; }, 1800); };
+      try { navigator.clipboard.writeText(txt).then(ok, function () { b.textContent = 'Seleziona e copia'; }); } catch (e) { b.textContent = 'Seleziona e copia'; }
+    };
+  });
+  $('share').href = 'https://wa.me/?text=' + encodeURIComponent('Un momento per te: piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio. ' + URL_PAGE);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden && (run || pr)) lock(); });
+
+  renderHub();
+  renderChoices(); renderSleep();
+  var h = (location.hash || '').replace('#', '');
+  if (h === 'installa') openInstalla(); else if (h === 'respira') openRespira(); else if (h === 'presente') openPresente(); else if (h === 'cassetta') openCassetta(); else if (h === 'pensieri') openPensieri(); else if (h === 'emozioni') openEmozioni(); else if (h === 'sonno') openSonno(); else if (h === 'gentilezza') gentilezza.open(); else if (h === 'conversazione') conversazione.open(); else show('hub');
+})();
+</script>
+</body>
+</html>
