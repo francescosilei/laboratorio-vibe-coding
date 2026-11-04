@@ -587,7 +587,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   var GUIDES = [
     { id: 'anim', label: 'Con animazioni e indicazioni visive' },
     { id: 'text', label: 'Leggendo le istruzioni' },
-    { id: 'voice', label: 'Con la voce della psicologa (presto disponibile)', off: true }
+    { id: 'voice', label: 'Con la voce guida (prova)' }
   ];
 
   var STEPS = [
@@ -649,14 +649,15 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
       plan = { tool: 'respira', ex: ex, minutes: state.time };
       $('r-title').textContent = ex.name + ' · ' + (state.time === 1 ? '1 minuto' : state.time + ' minuti');
     }
-    $('r-why').textContent = need.why + (state.guide === 'text' && plan.tool === 'respira' ? ' Seguirai le istruzioni scritte, senza cerchio.' : '');
+    $('r-why').textContent = need.why + (state.guide === 'text' && plan.tool === 'respira' ? ' Seguirai le istruzioni scritte, senza cerchio.' : '')
+      + (state.guide === 'voice' ? (plan.tool === 'respira' ? ' Sentirai la voce che guida ogni fase del respiro.' : ' Per questo percorso la voce non è ancora disponibile: seguirai le istruzioni scritte.') : '');
     $('result').hidden = false;
     $('result').scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'center' });
   };
   $('r-go').onclick = function () {
     if (!plan) return;
     if (plan.tool === 'presente') { state.pdur = plan.s; startPresente(); }
-    else { state.ex = plan.ex; state.minutes = plan.minutes; state.text = state.guide === 'text'; persist(); startRespira(); }
+    else { state.ex = plan.ex; state.minutes = plan.minutes; state.text = state.guide === 'text'; state.voice = state.guide === 'voice'; persist(); startRespira(); }
   };
   $('r-other').onclick = function () { if (plan && plan.tool === 'presente') openPresente(); else openRespira(); };
   $('t-respira').onclick = function () { openRespira(); };
