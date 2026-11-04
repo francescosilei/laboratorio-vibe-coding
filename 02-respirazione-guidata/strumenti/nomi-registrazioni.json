@@ -1,0 +1,77 @@
+{
+ "A_parole-guida": [
+  "respira_cue_inspira_a",
+  "respira_cue_inspira_b",
+  "respira_cue_trattieni_a",
+  "respira_cue_trattieni_b",
+  "respira_cue_espira_a",
+  "respira_cue_espira_b",
+  "respira_cue_pausa_a",
+  "respira_cue_pausa_b"
+ ],
+ "B_introduzioni": [
+  "respira_benvenuto",
+  "respira_intro_quadrata",
+  "respira_intro_478",
+  "respira_intro_coerenza",
+  "respira_intro_addominale",
+  "respira_chiusura"
+ ],
+ "C_accompagnamento": [
+  "respira_accompagna_01",
+  "respira_accompagna_02",
+  "respira_accompagna_03",
+  "respira_accompagna_04",
+  "respira_accompagna_05",
+  "respira_accompagna_06",
+  "respira_accompagna_07"
+ ],
+ "D_torna-al-presente": [
+  "presente_passo_01",
+  "presente_passo_02",
+  "presente_passo_03",
+  "presente_passo_04",
+  "presente_passo_05",
+  "presente_extra_01",
+  "presente_extra_02",
+  "presente_extra_03",
+  "presente_extra_04",
+  "presente_extra_05",
+  "presente_fine"
+ ],
+ "E_sonno": [
+  "sonno_inizio",
+  "sonno_musc_01",
+  "sonno_musc_02",
+  "sonno_musc_03",
+  "sonno_musc_04",
+  "sonno_musc_05",
+  "sonno_musc_06",
+  "sonno_musc_07",
+  "sonno_musc_08",
+  "sonno_musc_09",
+  "sonno_musc_10",
+  "sonno_musc_11",
+  "sonno_luogo_01",
+  "sonno_luogo_02",
+  "sonno_luogo_03",
+  "sonno_luogo_04",
+  "sonno_luogo_05",
+  "sonno_luogo_06",
+  "sonno_luogo_07",
+  "sonno_luogo_08",
+  "sonno_corpo_01",
+  "sonno_corpo_02",
+  "sonno_corpo_03",
+  "sonno_corpo_04",
+  "sonno_corpo_05",
+  "sonno_corpo_06",
+  "sonno_corpo_07",
+  "sonno_corpo_08",
+  "sonno_corpo_09",
+  "sonno_fine"
+ ],
+ "F_gentilezza": [
+  "gentilezza_riflessione"
+ ]
+}

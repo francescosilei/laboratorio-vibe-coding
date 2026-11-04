@@ -43,7 +43,7 @@ Cartella: `02-respirazione-guidata/`. Un solo sito, un link per strumento, nessu
 - [x] **Torna al presente**: versione solo testo e timer (1 e 5 minuti), prima versione
 - [x] **Cassetta degli attrezzi**: scegli una situazione e ricevi una piccola attività
 - [x] **Fai spazio ai pensieri**: diario guidato, risposte salvate solo sul dispositivo
-- [ ] **Voce di mia moglie**: registrazioni da agganciare agli esercizi (testi in `02-respirazione-guidata/testi-voce.md`)
+- [ ] **Voce di mia moglie**: registrazioni da agganciare agli esercizi. Istruzioni e testi in `02-respirazione-guidata/registrazioni-voce.docx`; script di divisione delle registrazioni in `02-respirazione-guidata/strumenti/` (provato solo su audio simulato)
 - [x] **Come mi sento adesso**: scelta dell'emozione, intensità su scala, attività coerente e verifica finale (prima versione)
 - [x] **Accompagna il sonno**, **Parla a te stesso con gentilezza**, **Prima di una conversazione difficile**: prime versioni con testi miei, da far rivedere a mia moglie (il sonno è solo testo, l'audio con la sua voce arriva dopo)
 
