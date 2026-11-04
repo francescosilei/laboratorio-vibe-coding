@@ -49,6 +49,7 @@ def frasi(db, frazione, pausa):
             i = j
         else:
             i += 1
+    tratti = [t for t in tratti if (t[1] - t[0]) * FINESTRA >= 0.15]   # scarta scatti e colpetti brevissimi prima di unire
     unite = []
     for t in tratti:                      # unisce i tratti separati da pause brevi (dentro la stessa frase)
         if unite and (t[0] - unite[-1][1]) * FINESTRA < pausa:
