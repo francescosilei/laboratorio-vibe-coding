@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Divide una registrazione di una sezione in tante frasi, separate da silenzi lunghi.
 
-Uso:  python3 dividi_audio.py FILE_AUDIO CODICE_SEZIONE [CARTELLA_USCITA]
-Esempio: python3 dividi_audio.py A_parole-guida.m4a A_parole-guida audio/
+Uso:  python3 dividi_audio.py FILE_AUDIO CODICE_SEZIONE [CARTELLA_USCITA] [--pausa=SECONDI]
+Esempio: python3 dividi_audio.py A_parole-guida.m4a A_parole-guida audio/ --pausa=0.8
+(--pausa = silenzio minimo che separa due pezzi; 3 secondi se omessa)
 
 Passi: trova i silenzi lunghi (almeno 3 s, con soglia adattata al rumore di fondo), taglia le
 frasi con un piccolo margine, uniforma il volume con un unico guadagno per tutto il file e
@@ -13,8 +14,8 @@ coincide con quello atteso, non scrive nulla e lo dice.
 import json, os, subprocess, sys, tempfile
 import numpy as np
 
-FRAZIONI = [0.25, 0.35, 0.18, 0.5, 0.12, 0.7]  # soglia = rumore + frazione*(voce - rumore), dalla più usuale
-SILENZIO_MIN = 3.0                              # secondi di silenzio che separano due frasi
+FRAZIONI = [0.25, 0.35, 0.18, 0.5, 0.12, 0.6, 0.7, 0.8]  # soglia = rumore + frazione*(voce - rumore), dalla più usuale
+SILENZIO_MIN = 3.0                              # secondi di silenzio che separano due frasi (opzione --pausa)
 MARGINE = 0.20                                  # secondi di margine tenuti attorno alla frase
 OBIETTIVO_DB = -20.0                            # volume tipico del parlato (dBFS) dopo l'elaborazione
 FINESTRA = 0.05                                 # secondi per ogni misura di volume
@@ -34,8 +35,8 @@ def livelli(path):
     return 20 * np.log10(np.sqrt((x ** 2).mean(axis=1)) + 1e-9)
 
 
-def frasi(db, frazione):
-    rumore, voce = np.percentile(db, 10), np.percentile(db, 95)
+def frasi(db, frazione, pausa):
+    rumore, voce = max(np.percentile(db, 10), -70.0), np.percentile(db, 95)   # alcune app registrano silenzio digitale (-180 dB)
     attivo = db > rumore + frazione * (voce - rumore)
     tratti, i = [], 0
     while i < len(attivo):
@@ -49,7 +50,7 @@ def frasi(db, frazione):
             i += 1
     unite = []
     for t in tratti:                      # unisce i tratti separati da pause brevi (dentro la stessa frase)
-        if unite and (t[0] - unite[-1][1]) * FINESTRA < SILENZIO_MIN:
+        if unite and (t[0] - unite[-1][1]) * FINESTRA < pausa:
             unite[-1][1] = t[1]
         else:
             unite.append(t)
@@ -57,10 +58,15 @@ def frasi(db, frazione):
 
 
 def main():
-    if len(sys.argv) < 3:
+    args = [a for a in sys.argv[1:] if not a.startswith("--pausa=")]
+    pausa = SILENZIO_MIN
+    for a in sys.argv[1:]:
+        if a.startswith("--pausa="):
+            pausa = float(a.split("=")[1])
+    if len(args) < 2:
         sys.exit(__doc__)
-    src, sezione = sys.argv[1], sys.argv[2]
-    out = sys.argv[3] if len(sys.argv) > 3 else "audio"
+    src, sezione = args[0], args[1]
+    out = args[2] if len(args) > 2 else "audio"
     nomi = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "nomi-registrazioni.json")))[sezione]
     with tempfile.TemporaryDirectory() as tmp:
         norm = os.path.join(tmp, "norm.wav")
@@ -71,7 +77,7 @@ def main():
         tot = len(db) * FINESTRA
         scelta = None
         for fr in FRAZIONI:
-            f = frasi(db, fr)
+            f = frasi(db, fr, pausa)
             print(f"soglia {fr}: {len(f)} frasi trovate (attese {len(nomi)})")
             if len(f) == len(nomi):
                 scelta = f
