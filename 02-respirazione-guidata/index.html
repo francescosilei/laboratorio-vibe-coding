@@ -666,7 +666,12 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   var $ = function (id) { return document.getElementById(id); };
   var VIEWS = ['hub', 'respira', 'session', 'done', 'presente', 'psession', 'pdone', 'cassetta', 'pensieri', 'emozioni', 'sonno', 'sorun', 'gentilezza', 'conversazione', 'installa'];
   var cur = null, origin = {};
-  function show(v) { VIEWS.forEach(function (k) { $('v-' + k).hidden = k !== v; }); cur = v; if (v !== 'session' && v !== 'done' && v !== 'psession' && v !== 'pdone' && v !== 'sorun') stopVoice(); window.scrollTo(0, 0); if (v === 'hub' && em) em.pending = false; updateCheck(); }
+  function show(v) {
+    /* un esercizio finisce quando si esce dalla sua schermata, da qualunque strada (anche dai collegamenti in fondo alla pagina) */
+    if (v !== 'session' && run) endRespira();
+    if (v !== 'psession' && pr) endPresente();
+    if (v !== 'sorun' && sr) endSonno();
+    VIEWS.forEach(function (k) { $('v-' + k).hidden = k !== v; }); cur = v; if (v !== 'session' && v !== 'done' && v !== 'psession' && v !== 'pdone' && v !== 'sorun') stopVoice(); window.scrollTo(0, 0); if (v === 'hub' && em) em.pending = false; updateCheck(); }
   function byId(list, id) { return list.filter(function (x) { return x.id === id; })[0]; }
   function fmt(s) { s = Math.max(0, Math.ceil(s)); return Math.floor(s / 60) + ':' + ('0' + (s % 60)).slice(-2); }
   function chip(box, label, on, cb, off) {
