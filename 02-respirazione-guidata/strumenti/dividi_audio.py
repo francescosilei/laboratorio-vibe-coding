@@ -49,7 +49,7 @@ def frasi(db, frazione, pausa):
             i = j
         else:
             i += 1
-    tratti = [t for t in tratti if (t[1] - t[0]) * FINESTRA >= 0.15]   # scarta scatti e colpetti brevissimi prima di unire
+    tratti = [t for t in tratti if (t[1] - t[0]) * FINESTRA >= 0.3]    # scarta scatti e colpetti brevi prima di unire (non devono fare da ponte tra due frasi)
     unite = []
     for t in tratti:                      # unisce i tratti separati da pause brevi (dentro la stessa frase)
         if unite and (t[0] - unite[-1][1]) * FINESTRA < pausa:
@@ -100,7 +100,7 @@ def main():
             a0, b0 = max(0, a - MARGINE), min(tot, b + MARGINE)
             dest = os.path.join(out, nome + ".mp3")
             r = run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{a0:.3f}", "-to", f"{b0:.3f}", "-i", norm,
-                     "-ac", "1", "-ar", "44100", "-af", f"volume={guadagno}dB,alimiter=limit=0.89,afade=t=in:st=0:d=0.03,afade=t=out:st={max(0.0, b0 - a0 - 0.12):.3f}:d=0.12",
+                     "-ac", "1", "-ar", "44100", "-af", f"volume={guadagno}dB,alimiter=limit=0.8,afade=t=in:st=0:d=0.03,afade=t=out:st={max(0.0, b0 - a0 - 0.12):.3f}:d=0.12",
                      "-c:a", "libmp3lame", "-b:a", bitrate, dest])
             print(f"{nome}.mp3  {b0 - a0:5.1f} s  {os.path.getsize(dest) // 1024} kB")
 
