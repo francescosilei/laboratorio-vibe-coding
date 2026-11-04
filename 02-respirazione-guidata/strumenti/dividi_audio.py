@@ -7,7 +7,7 @@ Esempio: python3 dividi_audio.py A_parole-guida.m4a A_parole-guida audio/ --paus
 
 Passi: trova i silenzi lunghi (almeno 3 s, con soglia adattata al rumore di fondo), taglia le
 frasi con un piccolo margine, uniforma il volume con un unico guadagno per tutto il file e
-salva ogni frase in MP3 mono 96 kbit/s
+salva ogni frase in MP3 mono 96 kbit/s (con una breve dissolvenza all'inizio e alla fine)
 con il nome previsto da nomi-registrazioni.json. Se il numero di frasi trovate non
 coincide con quello atteso, non scrive nulla e lo dice.
 """
@@ -75,15 +75,16 @@ def main():
             sys.exit("Non riesco a leggere il file: " + r.stderr[-300:])
         db = livelli(norm)
         tot = len(db) * FINESTRA
-        scelta = None
-        for fr in FRAZIONI:
+        valide = []
+        for fr in sorted(FRAZIONI):
             f = frasi(db, fr, pausa)
             print(f"soglia {fr}: {len(f)} frasi trovate (attese {len(nomi)})")
             if len(f) == len(nomi):
-                scelta = f
-                break
-        if scelta is None:
+                valide.append((fr, f))
+        if not valide:
             sys.exit("Il numero di frasi non torna con nessuna soglia: controllare le pause o le frasi ripetute.")
+        fr, scelta = valide[len(valide) // 2]        # la soglia di mezzo tra quelle valide: né troppo sensibile né troppo severa
+        print(f"soglia scelta: {fr} ({len(valide)} valide)")
         # volume uniforme: un solo guadagno per tutto il file, così le frasi restano coerenti tra loro
         attivi = np.concatenate([db[int(a / FINESTRA): int(b / FINESTRA)] for a, b in scelta])
         guadagno = max(-20.0, min(24.0, OBIETTIVO_DB - float(np.percentile(attivi, 75))))
@@ -93,7 +94,7 @@ def main():
             a0, b0 = max(0, a - MARGINE), min(tot, b + MARGINE)
             dest = os.path.join(out, nome + ".mp3")
             r = run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{a0:.3f}", "-to", f"{b0:.3f}", "-i", norm,
-                     "-ac", "1", "-ar", "44100", "-af", f"volume={guadagno}dB,alimiter=limit=0.89",
+                     "-ac", "1", "-ar", "44100", "-af", f"volume={guadagno}dB,alimiter=limit=0.89,afade=t=in:st=0:d=0.03,afade=t=out:st={max(0.0, b0 - a0 - 0.12):.3f}:d=0.12",
                      "-c:a", "libmp3lame", "-b:a", "96k", dest])
             print(f"{nome}.mp3  {b0 - a0:5.1f} s  {os.path.getsize(dest) // 1024} kB")
 
