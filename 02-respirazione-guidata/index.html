@@ -42,9 +42,10 @@ body {
 }
 .wrap { max-width: 640px; margin-inline: auto; display: flex; flex-direction: column; gap: 28px; }
 .page-top { position: relative; }
-.deco { position: absolute; top: 0; right: 0; width: 92px; height: auto; pointer-events: none; }
-.page-top header { padding-right: 104px; min-height: 92px; }
-@media (max-width: 520px) { .deco { width: 64px; } .page-top header { padding-right: 76px; min-height: 64px; } }
+.deco { position: absolute; top: 0; right: 0; width: 120px; height: auto; pointer-events: none; }
+.page-top header { padding-right: 136px; min-height: 100px; }
+.page-top .done { padding-top: 96px; }
+@media (max-width: 520px) { .deco { width: 88px; } .page-top header { padding-right: 104px; min-height: 70px; } .page-top .session, .page-top .night { margin-top: 52px; } }
 h1, h2 { font-family: var(--font-display); font-weight: 700; text-wrap: balance; margin: 0; line-height: 1.2; }
 h1 { font-size: clamp(2rem, 7vw, 2.8rem); }
 h2 { font-size: 1.25rem; }
