@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Divide una registrazione di una sezione in tante frasi, separate da silenzi lunghi.
 
-Uso:  python3 dividi_audio.py FILE_AUDIO CODICE_SEZIONE [CARTELLA_USCITA] [--pausa=SECONDI] [--livello=DB] [--bitrate=96k]
+Uso:  python3 dividi_audio.py FILE_AUDIO CODICE_SEZIONE [CARTELLA_USCITA] [--pausa=SECONDI] [--livello=DB] [--bitrate=96k] [--uniforma]
 Esempio: python3 dividi_audio.py A_parole-guida.m4a A_parole-guida audio/ --pausa=0.8
 (--pausa = silenzio minimo che separa due pezzi; 3 secondi se omessa)
+(--uniforma = porta ogni frase allo stesso volume, invece di un solo guadagno per il file)
 (--livello = volume tipico del parlato in dBFS; -20 se omesso, -23.5 per le frasi lunghe)
 
 Passi: trova i silenzi lunghi (almeno 3 s, con soglia adattata al rumore di fondo), taglia le
@@ -61,10 +62,12 @@ def frasi(db, frazione, pausa):
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    pausa, obiettivo, bitrate = SILENZIO_MIN, OBIETTIVO_DB, "96k"
+    pausa, obiettivo, bitrate, uniforma = SILENZIO_MIN, OBIETTIVO_DB, "96k", False
     for a in sys.argv[1:]:
         if a.startswith("--pausa="):
             pausa = float(a.split("=")[1])
+        if a == "--uniforma":
+            uniforma = True
         if a.startswith("--bitrate="):
             bitrate = a.split("=")[1]
         if a.startswith("--livello="):
@@ -97,6 +100,9 @@ def main():
         print(f"guadagno applicato: {guadagno:+.1f} dB")
         os.makedirs(out, exist_ok=True)
         for (a, b), nome in zip(scelta, nomi):
+            if uniforma:      # un guadagno per ogni frase, così nessuna resta più bassa delle altre
+                pezzo = db[int(a / FINESTRA): int(b / FINESTRA)]
+                guadagno = max(-20.0, min(30.0, obiettivo - float(np.percentile(pezzo[pezzo > -60], 75))))
             a0, b0 = max(0, a - MARGINE), min(tot, b + MARGINE)
             dest = os.path.join(out, nome + ".mp3")
             r = run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{a0:.3f}", "-to", f"{b0:.3f}", "-i", norm,
