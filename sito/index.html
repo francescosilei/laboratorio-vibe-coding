@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Un momento per te</title>
-<meta name="description" content="Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio. Senza account e senza raccolta di dati.">
+<meta name="description" content="Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio, a cura della Dott.ssa Maria Chiara D'Iorio, psicologa. Senza account e senza raccolta di dati.">
 <link rel="canonical" href="https://francescosilei.github.io/un-momento-per-te/">
 <meta name="theme-color" content="#f5f3e9" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#16241c" media="(prefers-color-scheme: dark)">
@@ -15,7 +15,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="it_IT">
 <meta property="og:title" content="Un momento per te">
-<meta property="og:description" content="Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio. Senza account e senza raccolta di dati.">
+<meta property="og:description" content="Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio, a cura della Dott.ssa Maria Chiara D'Iorio, psicologa. Senza account e senza raccolta di dati.">
 <meta property="og:url" content="https://francescosilei.github.io/un-momento-per-te/">
 <meta property="og:image" content="https://francescosilei.github.io/un-momento-per-te/icons/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -132,6 +132,7 @@ header { display: flex; flex-direction: column; gap: 12px; padding-top: 8px; }
 
 footer { border-top: 1px solid var(--line); padding-top: 20px; display: flex; flex-direction: column; gap: 12px; color: var(--muted); font-size: .92rem; }
 footer .studio { color: var(--fg); font-weight: 700; }
+footer .who { color: var(--fg); font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; }
 .note { font-size: .85rem; }
 .contacts { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .contacts li { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; min-width: 0; }
@@ -558,9 +559,11 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   <footer>
     <p class="studio">Vuoi approfondire il tuo benessere psicologico?</p>
     <p>Questi strumenti offrono un momento di pausa e riflessione. Se desideri capire meglio ciò che stai vivendo, puoi contattarmi per informazioni sui percorsi psicologici.</p>
+    <p class="who">Dott.ssa Maria Chiara D'Iorio</p>
     <ul class="contacts">
       <li><span>Email</span> <a href="mailto:chiaradiorio85@gmail.com" id="c-mail">chiaradiorio85@gmail.com</a> <button class="copy" type="button" data-copy="chiaradiorio85@gmail.com">Copia</button></li>
       <li><span>Telefono</span> <a href="tel:+393493267406" id="c-tel">349 326 7406</a> <button class="copy" type="button" data-copy="3493267406">Copia</button></li>
+      <li><span>Profilo</span> <a href="https://guidapsicologi.it/procard/dottssa-maria-diorio?therapytype=0&amp;service_id=829" target="_blank" rel="noopener">Guida Psicologi</a></li>
     </ul>
     <p><a class="sharelink" id="share" target="_blank" rel="noopener" href="#">Condividi questi strumenti con WhatsApp</a></p>
     <p class="note">Questi esercizi sono un aiuto per rilassarsi e non sostituiscono un percorso con un professionista. Se durante l'esercizio ti senti a disagio o hai un capogiro, fermati e riprendi a respirare normalmente. Se stai attraversando un momento di grave difficoltà o di pericolo, chiama il 112.</p>
@@ -590,7 +593,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
       phases: [['in', 4], ['out', 6]] }
   ];
   var DURATIONS = [1, 3, 5, 10];
-  /* Voce guida registrata da Chiara (audio/chiara): parole guida (seconde versioni), introduzioni e chiusura, incorporate come dati */
+  /* Voce guida registrata dalla professionista: clip audio incorporati come dati (nel sito sono file separati) */
   var VOICE_DATA = {
     inspira: 'audio/inspira.mp3',
     trattieni: 'audio/trattieni.mp3',

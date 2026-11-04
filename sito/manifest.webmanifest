@@ -1,7 +1,7 @@
 {
   "name": "Un momento per te",
   "short_name": "Un momento",
-  "description": "Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio. Senza account e senza raccolta di dati.",
+  "description": "Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio, a cura della Dott.ssa Maria Chiara D'Iorio, psicologa. Senza account e senza raccolta di dati.",
   "lang": "it",
   "start_url": "./",
   "scope": "./",

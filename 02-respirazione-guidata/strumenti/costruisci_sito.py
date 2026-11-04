@@ -65,7 +65,7 @@ m = re.search(r"<style>(.*?)</style>", src, re.S)
 css_app, corpo = m.group(1), (src[:m.start()] + src[m.end():]).strip()
 
 TITOLO = "Un momento per te"
-DESCR = "Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio. Senza account e senza raccolta di dati."
+DESCR = "Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio, a cura della Dott.ssa Maria Chiara D'Iorio, psicologa. Senza account e senza raccolta di dati."
 og = ""
 canon = ""
 if OG_BASE:
