@@ -778,7 +778,7 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   function tick(now) {
     if (!run) return;
     var dt = (now - run.last) / 1000; run.last = now;
-    if (!run.paused) run.elapsed += Math.min(dt, 0.25);
+    if (!run.paused) run.elapsed += Math.max(0, Math.min(dt, 0.25));
     var t = run.elapsed;
     if (t < run.lead) {
       if (run.voiced && !run.said1 && t >= VOICE_DUR.benvenuto + 0.8) { run.said1 = true; playVoice('intro_' + run.ex.id); }
@@ -838,9 +838,9 @@ input[type=range].scale { width: 100%; height: 44px; accent-color: var(--accent)
   function ptick(now) {
     if (!pr) return;
     var dt = (now - pr.last) / 1000; pr.last = now;
-    if (!pr.paused) pr.elapsed += Math.min(dt, 0.25);
+    if (!pr.paused) pr.elapsed += Math.max(0, Math.min(dt, 0.25));   /* il primo fotogramma può avere un tempo anteriore a quello letto al tocco */
     if (pr.elapsed >= pr.total) { var voicedEnd = pr.voiced; endPresente(); show('pdone'); if (voicedEnd) playVoice('presente_fine'); return; }
-    var i = Math.min(STEPS.length - 1, Math.floor(pr.elapsed / pr.per)), inStep = pr.elapsed - i * pr.per;
+    var i = Math.max(0, Math.min(STEPS.length - 1, Math.floor(pr.elapsed / pr.per))), inStep = pr.elapsed - i * pr.per;
     if (i !== pr.step) {
       pr.step = i; pr.extraDone = false;
       if (pr.voiced && !(i === 0 && pr.firstSaid)) { stopVoice(); playVoice('presente_passo_0' + (i + 1)); }
