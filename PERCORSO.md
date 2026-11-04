@@ -58,7 +58,8 @@ Si pubblica lo stesso sito su **GitHub Pages** e su **Netlify**, per confrontarl
 - [ ] Attivare GitHub Pages (Settings, Pages, Deploy from a branch, main, root)
 - [ ] Collegare Netlify allo stesso repository; disattivare anteprime e pubblicazioni dei rami
 - [ ] Testo della privacy, avviso sui diritti delle registrazioni, numeri di aiuto (da tua moglie)
-- [ ] Togliere «noindex» e robots.txt quando si decide di rendere il sito visibile ai motori di ricerca
+- [x] Il sito può comparire sui motori di ricerca (nessun «noindex»). Indirizzo canonico: quello di GitHub Pages, così le due copie non si fanno concorrenza
+- [ ] Per farsi trovare davvero: nome, città e specializzazione della professionista nel testo della pagina; iscrivere il sito a Google Search Console
 - [ ] Prova finale su telefono con Brave: installazione, icona, voce
 
 ## Materiale da preparare per il progetto 1

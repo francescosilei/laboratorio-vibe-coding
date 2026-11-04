@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Costruisce la cartella `sito/` a partire dall'app (02-respirazione-guidata/index.html).
 
-Uso:  python3 02-respirazione-guidata/strumenti/costruisci_sito.py [--og-base=https://utente.github.io/nome-repo/]
+Uso:  python3 02-respirazione-guidata/strumenti/costruisci_sito.py [--og-base=https://utente.github.io/nome-repo/]   (indirizzo «principale»: anteprima di WhatsApp e indirizzo canonico per i motori di ricerca)
 
 Cosa fa:
 - trasforma la pagina in un documento autonomo (doctype, meta, icone, manifest, font locali);
@@ -67,10 +67,13 @@ css_app, corpo = m.group(1), (src[:m.start()] + src[m.end():]).strip()
 TITOLO = "Un momento per te"
 DESCR = "Piccoli strumenti per fermarti, respirare e ritrovare il tuo spazio. Senza account e senza raccolta di dati."
 og = ""
+canon = ""
 if OG_BASE:
+    canon = '<link rel="canonical" href="%s">\n' % OG_BASE
     og = ('<meta property="og:type" content="website">\n<meta property="og:locale" content="it_IT">\n'
           '<meta property="og:title" content="%s">\n<meta property="og:description" content="%s">\n'
-          '<meta property="og:image" content="%sicons/og-image.png">\n<meta name="twitter:card" content="summary_large_image">\n' % (TITOLO, DESCR, OG_BASE))
+          '<meta property="og:url" content="%s">\n'
+          '<meta property="og:image" content="%sicons/og-image.png">\n<meta name="twitter:card" content="summary_large_image">\n' % (TITOLO, DESCR, OG_BASE, OG_BASE))
 
 head = """<!doctype html>
 <html lang="it">
@@ -79,8 +82,7 @@ head = """<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>%(t)s</title>
 <meta name="description" content="%(d)s">
-<meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#f5f3e9" media="(prefers-color-scheme: light)">
+%(canon)s<meta name="theme-color" content="#f5f3e9" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#16241c" media="(prefers-color-scheme: dark)">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/favicon.ico" sizes="any">
@@ -100,7 +102,7 @@ img{max-width:100%%}
 %(corpo)s
 </body>
 </html>
-""" % {"t": TITOLO, "d": DESCR, "og": og, "css": css_app, "corpo": corpo}
+""" % {"t": TITOLO, "d": DESCR, "og": og, "canon": canon, "css": css_app, "corpo": corpo}
 open(os.path.join(SITO, "index.html"), "w", encoding="utf-8").write(head)
 
 # 5) file di supporto
@@ -115,12 +117,12 @@ manifest = {
 open(os.path.join(SITO, "manifest.webmanifest"), "w").write(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
 open(os.path.join(SITO, "404.html"), "w", encoding="utf-8").write("""<!doctype html>
 <html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pagina non trovata</title><meta name="robots" content="noindex">
+<title>Pagina non trovata</title>
 <style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f5f3e9;color:#263d32;font:18px/1.55 system-ui,sans-serif;padding:24px;text-align:center}
 a{color:#526d58;font-weight:700}h1{font:700 2rem Georgia,serif;margin:0 0 12px}</style></head>
 <body><main><h1>Pagina non trovata</h1><p>Questa pagina non esiste.</p><p><a href="./">Torna a «Un momento per te»</a></p></main></body></html>
 """)
-open(os.path.join(SITO, "robots.txt"), "w").write("User-agent: *\nDisallow: /\n")     # sito in prova: non compare sui motori di ricerca
+open(os.path.join(SITO, "robots.txt"), "w").write("User-agent: *\nAllow: /\n")        # il sito può comparire sui motori di ricerca
 open(os.path.join(SITO, ".nojekyll"), "w").write("")
 open(os.path.join(SITO, "_headers"), "w").write("""/audio/*
   Cache-Control: public, max-age=86400
