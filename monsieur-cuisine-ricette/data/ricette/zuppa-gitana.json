@@ -1,0 +1,202 @@
+{
+ "id": "zuppa-gitana",
+ "titolo": "Zuppa gitana",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-gitana.jpg",
+ "ingredienti": [
+  {
+   "testo": "80 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "10 g di mandorle pelate",
+   "nome": "mandorle"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "20 g di aceto di mele",
+   "nome": "aceto mele"
+  },
+  {
+   "testo": "250 g di ceci in scatola, sgocciolati e sciacquati (vedere varianti)",
+   "nome": "ceci"
+  },
+  {
+   "testo": "150 g di pere, sbucciate e a tocchetti (1 cm circa)",
+   "nome": "pere"
+  },
+  {
+   "testo": "200 g di polpa di zucca, a tocchetti (1 cm circa)",
+   "nome": "zucca"
+  },
+  {
+   "testo": "1 cucchiaino di paprika dolce",
+   "nome": "paprika dolce"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "100 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "1 cucchiaino colmo di dado per brodo vegetale, fatto in casa",
+   "nome": "dado"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla e le mandorle, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1 con il cestello al posto del misurino.",
+  "Unire l'aceto di mele e sfumare, senza misurino: 1 min./100°C/vel. 1 con il cestello al posto del misurino. Aggiungere 150 g di ceci e frullare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Unire le pere, la zucca, la paprika, l'acqua, la passata di pomodoro e il dado, cuocere: 25 min./100°C//vel. 1 con il cestello al posto del misurino.",
+  "Aggiungere i100 g di ceci rimasti e proseguire la cottura: 10 min./100°C//vel. con il cestello al posto del misurino. Trasferire in una zuppiera.",
+  "Servire subito."
+ ],
+ "note": [
+  "A piacere, sostituire i ceci in scatola con i ceci secchi, previa precottura. In questo caso, utilizzare metà del quantitativo di legumi secchi rispetto a quello indicato in ricetta (125 g di ceci secchi poiché in ammollo il volume raddoppierà), seguire le indicazioni riportate nella ricetta \"Cottura dei ceci\" e successivamente utilizzare come indicato nella preparazione.",
+  "In alternativa: 1 cucchiaino di sale (al posto del dado)"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di mandorle pelate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite con il cestello al posto del misurino.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Unite 20 g di aceto di mele."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate senza misurino, con il cestello al posto del misurino.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di ceci in scatola, sgocciolati e sciacquati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Unite 150 g di pere, sbucciate e a tocchetti (1 cm circa)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di polpa di zucca, a tocchetti (1 cm circa)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di paprika dolce."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di passata di pomodoro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di dado per brodo vegetale, fatto in casa."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete con il cestello al posto del misurino.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete i 100 g di ceci rimasti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Proseguite la cottura con il cestello al posto del misurino.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito."
+  }
+ ],
+ "origine": "cookidoo:r148094",
+ "importata": "2026-11-05"
+}

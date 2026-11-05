@@ -1,0 +1,206 @@
+{
+ "id": "carbonada",
+ "titolo": "Carbonada",
+ "categoria": "Primi",
+ "paese": "Argentina",
+ "dedotto": [
+  "categoria",
+  "paese"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "carbonada.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "80 g di carota, pelata e a pezzi (2-3 cm)",
+   "nome": "carota"
+  },
+  {
+   "testo": "150 g di peperoni rossi, o gialli, puliti e a tocchetti (2 cm circa)",
+   "nome": "peperoni"
+  },
+  {
+   "testo": "40 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "400 g di fesa di vitello, in bocconcini (2 cm circa)",
+   "nome": "fesa vitello"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe nero"
+  },
+  {
+   "testo": "100 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "450 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "200 g di patate, pelate e a tocchetti (1 cm circa)",
+   "nome": "patate"
+  },
+  {
+   "testo": "400 g di polpa di zucca, a pezzi (1 cm circa)",
+   "nome": "zucca"
+  },
+  {
+   "testo": "1 cucchiaino di sale (+ q.b.)",
+   "nome": "sale"
+  },
+  {
+   "testo": "30 g di pesche essiccate, a pezzi piccoli",
+   "nome": "pesche essiccate"
+  },
+  {
+   "testo": "1 pannocchia, a rondelle (150-200 g)",
+   "nome": "pannocchia"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla, la carota e i peperoni, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva, insaporire con il cestello al posto del misurino: 3 min./120°C/vel. 1.",
+  "Unire i tocchetti di carne, un pizzico di sale e di pepe, insaporire con il cestello al posto del misurino:2 min./120°C//vel. .",
+  "Aggiungere la passata, l'acqua, le patate, la zucca e un cucchiaino di sale, cuocere con il cestello al posto del misurino: 10 min./100°C//vel. .",
+  "Unire le pesche essiccate e la pannocchia, proseguire la cottura con il cestello al posto del misurino: 20 min./100°C//vel. . Trasferire in una zuppiera e lasciare riposare qualche minuto.",
+  "Servire."
+ ],
+ "note": [
+  "La Carbonada è un piatto tipico dell'Argentina e di altri paesi sudamericani.",
+  "La versione originale di questo piatto in alcune varianti prevede l'aggiunta del riso. Aumentare la quantità di acqua a 800 g e, alla fine del passaggio 5, unire 120 g di riso per minestre e proseguire la cottura (tempo indicato sulla confezione, 100 °C, velocità cucchiaio).",
+  "In alternativa: 150 g di mais dolce in scatola, a rondelle (al posto della pannocchia)",
+  "Paese: su Cookidoo è «Italia», ma la carbonada è tipica dell'Argentina."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di carota, pelata e a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di peperoni rossi, o gialli, puliti e a tocchetti (2 cm circa)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite con il cestello al posto del misurino.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Unite 400 g di fesa di vitello, in bocconcini (2 cm circa)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale e 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite con il cestello al posto del misurino.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di passata di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 450,
+   "testo": "Aggiungete 450 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di patate, pelate e a tocchetti (1 cm circa)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di polpa di zucca, a pezzi (1 cm circa)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete con il cestello al posto del misurino.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Unite 30 g di pesche essiccate, a pezzi piccoli."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pannocchia, a rondelle (150-200 g)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Proseguite la cottura con il cestello al posto del misurino.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera e lasciate riposare qualche minuto."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite."
+  }
+ ],
+ "origine": "cookidoo:r148093",
+ "importata": "2026-11-05"
+}

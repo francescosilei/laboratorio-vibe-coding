@@ -1,0 +1,200 @@
+{
+ "id": "ciorba",
+ "titolo": "Ciorba",
+ "categoria": "Primi",
+ "paese": "Romania",
+ "dedotto": [
+  "categoria",
+  "paese"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 70,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "ciorba.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio",
+   "gruppo": "Polpette"
+  },
+  {
+   "testo": "3 rametti di prezzemolo fresco, le foglioline lavate ed asciugate",
+   "nome": "prezzemolo",
+   "gruppo": "Polpette"
+  },
+  {
+   "testo": "200 g di carne trita mista (manzo, vitello, maiale, ecc.)",
+   "nome": "carne trita mista",
+   "gruppo": "Polpette"
+  },
+  {
+   "testo": "1 uovo medio",
+   "nome": "uova",
+   "gruppo": "Polpette"
+  },
+  {
+   "testo": "20 g di pangrattato",
+   "nome": "pangrattato",
+   "gruppo": "Polpette"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale",
+   "gruppo": "Polpette"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe nero",
+   "gruppo": "Polpette"
+  },
+  {
+   "testo": "800 g di brodo di carne",
+   "nome": "brodo carne",
+   "gruppo": "Zuppa"
+  },
+  {
+   "testo": "160 g di riso Originario",
+   "nome": "riso",
+   "gruppo": "Zuppa"
+  },
+  {
+   "testo": "20 g di succo di limone, spremuto fresco",
+   "nome": "succo limone",
+   "gruppo": "Zuppa"
+  },
+  {
+   "testo": "200 g di yogurt naturale, bianco, non aromatizzato",
+   "nome": "yogurt",
+   "gruppo": "Zuppa"
+  },
+  {
+   "testo": "2 uova",
+   "nome": "uova",
+   "gruppo": "Zuppa"
+  }
+ ],
+ "procedimento": [
+  "Polpette. Mettere nel boccale l'aglio e il prezzemolo, tritare: 3 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Polpette. 20 sec.//vel. 4. Si dovra ottenere un composto lavorabile (vedere consigli). Con le mani inumidite con dell'acqua formare delle polpettine delle dimensioni di una noce e adagiarle nel recipiente del Varoma.",
+  "Zuppa. Mettere nel boccale il brodo, posizionare il Varoma, chiudere con il coperchio e cuocere: 20 min./Varoma/vel. 1. Togliere con attenzione il Varoma, trasferire le polpettine in un piatto da portata e tenere in caldo.",
+  "Zuppa. Aggiungere il riso nel boccale e cuocere con il cestello al posto del misurino: il tempo indicato sulla confezione 100°C//vel. . Nel frattempo, in una ciotola mescolare il succo di limone, lo yogurt e le uova. Al termine della cottura, aggiungere il composto di yogurt e uova, mescolare a fondo con la spatola e lasciare riposare l minuto nel boccale.",
+  "Zuppa. Trasferire in una zuppiera e unirvi le polpette.",
+  "Zuppa. Servire subito."
+ ],
+ "note": [
+  "La Ciorba è una zuppa di carne e uova tipica della Romania.",
+  "Se l'impasto risultasse troppo morbido e non lavorabile aggiungere ancora un poco di pangrattato e mescolare: 10 sec./vel. 4.",
+  "In alternativa: 800 g di acqua (al posto del brodo di carne)",
+  "Paese: su Cookidoo è «Italia», ma la ciorba è tipica della Romania."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 spicchio di aglio e 3 rametti di prezzemolo fresco, le foglioline lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di carne trita mista (manzo, vitello, maiale, ecc.)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 uovo medio, 20 g di pangrattato, 1 pizzico di sale e 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Amalgamate.",
+   "tempo_s": 20,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Si dovrà ottenere un composto lavorabile (vedere note)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con le mani inumidite con dell'acqua formate delle polpettine delle dimensioni di una noce e adagiatele nel recipiente del Varoma."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Pesate nel boccale 800 g di brodo di carne."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il Varoma sul boccale e chiudete con il coperchio.",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete al vapore.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma, trasferite le polpettine in un piatto da portata e tenete in caldo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 160,
+   "testo": "Aggiungete nel boccale 160 g di riso Originario."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete con il cestello al posto del misurino.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo è quello indicato sulla confezione del riso."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Nel frattempo, in una ciotola mescolate 20 g di succo di limone, spremuto fresco,"
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "200 g di yogurt naturale, bianco, non aromatizzato,"
+  },
+  {
+   "tipo": "testo",
+   "testo": "e 2 uova."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Al termine della cottura, aggiungete il composto di yogurt e uova, mescolate a fondo con la spatola e lasciate riposare 1 minuto nel boccale.",
+   "attesa_s": 60
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera e unitevi le polpette."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito."
+  }
+ ],
+ "origine": "cookidoo:r146671",
+ "importata": "2026-11-05"
+}
