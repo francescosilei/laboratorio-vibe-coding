@@ -1,0 +1,186 @@
+{
+ "id": "zuppa-di-farro-e-castagne",
+ "titolo": "Zuppa di farro e castagne",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 70,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-farro-e-castagne.jpg",
+ "ingredienti": [
+  {
+   "testo": "1350 g di acqua (di cui 850 calda)",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "250 g di farro perlato",
+   "nome": "farro perlato"
+  },
+  {
+   "testo": "60 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "600 g di verdure miste (zucca, carote, patate, zucchine) a tocchetti",
+   "nome": "verdure miste"
+  },
+  {
+   "testo": "1 foglia di alloro fresca",
+   "nome": "alloro"
+  },
+  {
+   "testo": "½ - 1 cucchiaino di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "12 castagne cotte e pelate, a pezzi",
+   "nome": "castagne cotte e"
+  },
+  {
+   "testo": "pepe nero macinato",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale 500 g di acqua, ½ cucchiaino di sale e il farro, cuocere: 25 min./100°C//vel. 1. Scolare il farro con l'aiuto del cestello, passarlo sotto l'acqua corrente fredda e trasferire in una ciotola, tenere da parte. Lavare il boccale.",
+  "Mettere nel boccale la cipolla e tritare: 4 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire le verdure, ½ cucchiaino di sale e l'alloro, insaporire: 5 min./120°C//vel. 1.",
+  "Aggiungere i restanti 850 g di acqua e il dado, cuocere: 20 min./100°C//vel. 1.",
+  "Unire il farro cotto e le castagne, mescolare bene con la spatola e cuocere: 5 min./100°C//vel. 1.",
+  "Servire spolverizzando con pepe nero."
+ ],
+ "note": [
+  "Questa ricetta e stata postata da rosablu71 sulla Community Bimby www.ricettario-",
+  "bimby.it",
+  "In alternativa: q.b."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate nel boccale 500 g di acqua (di cui 850 calda)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di farro perlato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Scolate il farro con l'aiuto del cestello, passarlo sotto l'acqua corrente fredda e trasferite in una ciotola, tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lavate il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 4,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate 600 g di verdure miste (zucca, carote, patate, zucchine) a tocchetti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 foglia di alloro fresca."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 850,
+   "testo": "Pesate 850 g di acqua (di cui 850 calda)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ - 1 cucchiaino di dado per brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete farro perlato (messo da parte), 12 castagne cotte e pelate, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite spolverizzando con pepe nero."
+  }
+ ],
+ "origine": "cookidoo:r545375",
+ "importata": "2026-11-05"
+}

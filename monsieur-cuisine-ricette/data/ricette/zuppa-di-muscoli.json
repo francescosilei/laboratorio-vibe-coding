@@ -1,0 +1,177 @@
+{
+ "id": "zuppa-di-muscoli",
+ "titolo": "Zuppa di muscoli",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-muscoli.jpg",
+ "ingredienti": [
+  {
+   "testo": "1000 g di cozze fresche pulite",
+   "nome": "cozze pulite"
+  },
+  {
+   "testo": "3 rametti di prezzemolo fresco, le foglioline lavate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "10 foglie di basilico fresco, lavate",
+   "nome": "basilico"
+  },
+  {
+   "testo": "100 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "70 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "50 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "600 g di polpa di pomodoro a pezzi",
+   "nome": "pomodoro"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Sistemare le cozze nel recipiente del Varoma.",
+  "Mettere nel boccale il prezzemolo e il basilico, tritare: 5 sec./vel.7. Con il trito aromatico, spolverizzare le cozze. Chiudere il Varoma con il coperchio e tenere da parte.",
+  "Mettere nel boccale la cipolla, 1 spicchio di aglio e la carota, tritare: 5 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 4 min./120°C/vel. 1.",
+  "Unire la polpa di pomodoro e il sale. Posizionare il recipiente del Varoma e cuocere: 30 min./120°C/vel. 1. Nel frattempo, scaldare una piastra e tostare le fette di pane, poi strofinarle a piacere con l spicchio di aglio. Togliere con attenzione il Varoma.",
+  "Sistemare le cozze in una pirofila, irrorarle con la salsa e spolverizzare con un pizzico di pepe nero.",
+  "Servire subito accompagnando con le fette di pane tostato."
+ ],
+ "note": [
+  "Nel Golfo dei poeti, al'estremita del levante ligure, le cozze, che vengono chiamate",
+  "\"muscoli\" sono una specialita locale; in questo tratto di costa in fatti, luogo ideale per la",
+  "ricchezza di plancton, si trovano numerosi vivai ed allevamenti di mitilicoltura"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate 1000 g di cozze fresche pulite."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate le cozze nel recipiente del Varoma."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 3 rametti di prezzemolo fresco, le foglioline lavate, 10 foglie di basilico fresco, lavate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con il trito aromatico, spolverizzate le cozze."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Chiudere il Varoma con il coperchio e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Aggiungete 70 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 spicchi di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate 600 g di polpa di pomodoro a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, scaldate una piastra e tostate le fette di pane, poi strofinarle a piacere con l spicchio di aglio."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate le cozze in una pirofila, irrorarle con la salsa e spolverizzate con un pizzico di pepe nero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito accompagnando con le fette di pane tostato."
+  }
+ ],
+ "origine": "cookidoo:r563699",
+ "importata": "2026-11-05"
+}

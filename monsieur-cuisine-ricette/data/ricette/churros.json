@@ -1,0 +1,167 @@
+{
+ "id": "churros",
+ "titolo": "Churros",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 30,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 8,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "churros.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g zucchero",
+   "nome": "zucchero",
+   "gruppo": "Zucchero aromatizzato"
+  },
+  {
+   "testo": "1 stecca di cannella",
+   "nome": "cannella",
+   "gruppo": "Zucchero aromatizzato"
+  },
+  {
+   "testo": "300 g di acqua",
+   "nome": "acqua",
+   "gruppo": "Churros"
+  },
+  {
+   "testo": "100 g di burro, a pezzi",
+   "nome": "burro",
+   "gruppo": "Churros"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale",
+   "gruppo": "Churros"
+  },
+  {
+   "testo": "180 g di farina tipo 00",
+   "nome": "farina",
+   "gruppo": "Churros"
+  },
+  {
+   "testo": "2 uova",
+   "nome": "uova",
+   "gruppo": "Churros"
+  },
+  {
+   "testo": "olio di arachidi, per friggere",
+   "nome": "olio arachidi",
+   "gruppo": "Churros"
+  }
+ ],
+ "procedimento": [
+  "Zucchero aromatizzato. Mettere nel boccale lo zucchero e la cannella, polverizzare: 30 sec./vel. 10. Trasferire in una ciotolina e tenere da parte.",
+  "Churros. Mettere nel boccale l'acqua, il burro e il sale, scaldare: 4 min./80°C/vel. 2.",
+  "Churros. Aggiungere la farina 00 e cuocere: 4 min./80°C/vel. 3.",
+  "Churros. Aggiungere le uova e mescolare: 30 sec./vel. 4. Trasferire il composto in una tasca da pasticceria con una bocchetta a stella (02 cm).",
+  "Churros. In una padella antiaderente dai bordi alti, scaldare abbondante olio di arachidi sino a che raggiunge una temperatura di 180°C. Rivestire un vassoio con della carta assorbente da cucina.",
+  "Churros. Facendo attenzione, posizionare la tasca da pasticceria sopra l'olio caldo e, con l'aiuto di una forbice, tagliare delle strisce di impasto lunghe 10 cm circa. Friggere sino a che i churros non saranno dorati.",
+  "Churros. Scolare con un mestolo forato e adagiare i churros sopra la carta assorbente per farli asciugare dall'olio in eccesso.",
+  "Churros. Spolverizzare con lo zucchero aromatizzato e servire."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di zucchero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 stecca di cannella."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate il robot.",
+   "tempo_s": 30,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotolina e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate nel boccale 300 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di burro, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Scaldate.",
+   "tempo_s": 240,
+   "velocita": 2,
+   "temp_c": 80,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 180,
+   "testo": "Pesate 180 g di farina tipo 00."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 240,
+   "velocita": 3,
+   "temp_c": 80,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 uova."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 30,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il composto in una tasca da pasticceria con una bocchetta a stella (02 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una padella antiaderente dai bordi alti, scaldate abbondante olio di arachidi sino a che raggiunge una temperatura di 180°C."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Rivestire un vassoio con della carta assorbente da cucina."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Facendo attenzione, posizionate la tasca da pasticceria sopra l'olio caldo e, con l'aiuto di una forbice, tagliate delle strisce di impasto lunghe 10 cm circa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Friggere sino a che i churros non saranno dorati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Scolate con un mestolo forato e adagiare i churros sopra la carta assorbente per farli asciugare dall'olio in eccesso."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate con lo zucchero aromatizzato e servite."
+  }
+ ],
+ "origine": "cookidoo:r588431",
+ "importata": "2026-11-05"
+}
