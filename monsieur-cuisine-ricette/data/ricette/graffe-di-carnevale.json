@@ -1,0 +1,196 @@
+{
+ "id": "graffe-di-carnevale",
+ "titolo": "Graffe di Carnevale",
+ "categoria": "Dessert",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 45,
+ "tempo_cottura_min": null,
+ "tempo_min": 240,
+ "porzioni": null,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "graffe-di-carnevale.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "50 g di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "5 g di lievito di birra fresco",
+   "nome": "lievito birra"
+  },
+  {
+   "testo": "500 g di farina ad alto contenuto di glutine (vedere consigli)",
+   "nome": "farina"
+  },
+  {
+   "testo": "50 g di burro, morbido, a pezzetti",
+   "nome": "burro"
+  },
+  {
+   "testo": "2 uova medie",
+   "nome": "uova"
+  },
+  {
+   "testo": "240 g di patate a pasta farinosa, lessate e schiacciate (vedere consigli)",
+   "nome": "patate"
+  },
+  {
+   "testo": "1250 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "30 g di succo di limone",
+   "nome": "succo limone"
+  },
+  {
+   "testo": "olio di arachidi, q.b. per friggere",
+   "nome": "olio arachidi"
+  },
+  {
+   "testo": "zucchero, q.b. per rotolare le graffe",
+   "nome": "zucchero"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il latte, lo zucchero e il lievito di birra, sciogliere: 3 min./37°C/vel. 2.",
+  "Aggiungere il burro, la farina, le uova e le patate schiacciate, impastare: Spiga /3 min.. Nel frattempo, rivestire il recipiente del Varoma con un foglio di carta forno.",
+  "Trasferire l'impasto sul piano di lavoro e compattarlo formando una palla. Riporre l'impasto nel recipiente del Varoma e chiudere con il coperchio. Mettere nel boccale 1000 g di acqua e impostare Pulizia Ot. Svuotare il boccale.",
+  "Mettere nel boccale 250 g di acqua e il succo di limone, posizionare il recipiente del Varoma e impostare Fermentazione /3 h/37°C o fino a che Il'impasto sara raddoppiato. Togliere con attenzione il Varoma e svuotare il boccale. Nel frattempo, rivestire un vassoio con carta forno.",
+  "Con il matterello stendere l'impasto allo spessore di 1 cm circa e con un coppapasta (9 cm) ritagliare dei dischi. Con un coppapasta (0 3 cm) praticare un buco al centro di ciascun disco.",
+  "trasparente e lasciare lievitare per 45 minuti circa in luogo caldo al riparo da correnti d'aria fino a che lo spessore sara raddoppiato.",
+  "Ricoprire un vassoio con carta assorbente da cucina e sistemare dello zucchero in un piatto. In una padella antiaderente scaldare abbondante olio di arachidi (vedere consigli) e friggere le graffe a fuoco medio rigirandole fino a dorarle su entrambiilati. Scolare con un mestolo forato e far asciugare dal'olio in eccesso sul vassoio preparato poi passarle subito nello zucchero in modo che si attacchi.",
+  "Servire calde o tiepide."
+ ],
+ "note": [
+  "Resa: 15 graffe (la ricetta indica i pezzi al posto delle porzioni).",
+  "Per la realizzazione di questo impasto è importante utilizzare una farina con W di circa 280-300.",
+  "Per la buona riuscita dell'impasto è preferibile utilizzare patate rosse o a pasta farinosa (non le patate novelle che rilasciano più acqua).",
+  "È possibile cuocere le patate a Varoma con il Connect: 500 g di acqua nel boccale e 250 g di patate sbucciate a pezzi di 2-3 cm nel recipiente del Varoma, 25 min a vapore, poi schiacciare le patate ancora calde.",
+  "La temperatura ottimale dell'olio per la frittura delle graffe è di circa 165°C-170°C.",
+  "A piacere aromatizzare l'impasto con 1 cucchiaino di essenza di vaniglia o scorza di limone grattugiata."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di latte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di zucchero."
+  },
+  {
+   "tipo": "pesata",
+   "g": 5,
+   "testo": "Aggiungete 5 g di lievito di birra fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sciogliete.",
+   "tempo_s": 180,
+   "velocita": 2,
+   "temp_c": 37,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di burro, morbido, a pezzetti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di farina ad alto contenuto di glutine (vedere consigli)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 240,
+   "testo": "Aggiungete 240 g di patate a pasta farinosa, lessate e schiacciate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 uova medie."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impastate.",
+   "tempo_s": 180,
+   "velocita": null,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Impastare",
+   "avvertenza": "«Spiga» del Bimby corrisponde al programma Impastare del Connect: durata e velocità le gestisce il programma, non sostituitelo con una velocità manuale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, rivestite il recipiente del Varoma con un foglio di carta forno."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'impasto sul piano di lavoro e compattatelo formando una palla. Riponete l'impasto nel recipiente del Varoma e chiudete con il coperchio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate nel boccale 1000 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Impostate il programma Pulizia e svuotate il boccale.",
+   "avvertenza": "Programma «Pulizia» del Bimby: sul Connect usate il programma di pulizia del robot, se presente; non è nelle tabelle di conversione."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate nel boccale 250 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di succo di limone."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il recipiente del Varoma sul boccale.",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Fermentazione (lievitazione).",
+   "tempo_s": 10800,
+   "velocita": null,
+   "temp_c": 37,
+   "sinistrorsa": false,
+   "nota": "Durata 3 h o fino a che l'impasto sarà raddoppiato.",
+   "avvertenza": "Modalità «Fermentazione» del Bimby TM7 (3 h a 37 °C): non è nelle tabelle di conversione. Impostate 37 °C e 3 h e controllate sul display del Connect come farlo senza far girare le lame."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma e svuotate il boccale. Nel frattempo, rivestite un vassoio con carta forno."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con il matterello stendete l'impasto allo spessore di 1 cm circa e con un coppapasta (Ø 9 cm) ritagliate dei dischi. Con un coppapasta (Ø 3 cm) praticate un buco al centro di ciascun disco. Disponete gli anelli sul vassoio preparato in precedenza, coprite con pellicola trasparente e lasciate lievitare per 45 minuti circa in luogo caldo al riparo da correnti d'aria fino a che lo spessore sarà raddoppiato.",
+   "attesa_s": 2700
+  },
+  {
+   "tipo": "testo",
+   "testo": "Ricoprite un vassoio con carta assorbente da cucina e sistemate dello zucchero in un piatto. In una padella antiaderente scaldate abbondante olio di arachidi (vedere consigli) e friggete le graffe a fuoco medio rigirandole fino a dorarle su entrambi i lati. Scolate con un mestolo forato e fate asciugare dall'olio in eccesso sul vassoio preparato poi passatele subito nello zucchero in modo che si attacchi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calde o tiepide."
+  }
+ ],
+ "origine": "cookidoo:r756802",
+ "importata": "2026-11-05"
+}
