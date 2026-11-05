@@ -194,7 +194,7 @@ def estrai(a):
                     box = (int(FOTO[0] * w), int(FOTO[1] * sc), int(FOTO[2] * w), int(FOTO[3] * sc))
                 foto = im.crop(box)
                 if foto.width > 800: foto = foto.resize((800, round(foto.height * 800 / foto.width)), Image.LANCZOS)
-                foto.save(d / "foto.jpg", quality=86, optimize=True)
+                foto.thumbnail((640, 640)); foto.save(d / "foto.jpg", quality=74, optimize=True, progressive=True)
                 dubbi = sum(1 for r in ing + prep if r[1] < .8)
                 indice.append(f"{rid}  origine=cookidoo:{rid}  {w}x{h}  pagine={len(fogli)}  righe_incerte={dubbi}")
     (out / "indice.txt").write_text("\n".join(indice) + "\n", encoding="utf-8")
