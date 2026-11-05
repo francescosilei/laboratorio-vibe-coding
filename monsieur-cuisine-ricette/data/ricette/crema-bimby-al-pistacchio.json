@@ -1,0 +1,143 @@
+{
+ "id": "crema-bimby-al-pistacchio",
+ "titolo": "Crema Bimby @ al pistacchio",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "crema-bimby-al-pistacchio.jpg",
+ "ingredienti": [
+  {
+   "testo": "200 g di pistacchi al naturale sgusciati, precedentemente tostati (vedere consigli)",
+   "nome": "pistacchi al naturale"
+  },
+  {
+   "testo": "100 g zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "500 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "40 g farina",
+   "nome": "farina"
+  },
+  {
+   "testo": "2 uova (da 60 g circa)",
+   "nome": "uova"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale i pistacchi, lo zucchero, tritare: 20 sec./vel. 6, riunire sul fondo con la spatola.",
+  "Tritare ancora: 1 min./vel. 6 e riunire sul fondo con la spatola. Tritare ancora: 1 min./vel. 6 e riunire sul fondo con la spatola. Tritare ancora: 1 min./vel. 6, fino ad ottenere una consistenza simile a una crema. Riunire sul fondo con la spatola.",
+  "Aggiungere il latte, la farina, le uova e cuocere: 7 min./90°C/vel. 4. Trasferire la crema in una ciotola, ricoprire con la pellicola trasparente facendola aderire alla superficie e fare raffreddare.",
+  "Servire tiepida o fredda o utilizzare come desiderato."
+ ],
+ "note": [
+  "Tostareipistacchi prima della preparazione: preriscaldare il forno a 160°C. Distribuire i",
+  "pistacchi sgusciati sulla placca del forno e tostarli in forno caldo per 10 minuti (160°C).",
+  "Lasciarli raffreddare leggermente prima dell'utilizzo.",
+  "Per ottenere una crema al pistacchio dal colore verde brillante e necessario rimuovere",
+  "completamente la pelle dai pistacchi. In questo caso, prima di tostare i pistacchi in",
+  "forno, scottarli in acqua calda per 1 minuto e lasciarli in ammollo in acqua calda per altri",
+  "5-10 minuti. Scolare e rimuovere la pellicina con le mani.",
+  "E'possibile aumentare o diminuire la quantità di zucchero secondo il proprio gusto",
+  "personale."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di pistacchi al naturale sgusciati, precedentemente tostati (vedere consigli)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di zucchero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 20,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Riunire sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 60,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "e riunite sul fondo con la spatola"
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 60,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "e riunite sul fondo con la spatola"
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 60,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Fino ad ottenere una consistenza simile a una crema."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di latte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di farina."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 uova (da 60 g circa)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 420,
+   "velocita": 4,
+   "temp_c": 90,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la crema in una ciotola, ricoprire con la pellicola trasparente facendola aderire alla superficie e fare raffreddare."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite tiepida o fredda o utilizzare come desiderato."
+  }
+ ],
+ "origine": "cookidoo:r121196",
+ "importata": "2026-11-05"
+}
