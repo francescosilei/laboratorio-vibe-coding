@@ -11,7 +11,8 @@ dati = json.dumps(ricette, ensure_ascii=False)
 img = {f.name: "data:image/jpeg;base64," + base64.b64encode(f.read_bytes()).decode()
        for f in sorted((root / "data" / "img").glob("*.jpg"))}
 html = (root / "app" / "template.html").read_text(encoding="utf-8")
-html = html.replace("__REGOLE__", json.dumps(spesa.regole(), ensure_ascii=False)).replace("__DATA__", dati.replace("</", "<\\/")).replace("__IMG__", json.dumps(img))
+logo = "data:image/webp;base64," + base64.b64encode((root / "app" / "logo.webp").read_bytes()).decode()   # logo Tommy Gourmet
+html = html.replace("__LOGO__", logo).replace("__REGOLE__", json.dumps(spesa.regole(), ensure_ascii=False)).replace("__DATA__", dati.replace("</", "<\\/")).replace("__IMG__", json.dumps(img))
 out = root / "dist"; out.mkdir(exist_ok=True)
 (out / "index.html").write_text(html, encoding="utf-8")
 wrap = ('<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
