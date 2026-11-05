@@ -1,0 +1,108 @@
+{
+ "id": "zuppetta-di-pomodoro-e-peperone",
+ "titolo": "Zuppetta di pomodoro e peperone",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 10,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppetta-di-pomodoro-e-peperone.jpg",
+ "ingredienti": [
+  {
+   "testo": "340 g di pomodori freschi, a metà",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "140 g di cimette di cavolfiore, a pezzi",
+   "nome": "cavolfiore"
+  },
+  {
+   "testo": "170 g di peperone rosso, in quarti, senza semi",
+   "nome": "peperone"
+  },
+  {
+   "testo": "120 g di barbabietola rossa, sbucciata, a pezzi",
+   "nome": "barbabietola"
+  },
+  {
+   "testo": "2 cucchiai olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 cucchiaino di dado per brodo vegetale fatto in casa",
+   "nome": "dado"
+  },
+  {
+   "testo": "2 rametti di prezzemolo fresco, le foglioline",
+   "nome": "prezzemolo"
+  }
+ ],
+ "procedimento": [
+  "Oggi cucino",
+  "Mettere nel boccale i pomodori, il cavolfiore, il peperone, la barbabietola, l'olio extravergine di oliva, il dado vegetale e il prezzemolo, frullare: 10 sec./vel. 4.",
+  "Scaldare: 4 min./45°C/vel. 1. Trasferire nei piatti.",
+  "Servire."
+ ],
+ "note": [
+  "In alternativa: 15 g di barbabietola rossa, sott'aceto (al posto di quella fresca)"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 340,
+   "testo": "Pesate nel boccale 340 g di pomodori freschi, a metà."
+  },
+  {
+   "tipo": "pesata",
+   "g": 140,
+   "testo": "Aggiungete 140 g di cimette di cavolfiore, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 170,
+   "testo": "Aggiungete 170 g di peperone rosso, in quarti, senza semi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Aggiungete 120 g di barbabietola rossa, sbucciata, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiai di olio extravergine di oliva, 1 cucchiaino di dado per brodo vegetale fatto in casa e le foglioline di 2 rametti di prezzemolo fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata. Velocità 4."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Scaldate.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 45,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite nei piatti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite."
+  }
+ ],
+ "origine": "cookidoo:r143689",
+ "importata": "2026-11-05"
+}
