@@ -1,0 +1,156 @@
+{
+ "id": "trippa-alla-parmigiana",
+ "titolo": "Trippa alla parmigiana",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 80,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "trippa-alla-parmigiana.jpg",
+ "ingredienti": [
+  {
+   "testo": "60 g di Parmigiano reggiano, a pezzi (2-3 cm)",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "150 g di cipolle, in quarti",
+   "nome": "cipolle"
+  },
+  {
+   "testo": "50 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "800 g di trippa, precotta a listarelle (2 cm)",
+   "nome": "trippa"
+  },
+  {
+   "testo": "250 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "100 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano reggiano e grattugiare: 10 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale le cipolle e tritare: 10 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Unire l'olio extravergine di oliva e insaporire: 5 min./120°C/vel. 1.",
+  "Aggiungere la trippa e insaporire: 5 min./120°C//vel. .",
+  "Unire la passata di pomodoro, l'acqua, il dado e il sale, cuocere: 50 min./100°C//vel. . Trasferire in una zuppiera.",
+  "Spolverizzare con il Parmigiano reggiano grattugiato e servire calda (vedere consigli)."
+ ],
+ "note": [
+  "Per un gusto più piccante, prima di servire, irrorare con un filo di olio al peperoncino.",
+  "In alternativa: 1 dado per brodovegetale"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di Parmigiano reggiano, a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di cipolle, in quarti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Pesate 800 g di trippa, precotta a listarelle (2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di passata di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di dado per brodo vegetale, 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 3000,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate con il Parmigiano reggiano grattugiato e servite calda (vedere consigli)."
+  }
+ ],
+ "origine": "cookidoo:r443785",
+ "importata": "2026-11-05"
+}
