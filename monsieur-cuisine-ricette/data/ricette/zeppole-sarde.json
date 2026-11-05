@@ -1,0 +1,155 @@
+{
+ "id": "zeppole-sarde",
+ "titolo": "Zeppole sarde",
+ "categoria": "Dessert",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 40,
+ "tempo_cottura_min": null,
+ "tempo_min": 180,
+ "porzioni": null,
+ "difficolta": "Elevata",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zeppole-sarde.jpg",
+ "ingredienti": [
+  {
+   "testo": "220 g di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "1 arancia, preferibilmente biologica, solo la scorza (senza la parte bianca)",
+   "nome": "arancia"
+  },
+  {
+   "testo": "500 g di farina tipo 00",
+   "nome": "farina"
+  },
+  {
+   "testo": "1 limone, preferibilmente biologico, solo la scorza (senza la parte bianca)",
+   "nome": "limone"
+  },
+  {
+   "testo": "250 g di latte intero",
+   "nome": "latte"
+  },
+  {
+   "testo": "3 uova",
+   "nome": "uova"
+  },
+  {
+   "testo": "10 g di lievito di birra fresco, sbriciolato",
+   "nome": "lievito birra"
+  },
+  {
+   "testo": "1 bustina di zafferano in polvere",
+   "nome": "zafferano"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "olio di arachidi, q.b. per friggere",
+   "nome": "olio arachidi"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale 120 g di zucchero, la scorza di arancia, la scorza del limone e 50 g di farina 00, polverizzare: 10 sec./vel. 10. Riunire sul fondo con la spatola.",
+  "Aggiungere il latte, le uova, 450 g di farina, il lievito di birra sbriciolato, lo zafferano e il sale, impastare: Spiga /3 min. Trasferire in una ciotola, coprire con la pellicola trasparente e lasciare lievitare fino al raddoppio di volume (circa 2 ore).",
+  "In una padella antiaderente, scaldare abbondante olio di arachidi e rivestire un vassoio con carta assorbente. Nel frattempo, sistemare su un piatto piano 100 g di zucchero.",
+  "Trasferire la pastella in una tasca da pasticceria con bocchetta tonda e liscia e farla cadere nel'olio ben caldo formando una spirale. Friggere una zeppola per volta, rigirandola di tanto in tanto sino a completa doratura (2-3 minuti circa). Scolare le zeppole con un mestolo forato e riporle sulla carta assorbente per farle asciugare dall'olio in eccesso, poi passare subito nello zucchero da entrambe le parti. Proseguire fino all'esaurimento della pastella.",
+  "Servire calde."
+ ],
+ "note": [
+  "Resa: 10 pezzi (la ricetta indica i pezzi al posto delle porzioni).",
+  "Realizzare le spirali richiede una certa manualità. In alternativa, si possono realizzare delle semplici ciambelle.",
+  "A piacere, aggiungere al passaggio 2 un cucchiaio di \"Filu e ferro\", la tipica acquavite sarda. In alternativa, è possibile utilizzare della grappa o del liquore all'anice."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Pesate nel boccale 120 g di zucchero."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di farina tipo 00."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete la scorza di 1 arancia e la scorza di 1 limone, preferibilmente biologici (senza la parte bianca)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Polverizzate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di latte intero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 3 uova."
+  },
+  {
+   "tipo": "pesata",
+   "g": 450,
+   "testo": "Aggiungete 450 g di farina tipo 00."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di lievito di birra fresco, sbriciolato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 bustina di zafferano in polvere e ½ cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impastate.",
+   "tempo_s": 180,
+   "velocita": null,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Impastare",
+   "avvertenza": "«Spiga» del Bimby corrisponde al programma Impastare del Connect: durata e velocità le gestisce il programma, non sostituitelo con una velocità manuale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola, coprite con la pellicola trasparente e lasciate lievitare fino al raddoppio di volume (circa 2 ore).",
+   "attesa_s": 7200
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una padella antiaderente, scaldate abbondante olio di arachidi e rivestite un vassoio con carta assorbente."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Nel frattempo, sistemate su un piatto piano 100 g di zucchero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la pastella in una tasca da pasticceria con bocchetta tonda e liscia e fatela cadere nell'olio ben caldo formando una spirale. Friggete una zeppola per volta, rigirandola di tanto in tanto sino a completa doratura (2-3 minuti circa). Scolate le zeppole con un mestolo forato e riponetele sulla carta assorbente per farle asciugare dall'olio in eccesso, poi passatele subito nello zucchero da entrambe le parti. Proseguite fino all'esaurimento della pastella."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calde."
+  }
+ ],
+ "origine": "cookidoo:r797180",
+ "importata": "2026-11-05"
+}
