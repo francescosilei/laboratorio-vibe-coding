@@ -1,0 +1,180 @@
+{
+ "id": "bocconcini-di-maiale-yogurt-e-frutta-secca",
+ "titolo": "Bocconcini di maiale yogurt e frutta secca",
+ "categoria": "Secondi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 80,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "bocconcini-di-maiale-yogurt-e-frutta-secca.jpg",
+ "ingredienti": [
+  {
+   "testo": "50 g di anacardi non salati",
+   "nome": "anacardi"
+  },
+  {
+   "testo": "50 g di mandorle pelate non salate",
+   "nome": "mandorle"
+  },
+  {
+   "testo": "50 g di cipolla",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "40 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "500 g di bocconcini di carne di maiale senza nervi (coppa o filetto), 2-3 cm",
+   "nome": "bocconcini maiale"
+  },
+  {
+   "testo": "farina tipo 00, q.b.",
+   "nome": "farina"
+  },
+  {
+   "testo": "50 g di vino bianco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "200 g di yogurt bianco magro, non zuccherato",
+   "nome": "yogurt"
+  },
+  {
+   "testo": "½ cucchiaino di paprika dolce",
+   "nome": "paprika dolce"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale gli anacardi e le mandorle, tritare: 3 sec./vel. 6. Trasferire in una ciotola.",
+  "Senza lavare il boccale mettere la cipolla, tritare: 3 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva ed insaporire: 3 min./120c/vel. 1. Nel frattempo, infarinare i bocconcini di maiale.",
+  "Unire i bocconcini di maiale infarinati e insaporire: 4 min./120°C//vel. .",
+  "Aggiungere il vino e sfumare: 3 min./120°C//vel. , senza il misurino.",
+  "Unire lo yogurt, la frutta secca tritata, la paprika e il sale, cuocere:"
+ ],
+ "note": [
+  "Accompagnare a piacere con del riso basmati bollito.",
+  "In alternativa: ½ cucchiaino di paprika piccante (al posto della dolce)"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di anacardi non salati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di mandorle pelate non salate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Senza lavare il boccale pesate 50 g di cipolla."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, infarinate i bocconcini di maiale con la farina tipo 00."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Unite 500 g di bocconcini di carne di maiale senza nervi (coppa o filetto), 2-3 cm, infarinati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di vino bianco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate senza misurino.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Unite 200 g di yogurt bianco magro, non zuccherato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete la frutta secca tritata, ½ cucchiaino di paprika dolce e ½ cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 3000,
+   "velocita": 1,
+   "temp_c": 98,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite nei piatti e servite caldo (vedere consigli)."
+  }
+ ],
+ "origine": "cookidoo:r554993",
+ "importata": "2026-11-05"
+}

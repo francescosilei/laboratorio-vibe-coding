@@ -1,0 +1,267 @@
+{
+ "id": "krapfen-con-crema-pasticcera",
+ "titolo": "Krapfen con crema pasticcera",
+ "categoria": "Dessert",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 30,
+ "tempo_cottura_min": null,
+ "tempo_min": 260,
+ "porzioni": null,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "krapfen-con-crema-pasticcera.jpg",
+ "ingredienti": [
+  {
+   "testo": "170 g di latte",
+   "nome": "latte",
+   "gruppo": "Krapfen"
+  },
+  {
+   "testo": "280 g di acqua",
+   "nome": "acqua",
+   "gruppo": "Krapfen"
+  },
+  {
+   "testo": "15 g di lievito di birra fresco, sbriciolato",
+   "nome": "lievito birra",
+   "gruppo": "Krapfen"
+  },
+  {
+   "testo": "80 g di zucchero",
+   "nome": "zucchero",
+   "gruppo": "Krapfen"
+  },
+  {
+   "testo": "50 g di burro, a pezzi",
+   "nome": "burro",
+   "gruppo": "Krapfen"
+  },
+  {
+   "testo": "500 g di farina di forza (contenuto di proteine 12%)",
+   "nome": "farina forza",
+   "gruppo": "Krapfen"
+  },
+  {
+   "testo": "1 uovo",
+   "nome": "uova",
+   "gruppo": "Krapfen"
+  },
+  {
+   "testo": "1 tuorlo",
+   "nome": "tuorli",
+   "gruppo": "Krapfen"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale",
+   "gruppo": "Krapfen"
+  },
+  {
+   "testo": "20 g di succo di limone",
+   "nome": "succo limone",
+   "gruppo": "Krapfen"
+  },
+  {
+   "testo": "½ - 1 stecca di vaniglia, i semi estratti",
+   "nome": "vaniglia",
+   "gruppo": "Crema pasticcera"
+  },
+  {
+   "testo": "100 g di zucchero",
+   "nome": "zucchero",
+   "gruppo": "Crema pasticcera"
+  },
+  {
+   "testo": "500 g di latte intero",
+   "nome": "latte",
+   "gruppo": "Crema pasticcera"
+  },
+  {
+   "testo": "5 tuorli",
+   "nome": "tuorli",
+   "gruppo": "Crema pasticcera"
+  },
+  {
+   "testo": "50 g di farina tipo 00",
+   "nome": "farina",
+   "gruppo": "Crema pasticcera"
+  },
+  {
+   "testo": "olio di arachidi, q.b.",
+   "nome": "olio arachidi",
+   "gruppo": "Terminare la preparazione"
+  },
+  {
+   "testo": "zucchero a velo (opzionale), a piacere",
+   "nome": "zucchero velo",
+   "gruppo": "Terminare la preparazione"
+  }
+ ],
+ "procedimento": [
+  "Posizionare la farfalla sul fondo del recipiente del Varoma. Foderare il recipiente con carta forno e tenere da parte.",
+  "Mettere nel boccale il latte, 30 g di acqua, il lievito e 15 g di zucchero, scaldare: 3 min./37°C/vel. 3.",
+  "Aggiungere il burro, la farina, 65 g di zucchero, l'uovo, il tuorlo e il sale, impastare: Spiga /5 min.. Trasferire l'impasto sul piano di lavoro e formare una palla. Posizionare allinterno del recipiente del Varoma preparato e chiudere con il coperchio.",
+  "Mettere nel boccale 250 g di acqua e il succo di limone, posizionare il Varoma e impostare Fermentazione ½ h 30 min./40°C. Togliere con attenzione il Varoma e tenere da parte.",
+  "Infarinate leggermente un vassoio. Trasferire l'impasto sul piano di lavoro infarinato e, con un matterello, stenderlo formando un cerchio spesso circa 8 mm. Utilizzare un coppapasta (O 8 cm), ritagliare 8 cerchi e posizionarli sul vassoio preparato (vedere consigli). Coprire con pellicola trasparente e lasciare lievitare fino al raddoppio delle dimensioni (circa l ora). Nel frattempo, lavare il boccale e preparare la crema pasticcera.",
+  "Crema pasticcera. Mettere nel boccale la vaniglia, lo zucchero, il latte, i tuorli e la farina 00, impostare",
+  "Crema pasticcera. coprire con pellicola trasparente a contatto e lasciare raffreddare.",
+  "Terminare la preparazione. In una padella dai bordi alti, scaldare abbondante olio di arachidi e sistemare sul piano di lavoro un piatto rivestito con della carta assorbente da cucina. Immergerei krapfen nell'olio bollente e cuocere circa 2-3 minuti. Girare i krapfen e cuocere altri 2-3 minuti o fino a doratura. Scolare i krapfen con un mestolo forato, adagiarli sulla",
+  "Terminare la preparazione. Trasferire la crema pasticcera in una tasca da pasticcieria con bocchetta festonata o liscia (0 15 mm) e farcire i krapfen. Spolverizzare con zucchero a velo e servire."
+ ],
+ "note": [
+  "Resa: 8 krapfen (la ricetta indica i pezzi al posto delle porzioni).",
+  "Controllare la temperatura dell'olio con un termometro. Per una frittura ottimale, l'olio non dovrà essere inferiore a 170°C.",
+  "Si consiglia di non reimpastare la pasta stesa che rimane dopo avere ritagliato i krapfen perché si indurisce. Ritagliarla invece con una rotella, friggerla e spolverizzarla con dello zucchero a velo.",
+  "In alternativa: 1 cucchiaino di estratto di vaniglia naturale (al posto della stecca)"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Posizionate la farfalla sul fondo del recipiente del Varoma. Foderate il recipiente con carta forno e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 170,
+   "testo": "Pesate nel boccale 170 g di latte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Aggiungete 15 g di lievito di birra fresco, sbriciolato."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Aggiungete 15 g di zucchero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Scaldate.",
+   "tempo_s": 180,
+   "velocita": 3,
+   "temp_c": 37,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di burro, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di farina di forza (contenuto di proteine 12%)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 65,
+   "testo": "Aggiungete 65 g di zucchero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 uovo, 1 tuorlo e ½ cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impastate.",
+   "tempo_s": 300,
+   "velocita": null,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Impastare",
+   "avvertenza": "«Spiga» del Bimby corrisponde al programma Impastare del Connect: durata e velocità le gestisce il programma, non sostituitelo con una velocità manuale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'impasto sul piano di lavoro e formate una palla. Posizionatelo all'interno del recipiente del Varoma preparato e chiudete con il coperchio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate nel boccale 250 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di succo di limone."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il Varoma sul boccale.",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Fermentazione (lievitazione).",
+   "tempo_s": 9000,
+   "velocita": null,
+   "temp_c": 40,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Fermentazione» del Bimby TM7 (2 h 30 min a 40 °C): non è nelle tabelle di conversione. Impostate 40 °C e 2 h 30 min e controllate sul display del Connect come farlo senza far girare le lame."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma e tenetelo da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Infarinate leggermente un vassoio. Trasferite l'impasto sul piano di lavoro infarinato e, con un matterello, stendetelo formando un cerchio spesso circa 8 mm. Utilizzate un coppapasta (Ø 8 cm), ritagliate 8 cerchi e posizionateli sul vassoio preparato (vedere consigli). Coprite con pellicola trasparente e lasciate lievitare fino al raddoppio delle dimensioni (circa 1 ora). Nel frattempo, lavate il boccale e preparate la crema pasticcera.",
+   "attesa_s": 3600
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale i semi di ½ - 1 stecca di vaniglia."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di zucchero."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di latte intero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 5 tuorli."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di farina tipo 00."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Addensate con il cestello al posto del misurino.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il programma «Addensare» del Bimby non indica la durata: controllate la densità.",
+   "avvertenza": "Programma «Addensare» del Bimby: non è nelle tabelle di conversione. Cuocete a 100 °C finché la crema è densa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola, coprite con pellicola trasparente a contatto e lasciate raffreddare."
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una padella dai bordi alti, scaldate abbondante olio di arachidi (almeno 170 °C) e sistemate sul piano di lavoro un piatto rivestito con della carta assorbente da cucina. Immergete i krapfen nell'olio bollente e cuocete circa 2-3 minuti. Girate i krapfen e cuocete altri 2-3 minuti o fino a doratura. Scolate i krapfen con un mestolo forato, adagiateli sulla carta assorbente da cucina per farli asciugare poi sistemateli su una gratella."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la crema pasticcera in una tasca da pasticceria con bocchetta festonata o liscia (Ø 15 mm) e farcite i krapfen. Spolverizzate con zucchero a velo e servite."
+  }
+ ],
+ "origine": "cookidoo:r687258",
+ "importata": "2026-11-05"
+}
