@@ -18,6 +18,7 @@ import valida
 ROOT = valida.ROOT
 INBOX, OK, FAILED = (ROOT / "import" / d for d in ("inbox", "ok", "failed"))
 IMG = ROOT / "data" / "img"
+FOTO_LARGHEZZA, FOTO_QUALITA = 640, 74       # larghezza massima (px) e qualità JPEG delle foto nell'app
 SALTA = {".gitkeep", "README.md"}
 
 
@@ -83,9 +84,9 @@ def aggiungi(a):
             im = im.crop(tuple(int(x) for x in a.crop.split(",")))
         if im.width < 600:                       # anteprime piccole: raddoppia per un risultato più morbido
             im = im.resize((im.width * 2, im.height * 2), Image.LANCZOS)
-        if im.width > 800:
-            im = im.resize((800, round(im.height * 800 / im.width)), Image.LANCZOS)
-        im.save(IMG / f"{rid}.jpg", quality=86, optimize=True)
+        if im.width > FOTO_LARGHEZZA:            # compressione automatica di ogni foto nuova (stesse impostazioni di tutte le altre)
+            im = im.resize((FOTO_LARGHEZZA, round(im.height * FOTO_LARGHEZZA / im.width)), Image.LANCZOS)
+        im.save(IMG / f"{rid}.jpg", quality=FOTO_QUALITA, optimize=True, progressive=True)
         r["immagine"] = f"{rid}.jpg"
     r.setdefault("importata", datetime.date.today().isoformat())
     (ROOT / "data" / "ricette" / f"{rid}.json").write_text(json.dumps(r, ensure_ascii=False, indent=1), encoding="utf-8")
