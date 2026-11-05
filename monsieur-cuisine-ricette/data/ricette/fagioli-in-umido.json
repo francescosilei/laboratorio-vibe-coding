@@ -1,0 +1,150 @@
+{
+ "id": "fagioli-in-umido",
+ "titolo": "Fagioli in umido",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 90,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "fagioli-in-umido.jpg",
+ "ingredienti": [
+  {
+   "testo": "80 g di cipolla bianca, in quarti",
+   "nome": "cipolla bianca"
+  },
+  {
+   "testo": "1 spicchio di aglio, senz'anima",
+   "nome": "aglio"
+  },
+  {
+   "testo": "150 g di pomodori ciliegino, a metà",
+   "nome": "pomodori ciliegino"
+  },
+  {
+   "testo": "60 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "2 rametti di prezzemolo fresco, le foglioline lavate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "1 cucchiaino di rosmarino secco in polvere",
+   "nome": "rosmarino secco"
+  },
+  {
+   "testo": "1 cucchiaino colmo di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "280 g di fagioli bianchi, ammollati in acqua peril tempo indicato sulla, confezione",
+   "nome": "fagioli bianchi"
+  },
+  {
+   "testo": "1000 g di acqua",
+   "nome": "acqua"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla, l'aglio e i pomodorini, tritare: 5 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Unire l'olio extravergine di oliva, il prezzemolo e il rosmarino, insaporire: 5 min./120°C/vel. 1 con il cestello al posto del misurino.",
+  "Aggiungere il sale, i fagioli e l'acqua, cuocere: 60 min./100°C//vel. con il cestello al posto del misurino per evitare schizzi. Verificare la cottura, e se si desidera una zuppa meno brodosa, prolungare la cottura: 15 min./120°C//vel. ≤ con il cestello al posto del misurino per evitare schizzi.",
+  "Servire all'interno di una zuppiera o in 4 piatti fondi (vedere consigli)."
+ ],
+ "note": [
+  "Accompagnare a piacere la zuppa con crostini di pane, fette di pane tostato o arricchire",
+  "il piatto con una pasta corta o cereali vari (farro, orzo, miglio, riso, ecc.)."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di cipolla bianca, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di pomodori ciliegino, a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, senz'anima."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate 60 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 rametti di prezzemolo fresco, le foglioline lavate, 1 cucchiaino di rosmarino secco in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false,
+   "nota": "Con il cestello al posto del misurino."
+  },
+  {
+   "tipo": "pesata",
+   "g": 280,
+   "testo": "Pesate 280 g di fagioli bianchi, ammollati in acqua peril tempo indicato sulla, confezione."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Aggiungete 1000 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 3600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Con il cestello al posto del misurino per evitare schizzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "≤ con il cestello al posto del misurino per evitare schizzi"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite all'interno di una zuppiera o in 4 piatti fondi (vedere consigli)."
+  }
+ ],
+ "origine": "cookidoo:r142104",
+ "importata": "2026-11-05"
+}

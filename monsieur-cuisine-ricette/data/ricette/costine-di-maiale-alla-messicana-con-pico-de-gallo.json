@@ -1,0 +1,233 @@
+{
+ "id": "costine-di-maiale-alla-messicana-con-pico-de-gallo",
+ "titolo": "Costine di maiale alla messicana con pico de gallo",
+ "categoria": "Secondi",
+ "paese": "Messico",
+ "dedotto": [
+  "categoria",
+  "paese"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "costine-di-maiale-alla-messicana-con-pico-de-gallo.jpg",
+ "ingredienti": [
+  {
+   "testo": "500 g di pomodori, a metà",
+   "nome": "pomodori",
+   "gruppo": "Pico de gallo"
+  },
+  {
+   "testo": "20 - 30 g di peperoncino jalapeno, senzaisemi",
+   "nome": "peperoncino jalapeno",
+   "gruppo": "Pico de gallo"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio",
+   "gruppo": "Pico de gallo"
+  },
+  {
+   "testo": "50 g di cipolla dorata, a pezzi",
+   "nome": "cipolla dorata",
+   "gruppo": "Pico de gallo"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale",
+   "gruppo": "Pico de gallo"
+  },
+  {
+   "testo": "1 rametto di coriandolo fresco, le foglioline lavate",
+   "nome": "coriandolo",
+   "gruppo": "Pico de gallo"
+  },
+  {
+   "testo": "200 g di bibita cola",
+   "nome": "bibita cola",
+   "gruppo": "Costine"
+  },
+  {
+   "testo": "140 g di chipotle (peperoncino messicano, affumicato), in salsa adobo",
+   "nome": "chipotle",
+   "gruppo": "Costine"
+  },
+  {
+   "testo": "100 g di panela, a pezzi",
+   "nome": "panela",
+   "gruppo": "Costine"
+  },
+  {
+   "testo": "80 g di salsa di soia",
+   "nome": "salsa soia",
+   "gruppo": "Costine"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio",
+   "gruppo": "Costine"
+  },
+  {
+   "testo": "180 g di cipolla dorata, a pezzi",
+   "nome": "cipolla dorata",
+   "gruppo": "Costine"
+  },
+  {
+   "testo": "40 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva",
+   "gruppo": "Costine"
+  },
+  {
+   "testo": "1000 g di costine di maiale (a pezzi di 5-6 cm)",
+   "nome": "costine maiale",
+   "gruppo": "Costine"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale",
+   "gruppo": "Costine"
+  },
+  {
+   "testo": "1 cucchiaino di pepe nero macinato fresco",
+   "nome": "pepe",
+   "gruppo": "Costine"
+  }
+ ],
+ "procedimento": [
+  "Pico de gallo. Mettere nel boccale i pomodori, il peperoncino jalapeno, lo spicchio di aglio, la cipolla dorata, il sale e il coriandolo fresco, tritare: 5 sec./vel. 5. Trasferire in una ciotola e tenere da parte.",
+  "Costine   [?0.74]. Mettere nel boccale la bibita cola, la salsa chipotle, la panela e la salsa di soia, tritare: 20 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Costine   [?0.74]. Mettere nel boccale gli spicchi di aglio, la cipolla dorata e l'olio extravergine di oliva, tritare: 5 sec./vel. 6.",
+  "Costine   [?0.74]. Aggiungere le costine di maiale, il sale e il pepe, insaporire: 7 min./120°C//vel. 1.",
+  "Costine   [?0.74]. Unire la salsa alla cola tenuta da parte, appoggiare il cestello sopra il coperchio al posto del misurino e cuocere: 40 min./100°C//vel. 1. Trasferire in un piatto da portata e servire subito accompagnando con il pico de gallo."
+ ],
+ "note": [
+  "La panela, nota anche con il nome di piloncillo, e un preparato alimentare tipico dei",
+  "paesi del'America Latina, ottenuto dal succo della canna da zucchero essiccato e non",
+  "ancora sottoposto al processo di raffinazione che lo trasforma in zucchero di canna (o",
+  "muscovado). Questo prodotto si puo trovare nei grandi supermercati o centri",
+  "commerciali.",
+  "A piacere, si consiglia di accompagnare le costine di maiale con tortillas di mais.",
+  "In alternativa: 100 g di zucchero grezzo"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate nel boccale 500 g di pomodori, a metà."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di peperoncino jalapeno, senzaisemi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di cipolla dorata, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, 1 cucchiaino di sale, 1 rametto di coriandolo fresco, le foglioline lavate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di bibita cola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di salsa di soia."
+  },
+  {
+   "tipo": "pesata",
+   "g": 140,
+   "testo": "Aggiungete 140 g di chipotle (peperoncino messicano, affumicato), in salsa adobo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di panela, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 20,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 180,
+   "testo": "Pesate nel boccale 180 g di cipolla dorata, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate 1000 g di costine di maiale (a pezzi di 5-6 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di pepe nero macinato fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete salsa soia (messo da parte)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 2400,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in un piatto da portata e servite subito accompagnando con il pico de gallo."
+  }
+ ],
+ "origine": "cookidoo:r134943",
+ "importata": "2026-11-05"
+}
