@@ -1,0 +1,218 @@
+{
+ "id": "zuppa-di-baita",
+ "titolo": "Zuppa di baita",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-baita.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di Gruviera, a pezzi (3 cm)",
+   "nome": "gruviera"
+  },
+  {
+   "testo": "150 g di porro, a pezzi (3 cm)",
+   "nome": "porro"
+  },
+  {
+   "testo": "80 g di cipolla",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "100 g di carote, pelate e a pezzi (3 cm)",
+   "nome": "carote"
+  },
+  {
+   "testo": "260 g di patate, pelate e a pezzi (3 cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "30 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "2 dadi per brodo vegetale (dose per 0,5 l)",
+   "nome": "dadi"
+  },
+  {
+   "testo": "50 - 80 g di pasta corta a piacere",
+   "nome": "pasta corta"
+  },
+  {
+   "testo": "200 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "100 g di panna (min. 30% di grassi) (opzionale)",
+   "nome": "panna"
+  },
+  {
+   "testo": "100 g di spinaci baby freschi, lavati",
+   "nome": "spinaci baby"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "1 pizzico di noce moscata in polvere",
+   "nome": "noce moscata"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il formaggio Gruviera, tritare: 10 sec./vel. 5. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale il porro, le cipolle, le carote e le patate, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere il burro e insaporire: 5 min./120°C//vel. .",
+  "Unire l'acqua e i dadi, cuocere: 12 min./100°C//vel. .",
+  "Aggiungere la pasta e il latte, cuocere: 10 min./100°C//vel. .",
+  "Unire a piacere la panna, gli spinacini, il formaggio Gruviera grattugiato, il pepe e la noce moscata, mescolare: 3 min./98°C//vel. 1.",
+  "Servire la zuppa calda."
+ ],
+ "note": [
+  "Questa zuppa e nata quando sugli alpeggi non vi erano verdure fresche a disposizione.",
+  "Per contro,latte, formaggio ed erbe aromatiche erano presenti in grandi quantità. Con",
+  "pietanza che poteva essere preparata facilmente sul fuoco del camino."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di Gruviera, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di porro, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di cipolla."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di carote, pelate e a pezzi (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 260,
+   "testo": "Aggiungete 260 g di patate, pelate e a pezzi (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di burro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 dadi per brodo vegetale (dose per 0,5 l)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 720,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di pasta corta a piacere."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di latte."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di panna (min. 30% di grassi) (opzionale)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di spinaci baby freschi, lavati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete gruviera (messo da parte), 1 pizzico di pepe nero macinato, 1 pizzico di noce moscata in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 98,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la zuppa calda."
+  }
+ ],
+ "origine": "cookidoo:r554159",
+ "importata": "2026-11-05"
+}
