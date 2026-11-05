@@ -1,0 +1,206 @@
+{
+ "id": "vellutata-di-piselli-con-palline-di-ricotta",
+ "titolo": "Vellutata di piselli con palline di ricotta",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-di-piselli-con-palline-di-ricotta.jpg",
+ "ingredienti": [
+  {
+   "testo": "250 g di ricotta fresca, scolata dal siero e fredda (vedere consigli)",
+   "nome": "ricotta",
+   "gruppo": "Palline di ricotta"
+  },
+  {
+   "testo": "10 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva",
+   "gruppo": "Palline di ricotta"
+  },
+  {
+   "testo": "90 g di farina tipo 00",
+   "nome": "farina",
+   "gruppo": "Palline di ricotta"
+  },
+  {
+   "testo": "1 uovo",
+   "nome": "uovo",
+   "gruppo": "Palline di ricotta"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale",
+   "gruppo": "Palline di ricotta"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe",
+   "gruppo": "Palline di ricotta"
+  },
+  {
+   "testo": "1000 g di acqua",
+   "nome": "acqua",
+   "gruppo": "Palline di ricotta"
+  },
+  {
+   "testo": "20 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva",
+   "gruppo": "Vellutata"
+  },
+  {
+   "testo": "200 g di scalogni, puliti e a metà peril lungo",
+   "nome": "scalogni",
+   "gruppo": "Vellutata"
+  },
+  {
+   "testo": "500 g di piselli freschi",
+   "nome": "piselli",
+   "gruppo": "Vellutata"
+  },
+  {
+   "testo": "500 g di acqua (vedere consigli)",
+   "nome": "acqua",
+   "gruppo": "Vellutata"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale",
+   "gruppo": "Vellutata"
+  },
+  {
+   "testo": "pepe nero macinato, a piacere",
+   "nome": "pepe",
+   "gruppo": "Vellutata"
+  }
+ ],
+ "procedimento": [
+  "Palline di ricotta. Mettere nel boccale la ricotta, 'olio extravergine di oliva, la farina, l'uovo, il sale e il pepe e impostare Frullare @/10 sec.. Trasferire il composto in una ciotola e tenere da parte.",
+  "Palline di ricotta. Mettere nel boccale l'acqua e impostare Pulizia O+/Breve. Svuotare e asciugare il boccale.",
+  "Vellutata. Mettere nel boccale l'olio extravergine di oliva e lo scalogno, impostare Alta temperatura sSs. Nel frattempo riprendere il composto di ricotta e con le mani inumidite formare delle palline di 15-20 g ciascuna, disporle nel recipiente del Varoma e chiudere con il coperchio.",
+  "Vellutata. Aggiungere nel boccale i piselli, l'acqua e il sale, posizionare il Varoma e cuocere: 20 min./Varoma/vel. 1. Togliere con attenzione il Varoma.",
+  "Vellutata. Posizionare il misurino e impostare Frullare @/1 min.. Trasferire la vellutata in 4 piatti fondi.",
+  "Vellutata. Spolverizzare a piacere con del pepe e servire con le palline di ricotta."
+ ],
+ "note": [
+  "Per una migliore riuscita della ricetta utilizzare ricotta compatta e di ottima qualita.",
+  "Se si preferisce una zuppa meno densa, aumentare la quantità di acqua di 100 g.",
+  "Insaporire le verdure con l'Alta Temperatura arricchisce di sapore e caramella gli",
+  "zuccheri naturali. Questi zuccheri possono lasciare dei residui sul fondo del boccale",
+  "così come accadrebbe in padella. Questi residui possono essere deglassati con",
+  "l'aggiunta di un liquido conferendo sapore extra al piatto; se invece lo scalogno brunito",
+  "si serve subito, e sufficiente pre-pulire il boccale con la Modalita Pulizia perfacilitare il",
+  "lavaggio del boccale.",
+  "In alternativa: 500 g di piselli surgelati"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate nel boccale 250 g di ricotta fresca, scolata dal siero e fredda (vedere consigli)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 90,
+   "testo": "Aggiungete 90 g di farina tipo 00."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 uovo, 1 pizzico di sale, 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il composto in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate nel boccale 1000 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Svuotate e asciugare il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di scalogni, puliti e a metà peril lungo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo riprendete il composto di ricotta e con le mani inumidite formate delle palline di 15-20 g ciascuna, disporle nel recipiente del Varoma e chiudere con il coperchio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate nel boccale 500 g di piselli freschi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua (vedere consigli)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la vellutata in 4 piatti fondi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate a piacere con del pepe e servite con le palline di ricotta."
+  }
+ ],
+ "origine": "cookidoo:r609810",
+ "importata": "2026-11-05"
+}

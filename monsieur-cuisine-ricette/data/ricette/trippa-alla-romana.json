@@ -1,0 +1,244 @@
+{
+ "id": "trippa-alla-romana",
+ "titolo": "Trippa alla romana",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 120,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "trippa-alla-romana.jpg",
+ "ingredienti": [
+  {
+   "testo": "60 g di pecorino Romano, a pezzi (2-3 cm)",
+   "nome": "pecorino romano"
+  },
+  {
+   "testo": "100 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "80 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "50 g di gambo di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "½ spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1 pizzico di peperoncino rosso piccante",
+   "nome": "peperoncino rosso piccante"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "70 g di guanciale, a cubetti",
+   "nome": "guanciale"
+  },
+  {
+   "testo": "800 g di trippa, precotta, a listarelle (2 cm) (vedere consigli e varianti)",
+   "nome": "trippa"
+  },
+  {
+   "testo": "80 g di vino bianco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "350 g di pomodori pelati, a pezzi",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "100 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di dado per brodo di carne",
+   "nome": "dado"
+  },
+  {
+   "testo": "10 foglioline di menta fresca",
+   "nome": "menta"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Pecorino romano e grattugiare: 10 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale la cipolla, la carota, il sedano, l'aglio e il peperoncino, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 5 min./120°C/vel. 1.",
+  "Unire il guanciale e insaporire: 3 min./120°C//vel. 1.",
+  "Aggiungere la trippa e insaporire: 5 min./120°C//vel. .",
+  "Unire il vino bianco e sfumare: 2 min./100°C//vel. .",
+  "Aggiungere i pomodori pelati, l'acqua e il dado, impostare Cottura lenta O/1 h/98°C.",
+  "Unire le foglioline di menta e proseguire la cottura, impostare Cottura lenta O/30 min./98°C. Controllare la cottura (vedere consigli). Trasferire in una zuppiera.",
+  "Servire spolverizzando con il Pecorino grattugiato."
+ ],
+ "note": [
+  "Si consiglia di sciacquare bene la trippa, almeno 2-3 volte, prima di cuocerla.",
+  "Se si preferisce una trippa più densa, al termine del passaggio 8, proseguire la cottura:",
+  "10 min./Varoma//vel. .",
+  "Se si utilizza una trippa fresca, al passaggio 8 impostare Cotturalenta O/1 h 30",
+  "min./98°C."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di pecorino Romano, a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di gambo di sedano, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ spicchio di aglio, 1 pizzico di peperoncino rosso piccante."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Pesate 70 g di guanciale, a cubetti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Pesate 800 g di trippa, precotta, a listarelle (2 cm) (vedere consigli e varianti)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate 80 g di vino bianco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di pomodori pelati, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di dado per brodo di carne."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 3600,
+   "velocita": null,
+   "temp_c": 98,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Cottura lenta» del Bimby: non è nelle tabelle di conversione. Traduzione al meglio: controllate sul display del Connect come impostarla."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 10 foglioline di menta fresca."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": null,
+   "temp_c": 98,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Cottura lenta» del Bimby: non è nelle tabelle di conversione. Traduzione al meglio: controllate sul display del Connect come impostarla."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Controllate la cottura (vedere consigli)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite spolverizzando con il Pecorino grattugiato."
+  }
+ ],
+ "origine": "cookidoo:r805564",
+ "importata": "2026-11-05"
+}

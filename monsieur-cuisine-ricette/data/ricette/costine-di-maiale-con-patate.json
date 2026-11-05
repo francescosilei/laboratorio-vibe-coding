@@ -1,0 +1,245 @@
+{
+ "id": "costine-di-maiale-con-patate",
+ "titolo": "Costine di maiale con patate",
+ "categoria": "Secondi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 90,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "costine-di-maiale-con-patate.jpg",
+ "ingredienti": [
+  {
+   "testo": "40 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "3 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "500 g di costine di maiale, a pezzi (5-6 cm)",
+   "nome": "costine maiale"
+  },
+  {
+   "testo": "20 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "150 g di cipolle, in quarti",
+   "nome": "cipolle"
+  },
+  {
+   "testo": "100 g di carote, pelate a pezzi (3 cm)",
+   "nome": "carote"
+  },
+  {
+   "testo": "150 g di peperoni rossi, puliti e a pezzi (3 cm)",
+   "nome": "peperoni rossi"
+  },
+  {
+   "testo": "80 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "80 g di birra, chiara",
+   "nome": "birra"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "1 foglia di alloro secca",
+   "nome": "alloro secca"
+  },
+  {
+   "testo": "700 g di patate, pelate e a cubetti (2 cm)",
+   "nome": "patate"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale 20 g di olio extravergine di oliva e l spicchio di aglio, insaporire: 2 min. 30 sec./120°C/vel. .",
+  "Aggiungere 250 g di costine di maiale, assicurandosi che siano distribuite uniformemente e impostare Alta temperatura $Ss. Trasferire tutto il contenuto del boccale in una ciotola e tenere da parte. A piacere, eliminare lo spicchio di aglio.",
+  "Mettere nel boccale 20 g di olio extravergine di oliva e 1 spicchio di aglio, insaporire: 2 min. 30 sec./120°C/vel. .",
+  "Aggiungere 250 g di costine di maiale, assicurandosi che siano distribuite uniformemente e impostare Alta temperatura SSs. Trasferire nella ciotola con le costine, eliminare a piacere l'aglio e tenere da parte.",
+  "Mettere nel boccale 20 g di olio extravergine di oliva, 1 spicchio di aglio, le cipolle, le carote e i peperoni rossi, tritare: 3 sec./vel. 5. Riunire sul fondo con la spatola, insaporire: 7 min./120°C//vel. 1.",
+  "Aggiungere la passata, la birra, l'acqua, il dado e l'alloro, cuocere: 7 min./100°C/vel. .",
+  "Unire le costine di maiale rosolate e il liquido di cottura, impostare y Cottura Aperta/20 min./100°C. Durante la cottura mescolare delicatamente a fondo con la spatola.",
+  "Aggiungere le patate e impostare y Cottura Aperta/35 min./100°C. Durante la cottura mescolare delicatamente a fondo con la spatola. Servire calde."
+ ],
+ "note": [
+  "In alternativa: 40 g di olio di oliva",
+  "In alternativa: 1 dado per brodovegetale"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 3 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 150,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di costine di maiale, a pezzi (5-6 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite tutto il contenuto del boccale in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "A piacere, eliminare lo spicchio di aglio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 150,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di costine di maiale, a pezzi (5-6 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite nella ciotola con le costine, eliminare a piacere l'aglio e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di cipolle, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di carote, pelate a pezzi (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di peperoni rossi, puliti e a pezzi (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate 80 g di passata di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di birra, chiara."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di dado per brodo vegetale, 1 foglia di alloro secca."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete costine maiale (messo da parte)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": null,
+   "temp_c": 100,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Cottura Aperta» del Bimby TM7 (cottura a boccale aperto, senza far girare le lame): non è nelle tabelle di conversione. Impostate tempo e temperatura e controllate sul display del Connect come evitare la rotazione."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Durante la cottura mescolate delicatamente a fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Pesate 700 g di patate, pelate e a cubetti (2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 2100,
+   "velocita": null,
+   "temp_c": 100,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Cottura Aperta» del Bimby TM7 (cottura a boccale aperto, senza far girare le lame): non è nelle tabelle di conversione. Impostate tempo e temperatura e controllate sul display del Connect come evitare la rotazione."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Durante la cottura mescolate delicatamente a fondo con la spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calde."
+  }
+ ],
+ "origine": "cookidoo:r914231",
+ "importata": "2026-11-05"
+}

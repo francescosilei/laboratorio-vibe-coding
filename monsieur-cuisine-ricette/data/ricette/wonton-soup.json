@@ -1,0 +1,293 @@
+{
+ "id": "wonton-soup",
+ "titolo": "Wonton soup",
+ "categoria": "Primi",
+ "paese": "Cina",
+ "dedotto": [
+  "categoria",
+  "paese"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "wonton-soup.jpg",
+ "ingredienti": [
+  {
+   "testo": "150 g di funghi shiitake freschi, in quarti",
+   "nome": "funghi shiitake",
+   "gruppo": "Wonton"
+  },
+  {
+   "testo": "150 g di foglie di cavolo cinese, a pezzi",
+   "nome": "cavolo cinese",
+   "gruppo": "Wonton"
+  },
+  {
+   "testo": "10 g di zenzero, radice fresca",
+   "nome": "zenzero",
+   "gruppo": "Wonton"
+  },
+  {
+   "testo": "3 cipollotti, a pezzi",
+   "nome": "cipollotti",
+   "gruppo": "Wonton"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio",
+   "gruppo": "Wonton"
+  },
+  {
+   "testo": "300 g di carne trita di maiale",
+   "nome": "carne maiale",
+   "gruppo": "Wonton"
+  },
+  {
+   "testo": "2 cucchiaini di pepe bianco macinato",
+   "nome": "pepe bianco",
+   "gruppo": "Wonton"
+  },
+  {
+   "testo": "45 g di salsa di soia chiara",
+   "nome": "salsa soia chiara",
+   "gruppo": "Wonton"
+  },
+  {
+   "testo": "10 g di aceto di riso",
+   "nome": "aceto riso",
+   "gruppo": "Wonton"
+  },
+  {
+   "testo": "10 g di olio di sesamo",
+   "nome": "olio sesamo",
+   "gruppo": "Wonton"
+  },
+  {
+   "testo": "24 sfoglie di pasta per wonton (10 cm)",
+   "nome": "sfoglie wonton",
+   "gruppo": "Brodo"
+  },
+  {
+   "testo": "20 g di aceto di vino",
+   "nome": "aceto vino",
+   "gruppo": "Brodo"
+  },
+  {
+   "testo": "50 g di dado per brodo vegetale",
+   "nome": "dado",
+   "gruppo": "Brodo"
+  },
+  {
+   "testo": "1500 g di acqua",
+   "nome": "acqua",
+   "gruppo": "Brodo"
+  },
+  {
+   "testo": "2 cucchiaini di zucchero",
+   "nome": "zucchero",
+   "gruppo": "Brodo"
+  },
+  {
+   "testo": "5 centimetri di zenzero, radice fresca, tagliata a julienne",
+   "nome": "zenzero julienne",
+   "gruppo": "Brodo"
+  },
+  {
+   "testo": "6 cipollotti, a fettine",
+   "nome": "cipollotti",
+   "gruppo": "Brodo"
+  },
+  {
+   "testo": "15 g di salsa di soia",
+   "nome": "salsa soia",
+   "gruppo": "Brodo"
+  },
+  {
+   "testo": "1 mazzetto di foglie di cavolo cinese, a pezzi",
+   "nome": "cavolo cinese foglie",
+   "gruppo": "Brodo"
+  },
+  {
+   "testo": "½ mazzetto di coriandolo fresco, per guarnire",
+   "nome": "coriandolo",
+   "gruppo": "Brodo"
+  }
+ ],
+ "procedimento": [
+  "Ungere il vassoio e il recipiente del Varoma e tenere da parte.",
+  "Mettere nel boccale l'olio extravergine di oliva e i funghi, insaporire: 10 min./120°C/vel. 1.",
+  "Aggiungere il cavolo e tritare: 3 sec./vel. 4. Riunire sul fondo con la spatola.",
+  "Cuocere: 3 min./120°C/vel. 1. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale l'aglio, lo zenzero, e il cipollotto, tritare: 3 sec./vel. 7.",
+  "Aggiungere la carne trita, il pepe, la salsa di soia, l'aceto di riso, l'olio di sesamo e il mix di cavolo e funghi tenuto da parte. Mescolare: 15 sec.//vel. 3. Trasferire in una ciotola e tenere da parte. Pulire e asciugare il boccale.",
+  "Brodo. Mettere nel boccale lo zucchero, l'aceto di riso, il dado e l'acqua, scaldare: 10 min./100°C/vel. 1. Nel frattempo, posizionare ½ cucchiaino di ripieno al centro di l sfoglia di pasta per wonton e bagnare i bordi con acqua. Chiudere a metà la sfoglia ottenendo un rettangolo. Premere delicatamente intorno al ripieno perfar uscire l'aria in eccesso. Unire i2 angoli inferiori e chiudere pizzicando. Sistemare i wonton tra il recipiente e il vassoio del Varoma e coprire con carta assorbente umida. Chiudere con il coperchio.",
+  "Brodo. Aggiungere lo zenzero, il cipollotto e la salsa di soia. Posizionare il Varoma e cuocere 10-12 min./Varoma/vel. 1 sino a che i wonton saranno cotti. Togliere con attenzione il Varoma e tenere da parte.",
+  "Brodo. Servire decorando con le foglie di cavolo cinese, il coriandolo e i cipollotti."
+ ],
+ "note": [
+  "In alternativa: 150 g di funghi champignon freschi (al posto degli shiitake)",
+  "Paese: su Cookidoo è «Italia», ma è una ricetta cinese: usato Cina (dedotto).",
+  "Il dado per brodo vegetale è indicato come 50 g nell'elenco ingredienti."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Ungete il vassoio e il recipiente del Varoma e teneteli da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate nel boccale 10 g di olio di sesamo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di funghi shiitake freschi, in quarti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Unite 150 g di foglie di cavolo cinese, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate nel boccale 10 g di zenzero, radice fresca."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio e 3 cipollotti, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di carne trita di maiale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 45,
+   "testo": "Aggiungete 45 g di salsa di soia chiara."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di aceto di riso."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di pepe bianco macinato e il mix di cavolo e funghi tenuto da parte."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 15,
+   "velocita": 3,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte il ripieno. Pulite e asciugate il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di dado per brodo vegetale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1500,
+   "testo": "Aggiungete 1500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di aceto di vino."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di zucchero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Scaldate.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, posizionate 1 ½ cucchiaino di ripieno al centro di 1 sfoglia di pasta per wonton e bagnate i bordi con acqua. Chiudete a metà la sfoglia ottenendo un rettangolo. Premete delicatamente intorno al ripieno per far uscire l'aria in eccesso. Unite i 2 angoli inferiori e chiudete pizzicando. Ripetete con le altre sfoglie (24 in tutto). Sistemate i wonton tra il recipiente e il vassoio del Varoma e copriteli con carta assorbente umida. Chiudete con il coperchio."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 5 centimetri di zenzero, radice fresca, tagliata a julienne, 6 cipollotti a fettine e 15 g di salsa di soia."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete al vapore con il Varoma sul boccale.",
+   "tempo_s": 660,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "nota": "La ricetta indica 10-12 minuti, fino a che i wonton saranno cotti: il timer è impostato a 11."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma e teneteli da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite decorando con le foglie di cavolo cinese (1 mazzetto, a pezzi), ½ mazzetto di coriandolo fresco e i cipollotti."
+  }
+ ],
+ "origine": "cookidoo:r566975",
+ "importata": "2026-11-05"
+}
