@@ -1,0 +1,174 @@
+{
+ "id": "lagane-e-ceci",
+ "titolo": "Lagane e ceci",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "lagane-e-ceci.jpg",
+ "ingredienti": [
+  {
+   "testo": "300 g di farina di semola di grano duro (+ q.b.)",
+   "nome": "farina semola",
+   "gruppo": "Lagane"
+  },
+  {
+   "testo": "150 g di acqua",
+   "nome": "acqua",
+   "gruppo": "Lagane"
+  },
+  {
+   "testo": "farina di semola di grano duro, q.b. per infarinare",
+   "nome": "farina semola",
+   "gruppo": "Lagane"
+  },
+  {
+   "testo": "50 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva",
+   "gruppo": "Sugo di ceci"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio",
+   "gruppo": "Sugo di ceci"
+  },
+  {
+   "testo": "200 g di pomodori, senza semi e buccia, a cubetti",
+   "nome": "pomodori",
+   "gruppo": "Sugo di ceci"
+  },
+  {
+   "testo": "500 g di ceci bianchi lessi, ben scolati",
+   "nome": "ceci bianchi lessi",
+   "gruppo": "Sugo di ceci"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale",
+   "gruppo": "Sugo di ceci"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato fresco",
+   "nome": "pepe nero",
+   "gruppo": "Sugo di ceci"
+  }
+ ],
+ "procedimento": [
+  "Lagane. dal boccale e compattare in una palla, avvolgere nella pellicola trasparente, lasciare riposare in frigorifero per 15 minuti.",
+  "Lagane. Con un matterello (o con l'apposita macchinetta per tirare la pasta) stendere l'impasto su un piano infarinato ad uno spessore di 2-3 mm, ricavare una forma rettangolare e, se necessario, spolverizzare la pasta con della farina.",
+  "Lagane. Arrotolare su se stesso il rettangolo di pasta ottenuto e ricavare delle strisce larghe circa 2 cm. Allargare e stendere con le mani le lagane e sistemarle su un piano o vassoio infarinato e tenere da parte.",
+  "Sugo di ceci. Mettere nel boccale l'olio extravergine di oliva e l'aglio, insaporire: 3 min./120°C/vel. 1.",
+  "Sugo di ceci. Aggiungere i pomodori e cuocere: 10 min./100°C/vel. 1.",
+  "Sugo di ceci. le lagane in una pentola con abbondante acqua bollente salata per 3-4 minuti, quindi scolare e trasferire in una zuppiera.",
+  "Sugo di ceci. Condire le legane con il sugo di ceci e mescolare bene.",
+  "Sugo di ceci. Servire subito."
+ ],
+ "note": [
+  "In alternativa: q.b. per infarinare"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate nel boccale 300 g di farina di semola di grano duro (+ q.b.)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impastate.",
+   "tempo_s": 120,
+   "velocita": null,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Impastare",
+   "avvertenza": "«Spiga» del Bimby corrisponde al programma Impastare del Connect: durata e velocità le gestisce il programma, non sostituitelo con una velocità manuale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete l'impasto dal boccale e compattatelo in una palla, avvolgetelo nella pellicola trasparente e lasciatelo riposare in frigorifero per 15 minuti.",
+   "attesa_s": 900
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con un matterello (o con l'apposita macchinetta per tirare la pasta) stendete l'impasto su un piano infarinato ad uno spessore di 2-3 mm, ricavate una forma rettangolare e, se necessario, spolverizzate la pasta con della farina."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Arrotolate su se stesso il rettangolo di pasta ottenuto e ricavate delle strisce larghe circa 2 cm. Allargate e stendete con le mani le lagane e sistemarle su un piano o vassoio infarinato e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di pomodori, senza semi e buccia, a cubetti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Unite 500 g di ceci bianchi lessi, ben scolati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di sale e 1 pizzico di pepe nero macinato fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, lessate le lagane in una pentola con abbondante acqua bollente salata per 3-4 minuti, quindi scolatele e trasferitele in una zuppiera.",
+   "attesa_s": 240
+  },
+  {
+   "tipo": "testo",
+   "testo": "Condite le lagane con il sugo di ceci e mescolate bene."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito."
+  }
+ ],
+ "origine": "cookidoo:r144128",
+ "importata": "2026-11-05"
+}

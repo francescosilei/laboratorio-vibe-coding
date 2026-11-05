@@ -1,0 +1,181 @@
+{
+ "id": "krapfen-ripieni-alla-confettura-di-albicocche",
+ "titolo": "Krapfen ripieni alla confettura di albicocche",
+ "categoria": "Dessert",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 30,
+ "tempo_cottura_min": null,
+ "tempo_min": 150,
+ "porzioni": null,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "krapfen-ripieni-alla-confettura-di-albicocche.jpg",
+ "ingredienti": [
+  {
+   "testo": "800 - 1000 g di olio di semi di arachidi (+ q.b.)",
+   "nome": "olio arachidi"
+  },
+  {
+   "testo": "60 g di burro, a pezzi",
+   "nome": "burro"
+  },
+  {
+   "testo": "250 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "40 g di lievito di birra fresco",
+   "nome": "lievito birra"
+  },
+  {
+   "testo": "50 g di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "4 tuorli",
+   "nome": "tuorli"
+  },
+  {
+   "testo": "500 g di farina tipo 00 (+ q.b.)",
+   "nome": "farina"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "250 g di confettura di albicocche",
+   "nome": "confettura albicocche"
+  },
+  {
+   "testo": "1 cucchiaino di Rum (opzionale)",
+   "nome": "rum"
+  },
+  {
+   "testo": "zucchero a velo, a piacere",
+   "nome": "zucchero velo"
+  }
+ ],
+ "procedimento": [
+  "Preriscaldare il forno a 50°C. Ungere con un filo di olio una tortiera (0 28 cm) e tenere da parte.",
+  "Mettere nel boccale il burro e il latte, scaldare: 3 min./37°C/vel. 2.",
+  "Aggiungere il lievito di birra, lo zucchero e i tuorli, mescolare: 15 sec./vel. 4.",
+  "Unire la farina 00 e il sale, impastare: Spiga /5 min.. Trasferire Il'impasto nella tortiera preparata, coprire con un canovaccio di cotone umido e lasciare riposare in forno caldo per 30 minuti (50°C).",
+  "Togliere l'impasto dal forno, sgonfiarlo velocemente con le mani allinterno della tortiera, coprire nuovamente con il canovaccio e riporre in forno per altri 15 minuti (50°C). Ripetere il procedimento ancora 2 volte.",
+  "Trasferire l'impasto sul piano di lavoro infarinato e compattarlo con le mani fino a ottenere un rotolo. Tagliare il rotolo in parti uguali del peso di circa 50 g. Dare a ciascuna parte la forma di panetti lisci e leggermente schiacciati. Sistemarei krapfen su un canovaccio di cotone infarinato, coprire con un altro canovaccio umido e lasciare riposare ancora 30 minuti.",
+  "In una padella grande scaldare l'olio di arachidi (vedere consigli) e sistemare sul piano di lavoro della carta assorbente. Immergere i krapfen nell'olio bollente e cuocere 3-4",
+  "minuti senza coperchio. Scolare i krapfen con un mestolo forato, adagiarli sulla carta assorbente da cucina e lasciare raffreddare. Nel frattempo, preparare il ripieno.",
+  "Posizionare una ciotola sul coperchio del boccale e pesarvi allinterno la confettura di albicocche. Aggiungere il Rum e mescolare. Trasferire la confettura al Rum in una tasca da pasticceria e farcire i krapfen.",
+  "Spolverizzare con zucchero a velo e servire."
+ ],
+ "note": [
+  "Resa: 20 krapfen (la ricetta indica i pezzi al posto delle porzioni).",
+  "Per friggere i krapfen l'olio deve essere caldo (circa 170°C), ma non bollente. Si consiglia di provare la temperatura dell'olio con uno stuzzicadenti: se si formano delle bollicine, si può iniziare a friggere.",
+  "In alternativa alla confettura di albicocche è possibile farcire i krapfen con una crema alla vaniglia."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Preriscaldate il forno a 50°C. Ungete con un filo di olio una tortiera (Ø 28 cm) e tenetela da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di burro, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di latte."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Scaldate.",
+   "tempo_s": 180,
+   "velocita": 2,
+   "temp_c": 37,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di lievito di birra fresco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di zucchero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 4 tuorli."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 15,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di farina tipo 00 (+ q.b.)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impastate.",
+   "tempo_s": 300,
+   "velocita": null,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Impastare",
+   "avvertenza": "«Spiga» del Bimby corrisponde al programma Impastare del Connect: durata e velocità le gestisce il programma, non sostituitelo con una velocità manuale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'impasto nella tortiera preparata, coprite con un canovaccio di cotone umido e lasciate riposare in forno caldo per 30 minuti (50°C).",
+   "attesa_s": 1800
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete l'impasto dal forno, sgonfiatelo velocemente con le mani all'interno della tortiera, coprite nuovamente con il canovaccio e riponete in forno per altri 15 minuti (50°C). Ripetete il procedimento ancora 2 volte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'impasto sul piano di lavoro infarinato e compattatelo con le mani fino a ottenere un rotolo. Tagliate il rotolo in parti uguali del peso di circa 50 g. Date a ciascuna parte la forma di panetti lisci e leggermente schiacciati. Sistemate i krapfen su un canovaccio di cotone infarinato, coprite con un altro canovaccio umido e lasciate riposare ancora 30 minuti.",
+   "attesa_s": 1800
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una padella grande scaldate l'olio di arachidi (800-1000 g, vedere consigli) e sistemate sul piano di lavoro della carta assorbente. Immergete i krapfen nell'olio bollente e cuocete 3-4 minuti con il coperchio. Girate i krapfen con un cucchiaio di legno e cuocete altri 3-4 minuti senza coperchio. Scolate i krapfen con un mestolo forato, adagiateli sulla carta assorbente da cucina e lasciate raffreddare."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, preparate il ripieno."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Posizionate una ciotola sul coperchio del boccale e pesatevi 250 g di confettura di albicocche."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di Rum (opzionale) e mescolate. Trasferite la confettura al Rum in una tasca da pasticceria e farcite i krapfen."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate con zucchero a velo e servite."
+  }
+ ],
+ "origine": "cookidoo:r268236",
+ "importata": "2026-11-05"
+}
