@@ -1,0 +1,260 @@
+{
+ "id": "zuppa-di-pesce-misto",
+ "titolo": "Zuppa di pesce misto",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-pesce-misto.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 mazzetto di prezzemolo, le foglioline lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "60 g di cipolla bianca, a pezzi",
+   "nome": "cipolla bianca"
+  },
+  {
+   "testo": "60 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "500 g di crostaceimisti (code di gamberi, gamberetti, scampi, cicale di mare..)",
+   "nome": "crostaceimisti"
+  },
+  {
+   "testo": "500 g di molluschi cefalopodi misti, puliti, a pezzi (polpo, moscardini, seppie, totani, calamari)",
+   "nome": "molluschi cefalopodi misti"
+  },
+  {
+   "testo": "1 mazzetto di erbe aromatiche fresche miste (alloro, timo, finocchietto), le foglioline lavate e asciugate",
+   "nome": "erbe aromatiche miste"
+  },
+  {
+   "testo": "200 g di pomodori maturi, a pezzi",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "100 g di vino bianco secco",
+   "nome": "vino bianco secco"
+  },
+  {
+   "testo": "500 g di pesce misto per zuppa, pulito e a filetti",
+   "nome": "pesce misto"
+  },
+  {
+   "testo": "1 cucchiaino di sale (+ q.b.)",
+   "nome": "sale"
+  },
+  {
+   "testo": "100 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1000 g di molluschi conchigliferi misti, puliti (vongole, cozze, fasolari...)",
+   "nome": "molluschi conchigliferi misti"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo e tritare: 5 sec./vel. 8. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale l'aglio, la cipolla e tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere 50 g di olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Aggiungere i crostacei (eccetto gli scampie le cicale di mare, se usati) e insaporire: 2 min./120°C//vel. 1. Togliere i crostacei dal boccale e distribuirli nel vassoio del Varoma, mantenendo il liquido di cottura nel boccale.",
+  "Mettere nel boccale i molluschi cefalopodi (tagliati a pezzi se necessario) e insaporire: 4 min./120°C//vel. 1. Togliere e mettere nel vassoio del Varoma insieme ai crostacei, avendo l'accortezza di lasciare il liquido nel boccale.",
+  "Mettere nel boccale le erbe aromatiche,i pomodori e il vino bianco, insaporire: 8 min./120°C//vel. 1 senza misurino.",
+  "Distribuire i filetti di pesce dentro il cestello (posizionare sotto quelli a carne più soda), cospargerli con 10 g di olio extravergine di oliva e 1 cucchiaino di sale. Aggiungere l'acqua, posizionare il cestello, il recipiente del Varoma con le conchiglie, il vassoio del Varoma con i cefalopodi e i crostacei, cuocere: 20 min./Varoma/vel. 1.",
+  "Trasferire il pesce, i molluschi,i crostacei (sgusciando a piacere parte dei conchigliferi) in una zuppiera, versare il brodo, spolverizzare con il prezzemolo tritato. Servire la zuppa calda accompagnando a piacere con fette di pane tostato."
+ ],
+ "note": [
+  "I molluschi cefalopodi sono: polpo, moscardini, seppie, totani, calamari. Gli esemplari di",
+  "grosse dimensionivanno battuti oppure congelati prima della cottura, per evitare che",
+  "le carni risultino dure.",
+  "I crostacei sono: gamberi, gamberetti, mazancolle, scampi, cicale di mare... E' possibile",
+  "cuocerli come descritto senza sgusciarli. In questo caso la zuppa assumera un sapore",
+  "migliore. Per una corretta pulizia dei crostacei, dopo averli sgusciati, togliere il fino nero",
+  "intestinale, eventualmente aiutandosi con uno stuzziccadenti e tirandolo in direzione",
+  "coda-testa. Per una corretta pulizia degli scampi e delle cicale di mare, on l'aiuto delle",
+  "forbici, nella parte inferiore, praticare un'incisione lungo il carapace fino all' estremita",
+  "della coda. Praticare un'altra incisione nel lato opposto, per tutta la lunghezza della",
+  "superiore, scartandolo. Lasciare attaccata la polpa al carapace superiore, che la",
+  "proteggera durante la cottura.",
+  "Perla zuppa di pesce bisognerebbe utilizzare pesci assortiti tra quelli a carne ferma (più",
+  "soda) e quelli a carne morbida (più delicata). Pesci a carne ferma: scorfano, grongo",
+  "pescatrice, cernia. Pesci a carne morbida: triglia, sanpietro, ombrina, merluzzo, spigola",
+  "capone, gallinella.",
+  "Gli scarti della pulizia del pesce (teste, lische, gusci dei crostacei) possono in parte",
+  "essere tenuti e messi nel boccale sotto il cestello per ottenere un brodo molto saporito",
+  "che poi andra filtrato con il colino fine.",
+  "Per una zuppa di ispirazione provenzale, al passaggio 7, aggiungere 1 bicchierino di",
+  "Pastis (liquore all'anice) e 1 bustina di zafferano.",
+  "E'possibile realizzare questa ricetta variandoitipidi pesce.",
+  "E'possibile sostituire parte o tutti pesci e i molluschi con equivalenti prodotti surgelati.",
+  "In alternativa: 60 g di porro, a pezzi",
+  "In alternativa: 200 g di passata di pomodoro, a pezzi"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 mazzetto di prezzemolo, le foglioline lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di cipolla bianca, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di crostaceimisti (code di gamberi, gamberetti, scampi, cicale di mare..)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete i crostacei dal boccale e distribuirli nel vassoio del Varoma, mantenendo il liquido di cottura nel boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate nel boccale 500 g di molluschi cefalopodi misti, puliti, a pezzi (polpo, moscardini, seppie, totani, calamari)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete e mettete nel vassoio del Varoma insieme ai crostacei, avendo l'accortezza di lasciate il liquido nel boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di pomodori maturi, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di vino bianco secco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 mazzetto di erbe aromatiche fresche miste (alloro, timo, finocchietto), le foglioline lavate e asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 480,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate 10 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Distribuire i filetti di pesce dentro il cestello (posizionate sotto quelli a carne più soda), cospargerli con 10 g di olio extravergine di oliva e 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate 1000 g di molluschi conchigliferi misti, puliti (vongole, cozze, fasolari...)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di pesce misto per zuppa, pulito e a filetti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il pesce, i molluschi,i crostacei (sgusciando a piacere parte dei conchigliferi) in una zuppiera, versate il brodo, spolverizzate con il prezzemolo tritato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la zuppa calda accompagnando a piacere con fette di pane tostato."
+  }
+ ],
+ "origine": "cookidoo:r48840",
+ "importata": "2026-11-05"
+}
