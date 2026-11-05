@@ -1,0 +1,159 @@
+{
+ "id": "costine-in-umido",
+ "titolo": "Costine in umido",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 80,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "costine-in-umido.jpg",
+ "ingredienti": [
+  {
+   "testo": "150 g di cipolle dorate, in quarti",
+   "nome": "cipolle dorate"
+  },
+  {
+   "testo": "80 g di carote, pelate e a pezzi (2 cm)",
+   "nome": "carote"
+  },
+  {
+   "testo": "20 g di gambo di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "1 rametto di rosmarino fresco, gli aghi lavati",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "800 g di costine di maiale (8 pezzi circa)",
+   "nome": "costine maiale"
+  },
+  {
+   "testo": "100 g di vino bianco secco",
+   "nome": "vino bianco secco"
+  },
+  {
+   "testo": "130 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "1 cucchiaio di concentrato di pomodoro",
+   "nome": "concentrato pomodoro"
+  },
+  {
+   "testo": "1 cucchiaini rasi di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le cipolle, le carote, il sedano e il rosmarino, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva, insaporire: 5 min./120°C/vel. 1.",
+  "Unire le costine e insaporire: 7 min./120°C//vel. .",
+  "Aggiungere il vino bianco, la passata di pomodoro, il concentrato, il sale e il pepe, cuocere: 50 min./100°C//vel. .",
+  "Servire subito."
+ ],
+ "note": [
+  "Perun piatto unico, accompagnare a piacere con polenta o risotto allo zafferano."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di cipolle dorate, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di carote, pelate e a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di gambo di sedano, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 rametto di rosmarino fresco, gli aghi lavati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Pesate 800 g di costine di maiale (8 pezzi circa)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di vino bianco secco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 130,
+   "testo": "Aggiungete 130 g di passata di pomodoro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio di concentrato di pomodoro, 1 cucchiaini rasi di sale, 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 3000,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito."
+  }
+ ],
+ "origine": "cookidoo:r144514",
+ "importata": "2026-11-05"
+}
