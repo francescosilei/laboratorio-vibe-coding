@@ -1,0 +1,243 @@
+{
+ "id": "zuppa-di-pomodori-fagioli-e-bietole",
+ "titolo": "Zuppa di pomodori, fagioli e bietole",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-pomodori-fagioli-e-bietole.jpg",
+ "ingredienti": [
+  {
+   "testo": "10 g di prezzemolo fresco, le foglioline lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "10 g di basilico fresco, le foglie lavate ed asciugate",
+   "nome": "basilico"
+  },
+  {
+   "testo": "40 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "100 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "135 g di carote, a pezzi",
+   "nome": "carote"
+  },
+  {
+   "testo": "35 g di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "260 g di polpa di pomodoro a pezzi",
+   "nome": "polpa pomodoro"
+  },
+  {
+   "testo": "250 g di fagioli rossi in scatola, sgocciolati",
+   "nome": "fagioli rossi"
+  },
+  {
+   "testo": "850 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "65 g di zucchine, a cubetti",
+   "nome": "zucchine"
+  },
+  {
+   "testo": "100 g di patate, a cubetti",
+   "nome": "patate"
+  },
+  {
+   "testo": "80 g di bieta verde a costa argentata, a julienne",
+   "nome": "bieta"
+  },
+  {
+   "testo": "65 g di pasta tipo ditalini",
+   "nome": "pasta ditalini"
+  },
+  {
+   "testo": "1 cucchiaino di origano secco",
+   "nome": "origano"
+  },
+  {
+   "testo": "1 rametto di timo fresco, le foglie",
+   "nome": "timo"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo e il basilico, tritare 2 sec./vel. 7. Trasferire in una ciotolina e tenere da parte.",
+  "Mettere nel boccale l'olio extravergine di oliva, la cipolla, l'aglio, la carota, il sedano, il sale e il pepe, tritare 5 sec./vel. 5 e insaporire 5 min./120°C/vel. 1.",
+  "Aggiungere la polpa di pomodori, 125 g di fagioli e l'acqua, impostare Frullare @/1 min..",
+  "Aggiungere le zucchine, le patate e le bietole, cuocere 18 min./100°C//vel. 1.",
+  "Aggiungere la pasta, 125 g di fagioli, 'origano e il timo, mescolare a fondo con la spatola e cuocere 10 min./100°C//vel. . Aggiungere le erbe tritate, mescolare e servire."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate nel boccale 10 g di prezzemolo fresco, le foglioline lavate ed asciugate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di basilico fresco, le foglie lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 2,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotolina e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate nel boccale 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 135,
+   "testo": "Aggiungete 135 g di carote, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 35,
+   "testo": "Aggiungete 35 g di sedano, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale e 1 pizzico di pepe macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 260,
+   "testo": "Aggiungete 260 g di polpa di pomodoro a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 125,
+   "testo": "Aggiungete 125 g di fagioli rossi in scatola, sgocciolati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 850,
+   "testo": "Aggiungete 850 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "pesata",
+   "g": 65,
+   "testo": "Aggiungete 65 g di zucchine, a cubetti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di patate, a cubetti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di bieta verde a costa argentata, a julienne."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1080,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 65,
+   "testo": "Aggiungete 65 g di pasta tipo ditalini."
+  },
+  {
+   "tipo": "pesata",
+   "g": 125,
+   "testo": "Aggiungete 125 g di fagioli rossi in scatola, sgocciolati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di origano secco e le foglie di 1 rametto di timo fresco. Mescolate a fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete le erbe tritate, mescolate e servite."
+  }
+ ],
+ "origine": "cookidoo:r935285",
+ "importata": "2026-11-05"
+}

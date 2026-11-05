@@ -1,0 +1,290 @@
+{
+ "id": "feijoada",
+ "titolo": "Feijoada",
+ "categoria": "Secondi",
+ "paese": "Brasile",
+ "dedotto": [
+  "categoria",
+  "paese"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 360,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "feijoada.jpg",
+ "ingredienti": [
+  {
+   "testo": "50 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva",
+   "gruppo": "Farofa"
+  },
+  {
+   "testo": "130 g di cipolla rossa, a pezzi",
+   "nome": "cipolla rossa",
+   "gruppo": "Farofa"
+  },
+  {
+   "testo": "500 g di farina di manioca",
+   "nome": "farina manioca",
+   "gruppo": "Farofa"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale",
+   "gruppo": "Farofa"
+  },
+  {
+   "testo": "5 g di foglie di prezzemolo fresco, lavate",
+   "nome": "prezzemolo",
+   "gruppo": "Feijoada"
+  },
+  {
+   "testo": "150 g di cipolla rossa, a pezzi",
+   "nome": "cipolla rossa",
+   "gruppo": "Feijoada"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio",
+   "gruppo": "Feijoada"
+  },
+  {
+   "testo": "20 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva",
+   "gruppo": "Feijoada"
+  },
+  {
+   "testo": "100 g di pancetta affumicata a cubetti",
+   "nome": "pancetta affumicata",
+   "gruppo": "Feijoada"
+  },
+  {
+   "testo": "100 g di salsiccia di maiale stagionata, a fette",
+   "nome": "salsiccia maiale",
+   "gruppo": "Feijoada"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua",
+   "gruppo": "Feijoada"
+  },
+  {
+   "testo": "1 foglia di alloro secca",
+   "nome": "alloro",
+   "gruppo": "Feijoada"
+  },
+  {
+   "testo": "200 g di guanciale di maiale, a cubetti",
+   "nome": "guanciale",
+   "gruppo": "Feijoada"
+  },
+  {
+   "testo": "300 g di costine di maiale",
+   "nome": "costine maiale",
+   "gruppo": "Feijoada"
+  },
+  {
+   "testo": "5 g di sale",
+   "nome": "sale",
+   "gruppo": "Feijoada"
+  },
+  {
+   "testo": "300 g di fagioli neri secchi, ammollati (vedere consigli)",
+   "nome": "fagioli neri",
+   "gruppo": "Feijoada"
+  }
+ ],
+ "procedimento": [
+  "Farofa   [?0.79]. Mettere nel boccale l'olio extravergine di oliva e la cipolla, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Farofa   [?0.79]. Insaporire: 5 min./120°C/vel. .",
+  "Farofa   [?0.79]. Aggiungere la farina di manioca e il sale, cuocere: 4 min./100°C//vel. 2. Riunire sul fondo con la spatola.",
+  "Farofa   [?0.79]. Cuocere ancora: 4 min./100°C//vel. 2. Trasferire in una ciotola e tenere da parte. Lavare e asciugare il boccale.",
+  "Feijoada   [?0.78]. Mettere nel boccale il prezzemolo e tritare: 5 sec./vel. 7. Trasferire in una ciotola e tenere da parte.",
+  "Feijoada   [?0.78]. Mettere nel boccale la cipolla, l'aglio e l'olio extravergine di oliva, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Feijoada   [?0.78]. Aggiungere la pancetta e insaporire: 5 min./120°C//vel. 1.",
+  "Feijoada   [?0.78]. Unire la salsiccia, il guanciale, le costine, i fagioli sgocciolati, l'acqua, l'alloro e il sale, impostare Cottura lenta O/5 h/95°C. Se necessario, prolungare la cottura. Impostare Cottura lenta O/30 min./95°C.",
+  "Feijoada   [?0.78]. Servire i fagioli cosparsi con il prezzemolo tritato e accompagnarli con la farofa."
+ ],
+ "note": [
+  "Il peso dei fagioli è da intendersi da secco, dopo l'ammollo il peso raddoppierà. In una pentola capiente, fare intiepidire abbondante acqua e aggiungere i fagioli. Coprire la pentola e lasciare in ammollo i fagioli per 8 ore, poi scolarli prima di utilizzare in ricetta.",
+  "Paese: su Cookidoo è «Italia», ma la feijoada è il piatto nazionale del Brasile: usato Brasile (dedotto)."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 130,
+   "testo": "Aggiungete 130 g di cipolla rossa, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di farina di manioca."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 240,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete ancora.",
+   "tempo_s": 240,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la farofa in una ciotola e tenetela da parte. Lavate e asciugate il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 5,
+   "testo": "Pesate nel boccale 5 g di foglie di prezzemolo fresco, lavate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di cipolla rossa, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 spicchi di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di pancetta affumicata a cubetti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Unite 100 g di salsiccia di maiale stagionata, a fette."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di guanciale di maiale, a cubetti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di costine di maiale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di fagioli neri secchi, ammollati e scolati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 foglia di alloro secca e 5 g di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cottura lenta (5 ore).",
+   "tempo_s": 18000,
+   "velocita": null,
+   "temp_c": 95,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Cottura lenta» del Bimby: non è nelle tabelle di conversione. Impostate 95 °C e la durata indicata e controllate sul display del Connect come farlo."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Se necessario, prolungate la cottura (30 minuti).",
+   "tempo_s": 1800,
+   "velocita": null,
+   "temp_c": 95,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Cottura lenta» del Bimby: non è nelle tabelle di conversione. Impostate 95 °C e la durata indicata e controllate sul display del Connect come farlo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite i fagioli cosparsi con il prezzemolo tritato e accompagnateli con la farofa."
+  }
+ ],
+ "origine": "cookidoo:r698067",
+ "importata": "2026-11-05"
+}
