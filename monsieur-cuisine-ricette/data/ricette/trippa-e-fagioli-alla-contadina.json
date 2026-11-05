@@ -1,0 +1,205 @@
+{
+ "id": "trippa-e-fagioli-alla-contadina",
+ "titolo": "Trippa e fagioli alla contadina",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 70,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "trippa-e-fagioli-alla-contadina.jpg",
+ "ingredienti": [
+  {
+   "testo": "30 g di pecorino, a pezzi (2-3 cm)",
+   "nome": "pecorino"
+  },
+  {
+   "testo": "100 g di cipolle, in quarti",
+   "nome": "cipolle"
+  },
+  {
+   "testo": "80 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "30 g di gambo di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1 rametto di rosmarino fresco, gli aghi lavati",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "1 pizzico di peperoncino rosso piccante",
+   "nome": "peperoncino rosso piccante"
+  },
+  {
+   "testo": "50 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "600 g di trippa, precotta a listarelle (2 cm)",
+   "nome": "trippa"
+  },
+  {
+   "testo": "300 g di polpa di pomodoro a pezzi",
+   "nome": "pomodoro"
+  },
+  {
+   "testo": "100 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "250 g di fagioli cannellini in scatola, scolati e sciacquati",
+   "nome": "fagioli cannellini"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il pecorino e grattugiare: 10 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale le cipolle, la carota, il sedano, l'aglio, il rosmarino e il peperoncino, tritare: 10 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Unire l'olio extravergine di oliva e insaporire: 5 min./120°C/vel. 1.",
+  "Aggiungere la trippa e insaporire: 5 min./120°C//vel. .",
+  "Unire i pomodori pelati, l'acqua e il dado, cuocere: 30 min./100°C//vel. .",
+  "Aggiungere i fagioli cannellini e proseguire la cottura: 10 min./100°C//vel. . Trasferire in una zuppiera (vedere consigli).",
+  "Servire spolverizzando con il pecorino grattugiato."
+ ],
+ "note": [
+  "Se si preferisce una trippa più densa, proseguire la cottura: 10-15 min./Varoma//vel.",
+  "In alternativa: 1 dadoperbrodovegetale"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di pecorino, a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolle, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di gambo di sedano, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, 1 rametto di rosmarino fresco, gli aghi lavati, 1 pizzico di peperoncino rosso piccante."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate 600 g di trippa, precotta a listarelle (2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di polpa di pomodoro a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di dado per brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di fagioli cannellini in scatola, scolati e sciacquati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera (vedere consigli)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite spolverizzando con il pecorino grattugiato."
+  }
+ ],
+ "origine": "cookidoo:r443776",
+ "importata": "2026-11-05"
+}

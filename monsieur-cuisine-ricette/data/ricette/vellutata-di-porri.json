@@ -1,0 +1,188 @@
+{
+ "id": "vellutata-di-porri",
+ "titolo": "Vellutata di porri",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-di-porri.jpg",
+ "ingredienti": [
+  {
+   "testo": "20 g di Parmigiano Reggiano",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "600 g di porri, la parte bianca a rondelle",
+   "nome": "porri"
+  },
+  {
+   "testo": "30 g burro, a pezzi",
+   "nome": "burro"
+  },
+  {
+   "testo": "700 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "2 cucchiaini di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "½ cucchiaino di sale (+ q.b.)",
+   "nome": "sale"
+  },
+  {
+   "testo": "½ cucchiaino di pepe nero in polvere",
+   "nome": "pepe"
+  },
+  {
+   "testo": "½ cucchiaino di peperoncino in polvere, dolce",
+   "nome": "peperoncino"
+  },
+  {
+   "testo": "1 pizzico di noce moscata in polvere",
+   "nome": "noce moscata"
+  },
+  {
+   "testo": "100 g di panna (min. 30% di grassi)",
+   "nome": "panna"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano Reggiano e grattugiare: 5 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale 450 g di porri e tritare: 5 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Aggiungere il burro e insaporire senza misurino: 5 min./120°C/vel. 1.",
+  "Unire l'acqua, il dado, il sale, il pepe, il peperoncino e la noce moscata, cuocere: 10 min./100°C/vel. 2, poi frullare: 30 sec./vel. 10. Riunire sul fondo con la spatola.",
+  "Aggiungere i restanti 150 g di porro e cuocere: 5 min./100c//vel. .",
+  "Unire la panna e il Parmigiano Reggiano grattugiato, amalgamare: 30 sec./vel. 2.",
+  "Se necessario, aggiustare di sale e servire."
+ ],
+ "note": [
+  "Qualora la minestra dovesse risultare troppo densa, aggiungere dell'acqua al passaggio",
+  "6 prima di amalgamare sino a raggiungere la consistenza desiderata.",
+  "In alternativa: 2 dadiperbrodo vegetale"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di Parmigiano Reggiano."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 5,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 450,
+   "testo": "Pesate nel boccale 450 g di porri, la parte bianca a rondelle."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di burro, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Pesate 700 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di dado per brodo vegetale, ½ cucchiaino di sale (+ q.b.), ½ cucchiaino di pepe nero in polvere, ½ cucchiaino di peperoncino in polvere, dolce, 1 pizzico di noce moscata in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 30,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate 150 g di porri, la parte bianca a rondelle."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di panna (min. 30% di grassi)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete parmigiano reggiano (messo da parte)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Amalgamate.",
+   "tempo_s": 30,
+   "velocita": 2,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Se necessario, aggiustate di sale e servite."
+  }
+ ],
+ "origine": "cookidoo:r345584",
+ "importata": "2026-11-05"
+}

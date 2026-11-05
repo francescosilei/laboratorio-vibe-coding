@@ -1,0 +1,180 @@
+{
+ "id": "trippa-alla-genovese-con-funghi-e-pancetta",
+ "titolo": "Trippa alla genovese con funghi e pancetta",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 70,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "trippa-alla-genovese-con-funghi-e-pancetta.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di cipolle, in quarti",
+   "nome": "cipolle"
+  },
+  {
+   "testo": "80 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "30 g di gambo di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "100 g di pancetta a cubetti",
+   "nome": "pancetta"
+  },
+  {
+   "testo": "40 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "30 g di funghi porcini secchi, ammollati in acqua per 20 minuti e strizzati",
+   "nome": "funghi porcini secchi"
+  },
+  {
+   "testo": "20 g di pinoli sgusciati",
+   "nome": "pinoli"
+  },
+  {
+   "testo": "800 g di trippa, precotta a listarelle (2 cm)",
+   "nome": "trippa"
+  },
+  {
+   "testo": "500 g di pomodori pelati, a pezzi",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato (+ q.b.)",
+   "nome": "pepe"
+  },
+  {
+   "testo": "Parmigiano reggiano grattugiato, a piacere",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "4 fette di pane casereccio, tostate",
+   "nome": "pane"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le cipolle, la carota e il sedano, tritare: 10 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere la pancetta e l'olio extravergine di oliva, insaporire: 5 min./120°C//vel. 1.",
+  "Unire i funghi, i pinoli e la trippa, insaporire: 6 min./100°C//vel. .",
+  "Aggiungere i pomodori pelati, il sale e il pepe, cuocere: 30 min./100°C//vel. . Trasferire in una zuppiera (vedere consigli).",
+  "Servire spolverizzando a piacere con del Parmigiano reggiano grattugiato, del pepe e accompagnando con delle fette di pane tostate."
+ ],
+ "note": [
+  "Se sipreferisce una trippa più densa e corposa, proseguire la cottura: 5-10 min./120°C/",
+  "/vel. s.",
+  "Se si utilizza una trippa non precotta, aumentare il tempo di cottura di 15-20 minuti al",
+  "passaggio 4."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolle, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di gambo di sedano, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di pancetta a cubetti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di funghi porcini secchi, ammollati in acqua per 20 minuti e strizzati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di pinoli sgusciati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di trippa, precotta a listarelle (2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 360,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di pomodori pelati, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale, 1 pizzico di pepe nero macinato (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera (vedere consigli)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite spolverizzando a piacere con del Parmigiano reggiano grattugiato, del pepe e accompagnando con delle fette di pane tostate."
+  }
+ ],
+ "origine": "cookidoo:r443779",
+ "importata": "2026-11-05"
+}
