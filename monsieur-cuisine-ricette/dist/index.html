@@ -74,7 +74,9 @@ svg { display: block; }
 .logo-mark { background: var(--brand); color: #fff; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; font-size: 20px; flex: none; box-shadow: 0 6px 14px -4px rgb(249 115 22 / .5); }
 .logo-img { height: 58px; width: auto; padding: 4px; box-sizing: content-box; object-fit: contain; border-radius: 14px; background: #fdf8ea; flex: none; display: block; box-shadow: 0 4px 12px -4px rgb(120 53 15 / .35); }
 .logo-name { font-size: 20px; font-weight: 700; color: var(--brand-d); white-space: nowrap; }
-.top-r { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.top-r { display: flex; align-items: center; justify-content: flex-end; gap: 8px; min-width: 0; flex: 1; }
+.top-r .search { flex: 0 1 auto; min-width: 5.5rem; }
+.logo { flex: none; }
 .search { position: relative; width: min(20rem, 42vw); }
 .search .ico { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--fg-3); }
 .search input { width: 100%; padding: 9px 12px 9px 36px; border-radius: 12px; border: 1px solid transparent; background: var(--surface-2); color: var(--fg); font: inherit; font-size: 14px; }
@@ -322,16 +324,19 @@ select.sel { width: 100%; padding: 10px 12px; border-radius: 12px; border: 1px s
   .side.open { transform: none; box-shadow: var(--shadow-lg); }
   .scrim { position: fixed; inset: 0; z-index: 54; background: var(--overlay); }
   .search { width: min(14rem, 38vw); }
-  .logo-name { display: none; }
   .wrap { gap: 0; }
 }
 @media (max-width: 40rem) {
+  .logo-name { font-size: 16px; }
+  .logo { gap: 8px; }
+  .search input { padding-right: 6px; }
   .sheet-body { padding: 18px; }
   .sheet-foot { padding: 12px 18px; }
   .grid { grid-template-columns: 1fr; }
   .dials { gap: 6px; }
 }
 @media (min-width: 64rem) { .scrim { display: none; } }
+@media (max-width: 21.5rem) { .logo-name { display: none; } }   /* solo telefoni molto piccoli (≤ 344 px): il nome non ci sta accanto alla ricerca */
 @media (min-width: 64rem) { .side { max-height: calc(100vh - 104px); max-height: calc(100dvh - 104px); overflow-y: auto; border-radius: 16px; scrollbar-width: thin; } }
 </style>
 
