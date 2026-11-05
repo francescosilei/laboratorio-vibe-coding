@@ -1,0 +1,253 @@
+{
+ "id": "polpette-di-pane-con-brodo-di-pollo",
+ "titolo": "Polpette di pane con brodo di pollo",
+ "categoria": "Secondi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 35,
+ "tempo_cottura_min": null,
+ "tempo_min": 65,
+ "porzioni": 4,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "polpette-di-pane-con-brodo-di-pollo.jpg",
+ "ingredienti": [
+  {
+   "testo": "40 g di Parmigiano Reggiano, a pezzi (2-3 cm)",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "250 g di pane, non completamente raffermo, a pezzi (2-3 cm)",
+   "nome": "pane"
+  },
+  {
+   "testo": "80 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "6 rametti di prezzemolo, le foglioline e i gambi",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "25 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "200 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "3 uova",
+   "nome": "uova"
+  },
+  {
+   "testo": "2 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "2 pizzichi di pepe macinato fresco",
+   "nome": "pepe"
+  },
+  {
+   "testo": "2 pizzichi di noce moscata in polvere",
+   "nome": "noce moscata"
+  },
+  {
+   "testo": "1000 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "4 ali di pollo (circa 600 g)",
+   "nome": "ali pollo"
+  },
+  {
+   "testo": "200 g di verdure miste (es. carote, cipolle, sedano),a pezzi (2-3 cm)",
+   "nome": "verdure miste"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano Reggiano e grattugiare: 10 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale il pane raffermo, tritare: 6 sec./vel. 5, si dovra ottenere del pangrattato grossolano. Trasferire in un'altra ciotola e tenere da parte.",
+  "Mettere nel boccale le cipolle e le foglie di prezzemolo, tritare: 5 sec./vel. 5. Tenere i gambi da parte. Riunire sul fondo con la spatola.",
+  "Aggiungere il burro e insaporire: 3 min./120°C/vel. 1.",
+  "Unire il latte e riscaldare: 2 min./60°C/vel. 1.",
+  "Aggiungere il pangrattato preparato precedentemente, le uova, 1 cucchiaino di sale, il pepe e la noce moscata, mescolare: 15 sec.//vel. 3. Riunire sul fondo con la spatola e mescolare: 15 sec.//vel. 3. Trasferire il composto in una ciotola. Con le mani bagnate formare 30 palline (0 4 cm) e sistemarle allinterno del recipiente e del vassoio del Varoma. Pulire il boccale.",
+  "Mettere nel boccale l'acqua, le ali di pollo, le verdure, i gambi di prezzemolo e 1 cucchiaino di sale. Posizionare il Varoma e cuocere: 30 min./Varoma//vel. . Togliere il Varoma e trasferire le polpette di pane all'interno di ogni piatto da portata. Filtrare il brodo nei piatti con l'aiuto di un colino a maglia fine. Servire caldo spolverizzando con il Parmigiano Reggiano grattugiato."
+ ],
+ "note": [
+  "Un piatto che e l'emblema della semplicita e della versatilita. Il brodo di pollo con",
+  "polpette di pane e per fetto per affrontare il freddo invernale, ma anche per un pranzo",
+  "leggero in primavera o estate. Le polpette si possono servire anche con altre zuppe o",
+  "da sole come secondo e sono per fette da intingere in stuzzicanti salse.",
+  "Il pane bianco o in cassetta deve avere almeno un giorno ma non deve essere troppo",
+  "raffermo.",
+  "Dopo aver filtrato il brodo al passaggio 7, lasciare raffreddare le ali di pollo per qualche",
+  "minuto, staccare la polpa aiutandosi con una forchetta, rimuovere la pelle e aggiungere",
+  "la carne di pollo nei piatti contenenti il brodo o tenere da parte per altre preparazioni.",
+  "Il brodo ha un sapore delicato di pollo. Per ottenere un gusto più intenso, aggiungere",
+  "Per una versione più delicata, sostituire le ali di pollo con 2 cucchiaini colmi di dado di",
+  "pollo fatto in casa o 2 cubetti di dado di pollo (dose da 0,5 l).",
+  "In alternativa: 250 g di pane bianco, non completamente raffermo, a pezzi (2-3 cm)"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate nel boccale 40 g di Parmigiano Reggiano, a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate nel boccale 250 g di pane, non completamente raffermo, a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 6,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Si dovra ottenere del pangrattato grossolano."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in un'altra ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 6 rametti di prezzemolo, le foglioline e i gambi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Tenete i gambi da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 25,
+   "testo": "Pesate 25 g di burro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di latte."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate il robot.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 60,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 3 uova, 2 cucchiaino di sale, 2 pizzichi di pepe macinato fresco, 2 pizzichi di noce moscata in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 15,
+   "velocita": 3,
+   "temp_c": 0,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 15,
+   "velocita": 3,
+   "temp_c": 0,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il composto in una ciotola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con le mani bagnate formate 30 palline (0 4 cm) e sistemarle allinterno del recipiente e del vassoio del Varoma."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Pulite il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate nel boccale 1000 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di verdure miste (es. carote, cipolle, sedano),a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 4 ali di pollo (circa 600 g)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa.",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete il Varoma e trasferite le polpette di pane all'interno di ogni piatto da portata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Filtrate il brodo nei piatti con l'aiuto di un colino a maglia fine."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite caldo spolverizzando con il Parmigiano Reggiano grattugiato."
+  }
+ ],
+ "origine": "cookidoo:r151288",
+ "importata": "2026-11-05"
+}

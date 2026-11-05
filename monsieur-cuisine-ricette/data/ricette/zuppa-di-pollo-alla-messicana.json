@@ -1,0 +1,164 @@
+{
+ "id": "zuppa-di-pollo-alla-messicana",
+ "titolo": "Zuppa di pollo alla messicana",
+ "categoria": "Primi",
+ "paese": "Messico",
+ "dedotto": [
+  "categoria",
+  "paese"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-pollo-alla-messicana.jpg",
+ "ingredienti": [
+  {
+   "testo": "150 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "100 g di carote, pelate e a pezzi (2 cm circa)",
+   "nome": "carote"
+  },
+  {
+   "testo": "30 g di gambo di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "400 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "300 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "200 g di zucchine, a cubetti (1 cm circa)",
+   "nome": "zucchine"
+  },
+  {
+   "testo": "150 g di piselli surgelati",
+   "nome": "piselli"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "300 g di petto di pollo, a tocchetti (2 cm circa)",
+   "nome": "petto pollo"
+  },
+  {
+   "testo": "2 peperoncini jalapeno, in salamoia, sgocciolati e a tocchetti",
+   "nome": "peperoncini jalapeno"
+  },
+  {
+   "testo": "olio extravergine di oliva, a piacere",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 avocado (opzionale), sbucciato e a fettine",
+   "nome": "avocado"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla, le carote e il sedano, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere l'acqua, la passata di pomodoro, le zucchine, i piselli e il sale, cuocere con il cestello al posto del misurino: 20 min./100°C//vel. .",
+  "Unire i cubetti di pollo e i peperoncini, proseguire la cottura con il cestello al posto del misurino: 10 min./100°C//vel. . Trasferire in una zuppiera, irrorare con un filo di olio extravergine di oliva e guarnire, a piacere, con fettine di avocado.",
+  "Servire calda."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di carote, pelate e a pezzi (2 cm circa)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di gambo di sedano, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Pesate 400 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di passata di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di zucchine, a cubetti (1 cm circa)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di piselli surgelati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di petto di pollo, a tocchetti (2 cm circa)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 peperoncini jalapeno, in salamoia, sgocciolati e a tocchetti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera, irrorate con un filo di olio extravergine di oliva e guarnire, a piacere, con fettine di avocado."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calda."
+  }
+ ],
+ "origine": "cookidoo:r151970",
+ "importata": "2026-11-05"
+}

@@ -1,0 +1,230 @@
+{
+ "id": "harira-marocchina",
+ "titolo": "Harira marocchina",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "harira-marocchina.jpg",
+ "ingredienti": [
+  {
+   "testo": "10 rametti di coriandolo fresco, le foglioline lavate e asciugate",
+   "nome": "coriandolo"
+  },
+  {
+   "testo": "150 g di porri, a pezzi",
+   "nome": "porri"
+  },
+  {
+   "testo": "120 g di gambi di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "100 g di carote, a pezzi",
+   "nome": "carote"
+  },
+  {
+   "testo": "30 g di olio di oliva (+ q.b.)",
+   "nome": "olio oliva"
+  },
+  {
+   "testo": "2 cucchiaini di cumino in polvere",
+   "nome": "cumino"
+  },
+  {
+   "testo": "1 ½ - 2 cucchiaini di coriandolo in polvere, a piacere",
+   "nome": "coriandolo"
+  },
+  {
+   "testo": "2 cucchiaini di cannella in polvere",
+   "nome": "cannella"
+  },
+  {
+   "testo": "2 cucchiaini di curcuma in polvere",
+   "nome": "curcuma"
+  },
+  {
+   "testo": "2 - 3 cucchiai di salsa harissa, a piacere",
+   "nome": "salsa harissa"
+  },
+  {
+   "testo": "800 g di polpa di pomodoro a pezzi",
+   "nome": "pomodoro"
+  },
+  {
+   "testo": "2 cucchiaini di dado per brodo di pollo, fatto in casa",
+   "nome": "dado"
+  },
+  {
+   "testo": "1 cucchiaio di zucchero di canna, chiaro",
+   "nome": "zucchero canna"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "85 g di lenticchie verdi secche",
+   "nome": "lenticchie verdi secche"
+  },
+  {
+   "testo": "4 sovracosce di pollo disossate e senza pelle (circa 400 g), a pezzi (2 cm)",
+   "nome": "sovracosce pollo disossate"
+  },
+  {
+   "testo": "200 g di yogurt naturale",
+   "nome": "yogurt naturale"
+  },
+  {
+   "testo": "8 fette di pane bianco",
+   "nome": "pane bianco"
+  },
+  {
+   "testo": "10 g di succo di limone, spremuto fresco",
+   "nome": "succo limone"
+  },
+  {
+   "testo": "olio di oliva",
+   "nome": "olio oliva"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il coriandolo e tritare: 5 sec./vel.7.Trasferire il coriandolo tritato in una ciotola e tenere da parte l cucchiaino per guarnire il piatto.",
+  "Mettere nel boccale i porri, il sedano e la carote, tritare: 3 sec./vel. 3.",
+  "Aggiungere l'olio di oliva, il cumino, il coriandolo in polvere, la cannella, la curcuma e, a piacere, l'harissa, insaporire: 4 min./120°C//vel. α.",
+  "Unire l'acqua, la polpa di pomodoro, le lenticchie, il dado, lo zucchero e il coriandolo tritato, appoggiare il cestello sopra il coperchio al posto del misurino per evitare gli schizzi e cuocere: 20 min./100°C//vel. 1.",
+  "Aggiungere la scorza (senza la parte bianca) e il succo spremuto del limone, il pollo, appoggiare il cestello sopra il coperchio al posto del misurino e cuocere: 15 min./100°C//vel. 0.5. Nel frattempo, tostare le fette di pane. Servire la zuppa harira calda con un filo di olio di oliva, lo yogurt, il pane tostato e spolverizzare con il coriandolo tritato tenuto da parte."
+ ],
+ "note": [
+  "La cottura delle lenticchie puo variare in base alla loro qualita: quelle utilizzate in ricetta",
+  "prevedono una cottura di 45 minuti.",
+  "A piacere, servire accompagnata con hummus.",
+  "Per una versione vegetariana, non aggiungere il pollo.",
+  "Se si utilizzano delle lenticchie con cottura 30 minuti, aggiungerle al passaggio 2.",
+  "In alternativa: 2 dadi per brodo di pollo (dose per 0,5 l), fatto in casa",
+  "In alternativa: 400 g di filetti di petto di pollo, senza pelle  (circa 400 g), a pezzi (2 cm)"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 10 rametti di coriandolo fresco, le foglioline lavate e asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il coriandolo tritato in una ciotola e tenete da parte l cucchiaino per guarnire il piatto"
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di porri, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Aggiungete 120 g di gambi di sedano, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di carote, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 3,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio di oliva (+ q.b.)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 - 3 cucchiai di salsa harissa, a piacere, 2 cucchiaini di cumino in polvere, 2 cucchiaini di cannella in polvere, 2 cucchiaini di curcuma in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di polpa di pomodoro a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 85,
+   "testo": "Aggiungete 85 g di lenticchie verdi secche."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di dado per brodo di pollo, fatto in casa, 1 cucchiaio di zucchero di canna, chiaro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate 10 g di succo di limone, spremuto fresco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 8 fette di pane bianco, 4 sovracosce di pollo disossate e senza pelle (circa 400 g), a pezzi (2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, tostate le fette di pane."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di yogurt naturale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la zuppa harira calda con un filo di olio di oliva, lo yogurt, il pane tostato e spolverizzate con il coriandolo tritato tenuto da parte."
+  }
+ ],
+ "origine": "cookidoo:r169969",
+ "importata": "2026-11-05"
+}

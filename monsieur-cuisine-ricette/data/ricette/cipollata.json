@@ -1,0 +1,180 @@
+{
+ "id": "cipollata",
+ "titolo": "Cipollata",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "cipollata.jpg",
+ "ingredienti": [
+  {
+   "testo": "2 uova",
+   "nome": "uova"
+  },
+  {
+   "testo": "2 foglie di basilico fresche",
+   "nome": "basilico"
+  },
+  {
+   "testo": "50 - 60 g di pangrattato",
+   "nome": "pangrattato"
+  },
+  {
+   "testo": "50 g di pancetta a fette",
+   "nome": "pancetta"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "800 g di cipolle, a fettine",
+   "nome": "cipolle"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "450 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "300 g di pomodori pelati, a pezzi",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "1 cucchiaino di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "4 fette di pane casereccio",
+   "nome": "pane"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le uova, il basilico e il pangrattato, frullare: 1 min./vel. 5. Trasferire in una ciotola e tenere da parte. Pulire e asciugare il boccale.",
+  "Mettere nel boccale la pancetta e tritare: 5 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire le cipolle e il sale, cuocere: 10 min./100c//vel. 1.",
+  "Aggiungere l'acqua, il pomodoro e il dado, cuocere: 20 min./100°C//vel. 1.",
+  "Aggiungere il composto di uova tenuto da parte e cuocere: 2 min./100°C//vel. 2.",
+  "Servire con fette di pane tostato."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di pangrattato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 uova, 2 foglie di basilico fresche."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Pulite e asciugare il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di pancetta a fette."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Pesate 800 g di cipolle, a fettine."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 450,
+   "testo": "Pesate 450 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di pomodori pelati, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di dado per brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 120,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite con fette di pane tostato."
+  }
+ ],
+ "origine": "cookidoo:r285984",
+ "importata": "2026-11-05"
+}
