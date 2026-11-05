@@ -1,0 +1,171 @@
+{
+ "id": "ciambelle-di-carnevale",
+ "titolo": "Ciambelle di Carnevale",
+ "categoria": "Dessert",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 60,
+ "tempo_cottura_min": null,
+ "tempo_min": 245,
+ "porzioni": null,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "ciambelle-di-carnevale.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 limone, preferibilmente biologico, la scorza (senza la parte bianca)",
+   "nome": "limone"
+  },
+  {
+   "testo": "40 g di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "50 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "25 g di lievito di birra fresco",
+   "nome": "lievito birra"
+  },
+  {
+   "testo": "70 g di burro, morbido, a pezzi",
+   "nome": "burro"
+  },
+  {
+   "testo": "320 g di patate, lessate e schiacciate",
+   "nome": "patate"
+  },
+  {
+   "testo": "250 g di farina tipo 00",
+   "nome": "farina"
+  },
+  {
+   "testo": "250 g di farina manitoba",
+   "nome": "farina"
+  },
+  {
+   "testo": "2 uova, medie",
+   "nome": "uova"
+  },
+  {
+   "testo": "1000 g di olio di arachidi",
+   "nome": "olio arachidi"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la scorza di limone e lo zucchero, polverizzare: 10 sec./vel. 10. Trasferire in una ciotola e mettere da parte.",
+  "Mettere nel boccale il latte e il lievito, sciogliere: 1 min./37°C/vel. 2.",
+  "Aggiungere lo zucchero aromatizzato al limone, il burro, le patate, la farina oo, la farina manitoba e le uova, impastare: Spiga /3 min..",
+  "Trasferire l'impasto in una ciotola, coprire con pellicola trasparente e lasciare lievitare in luogo tiepido al riparo da correnti d'aria fino a che raddoppia il volume (2 ore circa).",
+  "Foderare un vassoio con carta forno. Trasferire l'impasto lievitato sul piano di lavoro e formare 18 palline del peso di circa 60 g ciascuna, allargarle con le mani per creare un disco di circa 8 cm e con le dita praticare un foro al centro. Sistemare le ciambelle sul vassoio distanziandole leggermente. Lasciare lievitare nuovamente al riparo da correnti d'aria per circa l ora.",
+  "In una padella antiaderente scaldare abbondante olio di arachidi, friggere le ciambelle poche per volta nell'olio ben caldo rigirandole sino a completa doratura (3- 4 minuti circa). Scolare le ciambelle con un mestolo forato e sistemarle su carta assorbente da cucina per farle asciugare dall'olio in eccesso.",
+  "Spolverizzare con abbondante zucchero e servire a piacere calde o tiepide."
+ ],
+ "note": [
+  "Resa: 18 ciambelle (la ricetta indica i pezzi al posto delle porzioni).",
+  "Per agevolare il distacco delle ciambelle dalla carta prima della frittura al passaggio 6, è possibile ritagliare con le forbici ciascun pezzo di carta forno su cui è poggiata ogni singola ciambella e friggerle immergendo le ciambelle nell'olio direttamente con la carta. Non appena la carta forno si staccherà da sola, rimuoverla e proseguire la cottura rigirando le ciambelle sino a completa doratura.",
+  "È possibile dimezzare le dosi, tranne l'olio per friggere, realizzando circa 9 ciambelle."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale la scorza di 1 limone, preferibilmente biologico (senza la parte bianca)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di zucchero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Polverizzate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e mettete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di latte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 25,
+   "testo": "Aggiungete 25 g di lievito di birra fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sciogliete.",
+   "tempo_s": 60,
+   "velocita": 2,
+   "temp_c": 37,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Aggiungete 70 g di burro, morbido, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Aggiungete 320 g di patate, lessate e schiacciate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di farina tipo 00."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di farina manitoba."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete lo zucchero aromatizzato al limone tenuto da parte e 2 uova medie."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impastate.",
+   "tempo_s": 180,
+   "velocita": null,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Impastare",
+   "avvertenza": "«Spiga» del Bimby corrisponde al programma Impastare del Connect: durata e velocità le gestisce il programma, non sostituitelo con una velocità manuale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'impasto in una ciotola, coprite con pellicola trasparente e lasciate lievitare in luogo tiepido al riparo da correnti d'aria fino a che raddoppia il volume (2 ore circa).",
+   "attesa_s": 7200
+  },
+  {
+   "tipo": "testo",
+   "testo": "Foderate un vassoio con carta forno."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'impasto lievitato sul piano di lavoro e formate 18 palline del peso di circa 60 g ciascuna, allargatele con le mani per creare un disco di circa Ø 8 cm e con le dita praticate un foro al centro. Sistemate le ciambelle sul vassoio distanziandole leggermente. Lasciate lievitare nuovamente al riparo da correnti d'aria per circa 1 ora.",
+   "attesa_s": 3600
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una padella antiaderente scaldate abbondante olio di arachidi (1000 g), friggete le ciambelle poche per volta nell'olio ben caldo rigirandole sino a completa doratura (3-4 minuti circa). Scolatele con un mestolo forato e sistematele su carta assorbente da cucina per farle asciugare dall'olio in eccesso."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate con abbondante zucchero e servite a piacere calde o tiepide."
+  }
+ ],
+ "origine": "cookidoo:r113651",
+ "importata": "2026-11-05"
+}

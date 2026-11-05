@@ -169,6 +169,7 @@ def testa(righe, voc):
             break
         tit.append(r.strip())
     t = " ".join(tit)
+    t = re.sub(r"(?<=\w)\s*@\s", "® ", t)                              # il simbolo ® letto come @
     t = re.sub(r"(?<=\))\s+\d$", "", t)                           # cifra isolata (icona delle stelle) dopo il titolo
     righe = [re.sub(r"\b[lI]\s*h\b", "1h", r) for r in righe]
     def ore(pat):
