@@ -25,6 +25,7 @@ jobs:
         run: |
           mkdir site
           cp monsieur-cuisine-ricette/dist/preview.html site/index.html
+          cp monsieur-cuisine-ricette/dist/*.png monsieur-cuisine-ricette/dist/manifest.webmanifest site/
           touch site/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
