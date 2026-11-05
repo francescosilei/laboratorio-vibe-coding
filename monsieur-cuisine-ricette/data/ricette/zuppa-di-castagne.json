@@ -1,0 +1,209 @@
+{
+ "id": "zuppa-di-castagne",
+ "titolo": "Zuppa di castagne",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-castagne.jpg",
+ "ingredienti": [
+  {
+   "testo": "80 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "80 g di carota, pelata e a pezzi (2 cm circa)",
+   "nome": "carota"
+  },
+  {
+   "testo": "30 g di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "2 foglie di salvia fresca, lavate",
+   "nome": "salvia"
+  },
+  {
+   "testo": "1 rametto di rosmarino fresco, gli aghi lavati",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "1 spicchio di aglio, senza anima",
+   "nome": "aglio"
+  },
+  {
+   "testo": "40 g di olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "750 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "200 g di castagne fresche, sbucciate e spellate",
+   "nome": "castagne"
+  },
+  {
+   "testo": "80 g di orzo perlato",
+   "nome": "orzo perlato"
+  },
+  {
+   "testo": "1 cucchiaino colmo di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "100 g di pomodori, a tocchetti",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "80 g di lenticchie, in scatola, scolate e sciacquate",
+   "nome": "lenticchie"
+  },
+  {
+   "testo": "80 g di piselli in scatola, scolati e sciacquati",
+   "nome": "piselli"
+  },
+  {
+   "testo": "80 g di fagioli borlotti in scatola, scolati e sciacquati",
+   "nome": "fagioli borlotti"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla, la carota, il sedano, la salvia, il rosmarino e lo spicchio di aglio, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1 con il cestello al posto del misurino.",
+  "Unire l'acqua, le castagne, l'orzo e il sale, cuocere: 25 min./100°C//vel. con il cestello al posto del misurino.",
+  "Aggiungere i pomodori, le lenticchie, i piselli e i fagioli, proseguire la cottura con il cestello al posto del misurino: 10 min./100°C//vel. . Lasciare riposare la zuppa per 5 minuti e trasferire in una zuppiera.",
+  "Servire subito irrorando a piacere con un filo di olio extravergine di oliva."
+ ],
+ "note": [
+  "Le castagne fresche possono essere sostituite con la stessa quantità di castagne",
+  "precotte. In questo caso, unire le castagne al passaggio 4 negli ultimi 5 minuti di cottura.",
+  "Le lenticchie e i fagioli in scatola possono essere sostituiti da quelli secchi, previo",
+  "ammollo. Utilizzare metà della quantità dei legumi indicata in ricetta (40 g di lenticchie",
+  "secche e 40 g di fagioli borlotti secchi), ammollarli seguendo le indicazioni riportate",
+  "sulla confezione, scolarli e aggiungerli al passaggio 3.",
+  "In alternativa: 100 g di passata di pomodoro, a tocchetti"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di carota, pelata e a pezzi (2 cm circa)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di sedano, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 foglie di salvia fresca, lavate, 1 rametto di rosmarino fresco, gli aghi lavati, 1 spicchio di aglio, senza anima."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di olio extravergine di oliva (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false,
+   "nota": "Con il cestello al posto del misurino."
+  },
+  {
+   "tipo": "pesata",
+   "g": 750,
+   "testo": "Pesate 750 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di castagne fresche, sbucciate e spellate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di orzo perlato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Con il cestello al posto del misurino."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di pomodori, a tocchetti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di lenticchie, in scatola, scolate e sciacquate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di piselli in scatola, scolati e sciacquati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di fagioli borlotti in scatola, scolati e sciacquati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate riposare la zuppa per 5 minuti e trasferite in una zuppiera.",
+   "attesa_s": 300
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito irrorando a piacere con un filo di olio extravergine di oliva."
+  }
+ ],
+ "origine": "cookidoo:r148085",
+ "importata": "2026-11-05"
+}

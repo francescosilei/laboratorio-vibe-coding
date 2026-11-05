@@ -1,0 +1,167 @@
+{
+ "id": "zuppa-di-cipolle-al-parmigiano-reggiano",
+ "titolo": "Zuppa di cipolle al Parmigiano Reggiano",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-cipolle-al-parmigiano-reggiano.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di Parmigiano Reggiano, a pezzi (3 cm)",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "100 g Emmental, a pezzi (3 cm)",
+   "nome": "emmental"
+  },
+  {
+   "testo": "30 g di burro, a pezzi",
+   "nome": "burro"
+  },
+  {
+   "testo": "400 g di cipolle bianche, a fettine",
+   "nome": "cipolle bianche"
+  },
+  {
+   "testo": "40 g di farina tipo 00",
+   "nome": "farina"
+  },
+  {
+   "testo": "700 g di brodo vegetale, bollente",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "8 fette di pane",
+   "nome": "pane"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano Reggiano e grattugiare: 20 sec./vel. 10. Trasferire in una ciotola e mettere da parte.",
+  "Mettere nel boccale l'Emmental e tritare: 10 sec./vel. 5. Trasferire nella ciotola insieme al Parmigiano Reggiano grattugiato e mescolare.",
+  "Mettere nel boccale il burro e le cipolle, cuocere con il cestello al posto del misurino: 8 min./100°C//vel. 1.",
+  "Aggiungere la farina e mescolare: 20 sec.//vel.2.",
+  "Aggiungere il brodo vegetale, il sale e il pepe, cuocere con il cestello al posto del misurino: 20 min./100°C//vel. 2. Nel frattempo, preriscaldare il forno alla funzione grill.",
+  "Trasferire la zuppa in terrine individuali, disporvi 2 fette di pane tostato e cospargere la superficie con una spolverata dei formaggi grattugiati. Riporre le terrine sotto il grill del forno e cuocere finché la superficie sara ben gratinata. Servire la zuppa subito."
+ ],
+ "note": [
+  "In alternativa: 700 g di acqua, + 1 cucchiaino colmo di dado per brodo vegetale fatto in casa"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di Parmigiano Reggiano, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 20,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e mettete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di Emmental, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite nella ciotola insieme al Parmigiano Reggiano grattugiato e mescolate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di burro, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di cipolle bianche, a fettine."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 480,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di farina tipo 00."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 20,
+   "velocita": 2,
+   "temp_c": 0,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Pesate 700 g di brodo vegetale, bollente."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale, 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, preriscaldate il forno alla funzione grill."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la zuppa in terrine individuali, disporvi 2 fette di pane tostato e cospargete la superficie con una spolverata dei formaggi grattugiati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riporre le terrine sotto il grill del forno e cuocete finché la superficie sara ben gratinata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la zuppa subito."
+  }
+ ],
+ "origine": "cookidoo:r70734",
+ "importata": "2026-10-27"
+}

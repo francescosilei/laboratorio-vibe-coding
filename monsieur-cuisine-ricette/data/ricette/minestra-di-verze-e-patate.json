@@ -1,0 +1,174 @@
+{
+ "id": "minestra-di-verze-e-patate",
+ "titolo": "Minestra di verze e patate",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "minestra-di-verze-e-patate.jpg",
+ "ingredienti": [
+  {
+   "testo": "50 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "50 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "50 g di porro, a pezzi",
+   "nome": "porro"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "400 g di foglie di verza, a listarelle",
+   "nome": "verza"
+  },
+  {
+   "testo": "200 g di patate, pelate e a tocchetti (1 cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "800 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "1 cucchiaino colmo di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "Parmigiano Reggiano, grattugiato, a piacere",
+   "nome": "parmigiano reggiano"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la carota, la cipolla e il porro, tritare: 15 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire la verza, le patate, 250 g di acqua, 1 pizzico di sale e 1 pizzico di pepe, cuocere: 10 min./120°C//vel. 1.",
+  "Aggiungere i restanti 550 g di acqua e il dado, cuocere: 30 min./100c//vel. 1. Controllare la cottura delle verdure e, se necessario, proseguire: 5 min./100°C//vel. 1.",
+  "Trasferire la minestra in una zuppiera, se necessario aggiustare di sale e pepe e servire spolverizzando a piacere con del Parmigiano Reggiano grattugiato."
+ ],
+ "note": [
+  "Questa ricetta e stata postata da radicadinoce sulla Community Bimby www.ricettario-",
+  "bimby.it",
+  "Se si desidera una minestra più brodosa, al passaggio 4 aggiungere 50 g di acqua in più."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di porro, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 15,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Pesate 400 g di foglie di verza, a listarelle."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di patate, pelate e a tocchetti (1 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale, 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 550,
+   "testo": "Pesate 550 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di dado per brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la minestra in una zuppiera, se necessario aggiustate di sale e pepe e servite spolverizzando a piacere con del Parmigiano Reggiano grattugiato."
+  }
+ ],
+ "origine": "cookidoo:r649724",
+ "importata": "2026-10-27"
+}

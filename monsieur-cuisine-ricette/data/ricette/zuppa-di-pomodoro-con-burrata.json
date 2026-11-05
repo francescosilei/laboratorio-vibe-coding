@@ -1,0 +1,157 @@
+{
+ "id": "zuppa-di-pomodoro-con-burrata",
+ "titolo": "Zuppa di pomodoro con burrata",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-pomodoro-con-burrata.jpg",
+ "ingredienti": [
+  {
+   "testo": "1000 g di pomodori costoluti, maturi, in quarti",
+   "nome": "pomodori costoluti"
+  },
+  {
+   "testo": "100 g di cipolla rossa, a fette (1-1,5 cm)",
+   "nome": "cipolla rossa"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "3 pizzichi di pepe nero macinato",
+   "nome": "pepe nero"
+  },
+  {
+   "testo": "150 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "40 g di basilico fresco, le foglie lavate e asciugate + q.b.",
+   "nome": "basilico"
+  },
+  {
+   "testo": "40 g di panna molto densa (circa 48% grassi)",
+   "nome": "panna"
+  },
+  {
+   "testo": "230 g di burrata, in bocconcini (circa 4 burratine) + 4 burratine",
+   "nome": "burrata"
+  },
+  {
+   "testo": "pane con la crosta, a cubetti, a piacere",
+   "nome": "pane"
+  }
+ ],
+ "procedimento": [
+  "Preriscaldare il forno a 220'C e rivestire la placca con carta forno.",
+  "Disporre i pomodori, le cipolle e l'aglio sulla placca preparata, irrorare con l'olio extravergine di oliva e mescolare. Cuocere in forno caldo per 15 minuti (220C). Togliere con attenzione dal forno.",
+  "Mettere nel boccale le verdure cotte, il sale, il pepe, il brodo vegetale e basilico, cuocere: 10 min./100c/vel. 1.",
+  "Aggiungere la panna e impostare Frullare /20 sec..",
+  "Unire 230 g di burratine e cuocere y Cottura Aperta/5 min./100°C senza mescolare.",
+  "Dividere la zuppa in 4 ciotole e completare sistemando una burratina sulla zuppa. Guarnire con foglie di basilico fresco e cubetti di pane dorato. Servire."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Preriscaldate il forno a 220°C e rivestite la placca con carta forno."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate sulla placca 1000 g di pomodori costoluti, maturi, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di cipolla rossa, a fette (1-1,5 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 spicchi di aglio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Irrorate i pomodori, le cipolle e l'aglio con l'olio extravergine di oliva e mescolate. Cuocete in forno caldo per 15 minuti (220°C). Togliete con attenzione dal forno.",
+   "attesa_s": 900
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale le verdure cotte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di brodo vegetale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di basilico fresco, le foglie lavate e asciugate (+ q.b.)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di sale e 3 pizzichi di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di panna molto densa (circa 48% grassi)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 20,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "pesata",
+   "g": 230,
+   "testo": "Pesate 230 g di burrata, in bocconcini (circa 4 burratine) + 4 burratine per guarnire."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite la burrata in bocconcini e cuocete a boccale aperto 5 min/100°C senza mescolare.",
+   "avvertenza": "Modalità «Cottura Aperta» del Bimby TM7 (cottura senza far girare le lame, a boccale aperto): non è nelle tabelle di conversione. Impostate tempo e temperatura e controllate sul display del Connect come evitare la rotazione."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Dividete la zuppa in 4 ciotole e completate sistemando una burratina sulla zuppa. Guarnite con foglie di basilico fresco e cubetti di pane dorato. Servite."
+  }
+ ],
+ "origine": "cookidoo:r927791",
+ "importata": "2026-10-27"
+}

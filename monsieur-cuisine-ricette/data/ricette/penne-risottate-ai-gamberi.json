@@ -1,0 +1,225 @@
+{
+ "id": "penne-risottate-ai-gamberi",
+ "titolo": "Penne risottate ai gamberi",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 30,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "penne-risottate-ai-gamberi.jpg",
+ "ingredienti": [
+  {
+   "testo": "3 rametti di prezzemolo fresco, le foglioline lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "4 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "50 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "½ cucchiaino di paprica dolce",
+   "nome": "paprica dolce"
+  },
+  {
+   "testo": "500 g di gamberi crudi di media grandezza",
+   "nome": "gamberi crudi"
+  },
+  {
+   "testo": "½ cucchiaino di pepe nero macinato",
+   "nome": "pepe nero"
+  },
+  {
+   "testo": "1 cucchiaino di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "acqua, q.b.",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaio di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "250 g di penne rigate",
+   "nome": "penne rigate"
+  },
+  {
+   "testo": "10 g di lemon grass, a pezzi",
+   "nome": "lemon grass"
+  },
+  {
+   "testo": "20 g di burro, a pezzi",
+   "nome": "burro"
+  },
+  {
+   "testo": "50 g di panna (30-40% di grassi)",
+   "nome": "panna"
+  },
+  {
+   "testo": "1 limone (opzionale), a spicchi, per guarnire",
+   "nome": "limone"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo e tritare: 4 sec./vel. 6. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale l'aglio e tritare: 3 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva, il sale e la paprica, insaporire: 1 min./120°C/vel. 1.",
+  "Unire i gamberi e impostare: Alta temperatura $Ss. Scolarli in una ciotola attraverso il cestello per raccogliere il liquido di cottura. Trasferirli in una ciotola e condirli con pepe e zucchero, mescolare bene e tenere da parte in caldo.",
+  "Aggiungere il dado e il sale, cuocere: 7 min./100°C/vel. 1.",
+  "Aggiungere le penne e la lemon grass, cuocere: il tempo indicato sulla confezione 120°C//vel.1.",
+  "Unire il burro e la panna, mescolare: 30 sec.//vel. 0.5. Aggiungere i gamberi tenuti da parte e mescolare con l'aiuto della spatola. Guarnire a piacere con spicchi di limone e il prezzemolo tritato rimasto e servire immediatamente."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 3 rametti di prezzemolo fresco, le foglioline lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 4,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 4 spicchi di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale e ½ cucchiaino di paprica dolce."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di gamberi crudi di media grandezza."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Scolate i gamberi in una ciotola attraverso il cestello per raccogliere il liquido di cottura. Trasferiteli in una ciotola e conditeli con ½ cucchiaino di pepe nero macinato e 1 cucchiaino di zucchero, mescolate bene e teneteli da parte in caldo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale il liquido di cottura dei gamberi e aggiungete acqua fino a raggiungere 500 g."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio di dado per brodo vegetale e 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di penne rigate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di lemon grass, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Il tempo è quello indicato sulla confezione della pasta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di burro, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di panna (30-40% di grassi)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 30,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "avvertenza": "La ricetta indica velocità 0.5, che sul Connect non c'è: arrotondata per eccesso a 1."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete i gamberi tenuti da parte e mescolate con l'aiuto della spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Guarnite a piacere con spicchi di limone (opzionale) e il prezzemolo tritato rimasto e servite immediatamente."
+  }
+ ],
+ "origine": "cookidoo:r803505",
+ "importata": "2026-10-28"
+}

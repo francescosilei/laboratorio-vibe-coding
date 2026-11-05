@@ -1,0 +1,150 @@
+{
+ "id": "sedanini-risottati-alla-carbonara",
+ "titolo": "Sedanini risottati alla carbonara (1 porzione)",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 30,
+ "porzioni": 1,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "sedanini-risottati-alla-carbonara.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 uovo",
+   "nome": "uovo"
+  },
+  {
+   "testo": "1 cucchiaio di pecorino Romano, grattugiato",
+   "nome": "pecorino romano"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe nero"
+  },
+  {
+   "testo": "25 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "50 g di pancetta affumicata o guanciale a listarelle",
+   "nome": "pancetta affumicata"
+  },
+  {
+   "testo": "220 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "80 g di pasta secca corta, tipo sedanini",
+   "nome": "pasta secca corta"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'uovo, il pecorino grattugiato e il pepe, mescolare: 20 sec./vel. 4. Trasferire il condimento in una ciotolina. Sciacquare e asciugare il boccale. Mettere l'olio extravergine di oliva e la pancetta, insaporire: 3 min./1200°C/vel. 1.",
+  "Unire l'acqua e il sale, portare ad ebollizione: 5 min./100°C/vel. 1. Aggiungere i sedanini, cuocere: il tempo indicato sulla confezione 100°C//vel. .",
+  "Unire il condimento, amalgamare: 5 sec.//vel. .",
+  "Trasferire in un piatto fondo e servire."
+ ],
+ "note": [
+  "Per una riuscita ottimale della ricetta si consiglia di utilizzare solo pasta secca e preferibilmente prodotta con farina di grano duro.",
+  "Se si desidera un formaggio dal gusto più delicato, sostituire il pecorino romano grattugiato con pari quantità di Parmigiano reggiano grattugiato."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 uovo, 1 cucchiaio di pecorino Romano grattugiato e 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 20,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il condimento in una ciotolina."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sciacquate e asciugate il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 25,
+   "testo": "Pesate 25 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di pancetta affumicata o guanciale a listarelle."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 220,
+   "testo": "Aggiungete 220 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate a ebollizione.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate 80 g di pasta secca corta, tipo sedanini."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo è quello indicato sulla confezione della pasta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite il condimento."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Amalgamate.",
+   "tempo_s": 5,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in un piatto fondo e servite."
+  }
+ ],
+ "origine": "cookidoo:r121100",
+ "importata": "2026-10-28"
+}

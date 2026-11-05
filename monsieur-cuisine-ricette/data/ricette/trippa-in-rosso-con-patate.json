@@ -1,0 +1,213 @@
+{
+ "id": "trippa-in-rosso-con-patate",
+ "titolo": "Trippa in rosso con patate",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 90,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "trippa-in-rosso-con-patate.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g cipolle, a pezzi",
+   "nome": "cipolle"
+  },
+  {
+   "testo": "80 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "30 g di gambo di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "50 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "600 g di trippa, precotta a listarelle (2 cm) (vedere consigli)",
+   "nome": "trippa"
+  },
+  {
+   "testo": "80 g di vino bianco secco",
+   "nome": "vino bianco secco"
+  },
+  {
+   "testo": "2 foglie di alloro fresche, o secche",
+   "nome": "alloro"
+  },
+  {
+   "testo": "300 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di sale (+ q.b.)",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "250 g di polpa di pomodoro",
+   "nome": "pomodoro"
+  },
+  {
+   "testo": "20 g di concentrato di pomodoro",
+   "nome": "concentrato pomodoro"
+  },
+  {
+   "testo": "250 g di patate, pelate e a tocchetti (2 cm circa)",
+   "nome": "patate"
+  },
+  {
+   "testo": "30 g di Parmigiano Reggiano grattugiato (opzionale)",
+   "nome": "parmigiano reggiano"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le cipolle, la carota e il sedano, tritare: 10 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Unire l'olio extravergine di oliva e insaporire: 5 min./120°C/vel. 1.",
+  "Aggiungere la trippa e insaporire: 5 min./120c//vel. .",
+  "Unire il vino bianco e sfumare senza misurino: 1 min./100°C//vel. .",
+  "Aggiungere la polpa di pomodoro, il concentrato, le foglie di alloro, l'acqua, il sale e il pepe, cuocere: 50 min./100°C//vel. .",
+  "Unire le patate e proseguire la cottura : 20 min./100°C//vel. . Trasferire in una zuppiera e, se necessario, aggiustare di sale (vedere consigli).",
+  "Servire subito, spolverizzando a piacere con del Parmigiano reggiano grattugiato."
+ ],
+ "note": [
+  "Se sidesidera una salsa più densa, posizionare il cestello sul coperchio e proseguire la",
+  "cottura: 10-15 min./120°C//vel. .",
+  "Per questa ricetta, si consiglia di utilizzare una trippa di rumine, più spessa e compatta."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolle, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di gambo di sedano, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate 600 g di trippa, precotta a listarelle (2 cm) (vedere consigli)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate 80 g di vino bianco secco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di concentrato di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di polpa di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 foglie di alloro fresche, o secche, 1 cucchiaino di sale (+ q.b.), 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 3000,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di patate, pelate e a tocchetti (2 cm circa)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera e, se necessario, aggiustate di sale (vedere consigli)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di Parmigiano Reggiano grattugiato (opzionale)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito, spolverizzando a piacere con del Parmigiano reggiano grattugiato."
+  }
+ ],
+ "origine": "cookidoo:r443788",
+ "importata": "2026-11-05"
+}

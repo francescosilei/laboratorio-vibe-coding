@@ -1,0 +1,216 @@
+{
+ "id": "moqueca",
+ "titolo": "Moqueca",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 30,
+ "tempo_cottura_min": null,
+ "tempo_min": 80,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "moqueca.jpg",
+ "ingredienti": [
+  {
+   "testo": "2 lime, preferibilmente biologici, il succo e la scorza a striscioline (senza la parte bianca)",
+   "nome": "lime"
+  },
+  {
+   "testo": "500 g di filetti di pesce bianco (es. nasello)",
+   "nome": "pesce bianco"
+  },
+  {
+   "testo": "250 g di code di gambero",
+   "nome": "gambero"
+  },
+  {
+   "testo": "1 cucchiaino di sale (+ q.b.)",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "3 rametti di prezzemolo fresco, le foglioline lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "1 spicchio di aglio, senza anima",
+   "nome": "aglio"
+  },
+  {
+   "testo": "120 g di cipolla, dorata in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 peperoncino secco piccante",
+   "nome": "peperoncino secco piccante"
+  },
+  {
+   "testo": "50 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "150 g di peperoni rossi, puliti e a listarelle (0.5 mm circa)",
+   "nome": "peperoni rossi"
+  },
+  {
+   "testo": "1 cucchiaino di semi di coriandolo",
+   "nome": "coriandolo"
+  },
+  {
+   "testo": "200 g di latte di cocco",
+   "nome": "latte cocco"
+  },
+  {
+   "testo": "300 g acqua",
+   "nome": "acqua"
+  }
+ ],
+ "procedimento": [
+  "In una ciotola sistemare i filetti di pesce, le code di gambero, insaporire con un pizzico di sale e di pepe, irrorare il succo dei lime e far marinare per 20 minuti.",
+  "Mettere nel boccale il prezzemolo e tritare: 3 sec./vel. 8. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale l'aglio, la cipolla e il peperoncino, tritare: 3 sec./vel. 6. Riunire sul fondo con la spatola.",
+  "Aggiungere 40 g di olio extravergine di oliva e insaporire con il cestello al posto del misurino: 5 min./120°C/vel. 1.",
+  "Unire le code di gambero, scolate dalla marinatura, e insaporire con il cestello al posto del misurino: 2 min./120°C//vel. . Togliere i crostacei dal boccale e distribuirli nel recipiente del Varoma, mantenendo il ligquido di cottura nel boccale.",
+  "Sistemare i filetti di pesce marinati nel il cestello, cospargerli con 10 g di olio extravergine di oliva e 1 cucchiaino di sale. Aggiungere nel boccale il peperoni, i semi di coriandolo, 'acqua, il latte di cocco e la scorza di mezzo lime, posizionare il cestello e il recipiente del Varoma. Chiudere il Varoma con il coperchio e cuocere: 20 min./Varoma//vel. 1. Togliere con attenzione il Varoma e il cestello con l'aiuto della spatola. Trasferire i filetti di pesce e i gamberi in una zuppiera e versarviil brodo.",
+  "Spolverizzare con il prezzemolo tritato e servire subito (vedere consigli)."
+ ],
+ "note": [
+  "La moqueca de peixe e una preparazione tipica brasiliana.",
+  "Accompagnare a piacere con riso bianco bollito."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di filetti di pesce bianco (es. nasello)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una ciotola sistemate i filetti di pesce, le code di gambero, insaporite con un pizzico di sale e di pepe, irrorate il succo dei lime e far marinare per 20 minuti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 3 rametti di prezzemolo fresco, le foglioline lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Pesate nel boccale 120 g di cipolla, dorata in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di peperoni rossi, puliti e a listarelle (0.5 mm circa)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, senza anima, 1 peperoncino secco piccante."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di code di gambero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete i crostacei dal boccale e distribuirli nel recipiente del Varoma, mantenendo il ligquido di cottura nel boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate 10 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate i filetti di pesce marinati nel il cestello, cospargerli con 10 g di olio extravergine di oliva e 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate nel boccale 300 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di latte di cocco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di semi di coriandolo, 2 lime, preferibilmente biologici, il succo e la scorza a striscioline (senza la parte bianca)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma e il cestello con l'aiuto della spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite i filetti di pesce e i gamberi in una zuppiera e versarviil brodo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate con il prezzemolo tritato e servite subito (vedere consigli)."
+  }
+ ],
+ "origine": "cookidoo:r151969",
+ "importata": "2026-11-05"
+}

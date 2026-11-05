@@ -1,0 +1,117 @@
+{
+ "id": "fabada-asturiana-stufato-spagnolo",
+ "titolo": "Fabada Asturiana (stufato spagnolo)",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 930,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "fabada-asturiana-stufato-spagnolo.jpg",
+ "ingredienti": [
+  {
+   "testo": "300 g di fagioli faba Asturiana, secchi",
+   "nome": "fagioli faba asturiana"
+  },
+  {
+   "testo": "100 g di prosciutto lacon (opzionale), a pezzi",
+   "nome": "prosciutto lacon"
+  },
+  {
+   "testo": "100 g di salame chorizo, a pezzi",
+   "nome": "salame chorizo"
+  },
+  {
+   "testo": "100 g sanguinaccio",
+   "nome": "sanguinaccio"
+  },
+  {
+   "testo": "100 g di pancetta, asturiana (in 1 pezzo)",
+   "nome": "pancetta"
+  },
+  {
+   "testo": "1450 g acqua (+ q.b.)",
+   "nome": "acqua"
+  }
+ ],
+ "procedimento": [
+  "Posizionare una ciotola capiente sul coperchio del boccale e pesare al suo internoi fagioli e 100 g di prosciutto, coprire con acqua a temperatura ambiente e lasciare in ammollo per 12-15 ore.",
+  "Scolare i fagioli e il prosciutto e metterli nel boccale, aggiungere il chorizo, il sanguinaccio, la pancetta e 1250 g di acqua, cuocere: 20 min./100°C//vel. . Eliminare la schiuma dalla superficie con un cucchiaio o un mestolo forato. Impostare Cottura Aperta/1 h 30 min./100°C.",
+  "Unire 200 g di acqua e impostare Cottura Aperta/1 h 30 min./95°C. Tagliare la pancetta a pezzi e servire calda."
+ ],
+ "note": [
+  "In alternativa: 300 g di fagioli cannellini secchi"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di fagioli faba Asturiana, secchi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di prosciutto lacon (opzionale), a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1450,
+   "testo": "Aggiungete 1450 g di acqua (+ q.b.)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di salame chorizo, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di sanguinaccio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di pancetta, asturiana (in 1 pezzo)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Eliminare la schiuma dalla superficie con un cucchiaio o un mestolo forato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 5400,
+   "velocita": null,
+   "temp_c": 100,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Cottura Aperta» del Bimby TM7 (cottura a boccale aperto, senza far girare le lame): non è nelle tabelle di conversione. Impostate tempo e temperatura e controllate sul display del Connect come evitare la rotazione."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 5400,
+   "velocita": null,
+   "temp_c": 95,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità «Cottura Aperta» del Bimby TM7 (cottura a boccale aperto, senza far girare le lame): non è nelle tabelle di conversione. Impostate tempo e temperatura e controllate sul display del Connect come evitare la rotazione."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Tagliate la pancetta a pezzi e servite calda."
+  }
+ ],
+ "origine": "cookidoo:r914227",
+ "importata": "2026-11-05"
+}

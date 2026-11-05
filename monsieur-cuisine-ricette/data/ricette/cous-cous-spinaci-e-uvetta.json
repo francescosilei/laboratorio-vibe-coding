@@ -1,0 +1,157 @@
+{
+ "id": "cous-cous-spinaci-e-uvetta",
+ "titolo": "Cous cous spinaci e uvetta",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "cous-cous-spinaci-e-uvetta.jpg",
+ "ingredienti": [
+  {
+   "testo": "750 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino colmo di sale grosso",
+   "nome": "sale grosso"
+  },
+  {
+   "testo": "200 g di spinaci in foglia surgelati, scongelati",
+   "nome": "spinaci"
+  },
+  {
+   "testo": "250 g di cous cous",
+   "nome": "cous cous"
+  },
+  {
+   "testo": "olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "40 g di uvetta sultanina, ammollata in acqua tiepida per 10 minuti e ben strizzata",
+   "nome": "uvetta sultanina"
+  },
+  {
+   "testo": "400 g di pomodori ciliegino, a metà o in quarti",
+   "nome": "pomodori ciliegino"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'acqua e il sale, posizionare il recipiente del Varoma e sistemare al suo interno gli spinaci e cuocere: 15 min./Varoma/vel. 2.",
+  "Togliere con attenzione il Varoma e versare 250 g dell'acqua di cottura bollente in una ciotola e svuotare il boccale dall'acqua rimanente.",
+  "Aggiungere nella ciotola il cous cous, mescolare, coprire con un coperchio e lasciare riposare coperto per 10 minuti.",
+  "Sgranare il cous cous ammollato con una forchetta e condire con un filo di olio extravergine di oliva.",
+  "Nel boccale pulito e asciutto mettere l'olio extravergine di oliva e l'aglio, insaporire: 3 min./120°C/vel. 1.",
+  "Con l'aiuto di pinze da cucina rimuovere l'aglio, aggiungere gli spinaci ben strizzati e tagliati grossolanamente e l'uvetta, insaporire: 4 min./100°C/antiorario/vel. 1.",
+  "Aggiungere al cous cous gli spinaci e i pomodori, mescolare bene e servire."
+ ],
+ "note": [
+  "A piacere, è possibile unire alla fine della preparazione anche dei pinoli",
+  "precedentemente tostati.",
+  "In alternativa: q.b."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 750,
+   "testo": "Pesate nel boccale 750 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di spinaci in foglia surgelati, scongelati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di sale grosso."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 2,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma e versate 250 g dell'acqua di cottura bollente in una ciotola e svuotate il boccale dall'acqua rimanente."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di cous cous."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete nella ciotola il cous cous, mescolate, coprite con un coperchio e lasciate riposare coperto per 10 minuti.",
+   "attesa_s": 600
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sgranare il cous cous ammollato con una forchetta e condite con un filo di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con l'aiuto di pinze da cucina togliete l'aglio, poi aggiungete gli spinaci ben strizzati e tagliati grossolanamente."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate nel boccale 40 g di uvetta sultanina."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Pesate 400 g di pomodori ciliegino, a metà o in quarti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete al cous cous gli spinaci e i pomodori, mescolate bene e servite."
+  }
+ ],
+ "origine": "cookidoo:r96712",
+ "importata": "2026-10-27"
+}

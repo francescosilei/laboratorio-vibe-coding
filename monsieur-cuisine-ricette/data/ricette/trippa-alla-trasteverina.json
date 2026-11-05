@@ -1,0 +1,179 @@
+{
+ "id": "trippa-alla-trasteverina",
+ "titolo": "Trippa alla trasteverina",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "trippa-alla-trasteverina.jpg",
+ "ingredienti": [
+  {
+   "testo": "50 g di pecorino Romano, a pezzi",
+   "nome": "pecorino romano"
+  },
+  {
+   "testo": "100 g di cubetti di lardo",
+   "nome": "cubetti lardo"
+  },
+  {
+   "testo": "100 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1 peperoncino piccante fresco, a metà, privato dei semi",
+   "nome": "peperoncino piccante"
+  },
+  {
+   "testo": "50 g di gambo di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "40 g di carota, a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "15 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1000 g di trippa, precotta, a listarelle",
+   "nome": "trippa"
+  },
+  {
+   "testo": "400 g di polpa di pomodoro a pezzi",
+   "nome": "pomodoro"
+  },
+  {
+   "testo": "100 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "½ cucchiaino di dado per brodo di carne, fatto in casa",
+   "nome": "dado"
+  },
+  {
+   "testo": "½ - 1 cucchiaino di sale",
+   "nome": "sale"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il pecorino e grattugiare: 100 sec./vel. 10. Trasferire in una ciotolina e tenere da parte.",
+  "Mettere nel boccale il lardo, la cipolla,l'aglio, il peperoncino, il sedano e la carota, tritare: 5 sec./vel.7.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C//vel. 1.",
+  "Unire la trippa, la polpa di pomodoro, l'acqua, il dado, il sale e l cucchiaio di pecorino grattugiato, cuocere: 25 min./100°C//vel. 1. Trasferire la trippa in una zuppiera o nei piatti.",
+  "Servire subito la trippa spolverizzando con il pecorino grattugiato."
+ ],
+ "note": [
+  "In alternativa: ½ dado per brodo (per 0,51di brodo)"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di pecorino Romano, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 100,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotolina e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cubetti di lardo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di gambo di sedano, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di carota, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, 1 peperoncino piccante fresco, a metà, privato dei semi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Pesate 15 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate 1000 g di trippa, precotta, a listarelle."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di polpa di pomodoro a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di dado per brodo di carne, fatto in casa, ½ - 1 cucchiaino di sale, pecorino romano (messo da parte)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la trippa in una zuppiera o nei piatti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito la trippa spolverizzando con il pecorino grattugiato."
+  }
+ ],
+ "origine": "cookidoo:r145628",
+ "importata": "2026-11-05"
+}

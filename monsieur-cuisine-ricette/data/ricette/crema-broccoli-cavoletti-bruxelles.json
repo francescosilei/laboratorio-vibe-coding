@@ -1,0 +1,147 @@
+{
+ "id": "crema-broccoli-cavoletti-bruxelles",
+ "titolo": "Crema di broccoli e cavoletti di Bruxelles",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "crema-broccoli-cavoletti-bruxelles.jpg",
+ "ingredienti": [
+  {
+   "testo": "300 g di cavoletti di Bruxelles, a metà",
+   "nome": "cavoletti di Bruxelles"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine d'oliva"
+  },
+  {
+   "testo": "3 cucchiaini di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "2 pizzichi di pepe macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "200 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "50 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "500 g di cimette di broccoli",
+   "nome": "cimette di broccoli"
+  },
+  {
+   "testo": "2 cucchiaini di foglioline di timo fresco",
+   "nome": "timo"
+  },
+  {
+   "testo": "700 g di acqua",
+   "nome": "acqua"
+  }
+ ],
+ "procedimento": [
+  "Preriscaldare il forno a 250°C.",
+  "Condire i cavoletti di Bruxelles con l'olio extravergine di oliva, 1 cucchiaino di sale e 1 pizzico di pepe, mescolare e disporre su una teglia, cuocere in forno caldo per circa 15 minuti (250°C).",
+  "Mettere nel boccale la cipolla e tritare: 5 sec./vel. 5.",
+  "Aggiungere il burro e i broccoli, cuocere: 12 min./100°C/vel. 1.",
+  "Aggiungere 2 cucchiaini di sale, 1 pizzico di pepe, il timo e l'acqua, cuocere per 16 min./100°C/vel. 1.",
+  "Impostare Frullare: 1 min. Servire la crema di broccoli con i cavoletti di Bruxelles arrostiti."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Preriscaldate il forno a 250 °C."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di cavoletti di Bruxelles, tagliati a metà."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Condite con 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale e 1 pizzico di pepe, mescolate e disponete su una teglia. Cuocete in forno caldo per circa 15 minuti (250 °C).",
+   "attesa_s": 900
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di burro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di cimette di broccoli."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 720,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di sale, 1 pizzico di pepe e 2 cucchiaini di foglioline di timo fresco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Aggiungete 700 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 960,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la crema di broccoli con i cavoletti di Bruxelles arrostiti."
+  }
+ ],
+ "origine": "cookidoo:r935288",
+ "importata": "2026-10-26"
+}

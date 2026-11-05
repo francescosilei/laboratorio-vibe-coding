@@ -1,0 +1,161 @@
+{
+ "id": "zuppa-di-avocado-e-pomodoro",
+ "titolo": "Zuppa di avocado e pomodoro",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-avocado-e-pomodoro.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "20 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "800 g di pomodori pelati",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "50 g di concentrato di pomodoro",
+   "nome": "concentrato pomodoro"
+  },
+  {
+   "testo": "1 - 1 ½ cucchiaio di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "½ cucchiaino di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "1 cucchiaino di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "1 cucchiaino di maggiorana secca",
+   "nome": "maggiorana secca"
+  },
+  {
+   "testo": "1 cucchiaino colmo di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "250 - 280 g di polpa di avocado, maturo a pezzi (3 cm)",
+   "nome": "avocado"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla e l'aglio, tritare: 3 sec./vel. 6. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 5 min./120°C/vel. 2.",
+  "Unire l'avocado, i pomodori, l'acqua, il concentrato di pomodoro, il dado, il sale, il pepe, lo zucchero e la maggiorana, cuocere: 20 min./100°C/vel. 1, poi frullare: 25 sec./vel. 8. Trasferire nei piatti da portata.",
+  "Servire con un filo di olio extravergine di oliva."
+ ],
+ "note": [
+  "In alternativa: 1 dado per brodo vegetale (dose per 0,5 l)"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 2,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di polpa di avocado, maturo a pezzi (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di concentrato di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di pomodori pelati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di dado per brodo vegetale, 1 - 1 ½ cucchiaio di sale, ½ cucchiaino di pepe nero macinato, 1 cucchiaino di zucchero, 1 cucchiaino di maggiorana secca."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 25,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite nei piatti da portata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite con un filo di olio extravergine di oliva."
+  }
+ ],
+ "origine": "cookidoo:r454107",
+ "importata": "2026-11-05"
+}

@@ -1,0 +1,190 @@
+{
+ "id": "trippa-in-umido",
+ "titolo": "Trippa in umido",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 70,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "trippa-in-umido.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 gambo di sedano, a pezzi (3 cm)",
+   "nome": "sedano"
+  },
+  {
+   "testo": "1 carota, pelata e a pezzi (3 cm)",
+   "nome": "carota"
+  },
+  {
+   "testo": "30 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "600 g di trippa, precotta a listarelle (2 cm)",
+   "nome": "trippa"
+  },
+  {
+   "testo": "3 foglie di salvia fresche (opzionale), lavate ed asciugate",
+   "nome": "salvia"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "50 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "1 pizzico di sale (+ q.b.)",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe (+ q.b.)",
+   "nome": "pepe"
+  },
+  {
+   "testo": "250 g di fagioli bianchi di Spagna, scolati e sciacquati",
+   "nome": "fagioli bianchi spagna"
+  },
+  {
+   "testo": "30 g di Parmigiano Reggiano grattugiato",
+   "nome": "parmigiano reggiano"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla, il sedano e la carota, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere il burro e insaporire: 4 min./120°C/vel. 1.",
+  "Unire la trippa e le foglie di salvia, insaporire: 5 min./120°C//vel. .",
+  "Aggiungere l'acqua, il dado, la passata, il sale e il pepe, continuare la cottura: 45 min./100°C//vel. 1. Controllare la cottura della trippa (vedere consiglio).",
+  "Unire i fagioli e, se necessario, aggiustare di sale e di pepe, cuocere: 5 min./100°C//vel. .",
+  "Trasferire la trippa in una zuppiera, spolverizzare con il Parmigiano Reggiano grattugiato e servire subito."
+ ],
+ "note": [
+  "Piatto tradizionale di tutta la Regione lombarda e, in particolare, del milanese. Il nome in",
+  "dialetto e \"busecca\".",
+  "Era un piatto contadino, che caratterizzava i momenti invernali di festa. Oltre che nelle",
+  "fiere e nei mercati di bestiame, era usanza prepararlo nella notte di Natale quandoi",
+  "contadini si riunivano nelle stalle dopo la Messa di mezzanotte.",
+  "Verificare la cottura della trippa al passaggio 4: a seconda della qualita della trippa, del",
+  "gusto personale e del livello di cottura gradito aumentare di altri 5 minuti il tempo di",
+  "cottura.",
+  "Per un sapore più intenso, spolverizzare con del pecorino grattugiato stagionato in",
+  "sostituzione del Parmigiano reggiano.",
+  "In alternativa: 1 cucchiaino di dado per brodo vegetale",
+  "In alternativa: 1 cucchiaio di concentrato di pomodoro"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 cipolla, in quarti, 1 gambo di sedano, a pezzi (3 cm), 1 carota, pelata e a pezzi (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di burro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate 600 g di trippa, precotta a listarelle (2 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 3 foglie di salvia fresche (opzionale), lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di passata di pomodoro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 dado per brodo vegetale, 1 pizzico di sale (+ q.b.), 1 pizzico di pepe (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 2700,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Controllate la cottura della trippa (vedere consiglio)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di fagioli bianchi di Spagna, scolati e sciacquati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di Parmigiano Reggiano grattugiato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la trippa in una zuppiera, spolverizzate con il Parmigiano Reggiano grattugiato e servite subito."
+  }
+ ],
+ "origine": "cookidoo:r84879",
+ "importata": "2026-11-05"
+}

@@ -1,0 +1,110 @@
+{
+ "id": "vellutata-di-patate-e-zucca",
+ "titolo": "Vellutata di patate e zucca",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-di-patate-e-zucca.jpg",
+ "ingredienti": [
+  {
+   "testo": "350 g di patate, pelateeapezzi (2-3cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "350 g di polpa di zucca, a pezzi (2-3 cm)",
+   "nome": "zucca"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino colmo di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 rametto di rosmarino fresco, gli aghi lavati ed asciugati",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "40 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "pepe nero macinato, a piacere",
+   "nome": "pepe"
+  },
+  {
+   "testo": "crostini di pane, tostati, a piacere",
+   "nome": "crostini pane"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le patate, la zucca, l'acqua, il sale e il rosmarino, cuocere con il cestello al posto del misurino: 30 min./100°C/vel. 1.",
+  "Aggiungere nel boccale l'olio extravergine di oliva e frullare: 40 sec./vel. 10. Trasferire la vellutata nei piatti.",
+  "Spolverizzare con del pepe e servire con crostini di pane tostato."
+ ],
+ "note": [
+  "In alternativa: 40 g di burro, a pezzi"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate nel boccale 350 g di patate, pelateeapezzi (2-3cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Aggiungete 350 g di polpa di zucca, a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di sale, 1 rametto di rosmarino fresco, gli aghi lavati ed asciugati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate nel boccale 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 40,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la vellutata nei piatti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate con del pepe e servite con crostini di pane tostato."
+  }
+ ],
+ "origine": "cookidoo:r736836",
+ "importata": "2026-10-27"
+}

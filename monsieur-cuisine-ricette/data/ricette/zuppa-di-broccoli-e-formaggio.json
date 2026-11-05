@@ -1,0 +1,267 @@
+{
+ "id": "zuppa-di-broccoli-e-formaggio",
+ "titolo": "Zuppa di broccoli e formaggio",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-broccoli-e-formaggio.jpg",
+ "ingredienti": [
+  {
+   "testo": "200 g di Cheddar, a cubetti (3 cm)",
+   "nome": "cheddar"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "60 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "170 g di cipolla, a pezzi (2-3 cm)",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "150 g di carota, pelata e a rondelle (0,5 cm)",
+   "nome": "carota"
+  },
+  {
+   "testo": "1 - 2 pizzichi di pepe di Cayenna macinato",
+   "nome": "pepe cayenna"
+  },
+  {
+   "testo": "200 g di cimette di broccolo",
+   "nome": "broccolo"
+  },
+  {
+   "testo": "3 pizzichi di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "40 g di farina tipo 00",
+   "nome": "farina"
+  },
+  {
+   "testo": "300 g di brodo di pollo",
+   "nome": "brodo pollo"
+  },
+  {
+   "testo": "250 g di panna da cucina (18% di grassi circa)",
+   "nome": "panna"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe nero"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il formaggio, tritare: 6 sec./vel. 8. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale l'aglio, tritare: 4 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere 20 g di burro, le cipolle e le carote, impostare Alta temperatura $Ss. Mescolare bene con la spatola e tritare: 4 sec./vel. 4. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale 10 g di burro, il pepe, i broccoli e 1 pizzico di sale, impostare Alta temperatura $Ss. Trasferire nella ciotola con le verdure e tenere da parte.",
+  "Mettere nel boccale 30 g di burro e sciogliere: 2 min./100°C/vel. 1.",
+  "Aggiungere la farina 00 e tostare: 3 min./120°C/vel. 2.",
+  "Unire il brodo, la panna, 2 pizzichi di sale e il pepe, cuocere: 7 min./100°C/vel. 4.",
+  "Aggiungere le verdure tenute da parte e cuocere: 10 min./100°C//vel. .",
+  "Unire 3/ del formaggio tritato e cuocere: 2 min./100°C//vel. . Dividere la zuppa tra 4 ciotole da portata, cospargere con il restante formaggio tritato e servire subito."
+ ],
+ "note": [
+  "In alternativa: 200 g di Emmental o Gruviera, a cubetti (3 cm)",
+  "In alternativa: 300 g di acqua + 1 cucchiaino di dado per brodo di pollo"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di Cheddar, a cubetti (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 6,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 2 spicchi di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 4,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di burro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 170,
+   "testo": "Aggiungete 170 g di cipolla, a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di carota, pelata e a rondelle (0,5 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mescolate bene con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 4,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate nel boccale 10 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 - 2 pizzichi di pepe di Cayenna macinato."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di cimette di broccolo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite nella ciotola con le verdure e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di burro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sciogliete.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di farina tipo 00."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tostate.",
+   "tempo_s": 180,
+   "velocita": 2,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di brodo di pollo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di panna da cucina (18% di grassi circa)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 pizzichi di sale e 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 420,
+   "velocita": 4,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete le verdure tenute da parte."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite ⅔ del formaggio tritato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Dividete la zuppa tra 4 ciotole da portata, cospargete con il restante formaggio tritato e servite subito."
+  }
+ ],
+ "origine": "cookidoo:r802710",
+ "importata": "2026-10-27"
+}

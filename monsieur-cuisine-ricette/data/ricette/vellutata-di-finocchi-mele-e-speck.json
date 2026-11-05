@@ -1,0 +1,187 @@
+{
+ "id": "vellutata-di-finocchi-mele-e-speck",
+ "titolo": "Vellutata di finocchi, mele e speck",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-di-finocchi-mele-e-speck.jpg",
+ "ingredienti": [
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "60 g di cipolla rossa",
+   "nome": "cipolla rossa"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "200 g di bulbi di finocchio, puliti e a pezzi (2 cm)",
+   "nome": "bulbi finocchio"
+  },
+  {
+   "testo": "100 g di patate, pelate e a pezzi (2 cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "150 g di mele, tipo Stark, sbucciate e a pezzi (2 cm)",
+   "nome": "mele"
+  },
+  {
+   "testo": "200 g di latte intero",
+   "nome": "latte"
+  },
+  {
+   "testo": "200 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "100 g di speck, a listarelle",
+   "nome": "speck"
+  },
+  {
+   "testo": "prezzemolo fresco, le foglioline lavate ed, asciugate",
+   "nome": "prezzemolo"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'olio extravergine di oliva, la cipolla e, a piacere l'aglio, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere i finocchi, le patate, le mele, insaporire: 5 min./120°C/vel. 1.",
+  "Unire il latte, l'acqua, il sale e il pepe, cuocere: 30 min./90°C/vel. 1. A 10 minuti dal termine del tempo di cottura, scaldare una padella antiaderente e far rosolare lo speck per qualche minuto, sino a che non diventa croccante.",
+  "Frullare: 1 min./vel. 8. Riunire sul fondo con la spatola.",
+  "Aggiungere metà delle speck nel boccale e amalgamare con la spatola, poiversarla nei singoli piatti da portata.",
+  "Guarnire con lo speck rimasto e con delle foglioline di prezzemolo.",
+  "Servire calda."
+ ],
+ "note": [
+  "Questa ricetta e stata postata da irene1502 sulla Community Bimby www.ricettario-",
+  "bimby.it"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di cipolla rossa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di bulbi di finocchio, puliti e a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di patate, pelate e a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di mele, tipo Stark, sbucciate e a pezzi (2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di latte intero."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale, 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 90,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "A 10 minuti dal termine del tempo di cottura, scaldate una padella antiaderente e far rosolate lo speck per qualche minuto, sino a che non diventa croccante."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di speck, a listarelle."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete metà delle speck nel boccale e amalgamate con la spatola, poiversarla nei singoli piatti da portata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Guarnire con lo speck rimasto e con delle foglioline di prezzemolo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calda."
+  }
+ ],
+ "origine": "cookidoo:r649722",
+ "importata": "2026-11-05"
+}

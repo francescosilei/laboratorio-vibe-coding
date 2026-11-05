@@ -1,0 +1,222 @@
+{
+ "id": "fregola-con-le-arselle",
+ "titolo": "Fregola con le arselle",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "fregola-con-le-arselle.jpg",
+ "ingredienti": [
+  {
+   "testo": "1000 g di vongole, tipo arselle",
+   "nome": "vongole"
+  },
+  {
+   "testo": "1 mazzetto di prezzemolo fresco, le foglioline lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "300 g di pomodori pelati, a pezzi",
+   "nome": "pomodori pelati"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "100 g di vino bianco secco",
+   "nome": "vino bianco secco"
+  },
+  {
+   "testo": "500 g di acqua calda (non bollente)",
+   "nome": "acqua"
+  },
+  {
+   "testo": "300 g di fregola",
+   "nome": "fregola"
+  },
+  {
+   "testo": "1 cucchiaino di dado per brodo vegetale",
+   "nome": "dado"
+  }
+ ],
+ "procedimento": [
+  "Foderare il recipiente del Varoma con un foglio di carta forno. Sistemare le arselle in una ciotola capiente e lasciarle spurgare in acqua fresca e sale per 4 ore, cambiando ogni ora l'acqua per eliminare la sabbia presente. Scolare, trasferire le arselle nel recipiente del Varoma, chiudere con il coperchio e tenere da parte.",
+  "Mettere nel boccale il prezzemolo e tritare: 5 sec./vel. 5. Trasferire in una ciotolina e tenere da parte.",
+  "Mettere nel boccale 'aglio e l'olio extravergine di oliva, insaporire: 3 min./120°C/vel. 1.",
+  "Aggiungere i pomodori pelati e il sale, insaporire: 3 min./120°C/vel. 1.",
+  "Unire il vino bianco e sfumare senza misurino: 5 min./120°C/vel. 1. Con una pinza da cucina, togliere a piacere l'aglio dal boccale.",
+  "Aggiungere 500 g di acqua e posizionare il Varoma, cuocere: 12 min./Varoma/vel. Togliere con attenzione il Varoma. Sistemare un colino a maglia fine sopra una ciotola e filtrare il liquido che si e raccolto nella carta forno. Smuovere le arselle e chiudere il Varoma con il coperchio.",
+  "Unire nel boccale il liquido delle arselle, la fregola e il dado vegetale, riposizionare il Varoma e cuocere: il tempo indicato sulla confezione Varoma//vel. 1. Lasciare riposare nel boccale per 2 minuti. Togliere con attenzione il Varoma. Trasferire la fregola in una zuppiera e unire le arselle.",
+  "Spolverizzare con il prezzemolo tritato e servire."
+ ],
+ "note": [
+  "La fregola è un formato di pasta tipico della Sardegna. Versatile ed economica, la fregola si presta a realizzare i più svariati piatti, sia caldi che freddi.",
+  "Le arselle sono vongole veraci tipiche delle coste sarde. Qualora non si riuscissero a trovare, sostituirle con vongole veraci o vongole lupino.",
+  "In alternativa: 300 g di polpa di pomodoro, a pezzi",
+  "In alternativa: 1 dado per brodo vegetale"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate in una ciotola capiente 1000 g di vongole, tipo arselle."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate spurgare le arselle in acqua fresca e sale per 4 ore, cambiando ogni ora l'acqua per eliminare la sabbia presente."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Foderate il recipiente del Varoma con un foglio di carta forno. Scolate le arselle, trasferitele nel recipiente del Varoma, chiudete con il coperchio e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale il prezzemolo."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotolina e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 spicchio di aglio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di pomodori pelati, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di vino bianco secco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate senza misurino.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con una pinza da cucina, togliete a piacere l'aglio dal boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua calda (non bollente)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il Varoma con le arselle sul boccale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete al vapore.",
+   "tempo_s": 720,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate un colino a maglia fine sopra una ciotola e filtrate il liquido che si è raccolto nella carta forno. Smuovete le arselle e chiudete il Varoma con il coperchio."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite nel boccale il liquido delle arselle."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di fregola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di dado per brodo vegetale e riposizionate il Varoma."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete al vapore.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "programma": "Cottura al vapore",
+   "nota": "Il tempo è quello indicato sulla confezione della fregola.",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate riposare nel boccale per 2 minuti.",
+   "attesa_s": 120
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma. Trasferite la fregola in una zuppiera e unite le arselle."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate con il prezzemolo tritato e servite."
+  }
+ ],
+ "origine": "cookidoo:r901682",
+ "importata": "2026-10-27"
+}

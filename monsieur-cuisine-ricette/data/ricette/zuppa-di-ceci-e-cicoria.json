@@ -1,0 +1,166 @@
+{
+ "id": "zuppa-di-ceci-e-cicoria",
+ "titolo": "Zuppa di ceci e cicoria",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-ceci-e-cicoria.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "200 g di pomodorini, interi",
+   "nome": "pomodorini"
+  },
+  {
+   "testo": "1 spicchio di aglio, senz'anima",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1 peperoncino secco",
+   "nome": "peperoncino"
+  },
+  {
+   "testo": "60 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "800 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino colmo di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "240 g di ceci secchi, ammollati in acqua per almeno 8 ore",
+   "nome": "ceci secchi"
+  },
+  {
+   "testo": "500 g di catalogna o cicoria, lavata ed a pezzi (2-3 cm)",
+   "nome": "catalogna"
+  },
+  {
+   "testo": "4 cucchiai di pecorino grattugiato (opzionale)",
+   "nome": "pecorino"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla, i pomodorini, l'aglio e, a piacere, il peperoncino, tritare: 5 sec./vel.5.Riunire sul fondo conla spatola.",
+  "Unire l'olio extravergine di oliva, insaporire: 5 min./120°C/vel. 1.",
+  "Aggiungere l'acqua, il sale, posizionare il cestello ed al suo interno i ceci. Posizionare il recipiente del Varoma ed al suo interno la catalogna, chiudere con il coperchio e cuocere: 25 min./Varoma/vel. 1. Togliere con attenzione il Varoma e tenere da parte.",
+  "Togliere il cestello con l'aiuto della spatola e unire i ceci nel boccale, cuocere: 15 min./Varoma//vel. con il cestello al posto del misurino per evitare schizzi. Trasferire con attenzione in una zuppiera aggiungere le cicorie e mescolare con un mestolo.",
+  "Servire calda con a piacere una spolverizzata di pecorino grattugiato."
+ ],
+ "note": [
+  "I ceci secchi possono essere sostituiti da quelli in scatola. In questo caso, aggiungerli al passaggio 4 gli ultimi 5 minuti di cottura e proseguire come da ricetta."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di pomodorini, interi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, senz'anima, e, a piacere, 1 peperoncino secco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 240,
+   "testo": "Posizionate il cestello e pesate al suo interno 240 g di ceci secchi, ammollati in acqua per almeno 8 ore."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Posizionate il recipiente del Varoma e pesate al suo interno 500 g di catalogna o cicoria, lavata ed a pezzi (2-3 cm). Chiudete con il coperchio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete al vapore.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma e tenetelo da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete il cestello con l'aiuto della spatola e unite i ceci nel boccale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete con il cestello al posto del misurino per evitare schizzi.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa.",
+   "avvertenza": "Funzione «Varoma» a 120 °C nel boccale del Bimby: non sostituitela in automatico, scegliete la temperatura in base alla ricetta (il Connect arriva a 130 °C)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite con attenzione in una zuppiera, aggiungete le cicorie e mescolate con un mestolo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calda con, a piacere, 4 cucchiai di pecorino grattugiato."
+  }
+ ],
+ "origine": "cookidoo:r133141",
+ "importata": "2026-11-05"
+}

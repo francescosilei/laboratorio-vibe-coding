@@ -1,0 +1,113 @@
+{
+ "id": "crema-ai-pomodori-arrostiti",
+ "titolo": "Crema ai pomodori arrostiti",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 90,
+ "porzioni": null,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "crema-ai-pomodori-arrostiti.jpg",
+ "ingredienti": [
+  {
+   "testo": "750 g di pomodori ciliegino, a metà",
+   "nome": "pomodori ciliegino"
+  },
+  {
+   "testo": "2 cucchiaini di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "2 pizzichi di pepe nero macinato",
+   "nome": "pepe nero"
+  },
+  {
+   "testo": "1 - 2 cucchiaini di origano secco",
+   "nome": "origano"
+  },
+  {
+   "testo": "2 cucchiaini di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "2 spicchi di aglio, a fettine",
+   "nome": "aglio"
+  },
+  {
+   "testo": "40 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "4 - 5 foglie di basilico fresco, lavate",
+   "nome": "basilico"
+  },
+  {
+   "testo": "70 g di panna (30-40% di grassi)",
+   "nome": "panna"
+  }
+ ],
+ "procedimento": [
+  "Preriscaldare il forno a 180°C. Rivestire la placca del forno con carta forno.",
+  "Sistemare sulla placca i pomodori con la parte tagliata rivolta verso l'alto, spolverizzare con il sale, il pepe, l'origano, lo zucchero e le fettine di aglio, poi irrorare con 20 g di olio extravergine di oliva. Cuocere in forno caldo per circa 1l ora (180°C) o sino a quando saranno arrostiti. Togliere con attenzione dal forno e far intiepidire.",
+  "Mettere nel boccale i pomodori arrostiti, il basilico, 20 g di olio extravergine di oliva e la panna, impostare Frullare @/30 sec.. Traferire in una ciotolina da portata e servire."
+ ],
+ "note": [
+  "Resa: 350 g (la ricetta la indica al posto delle porzioni).",
+  "Articoli utili: carta forno, placca del forno, ciotolina."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Preriscaldate il forno a 180°C. Rivestite la placca del forno con carta forno."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate in una ciotolina 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate sulla placca i pomodori con la parte tagliata rivolta verso l'alto, spolverizzate con il sale, il pepe nero macinato, l'origano, lo zucchero e le fettine di aglio, poi irrorate con l'olio. Cuocete in forno caldo per circa 1 ora (180°C) o sino a quando saranno arrostiti. Togliete con attenzione dal forno e fate intiepidire.",
+   "attesa_s": 3600
+  },
+  {
+   "tipo": "pesata",
+   "g": 750,
+   "testo": "Pesate nel boccale 750 g di pomodori ciliegino arrostiti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 4 - 5 foglie di basilico fresco, lavate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Aggiungete 70 g di panna (30-40% di grassi)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 30,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotolina da portata e servite."
+  }
+ ],
+ "origine": "cookidoo:r902302",
+ "importata": "2026-10-27"
+}

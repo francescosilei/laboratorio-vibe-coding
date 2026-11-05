@@ -1,0 +1,213 @@
+{
+ "id": "risotto-al-caffe-con-zucca-funghi-porcini-e-trito-di-finocch",
+ "titolo": "Risotto al caffe con zucca, funghi porcini e trito di finocchio selvatico",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "risotto-al-caffe-con-zucca-funghi-porcini-e-trito-di-finocch.jpg",
+ "ingredienti": [
+  {
+   "testo": "40 g di Parmigiano Reggiano",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "1 scalogno, a pezzi",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "200 g di polpa di zucca, a cubetti",
+   "nome": "zucca"
+  },
+  {
+   "testo": "20 g di funghi porcini secchi, ammollati in acqua tiepida per 10 minuti e strizzati",
+   "nome": "funghi porcini secchi"
+  },
+  {
+   "testo": "320 g di riso Carnaroli (cottura 17-18 minuti)",
+   "nome": "riso carnaroli"
+  },
+  {
+   "testo": "700 g di brodo vegetale, caldo",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "40 g di caffe espresso",
+   "nome": "caffe espresso"
+  },
+  {
+   "testo": "30 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "pepe nero macinato, a piacere",
+   "nome": "pepe"
+  },
+  {
+   "testo": "finocchietto selvatico, fresco tritato, a piacere",
+   "nome": "finocchietto selvatico"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano Reggiano e impostare Frullare @/10 sec.. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale lo scalogno e tritare: 5 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire la zucca e i funghi ben strizzati, cuocere: 5 min./100°C//vel.",
+  "Aggiungere il riso e tostare: 3 min./120°C//vel. 1",
+  "Unire il brodo, mescolare a fondo con la spatola e cuocere: 10 min./100°C//vel. .",
+  "Aggiungere il caffe e cuocere: 5 min./100°C//vel.",
+  "Unire il burro e il Parmigiano Reggiano, mantecare: 1 min.//vel. 1. Far riposare il risotto per 1 minuto e trasferire in una risottiera.",
+  "Servire con una spolverizzata di pepe macinato fresco e del finocchietto selvatico tritato."
+ ],
+ "note": [
+  "In alternativa: 700 g acqua, calda + 1 cucchiaino di dado"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate nel boccale 40 g di Parmigiano Reggiano."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 scalogno, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di polpa di zucca, a cubetti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di funghi porcini secchi, ammollati in acqua tiepida per 10 minuti e strizzati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di riso Carnaroli (cottura 17-18 minuti)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tostate.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Pesate 700 g di brodo vegetale, caldo."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di caffe espresso."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete parmigiano reggiano (messo da parte)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mantecate.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Far riposare il risotto per 1 minuto e trasferite in una risottiera.",
+   "attesa_s": 60
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite con una spolverizzata di pepe macinato fresco e del finocchietto selvatico tritato."
+  }
+ ],
+ "origine": "cookidoo:r928264",
+ "importata": "2026-10-27"
+}

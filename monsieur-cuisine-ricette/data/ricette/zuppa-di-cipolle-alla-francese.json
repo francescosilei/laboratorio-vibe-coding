@@ -1,0 +1,225 @@
+{
+ "id": "zuppa-di-cipolle-alla-francese",
+ "titolo": "Zuppa di cipolle alla francese",
+ "categoria": "Primi",
+ "paese": "Francia",
+ "dedotto": [
+  "categoria",
+  "paese"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 330,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-cipolle-alla-francese.jpg",
+ "ingredienti": [
+  {
+   "testo": "200 g di Emmental, a pezzi",
+   "nome": "emmental"
+  },
+  {
+   "testo": "500 g di ossa di bovino, a pezzi (vedere consigli)",
+   "nome": "ossa bovino",
+   "gruppo": "Brodo di carne"
+  },
+  {
+   "testo": "100 g di cipolla, in quarti",
+   "nome": "cipolla",
+   "gruppo": "Brodo di carne"
+  },
+  {
+   "testo": "100 g di sedano, a pezzi",
+   "nome": "sedano",
+   "gruppo": "Brodo di carne"
+  },
+  {
+   "testo": "100 g di porro, a pezzi",
+   "nome": "porro",
+   "gruppo": "Brodo di carne"
+  },
+  {
+   "testo": "1 mazzetto di odori misti (alloro, timo, prezzemolo e menta)",
+   "nome": "odori",
+   "gruppo": "Brodo di carne"
+  },
+  {
+   "testo": "1550 g di acqua",
+   "nome": "acqua",
+   "gruppo": "Brodo di carne"
+  },
+  {
+   "testo": "½ cucchiaino di pepe macinato, a piacere",
+   "nome": "pepe",
+   "gruppo": "Brodo di carne"
+  },
+  {
+   "testo": "2 chiodi di garofano",
+   "nome": "chiodi garofano",
+   "gruppo": "Brodo di carne"
+  },
+  {
+   "testo": "50 g di burro",
+   "nome": "burro",
+   "gruppo": "Zuppa"
+  },
+  {
+   "testo": "500 g di cipolle, a fette (1 cm)",
+   "nome": "cipolla",
+   "gruppo": "Zuppa"
+  },
+  {
+   "testo": "2 cucchiaini di sale",
+   "nome": "sale",
+   "gruppo": "Zuppa"
+  },
+  {
+   "testo": "8 - 10 fette di pane raffermo, tostato",
+   "nome": "pane raffermo",
+   "gruppo": "Zuppa"
+  }
+ ],
+ "procedimento": [
+  "Preriscaldare il forno a 250°C.",
+  "Mettere nel boccale il formaggio Emmental e grattugiare: 8 sec./vel. 7. Trasferire in una ciotola e tenere da parte. Pulire il boccale.",
+  "Brodo di carne. Sistemare le ossa in una teglia e cuocere in forno caldo per circa 20 minuti (250°C). Nel frattempo, appoggiare una ciotola sul coperchio del boccale e pesare al suo interno la cipolla, il sedano e il porro. Togliere la ciotola e tenere da parte.",
+  "Brodo di carne. parte e gli odori. Mescolare bene e cuocere in forno caldo per altri 10 minuti (250°C).",
+  "Brodo di carne. Posizionare il copri Lame. Mettere nel boccale l'acqua, il pepe, i chiodi di garofano, le ossa e le verdure cotte, impostare Cottura lenta O¼ h/98'C, con il cestello al posto del misurino. Posizionare il cestello sopra una ciotola capiente e filtrare il contenuto del boccale. Rimuovere il Copri Lame. Attendere qualche minuto che il grasso in eccesso emerga sulla superficie del brodo ed eliminarlo con un cucchiaio o mestolo. Tenere da parte il brodo.",
+  "Zuppa   [?0.69]. Mettere nel boccale il burro e la cipolla, impostare Alta temperatura $S$",
+  "Zuppa   [?0.69]. Aggiungere il brodo tenuto da parte (circa 1400 g) e il sale, mescolare a fondo con la spatola e cuocere, con il cestello al posto del misurino. 20 min./120°C//vel. . Nel frattempo, preriscaldare il forno a 250°C. Trasferire la zuppa in 6 ciotole resistenti al calore, aggiungere 1-2 fette di pane in ciascuna ciotola, ricoprire con il formaggio grattugiato e cuocere in forno caldo per 5-10 minuti (250°C) o fino a che la superficie sara ben gratinata.",
+  "Zuppa   [?0.69]. Togliere con attenzione dal forno e servire calda."
+ ],
+ "note": [
+  "Chiedete al vostro macellaio le ossa e chiedetegli di tagliarvele. Preferite le ossa con poca carne attaccata (ossa delle gambe, delle articolazioni, delle costole o del midollo).",
+  "Il bouquet di odori misti deve essere legato con un filo adatto alla cottura.",
+  "In alternativa: 500 g di cipolla rossa, a fette (1 cm)"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Preriscaldate il forno a 250°C."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di Emmental, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 8,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte. Pulite il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Sistemate in una teglia 500 g di ossa di bovino, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Cuocete le ossa in forno caldo per circa 20 minuti (250°C).",
+   "attesa_s": 1200
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, appoggiate una ciotola sul coperchio del boccale e pesate al suo interno la cipolla, il sedano e il porro. Togliete la ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nella ciotola 100 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di sedano, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di porro, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione la teglia dal forno e aggiungete le verdure pesate e tenute da parte e 1 mazzetto di odori misti (alloro, timo, prezzemolo e menta). Mescolate bene e cuocete in forno caldo per altri 10 minuti (250°C).",
+   "attesa_s": 600
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il Copri Lame.",
+   "avvertenza": "Copri Lame: accessorio del Bimby non presente nelle tabelle di conversione; verificate se usarlo sul Connect."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1550,
+   "testo": "Pesate nel boccale 1550 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di pepe macinato, a piacere, 2 chiodi di garofano, le ossa e le verdure cotte."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cottura lenta con il cestello al posto del misurino.",
+   "tempo_s": 14400,
+   "velocita": 1,
+   "temp_c": 98,
+   "sinistrorsa": false,
+   "avvertenza": "«Cottura lenta» (4 h/98 °C) del Bimby: non è nelle tabelle di conversione. Impostate 4 h e 98 °C, velocità 1, e verificate le opzioni del Connect."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il cestello sopra una ciotola capiente e filtrate il contenuto del boccale. Rimuovete il Copri Lame. Attendete qualche minuto che il grasso in eccesso emerga sulla superficie del brodo ed eliminatelo con un cucchiaio o mestolo. Tenete da parte il brodo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di burro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di cipolle, a fette (1 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete il brodo tenuto da parte (circa 1400 g) e 2 cucchiaini di sale, mescolate a fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete con il cestello al posto del misurino.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, preriscaldate il forno a 250°C. Trasferite la zuppa in 6 ciotole resistenti al calore, aggiungete 1-2 fette di pane raffermo tostato in ciascuna ciotola, ricoprite con il formaggio grattugiato e cuocete in forno caldo per 5-10 minuti (250°C) o fino a che la superficie sarà ben gratinata.",
+   "attesa_s": 300
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione dal forno e servite calda."
+  }
+ ],
+ "origine": "cookidoo:r701287",
+ "importata": "2026-10-27"
+}

@@ -1,0 +1,246 @@
+{
+ "id": "chili-vegan",
+ "titolo": "Chili (vegan)",
+ "categoria": "Primi",
+ "paese": "Messico",
+ "dedotto": [
+  "categoria",
+  "paese"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "chili-vegan.jpg",
+ "ingredienti": [
+  {
+   "testo": "½ stecca di cannella",
+   "nome": "cannella"
+  },
+  {
+   "testo": "½ cucchiaino di pepe misto in grani",
+   "nome": "pepe misto"
+  },
+  {
+   "testo": "1 cucchiaino di semi di coriandolo",
+   "nome": "semi coriandolo"
+  },
+  {
+   "testo": "1 cucchiaino di semi di cumino",
+   "nome": "semi cumino"
+  },
+  {
+   "testo": "100 g di carota, a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "180 g di peperone rosso, senza semi, a pezzi",
+   "nome": "peperone rosso"
+  },
+  {
+   "testo": "5 rametti di coriandolo fresco, le foglioline + q.b.",
+   "nome": "coriandolo fresco"
+  },
+  {
+   "testo": "150 g di cipolla dorata, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "2 peperoncini \"occhio d'uccello\", freschi, senza semi",
+   "nome": "peperoncini"
+  },
+  {
+   "testo": "30 g di olio di oliva",
+   "nome": "olio oliva"
+  },
+  {
+   "testo": "400 g di polpa di pomodoro a pezzi",
+   "nome": "polpa pomodoro"
+  },
+  {
+   "testo": "80 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "400 g di ceci bianchi in scatola, scolati",
+   "nome": "ceci bianchi"
+  },
+  {
+   "testo": "400 g di fagioli cannellini in scatola, scolati",
+   "nome": "fagioli cannellini"
+  },
+  {
+   "testo": "400 g di fagioli rossi in scatola, scolati",
+   "nome": "fagioli rossi"
+  },
+  {
+   "testo": "1 cucchiaio di concentrato di pomodoro",
+   "nome": "concentrato pomodoro"
+  },
+  {
+   "testo": "2 cucchiai di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "½ cucchiaino di peperoncino rosso secco",
+   "nome": "peperoncino secco"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la stecca di cannella, il pepe, il coriandolo e il cumino, scaldare: 2 min./120°C/vel. 1. Lasciare raffreddare.",
+  "Polverizzare: 1 min./vel. 9. Trasferire in una ciotola e tenere da parte. Pulire il boccale.",
+  "Mettere nel boccale la carota, il peperone e il coriandolo, tritare: 5 sec./vel. 5. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale la cipolla, 'aglio e il peperoncino, tritare: 3 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio di oliva e insaporire: 5 min./120°C/vel. 1.",
+  "Unire la polpa di pomodoro, l'acqua, i ceci, i fagioli cannellini, i fagioli rossi, il concentrato di pomodoro, il dado, il peperoncino secco, il trito di carote e il mix di spezie, cuocere: 20 min./100°C//vel. 1. Lasciare intiepidire. Servire decorando con foglioline di coriandolo."
+ ],
+ "note": [
+  "Servire il Chili (vegan) con riso o patate al cartoccio.",
+  "Si consiglia di servire il Chili (vegan) con contorni della tradizione messicana (come guacamole, panna acida, formaggio grattugiato) o per riempire tortillas e tacos.",
+  "Paese: su Cookidoo è «Italia», ma il chili è di tradizione messicana/texana: usato Messico (dedotto)."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale ½ stecca di cannella, ½ cucchiaino di pepe misto in grani, 1 cucchiaino di semi di coriandolo e 1 cucchiaino di semi di cumino."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Scaldate.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate raffreddare."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Polverizzate.",
+   "tempo_s": 60,
+   "velocita": 9,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte il mix di spezie. Pulite il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di carota, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 180,
+   "testo": "Aggiungete 180 g di peperone rosso, senza semi, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete le foglioline di 5 rametti di coriandolo fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di cipolla dorata, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 spicchi di aglio e 2 peperoncini \"occhio d'uccello\" freschi, senza semi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di olio di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Unite 400 g di polpa di pomodoro a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di ceci bianchi in scatola, scolati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di fagioli cannellini in scatola, scolati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di fagioli rossi in scatola, scolati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio di concentrato di pomodoro, 2 cucchiai di dado per brodo vegetale, ½ cucchiaino di peperoncino rosso secco, il trito di carota, peperone e coriandolo e il mix di spezie."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate intiepidire."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite decorando con foglioline di coriandolo fresco."
+  }
+ ],
+ "origine": "cookidoo:r406793",
+ "importata": "2026-11-05"
+}

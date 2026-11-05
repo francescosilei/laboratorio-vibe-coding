@@ -1,0 +1,92 @@
+{
+ "id": "costine-di-maiale-in-salsa-barbecue",
+ "titolo": "Costine di maiale in salsa barbecue",
+ "categoria": "Secondi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "costine-di-maiale-in-salsa-barbecue.jpg",
+ "ingredienti": [
+  {
+   "testo": "1000 g di costine di maiale (6-7 cm)",
+   "nome": "costine maiale"
+  },
+  {
+   "testo": "20 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "150 g di salsa barbecue",
+   "nome": "salsa barbecue"
+  },
+  {
+   "testo": "100 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di amido di mais (maizena)",
+   "nome": "amido mais"
+  }
+ ],
+ "procedimento": [
+  "Oggi cucino",
+  "Mettere nel boccale le costine, l'olio extravergine di oliva, la salsa barbecue, l'acqua e l'amido di mais, cuocere: 30 min./120°C//vel. . Servire con patatine fritte o in salata fresca."
+ ],
+ "note": [
+  "Servire con patatine fritte, riso bianco, in salata, ecc.",
+  "Qualora si desiderasse avere delle costine più cotte e che si sfaldano aumentare",
+  "l'acqua a 150 g e il tempo di cottura 15 min./Varoma//vel. ."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Oggi cucino"
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate nel boccale 1000 g di costine di maiale (6-7 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di salsa barbecue."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di amido di mais (maizena)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite con patatine fritte o in salata fresca."
+  }
+ ],
+ "origine": "cookidoo:r770516",
+ "importata": "2026-11-05"
+}

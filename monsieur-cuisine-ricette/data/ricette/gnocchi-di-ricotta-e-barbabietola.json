@@ -1,0 +1,280 @@
+{
+ "id": "gnocchi-di-ricotta-e-barbabietola",
+ "titolo": "Gnocchi di ricotta e barbabietola",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 40,
+ "tempo_cottura_min": null,
+ "tempo_min": 90,
+ "porzioni": 6,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "gnocchi-di-ricotta-e-barbabietola.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di Parmigiano Reggiano, a pezzi (2-3 cm)",
+   "nome": "parmigiano reggiano",
+   "gruppo": "Gnocchi"
+  },
+  {
+   "testo": "30 g di pane raffermo",
+   "nome": "pane raffermo",
+   "gruppo": "Gnocchi"
+  },
+  {
+   "testo": "700 g di acqua",
+   "nome": "acqua",
+   "gruppo": "Gnocchi"
+  },
+  {
+   "testo": "500 g di patate farinose, pelate e a fette (1 cm)",
+   "nome": "patate farinose",
+   "gruppo": "Gnocchi"
+  },
+  {
+   "testo": "300 g di farina (+ q.b.)",
+   "nome": "farina",
+   "gruppo": "Gnocchi"
+  },
+  {
+   "testo": "200 g di barbabietola rossa cotta, a fette (1-2 cm)",
+   "nome": "barbabietola rossa cotta",
+   "gruppo": "Gnocchi"
+  },
+  {
+   "testo": "100 g di ricotta di pecora, a pezzi e precedentemente sgocciolata",
+   "nome": "ricotta pecora",
+   "gruppo": "Gnocchi"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale",
+   "gruppo": "Gnocchi"
+  },
+  {
+   "testo": "1 pizzico di pepe",
+   "nome": "pepe",
+   "gruppo": "Gnocchi"
+  },
+  {
+   "testo": "1 pizzico di cannella in polvere",
+   "nome": "cannella",
+   "gruppo": "Gnocchi"
+  },
+  {
+   "testo": "20 g farina",
+   "nome": "farina",
+   "gruppo": "Condimento"
+  },
+  {
+   "testo": "20 g di burro",
+   "nome": "burro",
+   "gruppo": "Condimento"
+  },
+  {
+   "testo": "300 g di latte",
+   "nome": "latte",
+   "gruppo": "Condimento"
+  },
+  {
+   "testo": "50 g di Gorgonzola",
+   "nome": "gorgonzola",
+   "gruppo": "Condimento"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale",
+   "gruppo": "Condimento"
+  },
+  {
+   "testo": "2 - 3 fili di erba cipollina fresca (opzionale), tritata (1-2 mm)",
+   "nome": "erba cipollina",
+   "gruppo": "Condimento"
+  }
+ ],
+ "procedimento": [
+  "Gnocchi. Mettere nel boccale il Parmigiano reggiano, il pane raffermo e tritare: 10 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Gnocchi. Mettere nel boccale l'acqua, posizionare il cestello e distribuire al suo interno le patate a fette, cuocere: 30 min./Varoma/vel. 1. Rimuovere il cestello con l'aiuto della spatola. Svuotare il boccale.",
+  "Gnocchi. Mettere nel boccale 50 g di farina, le patate bollenti e la barbabietola a fette, frullare: 20 sec./vel. 5.",
+  "Gnocchi. Aggiungere la farina restante, il Parmigiano reggiano e il pane raffermo tritato, la ricotta, il sale, il pepe e la cannella, impastare: 40 sec./vel. 3.",
+  "Gnocchi. Trasferire l'impasto sul piano da lavoro infarinato e compattarlo con le mani, aggiungendo se necessario della farina. Riporre la palla ottenuta in una ciotola coperta da pellicola trasparente e lasciarla riposare in frigorifero per 15 minuti.",
+  "Gnocchi. Riprendere l'impasto, staccare delle piccole porzioni e formare dei rotoli di pasta di 0 2 cm. Con l'aiuto di un coltello tagliare dei pezzetti di pasta larghi 1,5 cm e dare la tipica forma degli gnocchi aiutandosi con i rebbi di una forchetta.",
+  "Condimento. Mettere nel boccale la farina, il burro e il latte, cuocere: 6 min./90°C/vel. 4.",
+  "Condimento. Aggiungere il Gorgonzola,il sale e sciogliere: 2 min./90°C/vel. 4.",
+  "Condimento. Cuocere gli gnocchiin una pentola con abbondante acqua bollente salata fino a quando affiorano in superficie. Scolarli con un mestolo forato, trasferirli in una zuppiera e condirli con il condimento ottenuto.",
+  "Condimento. Servire caldi e decorare a piacere con erba cipollina."
+ ],
+ "note": [
+  "A piacere, per ottenere degli gnocchi di colore arancione, sostituire la barbabietola",
+  "cotta con la stessa quantità di zucca precedentemente cotta."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di Parmigiano Reggiano, a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di pane raffermo."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Pesate nel boccale 700 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di patate farinose, pelate e a fette (1 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma in una preparazione nel boccale: non sostituirlo in automatico con 120 °C. Il Connect arriva a 130 °C: scegliete la temperatura in base alla ricetta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Rimuovete il cestello con l'aiuto della spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Svuotate il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di farina (+ q.b.)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di barbabietola rossa cotta, a fette (1-2 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete patate farinose (messo da parte)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 20,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di farina (+ q.b.)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di ricotta di pecora, a pezzi e precedentemente sgocciolata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete parmigiano reggiano (messo da parte), pane raffermo (messo da parte), 1 cucchiaino di sale, 1 pizzico di pepe, 1 pizzico di cannella in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impastate.",
+   "tempo_s": 40,
+   "velocita": 3,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'impasto sul piano da lavoro infarinato e compattarlo con le mani, aggiungendo se necessario della farina."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riporre la palla ottenuta in una ciotola coperta da pellicola trasparente e lasciarla riposare in frigorifero per 15 minuti.",
+   "attesa_s": 900
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riprendete l'impasto, staccate delle piccole porzioni e formate dei rotoli di pasta di 0 2 cm."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con l'aiuto di un coltello tagliate dei pezzetti di pasta larghi 1,5 cm e dare la tipica forma degli gnocchi aiutandosi con i rebbi di una forchetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di farina."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di burro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di latte."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 360,
+   "velocita": 4,
+   "temp_c": 90,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di Gorgonzola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sciogliete.",
+   "tempo_s": 120,
+   "velocita": 4,
+   "temp_c": 90,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Cuocete gli gnocchiin una pentola con abbondante acqua bollente salata fino a quando affiorano in superficie."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Scolarli con un mestolo forato, trasferirli in una zuppiera e condirli con il condimento ottenuto."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite caldi e decorate a piacere con erba cipollina."
+  }
+ ],
+ "origine": "cookidoo:r70232",
+ "importata": "2026-10-26"
+}

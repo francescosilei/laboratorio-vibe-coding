@@ -1,0 +1,136 @@
+{
+ "id": "khao-nom-kok",
+ "titolo": "Khao nom kok",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 30,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "khao-nom-kok.jpg",
+ "ingredienti": [
+  {
+   "testo": "350 g di latte di cocco",
+   "nome": "latte cocco"
+  },
+  {
+   "testo": "50 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "80 g di farina di riso",
+   "nome": "farina riso"
+  },
+  {
+   "testo": "15 g di amido di tapioca",
+   "nome": "amido tapioca"
+  },
+  {
+   "testo": "10 g di farina di cocco",
+   "nome": "farina cocco"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "50 g zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "olio di semi di mais",
+   "nome": "olio"
+  },
+  {
+   "testo": "30 g zucchero a velo",
+   "nome": "zucchero"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il latte di cocco, l'acqua, la farina di riso, l'amido di tapioca, la farina di cocco, il sale e lo zucchero, mescolare: 20 sec./vel. 4. La pastella deve risultare liscia e senza grumi.",
+  "Ungere la padella per mini pancake con olio di mais e scaldarla. Versare 1-2 cucchiai di impasto in ogni stampo (vedere consigli).",
+  "Cuocere per circa 4-5 minuti fino a doratura di entrambiilati.",
+  "Spolverizzare con zucchero a velo e servire (vedere consigli)"
+ ],
+ "note": [
+  "Khao nom kok sono frittelle di riso e cocco del Laos.",
+  "Ilaotiani usano una teiera o una bottiglia per versare l'impasto nella padella.",
+  "Gli #Khao nom kok #vanno serviti caldi, ma possono essere conservate in un",
+  "contenitore ermetico per un massimo di 2 giorni, riscaldandoli prima di mangiarli.",
+  "In alternativa: q.b."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate nel boccale 350 g di latte di cocco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di farina di cocco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di farina di riso."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Aggiungete 15 g di amido di tapioca."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di zucchero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 20,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "La pastella deve risultare liscia e senza grumi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Ungere la padella per mini pancake con olio di mais e scaldarla."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Versate 1-2 cucchiai di impasto in ogni stampo (vedere consigli)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Cuocete per circa 4-5 minuti fino a doratura di entrambiilati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di zucchero a velo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate con zucchero a velo e servite (vedere consigli)"
+  }
+ ],
+ "origine": "cookidoo:r761523",
+ "importata": "2026-11-05"
+}

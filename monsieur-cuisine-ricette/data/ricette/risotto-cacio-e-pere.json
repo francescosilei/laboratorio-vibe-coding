@@ -1,0 +1,181 @@
+{
+ "id": "risotto-cacio-e-pere",
+ "titolo": "Risotto cacio e pere",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "risotto-cacio-e-pere.jpg",
+ "ingredienti": [
+  {
+   "testo": "130 g di pecorino Romano, a pezzi",
+   "nome": "pecorino romano"
+  },
+  {
+   "testo": "30 g di cipolla dorata, a pezzi",
+   "nome": "cipolla dorata"
+  },
+  {
+   "testo": "50 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "320 g di riso Carnaroli",
+   "nome": "riso carnaroli"
+  },
+  {
+   "testo": "60 g di vino bianco secco",
+   "nome": "vino bianco secco"
+  },
+  {
+   "testo": "750 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "2 pere Williams, pelate, a cubetti (2 cm)",
+   "nome": "pere williams"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il pecorino e grattugiare: 10 sec./vel. 10. Trasferire il pecorino grattugiato in una ciotola e tenere da parte.",
+  "Mettere nel boccale la cipolla e tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere 30 g di burro e insaporire: 3 min./120°C/vel. 1.",
+  "Unire il riso e tostare: 3 min./120°C//vel. 1.",
+  "Aggiungere il vino bianco e cuocere: 1 min./100°C//vel. 1.",
+  "Unire l'acqua, il dado e il sale e mescolare a fondo con la spatola per smuovere il riso, cuocere: 10 min./100°C//vel.1.",
+  "Aggiungere le pere e cuocere: 2-3 min./100°C//vel. 1. Trasferire in una risottiera.",
+  "Con la spatola mantecare il riso con 20 g di burro, il pecorino messo da parte e servire subito."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 130,
+   "testo": "Pesate nel boccale 130 g di pecorino Romano, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il pecorino grattugiato in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di cipolla dorata, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di burro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di riso Carnaroli."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tostate.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate 60 g di vino bianco secco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 750,
+   "testo": "Pesate 750 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di dado per brodo vegetale, ½ cucchiaino di sale, 2 pere Williams, pelate, a cubetti (2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "La ricetta indica 2-3 minuti: il timer è impostato a 2."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una risottiera."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con la spatola mantecate il riso con 20 g di burro, il pecorino messo da parte e servite subito."
+  }
+ ],
+ "origine": "cookidoo:r257140",
+ "importata": "2026-10-27"
+}

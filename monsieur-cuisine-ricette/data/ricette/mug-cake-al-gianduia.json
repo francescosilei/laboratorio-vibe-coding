@@ -1,0 +1,136 @@
+{
+ "id": "mug-cake-al-gianduia",
+ "titolo": "Mug cake al gianduia",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 20,
+ "porzioni": null,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "mug-cake-al-gianduia.jpg",
+ "ingredienti": [
+  {
+   "testo": "120 g di farina tipo 00",
+   "nome": "farina"
+  },
+  {
+   "testo": "140 g zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "60 g di burro, fuso",
+   "nome": "burro"
+  },
+  {
+   "testo": "2 uova",
+   "nome": "uova"
+  },
+  {
+   "testo": "90 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "140 g di crema gianduia",
+   "nome": "crema gianduia"
+  },
+  {
+   "testo": "20 g di cacao amaro in polvere",
+   "nome": "cacao amaro"
+  },
+  {
+   "testo": "1 cucchiaino di lievito in polvere per dolci",
+   "nome": "lievito"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la farina oo, lo zucchero, il burro fuso, le uova, il latte, la crema gianduia e il cacao, mescolare: 30 sec./vel. 4.",
+  "Aggiungere il lievito e amalgamare: 10 sec./vel. 4. Versare Il'impasto in 4 mug (capienza 200-250 ml), riempiendole fino a metà",
+  "Cuocere in forno a microonde per 2.30 minuti (700 W). Verificare la cottura con uno stecchino: se sara quasi asciutto la mug cake e pronta (vedere consigli).",
+  "Servire tiepide o a temperatura ambiente."
+ ],
+ "note": [
+  "Lo stecchino non dovra essere completamente asciutto poiche la cottura della torta",
+  "continuera anche dopo aver tolto le mug dal microonde. Se si preferisce una torta più",
+  "asciutta proseguire la cottura per altri 10-20 secondi (700 W), fino alla cottura",
+  "desiderata.",
+  "E' possibile dimezzare le dosi. Al passaggio 1 mescolare: 20 sec./vel. 4 e cuocere in",
+  "microonde per 1.30 minuti circa (700 W) sino ad ottenere il grado di cottura desiderato."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Pesate nel boccale 120 g di farina tipo 00."
+  },
+  {
+   "tipo": "pesata",
+   "g": 140,
+   "testo": "Aggiungete 140 g di zucchero."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di burro, fuso."
+  },
+  {
+   "tipo": "pesata",
+   "g": 90,
+   "testo": "Aggiungete 90 g di latte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 140,
+   "testo": "Aggiungete 140 g di crema gianduia."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di cacao amaro in polvere."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 uova."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 30,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di lievito in polvere per dolci."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Amalgamate.",
+   "tempo_s": 10,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Versate Il'impasto in 4 mug (capienza 200-250 ml), riempiendole fino a metà"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Cuocete in forno a microonde per 2.30 minuti (700 W)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Verificare la cottura con uno stecchino: se sara quasi asciutto la mug cake e pronta (vedere consigli)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite tiepide o a temperatura ambiente."
+  }
+ ],
+ "origine": "cookidoo:r141210",
+ "importata": "2026-11-05"
+}

@@ -1,0 +1,239 @@
+{
+ "id": "risotto-alle-acciughe-e-limone-bimby-friend",
+ "titolo": "Risotto alle acciughe e limone (Bimby Friend)",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 8,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "risotto-alle-acciughe-e-limone-bimby-friend.jpg",
+ "ingredienti": [
+  {
+   "testo": "1600 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "10 g di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "15 g di scorza di limone (senza la parte bianca)",
+   "nome": "scorza limone"
+  },
+  {
+   "testo": "60 g di scalogno, a pezzi",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "40 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "60 - 70 g di filetti di acciuga sott'olio, sgocciolati + q.b.",
+   "nome": "acciuga sott'olio"
+  },
+  {
+   "testo": "640 g di riso Carnaroli (cottura 18 minuti)",
+   "nome": "riso carnaroli"
+  },
+  {
+   "testo": "100 g di vino bianco secco",
+   "nome": "vino bianco secco"
+  },
+  {
+   "testo": "100 g di mascarpone",
+   "nome": "mascarpone"
+  },
+  {
+   "testo": "prezzemolo fresco, le foglioline lavate ed asciugate, a piacere",
+   "nome": "prezzemolo"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale di Bimby l'acqua e 10 g di dado. Togliere il boccale da Bimby e posizionarlo in Bimby Friend, impostare: 14 min./100°C/vel. 1. Nel frattempo, proseguire con la ricetta.",
+  "Posizionare il secondo boccale in Bimby. Mettere nel boccale la scorza di limone e tritare: 10 sec./vel. 8. Trasferire in una ciotolina e tenere da parte.",
+  "Mettere nel boccale lo scalogno e tritare: 3 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva, il burro e i filetti di acciuga, insaporire: 4 min./120°C/vel. 2.",
+  "Unire il riso e tostare: 5 min./120c//vel. 1.",
+  "Aggiungere il vino e sfumare, senza misurino: 2 min./100°C//vel. 1. Quando Bimby Friend suona, trasferire il brodo caldo in una caraffa e tenere da parte.",
+  "Trasferire metà del riso tostato (circa 440 g) nel boccale vuoto e riposizionarlo nel Bimby. Aggiungere nel boccale di Bimby 800 g di brodo e mescolare a fondo con la",
+  "cestello al posto del misurino.",
+  "Posizionare il secondo boccale in Bimby, unire i restanti 800 g di brodo e mescolare a",
+  "cuocere: 13 min./100°C//vel. 1. Nel frattempo, impostare la manovra di cottura in Bimby Friend. Cuocere 13 min./100°C/vel. 1.",
+  "Quando Bimby e Bimby Friend suonano, lasciare riposare il risotto nel boccale per 1 minuto, poi trasferire il contenuto di entrambi i boccali in una risottiera, unire il mascarpone e mantecare.",
+  "Decorare a piacere il risotto con qualche filetto di acciuga, foglioline di prezzemolo fresco e la scorza di limone tritata. Servire caldo."
+ ],
+ "note": [
+  "Articoli utili: ciotolina, caraffa, risottiera."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 1600,
+   "testo": "Pesate nel boccale 1600 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di dado per brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate a bollore il brodo.",
+   "tempo_s": 840,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false,
+   "avvertenza": "La ricetta originale usa due boccali insieme (Bimby e Bimby Friend); sul Connect si prepara un boccale alla volta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il brodo caldo in una caraffa e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Pesate nel boccale 15 g di scorza di limone (senza la parte bianca)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotolina e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di scalogno, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di burro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di filetti di acciuga sott'olio, sgocciolati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 2,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 640,
+   "testo": "Pesate 640 g di riso Carnaroli (cottura 18 minuti)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tostate.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di vino bianco secco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate senza misurino.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite metà del riso tostato (circa 440 g) in un contenitore e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete nel boccale 800 g di brodo caldo e mescolate a fondo con la spatola. Posizionate il cestello sul coperchio al posto del misurino."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 780,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il risotto in una risottiera e tenete da parte in caldo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Rimettete nel boccale il riso tenuto da parte, unite i restanti 800 g di brodo e mescolate a fondo con la spatola. Posizionate il cestello sul coperchio al posto del misurino."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 780,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate riposare il risotto nel boccale per 1 minuto.",
+   "attesa_s": 60
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di mascarpone."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il contenuto di entrambe le cotture nella risottiera, unite il mascarpone e mantecate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Decorate a piacere il risotto con qualche filetto di acciuga, foglioline di prezzemolo fresco e la scorza di limone tritata. Servite caldo."
+  }
+ ],
+ "origine": "cookidoo:r759353",
+ "importata": "2026-10-27"
+}

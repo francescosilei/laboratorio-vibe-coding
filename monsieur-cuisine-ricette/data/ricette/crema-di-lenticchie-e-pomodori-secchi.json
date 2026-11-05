@@ -1,0 +1,124 @@
+{
+ "id": "crema-di-lenticchie-e-pomodori-secchi",
+ "titolo": "Crema di lenticchie e pomodori secchi",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 15,
+ "porzioni": null,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "crema-di-lenticchie-e-pomodori-secchi.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 mazzetto di prezzemolo fresco, le foglioline lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "½ spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "250 g di lenticchie, in scatola, ben sciacquate",
+   "nome": "lenticchie"
+  },
+  {
+   "testo": "6 - 7 pomodori secchi sott'olio, sgocciolati",
+   "nome": "pomodori secchi"
+  },
+  {
+   "testo": "1 cucchiaino di paprika dolce",
+   "nome": "paprika"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe nero"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "2 - 3 cubetti di ghiaccio",
+   "nome": "ghiaccio"
+  },
+  {
+   "testo": "fette di pane integrale, tostato, a piacere",
+   "nome": "pane integrale"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo, l'aglio e l'olio extravergine di oliva, frullare: 5 sec./vel.7.Riunire sul fondo conla spatola.",
+  "Unire le lenticchie,i pomodori secchi, la paprika dolce, il pepe, il sale e il ghiaccio, frullare: 10 sec./vel. 7. Riunire sul fondo con la spatola. Frullare nuovamente: 10 sec./vel. 8.",
+  "Servire con fette di pane integrale tostato a bastoncini."
+ ],
+ "note": [
+  "Resa: 300 g (la ricetta la indica al posto delle porzioni)."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 mazzetto di prezzemolo fresco, le foglioline lavate ed asciugate, e ½ spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di lenticchie, in scatola, ben sciacquate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 6-7 pomodori secchi sott'olio, sgocciolati, 1 cucchiaino di paprika dolce, 1 pizzico di pepe nero macinato, 1 cucchiaino di sale e 2-3 cubetti di ghiaccio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite con fette di pane integrale tostato a bastoncini."
+  }
+ ],
+ "origine": "cookidoo:r902301",
+ "importata": "2026-10-27"
+}

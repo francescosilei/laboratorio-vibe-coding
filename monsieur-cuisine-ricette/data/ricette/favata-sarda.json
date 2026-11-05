@@ -1,0 +1,159 @@
+{
+ "id": "favata-sarda",
+ "titolo": "Favata sarda",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "favata-sarda.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di pancetta, a pezzi",
+   "nome": "pancetta"
+  },
+  {
+   "testo": "50 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1000 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "250 g di fave secche, spezzate, ammollate in acqua per il tempo indicato sulla confezione",
+   "nome": "fave secche"
+  },
+  {
+   "testo": "100 g di salsiccia di maiale, affumicata, a tocchetti",
+   "nome": "salsiccia maiale"
+  },
+  {
+   "testo": "100 g di salsiccia di maiale, a tocchetti",
+   "nome": "salsiccia maiale"
+  },
+  {
+   "testo": "100 g di foglie di cavolo verza, a listarelle",
+   "nome": "cavolo verza"
+  },
+  {
+   "testo": "1 mazzetto di finocchietto selvatico",
+   "nome": "finocchietto selvatico"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1 peperoncino piccante fresco, a pezzi",
+   "nome": "peperoncino piccante"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato fresco",
+   "nome": "pepe"
+  },
+  {
+   "testo": "olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "pane carasau",
+   "nome": "pane carasau"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la pancetta e la cipolla, tritare: 5 sec./vel.7.",
+  "Aggiungere l'acqua e le fave, cuocere: 25 min./100°C//vel. α.",
+  "Unire la salsiccia affumicata, la salsiccia, la verza, il finocchietto, l'aglio, il peperoncino, il sale e il pepe, cuocere: 20 min./100°C//vel. . Trasferire in una zuppiera.",
+  "Condire con un filo di olio extravergine di oliva e servire la favata sarda con il pane carasau."
+ ],
+ "note": [
+  "In alternativa: q.b.",
+  "In alternativa: q.b."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di pancetta, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate 1000 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di fave secche, spezzate, ammollate in acqua per il tempo indicato sulla confezione."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di foglie di cavolo verza, a listarelle."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di salsiccia di maiale, affumicata, a tocchetti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di salsiccia di maiale, a tocchetti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di sale, 1 mazzetto di finocchietto selvatico, 1 spicchio di aglio, 1 pizzico di pepe nero macinato fresco, 1 peperoncino piccante fresco, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Condite con un filo di olio extravergine di oliva e servite la favata sarda con il pane carasau."
+  }
+ ],
+ "origine": "cookidoo:r276632",
+ "importata": "2026-10-28"
+}

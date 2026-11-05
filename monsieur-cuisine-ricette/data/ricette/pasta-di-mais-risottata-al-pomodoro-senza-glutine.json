@@ -1,0 +1,205 @@
+{
+ "id": "pasta-di-mais-risottata-al-pomodoro-senza-glutine",
+ "titolo": "Pasta di mais risottata al pomodoro (senza glutine)",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pasta-di-mais-risottata-al-pomodoro-senza-glutine.jpg",
+ "ingredienti": [
+  {
+   "testo": "60 g di Parmigiano reggiano, a pezzi (1-2 cm)",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "1 spicchio di aglio, senz'anima",
+   "nome": "aglio"
+  },
+  {
+   "testo": "50 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "50 g di gambo di sedano, a pezzi (1-2 cm)",
+   "nome": "sedano"
+  },
+  {
+   "testo": "50 g di carota, pelata e a pezzi (1-2 cm)",
+   "nome": "carota"
+  },
+  {
+   "testo": "60 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "300 g di pomodorini datterino, a metà",
+   "nome": "pomodorini datterino"
+  },
+  {
+   "testo": "1 cucchiaino colmo di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "625 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "350 g di pasta secca, corta di mais e riso senza glutine (cottura 12 minuti)",
+   "nome": "pasta secca"
+  },
+  {
+   "testo": "3 - 4 foglie di basilico fresche, lavate",
+   "nome": "basilico"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano reggiano, grattugiare: 10 sec./vel. 10. Trasferire in una ciotolina e tenere da parte.",
+  "Senza lavare il boccale mettere l'aglio, la cipolla, il sedano e la carota, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Unire l'olio extravergine di oliva, insaporire: 5 min./1200°C/vel. 1.",
+  "Aggiungere i pomodorini e il sale, cuocere: 5 min./100°C//vel. 2.",
+  "Unire l'acqua, portare ad ebollizione: 5 min./100°C/vel. 1.",
+  "Aggiungere la pasta senza glutine e il basilico, cuocere: 12 min./100°C/antiorario/vel. 1 con il cestello al posto del misurino per evitare schizzi. Trasferire all'interno di 4 piatti fondi.",
+  "Servire con una spolverizzata di Parmigiano reggiano grattugiato."
+ ],
+ "note": [
+  "Per questa ricetta e stata utilizzata una pasta secca prodotta con un mix tra farina di",
+  "tipologia di pasta.",
+  "E'possibile sostituire la pasta indicata con un'altra tipologia di pasta senza glutine",
+  "prestando attenzione ad utilizzare una pasta dal formato corto e poco voluminoso (es:",
+  "pennette, mezze penne, fusilli, ecc..) e impostando il tempo di cottura in base a quanto",
+  "riportato sulla confezione.",
+  "I tempi di cottura delle paste senza glutine variano a seconda della farina con cui sono",
+  "realizzate e dal tipo di metodo di produzione utilizzato. Si consiglia per una cottura",
+  "ottimale con Bimby di procedere per tentativi sino a trovare la giusta combinazione",
+  "tra quantità di liquidi, in questo caso pomodori e acqua, e il tempo di cottura indicato",
+  "sulla confezione."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di Parmigiano reggiano, a pezzi (1-2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotolina e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di gambo di sedano, a pezzi (1-2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di carota, pelata e a pezzi (1-2 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio, senz'anima."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate 60 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di pomodorini datterino, a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 625,
+   "testo": "Pesate 625 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate a ebollizione.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di pasta secca (senza glutine) e aggiungetela."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 3-4 foglie di basilico fresche."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 720,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Con il cestello al posto del misurino per evitare schizzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite all'interno di 4 piatti fondi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite con una spolverizzata di Parmigiano reggiano grattugiato."
+  }
+ ],
+ "origine": "cookidoo:r135468",
+ "importata": "2026-10-27"
+}

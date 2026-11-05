@@ -1,0 +1,122 @@
+{
+ "id": "pennette-risottate-burro-e-parmigiano-reggiano",
+ "titolo": "Pennette risottate burro e Parmigiano Reggiano",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 20,
+ "porzioni": 1,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pennette-risottate-burro-e-parmigiano-reggiano.jpg",
+ "ingredienti": [
+  {
+   "testo": "30 g di Parmigiano Reggiano",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "200 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 pizzico di sale grosso",
+   "nome": "sale grosso"
+  },
+  {
+   "testo": "80 g di pasta secca corta, tipo pennette rigate",
+   "nome": "pasta secca corta"
+  },
+  {
+   "testo": "20 g di burro, a pezzi piccoli",
+   "nome": "burro"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano Reggiano e grattugiare: 8 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale l'acqua e il sale, portare ad ebollizione: 5 min./100°C/vel. 1.",
+  "Unire le pennette e cuocere: il tempo indicato sulla confezione 100°C//vel. .",
+  "Aggiungere il burro e il Parmigiano Reggiano grattugiato, mescolare: 1 min.//vel. 1.",
+  "Trasferire in un piatto fondo e servire."
+ ],
+ "note": [
+  "Per una riuscita ottimale della ricetta si consiglia di utilizzare solo pasta secca e preferibilmente prodotta con farina di grano duro."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di Parmigiano Reggiano."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 8,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale grosso."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate a ebollizione.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate 80 g di pasta secca corta, tipo pennette rigate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo è quello indicato sulla confezione della pasta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di burro, a pezzi piccoli."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete il Parmigiano Reggiano grattugiato tenuto da parte."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in un piatto fondo e servite."
+  }
+ ],
+ "origine": "cookidoo:r121099",
+ "importata": "2026-10-28"
+}

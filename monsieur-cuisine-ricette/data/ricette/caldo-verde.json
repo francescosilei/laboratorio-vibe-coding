@@ -1,0 +1,139 @@
+{
+ "id": "caldo-verde",
+ "titolo": "Caldo verde",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "caldo-verde.jpg",
+ "ingredienti": [
+  {
+   "testo": "300 g di patate, pelate e a pezzi (2 cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "200 g di cipolle, a pezzi",
+   "nome": "cipolle"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1000 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "250 g di foglie di cavolo verza, a listarelle (1 cm)",
+   "nome": "cavolo verza"
+  },
+  {
+   "testo": "100 g di salame chorizo",
+   "nome": "salame chorizo"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le patate, le cipolle, l'aglio, l'acqua e il sale. Posizionare il recipiente del Varoma e disporvi il cavolo verza, cuocere: 25 min./Varoma/vel. 1.Togliere con attenzione il Varoma e mettere da parte.",
+  "Posizionare il misurino e frullare: 1 min./vel. 7.",
+  "Aggiungere la verza, il salame e l'olio extravergine di oliva, cuocere: 2 min./100°C//vel. 1.",
+  "Trasferire in una zuppiera e irrorare con un filo di olio extravergine di oliva. Servire subito."
+ ],
+ "note": [
+  "Zuppa semplice e gustosa, in per fetto stile lusitano, e tipica della provincia di Minho, nel",
+  "nord del Portogallo, ma e divenuta nel tempo un piatto nazionale. La tradizione impone",
+  "che sia servita in una scodella alta, aggiungendo un filo di olio crudo e qualche fetta di",
+  "pane di miglio. Perche il caldo (\"brodo\" in portoghese) sia davvero verde bisogna che la",
+  "verza con cui viene preparato non \"ingiallisca\"', facendo attenzione a non prolungarne la",
+  "cottura oltre i termini.",
+  "In alternativa: 100 g di salame, piccante"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate nel boccale 300 g di patate, pelate e a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di cipolle, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Aggiungete 1000 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 spicchi di aglio, 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma e mettete da parte"
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di foglie di cavolo verza, a listarelle (1 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di salame chorizo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera e irrorate con un filo di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito."
+  }
+ ],
+ "origine": "cookidoo:r94169",
+ "importata": "2026-11-05"
+}

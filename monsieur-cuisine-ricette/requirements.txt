@@ -1,0 +1,4 @@
+pillow
+pypdf
+numpy
+rapidocr-onnxruntime

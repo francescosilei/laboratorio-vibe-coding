@@ -1,0 +1,170 @@
+{
+ "id": "cullurielli-cosentini",
+ "titolo": "Cullurielli cosentini",
+ "categoria": "Antipasti",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 60,
+ "tempo_cottura_min": null,
+ "tempo_min": 270,
+ "porzioni": null,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "cullurielli-cosentini.jpg",
+ "ingredienti": [
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua",
+   "gruppo": "Cottura delle patate"
+  },
+  {
+   "testo": "200 g di patate, pelate e a tocchetti (2 cm circa)",
+   "nome": "patate",
+   "gruppo": "Cottura delle patate"
+  },
+  {
+   "testo": "7 g di lievito di birra fresco",
+   "nome": "lievito birra",
+   "gruppo": "Cullurielli"
+  },
+  {
+   "testo": "200 g di acqua tiepida",
+   "nome": "acqua",
+   "gruppo": "Cullurielli"
+  },
+  {
+   "testo": "1 cucchiaino di zucchero",
+   "nome": "zucchero",
+   "gruppo": "Cullurielli"
+  },
+  {
+   "testo": "500 g di farina tipo 00",
+   "nome": "farina",
+   "gruppo": "Cullurielli"
+  },
+  {
+   "testo": "10 g di sale",
+   "nome": "sale",
+   "gruppo": "Cullurielli"
+  },
+  {
+   "testo": "olio per frittura, q.b.",
+   "nome": "olio frittura",
+   "gruppo": "Cullurielli"
+  }
+ ],
+ "procedimento": [
+  "Cottura delle patate. Mettere nel boccale 500 g di acqua, posizionare il cestello e al suo interno le patate, cuocere: 25 min./Varoma/vel. 1. Togliere il cestello con l'aiuto della spatola e svuoltare il boccale.",
+  "Cullurielli. Mettere nel boccale le patate cotte e frullare: 1 min./vel. 7. Nel frattempo, sciogliere il lievito in 20 g di acqua con 1 cucchiaino di zucchero. Riunire sul fondo con la spatola.",
+  "Cullurielli. Aggiungere la farina 00,il lievito sciolto nell'acqua, il sale e 180 g di acqua, impastare: 4 min./ . Trasferire l'impasto in una ciotola capiente precedentemente infarinata",
+  "Cullurielli. canovaccio di cotone umido). Far lievitare in luogo tiepido al riparo da correnti d'aria sino al raddoppio del volume (2 ore circa).",
+  "Cullurielli. Rivestire un vassoio con carta forno. Riprendere l'impasto lievitato e, con le mani unte di olio, dividerlo in pezzi da circa 100 g ciascuno, formare delle palline e sistemarle sul vassoio preparato, distanziandole leggermente. Coprire con il",
+  "Cullurielli. volume (1 ora circa).",
+  "Cullurielli. In una padella dai bordi alti, scaldare abbondante olio e rivestire un vassoio con della carta assorbente.",
+  "Cullurielli. Con le mani leggermente unte di olio, allargare ciascuna pallina di impasto dal centro, formando una ciambella. Friggere poche ciambelle per volta finché saranno ben ben dorate. Scolare le ciambelle con un mestolo forato e adagiarle sul vassoio preparato affinche si asciughino dallolio in eccesso.",
+  "Cullurielli. Servire caldi."
+ ],
+ "note": [
+  "Resa: 8 pezzi (la ricetta indica i pezzi al posto delle porzioni).",
+  "Questa ricetta è stata realizzata da Anna Valentina Reda insieme a Maria Marcianò della Divisione Telesia.",
+  "Antipasto sfizioso, da servire in accompagnamento ad un tagliere di salumi e formaggi.",
+  "Per creare delle forme alternative, al passaggio 4 quando si formano le palline, è possibile insaporire l'impasto con 1 filetto di acciuga, oppure si possono creare dei piccoli calzoni farciti con della salsa di pomodoro e della mozzarella, oppure con pomodoro e acciughe o dando libero spazio alla fantasia."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate nel boccale 500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Posizionate il cestello e pesate al suo interno 200 g di patate, pelate e a tocchetti (2 cm circa)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete a vapore.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Cottura «Varoma» nel boccale con il cestello: sul Connect usate il programma Cottura al vapore, controllate temperatura e preriscaldamento sul display."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete il cestello con l'aiuto della spatola e svuotate il boccale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale le patate cotte."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Nel frattempo, pesate in una ciotolina 20 g di acqua tiepida."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sciogliete 7 g di lievito di birra fresco nei 20 g di acqua con 1 cucchiaino di zucchero. Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di farina tipo 00."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete il lievito sciolto nell'acqua e 10 g di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 180,
+   "testo": "Aggiungete 180 g di acqua tiepida."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impastate.",
+   "tempo_s": 180,
+   "velocita": null,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Impastare",
+   "avvertenza": "«Spiga» del Bimby corrisponde al programma Impastare del Connect: durata e velocità le gestisce il programma, non sostituitelo con una velocità manuale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'impasto in una ciotola capiente precedentemente infarinata, compattatelo in una palla liscia e coprite con l'apposito coperchio (o con un canovaccio di cotone umido). Fate lievitare in luogo tiepido al riparo da correnti d'aria sino al raddoppio del volume (2 ore circa).",
+   "attesa_s": 7200
+  },
+  {
+   "tipo": "testo",
+   "testo": "Rivestite un vassoio con carta forno. Riprendete l'impasto lievitato e, con le mani unte di olio, dividetelo in pezzi da circa 100 g ciascuno, formate delle palline e sistemarle sul vassoio preparato, distanziandole leggermente. Coprite con il canovaccio di cotone e fate lievitare al riparo da correnti d'aria sino al raddoppio del volume (1 ora circa).",
+   "attesa_s": 3600
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una padella dai bordi alti, scaldate abbondante olio per frittura e rivestite un vassoio con della carta assorbente."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Con le mani leggermente unte di olio, allargate ciascuna pallina di impasto dal centro formando una ciambella. Friggete poche ciambelle per volta finché saranno ben dorate. Scolate le ciambelle con un mestolo forato e adagiatele sul vassoio preparato affinché si asciughino dall'olio in eccesso."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite caldi."
+  }
+ ],
+ "origine": "cookidoo:r493677",
+ "importata": "2026-11-05"
+}

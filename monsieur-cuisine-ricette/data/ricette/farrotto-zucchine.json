@@ -1,0 +1,141 @@
+{
+ "id": "farrotto-zucchine",
+ "titolo": "Farrotto alle zucchine cremoso",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 3,
+ "tempo_cottura_min": 40,
+ "tempo_min": 43,
+ "porzioni": 4,
+ "difficolta": "NA",
+ "fonte": "Ricette Bimby (Flavia)",
+ "immagine": "farrotto-zucchine.jpg",
+ "ingredienti": [
+  {
+   "testo": "40 g di cipolla a metà",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine d'oliva"
+  },
+  {
+   "testo": "200 g di zucchine",
+   "nome": "zucchine"
+  },
+  {
+   "testo": "560 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaio di dado vegetale",
+   "nome": "dado vegetale"
+  },
+  {
+   "testo": "280 g di farro perlato",
+   "nome": "farro"
+  },
+  {
+   "testo": "80 g di stracchino",
+   "nome": "stracchino"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale 40 g di cipolla e trita Qualche Sec. Vel. 7.",
+  "Riunire sul fondo con la spatola ciò che è finito sui bordi del boccale.",
+  "Aggiungi 30 g di olio extravergine di oliva e insaporisci 3 Min. 120° Vel. 1.",
+  "Aggiungi 200 g di zucchine tagliandole a cubetti e cuoci 5 Min. 120° antiorario Vel.1.",
+  "Aggiungi 560 g di acqua, un cucchiaio di dado vegetale e 280 g di farro, cuoci per il tempo indicato dalla confezione 100° antiorario Vel. cucchiaio.",
+  "Aggiungi 80 g di stracchino e mescola con la spatola.",
+  "Lascia riposare 5 Min. nel boccale prima di servire."
+ ],
+ "note": [
+  "Se utilizzi una qualità di farro diversa (es. farro integrale) ti basta adattare il tempo di cottura in base alle indicazioni riportate sulla confezione. Tieni a portata di mano dell'acqua calda da aggiungere in caso di necessità."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate nel boccale 40 g di cipolla a metà."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate la cipolla.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "La ricetta dice «qualche secondo»: 5 secondi è indicativo. Controllate il trito."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola ciò che è finito sui bordi del boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di zucchine tagliate a cubetti e versatele nel boccale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Rosolatura a 120 °C: durata a vista."
+  },
+  {
+   "tipo": "pesata",
+   "g": 560,
+   "testo": "Pesate nel boccale 560 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio di dado vegetale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 280,
+   "testo": "Pesate nel boccale 280 g di farro perlato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete per il tempo indicato sulla confezione del farro.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Il tempo dipende dalla confezione: controllatelo e impostatelo voi. Soft/Antiorario: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di stracchino."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mescolate con la spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate riposare 5 minuti nel boccale prima di servire.",
+   "attesa_s": 300
+  }
+ ],
+ "importata": "2026-10-26"
+}

@@ -1,0 +1,348 @@
+{
+ "id": "shepherd-s-pie",
+ "titolo": "Shepherd's Pie",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 30,
+ "tempo_cottura_min": null,
+ "tempo_min": 120,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "shepherd-s-pie.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "40 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "180 g di cipolla, a pezzi",
+   "nome": "cipolla",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "120 g di carote, pelate e a pezzi",
+   "nome": "carote",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "100 g di gambo di sedano, a pezzi",
+   "nome": "sedano",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "500 g di carne trita d'agnello, sgranata",
+   "nome": "carne trita d'agnello",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "30 g di concentrato di pomodoro",
+   "nome": "concentrato pomodoro",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "100 g di brodo vegetale",
+   "nome": "brodo vegetale",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "10 g di salsa Worcestershire",
+   "nome": "salsa worcestershire",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "5 g di sale",
+   "nome": "sale",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "½ cucchiaino di pepe nero macinato",
+   "nome": "pepe",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "1 foglia di alloro secca",
+   "nome": "alloro secca",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "3 rametti di timo fresco, le foglioline",
+   "nome": "timo",
+   "gruppo": "Agnello"
+  },
+  {
+   "testo": "800 g acqua",
+   "nome": "acqua",
+   "gruppo": "Crema di patate e porri"
+  },
+  {
+   "testo": "800 g di patate, pelate e a pezzi (2 cm)",
+   "nome": "patate",
+   "gruppo": "Crema di patate e porri"
+  },
+  {
+   "testo": "250 g di porri, a pezzi (1 cm)",
+   "nome": "porri",
+   "gruppo": "Crema di patate e porri"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale",
+   "gruppo": "Crema di patate e porri"
+  },
+  {
+   "testo": "2 pizzichi di pepe nero macinato",
+   "nome": "pepe",
+   "gruppo": "Crema di patate e porri"
+  },
+  {
+   "testo": "25 g di latte intero",
+   "nome": "latte",
+   "gruppo": "Crema di patate e porri"
+  },
+  {
+   "testo": "25 g di burro",
+   "nome": "burro",
+   "gruppo": "Crema di patate e porri"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'aglio, tritare: 3 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva, le cipolle, le carote e il sedano, tritare: 3 sec./vel. 5. Riunire sul fondo con la spatola e insaporire: 4 min./120°C/vel. 1.",
+  "Unire la carne di agnello e insaporire: 5 min./120°C//vel. .",
+  "Aggiungere il concentrato di pomodoro, il brodo, la salsa Worcestershire, il sale, il pepe, l'alloro e le foglie di timo, cuocere: 30 min./100°C//vel. 1. Trasferire in una pirofila da forno (circa 30x20x5 cm). Togliere la foglia di alloro e tenere da parte. Pulire e asciugare il boccale e preparare la crema di patate e porri.",
+  "Crema di patate e porri. Mettere nel boccale l'acqua, posizionare il cestello e sistemare al suo interno le patate, cuocere: 25 min./Varoma/vel. 2. Nel frattempo, sistemare i porri nel recipiente del Varoma e chiudere con il coperchio.",
+  "Crema di patate e porri. Togliere il misurino e posizionare il Varoma, cuocere: 10 min./Varoma/vel. 2. Nel frattempo, preriscaldare il forno a 190°C.",
+  "Crema di patate e porri. Togliere con attenzione il Varoma e rimuovere il cestello con l'aiuto di una spatola, poi svuotare e asciugare il boccale. Posizionare la farfalla. Mettere nel boccale le patate cotte, il sale, il pepe, il latte e il burro, montare: 5 sec./vel. 4. Riunire sul fondo con la spatola.",
+  "Crema di patate e porri. Aggiungere i porri e mescolare: 5 sec./vel. 4. Togliere la farfalla. Sistemare la crema di patate e porri allinterno di una tasca da pasticceria con la bocchetta festonata e ricoprire la carne facendo scendere dei ciuffetti di crema dalla tasca da pasticceria.",
+  "Crema di patate e porri. Cuocere in forno caldo per 20-30 minuti (190C) o fino a che la superficie sara dorata. Togliere con attenzione dal forno e lasciare riposare per qualche minuto.",
+  "Crema di patate e porri. Servire."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 180,
+   "testo": "Aggiungete 180 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Aggiungete 120 g di carote, pelate e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di gambo di sedano, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di carne trita d'agnello, sgranata."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di concentrato di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di brodo vegetale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 5,
+   "testo": "Aggiungete 5 g di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Aggiungete 10 g di salsa Worcestershire."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di pepe nero macinato, 1 foglia di alloro secca, 3 rametti di timo fresco, le foglioline."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una pirofila da forno (circa 30x20x5 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete la foglia di alloro e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Pulite e asciugare il boccale e preparare la crema di patate e porri."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Pesate nel boccale 800 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di patate, pelate e a pezzi (2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 2,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma in una preparazione nel boccale: non sostituirlo in automatico con 120 °C. Il Connect arriva a 130 °C: scegliete la temperatura in base alla ricetta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, sistemate i porri nel recipiente del Varoma e chiudere con il coperchio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 2,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, preriscaldate il forno a 190°C."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma e rimuovete il cestello con l'aiuto di una spatola, poi svuotate e asciugare il boccale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate la farfalla."
+  },
+  {
+   "tipo": "pesata",
+   "g": 25,
+   "testo": "Pesate nel boccale 25 g di latte intero."
+  },
+  {
+   "tipo": "pesata",
+   "g": 25,
+   "testo": "Aggiungete 25 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale, 2 pizzichi di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate il robot.",
+   "tempo_s": 5,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di porri, a pezzi (1 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 5,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete la farfalla."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate la crema di patate e porri allinterno di una tasca da pasticceria con la bocchetta festonata e ricoprire la carne facendo scendere dei ciuffetti di crema dalla tasca da pasticceria."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Cuocete in forno caldo per 20-30 minuti (190C) o fino a che la superficie sara dorata.",
+   "attesa_s": 1200
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione dal forno e lasciate riposare per qualche minuto."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite."
+  }
+ ],
+ "origine": "cookidoo:r697377",
+ "importata": "2026-11-05"
+}

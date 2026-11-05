@@ -1,0 +1,167 @@
+{
+ "id": "casarecce-risottate-al-limone",
+ "titolo": "Casarecce risottate al limone",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 30,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "casarecce-risottate-al-limone.jpg",
+ "ingredienti": [
+  {
+   "testo": "20 g di Parmigiano Reggiano, a pezzi",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "2 limoni, preferibilmente biologici, la scorza (senza la parte",
+   "nome": "limoni"
+  },
+  {
+   "testo": "1 mazzetto di prezzemolo fresco, le foglioline lavate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "100 g di prosciutto cotto a cubetti",
+   "nome": "prosciutto cotto"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "200 g di panna fresca liquida",
+   "nome": "panna"
+  },
+  {
+   "testo": "350 g di caserecce siciliane (o altra pasta secca simile)",
+   "nome": "caserecce siciliane"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 tuorlo",
+   "nome": "tuorlo"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano reggiano, la scorza dei limoni e il prezzemolo, tritare: 10 sec./vel. 10. Riunire sul fondo con la spatola.",
+  "Aggiungere il prosciutto cotto e tritare: 3 sec./vel. 4. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale l'olio extravergine di oliva, l'acqua e la panna, portare ad ebollizione: 7 min./100°C/vel. 1.",
+  "Aggiungere le casarecce e il sale, cuocere: il tempo indicato sulla confezione 100°C//vel. .",
+  "Unire il formaggio tritato e il tuorlo, amalgamare: 2 min.//vel. .",
+  "Trasferire le caserecce nei piatti e servire subito."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di Parmigiano Reggiano, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 limoni, preferibilmente biologici, la scorza (senza la parte, 1 mazzetto di prezzemolo fresco, le foglioline lavate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di prosciutto cotto a cubetti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di panna fresca liquida."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 tuorlo."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Amalgamate.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di caserecce siciliane (o altra pasta secca simile)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite le caserecce nei piatti e servite subito."
+  }
+ ],
+ "origine": "cookidoo:r130879",
+ "importata": "2026-10-28"
+}

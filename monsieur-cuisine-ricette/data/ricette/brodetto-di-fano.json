@@ -1,0 +1,219 @@
+{
+ "id": "brodetto-di-fano",
+ "titolo": "Brodetto di Fano",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "brodetto-di-fano.jpg",
+ "ingredienti": [
+  {
+   "testo": "100 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "60 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "500 g di code di gambero",
+   "nome": "gambero"
+  },
+  {
+   "testo": "700 g di molluschi cefalopodi misti (moscardini, totani, calamari, ecc.), puliti e a pezzi",
+   "nome": "molluschi cefalopodi misti"
+  },
+  {
+   "testo": "30 g di concentrato di pomodoro",
+   "nome": "concentrato pomodoro"
+  },
+  {
+   "testo": "200 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "100 g di aceto di vino rosso",
+   "nome": "aceto vino rosso"
+  },
+  {
+   "testo": "500 g di pesce misto per zuppa, pulito e a filetti (vedere consigli)",
+   "nome": "pesce misto"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "100 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "8 fette di pane, tostato",
+   "nome": "pane"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla e tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere 50 g di olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire le code di gamberi e insaporire: 3 min./120°C//vel. . Togliere i crostacei dal boccale, mantenendo il liquido di cottura al suo interno e distribuirli sul vassoio del Varoma.",
+  "Aggiungere nel boccale i molluschi cefalopodi e insaporire: 3 min./120°C//vel. 1. Togliere i molluschi dal boccale e sistemarli nel recipiente del Varoma, lasciando il liquido nel boccale.",
+  "Unire nel boccale il concentrato di pomodoro, la passata di pomodoro e l'aceto di vino rosso, cuocere: 8 min./120°C/vel. 1. Nel frattempo, distribuire i filetti di pesce nel il cestello (posizionare sotto quelli a carne più soda), irrorare con 10 g di olio extravergine di oliva tra uno strato e l'altro e insaporire con l cucchiaino di sale.",
+  "Aggiungere nel boccale l'acqua e il pepe nero, posizionare il cestello, il recipiente e il vassoio del Varoma, chiudere con il coperchio e cuocere: 20 min./Varoma/vel. 1. Togliere con attenzione il Varoma e il cestello con l'aiuto della spatola. Trasferire il pesce, i molluschi e gamberi in una zuppiera e versarvi il brodo.",
+  "Servire la zuppa di pesce calda accompagnandola con le fette di pane tostato."
+ ],
+ "note": [
+  "Gli scarti della pulizia del pesce (teste, lische, gusci dei crostacei) possono in parte",
+  "essere tenuti e messi nel boccale sotto il cestello per ottenere un brodo molto saporito",
+  "che poi andra filtrato con il colino fine.",
+  "Perla zuppa di pesce bisognerebbe utilizzare pesci assortiti tra quelli a carne ferma (più",
+  "soda) e quelli a carne morbida (più delicata). Pesci a carne ferma: scorfano, grongo",
+  "pescatrice, cernia. Pesci a carne morbida: triglia, sanpietro, ombrina, merluzzo, spigola",
+  "capone, gallinella."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di code di gambero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete i crostacei dal boccale, mantenendo il liquido di cottura al suo interno e distribuirli sul vassoio del Varoma."
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Pesate nel boccale 700 g di molluschi cefalopodi misti (moscardini, totani, calamari, ecc.), puliti e a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete i molluschi dal boccale e sistemarli nel recipiente del Varoma, lasciando il liquido nel boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di concentrato di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di passata di pomodoro."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di aceto di vino rosso."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 480,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate 10 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di pesce misto per zuppa, pulito e a filetti (vedere consigli)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, distribuire i filetti di pesce nel il cestello (posizionate sotto quelli a carne più soda), irrorate con 10 g di olio extravergine di oliva tra uno strato e l'altro e insaporite con l cucchiaino di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma e il cestello con l'aiuto della spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il pesce, i molluschi e gamberi in una zuppiera e versarvi il brodo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la zuppa di pesce calda accompagnandola con le fette di pane tostato."
+  }
+ ],
+ "origine": "cookidoo:r151683",
+ "importata": "2026-11-05"
+}

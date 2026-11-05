@@ -1,0 +1,152 @@
+{
+ "id": "kaiserschmarrn-pancake-dolci-con-uvetta",
+ "titolo": "Kaiserschmarrn (pancake dolci con uvetta)",
+ "categoria": "Dessert",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 30,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "kaiserschmarrn-pancake-dolci-con-uvetta.jpg",
+ "ingredienti": [
+  {
+   "testo": "5 uova medie (60 g circa)",
+   "nome": "uova"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "150 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "60 g di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "120 g di farina tipo 00",
+   "nome": "farina"
+  },
+  {
+   "testo": "5 - 10 g di zucchero vanigliato, a piacere",
+   "nome": "zucchero vanigliato"
+  },
+  {
+   "testo": "2 cucchiaini di scorza di limone tritata",
+   "nome": "scorza limone"
+  },
+  {
+   "testo": "30 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "30 g di uva passa, ammollata e strizzata (vedere consigli)",
+   "nome": "uva passa"
+  },
+  {
+   "testo": "2 cucchiai di zucchero a velo",
+   "nome": "zucchero velo"
+  }
+ ],
+ "procedimento": [
+  "Preriscaldare il forno a 180°C, modalita statica. In 2 ciotoline, separare i tuorli dagli albumi.",
+  "Posizionare la farfalla. Mettere nel boccale gli albumi e il sale, montare: 6 min./vel. 3.5. Togliere la farfalla e trasferire gli albumi montati in una ciotola.",
+  "Mettere nel boccale il latte, lo zucchero, la farina 00, lo zucchero vanigliato, la scorza di limone e i tuorli, mescolare: 30 sec./vel. 4.",
+  "Unire gli albumi montati a neve e amalgamare: 30 sec./vel. 3.",
+  "Scaldare una padella adatta alla cottura in forno (vedere consigli), sciogliervi il burro e versarvi la pastella, cospargere con l'uvetta e cuocere a fuoco medio per circa 3 minuti fino a doratura. Dividere il pancake in quattro, con una paletta, girare ogni parte e cuocere dall'altro lato per qualche minuto.",
+  "Terminare la cottura in forno per 5 minuti (180°C). Togliere con attenzione dal forno e",
+  "servire."
+ ],
+ "note": [
+  "Kaiserschmarrn è uno dei dolci più conosciuti della cucina austriaca. Il nome risale all'imperatore Francesco Giuseppe I, che apprezzava questo dolce.",
+  "Per questa ricetta, è molto importante utilizzare una padella che sia adatta alla cottura in forno. Se non si è in possesso di una padella con queste caratteristiche, trasferire il pancake parzialmente cotto in una pirofila prima di terminare la cottura in forno.",
+  "Servire il pancake con miele o sciroppo d'acero, una salsa di mele o mirtilli, frutta cotta, confettura di prugne o albicocche o con della frutta secca.",
+  "Mettere a bagno l'uvetta nel rum per una notte e scolarla prima di utilizzarla in ricetta."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Preriscaldate il forno a 180°C, modalità statica. In 2 ciotoline, separate i tuorli dagli albumi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate la farfalla. Mettete nel boccale gli albumi (5 uova) e 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Montate.",
+   "tempo_s": 360,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "La ricetta indica velocità 3.5, che sul Connect non esiste: arrotondata per eccesso a 4."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete la farfalla e trasferite gli albumi montati in una ciotola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di latte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di zucchero."
+  },
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Aggiungete 120 g di farina tipo 00."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 5-10 g di zucchero vanigliato (a piacere), 2 cucchiaini di scorza di limone tritata e i tuorli."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 30,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite gli albumi montati a neve."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Amalgamate.",
+   "tempo_s": 30,
+   "velocita": 3,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Scaldate una padella adatta alla cottura in forno (vedere consigli) e sciogliervi 30 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Versate la pastella, cospargete con 30 g di uva passa (ammollata e strizzata) e cuocete a fuoco medio per circa 3 minuti fino a doratura. Dividete il pancake in quattro, con una paletta, girate ogni parte e cuocete dall'altro lato per qualche minuto.",
+   "attesa_s": 180
+  },
+  {
+   "tipo": "testo",
+   "testo": "Terminate la cottura in forno per 5 minuti (180°C). Togliete con attenzione dal forno e tagliate il pancake in piccoli pezzi con due forchette, cospargete di 2 cucchiai di zucchero a velo e servite.",
+   "attesa_s": 300
+  }
+ ],
+ "origine": "cookidoo:r731021",
+ "importata": "2026-11-05"
+}

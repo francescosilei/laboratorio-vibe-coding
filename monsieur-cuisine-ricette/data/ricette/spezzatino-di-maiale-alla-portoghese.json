@@ -1,0 +1,230 @@
+{
+ "id": "spezzatino-di-maiale-alla-portoghese",
+ "titolo": "Spezzatino di maiale alla portoghese",
+ "categoria": "Secondi",
+ "paese": "Portogallo",
+ "dedotto": [
+  "categoria",
+  "paese"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 190,
+ "porzioni": 4,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "spezzatino-di-maiale-alla-portoghese.jpg",
+ "ingredienti": [
+  {
+   "testo": "450 g di costine di maiale, a pezzi (3 cm)",
+   "nome": "costine maiale"
+  },
+  {
+   "testo": "1 cucchiaino di sale grosso",
+   "nome": "sale grosso"
+  },
+  {
+   "testo": "100 g di cipolle, a metà",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "30 g di olio di oliva",
+   "nome": "olio oliva"
+  },
+  {
+   "testo": "180 g di salsiccia di maiale affumicata, a fettine (5 mm)",
+   "nome": "salsiccia maiale"
+  },
+  {
+   "testo": "120 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 dado per brodo di carne",
+   "nome": "dado"
+  },
+  {
+   "testo": "250 g di cavolo cappuccio bianco, a listarelle (5 mm)",
+   "nome": "cavolo cappuccio"
+  },
+  {
+   "testo": "60 g di pasta secca, tipo penne rigate",
+   "nome": "pasta secca"
+  },
+  {
+   "testo": "540 g di ceci in scatola (peso sgocciolato)",
+   "nome": "ceci"
+  },
+  {
+   "testo": "1 pizzico di sale (opzionale)",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato (opzionale)",
+   "nome": "pepe nero"
+  }
+ ],
+ "procedimento": [
+  "Disporre le costine in una ciotola ampia e cospargerle con il sale grosso. Coprire la ciotola con pellicola trasparente e lasciarle riposare in frigorifero per circa 2 ore.",
+  "Mettere nel boccale le cipolle e l'aglio, tritare: 3 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio di oliva e la salsiccia affumicata, insaporire: 7 min./120°C/vel. 1.",
+  "Unire la passata di pomodoro, scuotere le costine dal sale e aggiungerle nel boccale, insaporire: 3 min./100°C//vel. 1.",
+  "Aggiungere l'acqua e il dado, posizionare il recipiente del Varoma e sistemare al suo interno il cavolo, chiudere con il coperchio e cuocere: 25 min./Varoma//vel. . Togliere con attenzione il coperchio del Varoma, capovolgerlo e appoggiarvi sopra il recipiente.",
+  "distribuirvi sopra i ceci. Chiudere con il coperchio e cuocere: il tempo indicato sulla confezione 120°C//vel. . Togliere con attenzione il coperchio del Varoma, capovolerlo e appoggiarvi sopra il recipiente.",
+  "sale e pepe. Mescolare e servire."
+ ],
+ "note": [
+  "La carne di maiale cotta in umido con i cavoli è una preparazione tipica del Nord del Portogallo. Fa parte di quelle ricette che si tramandano di generazione in generazione e che non tramonta mai per l'economicità, il gusto e il suo apporto equilibrato di tutti i principali elementi nutritivi: un vero piatto unico.",
+  "A piacere, per un gusto rustico, si può aggiungere del \"black pudding\" (una specialità simile al nostro sanguinaccio), da far cuocere a Varoma insieme al cavolo bianco.",
+  "A seconda del proprio gusto personale, i ceci si possono sostituire con dei fagioli (bianchi o rossi) lessi in scatola.",
+  "In alternativa: 1 cucchiaino di dado per brodo di carne"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Disponete le costine in una ciotola ampia e cospargetele con 1 cucchiaino di sale grosso. Coprite la ciotola con pellicola trasparente e lasciatele riposare in frigorifero per circa 2 ore.",
+   "attesa_s": 7200
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolle, a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 spicchi di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 180,
+   "testo": "Aggiungete 180 g di salsiccia di maiale affumicata, a fettine (5 mm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Aggiungete 120 g di passata di pomodoro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Scuotete le costine dal sale e aggiungetele nel boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 450,
+   "testo": "Aggiungete 450 g di costine di maiale, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 dado per brodo di carne."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate nel recipiente del Varoma 250 g di cavolo cappuccio bianco, a listarelle (5 mm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il Varoma sul boccale e chiudete con il coperchio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete al vapore.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il coperchio del Varoma, capovolgetelo e appoggiatevi sopra il recipiente."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete nel boccale 60 g di pasta secca, tipo penne rigate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il Varoma completo di vassoio e distribuitevi sopra i ceci."
+  },
+  {
+   "tipo": "pesata",
+   "g": 540,
+   "testo": "Pesate sul vassoio del Varoma 540 g di ceci in scatola (peso sgocciolato)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Chiudete con il coperchio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo è quello indicato sulla confezione della pasta.",
+   "avvertenza": "Varoma in una preparazione nel boccale: non sostituirlo in automatico con 120 °C. Il Connect arriva a 130 °C: scegliete la temperatura in base alla ricetta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il coperchio del Varoma, capovolgetelo e appoggiatevi sopra il recipiente."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la pasta in una zuppiera, unite il cavolo e i ceci e, se necessario, aggiustate con 1 pizzico di sale e 1 pizzico di pepe nero macinato. Mescolate e servite."
+  }
+ ],
+ "origine": "cookidoo:r103940",
+ "importata": "2026-11-05"
+}

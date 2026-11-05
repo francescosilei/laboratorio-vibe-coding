@@ -1,0 +1,175 @@
+{
+ "id": "risotto-zucca-gorgonzola",
+ "titolo": "Risotto zucca e gorgonzola",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "paese"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": 30,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Bassa",
+ "fonte": "RicettePerBimby",
+ "immagine": "risotto-zucca-gorgonzola.jpg",
+ "ingredienti": [
+  {
+   "testo": "Mezza cipolla",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "500 g (pulita) zucca",
+   "nome": "zucca"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine d'oliva"
+  },
+  {
+   "testo": "600 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 dado vegetale",
+   "nome": "dado vegetale"
+  },
+  {
+   "testo": "300 g riso Carnaroli",
+   "nome": "riso carnaroli"
+  },
+  {
+   "testo": "Sale fino q.b.",
+   "nome": "sale"
+  },
+  {
+   "testo": "30 g burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "Gorgonzola (dolce) q.b.",
+   "nome": "gorgonzola"
+  },
+  {
+   "testo": "Parmigiano (grattugiato) q.b.",
+   "nome": "parmigiano"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla a fettine e la zucca a tocchetti: 15 sec. vel. 5.",
+  "Raccogliere sul fondo: 15 sec. vel. 5.",
+  "Raccogliere sul fondo e aggiungere l'olio: 3 min. 100° vel. 1.",
+  "Aggiungere l'acqua e il dado: 10 min. 100° vel. 1.",
+  "Aggiungere il riso e il sale: tempo indicato sulla confezione 100° vel. 1 antiorario.",
+  "Aggiungere il burro e il gorgonzola a tocchetti: 2 min. 100° vel. Soft antiorario.",
+  "Impiattare, cospargere con del parmigiano, del gorgonzola a dadini e servire."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Tagliate mezza cipolla a fettine e mettetela nel boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate nel boccale 500 g di zucca pulita, a tocchetti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 15,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Raccogliete sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate ancora.",
+   "tempo_s": 15,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Come da ricetta originale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Raccogliete sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Soffriggete.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate nel boccale 600 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 dado vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate nel boccale 300 g di riso Carnaroli."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete sale fino q.b."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete per il tempo indicato sulla confezione del riso.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete il gorgonzola dolce a tocchetti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mantecate.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Soft/Antiorario: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Impiattate, cospargete con parmigiano grattugiato e gorgonzola a dadini. Servite."
+  }
+ ],
+ "importata": "2026-10-26"
+}

@@ -1,0 +1,247 @@
+{
+ "id": "vellutata-di-carote-con-pesto-di-foglie",
+ "titolo": "Vellutata di carote con pesto di foglie",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-di-carote-con-pesto-di-foglie.jpg",
+ "ingredienti": [
+  {
+   "testo": "60 g di Parmigiano Reggiano, a pezzi",
+   "nome": "parmigiano reggiano",
+   "gruppo": "Pesto di foglie di carote"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio",
+   "gruppo": "Pesto di foglie di carote"
+  },
+  {
+   "testo": "50 g di pinoli, tostati",
+   "nome": "pinoli",
+   "gruppo": "Pesto di foglie di carote"
+  },
+  {
+   "testo": "40 - 45 g di foglie di carote, pulite",
+   "nome": "carote",
+   "gruppo": "Pesto di foglie di carote"
+  },
+  {
+   "testo": "90 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva",
+   "gruppo": "Pesto di foglie di carote"
+  },
+  {
+   "testo": "2 pizzichi di sale",
+   "nome": "sale",
+   "gruppo": "Pesto di foglie di carote"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe",
+   "gruppo": "Pesto di foglie di carote"
+  },
+  {
+   "testo": "40 g di scalogno, a pezzi",
+   "nome": "scalogno",
+   "gruppo": "Vellutata di carote"
+  },
+  {
+   "testo": "25 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva",
+   "gruppo": "Vellutata di carote"
+  },
+  {
+   "testo": "500 g di carote, ben pulite e a pezzi (2-3 cm)",
+   "nome": "carote",
+   "gruppo": "Vellutata di carote"
+  },
+  {
+   "testo": "150 g di patate a pasta farinosa, pelate e a pezzi (2-3 cm)",
+   "nome": "patate",
+   "gruppo": "Vellutata di carote"
+  },
+  {
+   "testo": "400 - 450 g di acqua",
+   "nome": "acqua",
+   "gruppo": "Vellutata di carote"
+  },
+  {
+   "testo": "1 cucchiaino di dado per brodo vegetale",
+   "nome": "dado",
+   "gruppo": "Vellutata di carote"
+  },
+  {
+   "testo": "1 pizzico di sale (opzionale)",
+   "nome": "sale",
+   "gruppo": "Vellutata di carote"
+  }
+ ],
+ "procedimento": [
+  "Pesto di foglie di carote. Mettere nel boccale il Parmigiano Reggiano, l'aglio, i pinoli e le foglie di carote, tritare: 8 sec./vel. 10. Riunire sul fondo con la spatola.",
+  "Pesto di foglie di carote. Aggiungere l'olio extravergine di oliva, il sale e il pepe, frullare: 5 sec./vel. 5. Trasferire in una ciotolina e tenere da parte. Pulire il boccale.",
+  "Vellutata di carote. Mettere nel boccale lo scalogno e tritare: 3 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Vellutata di carote. Aggiungere l'olio extravergine e insaporire: 3 min./120°C/vel. 1.",
+  "Vellutata di carote. Aggiungere le carote e le patate, tritare: 10 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Vellutata di carote. Unire l'acqua e il dado, cuocere: 20-25 min./100°C/vel. 1.",
+  "Vellutata di carote. Aggiungere se necessario, il sale, frullare: 20 sec./vel. 8.",
+  "Vellutata di carote. Servire decorando con il pesto di foglie di carote."
+ ],
+ "note": [
+  "Questa ricetta e ideale per utilizzare le carote nella sua interezza, evitando sprechi."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di Parmigiano Reggiano, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di pinoli, tostati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di foglie di carote, pulite."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 8,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 90,
+   "testo": "Pesate 90 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 pizzichi di sale, 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotolina e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Pulite il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate nel boccale 40 g di scalogno, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 25,
+   "testo": "Pesate 25 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di carote, ben pulite e a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di patate a pasta farinosa, pelate e a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Pesate 400 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di dado per brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false,
+   "nota": "La ricetta indica 20-25 minuti: il timer è impostato a 20."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale (opzionale)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 20,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite decorando con il pesto di foglie di carote."
+  }
+ ],
+ "origine": "cookidoo:r759909",
+ "importata": "2026-10-27"
+}

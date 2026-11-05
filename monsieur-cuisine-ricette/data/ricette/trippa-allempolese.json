@@ -1,0 +1,169 @@
+{
+ "id": "trippa-allempolese",
+ "titolo": "Trippa allempolese",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 75,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "trippa-allempolese.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 mazzetto di prezzemolo fresco, le foglioline, lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "1 cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 carota, a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "1 gambo di sedano",
+   "nome": "sedano"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1 rametto di rosmarino fresco, gli aghi lavati ed, asciugati",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "50 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1000 g di trippa, a listarelle",
+   "nome": "trippa"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe",
+   "nome": "pepe"
+  },
+  {
+   "testo": "150 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "20 g di concentrato di pomodoro",
+   "nome": "concentrato pomodoro"
+  },
+  {
+   "testo": "6 fette di pane casereccio",
+   "nome": "pane"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo e tritare: 10 sec./vel. 10. Trasferire in una ciotolina e tenere da parte.",
+  "Mettere nel boccale la cipolla, la carota, il sedano, l'aglio, il rosmarino e l'olio extravergine di oliva, tritare: 6 sec./vel. 5. Riunire sul fondo con la spatola. Poi insaporire: 10 min./120°C/vel. 1.",
+  "Aggiungere la trippa, il sale, il pepe e l'acqua, cuocere: 15 min./100°C//vel. s.",
+  "Unire il concentrato di pomodoro e cuocere: 40 min./100°C//vel. .",
+  "Spolverizzare con il prezzemolo tritato e servire con pane tostato."
+ ],
+ "note": [
+  "Per dare maggiore sapore, il piatto puo essere preparato aggiungendo alla trippa anche",
+  "il lampredotto e altre interiora."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 mazzetto di prezzemolo fresco, le foglioline, lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotolina e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cipolla, a pezzi, 1 carota, a pezzi, 1 gambo di sedano, 1 spicchio di aglio, 1 rametto di rosmarino fresco, gli aghi lavati ed, asciugati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 6,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate 1000 g di trippa, a listarelle."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di sale, 1 pizzico di pepe."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di concentrato di pomodoro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 2400,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate con il prezzemolo tritato e servite con pane tostato."
+  }
+ ],
+ "origine": "cookidoo:r246866",
+ "importata": "2026-11-05"
+}

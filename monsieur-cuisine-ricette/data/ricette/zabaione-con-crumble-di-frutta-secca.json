@@ -1,0 +1,200 @@
+{
+ "id": "zabaione-con-crumble-di-frutta-secca",
+ "titolo": "Zabaione con crumble di frutta secca",
+ "categoria": "Dessert",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 25,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zabaione-con-crumble-di-frutta-secca.jpg",
+ "ingredienti": [
+  {
+   "testo": "60 g di farina tipo 00",
+   "nome": "farina",
+   "gruppo": "Crumble"
+  },
+  {
+   "testo": "60 g di mandorle pelate",
+   "nome": "mandorle",
+   "gruppo": "Crumble"
+  },
+  {
+   "testo": "30 g di gherigli di noci",
+   "nome": "noci",
+   "gruppo": "Crumble"
+  },
+  {
+   "testo": "30 g di nocciole tostate",
+   "nome": "nocciole",
+   "gruppo": "Crumble"
+  },
+  {
+   "testo": "60 g di burro, a pezzi",
+   "nome": "burro",
+   "gruppo": "Crumble"
+  },
+  {
+   "testo": "60 g di zucchero di canna",
+   "nome": "zucchero canna",
+   "gruppo": "Crumble"
+  },
+  {
+   "testo": "50 g di biscotti secchi, sbriciolati",
+   "nome": "biscotti secchi",
+   "gruppo": "Crumble"
+  },
+  {
+   "testo": "60 g di Marsala",
+   "nome": "marsala",
+   "gruppo": "Zabaione"
+  },
+  {
+   "testo": "60 g di vino bianco",
+   "nome": "vino bianco",
+   "gruppo": "Zabaione"
+  },
+  {
+   "testo": "6 tuorli d'uovo",
+   "nome": "tuorli",
+   "gruppo": "Zabaione"
+  },
+  {
+   "testo": "100 g di zucchero",
+   "nome": "zucchero",
+   "gruppo": "Zabaione"
+  }
+ ],
+ "procedimento": [
+  "Crumble. Preriscaldare il forno a 180°C. Rivestire la placca del forno con carta forno e tenere da parte.",
+  "Crumble. Mettere nel boccale la farina oo, le mandorle, le noci e le nocciole, tritare: 5 sec./vel. 4. Riunire sul fondo con la spatola.",
+  "Crumble. Aggiungere il burro e lo zucchero di canna, mescolare: 20 sec./vel. 4. Trasferire il composto sulla placca preparata e stenderlo su tutta la superficie.",
+  "Crumble. Cuocere in forno caldo per 5 minuti (180°C). Senza spegnere il forno, togliere con attenzione la placca e aggiungere i biscotti sbriciolati, mescolare e continuare la cottura per 5 minuti (180°C). Togliere con attenzione dal forno e lasciare raffreddare completamente. Nel frattempo, pulire il boccale e preparare lo zabaione.",
+  "Zabaione   [?0.79]. Posizionare la farfalla. Mettere nel boccale il Marsala, il vino bianco, i tuorli d'uovo e lo zucchero, impostare Addensare /80°C. Togliere la farfalla.",
+  "Zabaione   [?0.79]. Servire subito lo zabaione caldo con il crumble di frutta secca."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Preriscaldate il forno a 180°C. Rivestite la placca del forno con carta forno e tenetela da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di farina tipo 00."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di mandorle pelate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di gherigli di noci."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di nocciole tostate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di burro, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di zucchero di canna."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 20,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il composto sulla placca preparata e stendetelo su tutta la superficie."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Cuocete in forno caldo per 5 minuti (180°C).",
+   "attesa_s": 300
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Senza spegnere il forno, togliete con attenzione la placca e aggiungete 50 g di biscotti secchi, sbriciolati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mescolate e continuate la cottura per 5 minuti (180°C). Togliete con attenzione dal forno e lasciate raffreddare completamente.",
+   "attesa_s": 300
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, pulite il boccale e preparate lo zabaione. Posizionate la farfalla."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di Marsala."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di vino bianco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 6 tuorli d'uovo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di zucchero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Addensate.",
+   "tempo_s": null,
+   "velocita": null,
+   "temp_c": 80,
+   "sinistrorsa": false,
+   "nota": "Si ferma quando lo zabaione si è addensato.",
+   "avvertenza": "Programma «Addensare» del Bimby a 80 °C: non è nelle tabelle di conversione e la ricetta non indica la durata. Impostate 80 °C con la farfalla e controllate la densità."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete la farfalla."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito lo zabaione caldo con il crumble di frutta secca."
+  }
+ ],
+ "origine": "cookidoo:r797165",
+ "importata": "2026-11-05"
+}

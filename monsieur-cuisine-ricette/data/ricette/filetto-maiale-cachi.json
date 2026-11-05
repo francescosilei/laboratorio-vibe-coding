@@ -1,0 +1,198 @@
+{
+ "id": "filetto-maiale-cachi",
+ "titolo": "Filetto di maiale con salsa ai cachi",
+ "categoria": "Secondi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 30,
+ "tempo_cottura_min": null,
+ "tempo_min": 120,
+ "porzioni": 6,
+ "difficolta": "Media",
+ "fonte": "Bimby (Vorwerk)",
+ "immagine": "filetto-maiale-cachi.jpg",
+ "ingredienti": [
+  {
+   "testo": "200 g di cachi, sbucciati e a pezzi",
+   "nome": "cachi",
+   "gruppo": "Salsa ai cachi"
+  },
+  {
+   "testo": "1 cucchiaino di zucchero di canna",
+   "nome": "zucchero di canna",
+   "gruppo": "Salsa ai cachi"
+  },
+  {
+   "testo": "20 g di burro",
+   "nome": "burro",
+   "gruppo": "Salsa ai cachi"
+  },
+  {
+   "testo": "60 g di vino passito",
+   "nome": "vino passito",
+   "gruppo": "Salsa ai cachi"
+  },
+  {
+   "testo": "1200 g di acqua",
+   "nome": "acqua",
+   "gruppo": "Filetto"
+  },
+  {
+   "testo": "30 g di succo di limone",
+   "nome": "limone",
+   "gruppo": "Filetto"
+  },
+  {
+   "testo": "1 filetto di maiale, senza nervi (intero, 600-700 g circa)",
+   "nome": "filetto di maiale",
+   "gruppo": "Filetto"
+  },
+  {
+   "testo": "200 g di pancetta, a fette",
+   "nome": "pancetta",
+   "gruppo": "Filetto"
+  },
+  {
+   "testo": "2-3 pizzichi di sale",
+   "nome": "sale",
+   "gruppo": "Filetto"
+  },
+  {
+   "testo": "2-3 pizzichi di pepe nero macinato",
+   "nome": "pepe",
+   "gruppo": "Filetto"
+  }
+ ],
+ "procedimento": [
+  "Salsa ai cachi. Mettere nel boccale i cachi, lo zucchero di canna e il burro, insaporire: 5 min./100°C/vel. 1.",
+  "Aggiungere il vino passito e cuocere: 5 min./100°C/vel. 1 senza misurino, poi posizionare il misurino e frullare: 10 sec./vel. 8. Trasferire in una ciotola e tenere da parte. Lavare il boccale.",
+  "Filetto. Posizionare il Copri Lame. Mettere nel boccale l'acqua e il succo di limone, impostare Bollitore/80°C. Nel frattempo, preparare il filetto di maiale.",
+  "Dividere il filetto in 2 parti. Stendere sul piano di lavoro 2 fogli di pellicola trasparente resistente al calore e sistemare sopra ciascuno 100 g di pancetta, sovrapponendo leggermente le fette fino a formare dei rettangoli. Sistemare al centro di ciascun rettangolo di pancetta il filetto di maiale e insaporire con sale e pepe. Arrotolare tutto il filetto con la pancetta poi avvolgerlo bene nella pellicola trasparente, chiudendo le estremità. Sistemare ciascun filetto in 1 sacchetto per sottovuoto e sigillare con l'apposita macchina.",
+  "Sistemare nel boccale i sacchetti con i filetti, aiutandosi con una pinza da cucina e assicurandosi che siano completamente immersi nell'acqua, impostare Sottovuoto/1 h 30 min./75°C. Togliere i sacchetti dal boccale con l'aiuto della pinza.",
+  "Scaldare una padella antiaderente su fuoco medio-alto. Togliere i filetti dai sacchetti, srotolarli dalla pellicola trasparente e poi scottarli facendoli dorare qualche minuto su tutti i lati.",
+  "Sistemare il filetto su un tagliere e tagliarlo a fette (2-3 cm). Servire accompagnando con la salsa ai cachi."
+ ],
+ "note": [
+  "Per la cottura sottovuoto utilizzare sacchetti resistenti ai tempi e alle temperature previste: specifici per alimenti e per cottura sottovuoto, resistenti fino a 100 °C e a 8 ore di cottura, BPA free e PVC free."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di cachi sbucciati e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di zucchero di canna."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di vino passito."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete senza misurino.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il misurino."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la salsa in una ciotola e tenetela da parte. Lavate il boccale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il Copri Lame.",
+   "avvertenza": "Il Copri Lame è un accessorio del Bimby: non è nelle tabelle di conversione. Verificate se serve sul Connect."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1200,
+   "testo": "Pesate nel boccale 1200 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di succo di limone."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Scaldate l'acqua a 80 °C.",
+   "tempo_s": null,
+   "velocita": null,
+   "temp_c": 80,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità Bollitore del Bimby: non è nelle tabelle. Il Connect arriva a 130 °C, ma verificate sul display come impostare la sola temperatura senza tempo e senza velocità.",
+   "nota": "Quando la temperatura arriva a 80 °C, fermate la procedura."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo preparate il filetto di maiale: dividetelo in 2 parti. Stendete sul piano di lavoro 2 fogli di pellicola trasparente resistente al calore e sistemate sopra ciascuno 100 g di pancetta, sovrapponendo leggermente le fette fino a formare dei rettangoli."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate al centro di ciascun rettangolo di pancetta il filetto di maiale e insaporite con sale e pepe. Arrotolate il filetto con la pancetta, avvolgetelo bene nella pellicola trasparente e chiudete le estremità."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate ciascun filetto in 1 sacchetto per sottovuoto e sigillate con l'apposita macchina.",
+   "nota": "Usate sacchetti per cottura sottovuoto resistenti fino a 100 °C e a 8 ore, BPA free e PVC free."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate nel boccale i sacchetti con i filetti, aiutandovi con una pinza da cucina. Assicuratevi che siano completamente immersi nell'acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cottura sottovuoto.",
+   "tempo_s": 5400,
+   "velocita": null,
+   "temp_c": 75,
+   "sinistrorsa": false,
+   "avvertenza": "Modalità Sottovuoto del Bimby (1 h 30 min a 75 °C): non è nelle tabelle e la velocità non è indicata. Verificate come impostarla sul Connect."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete i sacchetti dal boccale con l'aiuto della pinza."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Scaldate una padella antiaderente su fuoco medio-alto. Togliete i filetti dai sacchetti, srotolateli dalla pellicola e scottateli facendoli dorare qualche minuto su tutti i lati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate il filetto su un tagliere e tagliatelo a fette (2-3 cm). Servite accompagnando con la salsa ai cachi."
+  }
+ ],
+ "importata": "2026-10-26"
+}

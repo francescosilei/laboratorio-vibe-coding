@@ -1,0 +1,236 @@
+{
+ "id": "crema-di-patate-dolci-cocco-e-cardamomo",
+ "titolo": "Crema di patate dolci, cocco e cardamomo",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 55,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "crema-di-patate-dolci-cocco-e-cardamomo.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 cucchiaino di semi di coriandolo",
+   "nome": "coriandolo",
+   "gruppo": "Condimento"
+  },
+  {
+   "testo": "20 g di cocco disidratato grattugiato",
+   "nome": "cocco disidratato",
+   "gruppo": "Condimento"
+  },
+  {
+   "testo": "½ cucchiaino di peperoncino rosso secco",
+   "nome": "peperoncino rosso secco",
+   "gruppo": "Condimento"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva",
+   "gruppo": "Condimento"
+  },
+  {
+   "testo": "100 g di spinaci baby freschi",
+   "nome": "spinaci baby",
+   "gruppo": "Condimento"
+  },
+  {
+   "testo": "50 g di peperonirossi arrostiti in scatola, a pezzi",
+   "nome": "peperonirossi arrostiti",
+   "gruppo": "Condimento"
+  },
+  {
+   "testo": "150 g di cipolla, a pezzi",
+   "nome": "cipolla",
+   "gruppo": "Crema di patate dolci"
+  },
+  {
+   "testo": "35 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva",
+   "gruppo": "Crema di patate dolci"
+  },
+  {
+   "testo": "600 g di patate americane dolci, a pezzi",
+   "nome": "patate americane dolci",
+   "gruppo": "Crema di patate dolci"
+  },
+  {
+   "testo": "1 cucchiaino di zenzero, radice fresca, grattugiato",
+   "nome": "zenzero",
+   "gruppo": "Crema di patate dolci"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio",
+   "gruppo": "Crema di patate dolci"
+  },
+  {
+   "testo": "1 cucchiaino di cardamomo in polvere",
+   "nome": "cardamomo",
+   "gruppo": "Crema di patate dolci"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale",
+   "gruppo": "Crema di patate dolci"
+  },
+  {
+   "testo": "800 g acqua",
+   "nome": "acqua",
+   "gruppo": "Crema di patate dolci"
+  },
+  {
+   "testo": "400 g di latte di cocco",
+   "nome": "latte cocco",
+   "gruppo": "Crema di patate dolci"
+  },
+  {
+   "testo": "50 g di succo di limone, spremuto fresco",
+   "nome": "succo limone",
+   "gruppo": "Crema di patate dolci"
+  }
+ ],
+ "procedimento": [
+  "Condimento. Mettere nel boccale i semi di coriandolo, il cocco e il peperoncino: scaldare 5 min./120°C/vel. 1.",
+  "Condimento. Impostare Frullare @/200 sec. Riunire sul fondo con la spatola.",
+  "Condimento. Aggiungere l'olio extravergine di oliva, gli spinaci e i peperoni, cuocere 5 min./100°C/vel. . Trasferire in una ciotola e tenere da parte.",
+  "Crema di patate dolci. Mettere nel boccale la cipolla e l'olio extravergine di oliva, tritare 5 sec./vel. 5, insaporire 5 min./120°C/vel. 1.",
+  "Crema di patate dolci. Aggiungere le patate, lo zenzero, l'aglio, il cardamomo,il sale, l'acqua e il latte di cocco e cuocere 25 min./100°C/vel. 1.",
+  "Crema di patate dolci. Aggiungere 50 g di succo di limone e impostare Frullare @/1 min.. Aggiungere il condimento preparato, mescolare e servire."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate nel boccale 20 g di cocco disidratato grattugiato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di semi di coriandolo, ½ cucchiaino di peperoncino rosso secco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate il robot.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "scaldate 5 min./120°C/vel. 1"
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 200,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di spinaci baby freschi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di peperonirossi arrostiti in scatola, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 35,
+   "testo": "Aggiungete 35 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 305,
+   "velocita": 5,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate 600 g di patate americane dolci, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di latte di cocco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di zenzero, radice fresca, grattugiato, 2 spicchi di aglio, 1 cucchiaino di cardamomo in polvere, 1 cucchiaino di sale, cocco disidratato (messo da parte)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di succo di limone, spremuto fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete il condimento preparato, mescolate e servite."
+  }
+ ],
+ "origine": "cookidoo:r935470",
+ "importata": "2026-11-05"
+}

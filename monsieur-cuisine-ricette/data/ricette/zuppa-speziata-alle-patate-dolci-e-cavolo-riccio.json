@@ -1,0 +1,195 @@
+{
+ "id": "zuppa-speziata-alle-patate-dolci-e-cavolo-riccio",
+ "titolo": "Zuppa speziata alle patate dolci e cavolo riccio",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-speziata-alle-patate-dolci-e-cavolo-riccio.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 scalogno (circa 40 g), a metà",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "40 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "3 cucchiaini di pasta di curry rosso",
+   "nome": "pasta curry rosso"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "400 g di patate americane dolci, pulite, a dadini (circa 3 cm)",
+   "nome": "patate americane dolci"
+  },
+  {
+   "testo": "1 cucchiaio di dado per brodo vegetale, fatto in casa",
+   "nome": "dado"
+  },
+  {
+   "testo": "80 g di burro di arachidi",
+   "nome": "burro arachidi"
+  },
+  {
+   "testo": "400 g di latte di cocco",
+   "nome": "latte cocco"
+  },
+  {
+   "testo": "2 cucchiai di salsa di soia",
+   "nome": "salsa soia"
+  },
+  {
+   "testo": "250 g di ceci bianchi in scatola, sgocciolati",
+   "nome": "ceci bianchi"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "100 g di cavolo riccio, a striscioline (circa 5 mm)",
+   "nome": "cavolo riccio"
+  },
+  {
+   "testo": "semi di sesamo, per servire",
+   "nome": "sesamo"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale lo scalogno e tritare: 3 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere 10 g di olio extravergine di oliva e la pasta di curry, insaporire: 4 min./120°C/vel. 1. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale 30 g di olio extravergine di oliva, 1 spicchio di aglio e le patate dolci, impostare Alta temperatura $Ss.",
+  "Aggiungere il dado, il burro di arachidi, il latte di cocco, la salsa di soia, il sale, i ceci e la pasta al curry tenuta da parte, cuocere: 10 min./100°C//vel. .",
+  "Unire il cavolo e cuocere: 5 min./100°C//vel. 1. Dividere la zuppa fra 6 ciotole.",
+  "Servire subito con semi di sesamo e spicchi di lime."
+ ],
+ "note": [
+  "In alternativa: 1 dado di brodo vegetale, fatto in casa",
+  "In alternativa: 1 lime in spicchi, per servire"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 scalogno (circa 40 g), a metà."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate 10 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 3 cucchiaini di pasta di curry rosso."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di patate americane dolci, pulite, a dadini (circa 3 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate 80 g di burro di arachidi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di latte di cocco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di ceci bianchi in scatola, sgocciolati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio di dado per brodo vegetale, fatto in casa, 1 cucchiaino di sale, 2 cucchiai di salsa di soia e la pasta al curry tenuta da parte."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di cavolo riccio, a striscioline (circa 5 mm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Dividete la zuppa fra 6 ciotole."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito con semi di sesamo e spicchi di lime."
+  }
+ ],
+ "origine": "cookidoo:r700543",
+ "importata": "2026-10-27"
+}

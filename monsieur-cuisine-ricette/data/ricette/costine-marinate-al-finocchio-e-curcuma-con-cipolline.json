@@ -1,0 +1,155 @@
+{
+ "id": "costine-marinate-al-finocchio-e-curcuma-con-cipolline",
+ "titolo": "Costine marinate al finocchio e curcuma con cipolline",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 775,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "costine-marinate-al-finocchio-e-curcuma-con-cipolline.jpg",
+ "ingredienti": [
+  {
+   "testo": "40 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "50 g di vino bianco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "1 cucchiaio di semi di finocchio",
+   "nome": "finocchio"
+  },
+  {
+   "testo": "2 cucchiaini di curcuma in polvere",
+   "nome": "curcuma"
+  },
+  {
+   "testo": "2 foglie di alloro secche",
+   "nome": "alloro secche"
+  },
+  {
+   "testo": "2 mandarini, il succo spremuto fresco",
+   "nome": "mandarini"
+  },
+  {
+   "testo": "600 g di costine di maiale",
+   "nome": "costine maiale"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "300 g di cipolline",
+   "nome": "cipolline"
+  }
+ ],
+ "procedimento": [
+  "Appoggiare una ciotola sul coperchio del boccale e pesare al suo interno 10 g di olio extravergine di oliva, il sale, 50 g di vino bianco, aggiungere i semi di finocchio, 1 cucchiaino di curcuma, l'alloro e il succo di 2 mandarini. Togliere la ciotola e aggiungere le costine di maiale. Mescolare bene, coprire con pellicola trasparente e lasciare marinare per 12 ore in frigorifero.",
+  "Mettere nel boccale l'aglio e tritare:5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere 30 g di olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1. Nel frattempo, riprendere le costine marinate ed eliminare le foglie di alloro conservando la marinatura.",
+  "Unire solo le costine marinate e insaporire: 5 min./100°C//vel. .",
+  "Aggiungere le cipolline, l cucchiaino di curcuma e la marinatura delle costine, cuocere: 30 min./100°C//vel. s. Trasferire le costine nei piatti e servire calde."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate 10 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di vino bianco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale, 1 cucchiaio di semi di finocchio, 2 cucchiaini di curcuma in polvere, 2 foglie di alloro secche, 2 mandarini, il succo spremuto fresco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate 600 g di costine di maiale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete la ciotola e aggiungete le costine di maiale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mescolate bene, coprite con pellicola trasparente e lasciate marinare per 12 ore in frigorifero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, riprendete le costine marinate ed eliminare le foglie di alloro conservando la marinatura."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di cipolline."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite le costine nei piatti e servite calde."
+  }
+ ],
+ "origine": "cookidoo:r149980",
+ "importata": "2026-11-05"
+}

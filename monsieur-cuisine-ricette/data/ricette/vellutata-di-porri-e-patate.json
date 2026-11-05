@@ -1,0 +1,152 @@
+{
+ "id": "vellutata-di-porri-e-patate",
+ "titolo": "Vellutata di porri e patate",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-di-porri-e-patate.jpg",
+ "ingredienti": [
+  {
+   "testo": "450 g di porri",
+   "nome": "porri"
+  },
+  {
+   "testo": "50 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "40 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "450 g di patate, pelate e a pezzi (2-3 cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "800 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "200 g di panna acida (creme fraiche)",
+   "nome": "panna acida"
+  },
+  {
+   "testo": "crostini di pane",
+   "nome": "crostini pane"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale i porri e la cipolla, tritare: 5 sec./vel. 6. Riunire sul fondo con la spatola.",
+  "Aggiungere il burro e insaporire: 5 min./120°C/vel. 1.",
+  "Unire le patate, il brodo, il sale e il pepe, cuocere: 20 min./100°C/vel. 1, poi frullare: 30 sec./vel. 6. Riunire sul fondo con la spatola.",
+  "Aggiungere la panna acida e amalgamare: 3 min./100°C/vel. 1.",
+  "Servire subito con a piacere dei crostini di pane."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 450,
+   "testo": "Pesate nel boccale 450 g di porri."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di burro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 450,
+   "testo": "Pesate 450 g di patate, pelate e a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Aggiungete 800 g di brodo vegetale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale, 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 30,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di panna acida (creme fraiche)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Amalgamate.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito con a piacere dei crostini di pane."
+  }
+ ],
+ "origine": "cookidoo:r453643",
+ "importata": "2026-11-05"
+}

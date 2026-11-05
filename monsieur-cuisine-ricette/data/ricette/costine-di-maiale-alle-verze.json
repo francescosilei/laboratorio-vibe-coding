@@ -1,0 +1,209 @@
+{
+ "id": "costine-di-maiale-alle-verze",
+ "titolo": "Costine di maiale alle verze",
+ "categoria": "Secondi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 80,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "costine-di-maiale-alle-verze.jpg",
+ "ingredienti": [
+  {
+   "testo": "70 g di cipolle, a pezzi",
+   "nome": "cipolle"
+  },
+  {
+   "testo": "70 g di carote, pelate e a pezzi (2 cm)",
+   "nome": "carote"
+  },
+  {
+   "testo": "70 g di gambo di sedano, a pezzi (2 cm)",
+   "nome": "sedano"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 peperoncino rosso",
+   "nome": "peperoncino rosso"
+  },
+  {
+   "testo": "500 gdi verza, a listarelle (1 cm)",
+   "nome": "gdi verza"
+  },
+  {
+   "testo": "200 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "6 costine di maiale, sgrassate e a metà",
+   "nome": "costine maiale"
+  },
+  {
+   "testo": "50 g di vino bianco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "100 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "200 g di fagioli cannellini in scatola, precotti e scolati",
+   "nome": "fagioli cannellini"
+  },
+  {
+   "testo": "1 pizzico di pepe (opzionale)",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale le cipolle, le carote, il sedano e l'aglio, tritare: 4 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e il peperoncino, insaporire: 5 min./120°C/vel. 1.",
+  "Unire la verza (se necessario pressarla) e l'acqua, cuocere: 10 min./100°C//vel. 1.",
+  "Aggiungere le costine e il vino bianco, cuocere senza misurino: 15 min./100°C//vel.1.",
+  "Unire la passata di pomodoro, il sale e lo zucchero, cuocere: 30 min./100°C//vel. 1.",
+  "Aggiungere i fagioli, mescolare: 2 min.//vel. 1.",
+  "Trasferire le costine con le verze in una zuppiera, spolverizzare a piacere con una macinata di pepe e servire subito."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Pesate nel boccale 70 g di cipolle, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Aggiungete 70 g di carote, pelate e a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 70,
+   "testo": "Aggiungete 70 g di gambo di sedano, a pezzi (2 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 4,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 peperoncino rosso."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 500 gdi verza, a listarelle (1 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di vino bianco."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 6 costine di maiale, sgrassate e a metà."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di passata di pomodoro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale, 1 pizzico zucchero."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di fagioli cannellini in scatola, precotti e scolati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite le costine con le verze in una zuppiera, spolverizzate a piacere con una macinata di pepe e servite subito."
+  }
+ ],
+ "origine": "cookidoo:r85405",
+ "importata": "2026-11-05"
+}

@@ -1,0 +1,147 @@
+{
+ "id": "frittelle-di-mele-e-arancia",
+ "titolo": "Frittelle di mele e arancia",
+ "categoria": "Dessert",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 60,
+ "tempo_cottura_min": null,
+ "tempo_min": 65,
+ "porzioni": null,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "frittelle-di-mele-e-arancia.jpg",
+ "ingredienti": [
+  {
+   "testo": "90 g di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "1 arancia, preferibilmente biologica, solo la scorza (senza la parte bianca)",
+   "nome": "arancia"
+  },
+  {
+   "testo": "280 g di mele, sbucciate, a pezzi (2 cm)",
+   "nome": "mele"
+  },
+  {
+   "testo": "120 g di succo di arancia",
+   "nome": "succo arancia"
+  },
+  {
+   "testo": "1 uovo",
+   "nome": "uova"
+  },
+  {
+   "testo": "300 g di farina tipo 00",
+   "nome": "farina"
+  },
+  {
+   "testo": "8 g di lievito in polvere per dolci",
+   "nome": "lievito polvere"
+  },
+  {
+   "testo": "olio di arachidi, q.b. per friggere",
+   "nome": "olio arachidi"
+  },
+  {
+   "testo": "zucchero a velo, a piacere",
+   "nome": "zucchero velo"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale lo zucchero e la scorza di arancia, polverizzare: 10 sec./vel. 10. Riunire sul fondo con la spatola.",
+  "Aggiungere le mele e tritare: 3 sec./vel. 4. Riunire sul fondo con la spatola.",
+  "Unire il succo di arancia, l'uovo, la farina e il lievito, mescolare: 30 sec.//vel. 3. Trasferire in una ciotola e tenere da parte.",
+  "In una padella antiaderente scaldare abbondante olio di arachidi e rivestire un vassoio con carta assorbente. Con un cucchiaio prendere delle porzioni di pastella e farla cadere nell'olio ben caldo. Friggere poche per volta rigirando le frittelle di tanto in tanto sino a completa doratura (2-3 minuti circa). Scolare le frittelle con mestolo forato e riporle sulla carta assorbente per farle asciugare dall'olio in eccesso.",
+  "Servire spolverizzando con zuccheroa velo."
+ ],
+ "note": [
+  "Resa: 30 frittelle (la ricetta indica i pezzi al posto delle porzioni).",
+  "Questa ricetta è stata creata dalla Bimby Community Star® SaraGiovi93 e testata da Bimby®."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 90,
+   "testo": "Pesate nel boccale 90 g di zucchero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete la scorza di 1 arancia, preferibilmente biologica (senza la parte bianca)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Polverizzate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 280,
+   "testo": "Aggiungete 280 g di mele, sbucciate, a pezzi (2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Aggiungete 120 g di succo di arancia."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 uovo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Aggiungete 300 g di farina tipo 00."
+  },
+  {
+   "tipo": "pesata",
+   "g": 8,
+   "testo": "Aggiungete 8 g di lievito in polvere per dolci."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Mescolate.",
+   "tempo_s": 30,
+   "velocita": 3,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una padella antiaderente scaldate abbondante olio di arachidi e rivestite un vassoio con carta assorbente. Con un cucchiaio prendete delle porzioni di pastella e fatela cadere nell'olio ben caldo. Friggete poche per volta girando le frittelle di tanto in tanto sino a completa doratura (2-3 minuti circa). Scolate le frittelle con mestolo forato e riponetele sulla carta assorbente per farle asciugare dall'olio in eccesso."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite spolverizzando con zucchero a velo."
+  }
+ ],
+ "origine": "cookidoo:r709783",
+ "importata": "2026-11-05"
+}

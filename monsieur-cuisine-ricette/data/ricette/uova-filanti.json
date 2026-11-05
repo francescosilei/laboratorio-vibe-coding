@@ -1,0 +1,137 @@
+{
+ "id": "uova-filanti",
+ "titolo": "Uova filanti",
+ "categoria": "Secondi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 15,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "uova-filanti.jpg",
+ "ingredienti": [
+  {
+   "testo": "40 g di Parmigiano Reggiano grattugiato",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "300 g di scamorza, a pezzi",
+   "nome": "scamorza"
+  },
+  {
+   "testo": "6 uova",
+   "nome": "uova"
+  },
+  {
+   "testo": "50 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "20 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano reggiano e tritare: 10 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale la scamorza e tritare: 5 sec./vel. 8.",
+  "Aggiungere le uova, il latte, l'olio extravergine di oliva, il sale e il pepe, cuocere: 6 min./85°C/vel. 2.",
+  "Aggiungere il Parmigiano Reggiano grattugiato tenuto da parte e cuocere: 3 min./85°C/vel. 2. Controllare la consistenza delle uova (vedere consigli)",
+  "Servire le uova calde."
+ ],
+ "note": [
+  "La scamorza e un formaggio a pasta filante, originario del Sud Italia, che si ottiene dal",
+  "latte vaccino o misto. Ha una consistenza asciutta e compatta e si trova sul mercato",
+  "anche in versione affumicata.",
+  "Controllare la consistenza delle uova e, se necessario, al passaggio 4 proseguire la",
+  "cottura: 2-3 min./85°C/vel.2.",
+  "A piacere, è possibile utilizzare 6 o 8 uova."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate nel boccale 40 g di Parmigiano Reggiano grattugiato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate nel boccale 300 g di scamorza, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di latte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 6 uova, 1 pizzico di sale, 1 pizzico di pepe."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 360,
+   "velocita": 2,
+   "temp_c": 85,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete parmigiano reggiano (messo da parte)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 180,
+   "velocita": 2,
+   "temp_c": 85,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Controllate la consistenza delle uova (vedere consigli)"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite le uova calde."
+  }
+ ],
+ "origine": "cookidoo:r96710",
+ "importata": "2026-10-27"
+}

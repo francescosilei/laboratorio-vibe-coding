@@ -1,0 +1,237 @@
+{
+ "id": "vellutata-speziata-di-zucca-e-carote-bimby-friend",
+ "titolo": "Vellutata speziata di zucca e carote (Bimby Friend)",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 12,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-speziata-di-zucca-e-carote-bimby-friend.jpg",
+ "ingredienti": [
+  {
+   "testo": "300 g di porro, a pezzi",
+   "nome": "porro"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1000 g di zucca invernale, la polpa a pezzi (2 cm)",
+   "nome": "zucca invernale"
+  },
+  {
+   "testo": "100 g di carota, a pezzi (2 cm)",
+   "nome": "carota"
+  },
+  {
+   "testo": "150 g di patata, a pezzi (2 cm)",
+   "nome": "patata"
+  },
+  {
+   "testo": "1200 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "2 dadi di brodo vegetale, sbriciolati",
+   "nome": "dadi"
+  },
+  {
+   "testo": "2 cucchiaini di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "2 cucchiaini di pepe macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "100 g di carota, pelata e a pezzi (2 cm)",
+   "nome": "carota"
+  },
+  {
+   "testo": "150 g di patata, pelata e a pezzi (1 cm)",
+   "nome": "patata"
+  },
+  {
+   "testo": "2 cucchiaini di cannella in polvere",
+   "nome": "cannella"
+  },
+  {
+   "testo": "crostini di pane integrale q.b., per servire",
+   "nome": "crostini pane"
+  },
+  {
+   "testo": "olio extravergine di oliva, per servire",
+   "nome": "olio extravergine oliva"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale 150 g di porro, a piacere 1 spicchio d'aglio, 500 g di zucca, 100 g di carota e 150 g di patata, tritare: 15 sec./vel. 5, spatolando. Riunire sul fondo con la spatola.",
+  "Aggiungere 600 g di acqua, 1 dado, 1 cucchiaino di sale e ½ cucchiaino di pepe. Togliere il boccale da Bimby e posizionarlo in Bimby Friend.",
+  "Posizionare il secondo boccale in Bimby. Mettere nel boccale 150 g di porro, a piacere 1 spicchio d'aglio, e tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere 500 g di zucca, 100 g di carota, 150 g di patata, 600 g di acqua, 1 dado, 1 cucchiaino di sale e ½ cucchiaino di pepe, cuocere con il cestello al posto del misurino: 30 min./100°C/vel. 1. Nel frattempo, mescolare a fondo con la spatola in Bimby Friend per smuovere le verdure, posizionare il cestello al posto del misurino e impostare in Bimby Friend 30 min./100°C/vel. 1 per iniziare a cuocere.",
+  "Unire nel boccale di Bimby 1 cucchiaino di cannella, frullare: 1 min./vel. 4-7",
+  "Bimby. Aggiungere 1 cucchiaino di cannella, frullare: 1 min./vel. 4-7, aumentando gradualmente la velocità. Trasferire la vellutata di entrambi i boccali in una zuppiera capiente.",
+  "Servire calda irrorando con un filo di olio extravergine di oliva e accompagnare con crostini di pane integrale."
+ ],
+ "note": [
+  "Aggiustare la consistenza in base alle proprie preferenze: se si desidera una crema più liquida, aggiungere 50-60 g di acqua in più.",
+  "In alternativa: 2 cucchiaini di noce moscata in polvere (al posto della cannella)",
+  "La ricetta originale usa due boccali in parallelo (Bimby e Bimby Friend): sul Connect si prepara in due volte, quindi il tempo totale è superiore ai 40 min indicati."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di porro, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio d'aglio.",
+   "avvertenza": "La ricetta originale cuoce due boccali insieme (Bimby e Bimby Friend); sul Connect si prepara un boccale alla volta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di zucca invernale, la polpa a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di carota, a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di patata, a pezzi (2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 15,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spatolate e riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Aggiungete 600 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 dado per brodo vegetale, 1 cucchiaino di sale e ½ cucchiaino di pepe."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete con il cestello al posto del misurino.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite 1 cucchiaino di cannella."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata. Velocità 4-7."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete il boccale e tenete da parte la vellutata."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale pulito 150 g di porro, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio d'aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di zucca invernale, la polpa a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di carota, pelata e a pezzi (2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di patata, pelata e a pezzi (1 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Aggiungete 600 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 dado per brodo vegetale, 1 cucchiaino di sale e ½ cucchiaino di pepe."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete con il cestello al posto del misurino.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite 1 cucchiaino di cannella."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata. Velocità 4-7."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la vellutata di entrambi i boccali in una zuppiera capiente."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calda irrorando con un filo di olio extravergine di oliva e accompagnate con crostini di pane integrale."
+  }
+ ],
+ "origine": "cookidoo:r693336",
+ "importata": "2026-10-27"
+}

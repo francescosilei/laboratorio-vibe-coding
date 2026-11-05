@@ -1,0 +1,127 @@
+{
+ "id": "sopapillas",
+ "titolo": "Sopapillas",
+ "categoria": "Dessert",
+ "paese": "NA",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 70,
+ "porzioni": null,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "sopapillas.jpg",
+ "ingredienti": [
+  {
+   "testo": "90 g di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "2 cucchiaini di cannella in polvere",
+   "nome": "cannella"
+  },
+  {
+   "testo": "195 g di latte intero",
+   "nome": "latte"
+  },
+  {
+   "testo": "310 g di farina tipo 00",
+   "nome": "farina"
+  },
+  {
+   "testo": "1 cucchiaio di olio di arachidi",
+   "nome": "olio arachidi"
+  },
+  {
+   "testo": "1 ½ cucchiaino di lievito in polvere per dolci",
+   "nome": "lievito polvere"
+  },
+  {
+   "testo": "¼ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "olio di arachidi, q.b. per friggere",
+   "nome": "olio arachidi"
+  }
+ ],
+ "procedimento": [
+  "Posizionare una ciotola sopra il coperchio del boccale e pesare al suo interno 85 g di zucchero e 2 cucchiaini di cannella. Mescolare bene e tenere da parte.",
+  "Mettere nel boccale il latte, la farina 00, l'olio di arachidi, il lievito, 5 g di zucchero e il sale, impastare: Spiga ½ min.. Trasferire l'impasto sul piano di lavoro leggermente infarinato e formare un panetto. Coprire con pellicola trasparente e riporre in frigorifero per circa 30 minuti.",
+  "Riprendere l'impasto, togliere la pellicola e dividerlo in 4 parti. Con il matterello, stendere ogni parte formando un disco (16 cm). Con una rotella tagliapasta, tagliare 6 triangoli per ogni disco di pasta steso. Ripetere il processo con il resto della pasta e coprire con un canovaccio di cotone fino a quando non e il momento di friggere.",
+  "In una padella antiaderente dai bordi alti scaldare abbondante olio di arachidi e foderare un vassoio con della carta assorbente. Friggere i triangoli pochi per volta (vedere consigli) prima da un lato poi dall'altro, sino a che saranno dorati. Scolare con un mestolo forato e asciugare con la carta assorbente.",
+  "Spolverizzare con il mix di zucchero e cannella.",
+  "Servire."
+ ],
+ "note": [
+  "Resa: 24 pezzi (la ricetta indica i pezzi al posto delle porzioni).",
+  "Servire con miele, miele d'acero o panna montata.",
+  "Si raccomanda di friggere i triangolini pochi per volta, in quanto ciò impedisce all'olio di abbassare la temperatura.",
+  "Paese: su Cookidoo è «Italia», ma le sopapillas sono un dolce di tradizione messicana/americana: lasciato NA."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 85,
+   "testo": "Pesate in una ciotola, sopra il coperchio del boccale, 85 g di zucchero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di cannella in polvere. Mescolate bene e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 195,
+   "testo": "Pesate nel boccale 195 g di latte intero."
+  },
+  {
+   "tipo": "pesata",
+   "g": 310,
+   "testo": "Aggiungete 310 g di farina tipo 00."
+  },
+  {
+   "tipo": "pesata",
+   "g": 5,
+   "testo": "Aggiungete 5 g di zucchero."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio di olio di arachidi, 1 ½ cucchiaino di lievito in polvere per dolci e ¼ cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impastate.",
+   "tempo_s": 120,
+   "velocita": null,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Impastare",
+   "avvertenza": "«Spiga» del Bimby corrisponde al programma Impastare del Connect: durata e velocità le gestisce il programma, non sostituitelo con una velocità manuale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite l'impasto sul piano di lavoro leggermente infarinato e formate un panetto. Coprite con pellicola trasparente e riponete in frigorifero per circa 30 minuti.",
+   "attesa_s": 1800
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riprendete l'impasto, togliete la pellicola e dividetelo in 4 parti. Con il matterello, stendete ogni parte formando un disco (Ø 16 cm). Con una rotella tagliapasta, tagliate 6 triangoli per ogni disco di pasta steso. Ripetete il processo con il resto della pasta e coprite con un canovaccio di cotone fino a quando non è il momento di friggere."
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una padella antiaderente dai bordi alti scaldate abbondante olio di arachidi e foderate un vassoio con della carta assorbente. Friggete i triangoli pochi per volta (vedere consigli) prima da un lato poi dall'altro, sino a che saranno dorati. Scolate con un mestolo forato e asciugate con la carta assorbente."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate con il mix di zucchero e cannella."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite."
+  }
+ ],
+ "origine": "cookidoo:r588430",
+ "importata": "2026-11-05"
+}

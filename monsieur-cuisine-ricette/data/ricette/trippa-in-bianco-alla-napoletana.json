@@ -1,0 +1,204 @@
+{
+ "id": "trippa-in-bianco-alla-napoletana",
+ "titolo": "Trippa in bianco alla napoletana",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 90,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "trippa-in-bianco-alla-napoletana.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 mazzetto di prezzemolo fresco, le foglioline lavate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "1000 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "100 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "30 g di gambo di sedano",
+   "nome": "sedano"
+  },
+  {
+   "testo": "100 g di cipolle",
+   "nome": "cipolle"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "800 g di trippa, precotta a listarelle (2 cm), tipo foiolo",
+   "nome": "trippa"
+  },
+  {
+   "testo": "40 g di succo di limone, spremuto fresco e filtrato",
+   "nome": "succo limone"
+  },
+  {
+   "testo": "1 pizzico di peperoncino piccante in polvere",
+   "nome": "peperoncino"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "40 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 limone, preferibilmente biologico, a fettine",
+   "nome": "limone"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo, tritare: 5 sec./vel. 8. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale l'acqua e il dado, inserire il cestello e sistemare al suo interno la carota, il sedano, la cipolla e l'aglio, cuocere: 30 min./100°C//vel. 1.",
+  "Togliere il cestello con l'aiuto della spatola, aggiungere nel boccale la trippa, riposizionare il cestello con le verdure e proseguire la cottura: 20 min./100°C//vel. . Togliere il cestello con l'aiuto della spatola e controllare la cottura della trippa. Se necessario, prolungare la cottura. Posizionare il cestello nel boccale e cuocere: 10 min./100°C//vel. . Nel frattempo, sistemare un foglio di carta assorbente sul piano di lavoro. A fine cottura, togliere il cestello con l'aiuto della spatola. Scolare la trippa con l'aiuto di uno scolapasta e sistemarla sulla carta assorbente preparata. Tamponare la trippa cotta asciugandola bene e riporla in una ciotola da portata.",
+  "Condire la trippa con il succo di limone, il peperoncino, sale e l'olio extravergine di oliva.",
+  "Spolverizzare con il prezzemolo tritato e guarnire con le fettine di limone.",
+  "Servire."
+ ],
+ "note": [
+  "Per questa ricetta si consiglia di utilizzare la trippa derivante dall'omaso (o foiolo) che e",
+  "più magra e sottile rispetto alla trippa più utilizzata di rumine.",
+  "Se si desidera utilizzare una trippa non precotta, aumentare i tempi di cottura al",
+  "passaggio 3 a 15-20 minuti.",
+  "In alternativa: 1 dado per brodo vegetale"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 mazzetto di prezzemolo fresco, le foglioline lavate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate nel boccale 1000 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di gambo di sedano."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di cipolle."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di dado per brodo vegetale, 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Pesate nel boccale 800 g di trippa, precotta a listarelle (2 cm), tipo foiolo."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete il cestello con l'aiuto della spatola e controllate la cottura della trippa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Se necessario, prolungare la cottura."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, sistemate un foglio di carta assorbente sul piano di lavoro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "A fine cottura, togliete il cestello con l'aiuto della spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Scolate la trippa con l'aiuto di uno scolapasta e sistemarla sulla carta assorbente preparata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Tamponare la trippa cotta asciugandola bene e riporla in una ciotola da portata."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di succo di limone, spremuto fresco e filtrato."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Condite la trippa con il succo di limone, il peperoncino, sale e l'olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Spolverizzate con il prezzemolo tritato e guarnire con le fettine di limone."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite."
+  }
+ ],
+ "origine": "cookidoo:r443782",
+ "importata": "2026-11-05"
+}

@@ -1,0 +1,165 @@
+{
+ "id": "cassoeula",
+ "titolo": "Cassoeula",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 20,
+ "tempo_cottura_min": null,
+ "tempo_min": 85,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "cassoeula.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 carota, Izzad e",
+   "nome": "carota"
+  },
+  {
+   "testo": "1 gambo di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "50 g di pancetta a cubetti",
+   "nome": "pancetta"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "400 g di costine di maiale, lunghe 5 cm",
+   "nome": "costine maiale"
+  },
+  {
+   "testo": "2 pomodori, a cubetti, senza semi",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "150gdi acqua",
+   "nome": "gdi acqua"
+  },
+  {
+   "testo": "1 cucchiaio di dado per brodo di carne",
+   "nome": "dado"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "400 g di foglie di cavolo verza, a listarelle",
+   "nome": "cavolo verza"
+  },
+  {
+   "testo": "200 g di salsicce di maiale, a tocchetti (4 cm)",
+   "nome": "salsicce maiale"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la cipolla, la carota e il sedano, tritare: 4 sec./vel. 7. 4. Riunire sul fondo con la spatola",
+  "Aggiungere la pancetta e l'olio extravergine di oliva, insaporire: 5 min./120°C//vel. 1.",
+  "Unire le costine di maiale, i pomodori, l'acqua, il dado e il sale, cuocere: 25 min./100°C//vel. 1.",
+  "Unire la verza e cuocere: 15 min./100c//vel. 1.",
+  "Aggiungere la salsiccia e cuocere: 15 min./100°C//vel. 1.",
+  "Servire."
+ ],
+ "note": [
+  "Piatto tradizionale della cucina lombarda, la cassoeula e detta anche casoeula, casoela",
+  "cassuola o cazzuola e deve il suo nome alla casseruola dentro la quale tradizionalmente",
+  "veniva preparata. Il piatto e legato alla ritualita del culto popolare di Sant'Antonio abate",
+  "festeggiato il 17 gennaio, data che segnava la fine del periodo delle macellazioni dei",
+  "maiali.",
+  "In alcune varianti della cassoeula vengono utilizzati gli zampetti e le orecchie."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 cipolla, a pezzi, 1 carota, Izzad e, 1 gambo di sedano, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 4,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola"
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di pancetta a cubetti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Pesate 400 g di costine di maiale, lunghe 5 cm."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 150gdi acqua, 2 pomodori, a cubetti, senza semi, 1 cucchiaio di dado per brodo di carne, 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Pesate 400 g di foglie di cavolo verza, a listarelle."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di salsicce di maiale, a tocchetti (4 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite."
+  }
+ ],
+ "origine": "cookidoo:r257146",
+ "importata": "2026-11-05"
+}

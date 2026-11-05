@@ -1,0 +1,213 @@
+{
+ "id": "risotto-alle-pere-e-gamberetti",
+ "titolo": "Risotto alle pere e gamberetti",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 25,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "risotto-alle-pere-e-gamberetti.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 mazzetto di prezzemolo fresco, le foglioline, lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "1 scalogno, a pezzi",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "20 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "320 g di riso Carnaroli (cottura 18 min.)",
+   "nome": "riso carnaroli"
+  },
+  {
+   "testo": "100 g di vino bianco secco",
+   "nome": "vino bianco secco"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "750 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "350 g di code di gambero, grigio, pulite e lavate",
+   "nome": "gambero"
+  },
+  {
+   "testo": "250 g pere, tipo decana, sbucciate e a fettine (2 mm)",
+   "nome": "pere"
+  },
+  {
+   "testo": "30 g di Cognac (opzionale)",
+   "nome": "cognac"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "10 g di burro",
+   "nome": "burro"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo, tritare: 3 sec./vel. 8. Trasferire in una ciotola e mettere da parte.",
+  "Mettere nel boccale lo scalogno e tritare: 3 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere 20 g di olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Aggiungere il riso e tostare: 2 min./120°C//vel. 1 senza misurino.",
+  "Aggiungere il vino bianco e sfumare: 2 min./100°C//vel. 1 senza misurino.",
+  "Aggiungere il sale e il brodo, cuocere: 10 min./100°C//vel. 1",
+  "Aggiungere le code di gambero e le fettine di pera, cuocere: 3 min./100°C//vel. 1.",
+  "Al termine, controllare la cottura del riso e, se necessario, aggiustare di sale. Trasferire il risotto in una risottiera e con la spatola mantecare con il burro, il Cognac, il prezzemolo tritato in precedenza e un pizzico di pepe. Servire caldo."
+ ],
+ "note": [
+  "In alternativa: 750 g di acqua, + 1,5 cucchiaini di dado per brodo vegetale fatto in casa"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 mazzetto di prezzemolo fresco, le foglioline, lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e mettete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 scalogno, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di riso Carnaroli (cottura 18 min.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tostate.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di vino bianco secco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 750,
+   "testo": "Pesate 750 g di brodo vegetale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Pesate 350 g di code di gambero, grigio, pulite e lavate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di pere, tipo decana, sbucciate e a fettine (2 mm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Al termine, controllate la cottura del riso e, se necessario, aggiustate di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di Cognac (opzionale)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate 10 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il risotto in una risottiera e con la spatola mantecate con il burro, il Cognac, il prezzemolo tritato in precedenza e un pizzico di pepe."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite caldo."
+  }
+ ],
+ "origine": "cookidoo:r69541",
+ "importata": "2026-10-26"
+}

@@ -1,0 +1,133 @@
+{
+ "id": "crema-di-panzanella",
+ "titolo": "Crema di panzanella",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "crema-di-panzanella.jpg",
+ "ingredienti": [
+  {
+   "testo": "300 g di pane raffermo, a pezzi",
+   "nome": "pane raffermo"
+  },
+  {
+   "testo": "200 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cetriolo, pelato e a pezzi",
+   "nome": "cetriolo"
+  },
+  {
+   "testo": "400 g di pomodori maturi, a pezzi",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "½ cipolla rossa di Tropea, a pezzi",
+   "nome": "cipolla rossa tropea"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva (+ q.b.) per servire",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 cucchiaino di aceto bianco",
+   "nome": "aceto bianco"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "5 foglie di basilico fresco (+ q.b.) per servire",
+   "nome": "basilico"
+  },
+  {
+   "testo": "200 g di Feta",
+   "nome": "feta"
+  }
+ ],
+ "procedimento": [
+  "Posizionare una ciotola sul coperchio del boccale, pesarvi all'interno il pane raffermo e l'acqua. Lasciare da parte in ammollo per 30 minuti.",
+  "Mettere nel boccale il pane ammollato e strizzato, il cetriolo, i pomodori, la cipolla, 30 g di olio extravergine di oliva, l'aceto, il sale e 5 foglie di basilico, frullare: 3 min./vel. 5. Riunire sul fondo con la spatola.",
+  "Frullare: 2 min./vel. 5.",
+  "Trasferire la crema nelle ciotole da portata, guarnire con la Feta, condire con un filo di olio extravergine di oliva e del basilico. Servire."
+ ],
+ "note": [
+  "Questa ricetta e stata creata dalla Bimby Community Star Donatella S. e testata da",
+  "Bimby?"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate una ciotola sul coperchio del boccale, pesarvi all'interno il pane raffermo e l'acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate da parte in ammollo per 30 minuti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate nel boccale 300 g di pane raffermo, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di pomodori maturi, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di olio extravergine di oliva (+ q.b.) per servire."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cetriolo, pelato e a pezzi, ½ cipolla rossa di Tropea, a pezzi, 1 cucchiaino di aceto bianco, ½ cucchiaino di sale, 5 foglie di basilico fresco (+ q.b.) per servire."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 180,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 120,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di Feta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la crema nelle ciotole da portata, guarnire con la Feta, condite con un filo di olio extravergine di oliva e del basilico."
+  }
+ ],
+ "origine": "cookidoo:r774868",
+ "importata": "2026-10-27"
+}

@@ -1,0 +1,206 @@
+{
+ "id": "risotto-al-pomodoro-e-cavolfiore-10-12-mesi",
+ "titolo": "Risotto al pomodoro e cavolfiore (10-12 mesi)",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "risotto-al-pomodoro-e-cavolfiore-10-12-mesi.jpg",
+ "ingredienti": [
+  {
+   "testo": "300 g di pomodori maturi",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "acqua bollente",
+   "nome": "acqua bollente"
+  },
+  {
+   "testo": "150 g di Parmigiano Reggiano, a pezzi",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "200 g di cimette di cavolfiore",
+   "nome": "cavolfiore"
+  },
+  {
+   "testo": "1 cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "20 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "150 g di riso Carnaroli",
+   "nome": "riso carnaroli"
+  },
+  {
+   "testo": "200 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  }
+ ],
+ "procedimento": [
+  "Incidere con un coltello ben affilato una piccola croce alla base di ogni pomodoro e sistemare in una ciotola capiente. Versare delicatamente l'acqua bollente nella ciotola per coprire i pomodori e lasciare in ammollo per circa l minuto. Scolarei pomodori dall'acqua e, una volta raffreddati abbastanza da poter essere toccati, sbucciare e tagliare in quarti. Riporre i pomodori in una ciotola capiente e tenere da parte.",
+  "Mettere nel boccale il Parmigiano Reggiano e grattugiare: 15 sec./vel. 8. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale il cavolfiore e tritare: 2 sec./vel. 6. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale la cipolla e l'aglio, tritare: 4 sec./vel. 6. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./100°C//vel. 1.",
+  "Unire il riso e tostare, senza misurino: 2 min./120°C//vel. 1.",
+  "Aggiungere i pomodori e il brodo, cuocere: 12 min./100°C//vel. 1.5.",
+  "Unire il cavolfiore tritato e 75 g di Parmigiano Reggiano grattugiato, mescolare a fondo con la spatola. Cuocere: 3 min./100°C//vel. 1.5. Lasciare riposare il risotto nel boccale pe 1 minuto. Servire con il Parmigiano Reggiano grattugiato rimasto."
+ ],
+ "note": [
+  "Questa ricetta e di Louise Keats, Australia."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Incidere con un coltello ben affilato una piccola croce alla base di ogni pomodoro e sistemate in una ciotola capiente."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di pomodori maturi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete acqua bollente."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Scolarei pomodori dall'acqua e, una volta raffreddati abbastanza da poter essere toccati, sbucciate e tagliate in quarti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riporre i pomodori in una ciotola capiente e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di Parmigiano Reggiano, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 15,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate nel boccale 200 g di cimette di cavolfiore."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 2,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 cipolla, in quarti, 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 4,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate 150 g di riso Carnaroli."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tostate.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di brodo vegetale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete pomodori (messo da parte)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 720,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete cavolfiore (messo da parte), parmigiano reggiano (messo da parte)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite il cavolfiore tritato e 75 g di Parmigiano Reggiano grattugiato, mescolate a fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 180,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite con il Parmigiano Reggiano grattugiato rimasto."
+  }
+ ],
+ "origine": "cookidoo:r829538",
+ "importata": "2026-10-27"
+}

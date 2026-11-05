@@ -1,0 +1,192 @@
+{
+ "id": "pasta-risottata-al-pomodoro",
+ "titolo": "Pasta risottata al pomodoro",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 2,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pasta-risottata-al-pomodoro.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "30 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "30 g di gambo di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "30 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "200 g di pomodori, ciliegino, a metà",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "1 pizzico di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "300 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 pizzico di sale grosso",
+   "nome": "sale grosso"
+  },
+  {
+   "testo": "160 g di pasta secca tipo penne (cottura 11 minuti)",
+   "nome": "pasta secca"
+  },
+  {
+   "testo": "foglie di basilico fresche",
+   "nome": "basilico"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'aglio, la cipolla, il sedano e la carota, tritare: 3 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 5 min./120°C/vel. 1.",
+  "Unire i pomodorini, 5 foglie di basilico, lo zucchero, 1 cucchiaino di sale e il pepe, cuocere: 5 min./100°C/vel. 2, poi frullare: 30 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Aggiungere l'acqua e 1 pizzico di sale grosso, portare ad ebollizione: 5 min./100°C/vel. 1.",
+  "Unire la pasta e cuocere: 11 min./100°C//vel. 1.",
+  "Servire decorando con foglie di basilico."
+ ],
+ "note": [
+  "In alternativa: q.b."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di gambo di sedano, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di pomodori, ciliegino, a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete foglie di basilico fresche, 1 pizzico di zucchero, 1 cucchiaino di sale, 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 30,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate 300 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale grosso."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 160,
+   "testo": "Pesate 160 g di pasta secca tipo penne (cottura 11 minuti)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 660,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite decorando con foglie di basilico."
+  }
+ ],
+ "origine": "cookidoo:r405269",
+ "importata": "2026-10-28"
+}

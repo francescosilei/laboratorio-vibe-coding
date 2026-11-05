@@ -1,0 +1,211 @@
+{
+ "id": "penne-integrali-risottate-con-salsiccia-e-arachidi",
+ "titolo": "Penne integrali risottate con salsiccia e arachidi",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "penne-integrali-risottate-con-salsiccia-e-arachidi.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1 rametto di rosmarino fresco, gli aghilavati ed, asciugati",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "30 g di arachidi tostate salate",
+   "nome": "arachidi tostate salate"
+  },
+  {
+   "testo": "40 g di albicocche secche denocciolate",
+   "nome": "albicocche secche denocciolate"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "230 g di salsiccia fresca, senza pelle, sgranata",
+   "nome": "salsiccia"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "30 g di vino Porto",
+   "nome": "vino porto"
+  },
+  {
+   "testo": "680 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "320 g di pasta tipo penne, integrali",
+   "nome": "pasta"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale lo spicchio di aglio e il rosmarino, tritare: 5 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Aggiungere 20 g di arachidi e le albicocche secche, tritare: 3 sec./vel. 6. Riunire sul fondo con la spatola.",
+  "Unire l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Aggiungere la salsiccia e il pepe,insaporire: 2 min./120°C/vel. 1.",
+  "Unire il vino e sfumare: 1 min./100°C/vel. 1 senza misurino.",
+  "Aggiungere l'acqua e il sale, portare ad ebollizione: 8 min./100°C/vel. 1.",
+  "Unire le penne e cuocere: il tempo indicato sulla confezione 100°C//vel. . Trasferire in una zuppiera.",
+  "Aggiungere nella zuppiera i rimanenti 10 g di arachidi e amalgamare.",
+  "Servire (vedere varianti)."
+ ],
+ "note": [
+  "Per un sapore più intenso, spolverizzare con Parmigiano reggiano o pecorino.",
+  "In alternativa: 30 g di vino dolce"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 spicchio di aglio, 1 rametto di rosmarino fresco, gli aghilavati ed, asciugati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di arachidi tostate salate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di albicocche secche denocciolate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 230,
+   "testo": "Pesate 230 g di salsiccia fresca, senza pelle, sgranata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 120,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di vino Porto."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 680,
+   "testo": "Pesate 680 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate.",
+   "tempo_s": 480,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di pasta tipo penne, integrali."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera."
+  },
+  {
+   "tipo": "pesata",
+   "g": 10,
+   "testo": "Pesate 10 g di arachidi tostate salate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete nella zuppiera i rimanenti 10 g di arachidi e amalgamate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite (vedere varianti)."
+  }
+ ],
+ "origine": "cookidoo:r339332",
+ "importata": "2026-10-28"
+}

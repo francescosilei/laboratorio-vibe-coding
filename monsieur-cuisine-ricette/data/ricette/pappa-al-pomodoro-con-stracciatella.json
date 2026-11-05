@@ -1,0 +1,170 @@
+{
+ "id": "pappa-al-pomodoro-con-stracciatella",
+ "titolo": "Pappa al pomodoro con stracciatella",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pappa-al-pomodoro-con-stracciatella.jpg",
+ "ingredienti": [
+  {
+   "testo": "250 g di pane casereccio, tipo toscano, a fette (1 cm)",
+   "nome": "pane casereccio"
+  },
+  {
+   "testo": "370 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "80 g di cipolla rossa, a pezzi",
+   "nome": "cipolla rossa"
+  },
+  {
+   "testo": "50 g olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "500 g di passata di pomodoro",
+   "nome": "passata pomodoro"
+  },
+  {
+   "testo": "10 foglie di basilico fresco, lavate ed asciugate",
+   "nome": "basilico"
+  },
+  {
+   "testo": "1 rametto di timo fresco, le foglioline",
+   "nome": "timo"
+  },
+  {
+   "testo": "2 pizzichi di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "150 g di stracciatella",
+   "nome": "stracciatella"
+  }
+ ],
+ "procedimento": [
+  "Preriscaldare il forno a 200°C, foderare una teglia con carta forno e sistemarvi le fette di pane in un unico strato. Tostare in forno caldo per 5-10 minuti. Togliere con attenzione dal forno.",
+  "In una ciotola sistemare il pane tostato e bagnarlo con il brodo vegetale, premendo il pane con il dorso di un cucchiaio. Lasciare in ammollo per 10 minuti o sino a che il pane non avra assorbito tutto il brodo.",
+  "Mettere nel boccale la cipolla e tritare: 5 sec./vel. 6. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva, insaporire: 3 min./120°C/vel. 1",
+  "Unire la passata di pomodoro, il basilico, il timo e il sale, cuocere: 10 min./100°C/vel.1.",
+  "Aggiungere il pane ammollato e il brodo vegetale, cuocere: 15 min./100°C//vel. 2. spatolando di tanto in tanto.",
+  "Servire la pappa al pomodoro con la stracciatella e irrorare con un filo di olio extravergine di oliva."
+ ],
+ "note": [
+  "Se si desidera una pappa al pomodoro più omogenea, amalgamare: 2 min./vel. 2 dopo",
+  "il passaggio 5.",
+  "In alternativa: 370 g acqua, + 1 cucchiaino scarso di dado per brodo vegetale",
+  "In alternativa: 500 g di pomodori pelati, in scatola"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Preriscaldate il forno a 200°C, foderate una teglia con carta forno e sistemarvi le fette di pane in un unico strato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Tostate in forno caldo per 5-10 minuti.",
+   "attesa_s": 300
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione dal forno."
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una ciotola sistemate il pane tostato e bagnarlo con il brodo vegetale, premendo il pane con il dorso di un cucchiaio."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate in ammollo per 10 minuti o sino a che il pane non avra assorbito tutto il brodo."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di cipolla rossa, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di olio extravergine di oliva (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di passata di pomodoro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 10 foglie di basilico fresco, lavate ed asciugate, 1 rametto di timo fresco, le foglioline, 2 pizzichi di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate 250 g di pane casereccio, tipo toscano, a fette (1 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 370,
+   "testo": "Aggiungete 370 g di brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mescolate con la spatola di tanto in tanto."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate 150 g di stracciatella."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la pappa al pomodoro con la stracciatella e irrorate con un filo di olio extravergine di oliva."
+  }
+ ],
+ "origine": "cookidoo:r771821",
+ "importata": "2026-10-27"
+}

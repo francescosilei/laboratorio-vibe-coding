@@ -1,0 +1,158 @@
+{
+ "id": "vellutata-cavolo-viola-panna",
+ "titolo": "Vellutata di cavolo viola e panna",
+ "categoria": "Primi",
+ "paese": "NA",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 100,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "vellutata-cavolo-viola-panna.jpg",
+ "ingredienti": [
+  {
+   "testo": "150 g di cipolla rossa (100 a pezzi + 50 a rondelle sottili)",
+   "nome": "cipolla rossa"
+  },
+  {
+   "testo": "500 g di cavolo cappuccio rosso, a pezzi (5 cm)",
+   "nome": "cavolo cappuccio rosso"
+  },
+  {
+   "testo": "120 g di patata, a pezzi (3 cm)",
+   "nome": "patata"
+  },
+  {
+   "testo": "700 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "1 cucchiaino di sale (+ q.b.)",
+   "nome": "sale"
+  },
+  {
+   "testo": "2 pizzichi di pepe macinato (+ q.b.)",
+   "nome": "pepe"
+  },
+  {
+   "testo": "2 pizzichi di noce moscata in polvere",
+   "nome": "noce moscata"
+  },
+  {
+   "testo": "20 g di aceto balsamico",
+   "nome": "aceto balsamico"
+  },
+  {
+   "testo": "150 g di panna fresca liquida, fredda",
+   "nome": "panna fresca"
+  },
+  {
+   "testo": "20 g di semi di sesamo, neri",
+   "nome": "semi di sesamo"
+  },
+  {
+   "testo": "40 g di chips di verdure",
+   "nome": "chips di verdure"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale 150 g di cipolla rossa, la patata e il cavolo rosso, tritare: 5 sec./vel. 8.",
+  "Aggiungere il brodo vegetale, il sale, l'aceto balsamico, il pepe e la noce moscata, cuocere: 30 min./100°C/vel. 1.",
+  "Aggiungere 100 g di panna e frullare: 1 min. 30 sec./vel. 10. Servire con chips di verdure, sesamo nero, cipolla fresca a rondelle e panna fresca."
+ ],
+ "note": [
+  "Cookidoo indica «Arabia Saudita» come paese: sembra un errore, il paese è stato lasciato NA."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di cipolla rossa, a pezzi.",
+   "nota": "L'elenco ingredienti indica 150 g: 100 g a pezzi + 50 g a rondelle sottili per servire."
+  },
+  {
+   "tipo": "pesata",
+   "g": 120,
+   "testo": "Aggiungete 120 g di patata, a pezzi di 3 cm."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di cavolo cappuccio rosso, a pezzi di 5 cm."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Aggiungete 700 g di brodo vegetale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Aggiungete 20 g di aceto balsamico."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale, 2 pizzichi di pepe macinato e 2 pizzichi di noce moscata in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di panna fresca liquida, fredda."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 90,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Per servire, pesate 40 g di chips di verdure."
+  },
+  {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Pesate 20 g di semi di sesamo neri."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di cipolla rossa e tagliatela a rondelle sottili."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di panna fresca liquida."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite la vellutata con chips di verdure, sesamo nero, cipolla rossa a rondelle e panna fresca."
+  }
+ ],
+ "origine": "cookidoo:r918350",
+ "importata": "2026-10-26"
+}

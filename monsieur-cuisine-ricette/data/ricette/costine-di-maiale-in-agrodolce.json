@@ -1,0 +1,163 @@
+{
+ "id": "costine-di-maiale-in-agrodolce",
+ "titolo": "Costine di maiale in agrodolce",
+ "categoria": "Secondi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "costine-di-maiale-in-agrodolce.jpg",
+ "ingredienti": [
+  {
+   "testo": "600 g di costine di maiale, a pezzi (3 cm)",
+   "nome": "costine maiale"
+  },
+  {
+   "testo": "50 g di salsa di soia",
+   "nome": "salsa soia"
+  },
+  {
+   "testo": "2 cucchiaini di vino di riso",
+   "nome": "vino riso"
+  },
+  {
+   "testo": "1 tuorlo",
+   "nome": "tuorlo"
+  },
+  {
+   "testo": "1 ½ cucchiaio di fecola di patate (+ q.b.)",
+   "nome": "fecola patate"
+  },
+  {
+   "testo": "600 g di olio per frittura",
+   "nome": "olio frittura"
+  },
+  {
+   "testo": "100 g di cipolla, a pezzi (3 cm)",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "100 g di peperoni misti, puliti e a pezzi (3 cm)",
+   "nome": "peperoni"
+  },
+  {
+   "testo": "30 g di zucchero",
+   "nome": "zucchero"
+  },
+  {
+   "testo": "30 g di aceto di vino bianco",
+   "nome": "aceto vino bianco"
+  },
+  {
+   "testo": "50 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "30 g di concentrato di pomodoro",
+   "nome": "concentrato pomodoro"
+  },
+  {
+   "testo": "¼ di cucchiaino di sale",
+   "nome": "sale"
+  }
+ ],
+ "procedimento": [
+  "Posizionare una ciotola sul coperchio del boccale, pesarvi all'interno 600 g di costine di maiale, irrorarle con la salsa di soia, il vino di riso, unire il tuorlo e la fecola di patate. Mescolare, coprire la ciotola con pellicola trasparente e riporre a marinare in frigorifero 30 minuti.",
+  "In una padella dai bordi alti scaldare l'olio per frittura. Nel frattempo, disporre della fecola di patate su un piatto piano e sistemare della carta assorbente sul piano di lavoro. Con una pinza da cucina, scolare le costine dalla marinatura e passarle nella fecola di patate, coprendole completamente. Friggere le costine impanate 3-5 minuti o fino a completa doratura. Con un mestolo forato scolare le costine e adagiarle sulla carta assorbente per asciugarle dall'olio in eccesso. Proseguire con la frittura delle cipolle e dei peperoni, scolare con il mestolo forato e adagiare su carta assorbente da cucina.",
+  "Mettere nel boccale lo zucchero, l'aceto, 'acqua e il concentrato di pomodoro, cuocere: 3 min./100°C/vel. .",
+  "Aggiungere le costine, le cipolle e i peperoni fritti, cuocere: 5 min./100°C//vel. 1. Trasferire nei piatti da portata.",
+  "Servire caldo."
+ ],
+ "note": [
+  "La fecola di patate contribuisce a rendere croccante la panatura.",
+  "Il ¼ di cucchiaino di sale è nell'elenco degli ingredienti ma la ricetta non indica quando aggiungerlo: aggiungetelo alla salsa agrodolce."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate in una ciotola, sopra il coperchio del boccale, 600 g di costine di maiale, a pezzi (3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Irroratele con 50 g di salsa di soia."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di vino di riso, 1 tuorlo e 1 ½ cucchiaio di fecola di patate. Mescolate, coprite la ciotola con pellicola trasparente e riponete a marinare in frigorifero 30 minuti.",
+   "attesa_s": 1800
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "In una padella dai bordi alti scaldate 600 g di olio per frittura."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, disponete della fecola di patate su un piatto piano e sistemate della carta assorbente sul piano di lavoro. Con una pinza da cucina, scolate le costine dalla marinatura e passatele nella fecola di patate, coprendole completamente. Friggete le costine impanate 3-5 minuti o fino a completa doratura. Con un mestolo forato scolate le costine e adagiatele sulla carta assorbente per asciugarle dall'olio in eccesso. Proseguite con la frittura delle cipolle e dei peperoni (100 g di cipolla e 100 g di peperoni misti, a pezzi di 3 cm), scolate con il mestolo forato e adagiate su carta assorbente da cucina."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Mettete nel boccale 30 g di zucchero."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di aceto di vino bianco."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di concentrato di pomodoro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ¼ di cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete le costine, le cipolle e i peperoni fritti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite nei piatti da portata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite caldo."
+  }
+ ],
+ "origine": "cookidoo:r282635",
+ "importata": "2026-11-05"
+}
