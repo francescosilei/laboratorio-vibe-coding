@@ -1,0 +1,173 @@
+{
+ "id": "pasta-e-ceci",
+ "titolo": "Pasta e ceci",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pasta-e-ceci.jpg",
+ "ingredienti": [
+  {
+   "testo": "80 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "80 g di carota, pelata e a pezzi (2 cm circa)",
+   "nome": "carota"
+  },
+  {
+   "testo": "30 g di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "1 rametto di rosmarino fresco, gli aghi lavati",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "400 g di ceci in scatola, scolati e sciacquati",
+   "nome": "ceci"
+  },
+  {
+   "testo": "700 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "2 cucchiaini di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "100 g di pomodori ciliegino, a metà",
+   "nome": "pomodori ciliegino"
+  },
+  {
+   "testo": "160 g di pasta per minestra (tipo ditalini)",
+   "nome": "pasta"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'olio extravergine di oliva, la cipolla, la carota, il sedano e il rosmarino, impostare Alta temperatura $S$",
+  "Frullare @/10 sec.. Riunire sul fondo con la spatola.",
+  "Unire 150 g di ceci e frullare: 5 sec./vel. 5.",
+  "Aggiungere l'acqua e il sale, cuocere: 10 min./100°C/vel. 1.",
+  "Unire i pomodorini, la pasta e i ceci rimasti, cuocere: il tempo indicato sulla confezione 100°C//vel. . Trasferire in una zuppiera.",
+  "Servire subito irrorando a piacere con un filo di olio extravergine di oliva."
+ ],
+ "note": [
+  "Questa ricetta prevede l'utilizzo dei ceci in scatola. Qualora si volessero usare i ceci secchi, precuocerli seguendo le indicazioni riportate nella ricetta \"Cottura dei ceci\"."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva (+ q.b.)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Aggiungete 80 g di carota, pelata e a pezzi (2 cm circa)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di sedano, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 rametto di rosmarino fresco, gli aghi lavati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate Alta temperatura (110 °C).",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 110,
+   "sinistrorsa": false,
+   "avvertenza": "Alta temperatura senza dettaglio: temperatura convenzionale 110 °C. Durata e velocità a vista."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Frullate con il tasto Turbo per 10 secondi. Riunite sul fondo con la spatola.",
+   "avvertenza": "Modalità «Turbo» del Bimby: non è nelle tabelle di conversione. Traduzione al meglio: controllate sul display del Connect come impostarla."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Unite 150 g di ceci in scatola, scolati e sciacquati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Aggiungete 700 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Unite 100 g di pomodori ciliegino, a metà."
+  },
+  {
+   "tipo": "pesata",
+   "g": 160,
+   "testo": "Aggiungete 160 g di pasta per minestra (tipo ditalini)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete i restanti 250 g di ceci in scatola, scolati e sciacquati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo è quello indicato sulla confezione della pasta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito irrorando a piacere con un filo di olio extravergine di oliva."
+  }
+ ],
+ "origine": "cookidoo:r547874",
+ "importata": "2026-11-08"
+}

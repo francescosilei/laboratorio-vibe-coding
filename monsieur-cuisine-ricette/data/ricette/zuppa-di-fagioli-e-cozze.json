@@ -1,0 +1,184 @@
+{
+ "id": "zuppa-di-fagioli-e-cozze",
+ "titolo": "Zuppa di fagioli e cozze",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 55,
+ "porzioni": 4,
+ "difficolta": "Media",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-fagioli-e-cozze.jpg",
+ "ingredienti": [
+  {
+   "testo": "400 g di cozze fresche pulite, e spurgate",
+   "nome": "cozze pulite"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1 scalogno",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "150 g di pomodori, a cubetti (1-2 cm)",
+   "nome": "pomodori"
+  },
+  {
+   "testo": "200 g di peperoni verdi, a cubetti (1-2 cm)",
+   "nome": "peperoni verdi"
+  },
+  {
+   "testo": "200 g di patata, a cubetti (1-2 cm)",
+   "nome": "patata"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "250 g di fagioli borlotti, in scatola, sgocciolati",
+   "nome": "fagioli borlotti"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "8 fettine di pane",
+   "nome": "fettine pane"
+  }
+ ],
+ "procedimento": [
+  "Sistemare le cozze all'interno del recipiente del Varoma e tenere da parte.",
+  "Mettere nel boccale l'aglio, lo scalogno e tritare: 5 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire il pomodoro, il peperone, la patata, l'acqua,i fagioli, il sale e il pepe, posizionare il Varoma e cuocere: 35 min./Varoma//vel. . Nel frattempo, su una padella antiaderente abbrustolire le fettine di pane.",
+  "Trasferire la zuppa in una ciotola, tenere da parte alcune cozze con il guscio per decorazione e sgusciare il resto. Servire con le fette di pane tostato e, a piacere, irrorate con un filo di olio extravergine di oliva."
+ ],
+ "note": [
+  "A seconda della cremosita desiderata aumentare o diminuire la quantità di acqua in",
+  "fase di cottura della zuppa.",
+  "Peruna corretto utilizzo delle cozze in cucina si consiglia di effettuare le seguenti",
+  "operazioni:",
+  "1. riporre le cozze in una ciotola e sciacquarle sotto acqua corrente;",
+  "2. eliminare le cozze con il guscio rotto o quelle aperte;",
+  "3.eliminare la barba con le manio se resistente con l'aiuto di un coltello;",
+  "4. eliminare le impurita dal guscio raschiando con un coltello o aiutandosi con una",
+  "retina d'acciaio (di quelle usate per lavare le stoviglie);",
+  "5.risciacquare nuovamente le cozze sotto acqua corrente.",
+  "Se non utilizzate subito:",
+  "1. sistemare le cozze in una ciotola;",
+  "2. ricoprire con un panno di stoffa bagnato e strizzato con acqua fredda;",
+  "3.riporre la ciotola in frigorifero;",
+  "4. consumare entro le 24 ore successive."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Pesate 400 g di cozze fresche pulite, e spurgate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Sistemate le cozze all'interno del recipiente del Varoma e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 spicchio di aglio, 1 scalogno."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate 150 g di pomodori, a cubetti (1-2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di peperoni verdi, a cubetti (1-2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di patata, a cubetti (1-2 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di fagioli borlotti, in scatola, sgocciolati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di pepe macinato, 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 2100,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa.",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, su una padella antiaderente abbrustolire le fettine di pane."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la zuppa in una ciotola, tenete da parte alcune cozze con il guscio per decorazione e sgusciare il resto."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite con le fette di pane tostato e, a piacere, irrorate con un filo di olio extravergine di oliva."
+  }
+ ],
+ "origine": "cookidoo:r68635",
+ "importata": "2026-11-08"
+}

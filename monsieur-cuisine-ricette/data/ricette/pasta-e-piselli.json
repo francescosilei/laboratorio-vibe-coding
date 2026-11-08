@@ -1,0 +1,179 @@
+{
+ "id": "pasta-e-piselli",
+ "titolo": "Pasta e piselli",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pasta-e-piselli.jpg",
+ "ingredienti": [
+  {
+   "testo": "30 g di Parmigiano Reggiano, a pezzi (2-3 cm)",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "30 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "30 g di cipolla",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "100 g di pancetta di maiale, a cubetti",
+   "nome": "pancetta"
+  },
+  {
+   "testo": "350 g di piselli surgelati",
+   "nome": "piselli"
+  },
+  {
+   "testo": "700 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 cucchiaio di dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "350 g di pasta tipo ditalini",
+   "nome": "pasta"
+  },
+  {
+   "testo": "1 pizzico di pepe",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano Reggiano, grattugiare: 10 sec./vel. 10. Trasferire in",
+  "una ciotola e tenere da parte.",
+  "Mettere nel boccale l'olio extravergine di oliva e scaldare: 1 min./i20°C/vel. 1.",
+  "Aggiungere la cipolla e tritare: 7 sec./vel.7. riunire sul fondo con la spatola.",
+  "Unire la pancetta e insaporire: 4 min./100°C/vel. 1.",
+  "Aggiungere i piselli, l'acqua, il sale e il dado, portare ad ebollizione:",
+  "10 min./100°C//vel.1.",
+  "Unire la pasta e cuocere: il tempo indicato sulla confezione 100°C/G/vel. l, senza",
+  "misurino.",
+  "A fine cottura, servire subito in piatti singoli con una spolverizzata di Parmigiano",
+  "Reggiano grattugiato e un pizzico di pepe."
+ ],
+ "note": [
+  "In alternativa: 1 dado di brodo vegetale (al posto del cucchiaio di dado)"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di Parmigiano Reggiano, a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Scaldate.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di cipolla."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 7,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Unite 100 g di pancetta di maiale, a cubetti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Aggiungete 350 g di piselli surgelati."
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Aggiungete 700 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale e 1 cucchiaio di dado per brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate a ebollizione.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Unite 350 g di pasta tipo ditalini."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete senza misurino.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo è quello indicato sulla confezione della pasta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "A fine cottura, servite subito in piatti singoli con una spolverizzata di Parmigiano Reggiano grattugiato e un pizzico di pepe."
+  }
+ ],
+ "origine": "cookidoo:r67902",
+ "importata": "2026-11-08"
+}

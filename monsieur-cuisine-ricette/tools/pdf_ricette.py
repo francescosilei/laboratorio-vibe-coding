@@ -176,15 +176,19 @@ def estrai(a):
                 w = fogli[0].width
                 im = Image.new("RGB", (w, sum(f.height for f in fogli)), "white"); y = 0
                 for f in fogli: im.paste(f, (0, y)); y += f.height      # le pagine sono fette consecutive dello screenshot
+                piena, k = im, 1.0
+                if w > 2500:                           # screenshot a risoluzione doppia: si legge a piena risoluzione (spazi corretti)
+                    k = 1910 / w                       # ma le coordinate si riportano alla scala su cui sono tarate le soglie (1910 px)
+                    im = im.resize((1910, round(im.height * k)), Image.LANCZOS); w = 1910
                 h = im.height
                 d = out / rid; d.mkdir(exist_ok=True)
                 im.save(d / "pagina.png")
                 if ocr is None:
                     from rapidocr_onnxruntime import RapidOCR
                     ocr = RapidOCR()
-                res, _ = ocr(np.array(im))
-                boxes = [{"x0": min(p[0] for p in bx), "y0": min(p[1] for p in bx), "x1": max(p[0] for p in bx),
-                          "y1": max(p[1] for p in bx), "t": t, "c": float(c)} for bx, t, c in (res or [])]
+                res, _ = ocr(np.array(piena))
+                boxes = [{"x0": k * min(p[0] for p in bx), "y0": k * min(p[1] for p in bx), "x1": k * max(p[0] for p in bx),
+                          "y1": k * max(p[1] for p in bx), "t": t, "c": float(c)} for bx, t, c in (res or [])]
                 testa, ing, prep = colonne(boxes, w, h)
                 (d / "testo.txt").write_text(formatta(testa, ing, prep, meta(boxes)), encoding="utf-8")
                 if a.foto_box:
@@ -192,7 +196,7 @@ def estrai(a):
                 else:
                     sc = w / 1910
                     box = (int(FOTO[0] * w), int(FOTO[1] * sc), int(FOTO[2] * w), int(FOTO[3] * sc))
-                foto = im.crop(box)
+                foto = piena.crop(tuple(int(v / k) for v in box))
                 if foto.width > 800: foto = foto.resize((800, round(foto.height * 800 / foto.width)), Image.LANCZOS)
                 foto.thumbnail((640, 640)); foto.save(d / "foto.jpg", quality=74, optimize=True, progressive=True)
                 dubbi = sum(1 for r in ing + prep if r[1] < .8)

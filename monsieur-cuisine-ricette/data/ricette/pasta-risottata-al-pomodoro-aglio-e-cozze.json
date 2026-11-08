@@ -1,0 +1,210 @@
+{
+ "id": "pasta-risottata-al-pomodoro-aglio-e-cozze",
+ "titolo": "Pasta risottata al pomodoro, aglio e cozze",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 30,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pasta-risottata-al-pomodoro-aglio-e-cozze.jpg",
+ "ingredienti": [
+  {
+   "testo": "60 g di prezzemolo fresco, le foglioline lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "20 g di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "70 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "3 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "400 g di polpa di pomodoro a pezzi",
+   "nome": "polpa pomodoro"
+  },
+  {
+   "testo": "400 g di cozze surgelate (il muscolo), scongelate",
+   "nome": "cozze"
+  },
+  {
+   "testo": "400 g di pasta secca, tipo penne rigate",
+   "nome": "pasta secca"
+  },
+  {
+   "testo": "700 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "2 cucchiaini di pepe nero macinato",
+   "nome": "pepe nero"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale 30 g di prezzemolo, 5 g di sale e 40 g di olio extravergine di oliva, tritare: 5 sec./vel. 7. Trasferire in una ciotola capiente e mettere da parte.",
+  "Mettere nel boccale l'aglio e tritare: 3 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Aggiungere i restanti 30 g di olio extravergine di oliva e insaporire: 5 min./120°C/vel. 1.",
+  "Unire i restanti 30 g di prezzemolo e tritare: 3 sec./vel. 7.",
+  "Aggiungere la polpa di pomodoro e cuocere: 4 min./100°C/vel. 1. Nel frattempo, dividere uniformemente le cozze tra il vassoio e il recipiente del Varoma, assicurandosi che alcuni fori rimangano scoperti perfar circolare il vapore. Inserire il",
+  "Unire nel boccale la pasta, l'acqua, il pepe e i 15 g di sale rimanenti, cuocere: 4 min./100°C//vel. 1. Posizionare il Varoma e cuocere: 6 min./100°C//vel.1. Togliere con attenzione il Varoma. Trasferire la pasta nella ciotola con l'olio al prezzemolo, aggiungere le cozze cotte e mescolare bene.",
+  "Dividere traipiatti da portata e servire."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di prezzemolo fresco, le foglioline lavate ed asciugate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 5,
+   "testo": "Aggiungete 5 g di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola capiente e mettete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 3 spicchi di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Unite 30 g di prezzemolo fresco, le foglioline lavate ed asciugate."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di polpa di pomodoro a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Nel frattempo, pesate 400 g di cozze surgelate (il muscolo), scongelate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Dividete uniformemente le cozze tra il vassoio e il recipiente del Varoma, assicurandovi che alcuni fori rimangano scoperti per far circolare il vapore. Inserite il vassoio sopra il recipiente del Varoma, chiudete con il coperchio e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Unite nel boccale 400 g di pasta secca, tipo penne rigate."
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Aggiungete 700 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Aggiungete 15 g di sale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 cucchiaini di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 240,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il Varoma sul boccale.",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete al vapore.",
+   "tempo_s": 360,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma. Trasferite la pasta nella ciotola con l'olio al prezzemolo, aggiungete le cozze cotte e mescolate bene."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Dividete tra i piatti da portata e servite."
+  }
+ ],
+ "origine": "cookidoo:r908918",
+ "importata": "2026-11-08"
+}
