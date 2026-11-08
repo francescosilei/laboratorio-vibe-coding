@@ -1,0 +1,236 @@
+{
+ "id": "waterzooi-zuppa-di-pesce-e-verdure",
+ "titolo": "Waterzooi (Zuppa di pesce e verdure)",
+ "categoria": "Primi",
+ "paese": "Belgio",
+ "dedotto": [
+  "categoria",
+  "paese"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "waterzooi-zuppa-di-pesce-e-verdure.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 mazzetto di prezzemolo fresco, le foglioline lavate ed asciugate",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "80 g di porro, a pezzi",
+   "nome": "porro"
+  },
+  {
+   "testo": "100 g di cipolla, in quarti",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "1 gambo di sedano, a pezzi (30 g circa)",
+   "nome": "sedano"
+  },
+  {
+   "testo": "50 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "500 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "100 g di carote, pelate e a tocchetti (1 cm circa)",
+   "nome": "carote"
+  },
+  {
+   "testo": "150 g di patate, pelate e a tocchetti (1 cm circa)",
+   "nome": "patate"
+  },
+  {
+   "testo": "1 cucchiaino raso di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "500 g di cozze fresche pulite",
+   "nome": "cozze"
+  },
+  {
+   "testo": "500 g di filetti di merluzzo fresco",
+   "nome": "merluzzo"
+  },
+  {
+   "testo": "200 g di panna (min. 30% di grassi)",
+   "nome": "panna"
+  },
+  {
+   "testo": "1 cucchiaio di succo di limone",
+   "nome": "succo limone"
+  },
+  {
+   "testo": "pane abbrustolito, q.b.",
+   "nome": "pane"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il prezzemolo, tritare: 3 sec./vel. 8. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale il porro, la cipolla e il sedano, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere il burro e insaporire: 5 min./120°C/vel. 1.",
+  "Unire l'acqua, le carote, le patate e il sale, posizionare il recipiente del Varoma e al suo interno le cozze, chiudere con il coperchio e cuocere: 15 min./Varoma//vel. . Nel frattempo, distribuire i filetti di merluzzo sul vassoio del Varoma. Togliere con attenzione il coperchio del Varoma e posizionare il vassoio, chiudere il Varoma con il coperchio e proseguire la cottura: 10 min./Varoma//vel. . Togliere con attenzione il Varoma, trasferire i filetti di merluzzo e le cozze in una zuppiera.",
+  "Aggiungere nel boccale la panna, il succo di limone e proseguire la cottura: 3 min./90°C//vel. ≤",
+  "Versare nella zuppiera il brodo e spolverizzare con il prezzemolo tritato.",
+  "Servire calda accompagnando a piacere con fette di pane abbrustolito imburrate."
+ ],
+ "note": [
+  "Il waterzooi è una zuppa tradizionale della gastronomia fiamminga.",
+  "Paese: su Cookidoo è «Italia», ma il waterzooi è belga (fiammingo): usato Belgio (dedotto)."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale il prezzemolo."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di porro, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di cipolla, in quarti."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 gambo di sedano, a pezzi (30 g circa)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di burro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Unite 500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di carote, pelate e a tocchetti (1 cm circa)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Aggiungete 150 g di patate, pelate e a tocchetti (1 cm circa)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino raso di sale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate nel recipiente del Varoma 500 g di cozze fresche pulite."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il recipiente del Varoma sul boccale e chiudete con il coperchio.",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete al vapore.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Nel frattempo, pesate 500 g di filetti di merluzzo fresco e distribuiteli sul vassoio del Varoma."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il coperchio del Varoma e posizionate il vassoio, chiudete il Varoma con il coperchio e proseguite la cottura.",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Proseguite la cottura al vapore.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma, trasferite i filetti di merluzzo e le cozze in una zuppiera."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete nel boccale 200 g di panna (min. 30% di grassi)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio di succo di limone."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Proseguite la cottura.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 90,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Versate nella zuppiera il brodo e spolverizzate con il prezzemolo tritato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calda accompagnando a piacere con fette di pane abbrustolito imburrate."
+  }
+ ],
+ "origine": "cookidoo:r399340",
+ "importata": "2026-11-08"
+}

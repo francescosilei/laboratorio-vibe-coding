@@ -1,0 +1,198 @@
+{
+ "id": "pasta-integrale-fagioli-e-cozze",
+ "titolo": "Pasta integrale fagioli e cozze",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pasta-integrale-fagioli-e-cozze.jpg",
+ "ingredienti": [
+  {
+   "testo": "250 g di cozze fresche, pulite",
+   "nome": "cozze"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "1 peperoncino piccante rosso, fresco",
+   "nome": "peperoncino"
+  },
+  {
+   "testo": "50 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "500 g di fagioli borlotti in scatola, lessati, sgocciolati",
+   "nome": "fagioli borlotti"
+  },
+  {
+   "testo": "1000 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "1 pizzico di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "200 g di pasta integrale, di frumento e farro (formato a piacere)",
+   "nome": "pasta integrale"
+  },
+  {
+   "testo": "prezzemolo tritato (opzionale), a piacere",
+   "nome": "prezzemolo"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato (opzionale)",
+   "nome": "pepe nero"
+  }
+ ],
+ "procedimento": [
+  "Bagnare e strizzare un doppio foglio di carta forno e rivestire il recipiente del Varoma. Distribuirvi allinterno le cozze, chiudere con il coperchio e tenere da parte.",
+  "Mettere nel boccale l'aglio e il peperoncino, tritare: 3 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire 250 g di fagioli, frullare: 10 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere il brodo vegetale, posizionare il Varoma e cuocere: 15 min./Varoma/vel. 1. Togliere con attenzione il coperchio del Varoma, capovolgerlo e poggiarvi sopra il recipiente. Sgusciare le cozze e trasferire i molluschi all'interno del boccale.",
+  "Aggiungere i fagioli rimasti e il sale, cuocere: 12 min./100°C//vel.",
+  "Unire la pasta e cuocere: il tempo indicato sulla confezione 100°C//vel. Trasferire la pasta in una zuppiera.",
+  "A piacere, spolverizzare con del prezzemolo tritato e una macinata di pepe. Servire calda."
+ ],
+ "note": [
+  "La pasta e fagioli è uno dei piatti tipici della cucina napoletana. Questa variante ischitana prevede l'aggiunta delle cozze, che danno un sapore particolare alla ricetta. Tradizionalmente, e chiaramente abitudine derivata dalla cucina popolare di un tempo, si usa prepararla con la \"pasta mischiata\", cioè con vari tipi di pasta."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Bagnate e strizzate un doppio foglio di carta forno e rivestite il recipiente del Varoma."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Pesate nel recipiente del Varoma 250 g di cozze fresche, pulite."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Distribuitevi all'interno le cozze, chiudete con il coperchio e tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 spicchio di aglio e 1 peperoncino piccante rosso, fresco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Unite 250 g di fagioli borlotti in scatola, lessati, sgocciolati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Aggiungete 1000 g di brodo vegetale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate il Varoma sul boccale.",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete al vapore.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il coperchio del Varoma, capovolgetelo e poggiatevi sopra il recipiente. Sgusciate le cozze e trasferite i molluschi all'interno del boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete i restanti 250 g di fagioli borlotti in scatola, lessati, sgocciolati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 pizzico di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 720,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Unite 200 g di pasta integrale, di frumento e farro (formato a piacere)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo è quello indicato sulla confezione della pasta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la pasta in una zuppiera."
+  },
+  {
+   "tipo": "testo",
+   "testo": "A piacere, spolverizzate con del prezzemolo tritato e una macinata di pepe nero. Servite calda."
+  }
+ ],
+ "origine": "cookidoo:r66969",
+ "importata": "2026-11-08"
+}

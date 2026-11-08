@@ -1,0 +1,193 @@
+{
+ "id": "pasta-e-patate-con-provola",
+ "titolo": "Pasta e patate con provola",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 60,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pasta-e-patate-con-provola.jpg",
+ "ingredienti": [
+  {
+   "testo": "80 g di carota, pelata e a pezzi",
+   "nome": "carota"
+  },
+  {
+   "testo": "60 g di sedano, a pezzi",
+   "nome": "sedano"
+  },
+  {
+   "testo": "50 g di cipolla, a pezzi",
+   "nome": "cipolla"
+  },
+  {
+   "testo": "50 g di olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "600 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "4 pomodori ciliegino, a metà",
+   "nome": "pomodori ciliegino"
+  },
+  {
+   "testo": "400 g di patate, pelate e a cubetti (1 cm circa)",
+   "nome": "patate"
+  },
+  {
+   "testo": "1 dado di brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "200 g di pasta mista",
+   "nome": "pasta"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "Parmigiano Reggiano grattugiato, a piacere",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "12 fette di provola",
+   "nome": "provola"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la carota, il sedano e la cipolla, tritare: 8 sec./vel. 5. Riunire sul",
+  "fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e insaporire: 3 min./120°C/vel. 1.",
+  "Unire l'acqua e i pomodorini, frullare: 30 sec./vel. 8.",
+  "Aggiungere il dado e le patate, cuocere: 10 min./100°C//vel. 1.",
+  "Unire la pasta e il sale, cuocere: il tempo indicato sulla confezione 100°C//vel. 1.",
+  "Nel frattempo, preriscaldare il forno a 200°C.",
+  "Trasferire la pasta e patate in 4 tegamini adatti al forno, spolverizzare con del",
+  "provola.",
+  "Cuocere in forno caldo per 15 minuti (180°C). Togliere con attenzione dal forno e",
+  "servire subito."
+ ],
+ "note": [
+  "Questa ricetta è stata postata da martyna95 sulla Community Bimby (www.ricettario-bimby.it)."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di carota, pelata e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Aggiungete 60 g di sedano, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di cipolla, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 8,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Unite 600 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 4 pomodori ciliegino, a metà."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 30,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 dado di brodo vegetale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di patate, pelate e a cubetti (1 cm circa)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Unite 200 g di pasta mista."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo è quello indicato sulla confezione della pasta."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, preriscaldate il forno a 200°C."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite la pasta e patate in 4 tegamini adatti al forno, spolverizzate con del Parmigiano Reggiano grattugiato e adagiate sopra ciascun tegamino 3 fette di provola (12 in tutto)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Cuocete in forno caldo per 15 minuti (180°C). Togliete con attenzione dal forno e servite subito.",
+   "attesa_s": 900
+  }
+ ],
+ "origine": "cookidoo:r242028",
+ "importata": "2026-11-08"
+}
