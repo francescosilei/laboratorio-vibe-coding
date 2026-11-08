@@ -21,6 +21,12 @@ Poi, senza altre letture:
 1. Per ogni ricetta «DA RIVEDERE»: correggi solo le righe segnalate (un ritaglio piccolo di `<lavoro>/<codice>/pagina.png` se serve),
    `python3 tools/importa.py aggiungi <lavoro>/<codice>.json --foto <lavoro>/<codice>/foto.jpg`. Duplicati: ignorali e dillo.
 2. Pubblica `dist/index.html` sull'artifact (stesso `file_path`) e, se hai corretto ricette, commit e push.
+   **Allineare GitHub Pages (obbligatorio, l'utente lo ha chiesto):** il sito `francescosilei.github.io/laboratorio-vibe-coding/`
+   si aggiorna solo con un merge su `main`. Dopo il commit e il push sul branch di lavoro: apri una pull request verso `main`
+   (se esiste già una PR aperta dallo stesso branch, il push la aggiorna), uniscila con `merge_pull_request` (merge commit),
+   poi controlla con `actions_list` che il workflow «Pubblica su GitHub Pages» parta e finisca in `success`.
+   Dopo il merge riparti da `origin/main`: `git fetch origin main && git checkout -B <branch> origin/main`.
+   Così artifact e sito pubblico hanno sempre le stesse ricette.
 3. Riepilogo breve in italiano. Non rileggere JSON o `dist/`, non aprire immagini intere, nessun controllo extra se non richiesto.
 
 Il resto di questo file descrive i singoli passi, utili solo per le ricette da rivedere.
