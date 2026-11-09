@@ -62,6 +62,8 @@ body {
 }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 40; background: var(--surface); }
 button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
+input, select, textarea { -webkit-user-select: text; user-select: text; -webkit-touch-callout: default; }
+@supports (-webkit-touch-callout: none) { input, select, textarea { font-size: 16px; } }   /* solo iOS: sotto i 16 px Safari zooma la pagina quando si tocca un campo */
 button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
 svg { display: block; }
 .ico { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
@@ -921,6 +923,8 @@ $('q').oninput = e => { S.q = e.target.value; renderList(); };
 $('paese').onchange = e => { S.paese = e.target.value; renderAll(); };
 $('favOnly').onclick = () => { S.solo = !S.solo; renderAll(); };
 $('reset').onclick = $('reset2').onclick = $('logo').onclick = resetAll;
+/* iOS (modalità app): se il tocco non porta da solo il focus nel campo, lo si dà esplicitamente nel gesto dell'utente */
+['q', 'ingIn'].forEach(id => { const el = $(id); el.addEventListener('touchend', () => { if (document.activeElement !== el) el.focus(); }, { passive: true }); });
 $('ingIn').onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); addIng(e.target.value); e.target.value = ''; } };
 $('ingIn').onchange = e => { if (e.target.value) { addIng(e.target.value); e.target.value = ''; } };
 const side = $('side'), scrim = $('scrim');
