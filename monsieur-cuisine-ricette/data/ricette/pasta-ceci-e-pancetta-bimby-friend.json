@@ -83,7 +83,7 @@
   {
    "tipo": "pesata",
    "g": 160,
-   "testo": "Pesate in una ciotola 160 g di pasta secca corta, a piacere (cottura 10 minuti), e tenete da parte."
+   "testo": "Pesate in una ciotola, sopra il coperchio del boccale, 160 g di pasta secca corta, a piacere (cottura 10 minuti), e tenete da parte: servirà per la prima cottura."
   },
   {
    "tipo": "pesata",
@@ -102,8 +102,7 @@
   },
   {
    "tipo": "testo",
-   "testo": "Aggiungete 1 rametto di rosmarino fresco, gli aghi lavati ed asciugati.",
-   "avvertenza": "La ricetta originale usa due boccali insieme (Bimby e Bimby Friend); sul Connect si prepara un boccale alla volta."
+   "testo": "Aggiungete 1 rametto di rosmarino fresco, gli aghi lavati ed asciugati."
   },
   {
    "tipo": "robot",
@@ -120,7 +119,7 @@
   {
    "tipo": "pesata",
    "g": 30,
-   "testo": "Pesate 30 g di olio extravergine di oliva (+ q.b.)."
+   "testo": "Aggiungete 30 g di olio extravergine di oliva (+ q.b.)."
   },
   {
    "tipo": "pesata",
@@ -137,12 +136,12 @@
   },
   {
    "tipo": "testo",
-   "testo": "Trasferite metà delle verdure insaporite in una ciotola e tenete da parte; la metà rimanente resta nel boccale."
+   "testo": "Dividete le verdure insaporite (con la pancetta) in due ciotole, metà in ciascuna: la ciotola A serve per la prima cottura, la B per la seconda. Il boccale deve restare vuoto."
   },
   {
    "tipo": "pesata",
    "g": 400,
-   "testo": "Pesate nel boccale 400 g di ceci lessi in scatola, sciacquati e sgocciolati."
+   "testo": "Pesate nel boccale vuoto 400 g di ceci lessi in scatola, sciacquati e sgocciolati."
   },
   {
    "tipo": "robot",
@@ -158,16 +157,16 @@
   },
   {
    "tipo": "testo",
-   "testo": "Trasferite metà del composto in una ciotola e tenete da parte per il secondo boccale."
+   "testo": "Trasferite metà del composto di ceci nella ciotola B, insieme alle verdure, e tenetela da parte per la seconda cottura. L'altra metà resta nel boccale."
   },
   {
    "tipo": "pesata",
    "g": 900,
-   "testo": "Aggiungete 900 g di acqua."
+   "testo": "Prima cottura: aggiungete nel boccale 900 g di acqua."
   },
   {
    "tipo": "testo",
-   "testo": "Aggiungete le verdure insaporite tenute da parte, 2 cucchiaini di dado per brodo vegetale e 2 pizzichi di pepe nero macinato."
+   "testo": "Aggiungete le verdure insaporite della ciotola A, 2 cucchiaini di dado per brodo vegetale e 2 pizzichi di pepe nero macinato."
   },
   {
    "tipo": "robot",
@@ -195,7 +194,7 @@
   },
   {
    "tipo": "testo",
-   "testo": "Mettete nel boccale il composto di ceci e le verdure con la pancetta tenuti da parte."
+   "testo": "Seconda cottura: mettete nel boccale il contenuto della ciotola B (verdure insaporite e metà del composto di ceci)."
   },
   {
    "tipo": "pesata",
@@ -229,13 +228,9 @@
    "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
   },
   {
-   "tipo": "testo",
-   "testo": "Trasferite il contenuto del boccale nella zuppiera."
-  },
-  {
    "tipo": "pesata",
    "g": 400,
-   "testo": "Pesate nel boccale 400 g di ceci lessi in scatola, sciacquati e sgocciolati."
+   "testo": "Senza svuotare il boccale, aggiungete 400 g di ceci lessi in scatola, sciacquati e sgocciolati."
   },
   {
    "tipo": "robot",
@@ -243,11 +238,12 @@
    "tempo_s": 60,
    "velocita": 1,
    "temp_c": 100,
-   "sinistrorsa": true
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
   },
   {
    "tipo": "testo",
-   "testo": "Trasferite nella zuppiera con la pasta e amalgamate."
+   "testo": "Trasferite nella zuppiera con la pasta della prima cottura e amalgamate."
   },
   {
    "tipo": "testo",
