@@ -1,0 +1,97 @@
+{
+ "id": "pure-di-sedano-rapa",
+ "titolo": "Pure di sedano rapa",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "Di stagione",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pure-di-sedano-rapa.jpg",
+ "ingredienti": [
+  {
+   "testo": "600 g di sedano rapa, a fette sottili (0.5 cm)",
+   "nome": "sedano rapa"
+  },
+  {
+   "testo": "400 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "100 g di burro, a pezzi",
+   "nome": "burro"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe bianco macinato",
+   "nome": "pepe bianco"
+  },
+  {
+   "testo": "1 pizzico di noce moscata in polvere",
+   "nome": "noce moscata"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il sedano rapa, il latte e il burro, cuocere: 24 min./100°C/vel. 1 posizionando il cestello al posto del misurino per evitare schizzi.",
+  "Aggiungere il sale, il pepe bianco e la noce moscata, posizionare il misurino e frullare: 1 min./vel.8.",
+  "Trasferire in una ciotola capiente e servire il pure caldo o tiepido."
+ ],
+ "note": [
+  "Se si desidera un pure più denso prolungare la cottura di ulteriori 6 minuti al",
+  "passaggio 1.",
+  "Pure di sedano rapa vegano: sostituire il latte vaccino con bevanda di soia o acqua."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate nel boccale 600 g di sedano rapa, a fette sottili (0.5 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di latte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di burro, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1440,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "posizionando il cestello al posto del misurino per evitare schizzi"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale, 1 pizzico di pepe bianco macinato, 1 pizzico di noce moscata in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola capiente e servite il pure caldo o tiepido."
+  }
+ ],
+ "origine": "cookidoo:r102914",
+ "importata": "2026-11-10"
+}

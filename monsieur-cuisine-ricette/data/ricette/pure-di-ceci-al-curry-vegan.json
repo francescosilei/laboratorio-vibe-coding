@@ -1,0 +1,127 @@
+{
+ "id": "pure-di-ceci-al-curry-vegan",
+ "titolo": "Pure di ceci al curry (vegan)",
+ "categoria": "Contorni",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": null,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pure-di-ceci-al-curry-vegan.jpg",
+ "ingredienti": [
+  {
+   "testo": "1 scalogno, a metà",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "1 rametto di rosmarino fresco, gli aghi lavati",
+   "nome": "rosmarino"
+  },
+  {
+   "testo": "1 cucchiaino di alghe wakame essiccate, a pezzi piccoli",
+   "nome": "alghe wakame"
+  },
+  {
+   "testo": "30 g di olio di sesamo",
+   "nome": "olio sesamo"
+  },
+  {
+   "testo": "250 g di ceci in scatola, ben scolati",
+   "nome": "ceci"
+  },
+  {
+   "testo": "½ cucchiaino di curry in polvere",
+   "nome": "curry"
+  },
+  {
+   "testo": "2 pizzichi di sale, preferibilmente integrale",
+   "nome": "sale"
+  },
+  {
+   "testo": "230 g di acqua",
+   "nome": "acqua"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale lo scalogno, il rosmarino e l'alga Wakame, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Unire l'olio di sesamo ed insaporire: 3 min./120°C/vel. 1.",
+  "Aggiungere i ceci, il curry, il sale e l'acqua, cuocere: 20 min./100°C/vel. 1, poi frullare: 40 sec./vel. 8.",
+  "Servire subito."
+ ],
+ "note": [
+  "La fonte indica «1 ricetta completa» al posto delle porzioni."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 1 scalogno, a metà, 1 rametto di rosmarino fresco (gli aghi lavati) e 1 cucchiaino di alghe wakame essiccate, a pezzi piccoli."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Unite 30 g di olio di sesamo."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di ceci in scatola, ben scolati."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaino di curry in polvere e 2 pizzichi di sale, preferibilmente integrale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 230,
+   "testo": "Aggiungete 230 g di acqua."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 40,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito."
+  }
+ ],
+ "origine": "cookidoo:r125338",
+ "importata": "2026-11-10"
+}

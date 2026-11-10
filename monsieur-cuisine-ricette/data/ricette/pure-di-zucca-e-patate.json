@@ -1,0 +1,202 @@
+{
+ "id": "pure-di-zucca-e-patate",
+ "titolo": "Purè di zucca e patate",
+ "categoria": "Contorni",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 30,
+ "tempo_cottura_min": null,
+ "tempo_min": 90,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pure-di-zucca-e-patate.jpg",
+ "ingredienti": [
+  {
+   "testo": "10 fette di bacon affumicato",
+   "nome": "bacon"
+  },
+  {
+   "testo": "60 g di scalogno, a pezzi",
+   "nome": "scalogno"
+  },
+  {
+   "testo": "2 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "15 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "700 g di patate a pasta farinosa, pelate e a dadini (1 cm circa)",
+   "nome": "patate"
+  },
+  {
+   "testo": "200 g di polpa di zucca, a dadini (1 cm circa)",
+   "nome": "zucca"
+  },
+  {
+   "testo": "140 g di brodo vegetale",
+   "nome": "brodo vegetale"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 rametto di timo fresco, le foglioline lavate + q.b.",
+   "nome": "timo"
+  },
+  {
+   "testo": "½ cucchiaino di zenzero secco macinato",
+   "nome": "zenzero"
+  },
+  {
+   "testo": "¼ di cucchiaino di cannella in polvere",
+   "nome": "cannella"
+  },
+  {
+   "testo": "1 pizzico di noce moscata in polvere (opzionale)",
+   "nome": "noce moscata"
+  },
+  {
+   "testo": "60 g di panna acida (creme fraiche)",
+   "nome": "panna acida"
+  },
+  {
+   "testo": "30 g di burro, a pezzi",
+   "nome": "burro"
+  },
+  {
+   "testo": "1 cucchiaio di sciroppo di acero (opzionale)",
+   "nome": "sciroppo acero"
+  }
+ ],
+ "procedimento": [
+  "Preriscaldare il forno a 200°C. Foderare una teglia con carta alluminio e sistemarvi sopra il bacon e tenere da parte.",
+  "Mettere nel boccale lo scalogno, 'aglio e 15 g di burro, tritare: 3 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Insaporire: 5 min./120°C/vel. 1 con il cestello al posto del misurino.",
+  "Aggiungere le patate, la zucca, il brodo, il sale, il timo, lo zenzero, la cannella e la noce moscata, cuocere: 20 min./100°C/vel. con il cestello al posto del misurino. Nel frattempo, cuocere il bacon in forno caldo per 8-10 minuti (200°C).",
+  "Unire la panna acida, 30 g di burro e lo sciroppo di acero, frullare: 30 sec./vel. 7. Togliere con attenzione la pancetta dal forno e tagliarla a striscioline.",
+  "Trasferire il pure nei piatti, guarnire con il bacon e il timo.",
+  "Servire caldo."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Preriscaldate il forno a 200°C."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Foderate una teglia con carta alluminio, sistemateci sopra 10 fette di bacon affumicato e teneteli da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate nel boccale 60 g di scalogno, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 spicchi di aglio."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Aggiungete 15 g di burro."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite con il cestello al posto del misurino.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 700,
+   "testo": "Aggiungete 700 g di patate a pasta farinosa, pelate e a dadini (1 cm circa)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di polpa di zucca, a dadini (1 cm circa)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 140,
+   "testo": "Aggiungete 140 g di brodo vegetale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale, le foglioline di 1 rametto di timo fresco, ½ cucchiaino di zenzero secco macinato, ¼ di cucchiaino di cannella in polvere e 1 pizzico di noce moscata in polvere (opzionale)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete con il cestello al posto del misurino.",
+   "tempo_s": 1200,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Nel frattempo, cuocete il bacon in forno caldo per 8-10 minuti (200°C).",
+   "attesa_s": 480
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Unite 60 g di panna acida (creme fraiche)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di burro, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaio di sciroppo di acero (opzionale)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 30,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "nota": "Frullare: partite da velocità bassa e aumentate gradualmente fino alla velocità indicata."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il bacon dal forno e tagliatelo a striscioline."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il purè nei piatti, guarnite con il bacon e le foglioline di timo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite caldo."
+  }
+ ],
+ "origine": "cookidoo:r450371",
+ "importata": "2026-11-10"
+}
