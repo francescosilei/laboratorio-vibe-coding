@@ -1,0 +1,137 @@
+{
+ "id": "pure-di-fagioli-alla-paprika",
+ "titolo": "Pure di fagioli alla paprika",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 25,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pure-di-fagioli-alla-paprika.jpg",
+ "ingredienti": [
+  {
+   "testo": "65 g di cipollotto, a pezzi",
+   "nome": "cipollotto"
+  },
+  {
+   "testo": "15 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "500 g di fagioli bianchi di Spagna",
+   "nome": "fagioli bianchi spagna"
+  },
+  {
+   "testo": "35 g di succo di limone, spremuto fresco e filtrato",
+   "nome": "succo limone"
+  },
+  {
+   "testo": "1 cucchiaino di paprika dolce (+ q.b.)",
+   "nome": "paprika dolce"
+  },
+  {
+   "testo": "1 cucchiaino di salsa tahini",
+   "nome": "salsa tahini"
+  },
+  {
+   "testo": "½ cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "erba cipollina fresca, tritata q.b.",
+   "nome": "erba cipollina"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il cipollotto, l'olio extravergine di oliva e l'aglio, tritare: 3 sec./vel.7. Riunire sul fondo con la spatola.",
+  "Insaporire: 5 min./100°C/vel. s.",
+  "Aggiungere i fagioli, il succo di limone, la paprika la salsa tahin e il sale, frullare: 10 sec./vel.3.Riunire sul fondo con la spatola.",
+  "Scaldare: 5 min./100°C/vel. 1.",
+  "Servire spolverizzando con paprika e erba cipollina."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 65,
+   "testo": "Pesate nel boccale 65 g di cipollotto, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 15,
+   "testo": "Aggiungete 15 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di fagioli bianchi di Spagna."
+  },
+  {
+   "tipo": "pesata",
+   "g": 35,
+   "testo": "Aggiungete 35 g di succo di limone, spremuto fresco e filtrato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di paprika dolce (+ q.b.), ½ cucchiaino di sale, 1 cucchiaino di salsa tahini."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 10,
+   "velocita": 3,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola"
+  },
+  {
+   "tipo": "robot",
+   "testo": "Scaldate.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite spolverizzando con paprika e erba cipollina."
+  }
+ ],
+ "origine": "cookidoo:r445839",
+ "importata": "2026-11-10"
+}

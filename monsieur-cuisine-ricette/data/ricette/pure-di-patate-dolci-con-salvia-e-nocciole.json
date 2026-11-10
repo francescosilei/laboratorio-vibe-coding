@@ -1,0 +1,140 @@
+{
+ "id": "pure-di-patate-dolci-con-salvia-e-nocciole",
+ "titolo": "Pure di patate dolci con salvia e nocciole",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 30,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pure-di-patate-dolci-con-salvia-e-nocciole.jpg",
+ "ingredienti": [
+  {
+   "testo": "6 - 8 foglie di salvia fresca",
+   "nome": "salvia"
+  },
+  {
+   "testo": "1 spicchio di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "100 g di burro, a pezzi",
+   "nome": "burro"
+  },
+  {
+   "testo": "800 g di acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1000 g di patate americane dolci, pelate e a cubetti (2 cm)",
+   "nome": "patate americane dolci"
+  },
+  {
+   "testo": "30 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "2 pizzichi di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "50 g di nocciole tostate, tritate",
+   "nome": "nocciole tostate"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale la salvia, l'aglio e il burro, tritare: 5 sec./vel. 5. Riunire sul fondo con la spatola. Insaporire: 5 min./100°C/vel. 1. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale l'acqua e le patate dolci, cuocere: 15-18 min./100°C//vel. s. Scolare le patate attraverso il recipiente del Varoma e rimetterle nel boccale.",
+  "Aggiungere il latte, 60 g del burro aromatizzato tenuto da parte, il sale e il pepe, frullare: 20 sec./vel. 6. Trasferire in una ciotola da portata, mantecare con il restante burro, cospargere con le nocciole tritate e servire."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate nel boccale 100 g di burro, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 6 - 8 foglie di salvia fresca, 1 spicchio di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 5,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 800,
+   "testo": "Pesate nel boccale 800 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Aggiungete 1000 g di patate americane dolci, pelate e a cubetti (2 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. La ricetta indica 15-18 minuti: il timer è impostato a 15."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di latte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete burro (messo da parte), 1 cucchiaino di sale, 2 pizzichi di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 20,
+   "velocita": 6,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate 50 g di nocciole tostate, tritate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola da portata, mantecate con il restante burro, cospargete con le nocciole tritate e servite."
+  }
+ ],
+ "origine": "cookidoo:r907915",
+ "importata": "2026-11-10"
+}
