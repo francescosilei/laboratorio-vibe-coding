@@ -1,0 +1,110 @@
+{
+ "id": "pure-di-patate",
+ "titolo": "Pure di patate",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pure-di-patate.jpg",
+ "ingredienti": [
+  {
+   "testo": "1000 g di patate a pasta farinosa, pelate e a fette (0.5 cm)",
+   "nome": "patate"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "350 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "30 g di burro, a pezzi",
+   "nome": "burro"
+  },
+  {
+   "testo": "1-2 pizzichi di noce moscata grattugiata",
+   "nome": "noce moscata"
+  }
+ ],
+ "procedimento": [
+  "Posizionare la farfalla. Mettere nel boccale le patate, il sale e il latte, cuocere: 40 min./95c/vel. 1. Controllare la cottura delle patate e, se necessario, prolungare: 5 min./95°C/vel. 1.",
+  "Aggiungere il burro e la noce moscata e montare: 30 sec./vel. 4. Togliere la farfalla e servire caldo."
+ ],
+ "note": [
+  "Un risultato migliore si ottiene utilizzando patate farinose.",
+  "I tempi indicati possono essere modificati in base alla varieta delle patate e alla",
+  "consistenza finale che sivuole ottenere.",
+  "Si consiglia di controllare che le patate siano molto tenere prima di montare. Se non",
+  "risultano abbastanza tenere, cuocere per altri 5 minuti.",
+  "Se sipreferisce una consistenza del pure più grossolana, montare solamente: 15-20",
+  "sec./vel.3 al passaggio 2.",
+  "E possibile preparare un pure al Parmigiano Reggiano, riducendo la quantità di sale a",
+  "/2 cucchiaino e aggiungendo 30 g di Parmigiano Reggiano grattugiato al passaggio 2."
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Posizionate la farfalla."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Pesate nel boccale 1000 g di patate a pasta farinosa, pelate e a fette (0.5 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 350,
+   "testo": "Aggiungete 350 g di latte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 2400,
+   "velocita": 1,
+   "temp_c": 95,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 95,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di burro, a pezzi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1-2 pizzichi di noce moscata grattugiata."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate il robot.",
+   "tempo_s": 30,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete la farfalla e servite caldo."
+  }
+ ],
+ "origine": "cookidoo:r54743",
+ "importata": "2026-11-10"
+}

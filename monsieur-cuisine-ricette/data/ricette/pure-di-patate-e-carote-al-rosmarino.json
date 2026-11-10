@@ -1,0 +1,128 @@
+{
+ "id": "pure-di-patate-e-carote-al-rosmarino",
+ "titolo": "Pure di patate e carote al rosmarino",
+ "categoria": "NA",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 45,
+ "porzioni": 6,
+ "difficolta": "Festa del ringraziamento",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pure-di-patate-e-carote-al-rosmarino.jpg",
+ "ingredienti": [
+  {
+   "testo": "550 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "200 g di carota, a pezzi (circa 2-3 cm)",
+   "nome": "carota"
+  },
+  {
+   "testo": "500 g di patate americane dolci, pelate e a pezzi (circa 2-3 cm)",
+   "nome": "patate americane dolci"
+  },
+  {
+   "testo": "500 g patata, a pezzi (circa 2-3 cm)",
+   "nome": "patata"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 - 2 pizzichi di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "2 - 3 pizzichi di rosmarino secco in polvere (+ q.b.)",
+   "nome": "rosmarino secco"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva (+ q.b.)",
+   "nome": "olio extravergine oliva"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale 5oo g di acqua. Inserire il cestello e pesare le carote al suo interno. Posizionare il recipiente del Varoma, pesare le patate dolci e le patate, chiudere con il coperchio e cuocere a vapore: 30 min./Varoma/vel. 1. Togliere con attenzione il Varoma e rimuovere il cestello con l'aiuto della spatola. Svuotare il boccale.",
+  "Posizionare la farfalla. Mettere nel boccale le verdure cotte al vapore, il sale, il pepe nero, il rosmarino e l'olio extravergine di oliva e 50 g di acqua, montare: 30 sec./vel.3.5. Togliere la farfalla. Trasferire in una ciotola da portata, cospargere con il rosmarino, irrorare con olio extravergine di oliva e servire."
+ ],
+ "note": [
+  "Servire come contorno con carne, pesce o uova mollet.",
+  "Per una consistenza più omogenea, montare altri 15-20 secondi al passaggio 2.",
+  "Aggiungere 100-150 g di mozzarella grattugiata o altro formaggio al passo 2."
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 550,
+   "testo": "Pesate nel boccale 550 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di carota, a pezzi (circa 2-3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate 500 g di patata, a pezzi (circa 2-3 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Aggiungete 500 g di patate americane dolci, pelate e a pezzi (circa 2-3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma e rimuovete il cestello con l'aiuto della spatola."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Svuotate il boccale."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate la farfalla."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva (+ q.b.)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale, 1 - 2 pizzichi di pepe nero macinato, 2 - 3 pizzichi di rosmarino secco in polvere (+ q.b.)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Impostate il robot.",
+   "tempo_s": 30,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete la farfalla."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola da portata, cospargete con il rosmarino, irrorate con olio extravergine di oliva e servite."
+  }
+ ],
+ "origine": "cookidoo:r751023",
+ "importata": "2026-11-10"
+}

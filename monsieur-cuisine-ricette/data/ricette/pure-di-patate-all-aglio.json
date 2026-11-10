@@ -1,0 +1,158 @@
+{
+ "id": "pure-di-patate-all-aglio",
+ "titolo": "Pure di patate all'aglio",
+ "categoria": "Contorni",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 6,
+ "difficolta": "Presente anche in",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pure-di-patate-all-aglio.jpg",
+ "ingredienti": [
+  {
+   "testo": "2 - 3 spicchi di aglio",
+   "nome": "aglio"
+  },
+  {
+   "testo": "60 g di burro, a temperatura ambiente",
+   "nome": "burro"
+  },
+  {
+   "testo": "1000 g di patate a pasta farinosa, pelate e a pezzi",
+   "nome": "patate"
+  },
+  {
+   "testo": "280 g di latte intero",
+   "nome": "latte"
+  },
+  {
+   "testo": "115 g di panna (min. 30% di grassi)",
+   "nome": "panna"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "115 g di panna acida",
+   "nome": "panna acida"
+  },
+  {
+   "testo": "1 cucchiaino di pepe nero macinato",
+   "nome": "pepe nero"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'aglio e tritare: 3 sec./vel. 8. Riunire sul fondo con la spatola.",
+  "Aggiungere 30 g di burro e insaporire: 5 min./120°C/vel. 1",
+  "Posizionare la farfalla. Unire le patate, il latte, la panna e il sale, cuocere: 30 min./95°C/vel. 1. Se necessario, prolungare la cottura: 5-10 min./95°C/vel. 1. Togliere la farfalla.",
+  "Aggiungere i restanti 30 g di burro,la panna acida e il pepe, amalgamare: 1 min./vel.3. Lasciare riposare nel boccale 5 minuti.",
+  "Servire caldo."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Mettete nel boccale 2-3 spicchi di aglio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 3,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di burro, a temperatura ambiente."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Posizionate la farfalla."
+  },
+  {
+   "tipo": "pesata",
+   "g": 1000,
+   "testo": "Unite 1000 g di patate a pasta farinosa, pelate e a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 280,
+   "testo": "Aggiungete 280 g di latte intero."
+  },
+  {
+   "tipo": "pesata",
+   "g": 115,
+   "testo": "Aggiungete 115 g di panna (min. 30% di grassi)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1800,
+   "velocita": 1,
+   "temp_c": 95,
+   "sinistrorsa": false,
+   "nota": "Se necessario, prolungate la cottura di 5-10 minuti a 95 °C, velocità 1."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete la farfalla."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete i restanti 30 g di burro, a temperatura ambiente."
+  },
+  {
+   "tipo": "pesata",
+   "g": 115,
+   "testo": "Aggiungete 115 g di panna acida."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Amalgamate.",
+   "tempo_s": 60,
+   "velocita": 3,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Lasciate riposare nel boccale 5 minuti.",
+   "attesa_s": 300
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite caldo."
+  }
+ ],
+ "origine": "cookidoo:r425919",
+ "importata": "2026-11-10"
+}

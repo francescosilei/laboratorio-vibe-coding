@@ -1,0 +1,114 @@
+{
+ "id": "pure-di-patate-e-bacon-al-curry",
+ "titolo": "Pure di patate e bacon al curry",
+ "categoria": "NA",
+ "paese": "India",
+ "dedotto": [
+  "paese"
+ ],
+ "tempo_prep_min": 5,
+ "tempo_cottura_min": null,
+ "tempo_min": 40,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pure-di-patate-e-bacon-al-curry.jpg",
+ "ingredienti": [
+  {
+   "testo": "150 g di pancetta di maiale, a listarelle",
+   "nome": "pancetta maiale"
+  },
+  {
+   "testo": "260 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "750 g di patate farinose, pelate e a pezzi (2 cm)",
+   "nome": "patate farinose"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "30 g di burro",
+   "nome": "burro"
+  },
+  {
+   "testo": "1 cucchiaino di curry in polvere",
+   "nome": "curry"
+  }
+ ],
+ "procedimento": [
+  "Posizionare la farfalla. Mettere nel boccale la pancetta e cuocere: 7 min./120°C/vel. 1.",
+  "Aggiungere il latte, le patate e il sale, cuocere: 25 min./100°C/vel. 2 con il cestello al posto delmisurino per evitare gli schizzi.",
+  "Unire il burro, il curry, posizionare il misurino e montare: 30 sec./vel. 3.",
+  "Servire caldo."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "Posizionate la farfalla."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di pancetta di maiale, a listarelle."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 420,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 260,
+   "testo": "Pesate 260 g di latte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 750,
+   "testo": "Aggiungete 750 g di patate farinose, pelate e a pezzi (2 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 1500,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": false,
+   "nota": "Con il cestello al posto delmisurino per evitare gli schizzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate 30 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di curry in polvere."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Posizionate.",
+   "tempo_s": 30,
+   "velocita": 3,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite caldo."
+  }
+ ],
+ "origine": "cookidoo:r91927",
+ "importata": "2026-11-10"
+}
