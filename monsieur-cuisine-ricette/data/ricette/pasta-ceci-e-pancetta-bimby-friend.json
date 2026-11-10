@@ -9,7 +9,7 @@
  "tempo_prep_min": 5,
  "tempo_cottura_min": null,
  "tempo_min": 45,
- "porzioni": 8,
+ "porzioni": 4,
  "difficolta": "Facile",
  "fonte": "Cookidoo (Vorwerk)",
  "immagine": "pasta-ceci-e-pancetta-bimby-friend.jpg",
@@ -43,47 +43,42 @@
    "nome": "pancetta"
   },
   {
-   "testo": "800 g di ceci lessi in scatola, sciacquati e sgocciolati",
+   "testo": "400 g di ceci lessi in scatola, sciacquati e sgocciolati",
    "nome": "ceci lessi"
   },
   {
-   "testo": "1800 g di acqua",
+   "testo": "900 g di acqua",
    "nome": "acqua"
   },
   {
-   "testo": "4 cucchiaini di dado per brodo vegetale",
+   "testo": "2 cucchiaini di dado per brodo vegetale",
    "nome": "dado"
   },
   {
-   "testo": "4 pizzichi di pepe nero macinato",
+   "testo": "2 pizzichi di pepe nero macinato",
    "nome": "pepe nero"
-  },
-  {
-   "testo": "160 g di pasta secca corta, tipo ditalini (cottura 10 minuti, vedere consigli)",
-   "nome": "pasta secca corta"
   }
  ],
  "procedimento": [
-  "Posizionare una ciotola sul coperchio del boccale di Bimby, pesarvi 160 g di pasta secca cortae tenere da parte.",
-  "Mettere nel boccale di Bimby il sedano, la carota, la cipolla e il rosmarino, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
-  "Aggiungere l'olio extravergine di oliva e la pancetta, insaporire con il cestello al posto del misurino: 8 min./120°C/vel. 1. Trasferire la metà delle verdure insaporite nel secondo boccale e la metà rimanente in una ciotola. Riposizionare il boccale in Bimby.",
-  "Mettere nel boccale di Bimby 400 g di ceci e frullare: 5 sec./vel. 5. Riunire sul fondo",
-  "Aggiungere nel boccale di Bimby 900 g di acqua, la pancetta e le verdure insaporite tenute da parte, 2 cucchiaini di dado vegetale e 2 pizzichi di pepe. Togliere il boccale da Bimby e posizionarlo in Bimby Friend. Posizionare il cestello al posto del misurino e impostare 15 min./100°C/vel. 1.",
-  "Posizionare il secondo boccale con le verdure e la pancetta insaporite in Bimby. Aggiungere 900 g di acqua, 2 cucchiaini di dado vegetale e 2 pizzichi di pepe, cuocere con il cestello al posto del misurino: 15 min./100°C/vel. 1. Quando Bimby Friend suona, unire la pasta pesata in precedenza in Bimby Friend e impostare con il cestello al posto del misurino 10 min./100°C/vel. 1.",
-  "Unire nel boccale di Bimby 160 g di pasta e cuocere: 10 min./100°C//vel. 1 con il cestello al posto del misurino. Quando Bimby Friend suona, trasferire il contenuto del boccale in una zuppiera e tenere in caldo.",
-  "Aggiungere nel boccale di Bimby 4oo g di ceci e cuocere con il cestello al posto del misurino: 1 min./100°C//vel. 1. Trasferire nella zuppiera con la pasta e amalgamare.",
-  "Servire irrorando con un filo di olio extravergine di oliva."
+  "Pesare in una ciotola, sopra il coperchio del boccale, 160 g di pasta secca corta e tenere da parte.",
+  "Mettere nel boccale il sedano, la carota, la cipolla e il rosmarino, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Aggiungere l'olio extravergine di oliva e la pancetta, insaporire con il cestello al posto del misurino: 8 min./120°C/vel. 1.",
+  "Trasferire metà delle verdure insaporite in una ciotola e tenere da parte; l'altra metà resta nel boccale.",
+  "Aggiungere 400 g di ceci e frullare: 5 sec./vel. 5. Riunire sul fondo con la spatola.",
+  "Aggiungere 900 g di acqua, le verdure insaporite tenute da parte, 2 cucchiaini di dado vegetale e 2 pizzichi di pepe, cuocere con il cestello al posto del misurino: 15 min./100°C/vel. 1.",
+  "Unire la pasta pesata in precedenza e cuocere con il cestello al posto del misurino: 10 min./100°C/vel. 1.",
+  "Trasferire in una zuppiera e servire irrorando con un filo di olio extravergine di oliva."
  ],
  "note": [
+  "Adattata per un solo boccale e 4 persone: la ricetta originale usa due boccali in parallelo (Bimby e Bimby Friend) per 8 persone.",
   "È possibile aggiustare manualmente il tempo di cottura della pasta seguendo le indicazioni di cottura riportate sulla confezione.",
-  "Per una pasta e ceci più asciutta diminuire l'acqua a 1600 g (800 g per boccale).",
-  "La ricetta originale usa due boccali in parallelo (Bimby e Bimby Friend): sul Connect si prepara in due volte, quindi il tempo totale è superiore a quello indicato."
+  "Per una pasta e ceci più asciutta diminuire l'acqua a 800 g."
  ],
  "passi": [
   {
    "tipo": "pesata",
    "g": 160,
-   "testo": "Pesate in una ciotola, sopra il coperchio del boccale, 160 g di pasta secca corta, a piacere (cottura 10 minuti), e tenete da parte: servirà per la prima cottura."
+   "testo": "Pesate in una ciotola, sopra il coperchio del boccale, 160 g di pasta secca corta, a piacere (cottura 10 minuti), e tenete da parte."
   },
   {
    "tipo": "pesata",
@@ -136,12 +131,12 @@
   },
   {
    "tipo": "testo",
-   "testo": "Dividete le verdure insaporite (con la pancetta) in due ciotole, metà in ciascuna: la ciotola A serve per la prima cottura, la B per la seconda. Il boccale deve restare vuoto."
+   "testo": "Trasferite metà delle verdure insaporite (con la pancetta) in una ciotola e tenetela da parte. L'altra metà resta nel boccale."
   },
   {
    "tipo": "pesata",
    "g": 400,
-   "testo": "Pesate nel boccale vuoto 400 g di ceci lessi in scatola, sciacquati e sgocciolati."
+   "testo": "Aggiungete nel boccale 400 g di ceci lessi in scatola, sciacquati e sgocciolati."
   },
   {
    "tipo": "robot",
@@ -156,17 +151,13 @@
    "testo": "Riunite sul fondo con la spatola."
   },
   {
-   "tipo": "testo",
-   "testo": "Trasferite metà del composto di ceci nella ciotola B, insieme alle verdure, e tenetela da parte per la seconda cottura. L'altra metà resta nel boccale."
-  },
-  {
    "tipo": "pesata",
    "g": 900,
-   "testo": "Prima cottura: aggiungete nel boccale 900 g di acqua."
+   "testo": "Aggiungete 900 g di acqua."
   },
   {
    "tipo": "testo",
-   "testo": "Aggiungete le verdure insaporite della ciotola A, 2 cucchiaini di dado per brodo vegetale e 2 pizzichi di pepe nero macinato."
+   "testo": "Aggiungete le verdure insaporite tenute da parte (non frullate), 2 cucchiaini di dado per brodo vegetale e 2 pizzichi di pepe nero macinato."
   },
   {
    "tipo": "robot",
@@ -186,68 +177,12 @@
    "tempo_s": 600,
    "velocita": 1,
    "temp_c": 100,
-   "sinistrorsa": false
-  },
-  {
-   "tipo": "testo",
-   "testo": "Trasferite il contenuto del boccale in una zuppiera e tenete in caldo."
-  },
-  {
-   "tipo": "testo",
-   "testo": "Seconda cottura: mettete nel boccale il contenuto della ciotola B (verdure insaporite e metà del composto di ceci)."
-  },
-  {
-   "tipo": "pesata",
-   "g": 900,
-   "testo": "Aggiungete 900 g di acqua."
-  },
-  {
-   "tipo": "testo",
-   "testo": "Aggiungete 2 cucchiaini di dado per brodo vegetale e 2 pizzichi di pepe nero macinato."
-  },
-  {
-   "tipo": "robot",
-   "testo": "Cuocete con il cestello al posto del misurino.",
-   "tempo_s": 900,
-   "velocita": 1,
-   "temp_c": 100,
-   "sinistrorsa": false
-  },
-  {
-   "tipo": "pesata",
-   "g": 160,
-   "testo": "Aggiungete 160 g di pasta secca corta, tipo ditalini (cottura 10 minuti)."
-  },
-  {
-   "tipo": "robot",
-   "testo": "Cuocete con il cestello al posto del misurino.",
-   "tempo_s": 600,
-   "velocita": 1,
-   "temp_c": 100,
-   "sinistrorsa": true,
-   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
-  },
-  {
-   "tipo": "pesata",
-   "g": 400,
-   "testo": "Senza svuotare il boccale, aggiungete 400 g di ceci lessi in scatola, sciacquati e sgocciolati."
-  },
-  {
-   "tipo": "robot",
-   "testo": "Cuocete con il cestello al posto del misurino.",
-   "tempo_s": 60,
-   "velocita": 1,
-   "temp_c": 100,
    "sinistrorsa": true,
    "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
   },
   {
    "tipo": "testo",
-   "testo": "Trasferite nella zuppiera con la pasta della prima cottura e amalgamate."
-  },
-  {
-   "tipo": "testo",
-   "testo": "Servite irrorando con un filo di olio extravergine di oliva."
+   "testo": "Trasferite in una zuppiera e servite irrorando con un filo di olio extravergine di oliva."
   }
  ],
  "origine": "cookidoo:r794971",
