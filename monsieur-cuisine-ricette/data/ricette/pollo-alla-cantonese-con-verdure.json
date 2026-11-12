@@ -1,0 +1,182 @@
+{
+ "id": "pollo-alla-cantonese-con-verdure",
+ "titolo": "Pollo alla Cantonese con verdure",
+ "categoria": "Secondi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 25,
+ "porzioni": 6,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "pollo-alla-cantonese-con-verdure.jpg",
+ "ingredienti": [
+  {
+   "testo": "6 sovracosce di pollo disossate e senza pelle, a pezzi (2-3 cm)",
+   "nome": "pollo"
+  },
+  {
+   "testo": "2 cucchiai di amido di mais (maizena)",
+   "nome": "amido mais"
+  },
+  {
+   "testo": "1 cucchiaio colmo di\"cinque spezie cinesi\" in, polvere",
+   "nome": "spezie"
+  },
+  {
+   "testo": "4 cucchiaiolio di semi di girasole",
+   "nome": "semi"
+  },
+  {
+   "testo": "150 g di cipollotti, a pezzi",
+   "nome": "cipollotti"
+  },
+  {
+   "testo": "100 g di peperone rosso, a pezzi",
+   "nome": "peperone rosso"
+  },
+  {
+   "testo": "100 g di peperone verde",
+   "nome": "peperone verde"
+  },
+  {
+   "testo": "50 g di caramello liquido",
+   "nome": "caramello"
+  },
+  {
+   "testo": "50 g di aceto di riso",
+   "nome": "aceto riso"
+  },
+  {
+   "testo": "50 g di salsa di soia",
+   "nome": "salsa soia"
+  },
+  {
+   "testo": "25 g di salsa di ostriche",
+   "nome": "salsa ostriche"
+  },
+  {
+   "testo": "30 g di salsa di pesce",
+   "nome": "salsa pesce"
+  },
+  {
+   "testo": "1 cucchiaino di pepe macinato",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "In una ciotola mescolare bene il pollo con l'amido di mais e le spezie cinesi. Tenere da parte.",
+  "In una padella antiaderente o in una wok (vedere consigli) scaldare 4 cucchiai di olio di semi di girasole e scottare il pollo. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale i cipollotti, il peperone rosso e il peperone verde, tritare: 5 sec./vel. 4. Trasferire le verdure tritate nel vassoio del Varoma e sistemarvi sopra il pollo precedentemente scottato. Chiudere con il coperchio e tenere da parte.",
+  "Mettere nel boccale il caramello, l'aceto di riso, la salsa di soia, la salsa di ostriche, la salsa di pesce e il pepe. Posizionare il Varoma e cuocere 10 min./Varoma/vel. 2. Togliere con attenzione il Varoma.",
+  "Trasferire il pollo e le verdure in un piatto da portata, guarnire con la salsa ottenuta e servire caldo."
+ ],
+ "note": [
+  "E possibile accompagnare con riso bianco al vapore.",
+  "Per scottare il pollo e necessaria una padella antiaderente molto grande. Qualora si",
+  "avesse a disposizione una padella piccola, dividere il pollo e cuocere in due riprese",
+  "utlizzando 2 cucchiai di olio per ogni cottura.",
+  "In alternativa: 1 cucchiaio di miele"
+ ],
+ "passi": [
+  {
+   "tipo": "testo",
+   "testo": "In una ciotola mescolate bene il pollo con l'amido di mais e le spezie cinesi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Tenete da parte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "In una padella antiaderente o in una wok (vedere consigli) scaldate 4 cucchiai di olio di semi di girasole e scottate il pollo."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate nel boccale 150 g di cipollotti, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di peperone rosso, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete 100 g di peperone verde."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 4,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite le verdure tritate nel vassoio del Varoma e sistemarvi sopra il pollo precedentemente scottato."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Chiudere con il coperchio e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Pesate nel boccale 50 g di caramello liquido."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di aceto di riso."
+  },
+  {
+   "tipo": "pesata",
+   "g": 25,
+   "testo": "Aggiungete 25 g di salsa di ostriche."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di salsa di pesce."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di salsa di soia."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di pepe macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 600,
+   "velocita": 2,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il pollo e le verdure in un piatto da portata, guarnire con la salsa ottenuta e servite caldo."
+  }
+ ],
+ "origine": "cookidoo:r237422",
+ "importata": "2026-11-12"
+}

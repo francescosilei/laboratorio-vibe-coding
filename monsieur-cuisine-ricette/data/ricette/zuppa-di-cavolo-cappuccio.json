@@ -1,0 +1,168 @@
+{
+ "id": "zuppa-di-cavolo-cappuccio",
+ "titolo": "Zuppa di cavolo cappuccio",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 15,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "zuppa-di-cavolo-cappuccio.jpg",
+ "ingredienti": [
+  {
+   "testo": "2 spicchi di aglio, senzanima",
+   "nome": "aglio"
+  },
+  {
+   "testo": "80 g di cipolla bianca, a metà",
+   "nome": "cipolla bianca"
+  },
+  {
+   "testo": "1 cucchiaino di semi di finocchio",
+   "nome": "finocchio"
+  },
+  {
+   "testo": "40 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "600 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 cucchiaino colmo di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "400 g di cavolo cappuccio, bianco, a listarelle",
+   "nome": "cavolo cappuccio"
+  },
+  {
+   "testo": "200 g di patata, a pezzi (1-2 cm)",
+   "nome": "patata"
+  },
+  {
+   "testo": "200 g di fagioli bianchi, in scatola, sciacquati e sgocciolati",
+   "nome": "fagioli bianchi"
+  },
+  {
+   "testo": "1 pizzico di pepe nero in polvere",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'aglio, la cipolla e i semi di finocchio, tritare: 5 sec./vel. 7. Riunire sul fondo con la spatola.",
+  "Unire l'olio extravergine di oliva e insaporire: 5 min./120°C/vel. 1 con il cestello al posto del misurino.",
+  "Aggiungere Il'acqua e il sale, posizionare il recipiente del Varoma e sistemare al suo interno il cavolo cappuccio, posizionare il vassoio e sopra le patate, chiudere con il coperchio e cuocere a Vapore: 15 min./Varoma/vel. 1. Togliere con attenzione il coperchio del Varoma, capovolgerlo e posarvi sopra il recipiente.",
+  "Mettere nel boccale il cavolo e le patate cotte al vapore, cuocere con il cestello al posto delmisurino: 5 min./100°C//vel.1.",
+  "Unire i fagioli e cuocere con il cestello al posto del misurino: 5 min./100°C//vel.1. Trasferire in una zuppiera.",
+  "Servire calda spoverizzando con del pepe nero e irrorando un filo di olio extravergine di oliva."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di cipolla bianca, a metà."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 2 spicchi di aglio, senzanima, 1 cucchiaino di semi di finocchio."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tritate.",
+   "tempo_s": 5,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Riunite sul fondo con la spatola."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate 40 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false,
+   "nota": "Con il cestello al posto del misurino."
+  },
+  {
+   "tipo": "pesata",
+   "g": 600,
+   "testo": "Pesate 600 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 400,
+   "testo": "Aggiungete 400 g di cavolo cappuccio, bianco, a listarelle."
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Aggiungete 200 g di patata, a pezzi (1-2 cm)."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino colmo di sale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento.",
+   "programma": "Cottura al vapore"
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il coperchio del Varoma, capovolgerlo e posarvi sopra il recipiente."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "pesata",
+   "g": 200,
+   "testo": "Pesate 200 g di fagioli bianchi, in scatola, sciacquati e sgocciolati."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una zuppiera."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite calda spoverizzando con del pepe nero e irrorando un filo di olio extravergine di oliva."
+  }
+ ],
+ "origine": "cookidoo:r103551",
+ "importata": "2026-11-12"
+}

@@ -1,0 +1,175 @@
+{
+ "id": "penne-integrali-con-fonduta-di-porri",
+ "titolo": "Penne integrali con fonduta di porri",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 50,
+ "porzioni": 4,
+ "difficolta": "Presente anche in",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "penne-integrali-con-fonduta-di-porri.jpg",
+ "ingredienti": [
+  {
+   "testo": "40 g di Parmigiano Reggiano, a pezzi",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "250 g di porri, solo la parte bianca, a rondelle",
+   "nome": "porri"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  },
+  {
+   "testo": "60 g di latte",
+   "nome": "latte"
+  },
+  {
+   "testo": "650 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "½ cucchiaio di sale grosso",
+   "nome": "sale grosso"
+  },
+  {
+   "testo": "320 g di pasta secca tipo penne, integrali",
+   "nome": "pasta secca"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano reggiano e grattugiare: 10 sec./vel. 10. Trasferire in una ciotola e mettere da parte.",
+  "Mettere nel boccale pulito e asciutto l'olio extravergine di oliva e i porri, cuocere: 15 min./100°C/vel. 1.",
+  "Aggiungere 1 cucchiaino di sale, il pepe e il latte, amalgamare: 1 min./100°C/vel. 2, poi frullare: 20 sec./vel.7.",
+  "Unire l'acqua e il sale grosso, portare ad ebollizione: 10 min./100°C/vel. 1, poi frullare: 1 min./vel. 8.",
+  "Unire la pasta e cuocere: il tempo indicato sulla confezione 100°C//vel. o finché al dente.",
+  "Trasferire in una pirofila, spolverizzare con il Parmigiano reggiano grattugiato ed amalgamare.",
+  "Servire."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Pesate nel boccale 40 g di Parmigiano Reggiano, a pezzi."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 10,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e mettete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "pesata",
+   "g": 250,
+   "testo": "Aggiungete 250 g di porri, solo la parte bianca, a rondelle."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 900,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 60,
+   "testo": "Pesate 60 g di latte."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 cucchiaino di sale, 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Amalgamate.",
+   "tempo_s": 60,
+   "velocita": 2,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 20,
+   "velocita": 7,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 650,
+   "testo": "Pesate 650 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete ½ cucchiaio di sale grosso."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Portate.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "robot",
+   "testo": "Frullate.",
+   "tempo_s": 60,
+   "velocita": 8,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di pasta secca tipo penne, integrali."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": null,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa. Il tempo dipende dalla confezione: controllatelo e impostatelo voi."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una pirofila, spolverizzate con il Parmigiano reggiano grattugiato ed amalgamate."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite."
+  }
+ ],
+ "origine": "cookidoo:r554999",
+ "importata": "2026-11-12"
+}

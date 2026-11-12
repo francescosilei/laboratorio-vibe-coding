@@ -1,0 +1,167 @@
+{
+ "id": "risotto-bianco-con-porri-e-mela",
+ "titolo": "Risotto bianco con porri e mela",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [
+  "categoria"
+ ],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 30,
+ "porzioni": 4,
+ "difficolta": "Presente anche in",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "risotto-bianco-con-porri-e-mela.jpg",
+ "ingredienti": [
+  {
+   "testo": "80 g di Parmigiano Reggiano, a pezzi (2-3 cm)",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "300 g di porro, a rondelle sottili",
+   "nome": "porro"
+  },
+  {
+   "testo": "320 g di riso Carnaroli (cottura 17 minuti)",
+   "nome": "riso carnaroli"
+  },
+  {
+   "testo": "100 g di vino bianco",
+   "nome": "vino bianco"
+  },
+  {
+   "testo": "150 g di mela acidula, senza buccia ed a pezzi (1 cm)",
+   "nome": "mela acidula"
+  },
+  {
+   "testo": "850 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "1 dado per brodo vegetale",
+   "nome": "dado"
+  },
+  {
+   "testo": "1 cucchiaio di sciroppo di tamarindo",
+   "nome": "sciroppo tamarindo"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale il Parmigiano Reggiano e grattugiare: 5 sec./vel. 10. Trasferire in una ciotola e tenere da parte.",
+  "Mettere nel boccale il porro, 30 g di burro e insaporire: 5 min./120°C/vel. 1.",
+  "Unire il riso e tostare senza misurino: 3 min./120°C//vel. 1.",
+  "Aggiungere il vino e sfumare: 1 min./100°C//vel. 1 senza misurino",
+  "Unire la mela, l'acqua e il dado vegetale, mescolare a fondo con la spatola per smuovere il riso e cuocere: 13 min./100°C//vel. 1. Far riposare il risotto allinterno del boccale per 1 minuto.",
+  "Trasferire il risotto in una risottiera, mantecare con il Parmigiano Reggiano grattugiato e il rimanente burro.",
+  "Servire subito in piatti singoli e irrorare con un filo di sciroppo di tamarindo."
+ ],
+ "note": [
+  "II tamarindo e il frutto di una pianta tropicale che puo raggiungere grandi dimensioni. Il",
+  "frutto consiste in un baccello di tonalita nocciola che con tiene semi di colore marrone.",
+  "Per preparare lo sciroppo, i semi vengono cotti, filtrati e addizionati a zucchero e acqua.",
+  "Se sulla confezione del riso utilizzato viene indicato un tempo di cottura minino ed uno",
+  "massimo, impostare su Bimby una media tra idue tempi di cottura.",
+  "Servire il risotto subito per evitare che si scuocia.",
+  "A piacere sostituire lo sciroppo di tamarindo con glassa di aceto balsamico.",
+  "Trento DoC",
+  "In alternativa: 50 g di burro freddo a pezzi"
+ ],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 80,
+   "testo": "Pesate nel boccale 80 g di Parmigiano Reggiano, a pezzi (2-3 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Grattugiate.",
+   "tempo_s": 5,
+   "velocita": 10,
+   "temp_c": 0,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite in una ciotola e tenete da parte."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Pesate nel boccale 300 g di porro, a rondelle sottili."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "pesata",
+   "g": 320,
+   "testo": "Pesate 320 g di riso Carnaroli (cottura 17 minuti)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Tostate.",
+   "tempo_s": 180,
+   "velocita": 1,
+   "temp_c": 120,
+   "sinistrorsa": true,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Pesate 100 g di vino bianco."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Sfumate.",
+   "tempo_s": 60,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Senza misurino: lasciate aperto il foro del coperchio, come nella ricetta."
+  },
+  {
+   "tipo": "pesata",
+   "g": 150,
+   "testo": "Pesate 150 g di mela acidula, senza buccia ed a pezzi (1 cm)."
+  },
+  {
+   "tipo": "pesata",
+   "g": 850,
+   "testo": "Aggiungete 850 g di acqua."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete 1 dado per brodo vegetale."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 780,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true
+  },
+  {
+   "tipo": "testo",
+   "testo": "Far riposare il risotto allinterno del boccale per 1 minuto.",
+   "attesa_s": 60
+  },
+  {
+   "tipo": "testo",
+   "testo": "Trasferite il risotto in una risottiera, mantecate con il Parmigiano Reggiano grattugiato e il rimanente burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito in piatti singoli e irrorate con un filo di sciroppo di tamarindo."
+  }
+ ],
+ "origine": "cookidoo:r105728",
+ "importata": "2026-11-12"
+}
