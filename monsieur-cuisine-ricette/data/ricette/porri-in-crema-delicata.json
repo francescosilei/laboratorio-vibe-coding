@@ -1,0 +1,146 @@
+{
+ "id": "porri-in-crema-delicata",
+ "titolo": "Porri in crema delicata",
+ "categoria": "Primi",
+ "paese": "Italia",
+ "dedotto": [],
+ "tempo_prep_min": 10,
+ "tempo_cottura_min": null,
+ "tempo_min": 35,
+ "porzioni": 4,
+ "difficolta": "facile",
+ "fonte": "Cookidoo (Vorwerk)",
+ "immagine": "porri-in-crema-delicata.jpg",
+ "ingredienti": [
+  {
+   "testo": "500 g acqua",
+   "nome": "acqua"
+  },
+  {
+   "testo": "300 g di porri, solo la parte bianca, a rondelle (1.5 cm)",
+   "nome": "porri"
+  },
+  {
+   "testo": "30 g olio extravergine di oliva",
+   "nome": "olio extravergine oliva"
+  },
+  {
+   "testo": "100 g di Gorgonzola, a pezzi",
+   "nome": "gorgonzola"
+  },
+  {
+   "testo": "50 g Parmigiano reggiano grattugiato",
+   "nome": "parmigiano reggiano"
+  },
+  {
+   "testo": "40 g di panna fresca liquida",
+   "nome": "panna"
+  },
+  {
+   "testo": "1 cucchiaino di sale",
+   "nome": "sale"
+  },
+  {
+   "testo": "1 pizzico di pepe nero macinato",
+   "nome": "pepe"
+  }
+ ],
+ "procedimento": [
+  "Mettere nel boccale l'acqua, chiudere con il coperchio e posizionare il recipiente del Varoma. Sistemare al suo interno i porri, chiudere con il coperchio e cuocere: 10 min./Varoma/vel. 1. Togliere con attenzione il Varoma e tenere da parte. Svuotare e asciugare il boccale.",
+  "Mettere nel boccale l'olio extravergine di oliva, aggiungere i porri cotti e insaporire: 5 min./100°C/vel. 1 (cucchiaio). Togliere con attenzione i porri, aiutandosi con una pinza da cucina, e tenere da parte, lasciando nel boccale il fondo di cottura.",
+  "Aggiungere nel boccale il Gorgonzola, il Parmigiano reggiano grattugiato e la panna, cuocere: 5 min./80°C/vel. 1.",
+  "Unire i porri insaporiti, il sale e il pepe, cuocere: 5 min./80°C/vel. 1 (cucchiaio).",
+  "Servire subito."
+ ],
+ "note": [],
+ "passi": [
+  {
+   "tipo": "pesata",
+   "g": 500,
+   "testo": "Pesate nel boccale 500 g di acqua."
+  },
+  {
+   "tipo": "pesata",
+   "g": 300,
+   "testo": "Mettete nel Varoma 300 g di porri, solo la parte bianca, a rondelle (1.5 cm)."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Chiudete con il coperchio e cuocete.",
+   "tempo_s": 600,
+   "velocita": 1,
+   "temp_c": 0,
+   "sinistrorsa": false,
+   "programma": "Cottura al vapore",
+   "avvertenza": "Varoma del Bimby: sul Connect si usa il programma Cottura al vapore con la vaporiera. Temperatura e velocità le gestisce il programma: controllate i valori sul display e considerate il preriscaldamento."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione il Varoma e tenete da parte. Svuotate e asciugate il boccale."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Pesate nel boccale 30 g di olio extravergine di oliva."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Aggiungete i porri cotti."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Insaporite.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 100,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Togliete con attenzione i porri, aiutandovi con una pinza da cucina, e teneteli da parte, lasciando nel boccale il fondo di cottura."
+  },
+  {
+   "tipo": "pesata",
+   "g": 100,
+   "testo": "Aggiungete nel boccale 100 g di Gorgonzola, a pezzi."
+  },
+  {
+   "tipo": "pesata",
+   "g": 50,
+   "testo": "Aggiungete 50 g di Parmigiano reggiano grattugiato."
+  },
+  {
+   "tipo": "pesata",
+   "g": 40,
+   "testo": "Aggiungete 40 g di panna fresca liquida."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 80,
+   "sinistrorsa": false
+  },
+  {
+   "tipo": "testo",
+   "testo": "Unite i porri insaporiti, 1 cucchiaino di sale e 1 pizzico di pepe nero macinato."
+  },
+  {
+   "tipo": "robot",
+   "testo": "Cuocete.",
+   "tempo_s": 300,
+   "velocita": 1,
+   "temp_c": 80,
+   "sinistrorsa": true,
+   "nota": "Velocità cucchiaio/Soft del Bimby: velocità 1 con rotazione sinistrorsa."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Servite subito."
+  }
+ ],
+ "origine": "cookidoo:r566965",
+ "importata": "2026-11-12"
+}
