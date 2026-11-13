@@ -65,6 +65,10 @@
   {
    "testo": "semi di sesamo, per servire",
    "nome": "sesamo"
+  },
+  {
+   "testo": "1 lime in spicchi, per servire",
+   "nome": "lime"
   }
  ],
  "procedimento": [
@@ -76,8 +80,7 @@
   "Servire subito con semi di sesamo e spicchi di lime."
  ],
  "note": [
-  "In alternativa: 1 dado di brodo vegetale, fatto in casa",
-  "In alternativa: 1 lime in spicchi, per servire"
+  "In alternativa: 1 dado di brodo vegetale, fatto in casa"
  ],
  "passi": [
   {
