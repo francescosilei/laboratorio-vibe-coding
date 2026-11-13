@@ -53,6 +53,10 @@
   {
    "testo": "3 - 4 foglie di basilico fresche (opzionale)",
    "nome": "basilico"
+  },
+  {
+   "testo": "1-2 cucchiai di Parmigiano Reggiano grattugiato (opzionale)",
+   "nome": "parmigiano reggiano"
   }
  ],
  "procedimento": [
@@ -63,9 +67,7 @@
   "Unire la pasta e cuocere: il tempo indicato sulla confezione 100°C//vel. . Trasferire in una zuppiera e lasciare riposare per 2 minuti.",
   "Servire decorando a piacere con foglie di basilico e una spolverizzata di Parmigiano reggiano grattugiato."
  ],
- "note": [
-  "In alternativa: 1 -2 cucchiai di Parmigiano Reggiano grattugiato  (opzionale)"
- ],
+ "note": [],
  "passi": [
   {
    "tipo": "testo",

@@ -504,8 +504,13 @@ def bozza(path, origine=None):
             cat, dedotto = c, ["categoria"]; break
     if cat == "NA": dubbi.append("categoria non deducibile: NA")
     note = [pulisci(incolla(r.strip().lstrip("•:- "), voc)) for r in sez.get("CONSIGLI", []) if r.strip()]
-    for _, alt in ingr:
-        for a in alt: note.append("In alternativa: " + a)
+    prep_txt = " ".join(sez.get("PREPARAZIONE", [])).lower()
+    for d, alt in ingr:
+        for a in alt:
+            note.append("In alternativa: " + a)
+            na = (nome_di(a) or "").split()
+            if na and len(na[0]) > 3 and na[0] not in (d.get("nome") or "") and re.search(r"\b" + re.escape(na[0][:-1]), prep_txt):
+                dubbi.append(f"«{a}» letta come alternativa ma citata nella preparazione: probabile ingrediente vero")
     if note: pass
     pae = meta.get("paese", "NA")
     if len(pae) < 4: pae = "NA"

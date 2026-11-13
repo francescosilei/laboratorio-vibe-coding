@@ -23,6 +23,10 @@
    "nome": "porro"
   },
   {
+   "testo": "50 g di burro freddo, a pezzi",
+   "nome": "burro"
+  },
+  {
    "testo": "320 g di riso Carnaroli (cottura 17 minuti)",
    "nome": "riso carnaroli"
   },
@@ -64,8 +68,7 @@
   "massimo, impostare su Bimby una media tra idue tempi di cottura.",
   "Servire il risotto subito per evitare che si scuocia.",
   "A piacere sostituire lo sciroppo di tamarindo con glassa di aceto balsamico.",
-  "Trento DoC",
-  "In alternativa: 50 g di burro freddo a pezzi"
+  "Trento DoC"
  ],
  "passi": [
   {
@@ -89,6 +92,11 @@
    "tipo": "pesata",
    "g": 300,
    "testo": "Pesate nel boccale 300 g di porro, a rondelle sottili."
+  },
+  {
+   "tipo": "pesata",
+   "g": 30,
+   "testo": "Aggiungete 30 g di burro freddo, a pezzi."
   },
   {
    "tipo": "robot",
@@ -150,12 +158,17 @@
   },
   {
    "tipo": "testo",
-   "testo": "Far riposare il risotto allinterno del boccale per 1 minuto.",
+   "testo": "Fate riposare il risotto all'interno del boccale per 1 minuto.",
    "attesa_s": 60
   },
   {
+   "tipo": "pesata",
+   "g": 20,
+   "testo": "Trasferite il risotto in una risottiera e aggiungete i rimanenti 20 g di burro."
+  },
+  {
    "tipo": "testo",
-   "testo": "Trasferite il risotto in una risottiera, mantecate con il Parmigiano Reggiano grattugiato e il rimanente burro."
+   "testo": "Mantecate con il Parmigiano Reggiano grattugiato e il burro appena aggiunto."
   },
   {
    "tipo": "testo",
