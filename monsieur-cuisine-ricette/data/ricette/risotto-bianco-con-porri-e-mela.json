@@ -163,8 +163,12 @@
   },
   {
    "tipo": "pesata",
-   "testo": "Trasferite il risotto in una risottiera, mantecate con il Parmigiano Reggiano grattugiato e i rimanenti 20 g di burro.",
-   "g": 20
+   "g": 20,
+   "testo": "Trasferite il risotto in una risottiera e aggiungete i rimanenti 20 g di burro."
+  },
+  {
+   "tipo": "testo",
+   "testo": "Mantecate con il Parmigiano Reggiano grattugiato e il burro appena aggiunto."
   },
   {
    "tipo": "testo",
